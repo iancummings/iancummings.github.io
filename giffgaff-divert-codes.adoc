@@ -1,0 +1,29 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: images
+
+|===
+| Remaining credit | *100# |
+|Voicemail | 443 | incl. in goodybag or 8p/call
+|Display IMEI | +++*#06#+++ | 
+| text delivery receipt | prefix msg with *0# |
+| Hide number calling | +++#31#+++(then number you are calling) |
+| | | 
+| CALL DIVERT|	ALL CALLS ALL TIMES|	+++**21*+++ PHONE NUMBER WHERE CALLS ARE TO BE FORWARDED #
+|CALL DIVERT|	ALL CALLS ALL TIMES CANCEL|	DIAL +++#21#+++
+|CALL DIVERT|	ALL CALLS ALL TIMES STATUS|	+++*#21#+++
+|CALL DIVERT|	ALL DIVERTS CANCELLED|	+++##002#+++
+|CALL DIVERT|	ALL DIVERTS REACTIVATE|	+++*002#+++ +++<br>+++(IF PREVIOUS CLEARING/CANCELLING USING +++##+++)+++<br>+++ +++*002*NUMBER#+++ (IF NO NUMBER CACHED)
+|CALL DIVERT|	NO REPLY|	+++** 61*+++ PHONE NUMBER WHERE CALLS ARE TO BE FORWARDED+++#+++
+|CALL DIVERT|	NO REPLY CANCEL|	+++#61#+++
+|CALL DIVERT|	NO REPLY STATUS|	+++*#61#+++
+|CALL DIVERT|	NOT REACHABLE|	+++**62*+++ +++PHONE NUMBER WHERE CALLS ARE TO BE FORWARDED#+++
+|CALL DIVERT|	NOT REACHABLE CANCEL|	+++#62#+++
+|CALL DIVERT|	NOT REACHABLE STATUS|	+++*#62#+++
+|CALL DIVERT|	WHEN BUSY|	+++**67*+++ +++PHONE NUMBER WHERE CALLS ARE TO BE FORWARDED#+++
+|CALL DIVERT|	WHEN BUSY CANCEL|	+++#67#+++
+|CALL DIVERT|	WHEN BUSY STATUS|	+++*#67#+++
+|===

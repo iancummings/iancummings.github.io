@@ -1,0 +1,71 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Logical Fallacies
+
+== What is a Logical Fallacy?
+A logical fallacy is a flaw in reasoning.
+
+== Quick definitions
+
+https://www.logicallyfallacious.com/logicalfallacies/search
+
+=== Ad Hominem ("Against the man")
+A personal attack: that is, an argument based on the perceived failings of an adversary rather than on the merits of the case.
+
+=== Ad Misericordiam
+An argument that involves an irrelevant or highly exaggerated appeal to pity or sympathy.
+
+=== Slippery slope
+The slippery slope fallacy in which a course of action is objected to on the grounds that once taken it will lead to additional actions until some undesirable consequence results.
+
+=== Bandwagon
+An argument based on the assumption that the opinion of the majority is always valid: everyone believes it, so you should too.
+
+=== Begging the Question
+A fallacy in which the premise of an argument presupposes the truth of its conclusion; in other words, the argument takes for granted what it's supposed to prove. Also known as a circular argument.
+
+=== Dicto Simpliciter
+An argument in which a general rule is treated as universally true regardless of the circumstances: a sweeping generalization.
+
+=== False Dilemma
+A fallacy of oversimplification: an argument in which only two alternatives are provided when in fact additional options are available. Sometimes called the either-or fallacy.
+
+=== False Equivalence
+An argument or claim in which two completely opposing arguments appear to be logically equivalent when in fact they are not. The confusion is often due to one shared characteristic between two or more items of comparison in the argument that is way off in the order of magnitude, oversimplified, or just that important additional factors have been ignored. +
+**Exception**: Like most fallacies, this is one of degree rather than kind. The order of magnitude can be debated. Some may exaggerate this order of magnitude claiming a fallacy where it would be unreasonable to do so.
+
+=== Name Calling
+A fallacy that relies on emotionally loaded terms to influence an audience.
+
+=== Non Sequitur
+An argument in which a conclusion doesn't follow logically from what preceded it.
+
+=== Post Hoc
+A fallacy in which one event is said to be the cause of a later event simply because it occurred earlier.
+
+=== Red Herring
+An observation that draws attention away from the central issue in an argument or discussion.
+
+=== Stacking the Deck
+A fallacy in which any evidence that supports an opposing argument is simply rejected, omitted, or ignored.
+
+=== Straw Man
+A fallacy in which an opponent's argument is overstated or misrepresented in order to be more easily attacked or refuted.
+
+== Longer discussions
+
+=== The Straw Man Fallacy
+
+This fallacy occurs when your opponent over-simplifies or misrepresents your argument (i.e., setting up a "straw man") to make it easier to attack or refute. Instead of fully addressing your actual argument, speakers relying on this fallacy present a superficially similar -- but ultimately not equal -- version of your real stance, helping them create the illusion of easily defeating you.
+
+=== The Bandwagon Fallacy
+Just because a significant population of people believe a proposition is true, doesn't automatically make it true. Popularity alone is not enough to validate an argument, though it's often used as a standalone justification of validity. Arguments in this style don't take into account whether or not the population validating the argument is actually qualified to do so, or if contrary evidence exists.
+
+While most of us expect to see bandwagon arguments in advertising (e.g., "three out of four people think X brand toothpaste cleans teeth best"), this fallacy can easily sneak it's way into everyday meetings and conversations.
