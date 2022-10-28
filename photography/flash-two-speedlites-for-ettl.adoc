@@ -1,0 +1,19 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Two flashlights with E-TTL in daylight
+Brian Worley
+
+
+
+== Article
+http://www.p4pictures.com/2016/05/why-i-use-two-speedlites-with-e-ttl-in-bright-light
+
+== Summary
+E-TTL is really clever, it’s designed to locate the part of the frame that is lit with flash and concentrate on getting the exposure for those parts correct. It does this by using a pre-flash that is 1/32 power. The problem in bright light is that the pre-flash might not be bright enough to see where the flash subject is and how much more or less light needs to be used to light the subject. +
+
+With off-camera flash, each flash is assigned to a group, up to five of them with radio, and just three with optical wireless. Adding another Speedlite in the group is largely invisible to the camera that’s doing the clever flash exposure metering. So if there’s two flashes in the same group, then you get two flashes firing a pre-flash at the same time doubling up the effective power on the subject from 1/32nd to 1/16th. The camera sees this much more clearly and is better able to gauge the correct exposure required for the picture.
+
+
+* link:index.html[Main menu]

@@ -1,0 +1,17 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Panning
+
+== Summary
+From a link:http://www.p4pictures.com/2017/08/panning-moving-subjects/?utm_content=buffer94c2e&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer[post] by Brian Worley.
+
+== Generally
+Panning with a big lens takes time and practice, a monopod is helpful. +
+It helps to pick up the subject before it is directly in front of you. This allows the AF to lock on, and the Image Stabiliser in your lens to work out how much you are moving the lens.Make sure to set the lens to IS Mode 2 for panning.
+
+== Select the right shutter speed for panning
+This is the first decision you need to make. I would advice shutter priority (Tv) or manual exposure for panned pictures. I also suggest using AI Servo focus and continuous high speed drive. You don’t need loads of shots in the sequence, three or four is sufficient, so time the release of the shutter appropriately.
+
+My own rule of thumb is to estimate  the speed of the subject in miles per hour, and use that as the initial shutter speed. So for 100mph subject then try 1/100s. Then take some shots and review your results – zoom in to 100% or check on a laptop or tablet. Then based on your initial results, change the shutter speed to give the panned effect you want. Runners on a track will need a much slower shutter speed than cyclists to give suitable background blur.

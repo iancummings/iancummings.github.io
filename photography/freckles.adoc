@@ -1,0 +1,22 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Freckles in Post and Black & White
+:Author: Ian Cummings
+:Email:
+:Date: June 2017
+:Revision: V0.1
+
+== Workflow
+
+* convert image to black and white
+* adjust red & orange sliders for white skin, blue for dark skinned people
+* that's it!
+
+Generally can add a bit more pop by adjusting (Lightroom values)
+
+* contrast +36
+* highlights -61
+* whites +17
+* clarity +45

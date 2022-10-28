@@ -1,0 +1,66 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+= X100V
+:Author: Ian Cummings
+:Email:  
+:Date: August 2022
+:Revision: V0.1
+
+== Accessories
+=== Grip
+* JJC Solid Metal Hand Grip Secure Handle Bracket for Fuji Fujifilm X100V X100F X100 V X100 F Camera,
+* Anti-Slip Pads Design, Arca Swiss Quick Release Plate, Extra 1/4"-20 Tripod Hole & Hand Strap Hole https://a.co/d/2AaaqZN
+
+== Settings
+
+1. Turn off shutter sound +
+Menu, setup, sound, shutter volume
+1. Lossless compressed +
+Menu, IQ, raw recording
+1. Pre-AF +
+Turn off; Menu, AF/MF, Pre-AF
+1. AF + MF +
+Turn on; Menu, AF/MF, AF+MF
+1. Touch screen +
+Menu, setup(spanner), Button/Dial, Touch Screen Setting
+1. Customise EVF display (and OVF too) +
+Menu, setup, Screen, Page3, Display Custom Settings
+1. Change shutter speed dial to rear thumbwheel +
+Change to 'T' mode
+1. Lock the joystick +
+Menu, setup, Dial/Dial setting, Focus Lever Setting
+1. Auto ISO Settings +
+Menu, Shooting (camera icon), ISO Auto Settings
+1. Back Button Focus +
+Menu, Setup, Button/Dial, FN setting, AEL AFL, "AF-On"
+1. "Boost" Mode +
+Menu, setup, Power Management, Performance
+
+
+f4-5.6-8 auto iso AP
+auto1 min 1/80, 160-3200 - daytime
+
+
+centre weighted exposure
+
+fine & raw?
+
+function buttons:
+back button focus
+ND filter
+
+fujixweekly.com:
+setting recipes/looks
+
+== Light
+Look for +
+
+* Sidelight
+* Backlight
+
+== Composition
+All about balance. +
+
+Does the image feel like it's falling to one side? +
+If there's a very bright/colourful section, there should probably be a dull section to balance it.

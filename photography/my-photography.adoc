@@ -1,0 +1,22 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= My Photography
+:Author: Ian Cummings
+:Email:
+:Date: Jan 2018
+:Revision: V0.1
+
+== My favourite techniques
+
+== Handy practical photographic tips
+=== Sorting & rating
+
+== My favourite genres and why they are my favourites
+
+
+
+Each presentation should be about 20 minutes duration enabling four presentations for the evening but 
+
+40 minutes could be a possibility with less presentations in the evening.

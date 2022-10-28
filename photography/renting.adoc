@@ -1,0 +1,17 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Equipment Rental
+:Author: Ian Cummings
+:Date: August 2017
+:Revision: V1.0
+
+
+* link:http://www.directphotographic.co.uk[Direct photographic]
+* link:http://hireacamera.com[HireACamera]
+* link:http://lenspimp.com[Lens Pimp]
+* link:http://www.fixationuk.com/rental[Fixation]
+* link:http://www.lensesforhire.co.uk[Lenses for Hire]
+* link:http://www.procentre.co.uk[Pro Centre]
+* link:http://www.fatlama.com[Fat Lama (peer to peer)]

@@ -1,0 +1,132 @@
+:toc: left
+:toclevels: 6
+:toc-title: Contents
+
+= Newbury Photography Club
+
+* link:https://www.newburyphotographyclub.uk/[Website]
+* link:NPC-programme.pdf[Programme]
+* link:https://www.newburyphotographyclub.uk/calendar[What's on]
+
+== Competitions 2021-22
+
+=== Internal
+
+==== Internal Print League
+
+* 5 rounds run across the year.
+* Print competition accepts prints of a general subject nature and members may enter up to 3 prints per round.
+* The winner will be the member who gains the highest accumulated score from their ten highest scoring prints (giving a maximum of 100 points).
+
+==== Internal PDI League
+* 5 rounds run across the year
+* members can enter up to 2 PDIs in each round- all scores count.
+* have a specified theme for each of the five rounds (one of which is __Open__)
+* The Judge for the evening will be given the responsibility for determining the Author's interpretation of the stated theme.
+* Themes for 2021-2022 +
+** Open
+** Macro (only 1 entry)
+** Architecture
+** Water
+** People
+
+==== Internal Speciality Competitions
+
+* *Best Panel of 3 Black & White [underline]##Prints##* +
+This is for the best set of three related black and white printed images shown as a panel.
+If mounted individually they are to be marked on the REVERSE side with the position in which they are to be viewed (i.e. left, middle, right) and the preferred maximum size for each mount is 500mm x 400mm. Alternatively all 3 prints may be placed onto a single mount board, which may then be up to a maximum of 600mm x 500mm including the mount. Entries will be restricted to 1 per person.
+
+* *Best Colour [underline]#Print# - Travel Competition* +
+Images that express a feeling of a time and place, portraying a land, its people, or a culture, in its natural state. Entries will be restricted to one per person unless otherwise stated.
+1 entry per person
+
+* *Best Colour [underline]#Print# - Flora* +
+The best colour print of a CLOSE-UP detailed study showing the colour, form and texture of a single or group of flowers, leaves, or plants (including fungi) with minimal editing but allowing for adjustments to levels, curves and cropping. Entries will be restricted to 1 per person.
+
+* *Best Black & White [underline]#Print# Competition*
+A black and white print of any subject. Entries will be restricted to one per person unless otherwise stated.
+
+* *Best Colour [underline]#PDI# - Macro Competition* +
+Macrophotography is extreme close-up work often of very small subjects in which the size of the subject on the negative or image sensor and then on the photograph is equal to or greater than life size. There are a number of techniques to achieve this and the image does not necessarily have to be taken with a dedicated macro lens. Entries will be restricted to 1 per person.
+
+
+
+* *Most Improved Photographer of the Year*
+
+
+==== Competition Evenings
+
+* 7th Oct - PDI - Open
+
+* 21st October: +
+** A single Black and White print.
+** A Panel of 3 related Black and White prints. These can either be mounted individually, in which case, they must be marked on the reverse with Left, Centre
+and Right to indicate the position they should be viewed. Alternatively, the three prints can be mounted on a single board up to 600 x 500mm in size.
+** The best colour print of a CLOSE-UP detailed study showing the colour, form and texture of a single or group of flowers, leaves, or plants (including fungi). +
+
+NOTE: Please fill in your Print Labels and position in the bottom right-hand corner of the
+reverse of your prints with no markings on the front
+
+* 11 Nov Prints, Round 1
+Judge: John Randall
+
+* Nov 25th - PDI - Architecture
+
+* 20 Jan Prints, Round 2
+* 3rd Feb - PDI - Water
+
+* 17 Mar Prints, Round 3
+
+* 7 Apr Travel (print) & Macro (PDI)
+
+* 5 May Prints, Round 4
+
+* 7th July Mobile phone Image Competition
+ 
+==== Rules
+​
+Image files will be transferred to the Competition Secretary either via email or a file transfer and storage system.
+
+
+1 GENERAL
+
+Internal club competitions are open to all paid-up members of the club, including honorary life members should they wish to participate. During a season, members may enter as many competitions as they wish, with the constraint that a member cannot enter both the Group 1 and Group 2 leagues in a single season. A member's initial entry into either Group 1 or 2 will determine their Group entry for that season. Unless otherwise stated in the rules for a specific competition, images may be in colour or black and white. Certificates will be awarded to the winner of each competition and to the runner-up for each league competition.
+
+​
+
+**Authorship**: The content of a print or digital image should be entirely the work and copyright of the author.  Where parties other than the photographer have made a significant creative or technical contribution to the image, we encourage the photographer to consider whether their own contribution is sufficient enough to claim the image as their own work.  These decisions are taken on trust by the club and are not ‘policed’.
+
+Entries can be recorded either by means of a camera or by the action of light on a photosensitive medium. They may be processed by either photographic or digital means and can be home or trade printed.
+
+​
+
+**Judges**: The committee shall appoint an external judge to assess and mark competitions and the judge's decision will be final.
+
+​
+
+**Prints**: Images can be presented in any size, unless otherwise stated in the rules for a specific competition. It is preferable that prints are mounted to allow them to be handled more easily. However, it should be noted that external competitions have now standardized on a 400mm x 500mm mounted size. This is also the size that will fit the Club's pre-formed frames for exhibition purposes. Glazed frames are not acceptable for safety reasons.
+
+​
+
+Identification labels should be used by all entrants - these should be completed and attached to the bottom right hand corner of the reverse of the print – no titles or identification on the front of the print are permitted.
+
+​
+
+Prints are to be handed to the Internal Competition Secretary at least 1 WEEK prior to the evening of the competition along with the title and an exact .jpg copy of the print.  
+
+​
+
+The PDI copy must be presented in JPEG format, using the sRGB colour space. Images shall be sized to a maximum of 1600x1200 pixels, this being the resolution of the Club's projector. N.B. For portrait-oriented images the longest side is restricted to 1200 pixels. Where the chosen image ratio is not 4:3 and hence not exactly matching the above, a border (black is best) should be added by the author to create an overall image of these specified dimensions. The file size must not exceed 2Mb.  The image file must consist of:       Title_ Author’s name
+                                                
+
+**Projected Digital Images (PDIs)**: Images must be provided to the Internal Competition Secretary at least 1 WEEK prior to the evening of the competition. Images must be presented in JPEG format, using the sRGB colour space. Images shall be sized to a maximum of 1600x1200 pixels, this being the resolution of the Club's projector. N.B. For portrait-oriented images the longest side is restricted to 1200 pixels. Where the chosen image ratio is not 4:3 and hence not exactly matching the above, a border (black is best) should be added by the author to create an overall image of these specified dimensions. The file size must not exceed 2 Mb.
+
+The image file must consist of: +
+`MemberNo_ AuthorName_Title Words.jpg` +
+so: +
+`34_IanCummings_<title>.jpg`
+
+
+== Notes from meetings
+
+

@@ -1,0 +1,99 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Different Approaches
+:Author: Ian Cummings
+:Email:
+:Date: Sep 2017
+:Revision: V1.0
+
+:imagesdir: ./images
+
+== Intro
+A summary of different types of setups; a quick reminder to get me going!
+
+==  General 'off-camera' flash
+* use flash triggers
+* set the camera to manual; Tv up to 1/250, F: anything you like! +
+  This sets exposure for the background
+* set flash to E-TTL via flash controller
+* adjust flash compensation +
+  This sets the exposure for the subject.
+
+== Glyn Dewis Invisible Black Backdrop
+See link:https://www.glyndewis.com/the-invisible-black-backdrop-photography-technique/[this article]
+
+=== In Summary
+
+* Manual mode
+* Lowest ISO
+* Maximum sync speed
+* Select an aperture (ie f/5.6 as a starting point)
+* Bring in the flash
+
+image::black-backdrop-settings.jpg[]
+
+=== In more detail
+So, how do we achieve the "Black Backdrop"? +
+Basically what we're looking to do is to tell the camera to capture no light other than what we introduce in the form of a speedlight flash for
+example. We don't want the camera to pick up __any__ of the ambient/natural light at all, and by doing that we have an instant black backdrop.
+
+1.Put your camera into MANUAL MODE +
+Yes, now we are in control: Shutter Speed, Aperture, iso from this point onwards we're telling the camera what to do as opposed to the
+camera telling us and giving us the picture it thinks we want.
+
+2. ISO
+Set your camera to it's lowest possible ISO. In laymen's terms, the iso dictates how sensitive to light your camera's sensor is i.e a low number
+ like 200 means it's less sensitive to light whereas a higher number like 1600 means it's more sensitive to light. On a side note the higher
+the iso number the more noise/grain can be introduced into your photograph, particularly in the shadow areas. Now, seeing as we're
+looking to make a black backdrop we're not concerned with how sensitive to light the camera is, so we'll be keeping our iso as low as possible; in my case, my Nikon D3 can go down to 100 which means the camera isn’t
+very sensitive to light at all and the final picture will be nice and clean with minimal grain/noise.
+
+3. Shutter Speed
+Set your camera to its maximum/optimum sync speed.
+ Basically this is the maximum speed that your camera and flash work together ie any faster than this and your camera's shutter is opening
+and closing too quickly to allow all the light from your flash to fill
+the camera's sensor. Common maximum sync speeds are in the 1/200th of a
+second to 1/250th of a second. Now although we could quite easily make
+the scene completely black by going to an incredibly high shutter speed
+like 1/8000th second the problem with this is that the shutter will open
+ and close so quickly that none of the light from the flash will hit the
+ sensor, so we must stick to the maximum sync speed that our cameras and
+ flashes work __together__.
+
+4. Aperture
+The final setting on our cameras is the aperture or basically what f-number we should select. Now, knowing roughly what 'f number to use
+will become second nature after you've done this a few times so the best
+ thing is to choose say, f/5.6 and go from there. Once you're at this
+stage take a photo of your subject and see what results you get. The
+objective here is to see absolutely nothing on your cameras display ie
+you should see a completely black screen. Now, if you don't and you're
+seeing a bit of the environment then clearly some natural/ambient light
+is creeping into the scene. So, all we have to do is close down our f
+number a little ie if you're getting natural/ambient light into the
+photo at say f/5.6 then try going to f/8.0 and see what that gives you:
+
+5. Bring in the flash
+Now we've set the scene with our camera's and have a completely black screen, the final
+phase to this technique is to 'bring in the flash. Where you prefer to
+position your flash and what modifier you use is entirely down to you
+depending on the look you want to achieve but I find I get great results
+ using a reflective umbrella. This is a great piece of kit that
+creates beautiful light but I can also 'close down' to control where I
+want the light to fall and how much etc. +
+Again experience of having done this a few times will dictate what power
+level you put the flash on so until that time just pick a power level ie
+ 1/4 power, then take a shot and see what you get. If you want more
+light then increase the power of the flash in increments until you get
+what you want. If the light from the flash is too bright then simply
+lower the power level in increments. +
+As a rule, Shutter Speed controls Ambient/Natural light
+and Aperture controls flash power but in this technique once we've set
+both the shutter speed and aperture to give us our black background we
+really need to leave them well alone and control the power of the flash
+manually by walking over to (or better still having an assistant) adjust
+ it by hand.
+
+6. Triggering the flash +
+As this technique uses 'off camera' flash we need to have a way of triggering our flash. I use Pocket Wizards which are the industry standard radio triggers; great pieces if kit, very reliable that work at ridiculous distances, but they do have a price tag to match. However, there are lots of alternative ways to trigger your flash from a simple 'sync lead' which forms a physical connection to your camera and flash (with obvious limitations), an infra red trigger, Nikon users can use their 'Pop-Up' flashes to trigger another flash using the Nikon CLS (Creative Lighting System) and there's even budget radio triggers you can get off ebay that seem to work just fine.

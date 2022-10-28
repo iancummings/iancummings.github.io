@@ -1,0 +1,29 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Bad Weather Photography
+Ian Cummings <ian.cummings@bigfoot>
+V0.1, May-2017
+:Author: Ian Cummings
+:Email: 
+:Date: February 2018
+:Revision: V0.1
+
+
+
+== Ideas
+* the same location in different weathers
+
+== Grey skies
+"You can't change the weather, but you can change your location" +
+Pick locations that match the greyness; abandoned places or areas that exude pathos.
+
+== Rain
+Urban locations, piers in particular, can transform themselves when wet. Do use a cover for your camera, have a microfibre cloth handy, and a lens hood helps keep out the rain.
+
+== Ice & Snow
+
+== Mist & Fog
+
+== Wind

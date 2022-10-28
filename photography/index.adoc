@@ -1,0 +1,96 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:imagesdir: ./images
+
+= Photography
+Ian Cummings 
+V0.1, Oct 2022: A work in progress
+== Site links / Social
+* link:photography.html[Photography hints 'n' tips]
+* https://youpic.com/IanCummings[YouPic]
+* link:instagram.html[Instagram]
+
+== Clubs
+=== Newbury
+* link:npc.html[Newbury]
+* link:https://www.newburyphotographyclub.uk/[Newbury Website]
+* link:NPC-programme.pdf[Newbury Programme]
+* link:https://www.newburyphotographyclub.uk/calendar[What's on]
+
+
+=== Thatcham
+* link:tpc.html[Thatcham]
+* link:https://www.thatchamphotoclub.com/projects-2021.html[Projects] and link:thatcham-projects.html[here]
+* link:https://www.thatchamphotoclub.com[Thatcham Website]
+
+
+== Portraits
+* link:portraiture.html[Portraiture generally]
+* link:portrait-lighting.html[Portrait lighting]
+* link:portrait-faces.html[Portrait faces]
+
+* link:thinktap-portrait-course.html[ThinkTap Portrait Course]
+* link:freckles.html[Freckles]
+
+== Black & White
+* link:eos-training-course.html[EOS B&W course]
+* link:john-hedgecoe-black-n-white.html[John Hedgecoe's complete guide to black and white photography]
+
+== Other genres
+* link:street-photography.html[Street Photography]
+
+* link:aviation-photography.html[Aviation photography]
+
+* link:car-photography.html[Cars]
+* link:panning-moving-subjects.html[Panning]
+* link:food-photography.html[Food]
+* link:light-painting.html[Light painting]
+* link:fireworks.html[Fireworks]
+
+== Flash
+* link:flash-approaches.html[Approaches]
+* link:creative-speedlite.html[Creative speedlite]
+* link:dragging-the-shutter.html[Flash: dragging the shutter]
+* link:flash-two-speedlites-for-ettl.html[Use two speedlites for outdoor E-TTL]
+
+== Equipment
+* link:renting.html[Renting]
+* link:potential-purchases.html[Potential purchases]
+
+== Techniques
+* link:clone-stamp-tool.html[Clone Stamp Tool]
+* link:posing.html[Posing]
+* link:sunny16.html[Sunny 16]
+* link:x100v.html[Fuji X100V]
+
+== Miscellaneous
+* link:locations.html[locations]
+
+=== Composition
+
+* link:https://digital-photography-school.com/10-more-quick-composition-tips-illustrated/[DPS: 10 MORE Quick Composition Tips]
+
+
+== Composition
+
+* rule of thirds
+* leading lines
+* diagonals
+* negative space
+* geometry: lines, patterns (repeated) & shapes
+* frame it
+* avoid the horizon in the middle
+* have a living being in the picture
+* if no living thing, then something to give the image a sense of scale
+* check all four corners!
+* balance weight & light
+
+== Shutter speeds
+* 1/focal length * crop factor
+* street photography 1/250 for people walking
+
+== Processing
+* link:workflow.html[Workflow]
+* link:photolab.html[PhotoLab]
+

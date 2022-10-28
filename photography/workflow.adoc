@@ -1,0 +1,18 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:numbered:
+
+= Workflow
+
+How to sort those images!
+
+1. Load to intray and let synchronisation complete
+1. Use FastRawViewer and move all duffers to the `_rejected` folder
+1. Divide photos into groups, either mentally or using folders depending on what's sensible for the number of images you have
+1. For each group
+.. Rate a group of images, either with FastRawViewer or PhotoLab
+.. Process from 5 star downwards as appropriate
+.. Post/share group so far
+1. Copy processed to Portfolio/Potpourri
+1. Copy to SmugMug

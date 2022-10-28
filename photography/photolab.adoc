@@ -1,0 +1,68 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:numbered:
+
+= Photolab
+
+* link:https://tutodxo.com/en/home/[A user website]
+* link:http://tuto.dxo.free.fr/EN/Efficacite/Efficiency.html[Efficiency]
+
+== Repair / Clone
+
+`repair` tries to find a group of similair pixels around the "object" it thinks you want to delete and replace
+the object with this and blend it together.
+
+== Local Adjustments
+
+link:http://tuto.dxo.free.fr/EN/RegLocaux/Local_Adjustments.html[tutorial]
+
+=== Graduated filter
+* Dark circle is starting point, white dot is ending point
+Adjustment is applied to blue overlaid area
+* Everything from dark circle to edge, the effect is applied 100%
+* Everything from white dot to edge, the effect is not applied at all (0%)
+* Between the dots is the gradient
+
+== Control Points
+* Protect an area: ALT + click - also known as negative control points
+Protecting an area only works with Control Points and Control Lines. You can only protect an area after a mask is created. To protect an area controlled by a mask you must first make sure that the mask is selected. Then hold down the Alt key and using the left mouse button you can draw a negative protective mask. When using protective Control Line masks, make sure the eyedropper iof the negative mask is placed over the area you want protected. You can use any combination of both positive and negative Control point and Control Line masks in one mask layer…
+
+* negative Control points (ALT-click)
+These will stop control points spilling over into areas that you don't want to be affected.
+
+TIP: if you create a control point, and then reduce the chroma/luma sliders on that point to zero,
+ you have a circular gradient filter (to get rid of hard edges around the sun by over exposing the sun? Also adjust colour temp to warm up the sun)
+
+== Control Line
+This is a combination of the graduated filter and the control point.
+The gradualted filter will apply its effect over the whole of the area, when using a control line, we get to choose
+with the dropper tool, which areas will be affected. The dropper samples the image in teh same way as the control point does; 
+a combination of luminance and chrominance.
+To control futher what the dropper is picking up, go to the RHS menu/Local adjustments and use the chroma
+and luma sliders under `mask selectivity`. This enables you to, for example, only select the blue of a sky despite the fact that the 
+clouds may have similar luminance values. +
+TIP: If you get bright edges to clouds etc so that the edges of clouds are disproportionatly affect by the applied effect, 
+try sampling from a slightly different point on your image.
+
+TIP: In some instances, you can add a control line and use a fileter to isolate some of it, but then also add a negative control line the other way (sampling off the area that you don't want to affect) to give better isolation of the area you want to adjust.
+
+
+=== Keyboard shortcuts
+
+|===
+| Show/Hide Mask| M
+| Show/Hide Equaliser | E
+| H |
+2+| When Local Adjustments feature is enabled, the COMPARE button (Ctrl + D / D) toggles between the image +
+with applied Local Adjustments, +
+and the image corrected with global settings only. +
+_(For the record, in the Global environment, the default comparison is made from "no correction".)_
+|Control point | SHIFT+C
+|Enable/disable Mask| SHIFT+H
+|Duplicate mask | shift+D
+| Invert mask | shift+I
+| New mask| shift+N
+| delete mask | DEL
+|===
+

@@ -1,0 +1,16 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Fireworks
+:Author: Ian Cummings
+:Email:
+:Date: October 2019
+:Revision: V0.1
+
+== Settings
+*   ISO 100 - low noise
+*   f16 - adjust this to control brightness
+*   3-5s exposure - tripod/wall
+*   manual focus@infinity
+*   WB: daylight (possibly tungsten) - NOT auto as it will produce inconsistent shots

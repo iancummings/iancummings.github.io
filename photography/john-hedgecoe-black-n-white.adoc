@@ -1,0 +1,133 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+= Black & White
+:Author: Ian Cummings
+:Email:  
+:Date: March 2018
+:Revision: V1.0
+
+== Definitions
+=== Tonal Range
+Literally the number of different luminance values in the image. This is not the same as the contrast, which is the ratio of the brightest to the darkest.
+
+=== High & Low Key
+These are images with reduced tonal range; the former containing mostly values from mid-grey up to peak white. There may be areas with lower luminance value sbut they are minor parts of the image. The latter is obviously the iverse where most of the image contains luminance values ranging from mid-grey to black. +
+The high key images give a light and airy feeling, whereas low key images produce more dramatic results.
+
+=== Texture
+The degree of roughness or smoothness of s surface. The texture of a surface becomes evident when light strikes the surface of your subject at a distinct and, such as early morning or late afternoon. It has the effect of illuminating the high points and casting shadows in the low points. 
+With portraits, moving close in shows the three dimensional texture of the skin, and with a landscape it does the same.
+
+== General Composition Techniques
+=== Leading the eye
+Make the viewers eye look where you want by using line, flow, and perspective to lead his/her gaze.
+The gaze of a person in the image can direct the viewer as well.
+
+== Frames
+Can be soft or hard.
+
+== Unusual viewpoints
+Just try some
+
+== Filters
+They generally lighten the tones corresponding to its own and may darken other tones
+* yellow filter will darken the blue of the sky and so help show the clouds
+* green first will also darken the sky and will reduce the lightness of any red colours
+P38
+
+== Portraits
+Capturing personality:
+Slightly high camera angle causes some foreshortening, to emphasize precision and style?
+In amongst their environment, the later shouldn't be too distracting, the person is the main subject
+Frame the face; a hat will do
+Use props if connected to the subject
+Backgrounds:
+Not too distracting, unless you've decided that the person is a minor part
+Ideally a background can support/reinforce/explain the human subject
+
+== male nudes
+Diffused side-lighting is the order of the day. it accentuates skin texture, and with male subjects
+the skin texture is coarser than female subjects.
+male nudes benefit from higher contrast than you use for females, so lighting can be simpler
+with less fill in and maybe even just one side light required. Using two will still produce good results,
+but result in a softer look.
+Direct the subject to adopt the right pose to show particular muscle groups.
+By using appropriate zoom settings and framing, you can isolate them to create
+interesting semi-abstract images.
+Body oil increases the tonal contrast.
+
+== The Human form
+Depending on how you light & pose, you can achieve results that look clinical
+or maybe concentrate more on form, texture, shape and pattern. Alternatively
+use more expressive or expressive  compositions that include the setting too.
+Unless you have a studio, the only source of light will be window light and so
+you have to be careful about privacy.
+Directional window light often causes problems in terms of excessive contrast
+but this can work well when dealing with the human form. Pockets of shadow
+may help produce a more abstract image, especially if you crop etc.
+If you want a more tonally consistent result then reflectors/fillinflash/tungsten
+light source is required.
+Try covering the window with net curtains or tracing paper to diffuse/spread the light.
+
+== Landscapes
+=== Scale
+It's important to include something of s know size to impart a sense of scale to a landscape
+
+=== Foreground Interest
+Images should contain elements that take your eye on a journey of discovery around the frame.
+as the starting point for this journey, the forground has an important role to play.
+It can act as stepping stone to draw you deeper into the composition, or it can be used as a frame through whcih
+the rest of teh image is viewed.
+
+=== Aspect
+vertical images tend to have a greater sense of movement and vitsality than
+horizonatl ones, and have a better (tighter?) relationship between foreground an dbackground
+Horizontal framed pictures give a SENSE OF AFFINITY BETWEEN subject eleemmts
+adjacent to each other, and often a sense of movement across the frame.
+You can often crop to isolate or bring out the horizontal feeling of an image.
+
+=== Subdued Light
+Play with the contrast; high contrast is often pleasing. Watch  thatthe levels dont' clip.
+--Contrasty Lighting
+Try setting exposure for highlights or shadows and let the other end of the range clip.
+
+=== adding drama
+Grain can add drama
+Moving animals
+silhouetted view
+Storms/clouds
+
+=== Idealised Landscape
+They need to be composed around some prominent feature. When that's decided, experiment with different framing/focal length and viewpoints.
+Lighting is ideally. golden hours, not only because of the colour, but the direction. High overhead
+light tends to flatten depth and form, whereas the low light strengthens these.
+
+=== romantic landscape
+The country cottage for example. Look for a focal poiint around which to build your composition
+Think which are the key components, and then make sure these are prominent on your composition
+
+=== Skyscapes
+Clouds provide a constant source of inspiration. 
+In B&W file, blue reproduces as a light tone, so often a yellow of a red filter is required
+to separate/contrast the sky against the clouds
+If taking a picture of mainly the sky, the exposure will be based on that and any land will be underexposed.
+
+=== water views
+the water can dictate the mood; calm, storm, rippling, 
+Obviously, reflections can create points of interest en be the main subject, by providing distorted versions of other objects
+Choose shutter speed; 1/15 or less for smoothing out water. This often works by smoothing the
+water and contrasting with pin sharp surroundings
+
+=== people
+they give scale
+the can give humour
+
+=== urban landscapes
+these should be approached in the same way as natural ones; pattern, repeaasting shape,
+texture, drama, all are valid
+
+=== Architecture
+time of day / position of sun is important. frontal and top-lighting flatten contrast
+assigning similar tones to different parts of the building decreasing sense of depth
+side-lighting produces shadows and texture

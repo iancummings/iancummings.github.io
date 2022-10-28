@@ -1,0 +1,26 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Facial expressions
+:Author: Ian Cummings
+:Email: 
+:Date: May 2017
+:Revision: V1.0
+
+== Intro
+An idea to mimic emoticons
+
+== Suggestions
+* winking; left & right
+* tongue out!
+* crazy lady/man
+* subtle tongue
+* fish face
+* smiling; formal / cheesy
+* please help me
+* oops!
+* cover my face
+* what's over there?
+* I'm going crazy!
+* blowing a kiss

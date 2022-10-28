@@ -1,0 +1,33 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Dragging the Shutter
+V0.1, June-2017
+
+
+== Summary
+This is another name for balancing ambient and strobe lighting
+
+== Basic operation
+First, you need to find out what the ambient light exposure is, so with the flash turned off,
+take a manual meter reading in your camera, select an f-stop, then turn the shutter speed dial
+untill the meter reading is correct. For example:
+
+ ISO 200 f 5.6 ss 1/20
+
+To calculate the flash exposure, pick the same f-stop as you did in the ambient exposure.
+Set the flash on TTL and the flash will put out the correct amount of light to achieve that aperture.
+If you use the sync speed of your camera as the shutter speed, the background will go dark.
+
+ ISO 200 f 5.6 SS 1/180
+
+The next step is combining the two sources, so the flash is on and set to TTL,the camera settings are 
+
+ ISO 200 f 5.6, SS is 1/20
+
+Now we get a correctly exposed image but with a mix of colour balances.
+
+So put a filter on the flash to match the background, and if the flash is on manual, bump it up or if the flash is on TTL it will do it automatically.
+
+* link:index.html[Main menu]

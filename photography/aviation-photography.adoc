@@ -1,0 +1,35 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Aviation Photography
+Ian Cummings <ian.cummings@bigfoot>
+V0.1, May-2017
+:Author: Ian Cummings
+:Email: 
+:Date: May 2017
+:Revision: V0.1
+
+From a talk by Steve Tron
+
+== Techniques
+
+=== General
+* evalutive metering, with some exposure compensation +
+(cos of sky in daytime or nighttime)
+
+=== Static shots
+* aperture priority
+* one-shot focus
+
+=== Dynamic shots
+* shutter priority for propeller aircraft (to blur rotors, props)
+** 1/160 - 1/500
+** 1/60 for helicopter
+* aperture priority for jets
+** wide open
+** shutter speed 1/800 - 1/1000
+* often panning
+** good for clurring background
+* AI-servo focus (back button)
+* turn off image stabilisation (especially when panning)

@@ -1,0 +1,20 @@
+= Product Photography
+
+== The set
+Floor is black perspex, back is foamcore, a-clamped to a light stand
+
+== Tips
+* Wear gloves to keep things clean!
+* don't move the product, move the perspex/floor
+* manual focus
+* tethered working is helpful
+* fill the frame with the product
+* small aperture (f14) for depth of field
+
+== workflow
+* take a test shot - should be totally black
+* flash needs a grid / snood to stop light spilling to background
+* for transparent objects (bottles, etc) we need a rear light to shine through from the back and show the contents.
+* light behind black background to give edge rim light effect
+
+

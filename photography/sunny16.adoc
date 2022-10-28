@@ -1,0 +1,17 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+= Exposure
+:Author: Ian Cummings
+:Email:  
+:Date: September 2019
+:Revision: V0.1
+
+== Sunny 16
+
+F16 and shutter speed of 1/ISO
+
+* f16: Direct bright sunlight with harsh shadows
+* f11: indirect bright sunlight with soft shadows
+* f8: overcast skies with little/no shadows
+* f4: dusk/morning light

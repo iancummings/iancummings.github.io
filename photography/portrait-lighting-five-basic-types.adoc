@@ -1,0 +1,36 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+// :imagesdir: ../images
+
+= Five Basic Portraiture Lighting Patterns
+Ian Cummings 
+V0.1, May 2017: A work in progress
+
+== Short lighting
+Good for most subjects, classic & flattering. Narrows the face.
+
+image::images/5-lighting-patterns-short.png[]
+
+
+== Broad lighting
+Make a narrow face fuller
+
+image::images/5-lighting-patterns-broad.png[]
+
+
+== Rembrandt lighting
+Classic, serious & dramatic, triangle of light under eye. If the model turns their head towards the light slightly then we get _loop lighting_ where the triangle is broken.
+
+image::images/5-lighting-patterns-rembrandt.png[]
+
+
+== Split lighting
+Dramatic, good for definition (men)
+
+image::images/5-lighting-patterns-split.png[]
+
+== Butterfly lighting
+Classic glamorous hollywood style; accentuates the cheekbones and the chin.
+
+image::images/5-lighting-patterns-butterfly.png[]

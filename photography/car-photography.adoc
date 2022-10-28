@@ -1,0 +1,14 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+= Car photogrpahy
+:Author: Ian Cummings
+:Email:  
+:Date: August 2017
+:Revision: V0.1
+
+* Pay attention to the surroundings
+* The car has to be spotless
+* Circular polariser is a must (reflections)
+* Use a tripod - it needs to be sharp and also for HDR shots
+* get down low - try different angles

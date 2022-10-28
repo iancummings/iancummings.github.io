@@ -1,0 +1,12 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Newbury Photography Club
+
+== Notes from meetings
+
+== Judging notes
+=== not good
+* rivers going out of an image at the side
+* writing/text in pictures - distracts the eye

@@ -1,0 +1,14 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+= Clone Stamp tool for skin imperfections
+:Author: Ian Cummings
+:Email:  
+:Date: October 2017
+:Revision: V0.1
+
+* create a new layer (SHIFT/CTRL/N) or duplicate layer (CTRL/J)
+* select clone/stamp tool from tools panel
+* brush softness=0, opacity=10-30
+* Hold down ALT and click on source area
+* Stamp away (carefully)

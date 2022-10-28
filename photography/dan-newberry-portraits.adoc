@@ -1,0 +1,98 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+= Portrait lighting
+
+== Settings
+Fully manual for consistency
+* 1/125, not critical, and in general you can chnage to balance flash light with ambient 
+* ISO 100
+* >= f8, to ensure whole of head is in focus
+* WB=flash, as when using flash gels, camera may set it incorrectly
+* single-shot focus
+* lens > 50mm
+
+== Equipment
+* bounce umbrella (for hiKey, or could just bounce off wall?)
+* Square softbox gives a more feathered drop off because of the sharp edge.
+* Octabox gives more wrap, can feather teh light with it facing across the subject
+
+
+== High Key
+Basically, this means over exposing the background. If you have the equipment, then a flash filled white wall is best. Without the pro kit, then a use a white background with a flash or similar shining on it (see _Light Positions_ below).
+The ideal is to end up with the background metering 2 stops more than the exposure for the subject. For example, if the subject is measuring f8, the background needs to measure f16. Also, if you take readings on teh subjects front and back, the readings need to be about teh same; too much light on the rear of the model will give you a corona and the subject will lose contrast. +
+
+This is the simpler of the two styles (hi & lo key), and doesn't allow much variation. There's no point in adding a hair light for example.
+
+* take light reading for background, then increase by two stops for the subject. For example, if the background measures at f16, then the subject should ideally measure at f8.
+.
+* if using a flash to light the background, the be careful not to spill on to model.
+
+== Low Key
+* start with a black background, flash at 45/45. This is ok, but hair can get merged into the background
+* add a hair light diametrically opposite to the key light, a stop lower from the key light. +
+It will probably need gridding to stop spill. Gridding removes 2 stops.
+* to test the above hair light, just turn off key light and take photo; you will see where the fill/hair light is falling.
+* use a grid if possible, to keep spill off the background. if the background is visible, move the model away from teh background, or the flash closer to the model and use a smaller aperture.
+* three light setup; key, hair light (1 stop lower, light just above model's head), fill light (half a metre above model's head). Optionally get the model to hold a reflector to fill in under their chin
+=== Model
+ and the tone of the clothing will be of a darker tone. They don’t need to be black strictly speaking.
+
+You should set your lighting to create drama. Take your cues from film noir. The photos don’t need to be in black and white, though. However, you may find that the absence of color in low key images can lend itself to this look. As well as choosing dark clothes, avoid ones with patterns, as this will draw attention away from the face.
+
+== Techniques
+* coloured gels on black -> contrasty
+* coloured gels on white -> pastelly
+* catchlights should be at 10/11 o'clock or 1/2 o'clock (the reason for catchlights is that otherwise the eyes can look dead; especially with dark eyes)
+* Obviously, the shape of the light source dictates the shape of the catchlights; octobox, square softbox, umbrella...
+* umbrella produces loads of spill, softbox will spill less, and even less if you fit a grid.
+* Keep the model as far as possible away from the background to stop spill.
+* focus on front eye rather than back eye
+* moving a light a foot further away is aboit the same as dropping the output by 1 stop.
+* Groups: put tanned people closer to the light source than pale people.
+* If model has glasses, take the key light higher; >= 45degrees.
+* camera should be slightly higher than the face; shoot down the nose. Camera level should be just above the eye; straight to the forehead.
+* use white reflector, rather than silver s the latter is too harsh.
+* for men, use gridded strip boxes from the side; gives a harder look and shows muscle definition.
+
+== Light positions / setups
+=== High Key
+* to light the background, put a flash on a stand and place behind the model (facing backwards) +
+Flash pointing backwards, reflector on right on model, key light at 45degrees horizontally, 30 degrees vertically to model
+* hair light; height should be so that main output on top of head and feathers down the head (same for the face sometimes; forehead,middle,chin; f8,f9,f10
+* use beauty dishes from above, straight on - butterfly lighting?
+
+=== Low Key
+* for low key/black backgrounds the model needs to be in the order of 3m/10ft away from black background, the light source shoould be slightly behind model with model looking left towards the light.
+* or use the Glyn Dewis method, softbox pointing in sideways to model (4ft), 
+* The background should be dark, usually dark grey or black.
+* the tone of the clothing should be of a darker tone, and the absence of colour in low key images can lend itself to this look.
+* As well as choosing dark clothes, avoid ones with patterns, as this will draw attention away from the face.
+image:low-key-portrait-examples-02.jpg[]
+
+=== Glyn Dewis Invisible Black Background
+* turn off flash
+* camera on manual
+* choose max sync speed
+* lowest ISO
+* choose a medium aperture - f11?
+* take shot and increase aperture until resulting image is completely black
+* turn on flash to full power
+* take shots and adjust flash power to suit - could use meter?
+* Watch for
+** if flash too close to background, could end up with spill
+** ideally would use partially closed relective umbrella / softbox / snood / etc
+
+== High Key Workflow
+1. Start with ISO 200, f11, 1/125
+2. two flashes pointing at background; set to 50% - 100% power.
+3. Take a shot of wall, check histogram to make sure it's white
+4. If not adjust flash or ISO - in fact adjust so that it's just white
+5. We don't want it too high as it could start to creep round model's face.
+5. Then we think about the light on the model....
+
+[NOTE]
+Aperture controls Flash's Exposure, while Shutter Speed controls the Ambience exposure
+
+== Shopping list
+grid, gels for flash, light stand, adapter with grip for light stand

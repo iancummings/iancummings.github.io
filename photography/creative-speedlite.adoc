@@ -1,0 +1,112 @@
+= Creative Speedlite Flash, Brian Worley
+
+== Summary
+* Mixing ambient and flash light
+* Modes; E-TTL, manual, etc
+* 1st & 2nd curtain, HSS
+* Master, slaves & groups
+* wireless; optical & radio
+
+== Ambient & flash
+Ambient is controlled by camera exposure mode, shutter speed, aperture and ISO.
+The shutter speed is largely immeterial to the flash part as the flash duration is so small in comparison.
+Flash balance is controlled by the flash mode, power, aperture and ISO +
+All surfaces can act as fill/reflectors, the example in the course notes have a girl
+leaning up against a shed, with the flash firing across the girl to the shed. The shed (despite 
+being dull brown wood, produces fill for the other side of the girls face.
+When mixing ambient and ETTL flash, the camera knows which parts of the image have been
+lit by ambient light and which by the flash and so the jpegs it produces (Brian says)
+ have the white balance adjusted across the picture so that all parts of the image are correct. +
+ Can just use a flash for a rear "kicker" with no diffuser.
+  
+== Modes
+* E-TTL
+* Manual
+* External metered
+
+ETTL measures ambient exposure, then does a pre flash @ 1/32 power, and then commands the flash
+to expose at the correct power. All this takes 6-8ms. +
+When using Canon, the distance measured by the focussing system is used to stabilise the power value
+sent to the flash unit. So it should be borne in mind if using a flash extension cable! +
+
+External metered uses a light trigger on the flash unit to quench the flash. Only with 580 & 600.
+Cannot be used with HSS.
+With auto, the flash receives ISO and aperture from the camera.
+Manual is where photographer sets ISO and aperture on the flash. +
+
+Manual is where you determine the light output, gives you absolute consistency with no pre-flash. +
+There is a multi / strobe mode where the flas is fired several times (used for golf swings etc)
+
+== 1st & 2nd Curtain, HSS
+1st - flash fires when 1st curtain is fully open; it makes movement look reversed +
+2nd - flash fires at the end of the exposure. This cannot be used with the Canon wireless system.
+HSS - flash is pulsed so that all the sensor is covered. The higher the shutter speed, the smaller the
+gap between the two curtains and the more often the flash has to fire. This means flash power is limited
+as the shutter speed goes up.
+Can be used with the Canon wireless system. +
+You can leave it set to HSS, the multi-flash mode will only be brought into play when needed.
+ This is fine, but you need to be aware of teh fact so that you're not surprised suddnely by low 
+ flash output because you have drifted into HSS mode. +
+ 
+=== Flas sync. speed in Av mode.
+Best left in auto.
+
+== Master, slaves & Groups
+Master: a camera of flash that controls other speedlites as slaves. Can have many masters.
+Slave: a flash configured to accept commands from a master
+Group: an identifier to allow different power levels of fucntions (ETTL, M, etc)
+for one or more slave speedlites (Canon support five groups A-E) +
+Master speedlites that fire are always in group A
+
+== Wireless: optical
+Pulses of light from the flash tube send coded messages from a master to slaves. +
+Slaves must be able to "see" the light from the master, which can be difficult outside in bright light. +
+Up to 3 groups (A-C) can be controlled.
+ 
+There are four channels so that multiple photographers can work in the same space without triggeriing each other's flashes.
+All masters and slaves must be set to the same channel.
+The default channel is 1 so avoid it if possible!
+
+== Wireless: radio
+* Extended range over optical.
+* Up to sixteen devices
+* Up to five groups
+* fiften radio channels and auto
+* 10,000 device IDs, all IDs must match (as with channels, move away from default value)
+* Speedlite 600EX-RT & ST-ET-RT only
+
+All devices must have the same ID and be on the same channel, but with 15 channels and 10,000 IDs
+separation from other photographers shouldn't be a problem. +
+
+=== Group mode
+This allows up to 5 groups of slaves to be individually controlled automatically or manually at the
+same time,
+
+Groups can be ETTL, Manual or Ext.Auto metered.
+Only cameras after 2012.
+
+=== Additional capabilities
+Two way radio communication enables remote control capabilities from a slave speedlite.
+
+* *REL* - a remote shutter release of the master camera (the master with a green link light)
+
+* *MODEL* model lighting for all flashes
+
+* *TEST* - fire a test flash of each speedlight in the group.
+
+* Linked shot - trigger multiple cameras from a single master (not in conjunction with wireless flash)
+* Beeps - using flash C.Fn 20, a flash or transmitter can be set to beep when slaves are recharged.
+
+== Controlling groups - E-TTL
+* *ALL* - all groups treated as one light, anbd single pre-flash detemrines the exposure
+* *RATIO A:B* - separattion of A & B groups, with control of the balance in-between. Separate
+pre-flash for each group.
+* *RATIO A:B:C* separation of A:B above, but then group C is "ratioed" against A and B combined.
+Three separate pre-flashes.
+
+== controlling groups - Manual
+* All groups treated as one light at the same power level
+* A+B separate power levels for A and B groups
+* A+B+C separate power levels for each group.
+ 
+ 

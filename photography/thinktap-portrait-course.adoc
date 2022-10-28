@@ -1,0 +1,155 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+== ThinkTap Learn Portrait Photography Course
+http://photo.thinktaplearn.com/
+
+
+=== Light
+Summary; big, soft and to the side
+
+Look for light - what type?
+
+* direction: from the side
+* qualty: soft/hard
+* colour; time of day
+* sunshine: not direct; reflect it
+
+==== Bad
+* racoon eyes!
+
+==== Three places to find great light
+* sunlight is best, but not direct
+* soft light is found at the edge of hard light
+** porches (effectively a covered window)
+ + sit where subject is to make sure not off light coming in that could make hem squint
+** windows - use curtains
+
+==== Background
+Not distracting! Either plain () or something that gives place to the subject, or to compliment person, use pattern (rows of windows).
+
+Look out for
+* distractions in background (poles, frames)
+* hghly coloured items (recycle bins, etc)
+* shiny things - using a polariser can reduce specular highlights
+* long focal length or backgrounds a long way away
+
+=== camera settings
+* Set aperture, then shutter speed, then ISO
+* Depth of field; aperture, distance to subject, focal length.
+* Focus on eye closest to camera
+* 85mm ideal for portraits
+
+=== Using a reflector
+You need a person or a light stand; latter with weights
+Foamcore goood as a reflector. Can score and fold.
+
+=== Available lights indoors
+* if inside and being lit by an ordinary lamp, it's ok to include the lamp.
+* Subject must get quite close to domestic lights to get proper exposures; gives better shadows/contouring.
+Either look down or straight down the lens
+
+=== Speedlights
+* can just use off camera flash and diffuser - but someone has to hold. Need a person and person can move altering settings
+
+=== position
+* lean forward
+* lean in
+* lean back
+* hold up magzien
+* look up down right left
+* look over there, at me
+* look at my elbow
+* your friend just ame in over there
+
+=== Plan
+1. talk with model - what do we want to show? +
+confidence, approachability, trustworthiness etc etc
+1. type of shot, look, lighting look
+1. position of light and subject
+1. reflectors, speedlights, windows etc
+1. get exporure correct, test shots - model can relax
+1. all  ready, take the shots, direct the model
+
+=== Help people look great
+1. Talk first: what goals for photograph? Talk to client?
+1. share pictures as you go - allows subject feedback
+1. Build rapore with subject, before shooting ask about their interests, life, passions. Then while shooting can ask questions about kids, dog, etc and when they reply, you'll get genuine expressions & smiles.
+
+=== Using shadows
+* for generally flattering portraits, we don't want split lighting
+* lighting from the side
+* if ear furthest away from light is in shadow = short lighting
+* short lighting is flattering for 99% people on planet
+* rembrant & loop lighting are types of short lighting (rembrant needs light slightly higher)
+* switch to black & white preview to see light without distracting colours
+
+=== Positioning subject
+* shoulders never square to the camera (unless want to look bigger; sportsman maybe)
+* turn body away from the light, then bring face back to camera. Maybe face tilted slightly with chin towards front of body?
+* then turn body to the light, 46-60 degrees. Tell people to trun their toes, then they'll actually move their body rather than twist as the waist and end up slowly turning back.
+* engage with the camera; have model put weight on front foot; they lean into the camera (look directtly into the camera)
+* good sides / bad sides; one eye smaller than the other, smile bigger on one side, node crooked. Larger eye, bigger smile toward camera.
+* practise, "look over there, then back to me", "look down then look at me", "look right down over here" (use hand), "glance up to the lens", "look down here", "say 'boogie burgers'"
+
+=== Impact of camera height and Lens angle
+* Professional head shot - level with face
+* Looking from above; flattering and slightly innocent, but doesn't convey confidance.
+* Shooting upward conveys power or maybe for fashion shoot elliminating background distractions while getting full length.
+
+=== Directing people for portraits
+* people are nervous
+* Have your camera ready; settings; exposure etc
+* Be confident; smile!
+* if you review a picture? always smile even if it's rubbish
+* Give clear direction; "look at that thing", "turn your chin", "turn you body"
+* Be social - talk to them
+
+=== Keep the shoot moving
+* If you've got a good shot, or if you've taken several and it's not working; move on
+* choose a different
+** location
+** background
+** clothes
+** pose
+** light
+** be punctual; respect their time, don't keep going if you've got the shot don't keep them there.
+
+=== Using diffuser in full sun
+* not just from above (racoon eyes), but tilt so that light comes from the side.
+*  bring it close; closer = brighter, softer
+
+=== using a strobe through a diffuser
+* choose aperture for subject
+* choose shutter speed to get background as desired
+* adjust flash power
+* flash zoom - use wide so that it fills whole diffuser - zoom should be set for distance to diffuser not subject.
+* if model static (seated for eample) and flash on stand, things are then pretty mich set.
+
+=== Minding the height of the light and its mood
+* generally don't light from below; hold reflectors high on shoulders
+* light should be shining in both eyes
+* low enough that shines under eyebrows
+* front enough to shine in both eyes (end up as split lighting)
+* good starting point is light 45 degrees up, and 45 degrees to the side. Make adjustments on how deep their eyes are and how large nose is; up/down, forward/backward
+
+=== Adding a rim light (backlight, kicker)
+* separates subject from the background, gives definition and depth/
+* white, silver, gold maybe for afternon look
+* use the sun as the rim and use flash as subject light
+* level - on level with their ear if close up portrait; maybe slightly higher
+* make sure doesn't fill in shadows on side of nose; shoulder, hair, maybe cheek, but not nose.
+Make sure not shining red through their ear!
+
+=== Conclusion
+
+
+
+=== short side is smaller side, broad side is broader side of face
+
+
+
+
+
+
