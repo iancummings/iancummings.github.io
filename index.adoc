@@ -16,7 +16,7 @@
 ** link:http://iancummings.x10.mx/images[x10 images (http://iancummings.x10.mx/images)]
 ** link:http://iancummings.x10.mx/images/coldash[Cold Ash images]
 * link:rosewood/ridge.html[The Ridge]
-* link:pc/useful-info.html[PC stuff]
+* link:PC/useful-info.html[PC stuff]
 * Browser Scratchpads
 ** Basic: *data:text/html,<html contenteditable>*
 ** link:notepad.html[Notepad]
