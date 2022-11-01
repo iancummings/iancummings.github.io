@@ -1,0 +1,112 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= XPS17
+
+== DELL Manual
+link:xps-17-9700-laptop_service-manual_en-us.pdf[xps-17-9700-laptop_service-manual_en-us.pdf]
+
+== Reinstall Microsoft Windows
+
+
+== General Tips
+link:https://www.dell.com/support/manuals/uk/en/ukbsdt1/xps-17-9700-laptop/xps-17-9700-service-manual/system-setup-options?guid=guid-8c6e66de-5800-48bb-b0a9-eaad59bfdced&lang=en-us[DELL site]
+
+=== Entering BIOS setup program
+Turn on (or restart) your computer and press F2 immediately.
+
+=== Boot Sequence
+Boot Sequence allows you to bypass the System Setup–defined boot device order and boot directly to a specific device (for example: optical drive or hard drive). During the Power-on Self Test (POST), when the Dell logo appears, you can:
+
+* Access System Setup by pressing F2 key
+* Bring up the one-time boot menu by pressing F12 key
+
+The one-time boot menu displays the devices that you can boot from including the diagnostic option. The boot menu options are:
+
+* Removable Drive (if available)
+* STXXXX Drive (if available)
+
+NOTE: XXX denotes the SATA drive number.
+
+* Optical Drive (if available)
+* SATA Hard Drive (if available)
+* Diagnostics
+
+The boot sequence screen also displays the option to access the System Setup screen.
+
+=== One time boot menu
+To enter one time boot menu, turn on your computer, and then press F2 immediately.
+
+NOTE: It is recommended to shutdown the computer if it is on.
+
+The one-time boot menu displays the devices that you can boot from including the diagnostic option. The boot menu options are:
+
+* Removable Drive (if available)
+* STXXXX Drive (if available)
+
+NOTE: XXX denotes the SATA drive number.
+
+* Optical Drive (if available)
+* SATA Hard Drive (if available)
+* Diagnostics
+
+The boot sequence screen also displays the option to access the System Setup screen.
+
+=== System diagnostic lights
+Battery-status light
+
+Indicates the power and battery-charge status.
+
+**Solid white**—Power adapter is connected and the battery has more than 5 percent charge.
+
+**Amber**—Computer is running on battery and the battery has less than 5 percent charge.
+
+*Off*
+
+* Power adapter is connected, and the battery is fully charged.
+* Computer is running on battery, and the battery has more than 5 percent charge.
+* Computer is in sleep state, hibernation, or turned off.
+
+The power and battery-status light blinks amber along with beep codes indicating failures.
+
+For example, the power and battery-status light blinks amber two times followed by a pause, and then blinks white three times followed by a pause. This 2,3 pattern continues until the computer is turned off indicating no memory or RAM is detected.
+
+The following table shows different power and battery-status light patterns and associated problems.
+
+Table 1. LED codes
+Diagnostic light codes	Problem description
+1,1	TPM detection failure
+1,2	Unrecoverable SPI flash failure
+1,5	i-Fuse failure
+1,6	EC internal failure
+2,1	Processor failure
+2,2	System board: BIOS or ROM (Read-Only Memory) failure
+2,3	No memory or RAM (Random-Access Memory) detected
+2,4	Memory or RAM (Random-Access Memory) failure
+2,5	Invalid memory installed
+2,6	System board or chipset error
+2,7	Display failure - SBIOS message
+2,8	Display failure - EC detection of power rail failure
+3,1	Coin-cell battery failure
+3,2	PCI, video card/chip failure
+3,4	Recovery image found but invalid
+3,5	Power-rail failure
+3,6	System BIOS Flash incomplete
+3,7	Management Engine (ME) error
+
+**Camera status light**: Indicates whether the camera is in use.
+
+Solid white—Camera is in use.
+Off—Camera is not in use.
+
+**Caps Lock status light**: Indicates whether Caps Lock is enabled or disabled.
+
+Solid white—Caps Lock enabled.
+Off—Caps Lock disabled.
+
