@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5.dev">
+<title>Untitled</title>
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+
+/* @import url(https://fonts.googleapis.com/css?family=Ubuntu); */
+@import "doc-base.css"; /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+
+:root{
+--maincolor:#FFFFFF;
+--primarycolor:#5e187b;
+--secondarycolor:#6d3b8f;
+--tertiarycolor: #4c0864;
+--sidebarbackground:#CCC;
+--linkcolor:#b71c1c;
+--linkcoloralternate:#f44336;
+--white:#FFFFFF;
+--offwhite:#F0F0F0;
+--lightgrey:#D3D3D3;
+--silver:#C0C0C0;
+--grey:#808080;
+--dimgrey:#696969;
+--lightslategrey:#778899;
+--slategrey:#708090;
+--darkslategrey:#2F4F4F;
+--black:#000000;
+--red:#FF0000;
+--green:#00FF00;
+--blue:#0000FF;
+--yellow:#FFFF00;
+--magenta:#FF00FF;
+--cyan:#00FFFF;
+--gvpurple:#5e187b;
+--gvpurple5percentlighter35:#711d95;
+--gvpurple10percentlighter40:#8122aa;
+--gvpurple15percentlighter45:#9226c0;
+}
+
+/*
+--primarycolor:#61116A;
+--secondarycolor:#B97CC1;
+--tertiarycolor: #5E187B;
+*/
+
+/*
+=       <title>
+==      <H2>
+=== <H3>
+*/
+
+/* Text styles */
+body{font-family: "Arial",sans-serif;}
+
+h1,h2{font-weight:300;color:var(--gvpurple);font-family:"Arial",sans-serif;}
+h3,h4,h5,h6{font-weight:300;color:var(--gvpurple);font-family: "Arial",sans-serif;}
+.title{color:(--magenta);font-family:"Arial",sans-serif;font-style: normal; font-weight: normal;}
+p{font-family: "Arial",sans-serif}
+/* code{background-color: var(--offwhite) !important;color:var(--white)} */
+
+/* Table styles */
+th{background-color: var(--blue);color:var(--white);}
+
+a{color:var(--gvpurple5percentlighter35);}
+a:hover,a:focus{text-decoration: underline; color:var(--gvpurple15percentlighter45)}
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:active {text-decoration: underline;}
+
+/* #toc.toc2{background-color:#2C001E;color:white;} */
+toc.toc2{color:var(--gvpurple5percentlighter35);}
+#toc2.toc2{color:var(--gvpurple5percentlighter35);}
+#toctitle{color:var(--gvpurple5percentlighter35);}
+
+.quoteblock blockquote:before{color:var(--gvpurple15percentlighter45);}
+
+
+.imageblock.bordered img {
+  border: 1px solid black;
+}
+.imageblock.indented img {
+  position: relative; left: 30px
+}
+.imageblock.indentedborder img {
+  position: relative; left: 30px;
+  border: 1px solid black;
+}
+
+
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw;
+  font-size: 3vw;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body class="article">
+<div id="header">
+</div>
+<div id="content">
+<div class="paragraph">
+<p>The format of the file dumped from LTM is just tables and contents, no database. So we should</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-sql" data-lang="sql">CREATE DATABASE livetouch DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>then to import the database we use a MySQL command line window or Heidi comme ca:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-sql" data-lang="sql">mysql&gt; use db_name;
+
+mysql&gt; SET autocommit=0 ; source the_sql_file.sql ; COMMIT ;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Regarding the time taken for importing huge files: most importantly, it takes more time because the default setting of MySQL is autocommit = true.</p>
+</div>
+<div class="paragraph">
+<p>or on the command line:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cmd" data-lang="cmd">c:\&gt; mysql -u username -p database_name &lt; file.sql</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+<div class="ulist">
+<ul>
+<li>
+<p>It is better to use the full path of the SQL file file.sql.</p>
+</li>
+<li>
+<p>Use -R and --triggers to keep the routines and triggers of original database. They are not copied by default.</p>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-07-03 09:27:51 GMTST
+</div>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+<script>hljs.initHighlighting()</script>
+</body>
+</html>

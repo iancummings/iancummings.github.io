@@ -1,0 +1,85 @@
+."Standard" definition of "done"
+[cols="75%,25%"]
+|===
+2+| *__Developer related__*
+| *Software written* +
+Compilation completes with no errors AND no significant warnings
+|&nbsp;
+| *Manual story validation testing complete* +
+No serious defects (No critical or major Jira bugs linked to the story)
+|&nbsp;
+|**Unit tests run** +
+Unit tests pass 100%
+|&nbsp;
+|**Code available on delivery branch** +
+Changes checked into version control and the branch specification available
+|&nbsp;
+2+| *__Validation related__*
+|**Sprint release candidate built** +
+Coherent set of named T builds available that could become a set of product V releases
+|&nbsp;
+|**Regression Tests complete** +
+No regressions found
+|&nbsp; 
+|**Technical briefing available** +
+Belden TOI available for support and training groups
+|&nbsp;
+|**Reviewed by User** +
+Stories reviewed
+|&nbsp;
+|===
+
+.definition of "Ready"
+
+A “ready” backlog item needs to be __clear__, _feasible_ and __testable__:
+
+* A user story is clear if all Scrum team members have a shared understanding of what it means. Collaboratively writing user stories, and adding acceptance criteria to the high-priority ones facilitates clarity
+* An item is testable if there is an effective way to determine if the functionality works as expected. Acceptance criteria ensure that each story can be tested
+* A user story is feasible if it can be completed in one sprint, according to the Definition of Done. If this is not achievable, it needs be broken down further
+
+Simply stated, the Definition of Ready defines the criteria that a specific user story has to meet before being considered for estimation or inclusion into a sprint.
+
+* User Story is clear
+* User Story is testable
+* User Story is feasible
+* User Story defined
+* User Story Acceptance Criteria defined
+* User Story dependencies identified
+* User Story sized by Development Team
+* Scrum Team accepts User Experience artefacts
+* Performance criteria identified, where appropriate
+* Scalability criteria identified, where appropriate
+* Security criteria identified, where appropriate
+* Person who will accept the User Story is identified
+* Team has a good idea what it will mean to Demo the User Story
+
+
+//[cols="75%,25%"]
+//|===
+//2+| *__Developer related__*
+//| *Software written* +
+//Compilation completes with no errors AND no significant warnings
+//|&nbsp;
+//| *Manual story validation testing complete* +
+//No serious defects (No critical or major Jira bugs linked to the //story)
+//|&nbsp;
+//|**Unit tests run** +
+//Unit tests pass 100%
+//|&nbsp;
+//|**Code available on delivery branch** +
+//Changes checked into version control and the branch specification //available
+//|&nbsp;
+//2+| *__Validation related__*
+//|**Sprint release candidate built** +
+//Coherent set of named T builds available that could become a set //of product V releases
+//|&nbsp;
+//|**Regression Tests complete** +
+//No regressions found
+//|&nbsp; 
+//|**Technical briefing available** +
+//Belden TOI available for support and training groups
+//|&nbsp;
+//|**Reviewed by User** +
+//Stories reviewed
+//|&nbsp;
+//|===

@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 1.5.5.dev">
+<title>Git Practices</title>
+<style>
+/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
+
+/* @import url(https://fonts.googleapis.com/css?family=Ubuntu); */
+@import "../css/asciidoctor.css"; /* Default asciidoc style framework - important */
+
+/* CUSTOMISATIONS */
+/* Change the values in root for quick customisation. If you want even more fine grain... venture further. */
+
+:root{
+--maincolor:#FFFFFF;
+--primarycolor:#5e187b;
+--secondarycolor:#6d3b8f;
+--tertiarycolor: #4c0864;
+--sidebarbackground:#CCC;
+--linkcolor:#b71c1c;
+--linkcoloralternate:#f44336;
+--white:#FFFFFF;
+--black:#000000;
+--red:#FF0000;
+--green:#00FF00;
+--blue:#0000FF;
+--yellow:#FFFF00;
+--magenta:#FF00FF;
+--cyan:#00FFFF;
+--gvpurple:#5e187b;
+--gvpurple5percentlighter35:#711d95;
+--gvpurple10percentlighter40:#8122aa;
+--gvpurple15percentlighter45:#9226c0;
+}
+
+/*
+--primarycolor:#61116A;
+--secondarycolor:#B97CC1;
+--tertiarycolor: #5E187B;
+*/
+
+/*
+=       <title>
+==      <H2>
+=== <H3>
+*/
+
+/* Text styles */
+body{font-family: "Arial",sans-serif;}
+
+h1,h2{font-weight:600;color:var(--gvpurple) !important;font-family:"Arial",sans-serif;}
+h3,h4,h5,h6{font-weight:600;color:var(--gvpurple);font-family: "Arial",sans-serif;}
+.title{color:(--yellow) !important;font-family:"Arial",sans-serif;font-style: normal; font-weight: normal;}
+p{font-family: "Arial",sans-serif !important}
+code{background-color: #999;}
+
+/* Table styles */
+th{background-color: var(--gvpurple15percentlighter45);color:var(--white) !important;}
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+a{color:var(--gvpurple5percentlighter35);}
+a:hover,a:focus{color:var(--gvpurple15percentlighter45)}
+
+/* #toc.toc2{background-color:#2C001E;color:white;} */
+#toc.toc2{color:var(--yellow);}
+#toctitle{color:var(--gvpurple5percentlighter35);}
+
+.quoteblock blockquote:before{color:var(--gvpurple15percentlighter45);}
+
+/* Responsiveness fixes */
+video {
+  max-width: 100%;
+}
+
+@media all and (max-width: 600px) {
+table {
+  width: 55vw!important;
+  font-size: 3vw;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+</head>
+<body class="article toc2 toc-left">
+<div id="header">
+<div id="toc" class="toc2">
+<div id="toctitle">Contents</div>
+<ul class="sectlevel1">
+<li><a href="#truegit-practices">Git Practices</a></li>
+<li><a href="#truesetup">Setup</a>
+<ul class="sectlevel2">
+<li><a href="#truesetting-up-an-external-file-diff-program">Setting up an External file-diff Program</a></li>
+</ul>
+</li>
+<li><a href="#truesystem-parts">System parts</a></li>
+<li><a href="#trueworkflow">Workflow</a>
+<ul class="sectlevel2">
+<li><a href="#truecreate-branches">Create branches!</a></li>
+<li><a href="#truecheck-in-comments">Check-in comments</a></li>
+<li><a href="#truesummary">Summary</a></li>
+<li><a href="#truewhere-to-create-branch">Where to create branch?</a></li>
+</ul>
+</li>
+<li><a href="#truegotchas">Gotchas</a>
+<ul class="sectlevel2">
+<li><a href="#truesourcetree">SourceTree</a></li>
+<li><a href="#truedon-t-merge-master-to-a-feature-bugfix-branch">Don&#8217;t merge master to a feature/bugfix branch</a></li>
+</ul>
+</li>
+<li><a href="#trueoperations-that-require-manual-intervention">Operations that require manual intervention</a>
+<ul class="sectlevel2">
+<li><a href="#truebranching-for-a-release">Branching for a release</a>
+<ul class="sectlevel3">
+<li><a href="#truegui-method-from-david-joyce">GUI method (from David Joyce)</a></li>
+<li><a href="#truecommand-line-method-from-matthew-joyce">Command line method (from Matthew Joyce)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#truebumping-a-point-release">Bumping a "point" release</a>
+<ul class="sectlevel2">
+<li><a href="#truedeleting-an-unwanted-version">Deleting an unwanted version</a></li>
+<li><a href="#truemerge-fixes-from-an-earlier-version-branch-to-master">Merge fixes from an earlier version branch to master</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="truegit-practices"><a class="anchor" href="#truegit-practices"></a>Git Practices</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="truesetup"><a class="anchor" href="#truesetup"></a>Setup</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>On git bash cmd line:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git config --global http.sslVerify false</code></pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truesetting-up-an-external-file-diff-program"><a class="anchor" href="#truesetting-up-an-external-file-diff-program"></a>Setting up an External file-diff Program</h3>
+<div class="paragraph">
+<p>Using kdiff3 as an example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git config --global --add merge.tool kdiff3
+$ git config --global --add mergetool.kdiff3.path "C:/Program Files/KDiff3/kdiff3.exe"
+$ git config --global --add mergetool.kdiff3.trustExitCode false
+
+$ git config --global --add diff.guitool kdiff3
+$ git config --global --add difftool.kdiff3.path "C:/Program Files/KDiff3/kdiff3.exe"
+$ git config --global --add difftool.kdiff3.trustExitCode false</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The use of the trustExitCode option depends on what you want to do when diff tool returns. From <a href="https://git-scm.com/docs/git-difftool#git-difftool---no-trust-exit-code">documentation</a>:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>git-difftool invokes a diff tool individually on each file. Errors reported by the diff tool are ignored by default. Use --trust-exit-code to make git-difftool exit when an invoked diff tool returns a non-zero exit code.</pre>
+</div>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="truesystem-parts"><a class="anchor" href="#truesystem-parts"></a>System parts</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Objects on a filesystem</p>
+</li>
+<li>
+<p>BitBucket</p>
+</li>
+<li>
+<p>SourceTree</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="trueworkflow"><a class="anchor" href="#trueworkflow"></a>Workflow</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="truecreate-branches"><a class="anchor" href="#truecreate-branches"></a>Create branches!</h3>
+<div class="paragraph">
+<p>Try and create a branch for every piece of work you do. This makes mergng to release branches much easier in the long term and makes it obvious what work was done for what purpose.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truecheck-in-comments"><a class="anchor" href="#truecheck-in-comments"></a>Check-in comments</h3>
+<div class="paragraph">
+<p>The accepted format for checkin comments is:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Line1: summary of work that was done in present tense
+Line2: &lt;blank&gt;
+Line3: As much text as required to expand, but limited to 80chars line width</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truesummary"><a class="anchor" href="#truesummary"></a>Summary</h3>
+<div class="paragraph">
+<p>*</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truewhere-to-create-branch"><a class="anchor" href="#truewhere-to-create-branch"></a>Where to create branch?</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>local/remote repositories pros/cons</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="truegotchas"><a class="anchor" href="#truegotchas"></a>Gotchas</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="truesourcetree"><a class="anchor" href="#truesourcetree"></a>SourceTree</h3>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>When developing and using the SourceTree "File Status / Working Copy" view, be sure always select <strong>Pending</strong> for the file display. If you choose <strong>Modified</strong>, which seems natural, it won&#8217;t display any new files that need adding to the repository and your subsequent commit may break the build.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truedon-t-merge-master-to-a-feature-bugfix-branch"><a class="anchor" href="#truedon-t-merge-master-to-a-feature-bugfix-branch"></a>Don&#8217;t merge master to a feature/bugfix branch</h3>
+<div class="paragraph">
+<p>sd</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="trueoperations-that-require-manual-intervention"><a class="anchor" href="#trueoperations-that-require-manual-intervention"></a>Operations that require manual intervention</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="truebranching-for-a-release"><a class="anchor" href="#truebranching-for-a-release"></a>Branching for a release</h3>
+<div class="sect3">
+<h4 id="truegui-method-from-david-joyce"><a class="anchor" href="#truegui-method-from-david-joyce"></a>GUI method (from David Joyce)</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Make sure the latest master branch has been built as a ‘T’ build.  Not essential, but it’s good housekeeping.</p>
+</li>
+<li>
+<p>Go to the bitbucket page (e.g. <a href="http://10.162.62.52/projects/LT/repos/qpanel/browse" class="bare">http://10.162.62.52/projects/LT/repos/qpanel/browse</a> for the Panel), and click on the Create Branch link, like so:</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/create-branch-1.png" alt="create-branch">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="3">
+<li>
+<p>Select the branch type as “Release”, and type in the Branch name (i.e. “7.1” will branch off the existing master branch):</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/create-branch-2.png" alt="create-branch">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Now the new branch has been created, but this new branch and master will have the same version, so the second build will fail.  To bump up the version number on master, you first need to perform a commit of some sort (e.g. changing the version.h file to reflect the new version number).</p>
+</li>
+<li>
+<p>Once you have committed and pushed this change, go to the Bitbucket commit page, e.g. <a href="http://10.162.62.52/projects/LT/repos/qpanel/commits" class="bare">http://10.162.62.52/projects/LT/repos/qpanel/commits</a> for the Panel.</p>
+</li>
+<li>
+<p>Click on the commit hash for the commit you have just pushed (e.g. the version.h change).</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/create-branch-3.png" alt="create-branch">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="7">
+<li>
+<p>When the page for this particular commit has loaded, towards the right you find that this commit has no tags associated with it.  Click on the “+” and type in the new release version tag:</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/create-branch-4.png" alt="create-branch">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="8">
+<li>
+<p>Optionally, type in a description, press RETURN or click “Create tag” and you’re done.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>That’s it.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="truecommand-line-method-from-matthew-joyce"><a class="anchor" href="#truecommand-line-method-from-matthew-joyce"></a>Command line method (from Matthew Joyce)</h4>
+<div class="paragraph">
+<p>The following instructions are given using the command line. Equivalent steps can be carried out in many grahical tools, but are given in the command line format to cover all use cases.
+Branching</p>
+</div>
+<div class="paragraph">
+<p>This process describes the branching of a 1.10 branch, with development continuing on a 1.11 branch. Change the numbers as needed.</p>
+</div>
+<div class="paragraph">
+<p>First, create a release branch:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git checkout -b release/1.10</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Push your branch:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git push origin release/1.10</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Switch back to master and create a dummy commit for tagging. The reason for this is that the build system bases its version numbers on the last tag visible on the branch it is building. If there is no new tag both branches will build the same version numbers, which will cause the build on one branch to fail with an error.
+If there&#8217;s a suitable version source file that may be a good candidate to change and commit instead of a dummy commit.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git checkout master
+$ git commit -m "New dev branch" --allow-empty</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then apply the new tag:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git tag -a release/T1.11.0-0 HEAD -m "Build: None"</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This is the tag that will determine what version number the CI system gives the code when building.
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>And push:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git push --tags</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-note" title="Note"></i>
+</td>
+<td class="content">
+This will also push the commit that the tag points to
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="truebumping-a-point-release"><a class="anchor" href="#truebumping-a-point-release"></a>Bumping a "point" release</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>After a V,C etc has been built, the build system will automatically add a tag to bump the point release ('c in a.b.c-d). You can do this manually if you need to bump a point release for another reason. This only requires a tag to be created that represents the new version number and pushed on a new (empty if necessary) commit.<br>
+I would tend to make a commit bumping the <code>version.json</code> and <code>PortManagerVersion.py</code> files, and then tag that and push as shown below</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git commit -m "bumped version in version.json"
+$ git tag -a release/T1.10.1-0 HEAD -m "Build: None"
+$ git push origin HEAD
+$ git push origin --tags</code></pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truedeleting-an-unwanted-version"><a class="anchor" href="#truedeleting-an-unwanted-version"></a>Deleting an unwanted version</h3>
+<div class="paragraph">
+<p>From David Joyce</p>
+</div>
+<div class="paragraph">
+<p>One thing we’ve had to do a few times in the past is delete an unwanted ‘C’ or ‘V’ release that was built in error.  With ClearCase and CouchDB, this involved finding the relevant release record, deleting this, deleting the label via the cleartool command line, etc.  Thankfully, with Bitbucket, the procedure is much easier.</p>
+</div>
+<div class="paragraph">
+<p>For example, this morning, we have two builds against the same commit:</p>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/remove-unwanted-version-1.png" alt="git-changelog">
+</div>
+</div>
+<div class="paragraph">
+<p>Not a big problem, but let’s delete the last one as an example.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>First delete the build from herring (i.e. LiveTouch-Panel-T7.1.0-39-installer.exe, in this instance)</p>
+</li>
+<li>
+<p>In a browser, go to the product’s commit page, e.g. <a href="http://ci2vc/projects/LT/repos/qpanel/commits" class="bare">http://ci2vc/projects/LT/repos/qpanel/commits</a></p>
+</li>
+<li>
+<p>Select the appropriate branch, 7.1 in this example:</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/remove-unwanted-version-2.png" alt="git-commits">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="4">
+<li>
+<p>Select the commit which includes the unwanted build tag:</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/remove-unwanted-version-3.png" alt="git-commits">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="5">
+<li>
+<p>On the right hand side, remove the unwanted build label:</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/remove-unwanted-version-4.png" alt="git-commits">
+</div>
+</div>
+<div class="olist arabic">
+<ol class="arabic" start="6">
+<li>
+<p>Email others in the team just in case they have pulled the unwanted tag into their local repo.  This needs removing, as otherwise it will reappear in the remote repo when they next perform a push.  The tag can be removed via Sourcetree in the TAGS listing on the left-hand side:</p>
+</li>
+</ol>
+</div>
+<div class="imageblock indentedborder">
+<div class="content">
+<img src="./images/remove-unwanted-version-5.png" alt="git-commits">
+</div>
+</div>
+<div class="paragraph">
+<p>Or via the command line:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git tag -d release/T.7.10-39</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>alternatively, delete all local tags not in the remote repo:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ git fetch origin --prune +refs/tags/*:refs/tags/*</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>That’s all – going back to the Git changelog, the release is gone, and the next build will proceed as if the removed build had never happened.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truemerge-fixes-from-an-earlier-version-branch-to-master"><a class="anchor" href="#truemerge-fixes-from-an-earlier-version-branch-to-master"></a>Merge fixes from an earlier version branch to master</h3>
+<div class="paragraph">
+<p>If you have committed several fixes on a branch and want to merge all those changes to master (which has a later/larger version number), just doing the merge will cause the build system code to revert to the (earlier) branch version number when doing subsequent builds on master. So there are two solutions to this</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>instead of doing a merge, <code>cherry-pick</code> the commits to the master branch. This should be relatively easy as the command will take a range of commits (just remember that the first commit passed on the command line is exclusive; it will start on the commit after the one given, so use sha1^&#8230;&#8203;sha2 instead).</p>
+</li>
+<li>
+<p>do the merge, but then add a tag on the merge commit to reset the release number back to where it should be. This tag should be of the form:<br></p>
+<div class="literalblock">
+<div class="content">
+<pre>[TVCS][0-9]\.[0-9]+\.[0-9]+\-[0-9]+</pre>
+</div>
+</div>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>for example:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>T1.10.0-53</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The tag release number obviously needs to be one greater than the last one in existence.<br></p>
+</div>
+<div class="paragraph">
+<p>The disadvantages of this are:<br></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>you end up with a apparent release (your new tag number) that doesn&#8217;t actually have a build to go with it, and you can&#8217;t requets the build system to make one (cos the tag&#8217;s there, it thinks it&#8217;s already made one). So You have to add another (maybe empty?) commit to be able to get a build.</p>
+</li>
+<li>
+<p>the changelog page shows all the merged commits as the merged branch version numbers, so it&#8217;s slightly confusing?<br></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>the advantages:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>the version tree shows you exactly what you did/what&#8217;s happened, rather thna a list of commits. This makes it easier to see exactly which chnages from the earlier branch have been applied to this (master) branch.</p>
+</li>
+<li>
+<p>the same thing applies with the changelog page, you can see where the commits came from and that they were exactly the same ones as were committed in the earlier branch.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2020-03-13 14:19:23 GMTST
+</div>
+</div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
+<script>hljs.initHighlighting()</script>
+</body>
+</html>

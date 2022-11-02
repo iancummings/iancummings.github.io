@@ -1,0 +1,87 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Cooking
+
+== Suggestions
+
+=== Gousto
+1. link:Beef-Black-Bean-Burrito-Bowl_Gousto.pdf[Beef & Black bean Burrito Bowl]
+1. Creamy Haddock Linguine with Tomatoes & Chilli
+1. link:Easy-Pork-Corn-Chilli-With-Tortilla-Chips_Gousto.pdf[Easy Turkey & Corn Chilli with Tortilla Chips]
+1. Creamy Chicken Potato-topped Pie
+1. One-pot creamy Sun-dried Tomato & Chicken Stew
+1. Zingy Thai Coconut Chicken Wraps
+
+=== Waitrose
+1. Chicken Jolloff
+1. Chicken Pilaf with Pomegranate
+1. link:https://www.gousto.co.uk/cookbook/chicken-recipes/asian-chicken-burger-sesame-fries[Asian Chicken Burger] 
+or link:asian-chicken-burgers.html[here]
+1. Pesto turkey burgers
+1. Chicken with cider & mustard
+1. Mango Chicken, Cashew & Coconut Rice Stir Fry
+1. link:cumin-lemon-chicken.html[Cumin & lemon chicken with spiced rice]
+1. pesto baked Cod salsa, mash & peas
+1. Tuna, garlic & Chilli pasta
+1. Sardine Fish Cakes
+1. Sausages, creamy mustard sauce, grains
+1. Mushroom & Spinach Stroganoff
+1. Shakshuka
+1. Tuna & Tomato Linguine
+1. Meatball, Kale & mascapone pasta bake
+1. Penne with Sprouts & Pancetta
+1. Cheesey Floret & Pasta bake
+1. Harrisa Meatballs
+1. Steak & Mushroom Stroganoff
+1. Baked Meatballs with Tomato & Mascarpone
+1. Cod, Potato & Spinach Gratin
+1. Cuban-Style Beef & Olive Stew
+1. Sausages with Creamy Mustard sauce (& grains)
+1. Sticky Sausage & Mustard Rolls
+1. Easy Oven-roasted sausage Ratatouille
+1. Beef Stem & Cheddar Dumplings
+
+1. Pork & Mash Gratin (Jamie)
+1. Cottage Pie
+1. Kedgeree
+1. Chilli con carne
+1. Jacket potato
+1. Omelette
+1. Curried chickpeas
+1. Spicy prawns
+1. Fish pie
+
+1. link:mustard-chicken-mash.html[Mustard chicken & mash]
+1. link:chicken-pepper-jollof-rice.html[Chicken & pepper jollof rice]
+
+
+
+== My stuff
+1. link:fish-pie.html[Fish pie]
+1. link:jacket-potatoes.html[Jacket Potatoes]
+1. link:https://www.bbcgoodfood.com/recipes/pan-fried-sea-bass-ratatouille-basil[Sea bass ratatouille]
+
+== Nigella
+Taken from https://www.nigella.com/recipes +
+
+* link:"https://www.nigella.com/recipes/search?tags[]=Express"
+* link:spag-lemon-garlic-breadcrumbs.html[Nigella's Spaghetti with lemon, garlic, and breadcrumbs]
+* link:https://www.nigella.com/recipes/chicken-teriyaki[Chicken Teriyaki]
+* link:https://www.nigella.com/recipes/sake-steak-and-rice[Sake Steak & Rice]
+
+=== Recipes
+
+=== General
+
+* link:http://https://cookingonabootstrap.com//[Cooking on a bootstrap] and link:http://jackmonroe.com/[Jack Monroe]
+
+** link:https://cookingonabootstrap.com/2020/09/23/cheesy-tuna-courgette-mushroom-gratin-65p/[Cheesy Tuna, Courgette & Mushroom Gratin]
+
+== Hello Fresh
+
+* link:HelloFresh001.pdf[1]

@@ -1,0 +1,39 @@
+:stylesheet: doc-gv.css
+:toc: left
+:toclevels: 6
+:toc-title: Contents
+
+:!numbered:
+
+:imagesdir: ./images
+
+The format of the file dumped from LTM is just tables and contents, no database. So we should
+
+[source,sql]
+----
+CREATE DATABASE livetouch DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci;
+----
+
+then to import the database we use a MySQL command line window or Heidi comme ca:
+
+[source,sql]
+----
+mysql> use db_name;
+
+mysql> SET autocommit=0 ; source the_sql_file.sql ; COMMIT ;
+----
+Regarding the time taken for importing huge files: most importantly, it takes more time because the default setting of MySQL is autocommit = true.
+
+
+or on the command line:
+
+[source,cmd]
+----
+c:\> mysql -u username -p database_name < file.sql
+----
+
+[NOTE]
+====
+* It is better to use the full path of the SQL file file.sql.
+* Use -R and --triggers to keep the routines and triggers of original database. They are not copied by default.
+====

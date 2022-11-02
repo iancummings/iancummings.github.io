@@ -1,0 +1,72 @@
+//:stylesheet: doc-gv.css
+:toc: left
+:toclevels: 6
+:toc-title: Contents
+
+:!numbered:
+
+:imagesdir: ./images
+
+:!visibility-gv:
+
+= Helpful stuff
+
+:Author:    Ian Cummings
+:Email:     <ian.cummings@grassvalley.com>
+:Date:      September 2018
+:Revision:  V0.1
+
+:imagesdir: ./images
+
+== Corporate
+* link:pmo-plc.html[PMO cribsheet]
+
+== Agile
+* link:../agile/agile-cribsheet.html[Agile]
+
+== git & CI
+* link:git-at-gv.html[git cribsheet]
+
+== Asciidoc
+* link:../template.html[Asciidoc cribsheet]
+
+== CSS
+This document uses link:doc-gv.css[doc-gv.css], and the Asciidoc template uses link:gv.css[gv.css]
+
+* link:doc-gv.css[doc-gv.css]
+* link:gv.css[gv.css]
+
+== Values
+
+* link:Belden%20Values%20Framework.htm[Belden Values]
+
+== Phone numbers
+[grid=rows]
+|========================================
+| Judy | 3991 
+| Lounge | 3326
+| Ian | 3812
+| Anthony | ??
+| David | ??
+| Graham | ??
+| Laura | ??
+|========================================
+
+== JIRA
+
+=== Links
+
+* http://jira.gv.grassvalley.com/secure/ShowConstantsHelp.jspa?decorator=IssueTypes[Issue types - live]
+* link:jira/issuetypes.html[Issue types - local]
+* link:jira/workflows-for-issue-types.png[workflows for issue types]
+
+=== Workflows
+
+* link:jira/ccb3.png[3 step]
+* link:jira/ccb4.png[4 step]
+
+== LiveTouch databases
+* link:import-sql-db.html[import a customer database]
+
+== Judy's Test Machines
+* link:judy-test-machines.html[Judy's Test Equipment]

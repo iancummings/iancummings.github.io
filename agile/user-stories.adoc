@@ -1,0 +1,15 @@
+Developer view:
+|===
+| GUI
+|Service/Business logic
+| DB access layer
+| DB App server
+|Op system
+|hardware
+|===
+
+User view is per feature.
+
+Developer sees a stack of a cake, users see slices of cake.
+
+Stories should be 1 to 2 days

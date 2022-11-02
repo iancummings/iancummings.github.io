@@ -1,0 +1,63 @@
+//:stylesheet: doc-gv.css
+:toc: left
+:toclevels: 6
+:toc-title: Contents
+
+:!numbered:
+
+:imagesdir: ./images
+
+:!visibility-gv:
+
+= Judy's system
+
+:Author:    Ian Cummings
+:Email:     <ian.cummings@grassvalley.com>
+:Date:      November 2020
+:Revision:  V0.1
+
+:imagesdir: ./images
+
+== Judy's System
+
+=== LTM
+http://10.96.229.11:5000 & http://10.96.229.15:5000
+
+There's one at http://10.96.230.133:5000 which isnt' running?
+
+=== ISA
+http://10.96.229.10 & http://10.96.229.14 +
+zone 200 +
+T7.0.0.14 +
+no remote zones
+
+=== sQServers:
+
+==== 19140 (NS1)
+* 10.96.229.17 +
+* Rocky +
+* V5.11.29 +
+
+==== 22558 (NS2)
+* 10.96.229.20 +
+* Arthur +
+* V2.6.9 +
+* Pool 2100 +
+* 4 channels AiR ports 0-3 +
+* 2 channels playout (4 and 5) owned by controller "F1" +
+
+
+==== 22562 (NS3)
+* 10.96.229.23
+* Arthur
+* V2.6.9
+* Pool 5503
+* 4 channels AiR ports 0-3
+* 2 channels playout (4 and 5) owned by controller "Acornym"
+
+==== Clients
+* 10.96.230.133
+* 10.96.230.130
+
+==== FFManager
+* http://10.96.230.130

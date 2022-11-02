@@ -1,0 +1,534 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Agile Practices
+
+//{{{
+== Manifesto
+
+…​we have come to value:
+
+[stripes=none,width="100%"]
+|===
+^|**Individuals and interactions** over *processes and tools*
+^|**Working software** over *comprehensive documentation*
+^|**Customer collaboration** over *contract negotiation*
+^|**Responding to change** over *following a plan*
+|===
+
+That is, while there is value in the items on
+the right, we value the items on the left more.
+
+== Twelve Principles
+1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+1. Welcome changing requirements, even late in development. Agile processes harness change for the customer’s competitive advantage.
+1. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+1. Business people and developers must work together daily throughout the project.
+1. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+1. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+1. Working software is the primary measure of progress.
+1. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+1. Continuous attention to technical excellence and good design enhances agility.
+1. Simplicity—​the art of maximizing the amount of work not done—​is essential.
+1. The best architectures, requirements, and designs emerge from self-organizing teams.
+1. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly.
+//}}}
+
+//{{{
+== Basic Structure
+//{{{  summary tables
+.Roles
+[width="70%"]
+|========================================
+| Product Owner
+| Scrum Master
+| Development Team
+|========================================
+
+.Artifacts
+[%header,cols=2*,width="70%"]
+|========================================
+| Artifact | Owner
+| Product Backlog | Product Owner
+| Sprint Backlog | Scrum team
+| Product Increment | All: A sprint delivers this
+| Outcome goals |
+|========================================
+
+.Ceremonies
+[width="70%"]
+|========================================
+| Sprint Planning
+| Daily Scrum
+| Sprint Review
+| Retrospective
+| Backlog refinement/grooming
+| Backlog estimating
+|========================================
+//}}}
+
+//{{{
+=== Artifacts
+==== Product Backlog
+"The Product Backlog is an ordered list of everything that is known to be needed in the product. It is the single source of requirements for any changes to be made to the product. The Product Owner is responsible for the Product Backlog, including its content, availability, and ordering." +
+While there are multiple inputs to the product backlog, it is the sole responsibility of the product owner to prioritize the product backlog.
+
+==== Product Backlog Item
+
+A product backlog item ("PBI", "backlog item", or "item") is a unit of work small enough to be completed by a team in one Sprint iteration. Backlog items are decomposed into one or more tasks.
+
+==== Sprint backlog
+Owned by the dev team.
+
+==== Increment
+"The Increment is the sum of all the Product Backlog items completed during a Sprint and the value of the increments of all previous Sprints. *At the end of a Sprint, the new Increment must be "Done," which means it must be in useable condition and meet the Scrum Team’s definition of "Done".* An increment is a body of inspectable, done work that supports empiricism at the end of the Sprint. The increment is a step toward a vision or goal. The increment must be in useable condition regardless of whether the Product Owner decides to release it."
+//}}}
+
+//{{{
+=== Other Objects
+====  Heirachy
+Project, Goal, Epic/Feature/Container/Category, User story, task
+
+==== User Stories
+"As a ?, I want/can ?, so that ?" +
+
+Anyone can write user stories. It’s the product owner’s responsibility to make sure a product backlog of agile user stories exists,
+but that doesn’t mean that the product owner is the one who writes them.
+
+They should be 
+
+* Independent +
+_of other user stories_
+* Negotiable
+* Valuable +
+_to a stakeholder_
+* Estimatable +
+_unambiguous enough for delivery team to have an good idea how big it is_
+* Small +
+_small enough so can fit several in a sprint_
+* Testable
+
+The above is not mandatory as some of the points conflict with each other (small vs valuable, small vs independent) so consider as guidelines.
+
+==== Story points
+1, 2, 3, 5, 8, 13, 20, (40, 100) +
+
+WARNING: story points above 20 are generally not recommended as it’s simply too hard to estimate individual work items larger than that with a high degree of confidence. 
+
+Story Points are about **effort**. Complexity, uncertainty and risk are factors that influence effort but each alone is not enough to determine effort. +
+
+ story points = f(volume, Risk & Uncertainty, Complexity)
+ 
+The values themselves aren’t important, but the scale used should allow relative estimates; a '2' is twice as much as a story that is valued at '1'.
+
+* risk/unpredictability/uncertainty +
+unclear demand, 3rd party dependence, etc
+* complexity
+* quantity of work to do
+
+NOTE: The estimate doesn’t depend on who’s implementing the story. 
+
+==== Splitting User Stories
+===== Why?
+1. To make them small enough
+2. To separate out high value from low value +
+Pareto principle (80:20)
+
+The graph below shows us that after we've completed 80% of the planned features, the return on effort tails off dramatically.
+
+image::Pareto_graph_550w_1.jpg[]
+
+
+==== Story Gauge
+
+==== Outcome goals
+Three to five outcome goals is recommended.
+
+* time based
+* measurable
+* post-release
+* prioritised
+//}}}
+
+//{{{
+=== Ceremonies
+==== The Sprint
+A time-boxed period of work during which a "done", useable, a potentially releasable product increment is created.
+
+==== Daily Scrum
+===== Attendees
+The attendees are dev team & scrum master. There are differing views about the Product Owner. +
+Anyone else (for example, a departmental VP, a salesperson or a developer from another project) is allowed to attend, but is there only to listen. This makes scrum meetings an excellent way for a Scrum team to disseminate information—if you’re interested in hearing where things are at, attend that day’s meeting.
+
+===== Content
+Ideally, a daily scrum meeting is held in the morning, as it helps set the context for the coming day’s work. These scrum meetings are strictly time-boxed to 15 minutes. This keeps the discussion brisk but relevant. +
+*The Development Team uses the Daily Scrum to inspect progress toward the Sprint Goal and to inspect how progress is trending toward completing the work in the Sprint Backlog.* +
+It is not used as a problem-solving or issue resolution meeting. Issues that are raised are taken offline and usually dealt with by the relevant subgroup immediately after the meeting. Think of it more as a collaborative plannign session with teh aim being During the daily scrum, each team member answers the following three questions:
+
+1. What did you do yesterday?
+1. What will you do today?
+1. Are there any impediments in your way?
+
+The Scrum Master ensures that the Development Team has the meeting, but the Development Team is responsible for conducting the Daily Scrum. Any impediments that are raised in the scrum meeting become the ScrumMaster’s responsibility to resolve as quickly as possible. 
+
+==== Spike
+A story that cannot be estimated until the dev team runs a time-boxed investigation. The output of a spike is an estimate for the original story.
+
+==== Swarms/Swarming
+
+==== Sprint Planning
+**Attendees**: SM, PO, devTeam +
+**Time**: 4hrs max (target 1.5-2) +
+
+During Sprint planning the Scrum team also crafts a Sprint Goal.
+It is an objectve that will be met within the Sprint through the implementation of the product Backlog, and provides guidance to the dev team on why
+it is builiding the increment (see link:https://www.scrumguides.org/scrum-guide.html[The Scrum Guide])
+
+===== Sprint zero (see scrumalliance.org and others)
+1. Sprint Zero should be used to create the basic skeleton and plumbing for the project so that future sprints can be truly add incremental value in an efficient way.
+It may involve some research spikes.
+1. Minimal design up front is done in Sprint Zero so that emergent design is possible in future sprints.
+This includes putting together a flexible enough framework so that refactoring is easy.
+1. For minimal design up front, the team picks up a very few critical stories and develops them to completion.
+Since these are the first few stories, delivering them includes putting the skeleton/framework in place, but even Sprint Zero delivers value.
+
+==== Backlog refinement/Grooming
+**Attendees**: SM, PO, devTeam +
+**Time** :1-2hrs +
+This ensures that the items at the top of the product backlog are ready for the next sprint. This can include
+
+* ensure upcoming user stories meet the team’s “definition of ready” by adding key contextual information and acceptance criteria
+* estimating/assigning story points - optional
+* deleting
+* adjusting priorities
+* splitting so as to better fit in a sprint
+
+**Outcome**:you should have a prioritized list of user stories. You want the items at the top of the backlog to contain the highest level of detail.
+
+==== Backlog Estimating
+**Attendees**: SM, PO, devTeam +
+**Time** :15-30mins as needed +
+An optional meeting as and when required to estimate new/revised product backlog items
+
+//}}}
+//}}}
+
+==== Review & Retrospective Durations
+For each week of sprint duration, apply one hour of meeting time for the sprint review. For the retrospective, apply .75 hours (45 minutes) for each week of sprint duration.
+
+==== Sprint Review
+**Attendees**: SM, PO, devTeam, stakeholders, others
+
+The sprint review is an informal meeting which the development team, the scrum master, the product owner and the stakeholders will attend. The team gives a demo on the product and will determine what is finished and what isn't. The purpose of the Sprint Review meeting is for the team to show the customers and stakeholders the work they have accomplished over the sprint and compare it to the commitment given at the beginning of the sprint.
+
+* Present Product Increments +
+The Development Team present the product demo that have been implemented in the Sprint
+
+* Get Feedback +
+The Product Owner asks the stakeholders for feedback regarding the product that have been delivered
+
+* Present Product Backlog +
+The Product Owner presents the top of the Product Backlog to stakeholder to get feedback for the upcoming Sprint(s) and solicit feedback from the stakeholders related to the backlog
+
+image::./sprint-review.png[]
+
+==== Sprint Retrospective
+**Attendees**: SM, PO, devTeam +
+**Time**: up to 1hr as needed +
+
+Sprint retrospective meeting takes place immediately after the sprint review. While sprint review is a discussion about _what_ the team is building, sprint retrospective is focused on __how they’re building it__.
+
+This meeting is usually slightly shorter than the sprint review and shouldn’t last more than three hours per month-long sprint. For the most effective meeting, the whole Scrum team, including the product owner, should attend and participate.
+
+The *goal* of sprint retrospective is **improving the development process**. The Scrum team reflects on the previous sprint and discusses what’s working well, what could be improved, and how they could improve it to be more productive.
+
+
+Feedback link:sprint-feedback.txt[Sprint feedback]
+
+Each team member is asked to identify specific things that the team should:
+
+[options="interactive"]
+.Changes
+* [ ] &nbsp; Start doing
+* [ ] &nbsp; Stop doing
+* [ ] &nbsp; Continue doing
+
+
+[options="interactive"]
+.Detail
+
+* [ ] &nbsp; what worked?
+* [ ] &nbsp; What didn’t/isn’t work(ing)
+* [ ] &nbsp; What adjustments should we make to improve performance?
+* [ ] &nbsp; identify small number of changes to implement & monitor in next sprint
+* [ ] &nbsp; Health check for the team
+* [ ] &nbsp; Celebrate the success!
+
+image::sprint-retrospective.png[]
+
+//{{{
+== What Happens When (workflow)
+
+1. Before the sprint starts, the Product Owner creates/updates the Product Backlog. The list is prioritised by him/her, and all items are small enough to be completed during a sprint ([red yellow-background]__how does this get established?__)
+
+1. Sprint planning
+Whole team plans by selecting items from PB. Ideally items are selected to achieve a sprint goal. +
+Once +
+Dur:2-4 hrs / 2wk sprint
+
+1. Daily scrum
+Dev team & scrum master coordinates/aligns efforts. If Others present, SM ensures they do not disrupt meeting.
+Daily +
+Dur:15mins
+
+1. Backlog refinement
+Whole team ensures that items at top of backlog are ready for next sprint. This can include adding detail, estimating, adjusting priorities, splitting items, adding new items. +
+Once or twice / 2wk sprint (towards end of print) +
+Dur:1-2 hrs/ 2wk sprint
+
+1. Backlog estimating
+Optional meeting for the whole team as needed to estimate new/revised PBIs +
+Dur:15-30mins
+
+1. Prioritisation
+PB prioritisation by the PO after soliciting input.
+
+1. Sprint review
+The whole team attends. Finished work is shown and feedback solicitied ([red yellow-background]__how__?) +
+PO will add, remove, adjust priorities. +
+Dur:1-2hrs +
+Last day of sprint
+
+1. Retrospective
+Whole team discusses how sprint went and identify "opportunities for improvement".
+Dur:0.5-1hr
+
+image::what-happens-when-2-week.png[whw]
+
+//}}}
+
+//{{{
+== Course Notes
+
+//{{{
+=== Managers
+
+* lots of change requests may mean that we’re building the wrong thing?
+* need to track rework(bugs) and change requests - this gives us a metric that can prove/disprove that we’re delivering.
+* finish current work, rather than starting somethign new even if it means people chnaging roles temporarily
+* Agile practice patterns are just that; they don’t define Agility.
+* Lean, applied to software = "Agile"
+* retrospective - improve teamwork etc
+* for large/separated teams, can subdivide into "scrum of scrums" to synchronise work. Each team sends a team member representative.
+* manage the portfolio so that the team doesn’t feel like they’ve failed all the time. No "stretch goals" for example.
+* user stories include the user, requirements only consider the system.
+* Humans are no good at estimating, but good at binary comparisons; bigger/smaller, simpler/complicated
+* Story points; 1, 2, 3, 5, 8, 13 (, 20, 40, 100)
+* Every sprint, decide: release, modify, cancel.
+//}}}
+
+//{{{
+=== Basics
+* TIIFVC: [red]**T**imeboxed, [red]**I**ncremental, [red]**I**terative, [red]**F**eature-led, [red]**V**alue-driven, [red]**C**hange-responsive
+* Three types of documents:
+** user
+** engineers
+** regulatory
+// * It’s unlikely anyone (including the customer) knows what they want at the beginning of the project.
+* The product backlog is **ordered**, not **prioritised**.
+* Item in product Backlog must match the **definition of ready** before it can be pulled into the sprint backlog.
+//}}}
+
+//{{{
+=== Scrum Master
+* Defn of Done: start with what you’re doing now, expand later over a few sprints
+
+* can scrum masters be devs or managers? It depends.
+
+* Success needs
+** leadership support
+** definition of done
+** customer engagement
+
+* definition of done is linked to quality
+* research should be done as a spike
+** zero velocity
+** no story points
+** no added value to customer
+* velocity is not a measure of a team’s performance, it’s a sprint planning aid (it’s forecasting, _not_ prediction)
+* stories should be 3-4 days long
+* story points represent _effort_ not time, and they don’t depend on the person doing it, it just affects velocity.
+* Project outcome goals → customer focussed value +
+feature 'A' by 2 months is a constraint, not a goal.
+//}}}
+
+=== Story Gauge
+This is a way of categorising the effort values. Define a collection of characteristics that are associated with each effort value. This is decided by all teams together so that the effort scores are consistent between teams.
+
+//{{{
+=== Sprint Planning
+* calendar: work out the teams hours for that month
+** 5-6 hours/day or 30hrs/week
+* sprint:
+** subtract support/maintenance hours
+** subtract improvement backlog items (test automation etc)
+** KLO/KTLO items (updates, paperwork)
+** with remaining time, pick stories
+* Product Owner decides the balance between stories and support.
+
+==== Story Ordering (from the course)
+* Establish prioritised outcome goals
+* write user stories
+* connect user stories to outcome goals
+* Size the user stories. Assign points based on _relative_ effort (binary comparison, not time estimation)
+* assign business value/importance of high, medium, low
+* there are now a collection of user stories so prioritise the list:
+** rank according to value & points (while checking dependencies)
+** write ranking on card. Each member of the team either:
+*** takes a story and places it in relative order
+*** moves one of the existing ordered items
+
+==== Bucket Planning
+This method of release planning is an alternative to Planning Poker, and uses the ordered Product Backlog. It is supposed to be quicker than Planning Poker. It provides relative results (not hours), and the results are not traceable to one individual (group accountability). +
+
+* set up 13 "buckets": +
+0, 1, 2,3 , 4, 5, 8, 13, 20, 30, 50, 100, 200
+* choose and item at random and place on bucket '8' (the centre)
+* pick another item at random, discuss with the group it’s relative position and once consensus reached, place item appropriately.
+* repeat previous step - we now have three items in relative order.
+* rescale the items if necessary
+* allocate remaining items evenly to all participants, they place items on the scale without input from others.
+* Sanity check - any items a participant feels is out of place is discussed and if necessary, moved.
+* write bucket numbers / story points on the cards so that the estimates are recorded.
+
+[.text-center]
+image::The-Bucket-System-600x176.png[bucket planning]
+
+==== Planning Poker
+1. the team chooses the item with the lowest effort and allocates it a "2"
+1. the team finds the highest effort item
+1. each team member chooses an effort value
+1. if all values are the same, this is the result for that item.
+1. if not, the members that chose the highest and lowest explain their reasons.
+1. go back to item 3
+
+or
+
+1. Each estimator gets a set of cards;
+1. All estimators select backlog items, discuss features, and ask questions;
+1. When a feature has been fully discussed, each estimator privately (to make the estimate objective) chooses a card to represent his or her estimate;
+1. When all estimators have made their estimates, they reveal their cards at the same time. If all estimates match, estimators select another backlog item and repeat the same process. When estimates differ, the estimators discuss the issue to come to a consensus.
+
+
+==== Rolling Buckets
+This is the way of release planning; after the user stories are all ordered, given the velocity of the team and allowing time for support (bugs), improvement backlog (unit tests etc), KTLO (s/w updates, paperwork etc) we can work out sprint/bucket capacity and therefore plan a reasonable distance ahead to get rough dates for a release. This will obviously change and the dates should be updated regularly.
+For example, given work that you calculate will fill 6 sprints, you should probably say 6-8 sprints. You can calculate a cost per sprint and so that gives you a cost for the project. +
+Ideally you would add a sprint or two into for contingency and give the estimate in a range of sprints but do watch out for and track changes in velocity.
+//}}}
+
+=== Notes
+* Knowledge workers actually manage about 5-6 hours/day or 30hrs/week. +
+High throughput/flow depends on relatively low utilisation.
+//}}}
+
+== JIRA
+
+=== create sprint
+* goto projects (top menu)
+* goto backlog (left menu)
+** it shows current sprints at top with a "create sprint" underneath (at the top of the product backlog)
+* create sprint
+** give it a name (probably with a number as there will be several)
+* go to RHS ellipsis: …​ and enter sprint goal
+
+* click on magnifying glass to filter
+
+
+
+* calendar: work out the teams hours for that month
+** 5-6 hours/day or 30hrs/week
+* sprint:
+** subtract support/maintenance hours
+** subtract improvement backlog items (test automation etc)
+** KLO/KTLO items (updates, paperwork)
+** with remaining time, pick stories
+* Product Owner decides the balance between stories and support.
+
+
+=== A Definition of done
+
+
+
+."Standard" definition of done
+|===
+2+| *__Developer related__*
+| *Software written* |	Compilation completes with no errors AND no significant warnings
+| *Manual story validation testing complete* |	No serious defects (No critical or major Jira bugs linked to the story)
+|**Unit tests run**	|Unit tests pass 100%
+|**Code available on delivery branch**	| Changes checked into version control and the branch specification available
+2+| *__Validation related__*
+|**Sprint release candidate built** |	Coherent set of named T builds available that could become a set of product V releases
+|**Regression Tests complete**|	No regressions found
+|**Technical briefing available**	|Belden TOI available for support and training groups
+|**Reviewed by User**|	Stories reviewed
+|===
+
+Open our *LiveTouch* work doc link:W:\work\doc\asciidoc\agile\defn-of-done.pdf[here]
+
+// include::defn-of-done-table.adoc[table]
+
+//{{{
+== Questions & Tips
+=== How to Work with Complex User Stories That Cannot Be Split
+// https://www.mountaingoatsoftware.com/blog/how-to-work-with-complex-user-stories-that-cannot-be-split
+Most user stories can be split. It may be hard to find a good way to split some stories, but most can be split.
+These are known as compound stories - stories that are made up of multiple smaller stories.
+
+There is another type of story: the complex story. Complex stories are ones that cannot be split.
+They are inherently large or complex and there are no subparts to be pulled into separate stories.
+
+Even with a complex story, you don’t want to let the story linger open for three, four or more sprints. Doing so
+
+* Makes velocity less predictable from sprint to sprint
+* Increases the risk of a developer going astray from user expectations , and
+* Allows the team to develop the bad habit of leaving work incomplete at the end of an iteration
+
+When it’s impossible to find a good, natural split that results in two or more smaller, functional stories look instead for progress points.
+A progress point is any point during the development (usually coding) of a feature at which the developer feels something has been accomplished.
+Should be limited to two or three sprints.
+
+* Split by process step
+* Split by I/O
+* Split by user options
+* Split by role/persona
+* Split by data range
+
+[red]#WARNING#:
+Do not split stories by system, component, architectural layer or development process as this will conflict with the teams definition of "done" and undermine the ability of the team to deliver potentially shippable software every Sprint.
+
+
+//}}}
+
+
+//{{{
+== Unanswered questions
+* "A new sprint starts imediately after the conclusion of the previous sprint" +
+_? no time for individual design_
+//}}}
+
+
+== Online help
+* link:https://www.scrumguides.org/scrum-guide.html[The Scrum Guide]
+* link:https://medium.com/@mdalmijn/12-common-mistakes-made-when-using-story-points-f0bb9212d2f7[Story points]
+* link:
+* link:
+* link:
+* link:
+
+link:https://bcert.me/bc/html/show-badge.html?b=qhwjwpkc[My Certification]
