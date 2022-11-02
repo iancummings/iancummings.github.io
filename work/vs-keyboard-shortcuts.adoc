@@ -1,0 +1,21 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Keyboard shortcuts
+
+[%header]
+|===
+| Function | keystroke | Undo
+| Move code | ALT UP | ALT DOWN
+| Create fold | CTRL + *M* + *H* | CTRL + *M* + *U*
+| Comment code block | CTRL + *K* + *C* | CTRL + *K* + *U*
+| Navigate locations | CTRL + *MINUS* | CTRL + SHIFT + *MINUS*
+| Delete line | CTRL + SHIFT + *L* |
+| Cut line (to clipboard) | CTRL + *L* | <paste>
+|===

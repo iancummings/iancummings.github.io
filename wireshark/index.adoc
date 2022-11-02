@@ -1,0 +1,39 @@
+////
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+////
+
+= Wireshark
+
+== Setup
+* ANALYSE - turn off DCOM & PARLAY protocols
+* set buffer to 20MB - 100MB?
+
+== Display filters
+----
+ip.addr==10.162.46.235 # <1>
+----
+ 
+<1> both as src and dst
+
+don't display any of the following ip addresses
+
+----
+ !(ip.addr == 10.250.100.214 or ip.addr == 10.250.100.117 or ip.addr == 10.250.100.252)
+----
+
+
+
+== Capture filters
+ host 10.162.46.235
+
+or
+
+ host 10.250.100.30 or host 10.250.100.2 and not broadcast
+
+link:https://www.ripe.net/about-us/press-centre/understanding-ip-addressing[]
+
+ net 10.250.100.0/25 = up to .127
+
+

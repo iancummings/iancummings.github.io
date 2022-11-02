@@ -1,0 +1,44 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Dumbells
+
+== Warm up
+* legs wide, hold feet, rock side to side
+* kneel on one leg, arm next to forward foot, stretch other up to ceiling
+* drop squat and rock
+* legs apart, windmill to inside of trainer
+* frontal shoulder rotation; each arm separately
+* feet apart, touch toes
+
+
+== Exercises
+=== 50s on, 10s rest -> all x3
+1. hands on dumbells -> pressups (to give extra depth)
+1. renegade row into burpee press
+1. one handed snatch - alternating arms
+1. on knees, Arnie press
+1. standing, reverse lunge and press
+1. standing, reverse lunge and lateral raise
+1. squat & press twice
+1. 1 pressup, 2 shoulder taps
+1. varies:
+.. first time:hold plank for 1 minute
+.. second time: plank to pressup
+.. third time: 20 pressups, 40 shoulder taps
+1. goto 1
+
+=== 30s on, 8s rest
+Same as above but obviously different time
+
+
+== Stretch
+* arm down between shoulder blade
+* arms across chest; one then the other
+* frontal rotation, backward rotation
+* hands out, palms together, rotate outwards & push back
+* hands on hips, rotate neck, both directions

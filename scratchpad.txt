@@ -1,0 +1,810 @@
+
+- we need somme sort of timescale for the MVP of the player - what's the first feature it must support?
+- Do we really need UHD for December?
+- sending assetts to AM - automatic by tag?
+
+Will the current genQ VP cope with UHD?
+if so lovely, if not - do we really need that for Dec -> Damon
+If not, then which next feature is dependant on the new player?
+Who will take over the library service as I'm not soing that? Rosters and Storage of speed presets for example...
+
+14135 - Anthony getting round the fact that there's no POST with a tagsheet as a body
+
+================================================================
+
+Some Questions, then T-shirt size the NAB epics/features
+
+4. Regarding the ‘clip cue editing for each input channel’ TV Globo recently provided additional feedback on this. 
+“We have different vendors that are capable to  do mark in-out operations independently for each channel. It was not possible to do a similar operation on AMPP Replay.”
+5. Multiple Output Ports (8683) - ask Andrew - assign to Andrew and ask him to sort it!
+  
+
+
+1. Extended Tags (Rosters) - 5 points? 8
+  a) Import on UI - no change
+  b) TagModel object - no change -> Library Service - no change?
+  c) App UI changes
+  d) Export XML changes
+	2. Week for Andrew to scope UHD? - 5 points?
+	3. Scope of new player required - ???
+	4. Can we close Epic PBS? (9644) - need public release
+	5. Can we close Epic AMPP connected LiveTouch Panel (5366)? - need public release
+
+speed preset
+
+========================================
+ado-16593 - roll out library service
+===========================================
+3. Identifying Training Needs "key elements of career growth & development is facilitating adequate training..."
+
+
+Phil Johnson
+
+1. What products does he cover? bbc sky, ibtel, ndr, rogers
+
+2. Items to be worked on from Ian Stoner's list?
+2. Who tests - only Ian Stoner?
+3. Which physical machines does he use?
+
+6 monthly
+
+=====================================================================================
+
+iops? 1000 iops
+enough cache?
+too close to live ? Can change in code but needs a rebuild at least!
+ran out of gpu - one recording failed
+
+
+======================================================================================
+
+Thanks Nick.
+
+We’ve chatted this issue over with Vincent Trussart amongst others, and he says that the Isolon really isn’t the type of device that should be used for recording; it might cite very impressive bandwidth figures, but the IOPS figure is not good and in his experience it has a reputation for just “going away for a bit” at times, which we’ll have difficulty coping with.
+
+We would still like to investigate, but I thought I’d just keep people up to date.
+
+Ian
+
+
+Gas usage:
+?? Average home uses 9,000kWh pa heating
+?? 35-80kWh a day
+
+
+Chainsaw
+========
+15" bar
+.325" pitch
+64 links
+1.3mm guide
+type 30
+Oregon Oregon 95TXL
+
+Dos window colour
+=================
+RGB:255,183,0
+
+Domain Transfer
+===============
+
+IONOS, Customer Id: 12459666
+contract number for
+ iancummings.com: 		2769401
+ coldashparish.org.uk : 40663046
+ shopping-email.co.uk : 2769401
+ ??? 				  : 48023416
+
+IONOS Tag: IONOS
+ 
+Freeparking: 
+Customer Id: 12459666
+ 
+ Domain name:
+        tomcummings.co.uk
+
+    Data validation:
+        Nominet was able to match the registrant's name and address against a 3rd party data source on 23-May-2015
+
+    Registrar:
+        Namesco Limited [Tag = FREEPARKING]
+        URL: http://www.names.co.uk
+
+    Relevant dates:
+        Registered on: 12-Apr-2001
+        Expiry date:  12-Apr-2022
+        Last updated:  14-Mar-2020
+
+    Registration status:
+        Registered until expiry date.
+
+    Name servers:
+        ns1.ukdnsservers.co.uk    162.251.82.247
+        ns2.ukdnsservers.co.uk    162.251.82.248
+
+    WHOIS lookup made at 13:45:44 11-Feb-2022
+
+-- 
+This WHOIS information is provided for free by Nominet UK the central registry
+for .uk domain names. This information and the .uk WHOIS are:
+
+    Copyright Nominet UK 1996 - 2022.
+
+You may not access the .uk WHOIS or use any data from it except as permitted
+by the terms of use available in full at https://www.nominet.uk/whoisterms,
+which includes restrictions on: (A) use of the data for advertising, or its
+repackaging, recompilation, redistribution or reuse (B) obscuring, removing
+or hiding any or all of this notice and (C) exceeding query rate or volume
+limits. The data is provided on an 'as-is' basis and may lag behind the
+register. Access may be withdrawn or restricted at any time.
+
+Information Updated: 2022-02-11 13:45:44
+
+Transfer initiated 13:55, Fri 11-feb-2022
+
+
+iancummings.co.uk -> http://icc-webroot.s3-website-us-east-1.amazonaws.com/, ian.cummings@gmail.com
+
+
+=====================================================================================================
+WFH
+- is home the "normal" place of work/
+- company declaration stating above
+- mileage allowance to/from work
+- stationery/printing costs
+- extra home insurance cover
+- not my responsibility to ensure broadband access
+- provision of IT equipment; PC, monitors, mouse etc
+  - not covered by home insurance for breakage, theft etc
+- no implicit access to home by company
+
+
+- lack of interaction socially and professionally
+
+HOWTO.txt - tagged blobs 
+ 
+From: CN=David Mansergh/OU=Research/O=Quantel 
+Sent: 21/02/2011 15:55 
+To: R&D Holly Software <RD_Holly_Software@quantel.com>; Fang Ren <fang.ren@quantel.com>; CN=Shyam Odedra/OU=Research/O=Quantel@Quantel 
+Archived: 16/07/2018 15:25 
+Folder: Outlook Ian.Cummings@Quantel.Com/Folders/genQ 
+
+If you are not familiar with the content of kernel\HOWTO.txt you should read it!
+
+I have modified it to include the following information about tagged blobs. I include the sections about version.h and blob version numbers in case you have forgotten...
+
+Regards, David.
+
+{{{
+
+HOWTO modify Version.h
+
+----------------------
+
+If you change the .reg file for a dll you need to change the Version.h file so that the registry is updated on start-up.
+
+Version.h contains a 4 part version number. Changing any of the first 3 numbers will cause the registry to be updated.
+
+Change the SECOND number if you make a registry change on Main Latest.
+
+Change the THIRD number if you make a regsitry change on a branch.
+
+This avoids version number clashes between different versions.
+
+}}}
+
+{{{
+
+HOWTO modify blob version numbers
+
+---------------------------------
+
+If a blob contains a version number and does not use tags
+
+then you should increment the version number when you make a change to the blob format.
+
+Try to avoid making changes to the blob format or version number except in Main Latest.
+
+Making changes on a branch needs to be done very carefully so that version numbers are unique
+
+and so that customers can migrate backwards/forwards between software revisions.
+
+}}}
+
+{{{
+
+HOWTO modify tagged blobs
+
+---------------------------------
+
+If a blob uses a tag reader to identify the contents, the existing values of the tags enum must NOT be changed.
+
+This means that the contents of old blobs can always be read and the contents of newer blobs can be ignored where appropriate.
+
+New tags MUST be added at the end of the tags enum.
+
+Old tags MUST be preserved in the tags enum even when that data member is no longer read/written.
+
+If the meaning of a data member is changed then it should be persisted with a new tag
+
+so that it can be distinguished from the prior usage.
+
+The blob version number should NOT be changed since this introduces unnecessary incompatibility.
+
+}}}
+
+
+
+
+
+Laura
+I'm very sad that you're leaving, we had a great team & you'll be sorely missed. I don't know what we're going to do without the badgers & their friends but I think they'll be happy following you on to more exciting things. Loads of luck, Ian
+https://www.leavingcard.com/gb/view/1616061268102h2QJDXMSkPa7
+
+Seaborne, Lucy <Lucy.Seaborne@grassvalley.com>; Goto, Hiroko <Hiroko.Goto@grassvalley.com>; Kubiak, Hubert <Hubert.Kubiak@grassvalley.com>; Robinson, Ian <Ian.Robinson@grassvalley.com>; Coombs, Jamie <Jamie.Coombs@grassvalley.com>; Khan, Mohammed <Mohammed.Khan@grassvalley.com>; McDonald, Sean <Sean.McDonald@grassvalley.com>; Knaggs, Lee <Lee.Knaggs@grassvalley.com>; Clark, Anita <Anita.Clark@grassvalley.com>; Bain, Andrew <Andrew.Bain@grassvalley.com>; Weaver, Michael <Michael.Weaver@grassvalley.com>; Morando, Andrew <Andrew.Morando@grassvalley.com>; Simmonds, Andrew <Andrew.Simmonds@grassvalley.com>; Hart, Judy <Judy.Hart@grassvalley.com>; Hayes, Anthony <Anthony.Hayes@grassvalley.com>; Joyce, David <David.Joyce@grassvalley.com>; Steele, David <David.Steele@grassvalley.com>; Masoero, David <David.Masoero@grassvalley.com>; Marsh, Richard <Richard.Marsh@grassvalley.com>; Ling, Andy <Andy.Ling@grassvalley.com>; Rogers, Ian <Ian.Rogers@grassvalley.com>; King, Kevin <Kevin.King@grassvalley.com>; Smith, Edward <Edward.Smith@grassvalley.com>; Tibbenham, Colin <Colin.Tibbenham@grassvalley.com>; Taylor, Adrian <Adrian.Taylor@grassvalley.com>; Stoner, Ian <Ian.Stoner@grassvalley.com>; Stanborough, Andrew <Andrew.Stanborough@grassvalley.com>; Nonweiler, Brian <Brian.Nonweiler@grassvalley.com>; Jessett, Gary <Gary.Jessett@grassvalley.com>; Noble, Richard <Richard.Noble@grassvalley.com>; Hawkins, Damon <Damon.Hawkins@grassvalley.com>; Callaway, Ian <Ian.Callaway@grassvalley.com>; Fry, George <George.Fry@grassvalley.com>; Yau, Jonathan <Jonathan.Yau@grassvalley.com>; Somerville, Ian <Ian.Somerville@grassvalley.com>; Stanborough, Andrew <Andrew.Stanborough@grassvalley.com>; Booysen, Werner <Werner.Booysen@grassvalley.com>; Mears, Dave <Dave.Mears@grassvalley.com>;  Dixon, Ian <Ian.Dixon@grassvalley.com>; Bradshaw, John <John.Bradshaw@grassvalley.com>; Cain, James <James.Cain@grassvalley.com>;  matthew.zajicek@gmail.com; graham.j.rowe@gmail.com; jd01a@aol.com; Wong, Alan <Alan.Wong@grassvalley.com>; Wilson, James <James.Wilson@grassvalley.com>
+
+
+Judy
+I'm so sorry that you're leaving, our team was great and won't be the same without you. Thanks for all the supportive chats over the years, not to mention the cake! Take care of yourself, I wish you all the best - Ian
+
+
+
+
+
+
+
+
+Onyshchenko, Kostyantyn <Kostyantyn.Onyshchenko@grassvalley.com>; Seaborne, Lucy <Lucy.Seaborne@grassvalley.com>; Goto, Hiroko <Hiroko.Goto@grassvalley.com>; Kubiak, Hubert <Hubert.Kubiak@grassvalley.com>; Robinson, Ian <Ian.Robinson@grassvalley.com>; Coombs, Jamie <Jamie.Coombs@grassvalley.com>; Khan, Mohammed <Mohammed.Khan@grassvalley.com>; McDonald, Sean <Sean.McDonald@grassvalley.com>; Knaggs, Lee <Lee.Knaggs@grassvalley.com>; Clark, Anita <Anita.Clark@grassvalley.com>; Bain, Andrew <Andrew.Bain@grassvalley.com>; Weaver, Michael <Michael.Weaver@grassvalley.com>; Morando, Andrew <Andrew.Morando@grassvalley.com>; Simmonds, Andrew <Andrew.Simmonds@grassvalley.com>; Hart, Judy <Judy.Hart@grassvalley.com>; Hayes, Anthony <Anthony.Hayes@grassvalley.com>; Cummings, Ian <Ian.Cummings@grassvalley.com>; Onyshchenko, Laura <Laura.Onyshchenko@grassvalley.com>; Joyce, David <David.Joyce@grassvalley.com>; Steele, David <David.Steele@grassvalley.com>; Masoero, David <David.Masoero@grassvalley.com>; Marsh, Richard <Richard.Marsh@grassvalley.com>; Ling, Andy <Andy.Ling@grassvalley.com>; Rogers, Ian <Ian.Rogers@grassvalley.com>; King, Kevin <Kevin.King@grassvalley.com>; Smith, Edward <Edward.Smith@grassvalley.com>; Tibbenham, Colin <Colin.Tibbenham@grassvalley.com>; Taylor, Adrian <Adrian.Taylor@grassvalley.com>; Stoner, Ian <Ian.Stoner@grassvalley.com>; Stanborough, Andrew <Andrew.Stanborough@grassvalley.com>; Nonweiler, Brian <Brian.Nonweiler@grassvalley.com>; Jessett, Gary <Gary.Jessett@grassvalley.com>; Noble, Richard <Richard.Noble@grassvalley.com>; Hawkins, Damon <Damon.Hawkins@grassvalley.com>; Callaway, Ian <Ian.Callaway@grassvalley.com>; Fry, George <George.Fry@grassvalley.com>; Yau, Jonathan <Jonathan.Yau@grassvalley.com>; Somerville, Ian <Ian.Somerville@grassvalley.com>; Stanborough, Andrew <Andrew.Stanborough@grassvalley.com>; Booysen, Werner <Werner.Booysen@grassvalley.com>; Mears, Dave <Dave.Mears@grassvalley.com>;  Dixon, Ian <Ian.Dixon@grassvalley.com>;   Bradshaw, John <John.Bradshaw@grassvalley.com>; Cain, James <James.Cain@grassvalley.com>;  matthew.zajicek@gmail.com, graham.j.rowe@gmail.com; jd01a@aol.com; Wong, Alan <Alan.Wong@grassvalley.com>;
+ 
+
+ 
+ 
+OnceUponatime
+
+Anthony Bernie
+24 Hayfield Close
+Tilehurst Reading RG31 5DA
+(0118) 941 2334
+
+
+
+you tube videos... start and end:
+https://www.youtube.com/embed/1v2GFon0BbY?start=0&end=50
+
+Letter of Recommendation - Matthew Joyce
+========================================
+In a reference letter, be sure to include:
+Your name and contact information.
+Your personal background and relationship with the applicant.
+A few of the applicant's strongest skills.
+Concrete examples of the applicant's skills.
+A closing statement.
+
+Give details for how you know the applicant. The closer you've worked with her, the stronger your reference letter.
+Paint the picture of why you recommend the candidate. Measurable achievements make a letter of reference sparkle.
+Offer to talk more with the addressee.
+
+Tips on writing a recommendation letter
+Keep it positive. Your letter should confirm that you believe the person is a strong candidate for the job with no reservations. ...
+Use a standard business letter format and tone. ...
+Focus on the most important qualifications. ...
+Follow the request instructions.
+
+What is the format for a letter of recommendation?
+Date.
+Dear Sir/Madam.
+State who you are recommending and for what.
+Describe the capacity in which you know them.
+List their most applicable qualities/traits.
+Conclude by confidently recommending them.
+Yours sincerely.
+
+
+What to Include in Your Letter
+A personal reference letter should provide information on who you are, your connection with the person you are recommending, why they are qualified, and the specific skills they have that you are endorsing. It should also include specific examples of times they demonstrated these skills. Review this template for ideas and suggestions on what to write and how to provide a compelling reference:
+
+Salutation
+When writing a character reference letter, include a salutation (Dear Dr. Jones, Dear Ms. Matthews, etc.). If you are writing a general letter, say "To Whom it May Concern" or don't include a salutation and start with the first paragraph of the letter.
+
+Paragraph 1
+The first paragraph of the character reference letter explains how you know the person you are recommending and why you are qualified to write a recommendation letter to recommend employment, college, or graduate school. With a personal letter, you are writing a recommendation letter because you know the person and their character, rather than because you have direct experience with their work or education.
+
+Paragraph 2
+The second paragraph of a reference letter contains specific information on the person you are writing about, including why they are qualified, what they can contribute, and why you are providing a reference letter. Use specific examples of times the employer demonstrated these skills or qualities. If necessary, use more than one paragraph to provide details.
+
+Summary
+This section of the reference letter contains a brief summary of why you are recommending the person. State that you "highly recommend" the person or you "recommend without reservation" or something similar.
+
+Conclusion
+The concluding paragraph of a reference letter contains an offer to provide more information. Include a phone number and/or email address within the paragraph and include the phone number and email address in the return address section of your letter, or in your email signature.
+
+Sincerely,
+
+Your Name
+Title
+
+Personal Reference Letter Template
+This is a personal reference letter example. Download the personal reference letter template (compatible with Google Docs and Word Online) or see below for more examples.
+
+Screenshot of a personal recommendation letter sample
+©TheBalance 2018
+Download the Word Template
+Personal Reference Letter Sample (Text Version)
+Elizabeth Smith
+1 Oak Street
+Anytown, CA 99999
+555-555-5555
+elizabeth.smith@email.com
+
+March 1, 2018
+
+Jane Jones
+Human Resources
+Acme Corp
+10 Main Street
+Anytown, CA 99999
+
+Dear Ms. Jones,
+
+It’s my pleasure to offer my unreserved recommendation for Megan Brown for the position of intern at Acme Corp.
+
+I’ve known Megan for over 20 years, having lived next door to her since she was a child. She’s always demonstrated responsibility and entrepreneurial spirit. When she was a teenager, she started a snow shoveling business in our neighborhood and wound up managing a team of five other kids from the street. I’m fairly certain they pulled in enough money to buy their own plow… if any of them had been old enough to operate it.
+
+Since then, I’ve watched with interest as she’s pursued her education and interest in business. Of course, you know from her transcripts and professional recommendations that she’s been unusually successful throughout her early career, but what you might not know is the joy she gets from solving problems and making business ideas work. It’s truly inspiring to see her tackle something and make it a success.
+
+Megan would be an asset to any organization, but I know that she has a particular passion for your company. I’d be happy to answer any questions or discuss my recommendation further. Please feel free to call me at 555-555-5555.
+
+Sincerely,
+
+Elizabeth Smith (signature for hard copy)
+
+Elizabeth Smith
+
+After You Send the Reference
+Let the person know when you've submitted the reference. Once you've mailed, emailed, or uploaded your reference letter, let the person you're writing it for know that it's been submitted. 
+
+ARTICLE TABLE OF CONTENTS
+Skip to section
+Who to Ask for a Recommendation
+How to Use Letter Samples
+Writing Recommendation Letters
+What to Include in Your Letter
+Personal Reference Letter Template
+
+
+recommendation letters
+The recommendation letter can play a crucial role in getting someone a job. The cv is generally considered the flagship document of the job application but it has strict limitations. Furthermore it’s entirely the claims of the applicant: recommendation letters provide the evidence and support to substantiate these claims. In the following recommendation letter samples you can see how to tactfully and effectively craft a letter which wins over the employer and helps someone get a position.
+
+Recommendation Cover Letter Advice
+
+Recommendation Letter Advice
+The primary focus of the recommendation letter is to create a profile of the applicant that is completely unique. The letter must convince employers of this person’s indispensability and skill. However it must do this in a subtle manner. The letter shouldn’t simply state assertions but provide concrete evidence of results or examples of success in the workplace. Furthermore recommendation letters must:
+
+Â• Include specific instances where the applicant applied unique skills or found a difficult solution
+
+Â• Focus on the traits skills and experiences which address the requirements of the position
+
+Â• Target the expectations of the employer by taking the details of the job into consideration
+
+Â• Highlight the most unique abilities which distinguish this individual from other applicants
+
+
+---
+Dear Harvard Board of Admissions
+
+I am writing this letter to you as a recommendation for admitting Leonard Staltz to your Academic programs. I had the privilege of having Leonard in three of my classes during his time in high school and I can tell you from first hand experience that Leonard is one of the hardest working students I have ever encountered.
+
+Leonard has an exceptional ability to balance extracurricular activities with his classwork. He spends a great deal of time on the school campus running the school newspaper being involved with the school radio station and acting as president of the debate club. For most students this would be spreading themselves too thin. But Leonard also happens to be his class valedictorian so he can handle the load.
+
+In my classes Leonard was always at the top of the class in terms of grades and respect from the other students. He is an extrovert which means that he became a resource for the students who were struggling. He would set aside his own time to tutor his classmates and help them to understand the material.
+
+Leonard would be a significant asset to your school and would be a source of pride for you incoming class. Please call me at 555-322-3221 or email me at geofftate@email.com if you have any questions.
+
+Sincerely Yours
+
+Geoff Tate
+
+Gwen High School
+---
+
+https://www.dailywritingtips.com/writing-a-reference-letter-with-examples/
+
+https://www.pinterest.co.uk/pin/581245895643151723/
+
+
+
+
+
+=====================================================================================
+
+
+Washing machine repair. Can anyone recommend someone to repair a washer dryer please. Hotpoint coming up with F15 fault. I believe it’s the heating element that needs replacing. Tia
+
+Posted in Recommendations To 22 neighbourhoods
+Comment2 Comments
+Share
+Paul Downes
+Paul Downes • Cold Ash
+Morning Sonia, Brown & Clemens are your man/men 01635 528058, best regards Paul.
+
+Browne and Clemens are utterly superb. Do cookers, ovens, hobs, washing machines and dishwashers. 01635 528058
+
+Plusnet modem
+http://192.168.1.254/expert_user.html
+http://192.168.1.254/advanced_setting.html, F3EMKAET
+
+
+New
+====
+
+modem password WNMWTA7T
+SSID PLUSNET-CFRF
+WIRELESS PWD d64eca6e95
+
+MAC address; 10:06:45:e3:c2:e6
+
+
+Lightroom
+Clarity adds midtone contrast
+Dehaze adds contrast to low contrast areas - c.f. DXO clearview
+
+
+THANKS FOR SIGNING UP!
+Check your email for a confirmation message.
+Please look into your SPAM/PROMOTIONS folder.
+Our email might have landed there by accident.
+
+Here's your welcome code: GETOODIE
+Use it to get £25 off your first purchase!
+*Discount code is only available for single Oodie purchases and not for collections and items already on sale
+
+SAVE UP TO 50% - USE CODE 'BLACKFRIDAY'
+
+===================================================================================================================================
+
+Install Brave Web Browser on Ubuntu 20.04/18.04 & Linux Mint 19/18
+You can install Brave browser by downloading a .deb package and installing manually or by using the apt repository which has compiled packages ready for installation with the apt package manager.
+
+Do system update of package index.
+
+$ sudo apt update
+$ sudo apt -y install curl software-properties-common apt-transport-https 
+Import repository GPG key:
+
+$ curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+Then add the Brave browser repository to the system.
+
+$ echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main" | sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+Then update your package index and install Brave web browser on Ubuntu / Linux Mint.
+
+$ sudo apt update
+$ sudo apt install -y brave-browser
+Launch Brave Web Browser on Ubuntu / Linux Mint
+After installation, you can launch the web browser from the DE menu.
+
+
+
+05A3698AA5930E7B797DAB7981AE98C202B6B36F7DC2B90F2F87B4D7003290C03775B925DA275189C55865586B4493406DAA6C65AF35856E9B1CE50F3CAD93EBCC0DABEB57458354B55DC52555A87A59FDA244A48BFBAB1775FE822035AFDC0D72DB1289D60D8D2A
+
+IT'S THAT TIME OF YEAR AGAIN FOLKS 
+THEY FIND THEIR WAY INTO OUR HOMES LOOKING FOR SAFETY
+WHEN YOU FIND A BUMBLEYBEE THAT CAN'T FLY, FIRSTLY YOU CAN PICK THEM UP - THEY WILL NOT STING UNLESS YOU HURT THEM AND ARE SAFE TO HANDLE
+SECONDLY, POP THEM IN A TUB IF THEY WILL LET GO OF YOUR WARM HAND
+THIRDLY, MIX WARM WATER AN SUGAR TOGETHER AND HOLD SOME IN A TEASPOON INFRONT OF THEM TO THEIR FRONT LEGGIES
+THEY WILL EXTEND THEIR PROBOSCIS (INBUILT CURLY STRAW) AND DRINK.
+THEN TAKE THEM OUTSIDE, THEY WILL GROOM, MAYBE PEE ON YOU AND WILL FLY OFF
+WHEN THEY ARE SAT UNABLE TO FLY AND STICK THEIR LEGGIES IN THE AIR IT'S BECAUSE THEY'RE VULNERABLE AND TRYING TO FLY.
+THEY ARE COLD AND NEED ENERGY
+
+
+Peter, NatWest, Abingdon, 60-22-31, 70614547
+
+Can anyone recommend a handyman or local company that could repair one of our kitchen chairs , the back is coming away from the seat  .Many Thanks,  Sue
+17 Sep · 20 neighbourhoods in Recommendations
+4
+Valerie Hitchcock
+Valerie Hitchcock
+,
+You could try Chris Page, a wonderful craftsman his number is +44 7554 063321.
+18 Sep
+Iulius- Joe Brandusesc
+Iulius- Joe Brandusesc
+,
+Joe:  07799307411, carpenter,GM home improvement and repair services ltd
+
+Tree surgeon. Hi there  I have my own tree surgery company fully qualified and insured. Let me know if I can be of any help, would be much appreciated. Thanks Tommy Mather 07785699542
+
+Posted in Recommendations To 21 neighbourhoods
+Comment1 Comment
+Jade Evers
+Jade Evers • Bucklebury
+Cannot recommend Tommy enough! He is a polite, efficient and skilled tree surgeon. did a marvellous job in trimming back a neighbouring tree
+
+
+
+cd /D C:\Dashboard
+: 
+: stop running instance and tidy existing containers
+docker-compose down
+docker image prune -af
+:
+: move existing services.tar to backup
+:ren "services.tar" "services-%date:~10,4%%date:~7,2%%date:~4,2%-%time:~0,2%%time:~3,2%.tar"
+ren services.tar  services_%time:~0,2%%time:~3,2%-%DATE:/=%.tar
+move/y .env backup.env
+tar -xf %1
+move/y .env new.env
+move/y backup.env .env
+docker load --input services.tar
+docker-compose up
+
+
+camelCase, PascalCase, snake_case, kebab-case
+
+
+“The order of adjectives in English, at first, doesn’t seem to be fixed. However, as quoted by Mark Forsyth in The Elements of Eloquence, adjectives in English ‘absolutely have to be in this order:
+    opinion-size-age-shape-colour-origin-material-purpose Noun. 
+So you can have ‘a lovely little old rectangular green French silver whittling knife.’ But if you mess with that order in the slightest you’ll sound like a maniac...
+Some examples:
+a French silver lovely rectangular green old whittling little knife.
+a silver green old French lovely whittling little rectangular knife.
+a lovely rectangular silver French little whittling old green knife.
+They all just seem wrong.”
+
+
+
+QuentinIDL https://mtlstash.gv.grassvalley.com/projects/LTPP/repos/ppserver/browse/Server/builds/server/src/api/corba/idl/Quentin.idl
+
+
+PCCW - Export
+
+? different type of SSE event?
+Currently
+#{{{  CRUD enum
+  operations = 3
+  deleted, modified, created = range(-1, operations-1)
+  operationStr = ["deleted", "modified", "created"]
+#}}}
+
+#{{{  object type enum
+  objectTypes = 5
+  activePlaylist, activePlaylistEntry, multicamGroup, exportableObject, other = range(0, objectTypes)
+  objectTypeStr = ["activePlaylist", "activePlaylistEntry", "multicamGroup", "exportable", "other"]
+#}}}
+
+#{{{  event type enum
+  eventTypes = 3
+  mediaEvent, exportEvent, nullEvent = range(0, eventTypes)
+  eventTypeStr = ["mediaEvent", "exportEvent", "nullEvent"]
+#}}}
+
+
+
+
+Hope mill theatre
+
+r33vE6HSKr9h
+r33vE6HSKr9h
+hopemilltheatre@shopping-email.co.uk
+
+SSD
+====
+https://www.tomshardware.com/uk/reviews/samsung-970-evo-plus-ssd,5608.html
+
+enclosure: £40
+ssd: 500MB 96, 1TB £160
+-> 500MB: 140, 1TB 200
+
+disk: 1TB £279, 500GB £199
+
+
+chainsaw
+https://www.lsengineers.co.uk/husqvarna-137-chainsaw-spare-parts.html?p=3
+
+=====================
+Debbie Mumford
+ • 1 day ago
+Chimney cowl needs to be fixed or replaced. Hi any local recommendations?
+
+Posted in Recommendations To 21 neighbourhoods
+Comment5 Comments
+Leslie Webb
+Leslie Webb • Clay Hill
+I would recommend Wilkins Chimney Sweep. I've used them for several years and they are reliable and efficient. 01635 45175
+
+1 day ago
+Chris Morris
+Chris Morris • Cold Ash
+Try Pete Dollin (PDD Services) 01635 871885 or 0788 510 5006.  As well as being a chimney sweep, he replaces chimney cowls.  He did one of ours about a couple of years or so ago.
+P D D Services
+1 day ago
+Ross McAinsh
+Ross McAinsh • Cold Ash
+Try your local man in Cold Ash: Trevor Howard at 'Howard the Sweep'.https://www.yell.com/biz/howard-the-sweep-thatcham-8234744/
+
+1 day ago
+Debbie Cleminson
+Debbie Cleminson • Cold Ash
+I can recommend Trevor ,he put a new cowl onto my house last year . Great job
+
+18 hrs ago
+Debbie Mumford
+Debbie Mumford • Cold Ash
+Thank you all for the recommendation I will call in the morning
+=====================
+
+store 80deep x110high x150wide
+
+sync@contact-email.co.uk
+E:/Sync
+
+db class
+warmup:
+windmills
+reverse lunges; arms up
+reverse lunges; hads on hips
+rollout-rollin
+bodyweight squats
+
+50s on, 8s rest - do whole thing three times
+squat (weights on shoulders), the press weights up
+1 burpee, 1 press (holding weights all the time)
+dumbell on floor, one handed dumbell snatch and press - alternate hands
+hammer curl, then press
+lateral raise, frontal raise
+1 pressup, two shoulder taps
+8 hammer curls, 8 pulsing bicep curls
+AMRAP - 3 mins
+4 x burpee press, 4 pressups
+how many?
+
+
+Sandisk card:
+BM1227822025G
+
+dell 2671.66
+white sails gallery 536.00
+The prince William £83.05 12/8/20
+
+DHL:39999191289104
+DELL order number 191289104,
+Internet Receipt(IR) Number: GB2006-9584-51036
+Contact Options
+Order Number :
+191289104
+IRN Number:
+GB2006-9584-51036
+
+Purchase Date:
+26 Jul 2020
+
+Status:
+Shipped
+
+Arrives by: 24/08/2020
+
+  Find a different order
+
+Email
+Fill out our convenient online form, and we will respond by email.
+
+0800-587-1456
+Monday–Friday 9:00 a.m.–5:00 p.m *Calls cost 5p plus up to 5p/min from a BT landline. Check your mobile or other providers' charges, as charges may vary.
+
+
+When I got this camera, I used mainly zone focussing as that technique had been proven by all masters and everyone doing street photography.
+ Zone focussing means setting a fixed aperture (like f/8 or f/11) together with a minimum shutter time (like 1/250 to freeze the action
+ or 1/500 when it's really sunny) and let the ISO to automatic. Then you manually focus on 1.5 meters and the result is that all
+ between 1 meter and infinity is in focus. With this, you can fully focus on the composition and your subject.
+ 
+ British Gas CO monitor transaction number 036638
+ Homecare number 910007160549
+ 
+
+steak 1" thick 2.5 mins each side = medium rare
+
+https://www.watermill.org.uk/the_hound_of_the_baskervilles?dm_i=2BPB,1MFK0,75PWP,5I5R2,1#dates-ttab
+
+
+Here an example why I don't like zone focussing. In this photo only the subject is sharp because of the larger aperture of f/1.7. Settings:
+
+ 
+
+Shutter time of minimum 1/250s
+
+Auto ISO with max of 6400
+
+Manual aperture of f/1.7 in this case, up to f/2 or f/2.8 to isolate the subject
+
+AUTO FOCUS meaning no point and shoot anymore
+
+ 
+
+The failure rate is a lot worse, especially when your subjects are moving. f/1.7 gets you a very thin depth of field (even at 28mm) and when your subjects are walking they will get out of focus very fast so you set your aperture depending on the speed of your subject. Also: you have to compose well before taking the shot (meaning, set the focus point to the correct place)
+
+ 
+
+Subject is:
+
+ 
+
+standing still: f/1.7
+
+walking slow: f/2
+
+walking fast: f/2.8
+
+ 
+
+2 people: f/2
+
+4 people: f/4
+
+ 
+
+and so on... Many examples will follow
+
+
+
+IFAs:
+* Griffins - good rating on unbiased.co.uk (9.8) - free trial
+* https://www.vouchedfor.co.uk/financial-advisor-ifa/newbury/5131-alex-breadmore - Griffins
+* http://www.hfadvisers.co.uk/team.html  Heritage
+* http://www.bafleming.co.uk/why-barry-fleming-partners/
+
+* https://featherstonepartners.co.uk
+
+* https://www.dawnslater.co.uk/ - (7.0) trial
+* Threshold Financial Services (9.0)
+* bow house
+
+* nutmeg?
+
+
+* savings/investments
+* IHT planning
+* pensions
+
+* fees?
+* 
+
+
+=======================================================
+
+gazette
+thegazette@contact-email.co.uk
+89, Goodhart Way
+89, Goodhart Way	
+19-may-2018
+contact details:
+gazette.executor@contact-email.co.uk
+
+Review your Deceased Estates notice
+Details of the deceased
+Deceased Surname:CUMMINGSDeceased First name:ANNEDeceased Middle name(s):ANDREWDeceased Title:MRSMaiden name:MCCOLEDate of Death:3 July 2018Deceased Occupation:RETIRED STAFF TRAINERClaims Date:5 March 2019
+Last address of the deceased
+Address Line 1:89 GOODHART WAYTown:WEST WICKHAMPostcode:BR4 0ET
+Details of the Executor/Administrator
+Executor/Administrator Surname: CUMMINGSExecutor/Administrator First name: IANEmail address: gazette.executor@contact-email.co.ukAddress 1:ROSEWOODAddress 2:THE RIDGETown:THATCHAMCounty:BERKSHIREPostcode:RG18 9HY
+Legal information
+Notice is hereby given pursuant to section 27 (Deceased Estates) of the Trustee Act 1925, that any person having a claim against or an interest in the estate of any of the deceased persons whose names and addresses are set out above is hereby required to send particulars in writing of his claim or interest to the person or persons whose names and addresses are set out above, and to send such particulars before the date specified in relation to that deceased person displayed above, after which date the personal representatives will distribute the estate among the persons entitled thereto having regard only to the claims and interests of which they have had notice and will not, as respects the property so distributed, be liable to any person of whose claim they shall not then have had notice.
+
+
+
+
+
+
+
+Order ID: CLO150328-5720-25194
+
+Charges will appear on your bill as: fsprg.com
+CloudBerry Box
+£21.00 £10.50
+Subtotal
+£10.50
+VAT (20%)
+£2.10
+Total
+£12.60
+
+

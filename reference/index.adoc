@@ -1,0 +1,51 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Reference
+
+== IP Private Addresses
+link:https://docs.microsoft.com/en-us/previous-versions/tn-archive/bb726995(v=technet.10)[]
+
+RFC 1918 defines the following address prefixes for the private address space:
+
+* 10.0.0.0/8  (10.0.0.0, 255.0.0.0) +
+Allows the following range of valid IPv4 unicast addresses: 10.0.0.1 to 10.255.255.254. The 10.0.0.0/8 address prefix has 24 host bits that you can use for any addressing scheme within a private organization.
+
+* 172.16.0.0/12 (172.16.0.0, 255.240.0.0) +
+Allows the following range of valid IPv4 unicast addresses: 172.16.0.1 to 172.31.255.254. The 172.16.0.0/12 address prefix has 20 host bits that you can use for any addressing scheme within a private organization.
+
+* 192.168.0.0/16 (192.168.0.0, 255.255.0.0) +
+Allows the following range of valid IPv4 unicast addresses: 192.168.0.1 to 192.168.255.254. The 192.168.0.0/16 address prefix has 16 host bits that you can use for any addressing scheme within a private organization.
+
+== Online
+
+=== Wasabi
+The Wasabi service URLs are as follows:
+
+* Wasabi US East 1 (N. Virginia): `s3.wasabisys.com` or `s3.us-east-1.wasabisys.com`
+
+* Wasabi US East 2 (N. Virginia): `s3.us-east-2.wasabisys.com`
+
+* Wasabi US West 1 (Oregon): `s3.us-west-1.wasabisys.com`
+
+* Wasabi EU Central 1 (Amsterdam): `s3.eu-central-1.wasabisys.com`
+
+* Wasabi AP Northeast 1 (Tokyo): see this article
+
+The Wasabi Management Console is always reached at `console.wasabisys.com` (regardless of which region you are using)
+
+If you are looking for the correct service URL to use with your third-party storage app, you should choose the one that matches your bucket location. 
+
+When working with third-party storage apps, you should be aware that theses apps have different methods to handle storage region service URLs.   These methods include:
+
+1.  Apps that allow you to explicitly enter in the service URL (these apps are the most flexible because you can easily configure new service URLs as they become available)
+
+2. Apps that only allow to choose from a pre-built list of storage regions (these apps are the least flexible because if a storage provider implements a new region, you have to wait for an app update to get access to the new region). If your storage app doesn't support all of the Wasabi storage regions on their predefined region lists, please contact the app vendor (not Wasabi) to ask them for support. 
+
+3. Apps that only allow you to enter in your API key set and then offer up all of the buckets in your account (these apps provide flexibility but do require some automatic redirects at the http level to perform)
