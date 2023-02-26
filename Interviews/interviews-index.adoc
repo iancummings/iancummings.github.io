@@ -1,0 +1,92 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Interviews
+
+== Answers
+
+=== Why am I leaving?
+Company is being reshaped to be made saleable for AMPP. Other products are being tolerated if they bring in revenue while AMPP is being developed and attracts its own customers. Not a healthy environment; good people are leaving, being asked to do things/take on roles just to keep the company afloat.
+
+=== Why this company?
+The products are well thought of, company is well thought of, solvent (companies house accounts), small company based in UK, has an office!
+Work appeals as it's linked with media, lots of scope for new products with ST-2110 etc and SDI still in use for a while yet.
+
+=== What do I enjoy most/least?
+Most: Greenfield projects (from a spec) are the most exciting as you have freedom to go wherever you like, but adding new features/facilities is also fun even though it will have some number of constraints.
+Least: Lack of support, and lack of honesty from team colleagues/managers.
+
+=== What's my weakness(es)?
+I sometimes try to know too much of a system before dealing with just a small part of it. It can slow me down sometimes at the start of joining a new project as there's too much to get inside my head. I try now to just get an overall picture (block diagram) and then learn more as time goes on as it's appropriate.
+
+=== What are my strengths?
+Conscientiousness; I don't like letting people down or letting a problem get the better of me.
+
+=== How do I fullfill the job spec?
+* Professional experience delivering multi-threaded solutions in an object-orientated language such as C++, Go, Rust, etc +
+
+  C++ experience
+  
+* Experience of contributing to the architecture and design of new products as well as code refactor for existing products +
+
+ LiveTouch needed several additional features for ETT; booking system, Site managers, etc. Refactoring; adding multicam onto LiveTouch
+ 
+* Computer Science fundamentals in data structures, algorithms, and object-oriented design +
+
+ use STL, OO design for many years
+ 
+* Experience in current best practices for software development, including design reviews, coding standards, code reviews, source control management, CI, build processes, testing, and operations. +
+
+ Design reviews were informal in older days; more recently we have become more formal with pull request etc. Used SCCS, CVS, Cleearcase, git (off my own back to start with, pushed for its adoption, and helped support its adoption.
+ 
+* Experience with Qt or other demonstrable UI/UX experience +
+
+ No experience with QT, but used Quantel widgets for over 10 years, created a whole menu for the Library function on paintbox (also had to work with ascii keyboard).
+
+* Experience developing solutions for embedded platforms +
+
+ Clipbox was embedded, Original Picturebox panel software written in assembler 6800 series 8 bit (8049?)
+
+* Knowledge of networking fundamentals including TCP/IP, routing and multicast. +
+
+ Worked with CORBA, UDP
+ 
+* Experience designing, developing and working with RESTful interfaces +
+
+ designed REST interface for LiveTouch, REST interface for AMPP replay library
+ 
+* Experience working with cross-functional teams including close product development with hardware and FPGA engineers to provide a full system solution +
+
+ sQEdit & LiveTouch work both needed working closely with some hardware and software engineers
+
+Alan Wheable, Martin Mulligan, Kim Zajicek, Barry Miles, Richard Craven
+
+== Questions
+* Sprints / Scrum master / product owner?
+* last time people were made redundant
+* communication between team members/teams? (Slack, etc)
+* source control system, bug tracking system
+* how is UI created for Qx series? Widgets? HTML?
+* moves between teams?
+* products (sx, Rx, Qx)
+* how will cloud affect market/sales/etc - 2110 fixes everything?
+* why the takeover?
+* how has the Leader takeover affected the company?
+* employeees?
+* competitors?
+** Rohde & Schwartz
+** Tektronix
+** Blackmagic??
+* turnover?
+  4m, profit 770k, margin 41.5%
+
+== Competitors
+
+
+== Salary
+Current 65k8
+

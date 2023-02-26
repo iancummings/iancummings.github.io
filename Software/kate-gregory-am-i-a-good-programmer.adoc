@@ -1,0 +1,42 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+image::imposter-syndrome.png[]
+
+= Am I a good programmer?
+
+== Answer
+* have you avoided the most outrageous catastrophes
+* Do other people take your advice?
+* Do you enjoy it?
+
+== How to get better?
+=== Conferences
+
+* accu.org
+* cpponsea.uk
+* cppnorth.ca
+* ndctechtown.com
+* meetingcpp.com
+* https://isocpp.org/wiki/faq/conferences-worldwide
+
+=== Blogs
+* fluentcpp.com
+* modernescpp.com
+* foonathan.net
+* thephd.dev
+
+=== Podcast
+* cppcast.com - catch up!
+* yotube.com/user/lefticus1
+* adspthepodcast.com
+* twoscomplement.org/#podcast
+
+=== Twitter
+* twitter.com/shafikyaghmour/lists
+* twitter.com/isocpp
+

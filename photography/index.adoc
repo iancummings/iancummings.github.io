@@ -94,3 +94,17 @@ V0.1, Oct 2022: A work in progress
 * link:workflow.html[Workflow]
 * link:photolab.html[PhotoLab]
 
+== Legal
+=== TFL (Underground & buses)
+----
+Private photographers/filming travelling through the station
+------------------------------------------------------------
+We get many requests from individuals like train enthusiasts, photographers and customers 'passing through' a station who may want to take photographs or film for their own personal use. We agree that this is acceptable, at the station's discretion, as long as additional camera equipment (including flash and tripods) is not used.
+----
+from link:https://tfl.gov.uk/info-for/media/filming-and-photography/guide-to-filming-or-taking-photos-on-the-tfl-network[tfl.gov.uk]
+
+See also part 10 of rule Sa109 in the Working Reference Manual:
+----
+10.1 Passengers can take photographs with small cameras for private purposes, provided flashlights and/or tripods are not used no obstruction or inconvenience is caused to staff and/or passengers.
+----
+from link:http://www.urban75.org/photos/photographers-rights-tube-railways.html[Urban75.org]

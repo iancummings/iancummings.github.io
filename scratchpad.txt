@@ -1,5 +1,13 @@
 
-- we need somme sort of timescale for the MVP of the player - what's the first feature it must support?
+Malcolm McGregor
+ • Clay Hill
+Newbury Plumbing Solutions Steve Willoughby is great
+
+
+======================================================================================
+
+
+- we need some sort of timescale for the MVP of the player - what's the first feature it must support?
 - Do we really need UHD for December?
 - sending assetts to AM - automatic by tag?
 

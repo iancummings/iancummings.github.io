@@ -1,0 +1,54 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= DIY
+
+== Bathroom
+=== Cistern
+Geberit Sigma concealed cistern 12 cm (UP320) in a Duofix frame +
+
+* link:https://catalog.geberit.co.uk/en-GB/spare-part/Sigma-concealed-cisterns-12-cm-(UP320)/SPT_461050.html[website]
+* link:SparePartsDataSheet_SPT_461050.pdf[Data sheet]
+
+==== Spare parts
+Large washer at the bottom of the flush pump 818.109. It's 65mm external diameter, 32mm hole diameter. +
+Apparently these parts are equivalent: +
+818.109 or 816.418 or 816.179
+
+The black seal for the flushing pump basket is 883.360 (823.404 & 663.360 are equivalent).
+
+Can be found link:https://www.geberit.co.uk/services/spare-parts/[here] +
+The link:https://catalog.geberit.co.uk/en-GB/spare-part/Fill-valves-type-380,-lateral-water-supply-connection/SPT_461085.html[fill valve]
+
+link:https://www.youtube.com/watch?v=m7zlPmgbY1M[A _great_ video] on how to replace bits in the cistern! +
+Another useful one link:https://www.youtube.com/watch?v=tA9l1bKdnDA[here] for the water valve and link:https://www.youtube.com/watch?v=leQTgiUMzY4[here] for the flush valve and washer.
+
+== Wall Fixing
+
+=== Troubleshooting
+
+==== Oversize holes
+link:https://youtu.be/TQ13gug7aQ4[Oversize holes]
+
+
+=== Reference
+* link:https://www.youtube.com/@GosforthHandyman[Gosforth Handyman]
+
+
+=== Tips
+
+* don't use the aggressive turbo gold screws into rawlplugs if possible
+
+==== Screws
+* silver screws 
+* 10gauge = 5mm x 40mm 2.5inch
+
+==== Plugs
+* ordinary yellow,red,brown +
+  a 5mm screw and red plug will do most jobs!
+* Fischer DuoPower
+* Fischer UX

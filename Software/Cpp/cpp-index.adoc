@@ -1,0 +1,29 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= C++
+
+== Versions
+
+|====
+|Version                     |Release Date    |Major changes
+
+|C++98 (ISO/IEC 14882:1998)  |October 1998    |The first version
+|C++03 (ISO/IEC 14882:2003)  |February 2003   |Introduction of value initialization.
+|C++11                       |August 2011     |Introduction of Lambda Expressions, Delegating Constructors, Uniform Initialization Syntax, nullptr, Automatic Type Deduction and decltype, Rvalue References etc.
+|C++14                       |August 2014     |Introduction of polymorphic lambdas, digit separators, generalized lambda capture, variable templates, binary integer literals, quoted strings etc.
+|C++17                       |December 2017   |Introduction of fold expressions, hexadecimal floating point literals, a u8 character literal, selection statements with initializer, inline variables etc.
+|C++20                       |March 2020      |This update extends C++ with the facilities to inspect program entities such as variables, enumerations, classes and their members, lambdas and their captures, etc.
+|C++23                       |Future Release  |The next major revision of the C++ standard
+|====
+
+|====
+|Visual Studio version       | C++ version
+
+|VS2015                      |mainly C++14 (a couple of C++17)
+|VS2022                      |C++20
+|====

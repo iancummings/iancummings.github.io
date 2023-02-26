@@ -5,9 +5,9 @@
 
 :imagesdir: ./images
 
-= Start here please!
+= Start here please
 
-== Homey
+== Home
 * link:index.html[old index]
 * link:photography/index.html[Photography]
 * Images
@@ -30,6 +30,7 @@
 * link:workouts/index.html[workouts]
 * link:cooking/index.html[Cooking]
 * link:reference/index.html[Reference]
+* link:diy/diy-index.html[DIY]
 
 == Work
 * link:don7/index.html[don7]
@@ -42,6 +43,8 @@
 * link:agile/index.html[Agile]
 * Visual Studio
 ** link:work/vs-keyboard-shortcuts.html[Key shortcuts]
+* link:software/software.html[Software]
+* link:Interviews/interviews-index.html[Interviews]
 
 == What 3 Words
 
@@ -60,3 +63,6 @@
 
 * water
 * pious
+
+== Notes 'n' stuff
+* link:scratchpad.html[Scratchpad]

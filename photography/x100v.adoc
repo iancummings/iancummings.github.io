@@ -64,3 +64,12 @@ All about balance. +
 
 Does the image feel like it's falling to one side? +
 If there's a very bright/colourful section, there should probably be a dull section to balance it.
+
+== Settings backup (using X-Acquire)
+On camera, go to 
+
+  menu / settings (spanner) / connection setting / PC connection mode 
+  
+and change this to 
+
+ USB RAW CONV./BACKUP RESTORE

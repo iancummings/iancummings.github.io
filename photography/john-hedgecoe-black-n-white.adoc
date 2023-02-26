@@ -32,8 +32,9 @@ Just try some
 
 == Filters
 They generally lighten the tones corresponding to its own and may darken other tones
-* yellow filter will darken the blue of the sky and so help show the clouds
-* green first will also darken the sky and will reduce the lightness of any red colours
+
+* a yellow filter will darken the blue of the sky and so help show the clouds
+* a green filter will also darken the sky and will reduce the lightness of any red colours
 P38
 
 == Portraits
@@ -46,15 +47,13 @@ Backgrounds:
 Not too distracting, unless you've decided that the person is a minor part
 Ideally a background can support/reinforce/explain the human subject
 
-== male nudes
-Diffused side-lighting is the order of the day. it accentuates skin texture, and with male subjects
-the skin texture is coarser than female subjects.
-male nudes benefit from higher contrast than you use for females, so lighting can be simpler
-with less fill in and maybe even just one side light required. Using two will still produce good results,
-but result in a softer look.
+== Male nudes
+Diffused side-lighting is the order of the day. it accentuates skin texture, and with male subjects the skin texture is coarser than female subjects.
+
+Male nudes benefit from higher contrast than you use for females, so lighting can be simpler with less fill in and maybe even just one side light required. Using two will still produce good results, but result in a softer look.
+
 Direct the subject to adopt the right pose to show particular muscle groups.
-By using appropriate zoom settings and framing, you can isolate them to create
-interesting semi-abstract images.
+By using appropriate zoom settings and framing, you can isolate them to create interesting semi-abstract images.
 Body oil increases the tonal contrast.
 
 == The Human form

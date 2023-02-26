@@ -1,0 +1,27 @@
+//:stylesheet: doc-gv.css
+
+:toc: left
+:toclevels: 6
+:toc-title: Contents
+
+:imagesdir: ./images
+include::common.adoc[]
+// :numbered:
+
+= Windows 11
+:!Author:    Ian Cummings
+:Date:      January 2023
+:Revision:  V0.1
+
+== Restore right click context menu
+
+* Navigate to HKEY_CURRENT_USER\Software\Classes\CLSID
+* Right-click > New > Key, and paste in this name: +
+**{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}**
+*  With the new key you just created highlighted, again right-click > New > Key, and paste in this name: **InprocServer32**
+* Double-click the **(Default)** registry entry and then hit Enter without typing anything to set its value to blank. Before making this change, you'll see under the Data column that it says (value not set), but once you hit Enter it'll show nothing. 
+* Close Registry Editor. To see your new (classic) context menu, either restart your computer or open Task Manager, scroll down to the Windows Explorer process, and right-click > End task. Then File > Run new task and type **explorer.exe** to restart the Windows explorer process. And there you go: context menus changed!
+
+https://www.reddit.com/r/Windows11/comments/pu5aa3/howto_disable_new_context_menu_explorer_command/[As this Reddit post explains], you can also do the above steps more quickly via the command line if you're comfortable with it. You can also reverse the process to restore the new Windows 11 menus. If you're curious how the edit works, the short explanation is that it's blanking out where Windows looks for the new context menu code, so it's falling back to the old code instead. It's not a huge surprise this works: after all, there's still https://www.pcgamer.com/i-cant-believe-windows-11-still-hasnt-gotten-rid-of-these-old-ass-menus/[some pretty old stuff] kicking around in Windows 11. 
+
+reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
