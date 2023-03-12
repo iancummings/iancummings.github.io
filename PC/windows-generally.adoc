@@ -1,0 +1,259 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= PC
+
+== XPS17
+link:xps17.html[XPS 17 Info]
+
+== Windows
+
+=== windows-10-search-cant-find-any-applications-even-calculator
+https://superuser.com/questions/947392/windows-10-search-cant-find-any-applications-even-calculator
+
+
+I have no idea why or what I have broken in the process. But here is what worked for me.
+
+Ctrl+Shift+Right-click on an empty part of the taskbar and clicking "Exit Explorer" (or kill it via Task Manager if that doesn't work).
+
+Delete this registry key.
+
+`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{ef87b4cb-f2ce-4785-8658-4ca6c63e38c6}\TopViews\{00000000-0000-0000-0000-000000000000}`
+
+Start process Explorer.exe via Task Manager.
+
+=== Terabyte Image for Windows Manual
+The HTML version is link:ifl-manual.html[here] and original PDF is link:ifl_en_manual.pdf[here]
+
+=== Windows 10 Registry Hacks
+link:https://www.bleepingcomputer.com/news/microsoft/useful-registry-hacks-to-optimize-your-windows-10-experience/[Bleeping Computer]
+
+=== Map a drive letter to a folder
+In order to map a directory (let’s assume it is located at d:\zdrive) onto an actual z: drive, we do a registry tweak.  Navigate to here:
+ 
+ Computer\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\DOS Devices
+ 
+and add a new string key called "Z:" with the value "\DosDevices\D:\ZDrive".
+
+This may need a reboot to stick.
+
+=== Stopping MS search from eating my hard drive
+
+https://superuser.com/questions/59864/stopping-microsoft-search-from-eating-my-hard-drive
+
+Interactive:
+
+* open services.msc
+* Stop the Windows Search service
+* Rename C:\ProgramData\Microsoft\Search\Data\Applications\Windows\Windows.edb
+* Start the Windows Search service
+* The directory rebuilds Windows.edb (34 MB initial size in my case)
+* Open Control Panel / Indexing Options
+* Wait a long time for buttons to become enabled
+* Click Modify
+* Uncheck Users directory or whatever else you don't want indexed (I left Start Menu enabled because it's so small)
+* Click Ok
+
+or 
+
+ move file to a different disk
+
+or command line
+
+* net stop "Windows Search"
+* del %PROGRAMDATA%\Microsoft\Search\Data\Applications\Windows\Windows.edb
+* net start "Windows Search"
+
+=== Trim a SSD
+In Windows 10, open a Powershell windown as admin and type:
+
+ Optimize-Volume -DriveLetter C: -ReTrim -Verbose
+
+=== Drag an off-screen window back to your desktop
+Hold down the Shift key, then right-click on the appropriate application icon in the Windows taskbar. On the resulting pop-up, select the Move option. Begin pressing the arrow keys on your keyboard to move the invisible window from off-screen to on-screen.
+
+NOTE: There is an easier way, but it resets all your current windows. +
+Right-click on the Taskbar and select one of the window arrangement settings, +
+like “Cascade windows” or “Show windows stacked.”
+ 
+=== Keyboard Shortcuts
+
+|===
+| widows & D | show/hide desktop
+|windows & V | open extended clipboard
+|windows & E | file explorer
+|windows & period | emoji panel
+|ctrl/tab, ctrl/shft/tab | cycle browser tabs
+|windows & shift & s | take a screenshot
+|ALT/P | toggle preview panel
+|windows & I | open settings
+|windows & L | lock
+|===
+
+=== Get Product Key
+Open a command window as administrator:
+
+[source,cmd]
+----
+c:\> wmic path SoftwareLicensingService get OA3xOriginalProductKey
+----
+
+=== Control Alt Del on RDP?
+==== Method1
+Try CTRL + ALT + END
+
+==== Method 2
+
+1. On the Remote Desktop, select “Start“.
+1. Type “osk“, then open the “On Screen Keyboard“.
+1. Press “Ctrl” and “Alt” on the physical keyboard, then select “Del” on the osk window..
+
+=== Reset password
+==== Windows 7
+* switch on PC, before finished booting, turn off power to produce an unexpected windows shutdown.
+* switch on PC, launch "startup repair"
+* Wait, until you get +
+"Startup repair cannot repair this computer automatically" with "Don't send" highlighted
+* if you get asked about system restore, hit "cancel"
+* Click on "view problem details" and scroll down to the bottom
+* click on the "online privacy statement, it should be linking to drive X:
+* click on that and it will open Notepad
+* Go to file, Open, and change file types to "all"
+* navigate (probably) to D:\Windows\System32 and find `utilman.exe` and rename it to `utilman-1.exe` or similar
+* nagivate to `cmd.exe` and rename (or copy) to `utilman.exe`
+* close everything and restart the PC
+* click on the "Ease of Access" button and it should open a cmd window.
+* `whoami` should show system
+* type (for example) `net user ianc *` +
+and set new password
+* log in straightaway
+
+NOTE: 'sethc.exe' can be used instead of 'utilman.exe', and when arriving at the login screen, press the SHIFT key quickly 5 times (stickykeys)
+
+=== Fix disk collision in Windows
+(https://www.howtohaven.com/system/change-disk-signature.shtml)
+
+Windows 7 comes with a command line utility called `diskpart` that can let you view and change the disk signature.
+
+1. Open a command prompt as administrator. To do this in Windows 7, click the Windows start menu (the round Windows icon on the left bottom corner), type "cmd" (without the quotation marks), right click the "cmd.exe" item that appears at the top of your menu, and click the line "Run as administrator". Do this even if you are already logged in as administrator, since on Windows 7, administrators run with reduced rights by default.
+
+1. A black command prompt window will open. In Windows 7, the title bar of the window will tell you that you are running it as Administrator. If it does not, it means you did not do what I just said above. Return and follow the first step, or you will not be able to successfully carry out the rest of this tutorial.
+
+1. Type "diskpart" (without the quotation marks) into the window. (Note: for this and the other commands described here, you'll have to hit the ENTER key after you finish typing your commands for them to take effect.)
+
+1. Microsoft DiskPart will start. When it is ready, it will issue a "DISKPART>" prompt, allowing you to enter your commands.
+
+1. Type "list disk" (without the quotation marks). This will list all the disks that are currently mounted (connected to the system). The disk will not have the usual names and labels that you're accustomed to from the Windows Explorer interface, so you will have to recognize them by their sizes.
+
+NOTE: that "list disk" actually lists the physical disks, and not the partitions that you may have assigned drive letters. This means that if you have 2 physical disks, with 3 partitions on each, so that you have drives C:, D:, E:, F:, G: and H:, "list disk" will only show "Disk 0" and "Disk 1".
+
+[start="6"]
+1. To view the signature of a disk, you must first select it. To select a disk, type "select disk x" (without the quotation marks) where x is the number of the disk from your "list disk" display. When you type (say) "select disk 1", DiskPart will respond by telling you "Disk 1 is now the selected disk". +
+Now type "uniqueid disk" (again, without the quotation marks). DiskPart will respond with the disk's signature, a series of hexadecimal digits (or at least I think it's hexadecimal).
+
+1. To change the signature to some other number, type "uniqueid disk ID=[NEW SIGNATURE]" (without the quotation marks) where "[NEW SIGNATURE]" stands for the new identifier you want for the disk (without the square brackets and without the quotation marks). However, before you do that, you may want to type "help uniqueid disk", which will give you more information on how the command works. You may also want to find out the disk signatures of the other disks on the system before you modify your current one so that you don't cause a new signature collision while trying to solve this one. In addition, if you're really not sure how many digits you should give your disk, perhaps try changing only one digit of the current signature (eg, increasing or decreasing it by 1). Remember my disclaimer above: I really don't know what I'm talking about here. Do it at your own risk.
+
+8. To quit DiskPart, type "exit". Incidentally, in case you get lost while running DiskPart, when you are at the "DISKPART>" prompt, you can type "help" to get a list of commands. Typing "help" followed by the command typically gives you more info about that command.
+
+Once you've quit DiskPart, type "exit" again to quit the Administrator Command Prompt.
+
+
+=== Terabyte Image for Windows
+==== Copy disk
+'**Scale to Fit**' will ignore unallocated space at the end of the source drive and scale the partitions to fill the destination drive. '**Scale to Target**' will retain unallocated space at the end of the source drive and scale it along with the partitions.
+
+[NOTE]
+====
+When enabled, the *Automatic Scaling Restrictions* option prevents small partitions from being automatically scaled when restoring or copying a full drive. Partitions with a size of 15GiB or 1/8 the drive size (whichever is less) or smaller will not be scaled when restoring a full drive image or copying a full drive. This provides an automatic method to avoid scaling system reserved, recovery, and utility partitions to larger sizes when upgrading to a larger drive.
+====
+
+===== Copying to smaller disk
+* https://www.terabyteunlimited.com/kb/article.php?id=554
+* https://www.terabyteunlimited.com/ucf/viewtopic.php?t=3147
+* https://www.terabyteunlimited.com/ucf/viewtopic.php?t=2431
+
+=== Console colours
+image::Rctk9.png[]
+
+=== Disable "Coming Soon" in Outlook
+A registry entry seems to have done the trick on my Win10 PC
+
+[source]
+----
+[HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Options\General] "DisablePreviewPlace"=dword:00000001
+----
+
+I had to create the `General` key as it wasn't already present.
+== Online
+
+=== Save a Video from Facebook
+
+* find the video you want to download, select +
+_Share > Copy Link_
+
+* A little box with the video’s URL will pop up. Copy the link and then paste it in a new tab or the window’s address bar. Then, change the www in the address to **mbasic**. So, for example, if the video’s URL is + 
+
+https://www.facebook.com/DigitalTrends/videos/593414421380089, +
+you would change it to +
+https://mbasic.facebook.com/DigitalTrends/videos/593414421380089.
+
+* Once you’re done, tap _Enter_ on your keyboard. This changes the address to a mobile basic interface address, allowing you to download the video. If you’ve done this right, the screen will look funny, like you are trying to look at the Facebook app on your browser.
+
+* Next, right-click on the video and choose _Open Link In New Tab_ from the menu. In the new tab, the video won’t have any Facebook additions like comments or a like button. It will just be the video.
+
+* From there, right-click on the video and select _Save video As …_ from the menu. Then, save it to your computer like you normally would any other video or photo.
+
+=== Find a VM's host Information
+"Today, i had to log in to Hyper-V host, bust forgot IP/Hostname, luckily i didn’t forget VM, so i logged it to it and searched registry.
+
+Note: VM have Integration Services installed."
+
+Under `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Virtual Machine\Guest\Parameters` registry key which reveal Hyper-V hosts are:
+
+* HostName
+* PhysicalHostName
+* PhysicalHostNameFullyQualified
+
+Command line
+[source,msdos]
+----
+$ reg query "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Virtual Machine\Guest\Parameters" /v "PhysicalHostNameFullyQualified"
+----
+
+Powershell
+[source,powershell]
+----
+Get-ItemPropertyValue 'Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Virtual Machine\Guest\Parameters' -Name 'PhysicalHostNameFullyQualified'
+----
+
+or 
+[source,powershell]
+----
+Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Virtual Machine\Guest\Parameters"  | Select-Object HostName
+----
+
+
+
+== Dropbox
+
+=== Ignore a file or folder
+(from https://help.dropbox.com/sync/ignored-files)
+
+* Open the PowerShell application on your computer.
+* Type the code below, replacing the file/folder path placeholder with the file/folder path you’d like to ignore.
+
+----
+Set-Content -Path 'C:\Users\yourname\Dropbox(Personal)\YourFileName.pdf' -Stream com.dropbox.ignored -Value 1
+----
+
+=== Restore Syncing
+
+----
+Clear-Content -Path 'C:\Users\yourname\Dropbox(Personal)\YourFileName.pdf' -Stream com.dropbox.ignored
+----
