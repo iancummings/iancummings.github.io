@@ -32,6 +32,13 @@ Start process Explorer.exe via Task Manager.
 The HTML version is link:ifl-manual.html[here] and original PDF is link:ifl_en_manual.pdf[here]
 
 === Windows 10 Registry Hacks
+
+* Disabling Bing Search in Windows Search
+* Disabling the Windows 10 lockscreen
+* Add 'Open command window here' to the File Explorer context menu
+* Display seconds on the taskbar clock
+* Enable Verbose mode in Windows 10
+
 link:https://www.bleepingcomputer.com/news/microsoft/useful-registry-hacks-to-optimize-your-windows-10-experience/[Bleeping Computer]
 
 === Map a drive letter to a folder
