@@ -54,8 +54,9 @@
 |====
 | Place | w3w
 | Rosewood | ushering.tramps.nosedive
-| Goodhart Way |
-| Peter |
+| Goodhart Way | retire.dinner.coach
+| Peter @ Wantage | taxed.wiggles.match
+| Peter @ Newbury Grove | radio.vine.oppose
 |====
 
 == Wordle
