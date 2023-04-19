@@ -111,4 +111,4 @@ from link:http://www.urban75.org/photos/photographers-rights-tube-railways.html[
 
 == Talks, Workshops etc
 
-* link::ross-grieve-webinar.html[Ross Grieve (Calibrite, Park Cameras)]
+* link:ross-grieve-webinar.html[Ross Grieve (Calibrite, Park Cameras)]
