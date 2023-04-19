@@ -108,3 +108,7 @@ See also part 10 of rule Sa109 in the Working Reference Manual:
 10.1 Passengers can take photographs with small cameras for private purposes, provided flashlights and/or tripods are not used no obstruction or inconvenience is caused to staff and/or passengers.
 ----
 from link:http://www.urban75.org/photos/photographers-rights-tube-railways.html[Urban75.org]
+
+== Talks, Workshops etc
+
+* link::ross-grieve-webinar.html[Ross Grieve (Calibrite, Park Cameras)]

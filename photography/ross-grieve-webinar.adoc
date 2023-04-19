@@ -1,0 +1,98 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:imagesdir: ./images
+
+= Ross Grieve Webinar (Street Photography)
+
+image::DG-intro.png[]
+
+Lumix GX9 or S5, GH6
+
+Leica 15mm, LUMIX S 35mm
+
+* legs are your zoom
+* look cheerful and look like you're enjoying yourself
+
+==  how to make it interesting
+
+* dragging the shutter +
+(slow shutter speed => 1/5s - maybe 1/15?) +
+You need some elements of the image that are static, and then others that are moving.
+
+image::DG-drag-shutter-1.png[]
+image::DG-drag-shutter-2.png[]
+image::DG-drag-shutter-3.png[]
+
+== Inspiration
+Films - Joker - how it uses colour
+
+make preset for moody colour?
+
+add green to make it look cinematic? => Grungy mono look
+
+Shaun Tucker
+
+== Wall Art
+Think of something that will look good printed out and hanging on a wall.
+
+image::DG-wall-art.png[]
+
+== Model release
+* image release
+* easy release
+
+== Timing
+
+
+
+Brick Lane
+
+image::DG-sex-education-brick-lane.png[]
+
+
+image::DG-under-bridge.png[]
+
+image::DG-dont-shoot.png[]
+
+contrast at christmas
+
+image::DG-wales.png[]
+image::DG-london.png[]
+
+image::DG-contrast.png[]
+
+
+street portraiture of an artist on you tube
+
+== Planes & Trains _and Layers_
+
+image::DG-planes-trains.png[]
+
+image::DG-underground.png[]
+
+image::DG-layers.png[]
+
+image::DG-underground-2.png[]
+
+== Editing
+
+* don't spend too much time
+* don't retouch
+* colour control
+* cropping
+* is it sellable
+* print it
+* revsiitn old images
+
+== Tips
+* Be courteous
+* Chat to people, explain what you're doing, exchange details, send them a copy.
+* editorial => something in news, not for promotion of person or company
+
+
+
+
+Watch the full video after the webinar here: https://www.youtube.com/watch?v=mZjSnowKI8c
+
+Use code CALIBRITE15 to get 15% off selected Calibrite at Park Cameras until April 26th! https://bit.ly/43McTmh
