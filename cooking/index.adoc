@@ -50,7 +50,7 @@ or link:asian-chicken-burgers.html[here]
 1. Cottage Pie
 1. Kedgeree
 1. Chilli con carne
-1. Jacket potato
+1. link:jacket-potatoes.html[Jacket potato]
 1. Omelette
 1. Curried chickpeas
 1. Spicy prawns
@@ -69,7 +69,12 @@ or link:asian-chicken-burgers.html[here]
 == Nigella
 Taken from https://www.nigella.com/recipes +
 
-* link:"https://www.nigella.com/recipes/search?tags[]=Express"
+// left & right square brackets as otherwise they get interpreted
+:ltSB: &#91;
+:rtSB: &#93;
+
+* link:https://www.nigella.com/recipes/search?tags{ltSB}{rtSB}=Express[Express recipes]
+
 * link:spag-lemon-garlic-breadcrumbs.html[Nigella's Spaghetti with lemon, garlic, and breadcrumbs]
 * link:https://www.nigella.com/recipes/chicken-teriyaki[Chicken Teriyaki]
 * link:https://www.nigella.com/recipes/sake-steak-and-rice[Sake Steak & Rice]
