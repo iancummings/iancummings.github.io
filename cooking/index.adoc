@@ -29,7 +29,7 @@ or link:asian-chicken-burgers.html[here]
 1. pesto baked Cod salsa, mash & peas
 1. Tuna, garlic & Chilli pasta
 1. Sardine Fish Cakes
-1. Sausages, creamy mustard sauce, grains
+1. link:sausages-creamy-mustard-sauce.html[Sausages with Creamy Mustard sauce (& grains)]
 1. Mushroom & Spinach Stroganoff
 1. Shakshuka
 1. Tuna & Tomato Linguine
@@ -41,7 +41,6 @@ or link:asian-chicken-burgers.html[here]
 1. Baked Meatballs with Tomato & Mascarpone
 1. Cod, Potato & Spinach Gratin
 1. Cuban-Style Beef & Olive Stew
-1. Sausages with Creamy Mustard sauce (& grains)
 1. Sticky Sausage & Mustard Rolls
 1. Easy Oven-roasted sausage Ratatouille
 1. Beef Stem & Cheddar Dumplings
