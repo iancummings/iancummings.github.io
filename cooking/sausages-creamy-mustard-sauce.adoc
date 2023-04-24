@@ -3,7 +3,7 @@
 :toc-title: Contents
 :sectnums:
 
-:imagesdir: ./images
+:imagesdir: ../images
 
 = Sausages & Creamy Mustard Sauce
 
