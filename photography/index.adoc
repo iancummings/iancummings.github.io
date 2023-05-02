@@ -1,7 +1,8 @@
 :toc: left
-:toclevels: 3
+:toclevels: 5
 :toc-title: Contents
 :imagesdir: ./images
+:numbered:
 
 = Photography
 Ian Cummings 
@@ -24,8 +25,9 @@ V0.1, Oct 2022: A work in progress
 * link:https://www.thatchamphotoclub.com/projects-2021.html[Projects] and link:thatcham-projects.html[here]
 * link:https://www.thatchamphotoclub.com[Thatcham Website]
 
+== Genres
 
-== Portraits
+=== Portraits
 * link:portraiture.html[Portraiture generally]
 * link:portrait-lighting.html[Portrait lighting]
 * link:portrait-faces.html[Portrait faces]
@@ -33,12 +35,13 @@ V0.1, Oct 2022: A work in progress
 * link:thinktap-portrait-course.html[ThinkTap Portrait Course]
 * link:freckles.html[Freckles]
 
-== Black & White
+=== Black & White
 * link:eos-training-course.html[EOS B&W course]
 * link:john-hedgecoe-black-n-white.html[John Hedgecoe's complete guide to black and white photography]
 
-== Other genres
+== Others
 * link:street-photography.html[Street Photography]
+** link:saul-leiter.html[Saul Leiter]
 
 * link:aviation-photography.html[Aviation photography]
 

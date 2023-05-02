@@ -1,0 +1,13 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Saul Leiter
+:Author: Ian Cummings
+:Email:  
+:Date: May 2023
+:Revision: V0.1
+
+== Key Approach
+* longer lens
+* aesthetic
