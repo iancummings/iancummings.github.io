@@ -10,6 +10,8 @@ V0.1, May-2022
 :Date: May 2022
 :Revision: V0.1
 
+:numbered:
+
 From Brian Lloyd Duckett and others
 
 == Street Photography Projects
@@ -26,95 +28,95 @@ https://www.streethunters.net/blog/2014/10/15/big-fat-list-45-street-photography
 List Of Street Photography Project Ideas
 All ideas are presented in random order, just as they came to me. I have added some short descriptions to help you understand the nature of each idea.
 
-* Eat +
+1. Eat +
 Photos of people enjoying their food as freely as possible. The sloppier the better.
-* Looking down +
+1. Looking down +
 Photos of people looking down from balconies and windows.
-* Corners +
+1. Corners +
 Photos of interesting corners shot with a wide angle lens, revealing life as it unfolds in the streets on both sides of the corner.
-* People on the job +
+1. People on the job +
 People doing their everyday jobs.
-* Portraits +
+1. Portraits +
 Photos of peoples faces mainly. The photos can be posed.
-* Panning +
+1. Panning +
 Photos of moving subjects shot at medium to slow shutter speeds with low ISO that give a sense of movement.
-* High speed freeze +
+1. High speed freeze +
 The opposite of Panning, shoot people at very high shutter speeds and try and freeze split seconds in time.
-* Hands full +
+1. Hands full +
 Photos of hands full of anything. For example hands with coins, hands with dirt, hands with a tablet, a smartphone, etc.
-* Project 365 or Project 52 +
+1. Project 365 or Project 52 +
 A 365 project is to add 1 Street Photo to your collection every day. A 52 project is the same thing but on a weekly basis.
-* 30 Day Project One Camera & One Lens +
+1. 30 Day Project One Camera & One Lens +
 For 30 days, use only One Camera & One Lens to make photographs.
-* Smiles with Braces +
+1. Smiles with Braces +
 Capture people wearing braces smiling.
-* Motion Blur crowds +
+1. Motion Blur crowds +
 Set up your cameras on tripods (sorry there is no other way around this, unless you have solid, motionless hands) and shoot crowded places with very slow shutter speeds.
-* Behind glass +
+1. Behind glass +
 Make photos of people and situations behind glass. That glass can be coloured, shattered, anything.
-* Shoot the same corner of your town every day for 1 year +
+1. Shoot the same corner of your town every day for 1 year +
 Every day shoot a corner of your choice and document the different happenings that occur there and make a collection of photos.
-* 30 days of B&W only +
+1. 30 days of B&W only +
 Make black and white photographs for 30 days. No colour allowed. If you shoot digital, shoot B&W jpgs, not RAW because RAW retains colour information. If you shoot film, just use B&W film.
-* 30 days of a specific colour +
+1. 30 days of a specific colour +
 Pick a colour, any colour and focus on making photos that include it as the main focal point. Do this for 30 days.
-* Project 28 (28 days, 28 photos, 28mm lens) +
+1. Project 28 (28 days, 28 photos, 28mm lens) +
 I read about this somewhere and I liked the idea. For 28 days, shoot 28 photographs using a 28mm lens.
-* Project 35 (35 days, 35 photos, 35mm lens) +
+1. Project 35 (35 days, 35 photos, 35mm lens) +
 For 35 days, shoot 35 photographs using a 35mm lens.
-* Project 50 (50 days, 50 photos, 50mm lens) +
+1. Project 50 (50 days, 50 photos, 50mm lens) +
 For 50 days, shoot 50 photographs using a 50mm lens.
-* Reflections (in Puddles, glass, water) +
+1. Reflections (in Puddles, glass, water) +
 Make a collection of photographs from reflections in puddles, glass, water, cars, anything.
-* Silhouettes +
+1. Silhouettes +
 Make a collection of photographs of Silhouettes.
-* Only Shadows +
+1. Only Shadows +
 Make a collection of photographs of just human Shadows without any visible people.
-* Hand gestures +
+1. Hand gestures +
 Make a collection of photographs of people’s hands gesturing. Things like pointing, waving etc.
-* Condensation +
+1. Condensation +
 Use Saul Leiter’s condensation tricks to make a collection of similarly shot photographs. +
-* Angry people +
+1. Angry people +
 Make a collection of photographs of angry people. This might be a hard one!
-* Bald heads +
+1. Bald heads +
 Make a collection of photographs of bald headed people.
-* Things in front of peoples faces +
+1. Things in front of peoples faces +
 Make a collection of photographs of people with things in front of their faces. So for example you might place a flower in front on someone’s face and make him appear as if they have a flower for a head.
-* Disappearing Professions +
+1. Disappearing Professions +
 Try and seek people doing jobs that are going extinct and make a collection of photographs of them on the job. This project will also have historical value.
-* Embraces +
+1. Embraces +
 Take photographs of people embracing each other.
-* Kisses +
+1. Kisses +
 Take photographs of people kissing each other.
-* Femininity +
+1. Femininity +
 Make a collection of photographs about femininity. Capture the essence of women.
-* Masculinity +
+1. Masculinity +
 Make a collection of photographs about masculinity. Capture the essence of men.
-* Smoking +
+1. Smoking +
 Make a collection of photographs of smokers. People smoking.
-* Tattoos +
+1. Tattoos +
 Make a collection of photographs of people with tattoos.
-* Sunrise Street Photography +
+1. Sunrise Street Photography +
 Make a collection of Street photographs shot during sunrise.
-* Sunset Street Photography +
+1. Sunset Street Photography +
 Make a collection of Street photographs shot during sunset.
-* People taking a piss +
+1. People taking a piss +
 Capture people relieving themselves of their bodily fluids, that is urinating.
-* 100 Strangers +
+1. 100 Strangers +
 Make a collection of 100 strangers you don’t know anything about. This is like the portraits project but the 100 Strangers projects has to be 100% candid shots.
-* Boredom +
+1. Boredom +
 Photograph people looking bored and make a nice collection of photos of bored people. How boring!
-* Money exchange +
+1. Money exchange +
 Make a collection of people exchanging money. You can do hand closeups or shoot from slightly further away, as long as the exchange is visible.
-* Opposites +
+1. Opposites +
 Make a collection of photos that include opposite things. For example a cat looking at a dog, or a tall man sitting next to a short man, etc.
-* Dogs and their people +
+1. Dogs and their people +
 Take low POV shots of dogs and their people.
-* In the rain +
+1. In the rain +
 Make a collection of photos shot in the rain.
-* Umbrellas +
+1. Umbrellas +
 Make a collection of photographs with people and umbrellas.
-* Beachwear & Beach photos +
+1. Beachwear & Beach photos +
 Make a collection of photographs of people in their swimming costumes shot at the beach.
 
 NOTE: blurb.com, 
