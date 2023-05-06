@@ -16,7 +16,7 @@ and +
 .. all star ratings _except_ 1 & 2
 
 1. go through images
-.. also rans get 1 or two stars -> and they disappear
+.. also-rans get 1 or two stars -> and they disappear
 .. duffers that have slipped through get red rejected -> they disappear
 .. keepers are worked on and given a green picked -> they disappear
 
