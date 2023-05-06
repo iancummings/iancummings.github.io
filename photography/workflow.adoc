@@ -8,11 +8,19 @@
 How to sort those images!
 
 1. Load to intray and let synchronisation complete
-1. Use FastRawViewer and move all duffers to the `_rejected` folder
-1. Divide photos into groups, either mentally or using folders depending on what's sensible for the number of images you have
-1. For each group
-.. Rate a group of images, either with FastRawViewer or PhotoLab
-.. Process from 5 star downwards as appropriate
-.. Post/share group so far
-1. Copy processed to Portfolio/Potpourri
-1. Copy to SmugMug
+1. Rawviewer +
+either to weed out complete duffers, or to select a few good ones
+1. PhotoLab - set filter to 
+.. untagged +
+and +
+.. all star ratings _except_ 1 & 2
+
+1. go through images
+.. also rans get 1 or two stars -> and they disappear
+.. duffers that have slipped through get red rejected -> they disappear
+.. keepers are worked on and given a green picked -> they disappear
+
+1. when all images gone from the carousel, reset the filter just to show green picked and process - last minute edits if necessary
+1. Copy images from `processed` to other destination folders; __street__, __family__, _portfolio_ etc 
+
+
