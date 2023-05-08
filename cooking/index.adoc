@@ -7,9 +7,14 @@
 
 = Cooking
 
-== Suggestions
+== General
+* Enchiladas
+* link:fish-pie.html[Fish pie]
+* link:jacket-potatoes.html[Jacket Potatoes]
+* link:https://www.bbcgoodfood.com/recipes/pan-fried-sea-bass-ratatouille-basil[Sea bass ratatouille]
+* link:spiced-prawns-tomatoes-delia.html[Spicy Prawns]
 
-=== Gousto
+== Gousto
 1. link:Beef-Black-Bean-Burrito-Bowl_Gousto.pdf[Beef & Black bean Burrito Bowl]
 1. Creamy Haddock Linguine with Tomatoes & Chilli
 1. link:Easy-Pork-Corn-Chilli-With-Tortilla-Chips_Gousto.pdf[Easy Turkey & Corn Chilli with Tortilla Chips]
@@ -17,7 +22,7 @@
 1. One-pot creamy Sun-dried Tomato & Chicken Stew
 1. Zingy Thai Coconut Chicken Wraps
 
-=== Waitrose
+== Waitrose
 1. Chicken Jolloff
 1. Chicken Pilaf with Pomegranate
 1. link:https://www.gousto.co.uk/cookbook/chicken-recipes/asian-chicken-burger-sesame-fries[Asian Chicken Burger] 
@@ -60,10 +65,7 @@ or link:asian-chicken-burgers.html[here]
 
 
 
-== My stuff
-1. link:fish-pie.html[Fish pie]
-1. link:jacket-potatoes.html[Jacket Potatoes]
-1. link:https://www.bbcgoodfood.com/recipes/pan-fried-sea-bass-ratatouille-basil[Sea bass ratatouille]
+
 
 == Nigella
 Taken from https://www.nigella.com/recipes +
@@ -78,9 +80,7 @@ Taken from https://www.nigella.com/recipes +
 * link:https://www.nigella.com/recipes/chicken-teriyaki[Chicken Teriyaki]
 * link:https://www.nigella.com/recipes/sake-steak-and-rice[Sake Steak & Rice]
 
-=== Recipes
 
-* link:spiced-prawns-tomatoes-delia.html[Spicy Prawns]
 
 === General
 

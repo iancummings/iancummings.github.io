@@ -8,25 +8,12 @@
 = Start here
 
 == Home
-* link:bookmarks/bookmarks.html[Bookmarks]
-* link:index.html[old index]
+* link:links/links.html[Links]
+
 * link:photography/index.html[Photography]
-* Images
-** link:http://iancummings.x10.mx/images/portfolio[Images (images.iancummings.com)]
-** link:http://iancummings.x10.mx/images/family[Images (family.iancummings.com)]
-** link:http://iancummings.x10.mx/images[x10 images (http://iancummings.x10.mx/images)]
-** link:http://iancummings.x10.mx/images/coldash[Cold Ash images]
-* link:rosewood/ridge.html[The Ridge]
-* link:PC/useful-info.html[PC stuff]
-* Browser Scratchpads
-** Basic: *data:text/html,<html contenteditable>*
-** link:notepad.html[Notepad]
+
 * link:giffgaff-divert-codes.html[Phone codes]
-* Legacy/Reference
-** http://iancummings.co.uk[iancummings.co.uk]
-** http://icc-webroot.s3-website-us-east-1.amazonaws.com[Static Amazon]
-** http://iancummings.x10.mx/dotcom/[x10 big buttons]
-* http://iancummings.duet.to/scratchpad.txt[Scratchpad]
+* link:PC/useful-info.html[PC stuff]
 * link:logical-fallacies.html[Logcal fallacies]
 * link:workouts/index.html[workouts]
 * link:cooking/index.html[Cooking]

@@ -1,0 +1,34 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Links
+
+* link:bookmarks/bookmarks.html[Bookmarks]
+* link:index.html[old index]
+* Images
+** Images@x10 +
+link:http://iancummings.x10.mx/images/portfolio[images.iancummings.com]
+** Family@x10 +
+link:http://iancummings.x10.mx/images/family[family.iancummings.com]
+** Images@x10 +
+link:http://iancummings.x10.mx/images[]
+** link:https://websites.lightrocket.com/iancummings[Lightrocket]
+** link:https://iancummings.smugmug.com/[SmugMug]
+** link:https://www.flickr.com/photos/iancummings[Flickr]
+
+** link:http://iancummings.x10.mx/images/coldash[Cold Ash images]
+* link:rosewood/ridge.html[The Ridge]
+
+* Browser Scratchpads
+** Basic: *data:text/html,<html contenteditable>*
+** link:notepad.html[Notepad]
+
+* Legacy/Reference
+** http://iancummings.co.uk[iancummings.co.uk]
+** http://icc-webroot.s3-website-us-east-1.amazonaws.com[Static Amazon]
+** http://iancummings.x10.mx/dotcom/[x10 big buttons]
+* http://iancummings.duet.to/scratchpad.txt[Scratchpad]
