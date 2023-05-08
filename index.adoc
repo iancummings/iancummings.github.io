@@ -8,7 +8,7 @@
 = Start here
 
 == Home
-* link:links/links.html[Links]
+* link:links.html[Links]
 
 * link:photography/index.html[Photography]
 
