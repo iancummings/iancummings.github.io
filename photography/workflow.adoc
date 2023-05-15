@@ -12,8 +12,8 @@ How to sort those images!
 either to weed out complete duffers, or to select a few good ones
 1. PhotoLab - set filter to 
 .. untagged +
-and +
-.. all star ratings _except_ 1 & 2
+*and* +
+.. all star ratings *_except_* 1 & 2
 
 1. go through images
 .. also-rans get 1 or two stars -> and they disappear
