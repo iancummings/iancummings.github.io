@@ -109,7 +109,9 @@ Now type "uniqueid disk" (again, without the quotation marks). DiskPart will res
 Once you've quit DiskPart, type "exit" again to quit the Administrator Command Prompt.
 
 ==== Diskpart (generally)
-Useful for formatting, deleting tricky partitions, connverting MBR to GPT etc
+Useful for formatting, deleting tricky partitions, connverting MBR to GPT etc +
+
+One helpful link:https://www.windowscentral.com/how-clean-and-format-storage-drive-using-diskpart-windows-10[link]
 
 === Drag an off-screen window back to your desktop
 Hold down the Shift key, then right-click on the appropriate application icon in the Windows taskbar. On the resulting pop-up, select the Move option. Begin pressing the arrow keys on your keyboard to move the invisible window from off-screen to on-screen.
