@@ -28,9 +28,6 @@ Delete this registry key.
 
 Start process Explorer.exe via Task Manager.
 
-=== Terabyte Image for Windows Manual
-The HTML version is link:ifl-manual.html[here] and original PDF is link:ifl_en_manual.pdf[here]
-
 === Windows 10 Registry Hacks
 
 * Disabling Bing Search in Windows Search
@@ -41,7 +38,9 @@ The HTML version is link:ifl-manual.html[here] and original PDF is link:ifl_en_m
 
 link:https://www.bleepingcomputer.com/news/microsoft/useful-registry-hacks-to-optimize-your-windows-10-experience/[Bleeping Computer]
 
-=== Map a drive letter to a folder
+=== Disky
+
+==== Map a drive letter to a folder
 In order to map a directory (let’s assume it is located at d:\zdrive) onto an actual z: drive, we do a registry tweak.  Navigate to here:
  
  Computer\HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\DOS Devices
@@ -50,7 +49,7 @@ and add a new string key called "Z:" with the value "\DosDevices\D:\ZDrive".
 
 This may need a reboot to stick.
 
-=== Stopping MS search from eating my hard drive
+==== Stopping MS search from eating my hard drive
 
 https://superuser.com/questions/59864/stopping-microsoft-search-from-eating-my-hard-drive
 
@@ -77,10 +76,40 @@ or command line
 * del %PROGRAMDATA%\Microsoft\Search\Data\Applications\Windows\Windows.edb
 * net start "Windows Search"
 
-=== Trim a SSD
+==== Trim a SSD
 In Windows 10, open a Powershell windown as admin and type:
 
  Optimize-Volume -DriveLetter C: -ReTrim -Verbose
+
+==== Fix disk collision in Windows
+(https://www.howtohaven.com/system/change-disk-signature.shtml)
+
+Windows 7 comes with a command line utility called `diskpart` that can let you view and change the disk signature.
+
+1. Open a command prompt as administrator. To do this in Windows 7, click the Windows start menu (the round Windows icon on the left bottom corner), type "cmd" (without the quotation marks), right click the "cmd.exe" item that appears at the top of your menu, and click the line "Run as administrator". Do this even if you are already logged in as administrator, since on Windows 7, administrators run with reduced rights by default.
+
+1. A black command prompt window will open. In Windows 7, the title bar of the window will tell you that you are running it as Administrator. If it does not, it means you did not do what I just said above. Return and follow the first step, or you will not be able to successfully carry out the rest of this tutorial.
+
+1. Type "diskpart" (without the quotation marks) into the window. (Note: for this and the other commands described here, you'll have to hit the ENTER key after you finish typing your commands for them to take effect.)
+
+1. Microsoft DiskPart will start. When it is ready, it will issue a "DISKPART>" prompt, allowing you to enter your commands.
+
+1. Type "list disk" (without the quotation marks). This will list all the disks that are currently mounted (connected to the system). The disk will not have the usual names and labels that you're accustomed to from the Windows Explorer interface, so you will have to recognize them by their sizes.
+
+NOTE: that "list disk" actually lists the physical disks, and not the partitions that you may have assigned drive letters. This means that if you have 2 physical disks, with 3 partitions on each, so that you have drives C:, D:, E:, F:, G: and H:, "list disk" will only show "Disk 0" and "Disk 1".
+
+[start="6"]
+1. To view the signature of a disk, you must first select it. To select a disk, type "select disk x" (without the quotation marks) where x is the number of the disk from your "list disk" display. When you type (say) "select disk 1", DiskPart will respond by telling you "Disk 1 is now the selected disk". +
+Now type "uniqueid disk" (again, without the quotation marks). DiskPart will respond with the disk's signature, a series of hexadecimal digits (or at least I think it's hexadecimal).
+
+1. To change the signature to some other number, type "uniqueid disk ID=[NEW SIGNATURE]" (without the quotation marks) where "[NEW SIGNATURE]" stands for the new identifier you want for the disk (without the square brackets and without the quotation marks). However, before you do that, you may want to type "help uniqueid disk", which will give you more information on how the command works. You may also want to find out the disk signatures of the other disks on the system before you modify your current one so that you don't cause a new signature collision while trying to solve this one. In addition, if you're really not sure how many digits you should give your disk, perhaps try changing only one digit of the current signature (eg, increasing or decreasing it by 1). Remember my disclaimer above: I really don't know what I'm talking about here. Do it at your own risk.
+
+8. To quit DiskPart, type "exit". Incidentally, in case you get lost while running DiskPart, when you are at the "DISKPART>" prompt, you can type "help" to get a list of commands. Typing "help" followed by the command typically gives you more info about that command.
+
+Once you've quit DiskPart, type "exit" again to quit the Administrator Command Prompt.
+
+==== Diskpart (generally)
+Useful for formatting, deleting tricky partitions, connverting MBR to GPT etc
 
 === Drag an off-screen window back to your desktop
 Hold down the Shift key, then right-click on the appropriate application icon in the Windows taskbar. On the resulting pop-up, select the Move option. Begin pressing the arrow keys on your keyboard to move the invisible window from off-screen to on-screen.
@@ -143,35 +172,12 @@ and set new password
 
 NOTE: 'sethc.exe' can be used instead of 'utilman.exe', and when arriving at the login screen, press the SHIFT key quickly 5 times (stickykeys)
 
-=== Fix disk collision in Windows
-(https://www.howtohaven.com/system/change-disk-signature.shtml)
-
-Windows 7 comes with a command line utility called `diskpart` that can let you view and change the disk signature.
-
-1. Open a command prompt as administrator. To do this in Windows 7, click the Windows start menu (the round Windows icon on the left bottom corner), type "cmd" (without the quotation marks), right click the "cmd.exe" item that appears at the top of your menu, and click the line "Run as administrator". Do this even if you are already logged in as administrator, since on Windows 7, administrators run with reduced rights by default.
-
-1. A black command prompt window will open. In Windows 7, the title bar of the window will tell you that you are running it as Administrator. If it does not, it means you did not do what I just said above. Return and follow the first step, or you will not be able to successfully carry out the rest of this tutorial.
-
-1. Type "diskpart" (without the quotation marks) into the window. (Note: for this and the other commands described here, you'll have to hit the ENTER key after you finish typing your commands for them to take effect.)
-
-1. Microsoft DiskPart will start. When it is ready, it will issue a "DISKPART>" prompt, allowing you to enter your commands.
-
-1. Type "list disk" (without the quotation marks). This will list all the disks that are currently mounted (connected to the system). The disk will not have the usual names and labels that you're accustomed to from the Windows Explorer interface, so you will have to recognize them by their sizes.
-
-NOTE: that "list disk" actually lists the physical disks, and not the partitions that you may have assigned drive letters. This means that if you have 2 physical disks, with 3 partitions on each, so that you have drives C:, D:, E:, F:, G: and H:, "list disk" will only show "Disk 0" and "Disk 1".
-
-[start="6"]
-1. To view the signature of a disk, you must first select it. To select a disk, type "select disk x" (without the quotation marks) where x is the number of the disk from your "list disk" display. When you type (say) "select disk 1", DiskPart will respond by telling you "Disk 1 is now the selected disk". +
-Now type "uniqueid disk" (again, without the quotation marks). DiskPart will respond with the disk's signature, a series of hexadecimal digits (or at least I think it's hexadecimal).
-
-1. To change the signature to some other number, type "uniqueid disk ID=[NEW SIGNATURE]" (without the quotation marks) where "[NEW SIGNATURE]" stands for the new identifier you want for the disk (without the square brackets and without the quotation marks). However, before you do that, you may want to type "help uniqueid disk", which will give you more information on how the command works. You may also want to find out the disk signatures of the other disks on the system before you modify your current one so that you don't cause a new signature collision while trying to solve this one. In addition, if you're really not sure how many digits you should give your disk, perhaps try changing only one digit of the current signature (eg, increasing or decreasing it by 1). Remember my disclaimer above: I really don't know what I'm talking about here. Do it at your own risk.
-
-8. To quit DiskPart, type "exit". Incidentally, in case you get lost while running DiskPart, when you are at the "DISKPART>" prompt, you can type "help" to get a list of commands. Typing "help" followed by the command typically gives you more info about that command.
-
-Once you've quit DiskPart, type "exit" again to quit the Administrator Command Prompt.
-
-
 === Terabyte Image for Windows
+
+==== Terabyte Image for Windows Manual
+The HTML version is link:ifl-manual.html[here] and original PDF is link:ifl_en_manual.pdf[here]
+
+
 ==== Copy disk
 '**Scale to Fit**' will ignore unallocated space at the end of the source drive and scale the partitions to fill the destination drive. '**Scale to Target**' will retain unallocated space at the end of the source drive and scale it along with the partitions.
 
@@ -197,6 +203,7 @@ A registry entry seems to have done the trick on my Win10 PC
 ----
 
 I had to create the `General` key as it wasn't already present.
+
 == Online
 
 === Save a Video from Facebook
@@ -244,7 +251,6 @@ or
 ----
 Get-ItemProperty -Path "HKLM:\SOFTWARE\Microsoft\Virtual Machine\Guest\Parameters"  | Select-Object HostName
 ----
-
 
 
 == Dropbox
