@@ -515,7 +515,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#checkout-tbc">3.9. checkout  - TBC</a></li>
-<li><a href="#push-tbc">3.10. push  - TBC</a></li>
+<li><a href="#push">3.10. Push</a>
+<ul class="sectlevel3">
+<li><a href="#to-push-all-branches-including-remote">3.10.1. To PUSH all branches (including remote)</a></li>
+</ul>
+</li>
 <li><a href="#pull-requests">3.11. Pull requests</a></li>
 <li><a href="#reset">3.12. Reset</a>
 <ul class="sectlevel3">
@@ -1399,8 +1403,18 @@ If you&#8217;re scrupulous, you can keep these uner control by always typing</p>
 
 </div>
 <div class="sect2">
-<h3 id="push-tbc"><a class="anchor" href="#push-tbc"></a>3.10. push  - TBC</h3>
-
+<h3 id="push"><a class="anchor" href="#push"></a>3.10. Push</h3>
+<div class="sect3">
+<h4 id="to-push-all-branches-including-remote"><a class="anchor" href="#to-push-all-branches-including-remote"></a>3.10.1. To PUSH all branches (including remote)</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git push --no-verify shared '*:*'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>also, <code>--mirror</code> can sometimes work.</p>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="pull-requests"><a class="anchor" href="#pull-requests"></a>3.11. Pull requests</h3>
@@ -3454,7 +3468,7 @@ Used when I want to leave a marker where something happened or where a branch wa
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-05-23 14:12:25 +0100
+Last updated 2023-06-12 09:14:10 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>

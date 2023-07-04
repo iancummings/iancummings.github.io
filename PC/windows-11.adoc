@@ -25,3 +25,16 @@ include::common.adoc[]
 https://www.reddit.com/r/Windows11/comments/pu5aa3/howto_disable_new_context_menu_explorer_command/[As this Reddit post explains], you can also do the above steps more quickly via the command line if you're comfortable with it. You can also reverse the process to restore the new Windows 11 menus. If you're curious how the edit works, the short explanation is that it's blanking out where Windows looks for the new context menu code, so it's falling back to the old code instead. It's not a huge surprise this works: after all, there's still https://www.pcgamer.com/i-cant-believe-windows-11-still-hasnt-gotten-rid-of-these-old-ass-menus/[some pretty old stuff] kicking around in Windows 11. 
 
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+
+== Enable or Disable Snap Layouts on Top of Screen in Settings
+
+* Settings (Win + I)
+* System
+* Multitasking
+* Snap Windows
+** Main irritating option is "Show snap layouts when I drag a window to the top of my screen"
+
+You can also do it in the registry - see link:https://www.elevenforum.com/t/enable-or-disable-snap-layouts-on-top-of-screen-in-windows-11.6142/[here]
+
+== Window Shake
+Also under "Multitasking" (see above)
