@@ -13,3 +13,4 @@
 == Techniques
 * link:kate-gregory-am-i-a-good-programmer.html[Am I a Good Programmer]
 
+== Tech
