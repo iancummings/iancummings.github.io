@@ -34,6 +34,10 @@
 * link:software/software.html[Software]
 * link:Interviews/interviews-index.html[Interviews]
 
+== Technology
+
+* link:technology/netorks.html[Networks]
+
 == What 3 Words
 
 

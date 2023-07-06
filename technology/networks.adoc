@@ -1,0 +1,80 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Networks
+
+== IP Video
+See link:IP-video.html[here]
+
+== OSI 7 Layer Model
+Some diagrams:
+
+image::Hierarchal-OSI-Model-Along-with-Their-Functionalities-and-Protocols.png[]
+image::OSI-TCP.jpg[]
+
+How to remember all the names of the layers? Easy.
+
+* Please | Physical Layer
+* Do | Data Link Layer
+* Not | Network Layer
+* Tell (the) | Transport Layer
+* Secret | Session Layer
+* Password (to) | Presentation Layer
+* Anyone | Application Layer
+
+Good explanations from link:https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/[FreecodeCamp.org] and link:https://www.dummies.com/article/technology/information-technology/networking/general-networking/layers-in-the-osi-model-of-a-computer-network-168519/[Dummies]
+
+A nice undersea cable map link:https://www.submarinecablemap.com/[here] +
+
+image::submarinecablemap.png[]
+
+== Multicast
+(from link:https://en.wikipedia.org/wiki/IP_multicast[Wikipedia]) +
+
+"IP multicast is a technique for one-to-many and many-to-many real-time communication over an IP infrastructure in a network. It scales to a larger receiver population by requiring neither prior knowledge of a receiver's identity nor prior knowledge of the number of receivers. Multicast uses network infrastructure efficiently by requiring the source to send a packet only once, even if it needs to be delivered to a large number of receivers. The nodes in the network (typically network switches and routers) take care of replicating the packet to reach multiple receivers such that messages are sent over each link of the network only once. +
+The most common transport layer protocol to use multicast addressing is User Datagram Protocol (UDP)."
+
+"An IP multicast group address is used by sources and the receivers to send and receive multicast messages. Sources use the group address as the IP destination address in their data packets. Receivers use this group address to inform the network that they are interested in receiving packets sent to that group. For example, if some content is associated with group 239.1.1.1, the source will send data packets destined to 239.1.1.1. Receivers for that content will inform the network that they are interested in receiving data packets sent to the group 239.1.1.1. The receiver joins 239.1.1.1. The protocol typically used by receivers to join a group is called the Internet Group Management Protocol (IGMP)."
+
+"Each host that wants to be a receiving member of a multicast group (i.e. receive data corresponding to a particular multicast address) must use IGMP to join. Adjacent routers also use this protocol to communicate. +
+
+In unicast routing, each router examines the destination address of an incoming packet and looks up the destination in a table to determine which interface to use in order for that packet to get closer to its destination. The source address is irrelevant to the router. However, in multicast routing, the source address (which is a simple unicast address) is used to determine data stream direction. The source of the multicast traffic is considered upstream. The router determines which downstream interfaces are destinations for this multicast group (the destination address), and sends the packet out through the appropriate interfaces. The term reverse-path forwarding is used to describe this concept of routing packets away from the source, rather than towards the destination."
+
+=== Address Group Reservation
+----
+RFC 5771                IPv4 Multicast Guidelines             March 2010
+
+
+Address Range                 Size       Designation
+-------------                 ----       -----------
+224.0.0.0 - 224.0.0.255       (/24)      Local Network Control Block
+
+224.0.1.0 - 224.0.1.255       (/24)      Internetwork Control Block
+
+224.0.2.0 - 224.0.255.255     (65024)    AD-HOC Block I
+
+224.1.0.0 - 224.1.255.255     (/16)      RESERVED
+
+224.2.0.0 - 224.2.255.255     (/16)      SDP/SAP Block
+
+224.3.0.0 - 224.4.255.255     (2 /16s)   AD-HOC Block II
+
+224.5.0.0 - 224.255.255.255   (251 /16s) RESERVED
+
+225.0.0.0 - 231.255.255.255   (7 /8s)    RESERVED
+
+232.0.0.0 - 232.255.255.255   (/8)       Source-Specific Multicast Block
+
+233.0.0.0 - 233.251.255.255   (16515072) GLOP Block
+
+233.252.0.0 - 233.255.255.255 (/14)      AD-HOC Block III
+
+234.0.0.0 - 238.255.255.255   (5 /8s)    RESERVED
+
+239.0.0.0 - 239.255.255.255   (/8)       Administratively Scoped Block
+----
+
