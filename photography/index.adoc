@@ -38,6 +38,7 @@ V0.1, Oct 2022: A work in progress
 === Black & White
 * link:eos-training-course.html[EOS B&W course]
 * link:john-hedgecoe-black-n-white.html[John Hedgecoe's complete guide to black and white photography]
+* link:mono.html[Colin Jarvis land & sea scapes]
 
 == Others
 * link:street-photography.html[Street Photography]
