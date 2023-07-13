@@ -7,8 +7,16 @@
 = Photography
 Ian Cummings 
 V0.1, Oct 2022: A work in progress
-== Site links / Social
+
 * link:photography.html[Photography hints 'n' tips]
+
+== Site links / Social
+. * link:https://x12.x10hosting.com:2222/evo/[x10]
+** link:https://iancummings.x10.mx/images/portfolio/[portfolio]
+** link:https://iancummings.x10.mx/images/family/[family]
+* link:https://iancummings.smugmug.com/[SmugMug]
+* link:https://websites.lightrocket.com/iancummings[LightRocket]
+* link:https://www.flickr.com/photos/iancummings/[Flickr]
 * https://youpic.com/IanCummings[YouPic]
 * link:instagram.html[Instagram]
 
