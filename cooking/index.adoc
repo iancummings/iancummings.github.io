@@ -7,6 +7,9 @@
 
 = Cooking
 
+== Under 30mins
+* link:chicken-leek-orzotto.html[Chicken & Leek Orzotto]
+
 == General
 * Enchiladas
 * link:fish-pie.html[Fish pie]
