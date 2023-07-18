@@ -14,6 +14,9 @@
 === Headphones
 
 ==== Soundpeats T3
+link:https://manuals.plus/soundpeats/t3-wireless-earbuds-active-noise-cancelling-manual[Manual]
+
+image::soundpeats-controls.png[]
 
 ==== Boltune
 
