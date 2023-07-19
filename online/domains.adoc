@@ -1,0 +1,44 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Domains & Sub-domains
+
+* link:https://iancummings.github.io/[iancummings.com]
+** images
+** amazon
+** blog
+** family
+** holidays
+** scratchpad
+** theridge
+** x10
+
+* link:http://icc-webroot.s3-website-us-east-1.amazonaws.com/[iancummings.co.uk]
+** heritage
+
+* gillicummings.co.uk
+
+* pipcummings.co.uk
+
+* tomcummings.co.uk
+
+* rosewood.org.uk
+
+* link:www.coldash.org.uk[coldashparish.org.uk]
+** ndp
+
+contact-email.co.uk
+
+link:http://iancummings.x10.mx/livetouch[livetouch.co.uk]
+
+gillicummings.uk
+
+gillycummings.uk
+
+iancummings.uk
