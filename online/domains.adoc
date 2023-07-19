@@ -25,12 +25,12 @@
 * gillicummings.co.uk
 
 * pipcummings.co.uk
-
+git ps
 * tomcummings.co.uk
 
 * rosewood.org.uk
 
-* link:www.coldash.org.uk[coldashparish.org.uk]
+* link:https://coldashpc.org.uk/[coldashparish.org.uk]
 ** ndp
 
 contact-email.co.uk
