@@ -10,35 +10,35 @@
 = Domains & Sub-domains
 
 * link:https://iancummings.github.io/[iancummings.com]
-** images
-** amazon
-** blog
-** family
-** holidays
-** scratchpad
-** theridge
-** x10
+** link:https://images.iancummings.com[images]
+** link:https://amazon.iancummings.com[amazon]
+** link:https://blog.iancummings.com[blog]
+** link:https://family.iancummings.com[family]
+** link:https://holidays.iancummings.com[holidays]
+** link:https://scratchpad.iancummings.com[scratchpad]
+** link:https://theridge.iancummings.com[theridge]
+** link:https://x10.iancummings.com[x10]
 
 * link:http://icc-webroot.s3-website-us-east-1.amazonaws.com/[iancummings.co.uk]
 ** heritage
 
-* gillicummings.co.uk
+* link:https://gillicummings.co.uk[gillicummings.co.uk]
 
-* pipcummings.co.uk
-git ps
-* tomcummings.co.uk
+* link:https://pipcummings.co.uk[]
 
-* rosewood.org.uk
+* link:https://tomcummings.co.uk[]
+
+* link:https://rosewood.org.uk[]
 
 * link:https://coldashpc.org.uk/[coldashparish.org.uk]
 ** ndp
 
-contact-email.co.uk
+link:https://contact-email.co.uk[]
 
 link:http://iancummings.x10.mx/livetouch[livetouch.co.uk]
 
-gillicummings.uk
+link:https://gillicummings.uk[]
 
-gillycummings.uk
+link:https://gillycummings.uk[]
 
-iancummings.uk
+link:https://iancummings.uk[]
