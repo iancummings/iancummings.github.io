@@ -10,14 +10,14 @@
 = Domains & Sub-domains
 
 * link:https://iancummings.github.io/[iancummings.com]
-** link:https://images.iancummings.com[images]
-** link:https://amazon.iancummings.com[amazon]
-** link:https://blog.iancummings.com[blog]
-** link:https://family.iancummings.com[family]
-** link:https://holidays.iancummings.com[holidays]
-** link:https://scratchpad.iancummings.com[scratchpad]
-** link:https://theridge.iancummings.com[theridge]
-** link:https://x10.iancummings.com[x10]
+** link:http://images.iancummings.com[images]
+** link:http://amazon.iancummings.com[amazon]
+** link:http://blog.iancummings.com[blog]
+** link:http://family.iancummings.com[family]
+** link:http://holidays.iancummings.com[holidays]
+** link:http://scratchpad.iancummings.com[scratchpad]
+** link:http://theridge.iancummings.com[theridge]
+** link:http://x10.iancummings.com[x10]
 
 * link:http://icc-webroot.s3-website-us-east-1.amazonaws.com/[iancummings.co.uk]
 ** heritage
