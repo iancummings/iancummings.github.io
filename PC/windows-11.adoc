@@ -38,3 +38,10 @@ You can also do it in the registry - see link:https://www.elevenforum.com/t/enab
 
 == Window Shake
 Also under "Multitasking" (see above)
+
+== Stop Automatic Restarts After Software Updates
+(from link:https://learn.microsoft.com/en-us/windows/deployment/update/waas-restart#registry-keys-used-to-manage-restart[Microsoft.com])
+
+You don't seem to be able to stop them all the time, but yu can stop them if the user is logged on.
+
+Use regedit and go to `HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU`, then set `NoAutoRebootWithLoggedOnUsers` to '1'
