@@ -37,7 +37,7 @@ or link:asian-chicken-burgers.html[here]
 1. Chicken with cider & mustard
 1. Mango Chicken, Cashew & Coconut Rice Stir Fry
 1. link:cumin-lemon-chicken.html[Cumin & lemon chicken with spiced rice]
-1. pesto baked Cod salsa, mash & peas
+1. link:pesto-baked-cod.html[Pesto baked Cod salsa, mash & peas]
 1. Tuna, garlic & Chilli pasta
 1. Sardine Fish Cakes
 1. link:sausages-creamy-mustard-sauce.html[Sausages with Creamy Mustard sauce (& grains)]
