@@ -1,0 +1,38 @@
+//:stylesheet: doc-gv.css
+
+:toc: macro
+:toclevels: 6
+:toc-title: Contents
+
+:imagesdir: ./images
+//include::../custom-attributes.adoc[]
+:numbered:
+
+
+
+= Pasta with tuna & tomato sauce
+:!Author:    Ian Cummings
+:Date:      July 2023
+:Revision:  V0.1
+
+toc::[]
+
+Time 35 mins, Serves 4
+
+== Ingredients
+* 2 tbsp olive oil
+* 1 onion, chopped
+* 2 garlic cloves, finely chopped
+* 400g can chopped tomatoes with herbs
+* ½ tsp chilli powder
+* 1 tsp sugar
+* 500g pkt pasta bows
+* 100g can tuna, drained
+* handful of basil leaves, optional
+
+== Method
+STEP 1
+Heat the oil in a pan, throw in the onion and cook for a couple of minutes. Stir in the garlic, tomatoes, chilli and sugar. Season with salt and pepper and bring to the boil. Give it a good stir, then reduce the heat and simmer for 5 minutes.
+
+STEP 2
+Meanwhile, bring a large pan of salted water to the boil. Add the pasta and cook according to packet instructions. Flake the tuna into the sauce and heat through. Drain the pasta, return to the pan and stir in the sauce and basil leaves if you have any. Serve with a generous grinding of pepper.
