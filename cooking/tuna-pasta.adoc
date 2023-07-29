@@ -1,12 +1,9 @@
-//:stylesheet: doc-gv.css
-
 :toc: macro
-:toclevels: 6
+:toclevels: 3
 :toc-title: Contents
+:sectnums:
 
-:imagesdir: ./images
-//include::../custom-attributes.adoc[]
-:numbered:
+:imagesdir: ../images
 
 
 
@@ -16,6 +13,8 @@
 :Revision:  V0.1
 
 toc::[]
+
+image::tuna-pasta.png[]
 
 Time 35 mins, Serves 4
 
