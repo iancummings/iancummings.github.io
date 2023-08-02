@@ -1786,6 +1786,28 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 </div>
 </div>
 <div class="sect4">
+<h5 id="three-way-merges-mergetool"><a class="anchor" href="#three-way-merges-mergetool"></a>Three-way Merges (mergetool)</h5>
+<div class="paragraph">
+<p>The mergetool (kdiff3) shows you three windows; <em>base</em>, <em>local</em>, and <em>remote</em>.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>BASE - the common ancestor(s) of LOCAL and REMOTE.</p>
+</li>
+<li>
+<p>LOCAL - the head for the file(s) from the current branch on the machine that you are using.</p>
+</li>
+<li>
+<p>REMOTE - the head for files(s) (from a remote location) that you are trying to merge into your LOCAL branch.</p>
+</li>
+<li>
+<p>MERGED - the tag / HEAD object after the merge - this is saved as a new commit.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
 <h5 id="trickier-conflicts"><a class="anchor" href="#trickier-conflicts"></a>Trickier conflicts</h5>
 <div class="paragraph">
 <p>For an unmerged file in a conflict git makes available the common base, local and remote versions of the file in the index. (This is where they are read from for use in a 3-way diff tool by git mergetool.) You can use git show to view them.</p>
@@ -3741,7 +3763,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-08-02 12:33:14 +0100
+Last updated 2023-08-02 14:28:11 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
