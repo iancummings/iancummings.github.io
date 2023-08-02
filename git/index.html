@@ -542,12 +542,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#updating-submodules">3.15. Updating Submodules</a></li>
-<li><a href="#hints-tips">3.16. Hints &amp; Tips</a>
+<li><a href="#rebase">3.16. Rebase</a>
 <ul class="sectlevel3">
-<li><a href="#standard-2">3.16.1. Standard</a></li>
-<li><a href="#advanced">3.16.2. Advanced</a></li>
-<li><a href="#workflow">3.16.3. Workflow</a></li>
-<li><a href="#bare-repositories">3.16.4. Bare Repositories</a></li>
+<li><a href="#general-safe-method">3.16.1. General "Safe" Method</a></li>
+<li><a href="#backing-out-or-dry-run">3.16.2. Backing Out or Dry Run</a></li>
+<li><a href="#reusing-previous-conflict-resolutions">3.16.3. Reusing Previous Conflict Resolutions</a></li>
+</ul>
+</li>
+<li><a href="#hints-tips">3.17. Hints &amp; Tips</a>
+<ul class="sectlevel3">
+<li><a href="#standard-2">3.17.1. Standard</a></li>
+<li><a href="#advanced">3.17.2. Advanced</a></li>
+<li><a href="#workflow">3.17.3. Workflow</a></li>
+<li><a href="#bare-repositories">3.17.4. Bare Repositories</a></li>
 </ul>
 </li>
 </ul>
@@ -1852,9 +1859,104 @@ Submodule path 'DbConnector': checked out 'd0354fc054692d3906c85c3af05ddce39a1c0
 </div>
 </div>
 <div class="sect2">
-<h3 id="hints-tips"><a class="anchor" href="#hints-tips"></a>3.16. Hints &amp; Tips</h3>
+<h3 id="rebase"><a class="anchor" href="#rebase"></a>3.16. Rebase</h3>
 <div class="sect3">
-<h4 id="standard-2"><a class="anchor" href="#standard-2"></a>3.16.1. Standard</h4>
+<h4 id="general-safe-method"><a class="anchor" href="#general-safe-method"></a>3.16.1. General "Safe" Method</h4>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>ensure everything is committed or stashed</p>
+</li>
+<li>
+<p>ensure the branch you&#8217;re rebasing onto is up to date<br>
+fetch,pull, etc</p>
+</li>
+<li>
+<p>create a new (temporary) branch on top of your current branch, e.g.<br>
+<code>git checkout -b tmp/rebase/b4anc-collector PJ70-437/task/investigate_multiple_ipcore_datacores</code></p>
+</li>
+<li>
+<p><code>git rebase &lt;branchname&gt;</code></p>
+</li>
+<li>
+<p>repeat<br>
+<code>git mergetool</code><br>
+<code>git add &lt;conflicted-file&gt;</code><br>
+<code>git rebase --continue</code><br></p>
+</li>
+<li>
+<p>test result</p>
+</li>
+<li>
+<p>we now have a successful rebase on the temp branch, and our original branch is still where it was and so we need to move the branch to "here" and delete the temp branch</p>
+</li>
+<li>
+<p>for the paranoid, checkout the "old" branch and add a tag/branch for posterity<br>
+<code>git checkout  PJ70-437/task/investigate_multiple_ipcore_datacores</code><br>
+<code>git tag ianc/PJ70-437/b4rebase-and-anc-dev</code><br>
+return to rebased branch:<br>
+<code>git checkout tmp/rebase/b4anc-collector</code></p>
+</li>
+<li>
+<p>move the branch to your current position<br>
+<code>git branch --force PJ70-437/task/investigate_multiple_ipcore_datacores [optional-commit]</code></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>All done.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="backing-out-or-dry-run"><a class="anchor" href="#backing-out-or-dry-run"></a>3.16.2. Backing Out or Dry Run</h4>
+<div class="paragraph">
+<p>If you think all should work without any conflicts then this will revert if it comes across any conflicts</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ git rebase ... || git rebase --abort</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>And if the rebase is successful but you realise that you want to undo it, you can run</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ git reset --hard ORIG_HEAD #<b class="conum">(1)</b></pre>
+</div>
+</div>
+<div class="colist arabic">
+<ol>
+<li>
+<p>ORIG_HEAD <em>may</em> not always point to where you want (if you&#8217;ve done a git reset or similar during the rebase). You can use <code>git reset --hard @{1}</code></p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>You can create a new branch and try rebasing that, which will leave your current branch alone.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ git checkout your-branch
+$ git checkout -b tmp
+$ git rebase other-branch</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>( or <code>git checkout -b tmp your-branch</code>)</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="reusing-previous-conflict-resolutions"><a class="anchor" href="#reusing-previous-conflict-resolutions"></a>3.16.3. Reusing Previous Conflict Resolutions</h4>
+<div class="paragraph">
+<p>See <a href="https://git-scm.com/book/en/v2/Git-Tools-Rerere">git-scm</a> on <code>rerere</code></p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="hints-tips"><a class="anchor" href="#hints-tips"></a>3.17. Hints &amp; Tips</h3>
+<div class="sect3">
+<h4 id="standard-2"><a class="anchor" href="#standard-2"></a>3.17.1. Standard</h4>
 <div class="sect4">
 <h5 id="revert-part-of-a-file"><a class="anchor" href="#revert-part-of-a-file"></a>Revert part of a file</h5>
 <div class="paragraph">
@@ -1906,11 +2008,11 @@ $ git checkout -p .</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="advanced"><a class="anchor" href="#advanced"></a>3.16.2. Advanced</h4>
+<h4 id="advanced"><a class="anchor" href="#advanced"></a>3.17.2. Advanced</h4>
 
 </div>
 <div class="sect3">
-<h4 id="workflow"><a class="anchor" href="#workflow"></a>3.16.3. Workflow</h4>
+<h4 id="workflow"><a class="anchor" href="#workflow"></a>3.17.3. Workflow</h4>
 <div class="sect4">
 <h5 id="revisiting-a-feature-branch"><a class="anchor" href="#revisiting-a-feature-branch"></a>Revisiting a feature branch</h5>
 <div class="paragraph">
@@ -2004,7 +2106,7 @@ $ git checkout -p .</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="bare-repositories"><a class="anchor" href="#bare-repositories"></a>3.16.4. Bare Repositories</h4>
+<h4 id="bare-repositories"><a class="anchor" href="#bare-repositories"></a>3.17.4. Bare Repositories</h4>
 <div class="sect4">
 <h5 id="change-the-active-branch"><a class="anchor" href="#change-the-active-branch"></a>Change the active branch</h5>
 <div class="listingblock">
@@ -3639,7 +3741,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-07-10 11:47:51 +0100
+Last updated 2023-08-02 12:33:14 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
