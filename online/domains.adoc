@@ -11,6 +11,7 @@
 
 * link:https://iancummings.github.io/[iancummings.com]
 ** link:http://images.iancummings.com[images]
+** link:http://photography.iancummings.com[photography]
 ** link:http://amazon.iancummings.com[amazon]
 ** link:http://blog.iancummings.com[blog]
 ** link:http://family.iancummings.com[family]
