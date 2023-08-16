@@ -1,0 +1,32 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Macro
+:Author: Ian Cummings
+:Email:
+:Date: July 2023
+:Revision: V0.1
+:numbered:
+
+== Quick Setup
+Assuming 1:1, set the aperture according to the chart below
+
+|====
+| Format | Non-Canon | Canon (divide by 2)
+
+| full frame | f16-f22 | f8-f11
+|APS-C | f10-f14 | #f5-f7.1#
+|micro 4/3 | f8 - f11 |
+|====
+
+1. set *shutter speed* to #max sync# speed
+1. set the *flash power* to #¼#
+1. set the *ISO* to #100#
+1. take some test shots, of a leaf for example increasing the ISO value until the image is correct and then stop and use that ISO value
+1. change the flash power setting to *auto*
+
+NOTE: you may have to change the flash compensation if the image is persistently incorrect.
+
+== If subject is far away
+Then set aperture to its widest, set the shutter speed to safe handheld value and ISO to auto or whatever.

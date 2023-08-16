@@ -59,6 +59,7 @@ V0.1, Oct 2022: A work in progress
 * link:food-photography.html[Food]
 * link:light-painting.html[Light painting]
 * link:fireworks.html[Fireworks]
+* link:macro.html[Macro]
 
 == Flash
 * link:flash-approaches.html[Approaches]
@@ -75,6 +76,7 @@ V0.1, Oct 2022: A work in progress
 * link:posing.html[Posing]
 * link:sunny16.html[Sunny 16]
 * link:x100v.html[Fuji X100V]
+
 
 == Miscellaneous
 * link:locations.html[locations]
