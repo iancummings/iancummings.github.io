@@ -29,4 +29,10 @@ Assuming 1:1, set the aperture according to the chart below
 NOTE: you may have to change the flash compensation if the image is persistently incorrect.
 
 == If subject is far away
-Then set aperture to its widest, set the shutter speed to safe handheld value and ISO to auto or whatever.
+Then set *aperture* to its widest, set the *shutter speed* to safe handheld value and *ISO* to auto or whatever.
+
+== Simple Setup
+
+1. Set to manual, ISO 200, f8, 1/200, flash at 1/16 footnote:[adjust if too dark] power, WB = 5500k
+
+2. Post process to ensure WB correct, lift shadows, and decrease highlights.
