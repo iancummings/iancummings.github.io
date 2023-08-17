@@ -20,7 +20,7 @@ Assuming 1:1, set the aperture according to the chart below
 |micro 4/3 | f8 - f11 |
 |====
 
-1. set *shutter speed* to #max sync# speed
+1. set *shutter speed* to #max sync# speed (1/250)
 1. set the *flash power* to #¼#
 1. set the *ISO* to #100#
 1. take some test shots, of a leaf for example increasing the ISO value until the image is correct and then stop and use that ISO value
