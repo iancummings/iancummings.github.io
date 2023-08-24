@@ -19,6 +19,7 @@ V0.1, Oct 2022: A work in progress
 * link:https://www.flickr.com/photos/iancummings/[Flickr]
 * https://youpic.com/IanCummings[YouPic]
 * link:instagram.html[Instagram]
+* link:https://iancummings.client-gallery.com/[CloudSpot]
 
 == Clubs
 === Newbury
