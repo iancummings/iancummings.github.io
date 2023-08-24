@@ -11,6 +11,13 @@
 
 == Manuals & Instructions
 
+=== USB Chargers
+
+==== 100W UGreen
+image::ugreen-100w-charger-1.png[]
+image::ugreen-100w-charger-2.png[]
+image::ugreen-100w-charger-3.png[]
+
 === Headphones
 
 ==== Soundpeats T3
