@@ -9,6 +9,11 @@
 
 = Reference
 
+== Pizza Oven
+Temperature according to Ooni should be **400-450°C**, allow 20 minutes to get to temperature, which should cook a pizza in ~4minutes.
+
+It takes about an hour to cool down.
+
 == Manuals & Instructions
 
 === USB Chargers
