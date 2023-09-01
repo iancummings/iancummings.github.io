@@ -108,6 +108,7 @@ V0.1, Oct 2022: A work in progress
 == Processing
 * link:workflow.html[Workflow]
 * link:photolab.html[PhotoLab]
+* link:printing.html[Printing]
 
 == Legal
 === TFL (Underground & buses)

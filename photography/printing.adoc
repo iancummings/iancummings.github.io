@@ -1,0 +1,17 @@
+// toc: left, right, preamble, macro, auto (default)
+:toc: macro
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+:numbered:
+
+= Printing
+
+toc::[]
+
+//====================================================================================
+== Resolution
+Two usefil webpages regarding paper sizes, pixels per inch, and dots per inch can be found link:https://fineartprinting.la/pixels-per-inch-file-resolution-for-printing/[here] and link:https://castleink.com/blogs/printer-help/inkjet-printer-resolution-dpi-printer-guide[here].
