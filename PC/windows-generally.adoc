@@ -206,6 +206,13 @@ A registry entry seems to have done the trick on my Win10 PC
 
 I had to create the `General` key as it wasn't already present.
 
+=== Get the hash of a file
+Use the `certutil` program
+
+----
+c:\> certutil -hashfile <filename> SHA256
+----
+
 == Online
 
 === Save a Video from Facebook

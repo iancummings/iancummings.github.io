@@ -464,6 +464,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#trueconsole-colours">2.10. Console colours</a></li>
 <li><a href="#truedisable-coming-soon-in-outlook">2.11. Disable "Coming Soon" in Outlook</a></li>
+<li><a href="#trueget-the-hash-of-a-file">2.12. Get the hash of a file</a></li>
 </ul>
 </li>
 <li><a href="#trueonline">3. Online</a>
@@ -942,6 +943,17 @@ and set new password</p>
 <p>I had to create the <code>General</code> key as it wasn&#8217;t already present.</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="trueget-the-hash-of-a-file"><a class="anchor" href="#trueget-the-hash-of-a-file"></a>2.12. Get the hash of a file</h3>
+<div class="paragraph">
+<p>Use the <code>certutil</code> program</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>c:\&gt; certutil -hashfile &lt;filename&gt; SHA256</pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1067,7 +1079,7 @@ you would change it to<br>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-05-29 13:08:12 GMTDT
+Last updated 2023-09-27 09:34:52 GMTDT
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
