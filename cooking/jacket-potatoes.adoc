@@ -31,19 +31,22 @@ image:beans-potato.jpg[]
 Roughly chop a garlic clove and fresh red chilli, and add to a saucepan with a tin of cannellini beans, (tin of) plum tomatoes, (tsp) smoked paprika and a splash of Worcestershire sauce. Stir and simmer until thickened. Spoon over your potato and add a sprinkling of grated Cheddar cheese. +
 
 === Home Baked Beans (cowboy beans)
+(serves 4) +
+From link:https://www.bbcgoodfood.com/recipes/jacket-potatoes-home-baked-beans[BBC]
 
 image::home-baked-beans-potato.png[]
 
-*Ingredients* +
-4 baking potatoes
-1 tbsp sunflower oil
-1 carrot, diced
-1 celery stalk, diced
-400g can haricot beans, drained
-2 tomatoes, chopped
-1 tsp paprika - choose sweet or hot depending on taste
-1 tsp Worcestershire sauce
-2 tbsp chopped chives, to serve
+*Ingredients*
+
+* 4 baking potatoes
+* 1 tbsp sunflower oil
+* 1 carrot, diced
+* 1 celery stalk, diced
+* 400g can haricot beans, drained
+* 2 tomatoes, chopped
+* 1 tsp paprika - choose sweet or hot depending on taste
+* 1 tsp Worcestershire sauce
+* 2 tbsp chopped chives, to serve
 
 *Method* +
 Heat oil in a pan and gently cook diced (carrot and celery) for 10 mins until softened. Add the (haricot) beans, tomatoes and (tsp) paprika and cook gently for a further 5 mins until the tomatoes are softened and pulpy. Stir in 100ml water and the Worcestershire sauce, cook for a further 5 mins, scatter with chives and serve. +
