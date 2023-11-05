@@ -9,5 +9,17 @@
 :Revision: V0.1
 
 == Key Approach
+
+Saul Leiter (1923-2013) was an American photographer and painter, best known for his pioneering work in colour street photography. His distinctive style, characterized by the **use of colour, abstraction, and an emphasis on the beauty of everyday moments**, has made him a revered figure in the world of photography.
+
+
+
+
+== Books
+* https://aboutphotography.blog/photographer/saul-leiter#:~:text=Photographic%20Style%20and%20Techniques&text=His%20photos%20often%20featured%20reflections,in%20abstract%20and%20layered%20images.
+
+
+
+
 * longer lens
 * aesthetic
