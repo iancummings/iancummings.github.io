@@ -13,15 +13,14 @@
 | Portuguese | English
 
 |eu <e-o> | I +
-|a-o | The +
-|homem ("omem") |man +
-|sou uma mulher | (mouesh=woman) +
-|menino (menino) | boy +
+|A (f), O (m) | the +
+|homem <omem> | man +
+|mulher <mooliere> | woman +
+|menino <menino> | boy +
 | |
 |jornal (m) | newspaper +
-|mulher <mooliere> | woman +
 |um <um> | a +
-|E(+acute) | it is +
+|E[+acute] | it is +
 ||
 |A | the +
 |====
@@ -35,6 +34,7 @@
 |ela come uma laranja |= she eats an orange +
 |A mulher le o journal | + 
 |O cachorro bebe agua | +
+| sou uma mulher | I am a woman
 |====
 
 
