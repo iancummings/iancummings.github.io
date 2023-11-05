@@ -20,6 +20,7 @@
 * link:reference/index.html[Reference]
 * link:diy/diy-index.html[DIY]
 * link:online/domains.html[Domains & Sub-Domains]
+* link:portuguese/index.html[Portugese]
 
 == Work
 * link:don7/index.html[don7]
