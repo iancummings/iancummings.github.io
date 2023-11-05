@@ -9,27 +9,33 @@
 
 == Vocab
 
-eu <e-o> = I +
-a-o = I +
-homem ("omem") man +
-sou uma mulher (mouesh=woman) +
-menino (menino) boy +
+|====
+| Portuguese | English
 
-jornal (m) = newspaper +
-mulher <mooliere> = woman +
-um <um> = a +
-E(+acute) = it is +
-
-A = the +
-
+|eu <e-o> | I +
+|a-o | The +
+|homem ("omem") |man +
+|sou uma mulher | (mouesh=woman) +
+|menino (menino) | boy +
+| |
+|jornal (m) | newspaper +
+|mulher <mooliere> | woman +
+|um <um> | a +
+|E(+acute) | it is +
+||
+|A | the +
+|====
 
 == Phrases
-A menina come pao = The girl eats bread +
-ela <ele> bebe agua = she drinks water +
-ela come uma laranja = she eats an orange +
-A mulher le o journal +
-O cachorro bebe agua +
+|====
+| Portuguese | English
 
+|A menina come pao |= The girl eats bread +
+|ela <ele> bebe agua |= she drinks water +
+|ela come uma laranja |= she eats an orange +
+|A mulher le o journal | + 
+|O cachorro bebe agua | +
+|====
 
 
 
