@@ -1661,7 +1661,7 @@ $ git reset --hard origin/master
 <td class="tableblock halign-left valign-top"><p class="tableblock">NO</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: yellow;"><p class="tableblock">YES </p></td>
 <td class="tableblock halign-left valign-top" style="background-color: yellow;"><p class="tableblock">YES</p></td>
-<td class="tableblock halign-left valign-top" style="background-color: yellow;"><p class="tableblock">NO</p></td>
+<td class="tableblock halign-left valign-top"></td>
 </tr>
 </tbody>
 </table>
@@ -1854,6 +1854,27 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 </li>
 </ul>
 </div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Base</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Local</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Remote</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">the common ancestor(s) of LOCAL and REMOTE.</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* the head for the file(s) from the current branch on the machine that you are using or<br>
+* the branch onto which you are rebasing (e.g. <code>develop</code>)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">* the head for files(s) (from a remote location) that you are trying to merge into your LOCAL branch or<br>
+* the file from the branch you are rebasing.</p></td>
+</tr>
+</tbody>
+</table>
 </div>
 <div class="sect4">
 <h5 id="trickier-conflicts"><a class="anchor" href="#trickier-conflicts"></a>Trickier conflicts</h5>
@@ -3875,7 +3896,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-03 15:59:57 UTC
+Last updated 2023-11-06 09:19:00 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
