@@ -21,21 +21,34 @@
 |jornal (m) | newspaper +
 |um <um> | a +
 |E[+acute] | it is +
-||
-|A | the +
+| suo | am
+| tem | have
+|A or O | the +
+| ela | she
+|voce[circumflex] | you
+|livro (m) | book
 |====
 
 == Phrases
 |====
 | Portuguese | English
 
-|A menina come pao |= The girl eats bread +
-|ela <ele> bebe agua |= she drinks water +
-|ela come uma laranja |= she eats an orange +
-|A mulher le o journal | + 
-|O cachorro bebe agua | +
+|A menina come pao | The girl eats bread 
+|ela <ele> bebe agua | she drinks water 
+|ela come uma laranja | she eats an orange
+|A mulher le o journal | the woman reads a newspaper
+|O cachorro bebe agua |  the dog drinks water
 | sou uma mulher | I am a woman
+|eu escrevo | i write
+|eu escrevo uma carta | i write a book
+|ele escreve uma carta | he reads a book
+|eu <il> leio | i read
+|eu leio um jornal |
+|eu leio um livro | i read a book
+| ela escreve e eu leio | she writes and I read
 |====
+
+
 
 
 
