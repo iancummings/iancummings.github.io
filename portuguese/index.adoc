@@ -14,9 +14,9 @@
 
 |eu <e-o> | I +
 |A (f), O (m) | the +
-|homem <omem> | man +
-|mulher <mooliere> | woman +
-|menino <menino> | boy +
+|homem <omem> or <ha-may> (m) | man +
+|mulher <mooliere> (f) | woman +
+|menino <menino> (m) | boy +
 | |
 |jornal (m) | newspaper +
 |um <um> | a +
@@ -27,6 +27,9 @@
 | ela | she
 |voce[circumflex] | you
 |livro (m) | book
+| bola (f) | ball
+| cachorro (m) | dog
+| casa (f) | house
 |====
 
 == Phrases
@@ -46,6 +49,7 @@
 |eu leio um jornal |
 |eu leio um livro | i read a book
 | ela escreve e eu leio | she writes and I read
+|Tenho um cachorro e uma bla | I have a dog and a ball
 |====
 
 
