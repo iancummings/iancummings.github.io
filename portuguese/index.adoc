@@ -17,6 +17,7 @@
 |homem <omem> or <ha-may> (m) | man +
 |mulher <mooliere> (f) | woman +
 |menino <menino> (m) | boy +
+| menina <meninya> | girl
 | |
 |jornal (m) | newspaper +
 |um <um> | a +
@@ -30,6 +31,7 @@
 | bola (f) | ball
 | cachorro (m) | dog
 | casa (f) | house
+| maca (f) | apple
 |====
 
 == Phrases
