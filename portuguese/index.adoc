@@ -32,6 +32,7 @@
 | cachorro (m) | dog
 | casa (f) | house
 | maca (f) | apple
+| chave (f) | key
 |====
 
 == Phrases
@@ -52,6 +53,15 @@
 |eu leio um livro | i read a book
 | ela escreve e eu leio | she writes and I read
 |Tenho um cachorro e uma bla | I have a dog and a ball
+|ele tem a chave | he has the key
+|o gato tem uma chave |
+|ela tem uma casa | she has a house
+|&#0233; cerveja | it is beer
+|ele tem agua | he has water
+|ela &#0233; uma mulher | she is a woman
+|&#0233; um gato | it is a cat
+|ela tem uma gata | she has a cat
+|ela &#0233; uma menina | she is a girl
 |====
 
 
