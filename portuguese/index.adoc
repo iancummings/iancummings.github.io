@@ -33,6 +33,7 @@
 | casa (f) | house
 | maca (f) | apple
 | chave (f) | key
+| cervaja (f) | beer
 |====
 
 == Phrases
@@ -62,6 +63,20 @@
 |&#0233; um gato | it is a cat
 |ela tem uma gata | she has a cat
 |ela &#0233; uma menina | she is a girl
+| O cahorro come o jornal | the dog easts the newspaper
+| O menino come uma maca | the boy eats an apple
+| Eu tenho um livro +
+(Il teng un livro)| I have a book
+| eu escrevo uma catra | I write a letter
+| ela escreve uma carta | she writes a letter
+| eu leio o jornal | i read the newspaper
+| eu bebo agua | I drink water
+| voce escreve uma carta | you write a letter
+| voce le{circumflex} | you read
+| eu como pao | i eat bread
+| O gato le{circ} o jornal | the cat reads the newspaper
+| eu como uma maca e ela come pao
+| ele le | he reads
 |====
 
 
