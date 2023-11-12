@@ -34,7 +34,20 @@
 | maca (f) | apple
 | chave (f) | key
 | cervaja (f) | beer
+|vo&#0265;e | you
 |====
+
+&#0230;
+&#0264;
+&#0265;
+&#0233;
+&ccirc;
+&ccedil;
+&#0231;
+&#0771;
+
+&atilde;
+&#0227;
 
 == Phrases
 |====
@@ -67,7 +80,7 @@
 | O menino come uma maca | the boy eats an apple
 | Eu tenho um livro +
 (Il teng un livro)| I have a book
-| eu escrevo uma catra | I write a letter
+| eu escrevo uma carta | I write a letter
 | ela escreve uma carta | she writes a letter
 | eu leio o jornal | i read the newspaper
 | eu bebo agua | I drink water
