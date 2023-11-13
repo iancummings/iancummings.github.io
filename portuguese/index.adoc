@@ -66,7 +66,7 @@
 |eu leio um jornal |
 |eu leio um livro | i read a book
 | ela escreve e eu leio | she writes and I read
-|Tenho um cachorro e uma bla | I have a dog and a ball
+|Tenho um cachorro e uma bola | I have a dog and a ball
 |ele tem a chave | he has the key
 |o gato tem uma chave |
 |ela tem uma casa | she has a house
@@ -90,9 +90,14 @@
 | O gato le{circ} o jornal | the cat reads the newspaper
 | eu como uma maca e ela come pao
 | ele le | he reads
+| O menino tem a carta | the boy has the letter
+| the man has the book | O homen tem o livro
+| voce le um livro | you read a book
+| &Eacute;  um cachorro | it is a dog
 |====
 
-
+&Eacute;
+&#0201;
 
 
 
