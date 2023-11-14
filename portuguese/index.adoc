@@ -35,6 +35,14 @@
 | chave (f) | key
 | cervaja (f) | beer
 |vo&#0265;e | you
+|e | and
+|um | a
+|leite | milk
+| agua | water
+| minina | girl
+| laranja | orange
+| Oi | hi
+| tchau [chow] | bye
 |====
 
 &#0230;
@@ -88,12 +96,19 @@
 | voce le{circumflex} | you read
 | eu como pao | i eat bread
 | O gato le{circ} o jornal | the cat reads the newspaper
-| eu como uma maca e ela come pao
+| eu como uma maca e ela come pao |I eat an apple and she eats bread
 | ele le | he reads
 | O menino tem a carta | the boy has the letter
 | the man has the book | O homen tem o livro
 | voce le um livro | you read a book
 | &Eacute;  um cachorro | it is a dog
+| ela tem um gato | she has a cat
+| voce tem um gato | you have a cat
+| ela come | she eats
+| bom dia [bom jia]| good morning
+| boa tarde | good afternoon
+| Tchau e bom dia | bye and good morning
+| bom dia e boa tarde | good morning and good afternoon
 |====
 
 &Eacute;
