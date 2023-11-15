@@ -43,6 +43,11 @@
 | laranja | orange
 | Oi | hi
 | tchau [chow] | bye
+| Na{wiggle}o | no
+|Sim | yes
+| obrigada | thank you
+| nao obrigado | no thank you
+| Por favor [poor favorshe] | please
 |====
 
 &#0230;
@@ -109,6 +114,7 @@
 | boa tarde | good afternoon
 | Tchau e bom dia | bye and good morning
 | bom dia e boa tarde | good morning and good afternoon
+| Eu nao tenho um carro | I do not have a car
 |====
 
 &Eacute;
