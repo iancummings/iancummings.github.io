@@ -48,6 +48,13 @@
 | obrigada | thank you
 | nao obrigado | no thank you
 | Por favor [poor favorshe] | please
+| De [je] nada | You're welcome
+| Tudo bem | everything is fine
+| parabens | congratulations
+| de nada, boa tarde | you're welcome, good afternoon
+|boa noite [noychi] | good night
+| boa noite, tudo bem? | good evening, how are you
+| oi, tudo bem [beng]? | hi, how are you?
 |====
 
 &#0230;
