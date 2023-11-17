@@ -38,7 +38,7 @@
 |e | and
 |um | a
 |leite | milk
-| agua | water
+| agua (f) | water
 | minina | girl
 | laranja | orange
 | Oi | hi
@@ -105,6 +105,7 @@
 | eu leio o jornal | i read the newspaper
 | eu bebo agua | I drink water
 | voce escreve uma carta | you write a letter
+| O menino escreve uma carta | the boy writes a letter
 | voce le{circumflex} | you read
 | eu como pao | i eat bread
 | O gato le{circ} o jornal | the cat reads the newspaper
@@ -122,6 +123,11 @@
 | Tchau e bom dia | bye and good morning
 | bom dia e boa tarde | good morning and good afternoon
 | Eu nao tenho um carro | I do not have a car
+| O gato l&eacute; o jornal | the cat reads the newspaper
+| Eu leio o jornal | I read the newspaper
+| Ela &eacute; uma menina e eu sou um menino | she is a girl and I am a boy
+| Um homen | A man
+| 
 |====
 
 &Eacute;
