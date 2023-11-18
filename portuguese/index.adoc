@@ -12,21 +12,36 @@
 |====
 | Portuguese | English
 
-|eu <e-o> | I +
+|eu <e-o> | I
+|um <um> | a
+|e | and
 |A (f), O (m) | the +
+|E[+acute] | it is +
+| suo | am
+| tem | have
+| ela | she
+|vo&#0265;e | you
+| |
+| Na{wiggle}o | no
+|Sim | yes
+| Oi | hi
+| tchau [chow] | bye
+| obrigada | thank you
+| nao obrigado | no thank you
+| Por favor [poor favorshe] | please
+| De [je] nada | You're welcome
+| de nada, boa tarde | you're welcome, good afternoon
+|boa noite [noychi] | good night
+| boa noite, tudo bem? | good evening, how are you
+| oi, tudo bem [beng]? | hi, how are you?
+| Tudo bem | everything is fine
+||
 |homem <omem> or <ha-may> (m) | man +
 |mulher <mooliere> (f) | woman +
 |menino <menino> (m) | boy +
 | menina <meninya> | girl
 | |
 |jornal (m) | newspaper +
-|um <um> | a +
-|E[+acute] | it is +
-| suo | am
-| tem | have
-|A or O | the +
-| ela | she
-|voce[circumflex] | you
 |livro (m) | book
 | bola (f) | ball
 | cachorro (m) | dog
@@ -34,27 +49,10 @@
 | maca (f) | apple
 | chave (f) | key
 | cervaja (f) | beer
-|vo&#0265;e | you
-|e | and
-|um | a
 |leite | milk
 | agua (f) | water
-| minina | girl
 | laranja | orange
-| Oi | hi
-| tchau [chow] | bye
-| Na{wiggle}o | no
-|Sim | yes
-| obrigada | thank you
-| nao obrigado | no thank you
-| Por favor [poor favorshe] | please
-| De [je] nada | You're welcome
-| Tudo bem | everything is fine
 | parabens | congratulations
-| de nada, boa tarde | you're welcome, good afternoon
-|boa noite [noychi] | good night
-| boa noite, tudo bem? | good evening, how are you
-| oi, tudo bem [beng]? | hi, how are you?
 |====
 
 &#0230;
@@ -73,6 +71,10 @@
 |====
 | Portuguese | English
 
+| bom dia [bom jia]| good morning
+| boa tarde [tarchey] | good afternoon
+||
+| Oi, sou eu [so-yeo] | Hi, it is me
 |A menina come pao | The girl eats bread 
 |ela <ele> bebe agua | she drinks water 
 |ela come uma laranja | she eats an orange
@@ -83,7 +85,7 @@
 |eu escrevo uma carta | i write a book
 |ele escreve uma carta | he reads a book
 |eu <il> leio | i read
-|eu leio um jornal |
+|eu leio um jornal | i read a newspaper
 |eu leio um livro | i read a book
 | ela escreve e eu leio | she writes and I read
 |Tenho um cachorro e uma bola | I have a dog and a ball
@@ -96,10 +98,9 @@
 |&#0233; um gato | it is a cat
 |ela tem uma gata | she has a cat
 |ela &#0233; uma menina | she is a girl
-| O cahorro come o jornal | the dog easts the newspaper
+| O cahorro come o jornal | the dog eats the newspaper
 | O menino come uma maca | the boy eats an apple
-| Eu tenho um livro +
-(Il teng un livro)| I have a book
+| Eu tenho um livro (Il teng un livro)| I have a book
 | eu escrevo uma carta | I write a letter
 | ela escreve uma carta | she writes a letter
 | eu leio o jornal | i read the newspaper
@@ -118,15 +119,12 @@
 | ela tem um gato | she has a cat
 | voce tem um gato | you have a cat
 | ela come | she eats
-| bom dia [bom jia]| good morning
-| boa tarde | good afternoon
 | Tchau e bom dia | bye and good morning
 | bom dia e boa tarde | good morning and good afternoon
 | Eu nao tenho um carro | I do not have a car
 | O gato l&eacute; o jornal | the cat reads the newspaper
 | Eu leio o jornal | I read the newspaper
 | Ela &eacute; uma menina e eu sou um menino | she is a girl and I am a boy
-| Um homen | A man
 | 
 |====
 
