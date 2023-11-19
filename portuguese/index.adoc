@@ -34,6 +34,7 @@
 |boa noite [noychi] | good night
 | boa noite, tudo bem? | good evening, how are you
 | oi, tudo bem [beng]? | hi, how are you?
+| como est&aacute; | how are you?
 | Tudo bem | everything is fine
 ||
 |homem <omem> or <ha-may> (m) | man +
@@ -125,6 +126,8 @@
 | O gato l&eacute; o jornal | the cat reads the newspaper
 | Eu leio o jornal | I read the newspaper
 | Ela &eacute; uma menina e eu sou um menino | she is a girl and I am a boy
+| Tudo bem [tutu beng], obrigado | everything is fine, thank you
+| De [gee] nada, boa tarde | you're welcome, good afternoon
 | 
 |====
 
