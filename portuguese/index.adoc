@@ -18,11 +18,11 @@
 |A (f), O (m) | the +
 |E[+acute] | it is +
 | suo | am
-| tem | have
+| tem / tenho | have
 | ela | she
 |vo&#0265;e | you
 | |
-| Na{wiggle}o | no
+| N&atilde;o | no
 |Sim | yes
 | Oi | hi
 | tchau [chow] | bye
@@ -54,6 +54,10 @@
 | agua (f) | water
 | laranja | orange
 | parabens | congratulations
+| Ol&aacute; | Hello
+| Ol&aacute;, tudo [tutu] bem [beng] | Hello, how are you?
+| Desculpe | sorry
+| Prazer [presish] em conhecer [conhisish] voc&eacute; [vossay]| nice to meet you
 |====
 
 &#0230;
@@ -128,6 +132,7 @@
 | Ela &eacute; uma menina e eu sou um menino | she is a girl and I am a boy
 | Tudo bem [tutu beng], obrigado | everything is fine, thank you
 | De [gee] nada, boa tarde | you're welcome, good afternoon
+| I do not have a car | Eu n&atilde;o tenho um carro
 | 
 |====
 
