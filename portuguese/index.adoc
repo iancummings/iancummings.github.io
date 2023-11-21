@@ -12,6 +12,8 @@
 |====
 | Portuguese | English
 
+| Portugu&eacute;s | Portuguese
+| falo | speak
 |eu <e-o> | I
 |um <um> | a
 |e | and
@@ -75,6 +77,9 @@
 == Phrases
 |====
 | Portuguese | English
+
+| Desculpe, eu nao falo portugu&ecirc;s |
+| Com licen&ccedil;a |excuse me
 
 | bom dia [bom jia]| good morning
 | boa tarde [tarchey] | good afternoon
