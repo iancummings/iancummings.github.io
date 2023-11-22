@@ -78,7 +78,8 @@
 |====
 | Portuguese | English
 
-| Desculpe, eu nao falo portugu&ecirc;s |
+| Desculpe, eu nao falo portugu&ecirc;s | Sorry, I do not speak Portuguese
+| Ol&aacute; prazer em conhecer voc&ecirc; | hello, nice to meet you
 | Com licen&ccedil;a |excuse me
 
 | bom dia [bom jia]| good morning
