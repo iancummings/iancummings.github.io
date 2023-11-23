@@ -553,18 +553,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#reusing-previous-conflict-resolutions">3.16.3. Reusing Previous Conflict Resolutions</a></li>
 </ul>
 </li>
-<li><a href="#squashing">3.17. Squashing</a>
+<li><a href="#rebase-onto">3.17. Rebase "--onto"</a></li>
+<li><a href="#squashing">3.18. Squashing</a>
 <ul class="sectlevel3">
-<li><a href="#when-merging">3.17.1. When Merging</a></li>
-<li><a href="#squash-commits-in-one-branch">3.17.2. Squash Commits in one branch</a></li>
+<li><a href="#when-merging">3.18.1. When Merging</a></li>
+<li><a href="#squash-commits-in-one-branch">3.18.2. Squash Commits in one branch</a></li>
 </ul>
 </li>
-<li><a href="#hints-tips">3.18. Hints &amp; Tips</a>
+<li><a href="#hints-tips">3.19. Hints &amp; Tips</a>
 <ul class="sectlevel3">
-<li><a href="#standard-2">3.18.1. Standard</a></li>
-<li><a href="#advanced">3.18.2. Advanced</a></li>
-<li><a href="#workflow">3.18.3. Workflow</a></li>
-<li><a href="#bare-repositories">3.18.4. Bare Repositories</a></li>
+<li><a href="#standard-2">3.19.1. Standard</a></li>
+<li><a href="#advanced">3.19.2. Advanced</a></li>
+<li><a href="#workflow">3.19.3. Workflow</a></li>
+<li><a href="#bare-repositories">3.19.4. Bare Repositories</a></li>
 </ul>
 </li>
 </ul>
@@ -2062,12 +2063,18 @@ $ git rebase other-branch</pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="squashing"><a class="anchor" href="#squashing"></a>3.17. Squashing</h3>
+<h3 id="rebase-onto"><a class="anchor" href="#rebase-onto"></a>3.17. Rebase "--onto"</h3>
+<div class="paragraph">
+<p>You add <code>--onto</code> to the rebase command if you want to move the brnach to a different branch from where it was started. See ProGit 2nd Edition page 70</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="squashing"><a class="anchor" href="#squashing"></a>3.18. Squashing</h3>
 <div class="paragraph">
 <p>There&#8217;s a good article <a href="https://www.freecodecamp.org/news/git-squash-commits/">here</a></p>
 </div>
 <div class="sect3">
-<h4 id="when-merging"><a class="anchor" href="#when-merging"></a>3.17.1. When Merging</h4>
+<h4 id="when-merging"><a class="anchor" href="#when-merging"></a>3.18.1. When Merging</h4>
 <div class="paragraph">
 <p>A common case is to merge a branch and squash the commits so ony the result is preserved. This is done simply by adding the <code>squash</code> switch as shown here</p>
 </div>
@@ -2080,7 +2087,7 @@ $ git commit</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="squash-commits-in-one-branch"><a class="anchor" href="#squash-commits-in-one-branch"></a>3.17.2. Squash Commits in one branch</h4>
+<h4 id="squash-commits-in-one-branch"><a class="anchor" href="#squash-commits-in-one-branch"></a>3.18.2. Squash Commits in one branch</h4>
 <div class="paragraph">
 <p>If you have a branch of commits, and you want to squash a number of them into one, we can do that by effectively moving the branch pointer back and the re-commiting all the changes in one go.</p>
 </div>
@@ -2113,9 +2120,9 @@ $ git commit -m 'squash commit from A to X'</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="hints-tips"><a class="anchor" href="#hints-tips"></a>3.18. Hints &amp; Tips</h3>
+<h3 id="hints-tips"><a class="anchor" href="#hints-tips"></a>3.19. Hints &amp; Tips</h3>
 <div class="sect3">
-<h4 id="standard-2"><a class="anchor" href="#standard-2"></a>3.18.1. Standard</h4>
+<h4 id="standard-2"><a class="anchor" href="#standard-2"></a>3.19.1. Standard</h4>
 <div class="sect4">
 <h5 id="revert-part-of-a-file"><a class="anchor" href="#revert-part-of-a-file"></a>Revert part of a file</h5>
 <div class="paragraph">
@@ -2167,11 +2174,11 @@ $ git checkout -p .</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="advanced"><a class="anchor" href="#advanced"></a>3.18.2. Advanced</h4>
+<h4 id="advanced"><a class="anchor" href="#advanced"></a>3.19.2. Advanced</h4>
 
 </div>
 <div class="sect3">
-<h4 id="workflow"><a class="anchor" href="#workflow"></a>3.18.3. Workflow</h4>
+<h4 id="workflow"><a class="anchor" href="#workflow"></a>3.19.3. Workflow</h4>
 <div class="sect4">
 <h5 id="revisiting-a-feature-branch"><a class="anchor" href="#revisiting-a-feature-branch"></a>Revisiting a feature branch</h5>
 <div class="paragraph">
@@ -2265,7 +2272,7 @@ $ git checkout -p .</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="bare-repositories"><a class="anchor" href="#bare-repositories"></a>3.18.4. Bare Repositories</h4>
+<h4 id="bare-repositories"><a class="anchor" href="#bare-repositories"></a>3.19.4. Bare Repositories</h4>
 <div class="sect4">
 <h5 id="change-the-active-branch"><a class="anchor" href="#change-the-active-branch"></a>Change the active branch</h5>
 <div class="listingblock">
@@ -3930,7 +3937,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-11-21 11:29:55 UTC
+Last updated 2023-11-23 15:26:13 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
