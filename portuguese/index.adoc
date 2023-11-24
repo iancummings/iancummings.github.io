@@ -28,7 +28,7 @@
 |Sim | yes
 | Oi | hi
 | tchau [chow] | bye
-| obrigada | thank you
+| obrigado | thank you
 | nao obrigado | no thank you
 | Por favor [poor favorshe] | please
 | De [je] nada | You're welcome
