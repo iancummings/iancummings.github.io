@@ -59,7 +59,8 @@
 | Ol&aacute; | Hello
 | Ol&aacute;, tudo [tutu] bem [beng] | Hello, how are you?
 | Desculpe | sorry
-| Prazer [presish] em conhecer [conhisish] voc&eacute; [vossay]| nice to meet you
+| Prazer em conhecer voc&eacute; +
+  [presish im coy-es-shersh vossay]| nice to meet you
 |====
 
 &#0230;
@@ -81,10 +82,11 @@
 | Desculpe, eu nao falo portugu&ecirc;s | Sorry, I do not speak Portuguese
 | Ol&aacute; prazer em conhecer voc&ecirc; | hello, nice to meet you
 | Com licen&ccedil;a |excuse me
-
+| Oi, sou eu [sow-iwwl] | Hi, it's me
 | bom dia [bom jia]| good morning
 | boa tarde [tarchey] | good afternoon
 ||
+| Eu nao tenho pao, desculpe | I do not have bread, sorry
 | Oi, sou eu [so-yeo] | Hi, it is me
 |A menina come pao | The girl eats bread 
 |ela <ele> bebe agua | she drinks water 
