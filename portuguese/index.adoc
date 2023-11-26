@@ -79,6 +79,8 @@
 |====
 | Portuguese | English
 
+| Com licenca, voce fala portugues |excuse me, do you speak portuguese?
+| Com licensa, voce tem agua | excuse me, do you have water?
 | Desculpe, eu nao falo portugu&ecirc;s | Sorry, I do not speak Portuguese
 | Ol&aacute; prazer em conhecer voc&ecirc; | hello, nice to meet you
 | Com licen&ccedil;a |excuse me
