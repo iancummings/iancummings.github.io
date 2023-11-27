@@ -13,7 +13,8 @@
 | Portuguese | English
 
 | Portugu&eacute;s | Portuguese
-| falo | speak
+| falo/fala +
+When you are saying “I speak” it is falo. When you are saying “You speak” or “He/She speaks” it is fala. This is the same for a ton of “regular” verbs ending in -ar!| speak
 |eu <e-o> | I
 |um <um> | a
 |e | and
@@ -60,7 +61,7 @@
 | Ol&aacute;, tudo [tutu] bem [beng] | Hello, how are you?
 | Desculpe | sorry
 | Prazer em conhecer voc&eacute; +
-  [presish im coy-es-shersh vossay]| nice to meet you
+  [presish im coy-nes-shersh vossay]| nice to meet you
 |====
 
 &#0230;
@@ -79,6 +80,7 @@
 |====
 | Portuguese | English
 
+| Ola, prazer em conhecer voce | hello, nice to meet you
 | Com licenca, voce fala portugues |excuse me, do you speak portuguese?
 | Com licensa, voce tem agua | excuse me, do you have water?
 | Desculpe, eu nao falo portugu&ecirc;s | Sorry, I do not speak Portuguese
