@@ -15,6 +15,7 @@
 | Portugu&eacute;s | Portuguese
 | falo/fala +
 When you are saying “I speak” it is falo. When you are saying “You speak” or “He/She speaks” it is fala. This is the same for a ton of “regular” verbs ending in -ar!| speak
+| ingles (m) | english
 |eu <e-o> | I
 |um <um> | a
 |e | and
