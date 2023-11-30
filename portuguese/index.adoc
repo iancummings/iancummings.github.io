@@ -7,6 +7,8 @@
 
 = Portuguese
 
+https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20Ter,I%20have%20three%20kids.
+
 == Vocab
 
 |====
@@ -15,7 +17,7 @@
 | Portugu&eacute;s | Portuguese
 | falo/fala +
 When you are saying “I speak” it is falo. When you are saying “You speak” or “He/She speaks” it is fala. This is the same for a ton of “regular” verbs ending in -ar!| speak
-| ingles (m) | english
+| ingl&ecirc;s (m) | english
 |eu <e-o> | I
 |um <um> | a
 |e | and
@@ -63,6 +65,12 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | Desculpe | sorry
 | Prazer em conhecer voc&eacute; +
   [presish im coy-nes-shersh vossay]| nice to meet you
+| o caf&eacute; | coffee
+| A bebida | the drink
+| O queijo [quay-sha] | cheese
+| o peixe | fish
+| o ch&aacute; | tea
+|
 |====
 
 &#0230;
@@ -146,6 +154,8 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | Tudo bem [tutu beng], obrigado | everything is fine, thank you
 | De [gee] nada, boa tarde | you're welcome, good afternoon
 | I do not have a car | Eu n&atilde;o tenho um carro
+| Eu [il] pe&ccedil;o [peso] ch&aacute; [sha] | I order tea
+| A menina pede queijo | the girl orders cheese
 | 
 |====
 
