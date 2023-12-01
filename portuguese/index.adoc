@@ -70,6 +70,11 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | O queijo [quay-sha] | cheese
 | o peixe | fish
 | o ch&aacute; | tea
+| a carne de porco | pork
+| O ovo | an egg
+| A cenoura [] | carrot 
+| O molho | the sauce 
+| Eu cozinho um molho | I cook a sauce
 |
 |====
 
