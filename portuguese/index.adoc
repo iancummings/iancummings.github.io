@@ -75,6 +75,14 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | A cenoura [] | carrot 
 | O molho | the sauce 
 | Eu cozinho um molho | I cook a sauce
+| uma banana |
+| o chocolate [chocolatchey] | chocolate
+| o suco | juice
+| o cozinheiro [cozin-aero] | cook
+| fervo | boil
+| O cozinheiro ferve o molho | the cook boils the sauce
+| Eu pe&ccedil;a conta | I ask for the bill
+|
 |
 |====
 
@@ -138,7 +146,7 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | eu bebo agua | I drink water
 | voce escreve uma carta | you write a letter
 | O menino escreve uma carta | the boy writes a letter
-| voce le{circumflex} | you read
+| voce l&ecirc; | you read
 | eu como pao | i eat bread
 | O gato le{circ} o jornal | the cat reads the newspaper
 | eu como uma maca e ela come pao |I eat an apple and she eats bread
