@@ -82,8 +82,11 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | fervo | boil
 | O cozinheiro ferve o molho | the cook boils the sauce
 | Eu pe&ccedil;a conta | I ask for the bill
-|
-|
+| A cebola | onion
+| O frango | chicken
+| o biscoito | biscuit
+| o bolo the cake
+| 
 |====
 
 &#0230;
@@ -169,7 +172,8 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | I do not have a car | Eu n&atilde;o tenho um carro
 | Eu [il] pe&ccedil;o [peso] ch&aacute; [sha] | I order tea
 | A menina pede queijo | the girl orders cheese
-| 
+| eu corto a ma&ccedil; a mac&atilde; | i cut the apple
+| el nao corto cebola | i do not cut onions
 |====
 
 &Eacute;
