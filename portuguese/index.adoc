@@ -179,6 +179,9 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | A menina pede queijo | the girl orders cheese
 | eu corto a ma&ccedil; a mac&atilde; | i cut the apple
 | el nao corto cebola | i do not cut onions
+| A mulher pede ch&aacute; | the woman orders tea
+| Eu pe&ccedil;o a conta | I ask for the bill
+| Eu cozinho um molho [moy-yo] | I cook a sauce
 |====
 
 &Eacute;
