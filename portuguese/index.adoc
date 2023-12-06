@@ -24,10 +24,13 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 |A (f), O (m) | the +
 |E[+acute] | it is +
 | suo | am
+| Eu sou | I am
 | voce, ele, ela: *tem* / Eu *tenho* | you,he,she / I *have*
 | ela | she
 |vo&#0265;e | you
 | |
+| Homem [o-men, like amen but with a o] | man
+| Mulher [mool-ier] | woman
 | N&atilde;o | no
 |Sim | yes
 | Oi | hi
@@ -182,6 +185,7 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | A mulher pede ch&aacute; | the woman orders tea
 | Eu pe&ccedil;o a conta | I ask for the bill
 | Eu cozinho um molho [moy-yo] | I cook a sauce
+| *&Eacute;* uma laranja | *It is* an orange
 |====
 
 &Eacute;
