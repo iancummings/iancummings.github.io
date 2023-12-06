@@ -3017,7 +3017,7 @@ blob</code></pre>
 <div class="sect2">
 <h3 id="tree-objects"><a class="anchor" href="#tree-objects"></a>6.3. Tree Objects</h3>
 <div class="paragraph">
-<p>The tree solves the problem of storing the filename and also allows you to store a group of files together. Git stores content in a manner similar to a UNIX filesystem, but a bit simplified. All the content is stored as tree and blob objects, with trees corresponding to UNIX directory entries and blobs corresponding more or less to inodes or file contents. A single tree object contains one or more entries, each of which is the SHA-1 hash of a blob or subtree with its associated mode, type, and filename. For example, the most recent tree in a project may look something like this:</p>
+<p>The tree solves the problem of storing the filename and also allows you to store a group of files together. Git stores content in a manner similar to a UNIX filesystem, but a bit simplified. All the content is stored as tree and blob objects, with trees corresponding to UNIX directory entries and blobs corresponding more or less to inodes or file contents. A single tree object contains one or more entries, each of which is the SHA-1 hash of a blob, or a subtree with its associated mode, type, and filename. For example, the most recent tree in a project may look something like this:</p>
 </div>
 <div class="listingblock">
 <div class="content">
@@ -3061,15 +3061,28 @@ done</code></pre>
 </div>
 </div>
 <div class="paragraph">
-<p>The <code>--unordered</code> speeds up retrieval as if you&#8217;re going to access the contents of every object in a packfile, it&#8217;s generally much more efficient to do so in pack order, rather than in hash order</p>
+<p>The <code>--unordered</code> speeds up retrieval as if you&#8217;re going to access the contents of every object in a packfile, it&#8217;s generally much more efficient to do so in pack order, rather than in hash order.</p>
 </div>
 <div class="paragraph">
-<p>change to below to trim off the type &amp; size:</p>
+<p>Change to below to trim off the type &amp; size:</p>
 </div>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git cat-file --batch-check --batch-all-objects | cut -d' ' -f1</code></pre>
 </div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+Maybe ls-tree is probably easier to remember?<br>
+<code>git ls-tree -r HEAD --name-only</code>
+</td>
+</tr>
+</table>
 </div>
 </div>
 <div class="sect2">
@@ -4003,7 +4016,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-12-04 11:48:22 UTC
+Last updated 2023-12-06 08:47:06 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
