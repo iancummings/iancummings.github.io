@@ -80,3 +80,7 @@ When working with third-party storage apps, you should be aware that theses apps
 === Fabia4
 * link:https://go.skoda.eu/owners-manuals[Owners manual]
 * link:https://go.skoda.eu/video-manuals-fabia4[Video Tutorials]
+
+== General Stuff
+* link:evs.html[EVs]
+* link:trades.html[Trades]
