@@ -12,3 +12,6 @@
 == Charging
 
 https://electronics.stackexchange.com/questions/263036/why-charging-li-ion-batteries-in-cold-temperatures-would-harm-them
+
+== Cold Weather
+LiIon batteries can be stored down to -10F if battery charge state is >=50% and they are disconnected from any load.
