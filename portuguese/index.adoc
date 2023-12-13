@@ -94,7 +94,14 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | o bife [beefy] | the steak
 | A uva [oova] | the grape
 | frito | fry
-| Eu frito o peixe [pay-sh-a]
+| Eu frito o peixe [pay-sh-a] |
+| O passaporte [passa-portey] | passport
+| Cad&ecirc; | where is?
+| m&atilde;o |hand
+| meu [mo] amor | my friend
+| esposa | wife
+| aqui | here
+| bolsa | bag
 |====
 
 &#0230;
@@ -188,6 +195,9 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | Eu cozinho um molho [moy-yo] | I cook a sauce
 | *&Eacute;* uma laranja | *It is* an orange
 | Ele pede [pedga] a conta | he asks for the bill
+| Ele come um biscoito | He eats a biscuit
+| A Laura corta o bolo | Laura cuts the cake
+| O Pedro pede um bolo | Pedro orders a cake
 |====
 
 &Eacute;
