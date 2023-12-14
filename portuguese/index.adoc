@@ -102,6 +102,11 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | esposa | wife
 | aqui | here
 | bolsa | bag
+| A tartaruga | turtle
+| A abelha [abeylya] | a bee
+| O cavalo | a horse
+| O p&aacute;ssaro | a bird
+| A formiga | an ant
 |====
 
 &#0230;
