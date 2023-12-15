@@ -107,6 +107,12 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | O cavalo | a horse
 | O p&aacute;ssaro | a bird
 | A formiga | an ant
+| A vaca | cow
+| O pato | duck
+| O macaco | monkey
+| O urso | bear
+| A borboleta | butterfly
+| 
 |====
 
 &#0230;
