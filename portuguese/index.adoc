@@ -112,7 +112,21 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | O macaco | monkey
 | O urso | bear
 | A borboleta | butterfly
-| 
+| A mosca | the fly
+| O rato [hat-u] | rat
+| O tigre | the tiger
+| O elefante | elephant
+| O tubar&atilde;o | shark
+| O inseto | insect
+| &Eacute; um inseto | It is an insect
+| O lobo | wolf
+| O le&atilde;o [leon] | lion
+| A cobra | snake
+| A fazenda | the farm
+| A aranha [aran-ya]] | the spider
+| O tatu | armadillo
+| O tatu tem uma bola | The armadillo has a ball
+|
 |====
 
 &#0230;
