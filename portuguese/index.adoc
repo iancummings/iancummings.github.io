@@ -117,7 +117,7 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | O tigre | the tiger
 | O elefante | elephant
 | O tubar&atilde;o | shark
-| O inseto | insect
+| O inseto [inserto] | insect
 | &Eacute; um inseto | It is an insect
 | O lobo | wolf
 | O le&atilde;o [leon] | lion
@@ -126,8 +126,10 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | A aranha [aran-ya]] | the spider
 | O tatu | armadillo
 | O tatu tem uma bola | The armadillo has a ball
-|
+| O tubar&atilde;o | shark
 |====
+
+um aaranha nao e um inseto
 
 &#0230;
 &#0264;
