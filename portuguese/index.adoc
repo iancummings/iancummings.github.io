@@ -70,7 +70,7 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
   [presish im coy-nes-shersh vossay]| nice to meet you
 | o caf&eacute; | coffee
 | A bebida | the drink
-| O queijo [quay-sha] | cheese
+| O queijo [quay-zu] | cheese
 | o peixe | fish
 | o ch&aacute; | tea
 | a carne de porco | pork
@@ -214,7 +214,7 @@ um aaranha nao e um inseto
 | De [gee] nada, boa tarde | you're welcome, good afternoon
 | I do not have a car | Eu n&atilde;o tenho um carro
 | Eu [il] pe&ccedil;o [peso] ch&aacute; [sha] | I order tea
-| A menina pede queijo | the girl orders cheese
+| A menina pede [pay-je] queijo | the girl orders cheese
 | eu corto a ma&ccedil; a mac&atilde; | i cut the apple
 | el nao corto cebola | i do not cut onions
 | A mulher pede [pegie] ch&aacute; | the woman orders tea
