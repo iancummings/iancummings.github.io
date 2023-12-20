@@ -81,10 +81,14 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | uma banana |
 | o chocolate [chocolatchey] | chocolate
 | o suco | juice
-| o cozinheiro [cozin-aero] | cook
+| o cozinheiro [cozin-aero] <noun> | cook
+| o cozinheiro cozinha | the cook cooks
 | fervo | boil
+| Voce ferve o suco | do you boil the juice?
 | O cozinheiro ferve o molho | the cook boils the sauce
 | Eu pe&ccedil;a conta | I ask for the bill
+| Ele pede a conta | he asks for the bill
+| A conta, por favor [favorshe] | the bill please
 | A cebola | the onion
 | O frango | chicken
 | o biscoito | the biscuit
