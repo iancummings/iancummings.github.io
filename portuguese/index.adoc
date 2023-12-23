@@ -78,7 +78,10 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | O ovo | an egg
 | A cenoura [] | carrot 
 | O molho | the sauce 
+| cozinho/cozinha | to cook
 | Eu cozinho um molho | I cook a sauce
+| Ela cozinh**a** uma cebola | *she* cooks an onion
+| Eu cozinh**o** uma cebola | *I* cook an onion
 | uma banana |
 | o chocolate [chocolatchey] | chocolate
 | o suco | juice
