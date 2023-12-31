@@ -23,6 +23,16 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | suo | am
 | Eu sou | I am
 | voce, ele, ela: *tem* / Eu *tenho* | you,he,she / I *have*
+| comer | to eat
+| voce come | you eat
+| Eu como | I eat
+| ele/ela come | he/she eats
+| bebida | drink
+| eu bebo | I drink
+| voce bebe | you drink
+| ele/ela bebe | he/she drinks
+|  Eu leio | I read
+| he reads | ele l&ecirc;
 | cozinho/cozinha | to cook
 | Eu cozinho um molho | I cook a sauce
 | Ela cozinh**a** uma cebola | *she* cooks an onion
