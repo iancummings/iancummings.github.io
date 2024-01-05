@@ -27,10 +27,12 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | voce come | you eat
 | Eu como | I eat
 | ele/ela come | he/she eats
+| Comemos | we eat
 | bebida | drink
 | eu bebo | I drink
 | voce bebe | you drink
 | ele/ela bebe | he/she drinks
+| N&oacute;s Bebemos | we drink
 |  Eu leio | I read
 | he reads | ele l&ecirc;
 | cozinho/cozinha | to cook
@@ -58,11 +60,13 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 |vo&#0265;e | you
 | Homem [o-men, like amen but with a o] | man
 | Mulher [mool-ier] | woman
-|homem <omem> or <ha-may> (m) | man +
-|mulher <mooliere> (f) | woman +
-|menino <menino> (m) | boy +
+|homem <omem> or <ha-may> (m) | man
+| Os homens <os ormies> | the men
+|mulher <mooliere> (f) | woman
+| As mulheres | the women 
+| menino <menino> (m) | boy
 | menina <meninya> | girl
-|jornal (m) | newspaper +
+|jornal (m) | newspaper
 |livro (m) | book
 | bola (f) | ball
 | cachorro (m) | dog
@@ -206,7 +210,11 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 |ela tem uma casa | she has a house
 |&#0233; cerveja | it is beer
 |ele tem agua | he has water
+| N&oacute;s n&atilde;o comemos frango | we do not eat chicken
 |ela &#0233; uma mulher | she is a woman
+| Somos mulheres <mool-yeese> | we are women
+| N&oacute;s somos homens | we are men
+| N&oacute;s comemos e bebmos | we eat and drink
 |&#0233; um gato | it is a cat
 |ela tem uma gata | she has a cat
 |ela &#0233; uma menina | she is a girl
