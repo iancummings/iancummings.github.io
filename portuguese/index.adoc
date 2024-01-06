@@ -139,6 +139,14 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 |um [um] | a
 | ela | she
 |vo&#0265;e | you
+| Elas | they
+| nos | we
+| n&oacute;s escrevemos | we write
+| n&oacute;s somos eles | we are them
+| Eles s&atilde;o homens | They are men
+| Elas bebem a &aacute;gua | they drink the water
+| s&atilde;o <sohn> | they are
+| Elas s&atilde;o mulheres | They are women
 | Homem [o-men, like amen but with a o] | man
 | Mulher [mool-ier] | woman
 |homem <omem> or <ha-may> (m) | man +
@@ -187,7 +195,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Portuguese | English
 
 ||
-| Eu nao tenho pao, desculpe | I do not have bread, sorry
+| Eu nao tenho p&atilde;o <po>, desculpe | I do not have bread, sorry
 | Oi, sou eu [so-yeo] | Hi, it is me
 |A menina come pao | The girl eats bread 
 |ela bebe agua | she drinks water 
