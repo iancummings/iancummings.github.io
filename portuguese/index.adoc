@@ -140,7 +140,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | ela | she
 |vo&#0265;e | you
 | Elas | they
-| nos | we
+| n&oacute;s | we
 | n&oacute;s escrevemos | we write
 | n&oacute;s somos eles | we are them
 | Eles s&atilde;o homens | They are men
@@ -153,9 +153,21 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 |mulher <mooliere> (f) | woman +
 |menino <menino> (m) | boy +
 | menina <meninya> | girl
+| os meninos | the boys
+| as meninas | the girls
+| Voc&ecirc;s | you (plural)
 | meu [mo] amor | my friend
 | esposa | wife
 |====
+
+=== Plurals
+
+|===
+| Elas <ilez> leem | they read
+| N&oacute;s lemos | we read
+| Nos lemos o jornal | we read the newspaper
+| Elas escrevem | the write
+|===
 
 ==== Greetings/Politenesses/Questions
 |====
