@@ -130,6 +130,8 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | O tatu | armadillo
 | O tatu tem uma bola | The armadillo has a ball
 | O tubar&atilde;o | shark
+| massa | pasta
+| almo&ccedil;o <al-mo-so>| lunch
 |====
 
 === People
@@ -167,6 +169,13 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | N&oacute;s lemos | we read
 | Nos lemos o jornal | we read the newspaper
 | Elas escrevem | the write
+| Os ovos | the eggs
+| Nos comemos ovos | we eat eggs
+| As chaves | the keys
+| O homem l&ecirc; cartas | the man reads letters
+| O le&atilde;o escreve cartas | the lion writes letters
+| Voces fritam ovos | You fry eggs
+|
 |===
 
 ==== Greetings/Politenesses/Questions
