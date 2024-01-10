@@ -175,7 +175,13 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | O homem l&ecirc; cartas | the man reads letters
 | O le&atilde;o escreve cartas | the lion writes letters
 | Voces fritam ovos | You fry eggs
-|
+| os gatos  |the cats
+| Os p&aacute;ssaros | the birds
+| Os passaros leem o jornal | the birds read the newspaper
+| Leio as palavras | I read the words
+| As gatas s&atilde;o animais | the cats are animals
+| A menina escreve as palavras | the girl writes the words
+| Os cavalos comen | the horses eat
 |===
 
 ==== Greetings/Politenesses/Questions
