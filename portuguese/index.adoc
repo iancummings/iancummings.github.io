@@ -182,6 +182,11 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | As gatas s&atilde;o animais | the cats are animals
 | A menina escreve as palavras | the girl writes the words
 | Os cavalos comen | the horses eat
+|a vaca e o cavalo bebem agua | the cow and the horse drink water
+|bebemos o leite | we drink the milk
+|eles leem um livro | they read a book
+|sao mulheres | they are women
+|os insetos bebem agua | the insects drink water
 |===
 
 ==== Greetings/Politenesses/Questions
