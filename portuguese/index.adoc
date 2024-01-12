@@ -48,6 +48,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Eu frito o peixe [pay-sh-a] |
 | Cad&ecirc; | where is?
 | Pede | orders (from a menu)
+| Eu preciso | I need
 |====
 
 === Nouns
@@ -132,6 +133,10 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | O tubar&atilde;o | shark
 | massa | pasta
 | almo&ccedil;o <al-mo-so>| lunch
+| o casaco | the coat
+| um casaco novo | a new coat
+| ajuda | help
+| onde <on-jay> | where?
 |====
 
 === People
