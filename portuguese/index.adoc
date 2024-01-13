@@ -191,7 +191,10 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 |bebemos o leite | we drink the milk
 |eles leem um livro | they read a book
 |sao mulheres | they are women
+| (nos) somos homes | we are men
 |os insetos bebem agua | the insects drink water
+| Comemos [com-mem-o] a maca | we eat the apple
+| Bebemos o leite [bay-be-moss o lay-chee] | we drink the milk
 |===
 
 ==== Greetings/Politenesses/Questions
