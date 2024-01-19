@@ -200,6 +200,15 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 |os insetos bebem agua | the insects drink water
 | Comemos [com-mem-o] a maca | we eat the apple
 | Bebemos o leite [bay-be-moss o lay-chee] | we drink the milk
+| As gatos s&atilde;o animais | the cats are animals
+| Os meninos comem ma&ccedil;&atilde;s |the boys eat apples
+| elas escrevem um livro | do they write a book?
+| as meninas bebem &aacute;gua | the girls drink water
+| ele l&ecirc; as palavras | he reads the words
+| as gatas comem p&atilde;o | the cats eat bread
+| a vaca e o cavalo bebem &aacute;gua | the cow and the horse drink water
+| as gatas s&atilde;o animais | the cats are animals
+| E os p&aacute;ssaros | and the birds?
 |===
 
 ==== Greetings/Politenesses/Questions
