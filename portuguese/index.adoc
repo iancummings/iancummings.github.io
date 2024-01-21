@@ -167,6 +167,17 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | esposa | wife
 |====
 
+=== Tu
+|====
+| Tu bebes leite | do you drink milk
+| Tu comes pao | you eat bread
+| Tu l&ecirc;s livros | do you read books
+| Tu l&ecirc;s? | do you read?
+| es uma abelha | you are a bee
+| |
+|====
+
+
 === Plurals
 
 |===
