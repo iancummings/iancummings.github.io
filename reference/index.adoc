@@ -85,3 +85,4 @@ When working with third-party storage apps, you should be aware that theses apps
 * link:evs.html[EVs]
 * link:trades.html[Trades]
 * paintbrushes; arrowworthy, paintwarrior, monic - 2.5inch angled
+* alcolhol - 1 unit contains 50kcal, so the same as half a biscuit (they are typically 75-120kcal)
