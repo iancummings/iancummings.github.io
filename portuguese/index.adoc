@@ -48,6 +48,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Eu frito o peixe [pay-sh-a] |
 | Cad&ecirc; | where is?
 | Pede | orders (from a menu)
+| Eu pe&ccedil;o ch&aacute; | I order tea
 | Eu preciso | I need
 |====
 
@@ -289,7 +290,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | N&oacute;s somos homens | we are men
 | N&oacute;s comemos e bebmos | we eat and drink
 |&#0233; um gato | it is a cat
-|ela tem uma gata | she has a cat
+|ela tem uma gata [data] | she has a cat
 |ela &#0233; uma menina | she is a girl
 | O cahorro come o jornal | the dog eats the newspaper
 | O menino come uma maca | the boy eats an apple
