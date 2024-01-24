@@ -588,43 +588,44 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#search-commit-messages">6.1. Search commit messages</a></li>
 <li><a href="#git-show">6.2. git show</a></li>
-<li><a href="#file-history">6.3. File history</a>
+<li><a href="#inspect-the-contents-of-a-file-or-blob">6.3. Inspect the contents of a file (or "blob")</a></li>
+<li><a href="#file-history">6.4. File history</a>
 <ul class="sectlevel3">
-<li><a href="#command-line-methods">6.3.1. Command-line methods</a></li>
-<li><a href="#gui-methods">6.3.2. GUI methods</a></li>
+<li><a href="#command-line-methods">6.4.1. Command-line methods</a></li>
+<li><a href="#gui-methods">6.4.2. GUI methods</a></li>
 </ul>
 </li>
-<li><a href="#branches-merged-into-a-branch">6.4. Branches merged into a branch</a></li>
-<li><a href="#which-files-have-been-addeddeleted-between-two-branches">6.5. Which files have been added/deleted between two branches?</a>
+<li><a href="#branches-merged-into-a-branch">6.5. Branches merged into a branch</a></li>
+<li><a href="#which-files-have-been-addeddeleted-between-two-branches">6.6. Which files have been added/deleted between two branches?</a>
 <ul class="sectlevel3">
-<li><a href="#where-did-this-branch-start">6.5.1. Where did this branch start?</a></li>
+<li><a href="#where-did-this-branch-start">6.6.1. Where did this branch start?</a></li>
 </ul>
 </li>
-<li><a href="#blame">6.6. Blame</a>
+<li><a href="#blame">6.7. Blame</a>
 <ul class="sectlevel3">
-<li><a href="#options">6.6.1. Options</a></li>
-<li><a href="#gui-version">6.6.2. GUI version</a></li>
+<li><a href="#options">6.7.1. Options</a></li>
+<li><a href="#gui-version">6.7.2. GUI version</a></li>
 </ul>
 </li>
-<li><a href="#finding-most-recent-commits">6.7. Finding most recent commits</a>
+<li><a href="#finding-most-recent-commits">6.8. Finding most recent commits</a>
 <ul class="sectlevel3">
-<li><a href="#most-recent-commits-to-branches">6.7.1. Most recent commits to branches</a></li>
+<li><a href="#most-recent-commits-to-branches">6.8.1. Most recent commits to branches</a></li>
 </ul>
 </li>
-<li><a href="#which-branchestags-contain-a-specific-commit">6.8. Which branches/tags contain a specific commit?</a></li>
-<li><a href="#various-useful-git-log-commands">6.9. Various Useful 'git log' commands</a></li>
-<li><a href="#one-line-compact">6.10. One line, compact</a></li>
-<li><a href="#one-line-colourful-summary">6.11. One line, colourful summary</a></li>
-<li><a href="#list-commits-from-particular-author-between-two-dates">6.12. List commits from particular author, between two dates</a></li>
-<li><a href="#show-what-commits-i-would-get-from-a-git-pull">6.13. Show what commits I would get from a  'git pull'</a></li>
-<li><a href="#previewing-a-merge">6.14. Previewing a merge</a></li>
-<li><a href="#diffs">6.15. Diffs</a>
+<li><a href="#which-branchestags-contain-a-specific-commit">6.9. Which branches/tags contain a specific commit?</a></li>
+<li><a href="#various-useful-git-log-commands">6.10. Various Useful 'git log' commands</a></li>
+<li><a href="#one-line-compact">6.11. One line, compact</a></li>
+<li><a href="#one-line-colourful-summary">6.12. One line, colourful summary</a></li>
+<li><a href="#list-commits-from-particular-author-between-two-dates">6.13. List commits from particular author, between two dates</a></li>
+<li><a href="#show-what-commits-i-would-get-from-a-git-pull">6.14. Show what commits I would get from a  'git pull'</a></li>
+<li><a href="#previewing-a-merge">6.15. Previewing a merge</a></li>
+<li><a href="#diffs">6.16. Diffs</a>
 <ul class="sectlevel3">
-<li><a href="#between-two-commits">6.15.1. Between two commits</a></li>
-<li><a href="#between-my-current-head-and-originbranch">6.15.2. Between my current HEAD and origin/&lt;branch&gt;</a></li>
+<li><a href="#between-two-commits">6.16.1. Between two commits</a></li>
+<li><a href="#between-my-current-head-and-originbranch">6.16.2. Between my current HEAD and origin/&lt;branch&gt;</a></li>
 </ul>
 </li>
-<li><a href="#list-remote-git-branches-by-author-sorted-by-committer-date">6.16. List remote Git branches by author, sorted by committer date:</a></li>
+<li><a href="#list-remote-git-branches-by-author-sorted-by-committer-date">6.17. List remote Git branches by author, sorted by committer date:</a></li>
 </ul>
 </li>
 <li><a href="#advancedinternals">7. Advanced/Internals</a>
@@ -2675,6 +2676,23 @@ $ which git-lfs</code></pre>
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git show `git rev-parse HEAD`</code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>So this takes HEAD, finds the SHA it&#8217;s pointing to and then we <code>git show</code> that HSA.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="inspect-the-contents-of-a-file-or-blob"><a class="anchor" href="#inspect-the-contents-of-a-file-or-blob"></a>6.3. Inspect the contents of a file (or "blob")</h3>
+<div class="paragraph">
+<p>Blobs is the name given to a git object that contains a file (the other objects are <em>tree</em> and <em>commit</em>). To look at the contents of a blob, we first find out its SHA using <code>rev-parse</code>, and then use <code>cat-file</code> to see the contents (use <code>-p</code> switch to prettify the output).</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git rev-parse HEAD:README.md
+eb8115e6b04814f0c37146bbe3dbc35f3e8992e0
+
+$ git cat-file -p eb8115e6b04814f0c37146bbe3dbc35f3e8992e0 | head -n 8</code></pre>
+</div>
+</div>
 <div class="admonitionblock tip">
 <table>
 <tr>
@@ -2689,9 +2707,9 @@ $ which git-lfs</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="file-history"><a class="anchor" href="#file-history"></a>6.3. File history</h3>
+<h3 id="file-history"><a class="anchor" href="#file-history"></a>6.4. File history</h3>
 <div class="sect3">
-<h4 id="command-line-methods"><a class="anchor" href="#command-line-methods"></a>6.3.1. Command-line methods</h4>
+<h4 id="command-line-methods"><a class="anchor" href="#command-line-methods"></a>6.4.1. Command-line methods</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log -- &lt;filename&gt;</code></pre>
@@ -2715,7 +2733,7 @@ $ which git-lfs</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="gui-methods"><a class="anchor" href="#gui-methods"></a>6.3.2. GUI methods</h4>
+<h4 id="gui-methods"><a class="anchor" href="#gui-methods"></a>6.4.2. GUI methods</h4>
 <div class="paragraph">
 <p>There are two GUI methods:</p>
 </div>
@@ -2741,7 +2759,7 @@ $ which git-lfs</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="branches-merged-into-a-branch"><a class="anchor" href="#branches-merged-into-a-branch"></a>6.4. Branches merged into a branch</h3>
+<h3 id="branches-merged-into-a-branch"><a class="anchor" href="#branches-merged-into-a-branch"></a>6.5. Branches merged into a branch</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git branch --merged master</code></pre>
@@ -2771,7 +2789,7 @@ $ which git-lfs</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="which-files-have-been-addeddeleted-between-two-branches"><a class="anchor" href="#which-files-have-been-addeddeleted-between-two-branches"></a>6.5. Which files have been added/deleted between two branches?</h3>
+<h3 id="which-files-have-been-addeddeleted-between-two-branches"><a class="anchor" href="#which-files-have-been-addeddeleted-between-two-branches"></a>6.6. Which files have been added/deleted between two branches?</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git diff --name-status --diff-filter=[(A|C|D|M|R|T|U|X|B)  master..branchName</code></pre>
@@ -2850,7 +2868,7 @@ $ which git-lfs</code></pre>
 </table>
 </div>
 <div class="sect3">
-<h4 id="where-did-this-branch-start"><a class="anchor" href="#where-did-this-branch-start"></a>6.5.1. Where did this branch start?</h4>
+<h4 id="where-did-this-branch-start"><a class="anchor" href="#where-did-this-branch-start"></a>6.6.1. Where did this branch start?</h4>
 <div class="paragraph">
 <p>How to find the commit where this branch started its life</p>
 </div>
@@ -2885,14 +2903,14 @@ I think the order of the branches in the command is unimportant
 </div>
 </div>
 <div class="sect2">
-<h3 id="blame"><a class="anchor" href="#blame"></a>6.6. Blame</h3>
+<h3 id="blame"><a class="anchor" href="#blame"></a>6.7. Blame</h3>
 <div class="listingblock">
 <div class="content">
 <pre>$ git blame [options] file</pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="options"><a class="anchor" href="#options"></a>6.6.1. Options</h4>
+<h4 id="options"><a class="anchor" href="#options"></a>6.7.1. Options</h4>
 <div class="paragraph">
 <p><strong>-L &lt;startLine&gt;, &lt;endLine&gt;</strong></p>
 </div>
@@ -2911,7 +2929,7 @@ I think the order of the branches in the command is unimportant
 </div>
 </div>
 <div class="sect3">
-<h4 id="gui-version"><a class="anchor" href="#gui-version"></a>6.6.2. GUI version</h4>
+<h4 id="gui-version"><a class="anchor" href="#gui-version"></a>6.7.2. GUI version</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git gui blame &lt;file&gt;</code></pre>
@@ -2920,12 +2938,12 @@ I think the order of the branches in the command is unimportant
 </div>
 </div>
 <div class="sect2">
-<h3 id="finding-most-recent-commits"><a class="anchor" href="#finding-most-recent-commits"></a>6.7. Finding most recent commits</h3>
+<h3 id="finding-most-recent-commits"><a class="anchor" href="#finding-most-recent-commits"></a>6.8. Finding most recent commits</h3>
 <div class="paragraph">
 <p>Generaly the <em>git log</em> command is what to use (the command <em>git whatchanged</em> is essentially the same), but there are many particular reports of commits that might be required.</p>
 </div>
 <div class="sect3">
-<h4 id="most-recent-commits-to-branches"><a class="anchor" href="#most-recent-commits-to-branches"></a>6.7.1. Most recent commits to branches</h4>
+<h4 id="most-recent-commits-to-branches"><a class="anchor" href="#most-recent-commits-to-branches"></a>6.8.1. Most recent commits to branches</h4>
 <div class="paragraph">
 <p>A list of all the branches in a Git repository with the "freshest" branches at the top, where the "freshest" branch is the one that&#8217;s been committed to most recently.</p>
 </div>
@@ -3007,7 +3025,7 @@ git config --global alias.branches "!git for-each-ref --sort='-authordate:iso860
 </div>
 </div>
 <div class="sect2">
-<h3 id="which-branchestags-contain-a-specific-commit"><a class="anchor" href="#which-branchestags-contain-a-specific-commit"></a>6.8. Which branches/tags contain a specific commit?</h3>
+<h3 id="which-branchestags-contain-a-specific-commit"><a class="anchor" href="#which-branchestags-contain-a-specific-commit"></a>6.9. Which branches/tags contain a specific commit?</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git branch --contains &lt;commit&gt;</code></pre>
@@ -3026,7 +3044,7 @@ git config --global alias.branches "!git for-each-ref --sort='-authordate:iso860
 </div>
 </div>
 <div class="sect2">
-<h3 id="various-useful-git-log-commands"><a class="anchor" href="#various-useful-git-log-commands"></a>6.9. Various Useful 'git log' commands</h3>
+<h3 id="various-useful-git-log-commands"><a class="anchor" href="#various-useful-git-log-commands"></a>6.10. Various Useful 'git log' commands</h3>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -3041,7 +3059,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="one-line-compact"><a class="anchor" href="#one-line-compact"></a>6.10. One line, compact</h3>
+<h3 id="one-line-compact"><a class="anchor" href="#one-line-compact"></a>6.11. One line, compact</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log --pretty=oneline [--abbrev-commit]</code></pre>
@@ -3049,7 +3067,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="one-line-colourful-summary"><a class="anchor" href="#one-line-colourful-summary"></a>6.11. One line, colourful summary</h3>
+<h3 id="one-line-colourful-summary"><a class="anchor" href="#one-line-colourful-summary"></a>6.12. One line, colourful summary</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log --format='%Cred%h%Creset %s %Cgreen(%ci) %C(cyan)&lt;%an&gt;%Creset%C(yellow)%d%Creset'
@@ -3105,7 +3123,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="list-commits-from-particular-author-between-two-dates"><a class="anchor" href="#list-commits-from-particular-author-between-two-dates"></a>6.12. List commits from particular author, between two dates</h3>
+<h3 id="list-commits-from-particular-author-between-two-dates"><a class="anchor" href="#list-commits-from-particular-author-between-two-dates"></a>6.13. List commits from particular author, between two dates</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git log --author="ian.cummings@grassvalley.com"
@@ -3115,7 +3133,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="show-what-commits-i-would-get-from-a-git-pull"><a class="anchor" href="#show-what-commits-i-would-get-from-a-git-pull"></a>6.13. Show what commits I would get from a  'git pull'</h3>
+<h3 id="show-what-commits-i-would-get-from-a-git-pull"><a class="anchor" href="#show-what-commits-i-would-get-from-a-git-pull"></a>6.14. Show what commits I would get from a  'git pull'</h3>
 <div class="paragraph">
 <p>Assuming that your repo is up to date (do a fetch first), then we can show differences between HEAD and remote branch - i.e. what would I get if I did a "git pull"?</p>
 </div>
@@ -3141,15 +3159,15 @@ $ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)<
 </div>
 </div>
 <div class="sect2">
-<h3 id="previewing-a-merge"><a class="anchor" href="#previewing-a-merge"></a>6.14. Previewing a merge</h3>
+<h3 id="previewing-a-merge"><a class="anchor" href="#previewing-a-merge"></a>6.15. Previewing a merge</h3>
 <div class="paragraph">
 <p>The simplest thing to do is to create a temporary branch from where you are, do a merge, and if it&#8217;s not what you want then delete it.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="diffs"><a class="anchor" href="#diffs"></a>6.15. Diffs</h3>
+<h3 id="diffs"><a class="anchor" href="#diffs"></a>6.16. Diffs</h3>
 <div class="sect3">
-<h4 id="between-two-commits"><a class="anchor" href="#between-two-commits"></a>6.15.1. Between two commits</h4>
+<h4 id="between-two-commits"><a class="anchor" href="#between-two-commits"></a>6.16.1. Between two commits</h4>
 <div class="paragraph">
 <p>Generally:</p>
 </div>
@@ -3163,7 +3181,7 @@ $ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)<
 </div>
 </div>
 <div class="sect3">
-<h4 id="between-my-current-head-and-originbranch"><a class="anchor" href="#between-my-current-head-and-originbranch"></a>6.15.2. Between my current HEAD and origin/&lt;branch&gt;</h4>
+<h4 id="between-my-current-head-and-originbranch"><a class="anchor" href="#between-my-current-head-and-originbranch"></a>6.16.2. Between my current HEAD and origin/&lt;branch&gt;</h4>
 <div class="paragraph">
 <p>As shown above in "what would I get from a git pull"</p>
 </div>
@@ -3178,7 +3196,7 @@ $ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)<
 </div>
 </div>
 <div class="sect2">
-<h3 id="list-remote-git-branches-by-author-sorted-by-committer-date"><a class="anchor" href="#list-remote-git-branches-by-author-sorted-by-committer-date"></a>6.16. List remote Git branches by author, sorted by committer date:</h3>
+<h3 id="list-remote-git-branches-by-author-sorted-by-committer-date"><a class="anchor" href="#list-remote-git-branches-by-author-sorted-by-committer-date"></a>6.17. List remote Git branches by author, sorted by committer date:</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate</code></pre>
@@ -4272,7 +4290,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-01-09 12:23:24 UTC
+Last updated 2024-01-24 11:12:51 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
