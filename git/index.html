@@ -1961,13 +1961,13 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 <div class="ulist">
 <ul>
 <li>
-<p>Merging: the head for the file(s) from the current branch on the machine that you are using</p>
+<p><em>Merging</em>: the head for the file(s) from the current branch on the machine that you are using</p>
 </li>
 <li>
-<p>Rebasing: the file from the branch which you are rebasing (e.g. <code>feature</code>)</p>
+<p><em>Rebasing</em>: the file from the branch which you are rebasing (e.g. <code>feature</code>)</p>
 </li>
 <li>
-<p>Cherry-picking: the local file</p>
+<p><em>Cherry-pickin</em>g: the local file</p>
 </li>
 </ul>
 </div>
@@ -1977,13 +1977,13 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 <div class="ulist">
 <ul>
 <li>
-<p>Merging: the head for files(s) (from a remote location) that you are trying to merge into your LOCAL branch, or the file from the branch you are rebasing or cherry-picking from.</p>
+<p><em>Merging</em>: the head for files(s) (from a remote location) that you are trying to merge into your LOCAL branch, or the file from the branch you are rebasing or cherry-picking from.</p>
 </li>
 <li>
-<p>Rebasing: the file from the branch onto which you are rebasing (e.g. <code>develop</code>)</p>
+<p><em>Rebasing</em>: the file from the branch onto which you are rebasing (e.g. <code>develop</code>)</p>
 </li>
 <li>
-<p>Cherry-picking: the file from the commit you&#8217;re cherry picking</p>
+<p><em>Cherry-picking</em>: the file from the commit you&#8217;re cherry picking</p>
 </li>
 </ul>
 </div>
@@ -1993,27 +1993,6 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 </li>
 </ul>
 </div>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Base</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Local</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Remote</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">the common ancestor(s) of LOCAL and REMOTE.</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* the head for the file(s) from the current branch on the machine that you are using or<br>
-* the branch onto which you are rebasing (e.g. <code>develop</code>)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">* the head for files(s) (from a remote location) that you are trying to merge into your LOCAL branch or<br>
-* the file from the branch you are rebasing.</p></td>
-</tr>
-</tbody>
-</table>
 </div>
 <div class="sect4">
 <h5 id="trickier-conflicts"><a class="anchor" href="#trickier-conflicts"></a>Trickier conflicts</h5>
@@ -4290,7 +4269,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-01-24 11:12:51 UTC
+Last updated 2024-01-25 10:24:20 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
