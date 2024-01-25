@@ -136,6 +136,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | almo&ccedil;o <al-mo-so>| lunch
 | o casaco | the coat
 | um casaco novo | a new coat
+| O aluno novo | the new student
 | ajuda | help
 | onde <on-jay> | where?
 |====
@@ -334,6 +335,14 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Ele come um biscoito | He eats a biscuit
 | A Laura corta o bolo | Laura cuts the cake
 | O Pedro pede um bolo | Pedro orders a cake
+| O nome dele &eacute; Miguel | he is called Miguel
+| Ele &eacute; do M&eacute;xico | he is from Mexico
+| Miguel est&aacute; atr&aacute;s de voce | Miguel is behind you
+| est&aacute;?! | he/it is?
+| Oi Lili, tudo [tuto] ben? | hi Lili, are you good?
+| tudo bem, obrigado | I am good, thank you
+| nome | name
+| alto | tall
 |====
 
 &Eacute;
