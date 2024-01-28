@@ -183,9 +183,11 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 === Plurals
 
 |===
-| Elas <ilez> leem | they read
+| Elas <ilez> leem  uma carta | they read a letter
 | N&oacute;s lemos | we read
 | Nos lemos o jornal | we read the newspaper
+| parab&eacute;ns, meninos | congratulations boys
+| meninos comem [com-e] pao | the boys eat bread
 | Elas escrevem | the write
 | Eles [ellie] escrevem uma carta | they write a letter
 | N&oacute;s somos meninos | we are boys
@@ -222,6 +224,11 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | a vaca e o cavalo bebem &aacute;gua | the cow and the horse drink water
 | as gatas s&atilde;o animais | the cats are animals
 | E os p&aacute;ssaros | and the birds?
+| nos escrevemos [escreve] uma carta | we write a letter
+| Elas s&atilde;o girls | they are girls
+| eles bebem [bebe] cerveja | they drink beer
+| os cavlaos sao anaimais | the horses are animals
+| elas comem [ko-ming] uma ma&ccedil;&atilde; | they eatan apple
 |===
 
 ==== Greetings/Politenesses/Questions
