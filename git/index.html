@@ -3780,7 +3780,7 @@ Date:   Thu Dec 11 15:08:43 2008 -0800
 </td>
 <td class="content">
 <div class="paragraph">
-<p>Think of the reflog as Git’s version of shell history
+<p>Think of the reflog as Git’s version of shell history.<br>
 If you have a UNIX or Linux background, you can think of the reflog as Git’s version of shell history, which emphasizes that what’s there is clearly relevant only for you and your “session”, and has nothing to do with anyone else who might be working on the same machine.</p>
 </div>
 </td>
@@ -3801,6 +3801,22 @@ $ git show "HEAD@{0}"   # OK</code></pre>
 </div>
 </div>
 </div>
+</div>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+To show date/time info try<br>
+ <code>$ git reflog --date=iso</code><br>
+</td>
+</tr>
+</table>
+</div>
+<div class="paragraph">
+<p>In fact you can use many of the git log options like <code>--pretty=short</code> etc</p>
 </div>
 </div>
 <div class="sect2">
@@ -4269,7 +4285,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-01-25 10:24:20 UTC
+Last updated 2024-01-31 12:02:30 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
