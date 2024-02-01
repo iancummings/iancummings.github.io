@@ -269,6 +269,21 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Portuguese | English
 
 ||
+| Tu escreves a carta | you write the letter
+| Tu comes cavalo | do you eat horse
+| l&ecirc;s os livros | do you read the books?
+| &Eacute;s um p&aacutessaro | you are a bird
+| Tu tens [tings] gatos | you have cats
+| tU TENS A S CHAVES | YOU HAVE THE KEYS
+| Tu l&ecirc;s o jornal | do you read the newspaper
+| Tu tens [tings] uma cobra | do you have a snake
+| Tu comes peixe | do you eat fish
+| Tu bebes ch&aacute | you drink tea
+| &Eacute;s um le&acirc;o | you are a lion
+| Tu l&ecirc;s | do you read?
+| Tu escreves o jornal | you write the newspaper
+| tu comes peixe | do you eat fish?
+| tu bebes &aacute;gua | you drink water
 | Eu nao tenho p&atilde;o <po>, desculpe | I do not have bread, sorry
 | Oi, sou eu [so-yeo] | Hi, it is me
 |A menina come pao | The girl eats bread 
