@@ -176,6 +176,19 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Tu l&ecirc;s livros | do you read books
 | Tu l&ecirc;s? | do you read?
 | es uma abelha | you are a bee
+|Tu bebes agua | you drink water
+| tu escreves | you write
+| tu bebes leite | you drink milk
+| tu l&ecirc;s livros | you read books
+| tu l&ecirc;s o jornal| do you read the newspaper
+| tens uma fazenda| you have a farm
+| &Eacute;s uma abelha | you are a bee
+| l&ecirc; os livros | do you read the books
+| tu comes peixe | you eat fish
+|tu l&ecirc;s o jornal | do you read the newspaper?
+|tu bebes cha | you drink tea
+|tu n&atilde;o bebes | you do not drink
+|tu comes cavalo? | do you eat horse?
 | |
 |====
 
