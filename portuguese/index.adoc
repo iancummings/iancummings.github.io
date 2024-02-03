@@ -68,6 +68,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | As mulheres | the women 
 | menino <menino> (m) | boy
 | menina <meninya> | girl
+| coisa |thing
 |jornal (m) | newspaper
 |livro (m) | book
 | bola (f) | ball
@@ -139,6 +140,10 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | O aluno novo | the new student
 | ajuda | help
 | onde <on-jay> | where?
+| nome | name
+| alto | tall
+| amanh&atilde; [a-may-ya] | tomorrow
+| jogo | game (football, etc)
 |====
 
 === People
@@ -189,9 +194,28 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 |tu bebes cha | you drink tea
 |tu n&atilde;o bebes | you do not drink
 |tu comes cavalo? | do you eat horse?
+| tu tens uma cobra | do you have a snake
+| tu tens as chaves | you have the keys
+| &eacute;s um passaro | you are a bird
+| &Eacute uma mulher | you are a woman
+|Tens uma fazenda | you have a farm
 | |
 |====
 
+
+
+
+
+
+
+
+
+
+=== gente
+|====
+| Preciso de dinheiro | I need money
+| eu preciso de dinheiro para uma pizza | I need money for a pizza
+|====
 
 === Plurals
 
@@ -282,6 +306,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Portuguese | English
 
 ||
+| que f&aacute;cil | how easy!
 | Tu escreves a carta | you write the letter
 | Tu comes cavalo | do you eat horse
 | l&ecirc;s os livros | do you read the books?
@@ -376,8 +401,9 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | est&aacute;?! | he/it is?
 | Oi Lili, tudo [tuto] ben? | hi Lili, are you good?
 | tudo bem, obrigado | I am good, thank you
-| nome | name
-| alto | tall
+| muito [mu-oto] bom | (it's) very good
+| agora nao | not now (when being asked for something)
+
 |====
 
 &Eacute;
@@ -418,6 +444,7 @@ When you are saying “I speak” it is falo. When you are saying “You speak�
 | oi, tudo bem [beng]? | hi, how are you?
 | como est&aacute; | how are you?
 | Tudo bem | everything is fine
+| vai [vi] | go! (imperitive)
 ||
 |homem <omem> or <ha-may> (m) | man +
 |mulher <mooliere> (f) | woman +
