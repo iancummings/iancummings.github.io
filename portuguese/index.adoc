@@ -61,7 +61,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | ela | she
 |vo&#0265;e | you
 | Homem [o-men, like amen but with a o] | man
-| Mulher [mool-ier] | woman
+| Mulher [mool-ersh] | woman
 |homem <omem> or <ha-may> (m) | man
 | Os homens <os ormies> | the men
 |mulher <mooliere> (f) | woman
@@ -144,6 +144,9 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | alto | tall
 | amanh&atilde; [a-may-ya] | tomorrow
 | jogo | game (football, etc)
+| lobo | wolf
+| rato [hat-too] | mouse
+| seus [see-oos] | your
 |====
 
 === People
@@ -211,7 +214,8 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 
 
 
-=== gente
+=== Gente
+People or folk - collective feminine noun
 |====
 | Preciso de dinheiro | I need money
 | eu preciso de dinheiro para uma pizza | I need money for a pizza
@@ -220,14 +224,23 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 === Plurals
 
 |===
+| Elas comem uma laranja | they eat an orange
+| nos lemos o livro  | we read the book
+| Os meninos leem um livro | the boys read a book
+|O homem e a mulher escrevem uma carta | the man and the woman write a letter
 | Elas <ilez> leem  uma carta | they read a letter
 | N&oacute;s lemos | we read
 | Nos lemos o jornal | we read the newspaper
 | parab&eacute;ns, meninos | congratulations boys
 | meninos comem [com-e] pao | the boys eat bread
-| Elas escrevem | the write
+| Elas escrevem | they write
 | Eles [ellie] escrevem uma carta | they write a letter
+| Nos escrevemos um livro | we write a book
+| Comemos a maca | we eat the apple
+| Ela e eu comemos macas | she and I eat apples
+| Somos mulheres | we are women
 | N&oacute;s somos meninos | we are boys
+| He reads the words | ele l&ecirc; as palavras
 | Meninas bebem leite | girls drink milk
 | Elas [elle-ass] escrevem um livro? | do they write a book?
 | Elas leem uma carta | they read a letter
@@ -266,6 +279,10 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | eles bebem [bebe] cerveja | they drink beer
 | os cavlaos sao anaimais | the horses are animals
 | elas comem [ko-ming] uma ma&ccedil;&atilde; | they eatan apple
+| mulheres e homens | women and men
+| Elas n&acirc;o bebem cerveja | they do not drink beer
+| voc&ecirc; e eu bebemos &aacute;gua |you and I drink water
+| N&oacute;s escrevemos  um livro | we write a book
 |===
 
 ==== Greetings/Politenesses/Questions
