@@ -77,9 +77,7 @@ When working with third-party storage apps, you should be aware that theses apps
 3. Apps that only allow you to enter in your API key set and then offer up all of the buckets in your account (these apps provide flexibility but do require some automatic redirects at the http level to perform)
 
 == Cars
-=== Fabia4
-* link:https://go.skoda.eu/owners-manuals[Owners manual]
-* link:https://go.skoda.eu/video-manuals-fabia4[Video Tutorials]
+link:cars.html[Here]
 
 == General Stuff
 * link:evs.html[EVs]
