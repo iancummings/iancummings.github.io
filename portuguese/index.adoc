@@ -215,10 +215,19 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 
 
 === Gente
-People or folk - collective feminine noun
+People, folk, us - collective feminine noun
 |====
 | Preciso de dinheiro | I need money
 | eu preciso de dinheiro para uma pizza | I need money for a pizza
+| A gente beb ch&aacute; | we drink tea
+| A gente [gen-sh] n&atilde;o come carne |we do not eat meat
+| A gente [gen-sh] n&atilde;o fala portugu&ecirc;s | we do not speak Poruguese
+| A gente ferve &aacute;gua | we boil water
+| a gente l&ecirc; livros | we read books
+| a gente nao fala ingles | we do not speak english
+| Cavalos nao comem a gente | Horses do not eat us
+| Gatos amam [a-mom] a gente | cats love us
+|
 |====
 
 === Plurals
