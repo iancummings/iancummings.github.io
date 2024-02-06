@@ -11,6 +11,15 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 
 == Vocabulary
 
+intray
+|====
+|O elefante come o pao | the elephant eats the bread
+|o porco bebe agua | the pig drinks water
+| tu tens as chaves | you have the keys
+| o menino come porco | the boy eats pork
+| Nao tenho as chaves | I do not have the keys
+|====
+
 === Main Verbs
 
 |====
@@ -227,7 +236,10 @@ People, folk, us - collective feminine noun
 | a gente nao fala ingles | we do not speak english
 | Cavalos nao comem a gente | Horses do not eat us
 | Gatos amam [a-mom] a gente | cats love us
-|
+| Os passaros amam a gente | the birds love us
+| A gente cozinha um ovo | we cook an egg
+| gatos amam a gente | cats love us
+| cavalos nao comem a gente | horses do not eat us
 |====
 
 === Plurals
