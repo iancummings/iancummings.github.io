@@ -18,6 +18,9 @@ intray
 | tu tens as chaves | you have the keys
 | o menino come porco | the boy eats pork
 | Nao tenho as chaves | I do not have the keys
+| de novo | again
+| chegamos [che-ga-moss] |we've arrived
+| manter | keep / maintain
 |====
 
 === Main Verbs
@@ -185,6 +188,19 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | meu [mo] amor | my friend
 | esposa | wife
 |====
+
+=== Adjectives
+|====
+| pequena [pek-kenna] | small
+| a pequena gata come o peixe | a small cat eats a fish
+| A chave &eacute; pequen**a** | the key is small
+| &Eacute; um livro pequen**o** | it is a small book
+| Eles nao sao pequenos | they are not small
+| Nao leio livros pequenos | I do not read small books
+| As ma&ccedil;&atilde;s s&atilde;o pequenas | the apples are small
+| As moscas s&atilde;o pequenas | the flies are small
+|====
+
 
 === Tu
 |====
