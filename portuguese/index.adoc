@@ -21,6 +21,11 @@ intray
 | de novo | again
 | chegamos [che-ga-moss] |we've arrived
 | manter | keep / maintain
+| &Eacute; novo | it's new
+| &Eacute; [a] | It is
+| As chaves s&atilde;o novas | the keys are new
+| Eu tenho [ting] uma casa nova | I have a new house
+|
 |====
 
 === Main Verbs
