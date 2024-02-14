@@ -204,6 +204,13 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Nao leio livros pequenos | I do not read small books
 | As ma&ccedil;&atilde;s s&atilde;o pequenas | the apples are small
 | As moscas s&atilde;o pequenas | the flies are small
+| As meninas sao boas | the girls are good
+| comemos batatas boas | eating potatoes is good
+| as novas chaves sao boas | the new keys are good
+| ela le livros grandes [gran-jes] | she reads big books
+| boa [boo-er] | good
+| bom | good
+| novo | new
 |====
 
 
