@@ -211,6 +211,20 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | boa [boo-er] | good
 | bom | good
 | novo | new
+| &Eacute; salgado | It's salty
+| O bolo doce [do-see] | the sweet cake
+| Um biscoito salgado | a salty biscuit
+| &Eacute; &aacute;gua salgada | it is salt water
+| pedro pede [pear-gee] uma salada salgada | Pedro orders a salty salad
+| Elas s&atilde;o amargas | they are bitter
+| Macas sao azedas | Apples are sour 
+| Ela come batatas doces | she eats sweet potatoes
+| Eu nao bebo leite azedo | I do not drink sour milk
+| O cozinheiro come ovos fritos |The cook eats fried eggs
+| &Eacute; uma bebida amarga | it is a bitter drink
+| A uva &eacute; doce e azeda | the grape is sweet and sour
+|
+|
 |====
 
 
