@@ -25,6 +25,10 @@ intray
 | &Eacute; [a] | It is
 | As chaves s&atilde;o novas | the keys are new
 | Eu tenho [ting] uma casa nova | I have a new house
+| &Eacute; um homem novo | it is a young man
+| ele &eacute; um bom menino | he is a good boy
+| Ela &eacute; uma boa mulher | she is a good woman
+| Ei bebo uma boa bebida | I drink a good beverage
 |
 |====
 
