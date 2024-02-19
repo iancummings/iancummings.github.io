@@ -227,6 +227,16 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | O cozinheiro come ovos fritos |The cook eats fried eggs
 | &Eacute; uma bebida amarga | it is a bitter drink
 | A uva &eacute; doce e azeda | the grape is sweet and sour
+| O cavalo n&atilde;o &eacute; pequeno | the horse is not small
+| uma menia pequena | a little girl
+| O lobo tem uma pequena casa | the wolf has a small house
+| As ma&ccedil;&atilde;s s&atilde;o pequenas | the apples are small
+| Eles nao sao pequenos | they are not small
+| A pequena gata come o peixe | the small cat eats the fish
+| ela pede batatas pequenas | she orders small potatoes
+| insetos s&atilde;o pequenos | insects are small
+| A chave &eacute; pequena | the key is small
+| O gato n&atilde;o &eacute; pequeno | the cat is not small
 |
 |
 |====
