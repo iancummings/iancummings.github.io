@@ -28,7 +28,17 @@ intray
 | &Eacute; um homem novo | it is a young man
 | ele &eacute; um bom menino | he is a good boy
 | Ela &eacute; uma boa mulher | she is a good woman
-| Ei bebo uma boa bebida | I drink a good beverage
+| Eu bebo uma boa bebida | I drink a good beverage
+| Elas nao sao as mulheres novas | They are not the young women
+| O cahorro tem uma bola nova | the dog has a new ball
+| As meninas sao [son] boas [bo-as] | the girls are good
+| Comemos batatas boas | we eat good potatoes
+| Os gatos sao animais bons | teh cats are good animals
+| os cavalos sao granges [gran-jez] | the horses are big
+| os gatos nao sao granges | the cats are not big
+| ela tem uma grande fazenda | she has a big farm
+| eles nao sao bons | they are not good
+|
 |
 |====
 
