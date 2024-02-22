@@ -11,7 +11,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 
 == Vocabulary
 
-intray
+=== intray
 |====
 |O elefante come o pao | the elephant eats the bread
 |o porco bebe agua | the pig drinks water
@@ -38,7 +38,8 @@ intray
 | os gatos nao sao granges | the cats are not big
 | ela tem uma grande fazenda | she has a big farm
 | eles nao sao bons | they are not good
-|
+| &Eacute um molho salgado |  it is a salty sauce
+| &Eacute; um suco azedo | it os a sour juice
 |
 |====
 
@@ -247,6 +248,8 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | insetos s&atilde;o pequenos | insects are small
 | A chave &eacute; pequena | the key is small
 | O gato n&atilde;o &eacute; pequeno | the cat is not small
+| Eu n^atilde;o bebo leite azedo |I do not drink sour milk
+| macas sao doces | apples are sweet
 |
 |
 |====
