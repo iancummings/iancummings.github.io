@@ -40,7 +40,8 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | eles nao sao bons | they are not good
 | &Eacute um molho salgado |  it is a salty sauce
 | &Eacute; um suco azedo | it os a sour juice
-|
+| Eu n&atilde;o como carne | I don not eat meat
+| perfeito [per-fyeto] | perfect
 |====
 
 === Main Verbs
@@ -179,7 +180,21 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | lobo | wolf
 | rato [hat-too] | mouse
 | seus [see-oos] | your
+| card&aacute;pio [card-daapio] | menu
+| Uma pergunta | a question
+| comida | food
+| sobre [sob-bra] | about
 |====
+
+=== Food
+|===
+| card&aacute;pio | menu
+| batata frita | chips
+| tomate | tomato
+| cenoura | carrot
+| frango | chicken
+| muito bins [my-oto bonse] | very good
+|===
 
 === People
 
