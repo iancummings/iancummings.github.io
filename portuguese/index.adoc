@@ -194,6 +194,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | cenoura | carrot
 | frango | chicken
 | muito bins [my-oto bonse] | very good
+| chocolate | chocolate
 |===
 
 === People
