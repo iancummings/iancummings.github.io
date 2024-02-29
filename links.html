@@ -1,512 +1,852 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5.dev">
-<title>Links</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
-<style>
-/* Asciidoctor default stylesheet | MIT License | http://asciidoctor.org */
-/* Remove comment around @import statement below when using as a custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
-audio,canvas,video{display:inline-block}
-audio:not([controls]){display:none;height:0}
-[hidden],template{display:none}
-script{display:none!important}
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-body{margin:0}
-a{background:transparent}
-a:focus{outline:thin dotted}
-a:active,a:hover{outline:0}
-h1{font-size:2em;margin:.67em 0}
-abbr[title]{border-bottom:1px dotted}
-b,strong{font-weight:bold}
-dfn{font-style:italic}
-hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
-mark{background:#ff0;color:#000}
-code,kbd,pre,samp{font-family:monospace;font-size:1em}
-pre{white-space:pre-wrap}
-q{quotes:"\201C" "\201D" "\2018" "\2019"}
-small{font-size:80%}
-sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
-sup{top:-.5em}
-sub{bottom:-.25em}
-img{border:0}
-svg:not(:root){overflow:hidden}
-figure{margin:0}
-fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
-legend{border:0;padding:0}
-button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
-button,input{line-height:normal}
-button,select{text-transform:none}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
-button[disabled],html input[disabled]{cursor:default}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
-input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
-input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
-button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
-textarea{overflow:auto;vertical-align:top}
-table{border-collapse:collapse;border-spacing:0}
-*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto}
-a:hover{cursor:pointer}
-img,object,embed{max-width:100%;height:auto}
-object,embed{height:100%}
-img{-ms-interpolation-mode:bicubic}
-.left{float:left!important}
-.right{float:right!important}
-.text-left{text-align:left!important}
-.text-right{text-align:right!important}
-.text-center{text-align:center!important}
-.text-justify{text-align:justify!important}
-.hide{display:none}
-body{-webkit-font-smoothing:antialiased}
-img,object,svg{display:inline-block;vertical-align:middle}
-textarea{height:auto;min-height:50px}
-select{width:100%}
-.center{margin-left:auto;margin-right:auto}
-.spread{width:100%}
-p.lead,.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{font-size:1.21875em;line-height:1.6}
-.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
-div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
-a{color:#2156a5;text-decoration:underline;line-height:inherit}
-a:hover,a:focus{color:#1d4b8f}
-a img{border:none}
-p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
-p aside{font-size:.875em;line-height:1.35;font-style:italic}
-h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
-h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
-h1{font-size:2.125em}
-h2{font-size:1.6875em}
-h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
-h4,h5{font-size:1.125em}
-h6{font-size:1em}
-hr{border:solid #ddddd8;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
-em,i{font-style:italic;line-height:inherit}
-strong,b{font-weight:bold;line-height:inherit}
-small{font-size:60%;line-height:inherit}
-code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
-ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
-ul,ol,ul.no-bullet,ol.no-bullet{margin-left:1.5em}
-ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
-ul.circle{list-style-type:circle}
-ul.disc{list-style-type:disc}
-ul.no-bullet{list-style:none}
-ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
-dl dt{margin-bottom:.3125em;font-weight:bold}
-dl dd{margin-bottom:1.25em}
-abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
-abbr{text-transform:none}
-blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
-blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
-blockquote cite:before{content:"\2014 \0020"}
-blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
-blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
-@media only screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
-h1{font-size:2.75em}
-h2{font-size:2.3125em}
-h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
-h4{font-size:1.4375em}}
-table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
-table thead,table tfoot{background:#f7f8f7;font-weight:bold}
-table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
-table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
-table tr.even,table tr.alt,table tr:nth-of-type(even){background:#f8f8f7}
-table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
-body{tab-size:4}
-h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
-h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
-.clearfix:before,.clearfix:after,.float-group:before,.float-group:after{content:" ";display:table}
-.clearfix:after,.float-group:after{clear:both}
-*:not(pre)>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background-color:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
-pre,pre>code{line-height:1.45;color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;text-rendering:optimizeSpeed}
-.keyseq{color:rgba(51,51,51,.8)}
-kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background-color:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
-.keyseq kbd:first-child{margin-left:0}
-.keyseq kbd:last-child{margin-right:0}
-.menuseq,.menu{color:rgba(0,0,0,.8)}
-b.button:before,b.button:after{position:relative;top:-1px;font-weight:400}
-b.button:before{content:"[";padding:0 3px 0 2px}
-b.button:after{content:"]";padding:0 2px 0 3px}
-p a>code:hover{color:rgba(0,0,0,.9)}
-#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
-#header:before,#header:after,#content:before,#content:after,#footnotes:before,#footnotes:after,#footer:before,#footer:after{content:" ";display:table}
-#header:after,#content:after,#footnotes:after,#footer:after{clear:both}
-#content{margin-top:1.25em}
-#content:before{content:none}
-#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
-#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #ddddd8}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #ddddd8;padding-bottom:8px}
-#header .details{border-bottom:1px solid #ddddd8;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
-#header .details span:first-child{margin-left:-.125em}
-#header .details span.email a{color:rgba(0,0,0,.85)}
-#header .details br{display:none}
-#header .details br+span:before{content:"\00a0\2013\00a0"}
-#header .details br+span.author:before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
-#header .details br+span#revremark:before{content:"\00a0|\00a0"}
-#header #revnumber{text-transform:capitalize}
-#header #revnumber:after{content:"\00a0"}
-#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #ddddd8;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
-#toc{border-bottom:1px solid #efefed;padding-bottom:.5em}
-#toc>ul{margin-left:.125em}
-#toc ul.sectlevel0>li>a{font-style:italic}
-#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
-#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
-#toc li{line-height:1.3334;margin-top:.3334em}
-#toc a{text-decoration:none}
-#toc a:active{text-decoration:underline}
-#toctitle{color:#7a2518;font-size:1.2em}
-@media only screen and (min-width:768px){#toctitle{font-size:1.375em}
-body.toc2{padding-left:15em;padding-right:0}
-#toc.toc2{margin-top:0!important;background-color:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #efefed;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
-#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
-#toc.toc2>ul{font-size:.9em;margin-bottom:0}
-#toc.toc2 ul ul{margin-left:0;padding-left:1em}
-#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
-body.toc2.toc-right{padding-left:0;padding-right:15em}
-body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #efefed;left:auto;right:0}}
-@media only screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
-#toc.toc2{width:20em}
-#toc.toc2 #toctitle{font-size:1.375em}
-#toc.toc2>ul{font-size:.95em}
-#toc.toc2 ul ul{padding-left:1.25em}
-body.toc2.toc-right{padding-left:0;padding-right:20em}}
-#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
-#content #toc>:first-child{margin-top:0}
-#content #toc>:last-child{margin-bottom:0}
-#footer{max-width:100%;background-color:rgba(0,0,0,.8);padding:1.25em}
-#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
-.sect1{padding-bottom:.625em}
-@media only screen and (min-width:768px){.sect1{padding-bottom:1.25em}}
-.sect1+.sect1{border-top:1px solid #efefed}
-#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
-#content h1>a.anchor:before,h2>a.anchor:before,h3>a.anchor:before,#toctitle>a.anchor:before,.sidebarblock>.content>.title>a.anchor:before,h4>a.anchor:before,h5>a.anchor:before,h6>a.anchor:before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
-#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
-#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
-#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
-.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
-.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
-table.tableblock>caption.title{white-space:nowrap;overflow:visible;max-width:0}
-.paragraph.lead>p,#preamble>.sectionbody>.paragraph:first-of-type p{color:rgba(0,0,0,.85)}
-table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p{font-size:inherit}
-.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
-.admonitionblock>table td.icon{text-align:center;width:80px}
-.admonitionblock>table td.icon img{max-width:none}
-.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
-.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #ddddd8;color:rgba(0,0,0,.6)}
-.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
-.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
-.sidebarblock{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
-.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock pre:not(.highlight),.listingblock pre[class="highlight"],.listingblock pre[class^="highlight "],.listingblock pre.CodeRay,.listingblock pre.prettyprint{background:#f7f7f8}
-.sidebarblock .literalblock pre,.sidebarblock .listingblock pre:not(.highlight),.sidebarblock .listingblock pre[class="highlight"],.sidebarblock .listingblock pre[class^="highlight "],.sidebarblock .listingblock pre.CodeRay,.sidebarblock .listingblock pre.prettyprint{background:#f2f1f1}
-.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;padding:1em;font-size:.8125em}
-.literalblock pre.nowrap,.literalblock pre[class].nowrap,.listingblock pre.nowrap,.listingblock pre[class].nowrap{overflow-x:auto;white-space:pre;word-wrap:normal}
-@media only screen and (min-width:768px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:.90625em}}
-@media only screen and (min-width:1280px){.literalblock pre,.literalblock pre[class],.listingblock pre,.listingblock pre[class]{font-size:1em}}
-.literalblock.output pre{color:#f7f7f8;background-color:rgba(0,0,0,.9)}
-.listingblock pre.highlightjs{padding:0}
-.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
-.listingblock pre.prettyprint{border-width:0}
-.listingblock>.content{position:relative}
-.listingblock code[data-lang]:before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:#999}
-.listingblock:hover code[data-lang]:before{display:block}
-.listingblock.terminal pre .command:before{content:attr(data-prompt);padding-right:.5em;color:#999}
-.listingblock.terminal pre .command:not([data-prompt]):before{content:"$"}
-table.pyhltable{border-collapse:separate;border:0;margin-bottom:0;background:none}
-table.pyhltable td{vertical-align:top;padding-top:0;padding-bottom:0;line-height:1.45}
-table.pyhltable td.code{padding-left:.75em;padding-right:0}
-pre.pygments .lineno,table.pyhltable td:not(.code){color:#999;padding-left:0;padding-right:.5em;border-right:1px solid #ddddd8}
-pre.pygments .lineno{display:inline-block;margin-right:.25em}
-table.pyhltable .linenodiv{background:none!important;padding-right:0!important}
-.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
-.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
-.quoteblock blockquote,.quoteblock blockquote p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
-.quoteblock blockquote{margin:0;padding:0;border:0}
-.quoteblock blockquote:before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
-.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
-.quoteblock .attribution{margin-top:.5em;margin-right:.5ex;text-align:right}
-.quoteblock .quoteblock{margin-left:0;margin-right:0;padding:.5em 0;border-left:3px solid rgba(0,0,0,.6)}
-.quoteblock .quoteblock blockquote{padding:0 0 0 .75em}
-.quoteblock .quoteblock blockquote:before{display:none}
-.verseblock{margin:0 1em 1.25em 1em}
-.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
-.verseblock pre strong{font-weight:400}
-.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
-.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
-.quoteblock .attribution br,.verseblock .attribution br{display:none}
-.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
-.quoteblock.abstract{margin:0 0 1.25em 0;display:block}
-.quoteblock.abstract blockquote,.quoteblock.abstract blockquote p{text-align:left;word-spacing:0}
-.quoteblock.abstract blockquote:before,.quoteblock.abstract blockquote p:first-of-type:before{display:none}
-table.tableblock{max-width:100%;border-collapse:separate}
-table.tableblock td>.paragraph:last-child p>p:last-child,table.tableblock th>p:last-child,table.tableblock td>p:last-child{margin-bottom:0}
-table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all th.tableblock,table.grid-all td.tableblock{border-width:0 1px 1px 0}
-table.grid-all tfoot>tr>th.tableblock,table.grid-all tfoot>tr>td.tableblock{border-width:1px 1px 0 0}
-table.grid-cols th.tableblock,table.grid-cols td.tableblock{border-width:0 1px 0 0}
-table.grid-all *>tr>.tableblock:last-child,table.grid-cols *>tr>.tableblock:last-child{border-right-width:0}
-table.grid-rows th.tableblock,table.grid-rows td.tableblock{border-width:0 0 1px 0}
-table.grid-all tbody>tr:last-child>th.tableblock,table.grid-all tbody>tr:last-child>td.tableblock,table.grid-all thead:last-child>tr>th.tableblock,table.grid-rows tbody>tr:last-child>th.tableblock,table.grid-rows tbody>tr:last-child>td.tableblock,table.grid-rows thead:last-child>tr>th.tableblock{border-bottom-width:0}
-table.grid-rows tfoot>tr>th.tableblock,table.grid-rows tfoot>tr>td.tableblock{border-width:1px 0 0 0}
-table.frame-all{border-width:1px}
-table.frame-sides{border-width:0 1px}
-table.frame-topbot{border-width:1px 0}
-th.halign-left,td.halign-left{text-align:left}
-th.halign-right,td.halign-right{text-align:right}
-th.halign-center,td.halign-center{text-align:center}
-th.valign-top,td.valign-top{vertical-align:top}
-th.valign-bottom,td.valign-bottom{vertical-align:bottom}
-th.valign-middle,td.valign-middle{vertical-align:middle}
-table thead th,table tfoot th{font-weight:bold}
-tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
-tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
-p.tableblock>code:only-child{background:none;padding:0}
-p.tableblock{font-size:1em}
-td>div.verse{white-space:pre}
-ol{margin-left:1.75em}
-ul li ol{margin-left:1.5em}
-dl dd{margin-left:1.125em}
-dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
-ul.unstyled,ol.unnumbered,ul.checklist,ul.none{list-style-type:none}
-ul.unstyled,ol.unnumbered,ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1em;font-size:.85em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{width:1em;position:relative;top:1px}
-ul.inline{margin:0 auto .625em auto;margin-left:-1.375em;margin-right:0;padding:0;list-style:none;overflow:hidden}
-ul.inline>li{list-style:none;float:left;margin-left:1.375em;display:block}
-ul.inline>li>*{display:block}
-.unstyled dl dt{font-weight:400;font-style:normal}
-ol.arabic{list-style-type:decimal}
-ol.decimal{list-style-type:decimal-leading-zero}
-ol.loweralpha{list-style-type:lower-alpha}
-ol.upperalpha{list-style-type:upper-alpha}
-ol.lowerroman{list-style-type:lower-roman}
-ol.upperroman{list-style-type:upper-roman}
-ol.lowergreek{list-style-type:lower-greek}
-.hdlist>table,.colist>table{border:0;background:none}
-.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
-td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
-td.hdlist1{font-weight:bold;padding-bottom:1.25em}
-.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
-.colist>table tr>td:first-of-type{padding:0 .75em;line-height:1}
-.colist>table tr>td:last-of-type{padding:.25em 0}
-.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
-.imageblock.left,.imageblock[style*="float: left"]{margin:.25em .625em 1.25em 0}
-.imageblock.right,.imageblock[style*="float: right"]{margin:.25em 0 1.25em .625em}
-.imageblock>.title{margin-bottom:0}
-.imageblock.thumb,.imageblock.th{border-width:6px}
-.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
-.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
-.image.left{margin-right:.625em}
-.image.right{margin-left:.625em}
-a.image{text-decoration:none;display:inline-block}
-a.image object{pointer-events:none}
-sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
-sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
-#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
-#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em 0;border-width:1px 0 0 0}
-#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;text-indent:-1.05em;margin-bottom:.2em}
-#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none}
-#footnotes .footnote:last-of-type{margin-bottom:0}
-#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
-.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
-.gist .file-data>table td.line-data{width:99%}
-div.unbreakable{page-break-inside:avoid}
-.big{font-size:larger}
-.small{font-size:smaller}
-.underline{text-decoration:underline}
-.overline{text-decoration:overline}
-.line-through{text-decoration:line-through}
-.aqua{color:#00bfbf}
-.aqua-background{background-color:#00fafa}
-.black{color:#000}
-.black-background{background-color:#000}
-.blue{color:#0000bf}
-.blue-background{background-color:#0000fa}
-.fuchsia{color:#bf00bf}
-.fuchsia-background{background-color:#fa00fa}
-.gray{color:#606060}
-.gray-background{background-color:#7d7d7d}
-.green{color:#006000}
-.green-background{background-color:#007d00}
-.lime{color:#00bf00}
-.lime-background{background-color:#00fa00}
-.maroon{color:#600000}
-.maroon-background{background-color:#7d0000}
-.navy{color:#000060}
-.navy-background{background-color:#00007d}
-.olive{color:#606000}
-.olive-background{background-color:#7d7d00}
-.purple{color:#600060}
-.purple-background{background-color:#7d007d}
-.red{color:#bf0000}
-.red-background{background-color:#fa0000}
-.silver{color:#909090}
-.silver-background{background-color:#bcbcbc}
-.teal{color:#006060}
-.teal-background{background-color:#007d7d}
-.white{color:#bfbfbf}
-.white-background{background-color:#fafafa}
-.yellow{color:#bfbf00}
-.yellow-background{background-color:#fafa00}
-span.icon>.fa{cursor:default}
-.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
-.admonitionblock td.icon .icon-note:before{content:"\f05a";color:#19407c}
-.admonitionblock td.icon .icon-tip:before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
-.admonitionblock td.icon .icon-warning:before{content:"\f071";color:#bf6900}
-.admonitionblock td.icon .icon-caution:before{content:"\f06d";color:#bf3400}
-.admonitionblock td.icon .icon-important:before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background-color:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
-.conum[data-value] *{color:#fff!important}
-.conum[data-value]+b{display:none}
-.conum[data-value]:after{content:attr(data-value)}
-pre .conum[data-value]{position:relative;top:-.125em}
-b.conum *{color:inherit!important}
-.conum:not([data-value]):empty{display:none}
-dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
-h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
-p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
-p{margin-bottom:1.25rem}
-.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
-.exampleblock>.content{background-color:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
-.print-only{display:none!important}
-@media print{@page{margin:1.25cm .75cm}
-*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
-a{color:inherit!important;text-decoration:underline!important}
-a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
-a[href^="http:"]:not(.bare):after,a[href^="https:"]:not(.bare):after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
-abbr[title]:after{content:" (" attr(title) ")"}
-pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
-thead{display:table-header-group}
-svg{max-width:100%}
-p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
-h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
-#toc,.sidebarblock,.exampleblock>.content{background:none!important}
-#toc{border-bottom:1px solid #ddddd8!important;padding-bottom:0!important}
-.sect1{padding-bottom:0!important}
-.sect1+.sect1{border:0!important}
-#header>h1:first-child{margin-top:1.25rem}
-body.book #header{text-align:center}
-body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em 0}
-body.book #header .details{border:0!important;display:block;padding:0!important}
-body.book #header .details span:first-child{margin-left:0!important}
-body.book #header .details br{display:block}
-body.book #header .details br+span:before{content:none!important}
-body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
-body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
-.listingblock code[data-lang]:before{display:block}
-#footer{background:none!important;padding:0 .9375em}
-#footer-text{color:rgba(0,0,0,.6)!important;font-size:.9em}
-.hide-on-print{display:none!important}
-.print-only{display:block!important}
-.hide-for-print{display:none!important}
-.show-for-print{display:inherit!important}}
-</style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-</head>
-<body class="article">
-<div id="header">
-<h1>Links</h1>
-</div>
-<div id="content">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="bookmarks/bookmarks.html">Bookmarks</a></p>
-</li>
-<li>
-<p><a href="index.html">old index</a></p>
-</li>
-<li>
-<p>Images</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Images@x10<br>
-<a href="http://iancummings.x10.mx/images/portfolio">images.iancummings.com</a></p>
-</li>
-<li>
-<p>Family@x10<br>
-<a href="http://iancummings.x10.mx/images/family">family.iancummings.com</a></p>
-</li>
-<li>
-<p>Images@x10<br>
-<a href="http://iancummings.x10.mx/images" class="bare">http://iancummings.x10.mx/images</a></p>
-</li>
-<li>
-<p><a href="https://websites.lightrocket.com/iancummings">Lightrocket</a></p>
-</li>
-<li>
-<p><a href="https://iancummings.smugmug.com/">SmugMug</a></p>
-</li>
-<li>
-<p><a href="https://www.flickr.com/photos/iancummings">Flickr</a></p>
-</li>
-<li>
-<p><a href="http://iancummings.x10.mx/images/coldash">Cold Ash images</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="rosewood/ridge.html">The Ridge</a></p>
-</li>
-<li>
-<p>Browser Scratchpads</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Basic: <strong>data:text/html,&lt;html contenteditable&gt;</strong></p>
-</li>
-<li>
-<p><a href="notepad.html">Notepad</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Legacy/Reference</p>
-<div class="ulist">
-<ul>
-<li>
-<p><a href="http://iancummings.co.uk">iancummings.co.uk</a></p>
-</li>
-<li>
-<p><a href="http://icc-webroot.s3-website-us-east-1.amazonaws.com">Static Amazon</a></p>
-</li>
-<li>
-<p><a href="http://iancummings.x10.mx/dotcom/">x10 big buttons</a></p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><a href="http://iancummings.duet.to/scratchpad.txt">Scratchpad</a></p>
-</li>
-</ul>
-</div>
-</div>
-<div id="footer">
-<div id="footer-text">
-Last updated 2023-07-22 21:40:07 GMTDT
-</div>
-</div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-<script>hljs.initHighlighting()</script>
-</body>
-</html>
+<!DOCTYPE NETSCAPE-Bookmark-file-1>
+<!-- This is an automatically generated file.
+     It will be read and overwritten.
+     DO NOT EDIT! -->
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<TITLE>Bookmarks</TITLE>
+<H1>Bookmarks</H1>
+<DL><p>
+    <DT><H3 ADD_DATE="1676484493" LAST_MODIFIED="1686830801" PERSONAL_TOOLBAR_FOLDER="true">Bookmarks</H3>
+    <DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">Daily</H3>
+        <DL><p>
+            <DT><A HREF="http://www.bbc.co.uk/ariel/" ADD_DATE="1683715678">Ariel - Home</A>
+            <DT><A HREF="http://bokeh.digitalrev.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB0ElEQVQ4jX3Sz2oUQRAG8K+6e2f/mizZyErErImICEpAIkLeIXgSPHtR8ORD+CQevYrgTZDcJAZM8GYwB11WcNcks7sz01Wfh5mAOSTUpSh+VQVdLfvXn4OEgAQAVgFUBRgJwEACJMMluhQEeKYNcLxEAxD5T5Ogw8WaZjHLKWd7CCMdSo9zGiDVEFzjzorOcopYtQEOQkKoBEgn1Szn4vH02qvte59eN+8P4jynFwJGOivMskJaCUU0zRC8EcX4tPv4Ye/J1ujNR53lFlWzwkhVla9rL1ub68mt/uT9rmsmqPnmxs107zD0F91ia3pwNP859ksdI+fDP67TCN2nW8yK9qPbfvlKdjhqPVjzCy2LmtzoJavLrY2BayZG+GZysv+jOJk5xkgyjtM4mUq7Ls36351vjbsrdGKFWrTf7z7no8nw7U5j9Wr6/ZfsDV74bjsfjpP1fnd7c/zhS3pwFHoLqqqzDLVQHKd+qaNFjLNMo8pu/xmjmRepBwLxdIZa0KgETYQ0eqd5YU4ImiBAhIkHaVk0Guo1M0NwBEESzmiseZJGGhAMJEGSAoqYWfneRCkqV+ZKBBIEy7byltVRz2kzUEkjHUEr/8mFmgYoq+Qf4KWju85rYcEAAAAASUVORK5CYII=">Bokeh by DigitalRev</A>
+            <DT><A HREF="https://www.packtpub.com/packt/offers/free-learning" ADD_DATE="1683715678">Free Learning - Free Technology eBooks | PACKT Books</A>
+            <DT><A HREF="http://toc.cryptobook.us/" ADD_DATE="1683715678">cryptographybook</A>
+            <DT><A HREF="http://gigaom.com/" ADD_DATE="1683715678">Gigaom</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Media</H3>
+            <DL><p>
+                <DT><A HREF="https://uk.newonnetflix.info/lastchance" ADD_DATE="1683715679">A List of Films &amp; TV That Are Being Removed from Netflix UK - NewOnNetflixUK</A>
+                <DT><A HREF="http://www.radiotimes.com/tv/tv-listings" ADD_DATE="1683715679">UK TV listings schedule - What&#39;s on TV tonight? | Radio Times</A>
+            </DL><p>
+            <DT><A HREF="http://election.news.sky.com/referendum" ADD_DATE="1683715678">EU Referendum results in full | Sky News</A>
+            <DT><A HREF="http://www.hvper.com/" ADD_DATE="1683715678">Hvper</A>
+            <DT><A HREF="http://www.photoplusmag.com/" ADD_DATE="1683715678">PhotoPlus Magazine | Canon D-SLR Photography, Editing &amp; Techniques</A>
+            <DT><A HREF="https://mollysmovement.com/" ADD_DATE="1683715678">Molly and Joey - A Mother and Son&#39;s Journey with Dementia</A>
+            <DT><A HREF="http://page2rss.com/rss/916cdc0260715b7ca6f8f4c7228d462f" ADD_DATE="1683715678">this link</A>
+            <DT><A HREF="http://www.huffingtonpost.co.uk/" ADD_DATE="1683715678">UK News and Opinion on The Huffington Post</A>
+            <DT><A HREF="https://www.wikitribune.com/" ADD_DATE="1683715678">Wikitribune – Evidence-based journalism</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">reddit</H3>
+            <DL><p>
+                <DT><A HREF="https://www.reddit.com/r/photography" ADD_DATE="1683715679">Photography</A>
+                <DT><A HREF="https://www.reddit.com/r/Casual_Photography" ADD_DATE="1683715679">Casual_Photography</A>
+            </DL><p>
+            <DT><A HREF="https://unherd.com/?login" ADD_DATE="1683715678">UnHerd.com | For readers who choose the important over the new.</A>
+            <DT><A HREF="http://www.independent.co.uk/extras/puzzles/crosswords/" ADD_DATE="1683715678">The Independent | Crosswords</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">regular checkups</H3>
+            <DL><p>
+                <DT><A HREF="https://www.grc.com/groups/spinrite.dev" ADD_DATE="1683715679">GRC | Discussions Online</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Coronavirus</H3>
+            <DL><p>
+                <DT><A HREF="https://coronavirus.jhu.edu/map.html" ADD_DATE="1683715679">Johns Hopkins Coronavirus Resource Center</A>
+                <DT><A HREF="https://www.arcgis.com/apps/opsdashboard/index.html#/f94c3c90da5b4e9f9a0b19484dd4bb14" ADD_DATE="1683715679">COVID-19 Dashboard</A>
+                <DT><A HREF="https://www.nhs.uk/conditions/coronavirus-covid-19/" ADD_DATE="1683715679">Coronavirus (COVID-19) - NHS</A>
+                <DT><A HREF="https://www.gov.uk/foreign-travel-advice" ADD_DATE="1683715679">Foreign travel advice - GOV.UK</A>
+                <DT><A HREF="https://coronavirus.data.gov.uk/" ADD_DATE="1683715679">Daily summary | Coronavirus in the UK</A>
+            </DL><p>
+            <DT><A HREF="http://www.sarahwimperis.co.uk/pages/60310/daily-survival-paintings" ADD_DATE="1683715678">Daily Survival Paintings - Sarah Wimperis</A>
+            <DT><A HREF="https://forums.grc.com/" ADD_DATE="1683715678">GRC Public Forums</A>
+            <DT><A HREF="https://fastgood.cheap/" ADD_DATE="1683715678">Fast Good Cheap</A>
+            <DT><A HREF="https://whatthefuckjusthappenedtoday.com/" ADD_DATE="1683715678">What The Fuck Just Happened Today? | What The Fuck Just Happened Today?</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">News</H3>
+        <DL><p>
+            <DT><A HREF="http://www.bbc.co.uk/ariel/" ADD_DATE="1683715678">Ariel - Home</A>
+            <DT><A HREF="http://news.bbc.co.uk/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAI0lEQVQ4jWP8//8/AymAiSTVw0QDA1ooEeQOQj8wjsY0EQAAdqwSC1joM+0AAAAASUVORK5CYII=">BBC NEWS</A>
+            <DT><A HREF="https://www.packtpub.com/packt/offers/free-learning" ADD_DATE="1683715678">Free Learning - Free Technology eBooks | PACKT Books</A>
+            <DT><A HREF="https://www.newburytoday.co.uk/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACs0lEQVQ4jaXTT2hcVRTH8e+99/2Z9ycvnWQmsZ2EsUmaRdWYUsQupBBEirErQRE3gqLdtAsFV111EUK7SBFaXErAhehCRRQs2CyqKLTYgrqwGtJJHCdtM9O8zGQmb+a9e10UgkVEqL/d4XA+nMU58D8j/l4sLCx4a2v1AZEgH3l0X29wMLc9NjbWmZmZSf8TeOu1d8cr1WQ+7bmHbceWrucnyhKbliXWbGVu9IXqWr4QXpufP1n/B2CMUcePvX2xvumdyAV9+EEOPwrJeR6ZBteV5Cx20m7yk2vLD4Ig+/DcuTeaAArAtvv3/f5r50yq3cEnpso8PzvN8Rem8EIfN+fy0ovTPPfsQSvDL92N1THp+M7cmTeXFhcXtQSIN9JimoqCbdt0kpS9e/NMPznKwFDEkWfGqbUyRkf6mJws4oSRpdz+V3/8JRsDkACNe80gM8IxlqS60ULZEq01hWLI19fvULm9jTFQ20gwUpFJq7/TEoVdwPMGkNJiK+miQpcDE0W2Oj3eX7rF1dWYyXJEt6ep1NoIAVIIqaVSu0DODZvGsNNLNY8dGGaoEPLJlRWu/NagkWaUhgMqtSa1jW0w0I5jvV2/m+0CYb6/7QV9Xc9xefpQma12l0s/LKM6TSbyivKQz3fXV4m8hPU/blFdqWSOYyUAFsDo6J52frjUGnBsnjpU5ubKPeI4pehaTJciopzD4+NFkq2UzbiH5/hxFPmN3Q2OHt1ft2x+llpw6fIyn395kyCVFGyX6mqTLy4v8/3VP1n6toLppvgO38zOjlQfuMRT73x0ZL3audjpiSljKwvLwqj7bal1JrXe0T0TBHb22cR+/+Tc3MsPAgCnT39casXJ4Z1MlTUyL4Qwtk2MYd13Za3eSF/3PXHjwoVX3nuozzt//tM9Z89+NfJQw/+WvwAWQAcS2nKkhgAAAABJRU5ErkJggg==">Home Page- Newbury Weekly News</A>
+            <DT><A HREF="http://bokeh.digitalrev.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB0ElEQVQ4jX3Sz2oUQRAG8K+6e2f/mizZyErErImICEpAIkLeIXgSPHtR8ORD+CQevYrgTZDcJAZM8GYwB11WcNcks7sz01Wfh5mAOSTUpSh+VQVdLfvXn4OEgAQAVgFUBRgJwEACJMMluhQEeKYNcLxEAxD5T5Ogw8WaZjHLKWd7CCMdSo9zGiDVEFzjzorOcopYtQEOQkKoBEgn1Szn4vH02qvte59eN+8P4jynFwJGOivMskJaCUU0zRC8EcX4tPv4Ye/J1ujNR53lFlWzwkhVla9rL1ub68mt/uT9rmsmqPnmxs107zD0F91ia3pwNP859ksdI+fDP67TCN2nW8yK9qPbfvlKdjhqPVjzCy2LmtzoJavLrY2BayZG+GZysv+jOJk5xkgyjtM4mUq7Ls36351vjbsrdGKFWrTf7z7no8nw7U5j9Wr6/ZfsDV74bjsfjpP1fnd7c/zhS3pwFHoLqqqzDLVQHKd+qaNFjLNMo8pu/xmjmRepBwLxdIZa0KgETYQ0eqd5YU4ImiBAhIkHaVk0Guo1M0NwBEESzmiseZJGGhAMJEGSAoqYWfneRCkqV+ZKBBIEy7byltVRz2kzUEkjHUEr/8mFmgYoq+Qf4KWju85rYcEAAAAASUVORK5CYII=">Bokeh by DigitalRev</A>
+            <DT><A HREF="http://www.coldash.org.uk/Cold_Ash/Welcome.html" ADD_DATE="1683715678">Cold Ash</A>
+            <DT><A HREF="http://toc.cryptobook.us/" ADD_DATE="1683715678">cryptographybook</A>
+            <DT><A HREF="http://election.news.sky.com/referendum" ADD_DATE="1683715678">EU Referendum results in full | Sky News</A>
+            <DT><A HREF="http://www.ft.com/home/uk" ADD_DATE="1683715678">Financial Times - FT.com</A>
+            <DT><A HREF="http://gigaom.com/" ADD_DATE="1683715678">Gigaom</A>
+            <DT><A HREF="https://news.google.co.uk/" ADD_DATE="1683715678">Google News</A>
+            <DT><A HREF="http://www.hvper.com/" ADD_DATE="1683715678">Hvper</A>
+            <DT><A HREF="https://mollysmovement.com/" ADD_DATE="1709194960">Molly and Joey - A Mother and Son&#39;s Journey with Dementia</A>
+            <DT><A HREF="http://www.photoplusmag.com/" ADD_DATE="1683715678">PhotoPlus Magazine | Canon D-SLR Photography, Editing &amp; Techniques</A>
+            <DT><A HREF="http://news.sky.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB3UlEQVQ4jW1Su47aUBScc21WxGCItJBEC8UWW7uEJNDRR/kVsh/BD/AHfMQiWgoEZR6QuOCx65gNQqzAYGM73JPCsCGBae7VaM6Zo9EQM+MEzExEpzwAcUr1er12u31WDUB9/k0mk06nk0gkLMtKJpOWZXW73UqlEgTBaDQqFAqR59+BZrNpmma5XNZ1fT6fNxqNxWKxXC49z8tkMsVi8X+HUqnkum6r1dJ1fTabCSGq1WqtVnNdt16vnzlpOBwOBgNFUVKplGEYtm2Px2PDMJg5n8//E0gEZ72ePj466/XGdbe+v/W39w8Pn25v+/0+H4F2tr0fJSIQY58yAVvfn/2a5fI5cRQxPX34iGfJ0QMCQEKQlHxMq+w4h+MkiEAEZhBFkh1hbykIJACo9DINBmkvRDbLnsfrjchc8sblIKB4nP0taRpdXMjpVK5W8H0Vus7Mys2NcnUFZqgqWIIhnxaUSkvbhqKw4/jff0j7J++k6jkOrzdqPM6mKdJpkbnklRN868ffvQ0/f4ldX7t3d/HS+9+vsp5pkqLQ11Saw1BoGpgRi4EolsuFliU0TTqO0HUOQ/XN63A8kasViKirqgAOlWUAkAxBYBwCiBix75K3k2c6GUUZrYl2yb3sD3YRCjyBPNCeAAAAAElFTkSuQmCC">Sky News</A>
+            <DT><A HREF="http://techcrunch.com/" ADD_DATE="1683715678">TechCrunch</A>
+            <DT><A HREF="http://www.guardian.co.uk/" ADD_DATE="1683715678">The Guardian</A>
+            <DT><A HREF="http://www.independent.co.uk/" ADD_DATE="1683715678">The Independent</A>
+            <DT><A HREF="http://www.independent.co.uk/extras/puzzles/crosswords/" ADD_DATE="1683715678">The Independent | Crosswords</A>
+            <DT><A HREF="http://www.theregister.co.uk/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA80lEQVQ4jbXSMUpDQRSF4c/wMDaKlhYpBEsL0QUEm1R22tpkAS5Al2CTNViICqk0laK1YCEWgkHFWrSNIKI282AY5uUJ4oFbzOX+554Zhj9qoqJfYBMrmMcQfdz9xnQRt/hOaoT1OrjAdQYu67LOYCMMvuExY/CSAo3kvBCibqGVWTAcZ1BgOaS4wEfGoF8VfTrcb4Qe9jPx3zGb4TRwngE+8RWdjyJwCh00YTuz6RCruI/6uwFew14Jw1MYuEEXM9Gm48jgGVcYxLDQeA0/LtVOku4Uk+lQG2cVjzuHhwCf5OBSnfAHclrCwTi4VLNu4F/0Ayt8TCzwe4hBAAAAAElFTkSuQmCC">The Register&amp;#58; Sci/Tech News for the World</A>
+            <DT><A HREF="http://page2rss.com/rss/916cdc0260715b7ca6f8f4c7228d462f" ADD_DATE="1683715678">this link</A>
+            <DT><A HREF="http://www.huffingtonpost.co.uk/" ADD_DATE="1683715678">UK News and Opinion on The Huffington Post</A>
+            <DT><A HREF="http://www.radiotimes.com/tv/tv-listings" ADD_DATE="1683715678">UK TV listings schedule - What&#39;s on TV tonight? | Radio Times</A>
+            <DT><A HREF="https://whatthefuckjusthappenedtoday.com/" ADD_DATE="1709194960">What The Fuck Just Happened Today? | What The Fuck Just Happened Today?</A>
+            <DT><A HREF="https://www.wikitribune.com/" ADD_DATE="1683715678">Wikitribune – Evidence-based journalism</A>
+            <DT><A HREF="https://unherd.com/?login" ADD_DATE="1683715678">UnHerd.com | For readers who choose the important over the new.</A>
+            <DT><A HREF="http://www.bbc.co.uk/mediacentre" ADD_DATE="1683715678">BBC - Home - Media Centre</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">reddit</H3>
+            <DL><p>
+                <DT><A HREF="https://www.reddit.com/r/photography" ADD_DATE="1683715679">Photography</A>
+                <DT><A HREF="https://www.reddit.com/r/Casual_Photography" ADD_DATE="1683715679">Casual_Photography</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">travel</H3>
+            <DL><p>
+                <DT><A HREF="http://www.newburytoday.co.uk/travel" ADD_DATE="1683715679">Travel | NewburyToday.co.uk</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">weather</H3>
+            <DL><p>
+                <DT><A HREF="https://www.netweather.tv/live-weather/radar" ADD_DATE="1683715679" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB3ElEQVQ4jaWT3WoTQRTHfzO7m+xmU2NQREGDFgtiVQp6K97oK/gQInjlA/geeulFL3wGqVBERRpRimhA6QdtTUmgYfOxOzPHi918VFJEPDCcw8z5/845zAz8pykAEZHj20fQWoWDJmQJLFyEyw/gzL2/A1y7yejdM2znCyidpziL0iHB0kNKd56CH84HuGSP4dtH2E4TFcT58RhtM3CW0vUnlG4+ngB0AUBEyH48xw4/ok5FEAmEMvWxD7Ei3XqBbX+YaDSAUgrX2yTrvEJVfYgchBYiA6HJfWSg4iH+L7Ldl6hC549bsd018Efg1QEBEcDNxPlS5Qp2sI5NWnjVpSnADXbQ0TKooBA6kD88DsQiNsEdfZoFZKDL6OhagcuryUQoOUTyWNkESQ8BxoA+unQBUXqajKCOAYqRREDSotMJoEyptpjfu3OIdTixiHPIrLAYQ8SgdDgFfNse0u/WUEoRlz1qsc/p2CeoeBDoXGgMpAYxBmcNkj+hHLC69hPJHKlxDEZ9kkHKcJRhnaUaahrnYm4t1rlxpU7jfBXtB0UnctJfgG5vxNZBj2brkDfNXd5/3We/02ehErBy9Sz3b1/i7krjZMA8+77dZf3zHq83dthotWkPvH8DzLPfIbgKXBGN4j4AAAAASUVORK5CYII=">Weather Radar - Live UK Rainfall Radar - 5 Minute Updates - Netweather</A>
+                <DT><A HREF="http://incorrecturl/" ADD_DATE="1709194960">UK rainfall radar map - Met Office</A>
+                <DT><A HREF="http://thatcham-weather.info/" ADD_DATE="1709194960">thatcham-weather.info</A>
+                <DT><A HREF="https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;z=6;y=48.3234;x=10.4974;d=2;dl=3;dc=0;" ADD_DATE="1709194960">Real Time Lightning Map :: LightningMaps.org</A>
+                <DT><A HREF="https://www.netweather.tv/live-weather/radar" ADD_DATE="1709194960" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB3ElEQVQ4jaWT3WoTQRTHfzO7m+xmU2NQREGDFgtiVQp6K97oK/gQInjlA/geeulFL3wGqVBERRpRimhA6QdtTUmgYfOxOzPHi918VFJEPDCcw8z5/845zAz8pykAEZHj20fQWoWDJmQJLFyEyw/gzL2/A1y7yejdM2znCyidpziL0iHB0kNKd56CH84HuGSP4dtH2E4TFcT58RhtM3CW0vUnlG4+ngB0AUBEyH48xw4/ok5FEAmEMvWxD7Ei3XqBbX+YaDSAUgrX2yTrvEJVfYgchBYiA6HJfWSg4iH+L7Ldl6hC549bsd018Efg1QEBEcDNxPlS5Qp2sI5NWnjVpSnADXbQ0TKooBA6kD88DsQiNsEdfZoFZKDL6OhagcuryUQoOUTyWNkESQ8BxoA+unQBUXqajKCOAYqRREDSotMJoEyptpjfu3OIdTixiHPIrLAYQ8SgdDgFfNse0u/WUEoRlz1qsc/p2CeoeBDoXGgMpAYxBmcNkj+hHLC69hPJHKlxDEZ9kkHKcJRhnaUaahrnYm4t1rlxpU7jfBXtB0UnctJfgG5vxNZBj2brkDfNXd5/3We/02ehErBy9Sz3b1/i7krjZMA8+77dZf3zHq83dthotWkPvH8DzLPfIbgKXBGN4j4AAAAASUVORK5CYII=">Weather Radar - Live UK Rainfall Radar - 5 Minute Updates - Netweather</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">Sky</H3>
+            <DL><p>
+                <DT><A HREF="https://www.youtube.com/watch?v=ehHn4eobHRE" ADD_DATE="1683715679">Sky News Raw - YouTube</A>
+                <DT><A HREF="https://www.youtube.com/watch?v=e0trcaHybbo" ADD_DATE="1683715679">Sky News Raw Newsroom 360 Live - YouTube</A>
+                <DT><A HREF="https://www.youtube.com/watch?v=ehHn4eobHRE" ADD_DATE="1709194960">Sky News Raw - YouTube</A>
+                <DT><A HREF="https://www.youtube.com/watch?v=e0trcaHybbo" ADD_DATE="1709194960">Sky News Raw Newsroom 360 Live - YouTube</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">regular checkups</H3>
+            <DL><p>
+                <DT><A HREF="https://www.grc.com/groups/spinrite.dev" ADD_DATE="1683715679">GRC | Discussions Online</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Coronavirus</H3>
+            <DL><p>
+                <DT><A HREF="https://coronavirus.jhu.edu/map.html" ADD_DATE="1683715679">Johns Hopkins Coronavirus Resource Center</A>
+                <DT><A HREF="https://www.arcgis.com/apps/opsdashboard/index.html#/f94c3c90da5b4e9f9a0b19484dd4bb14" ADD_DATE="1683715679">COVID-19 Dashboard</A>
+                <DT><A HREF="https://www.nhs.uk/conditions/coronavirus-covid-19/" ADD_DATE="1683715679">Coronavirus (COVID-19) - NHS</A>
+                <DT><A HREF="https://www.gov.uk/foreign-travel-advice" ADD_DATE="1683715679">Foreign travel advice - GOV.UK</A>
+            </DL><p>
+            <DT><A HREF="http://www.newburytoday.co.uk/travel" ADD_DATE="1709194960">Travel | NewburyToday.co.uk</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">gmail</H3>
+        <DL><p>
+            <DT><A HREF="https://mail.google.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACEUlEQVQ4jcWSP0iVYRTGf+d9v/d6/ZelXBCSIHJIKbHCq1DkkIVubVK0NCSI0ODWdpcagigShDRoawhqygZz0BAxrU2I6ApCDsGnpl3Fe73f956GTDS4jfUsz/L84Twc+N8QgJmGhlqXsB3bxs1fzGbDvxn0Dan4kG3b2oxna7pZMxkwmrAjzpgx54uTn86c7Cxlzt2r74zKgklrZawiCEY0gzHpxkZn4sLpvCpWpLkyWTa2ejk9qBnMXmsGE17oGNSlmrHA0UweAo1bSOOC+ze+yLV3t+LWpXEi9WCk0ok8WJluS3+74m4DrEwXH7sEvd4bfOQxIozvNESvF68SADy/NMRi9hXdM3exPqLgE5SJ6c1HOy0AZdY25b2nAk9OHUNbLbzMHWOzMYspr0Wtxsw2X+dpzzMNq46GSTx57wmMaQqMacp7T9IIXzUZDqyf1xfbJwh2D9wlxUUFluvP8jD9qJ9iftiJoIACTgSJo+E7rcf7F6I6khLvDWv2r+w0ks9VjavVUwsDEdonsCGwEaF91VMfB7L1wWpCVPZ7DgQAlPuCBUhNzI/GQlcsdKUm5kcByiPsn/rgN4sYQFEf7zWk3s59OKD2XnAWRND4l9e0r1FUZM7jQ68+tNYWSj2SGFMg9iHqQ7zOZXvai0EmI/7cE71Z94MjAMtbrJcK2LTy/nAQnwIo5FLfkYwvpf13+AmqpdgP1oFy7QAAAABJRU5ErkJggg==">GMail</A>
+            <DT><A HREF="https://www.google.com/settings/security/lesssecureapps" ADD_DATE="1683715678">Less secure apps - Account settings</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">todo</H3>
+        <DL><p>
+            <DT><A HREF="http://www.toodledo.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABW0lEQVQ4jcXSsUtbURTH8e8554VOgkgXSUuHXiTx0q2T0wOH/iMOol3qpE5ubwsYEBykcemfoS+Tm5SCSRcXwcQOFQwKFmrecSjFRCMaOvSM997P4Z7DD/6xZFzQ2orBpNgrqXx5u9heH6tBqxaDl4pmySgnBol5Zs/Fh7UY0KJpSlkVVMGUN/ocfJDFIO5NoDxw3BFs/skGB1kMZg+xm6avF1rHCnC2Oxu7n6uf3IeXmmcxOMPYoWOuaVhoHQMkPxqVdwXFPsLLs93qjPv3JRE834hB+97E7n1bNQ3LfzCAdBuVLjB990a2j06pJS55olI2cxKDktF5IZLGlTsMoEB9eGpffDXJV5DhmUdg/gap26isAtngxcWV8LOnmHlHkHRu7SFmMImjmpz3tHd5Le8fw9yP8lG9mk9NeApw06d/+Us/xI/tvcfwyGrXq/nJTuX3t83Z+bHgf6tbt+t6ECTHcTEAAAAASUVORK5CYII=">Toodledo &amp;#58; A productivity tool to manage your tasks, to-dos, notes, outlines and lists</A>
+            <DT><A HREF="file:///W&#58;/work/gtd/iancummings.html" ADD_DATE="1683715678">mGSD - the tiddlywiki powered gtd system formerly known as MonkeyGTD</A>
+            <DT><A HREF="https://mail.google.com/tasks/canvas?pli=1" ADD_DATE="1683715678">Tasks</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">QDev</H3>
+        <DL><p>
+            <DT><A HREF="file:///D:/sync/worknhome/work/doc/asciidoc/index.html" ADD_DATE="1683715678">Docs!</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">build</H3>
+            <DL><p>
+                <DT><A HREF="http://cimaster:5984/_utils/document.html?versions/LiveTouchManager%2Flt_v1.9_bugfix" ADD_DATE="1683715679">Apache CouchDB - 1.9 version number</A>
+                <DT><A HREF="http://ci2ms/gitchangelog/LT/PortManagerWS/release%252F1.12/" ADD_DATE="1683715679">LT/PortManagerWS@release/1.12</A>
+                <DT><A HREF="http://ci2ms/gitchangelog/LT/PortManagerWS/master/" ADD_DATE="1683715679">LT/PortManagerWS@master</A>
+                <DT><A HREF="http://ci2ms.quantel.com:8080/lockable-resources/" ADD_DATE="1683715679">Lockable Resources [Jenkins]</A>
+                <DT><A HREF="http://ci2ms/gitchangelog/RIO/genq/release%252Flt%252F7.5/" ADD_DATE="1683715679">RIO/genq@release/lt/7.5</A>
+                <DT><A HREF="http://github/summary/~markmc%2FBcastTestAutomation%2Fffetest.git" ADD_DATE="1683715679">github - ~markmc/BcastTestAutomation/ffetest.git</A>
+                <DT><A HREF="http://ci2ms.quantel.com:8080/computer/ci2b5/configure" ADD_DATE="1683715679">ci2b5 Configuration [Jenkins] - LTM build Pipeline</A>
+                <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">LiveTouch</H3>
+                <DL><p>
+                    <DT><A HREF="http://cimaster/" ADD_DATE="1683715679">cimaster - Continuous Integration Server</A>
+                    <DT><A HREF="http://cimaster/LiveTouchManager/1.7" ADD_DATE="1683715679">LiveTouch Manager - 1.7 - ClearCase Changelog</A>
+                </DL><p>
+                <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">AMPP</H3>
+                <DL><p>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPCore/_library?itemType=VariableGroups&view=VariableGroupView&variableGroupId=35&path=CVE-Ignore-List" ADD_DATE="1683715679">Pipelines - AMPP Core CVE exclusion list</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_library?itemType=VariableGroups&view=VariableGroupView&variableGroupId=36&path=CVE-Ignore-List" ADD_DATE="1683715679">Pipelines - AMPP Apps CVE exclusion list</A>
+                </DL><p>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">AMPP</H3>
+            <DL><p>
+                <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">Platform</H3>
+                <DL><p>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/DevOps/_wiki/wikis/GV%20AMPP%20Deployments/42/platform_helm_versions" ADD_DATE="1683715679">platform_helm_versions - Overview</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/management/cluster/overview" ADD_DATE="1683715679">Resource Management</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/management/system/system" ADD_DATE="1683715679">System Manager</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/identity/" ADD_DATE="1683715679">GV Platform Identity Server</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/management/identity/applications" ADD_DATE="1683715679">Identity Management</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/portal/ampp" ADD_DATE="1683715679">Portal</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/cluster/routing/panel" ADD_DATE="1683715679">Router Panel</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/identity/account/login?returnUrl=%2Fidentity%2Fconnect%2Fauthorize%2Fcallback%3Fresponse_type%3Did_token%2520token%26client_id%3D8acc804090f24da1b11ce2e5e1390c65%26redirect_uri%3Dhttps%253A%252F%252Fdev-eu-west.cloud.grassvalley.com%252Fapp%252Fwrapper%252Fcallback%26scope%3Dcluster%2520platform%2520openid%26nonce%3DNd3e02fa6-4bfb-47f3-968c-4588bc41b74b%26state%3D%257B%2522to%2522%253A%2522%252Fsingle%252FGV.App.FlowMonitor%252F4a98c088-5135-4df6-bd1b-540b4bbec714%2522,%2522CorrelationId%2522%253A%2522ab6c7fb2-35eb-4d12-9b06-bc728b0be179%2522%257D" ADD_DATE="1683715679">GV Platform Identity Server</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/mocha/application/009325e4-3b43-4022-8c01-d7bdd40f634b/control" ADD_DATE="1683715679">mocha/application/009325e4-3b43-4022-8c01-d7bdd40f634b (009325e4-3b43-4022-8c01-d7bdd40f634b)</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/portal/universe" ADD_DATE="1683715679">Portal-Universe</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/_usersSettings/tokens" ADD_DATE="1683715679">Settings · Personal access tokens (Ian Cummings) - Settings</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_build/results?buildId=22776&view=logs" ADD_DATE="1683715679">Pipelines -logs</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPCore/_git/ampp-starter-docs" ADD_DATE="1683715679">ampp-starter-docs - Repos</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_wiki/wikis/Misc-Apps.wiki/522/npm-feed-authentication" ADD_DATE="1683715679">npm feed authentication - Overview</A>
+                    <DT><A HREF="https://10.96.228.165:55601/_plugin/kibana/app/home#/" ADD_DATE="1683715679">Home - Elastic</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/portal/gvuidownload" ADD_DATE="1683715679">Download Portal</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/ampp/control/overview" ADD_DATE="1683715679">AMPP Control</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_wiki/wikis/Misc-Apps.wiki/1254/Permissions" ADD_DATE="1683715679">Permissions - Overview</A>
+                    <DT><A HREF="https://ifletcher.cloud.grassvalley.com/management/identity/applications" ADD_DATE="1683715679">Identity Management</A>
+                    <DT><A HREF="http://confluence.miranda.com/pages/viewpage.action?spaceKey=DEVOPS&title=Monitoring+-+NOC+Crib+Sheet" ADD_DATE="1683715679">Logging/Monitoring - NOC Crib Sheet - DEVOPS - Grass Valley Confluence</A>
+                </DL><p>
+                <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">Development process</H3>
+                <DL><p>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/" ADD_DATE="1683715679">Projects - Home</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_boards/board/t/Replay%20Team/Stories" ADD_DATE="1683715679">Replay Team Stories Board - Boards</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_apps/hub/ms-devlabs.team-calendar.team-calendar?team=78f617b0-01a9-4f71-8a3f-54c8f5e1afbe" ADD_DATE="1683715679">Calendar - Team AMPP Replay</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_git/GV.AMPP.Services.Replay.Library?path=%2F&version=GBmaster&_a=contents" ADD_DATE="1683715679">GV.AMPP.Services.Replay.Library - Repositories</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_wiki/wikis/Misc-Apps.wiki/46/Definition-of-Done" ADD_DATE="1683715679">Definition of Done - Overview</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_git/GV.Cluster.Configuration?path=/GV.Cluster.Configuration/src/GV.Cluster.Configuration/Services/ConfigurationService.cs" ADD_DATE="1683715679">Replay Repositories - files</A>
+                    <DT><A HREF="https://grassvalley.invisionapp.com/console/AMPP-Replay-2.0-ckz5vc37a00jd01zf6hhm4og3?sortBy=1&sortOrder=1&viewLayout=2" ADD_DATE="1683715679">AMPP Replay 2.0 -Invision UI</A>
+                    <DT><A HREF="http://confluence.miranda.com/pages/viewpage.action?spaceKey=DEVOPS&title=Monitoring+-+NOC+Crib+Sheet" ADD_DATE="1683715679">Monitoring - NOC Crib Sheet - DEVOPS - Grass Valley Confluence</A>
+                    <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPCore/_wiki/wikis/AMPP.Core.Wiki/106/Software-Development-Process?anchor=branching-strategy" ADD_DATE="1683715679">Software Development Process - Overview</A>
+                </DL><p>
+                <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">Swagger</H3>
+                <DL><p>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/discovery/swagger/index.html" ADD_DATE="1683715679">Swagger UI - discovery</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/icc/replay/swagger/index.html" ADD_DATE="1683715679">Swagger UI - dev replay</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/globalconfiguration/swagger/index.html" ADD_DATE="1683715679">Swagger UI</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/icc/replay/swagger/index.html" ADD_DATE="1683715679">Swagger UI - replay.library.service</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/notifications/swagger/index.html" ADD_DATE="1683715679">Swagger UI - notification</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/replay/swagger/index.html" ADD_DATE="1683715679">Swagger UI</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/cluster/matrix/swagger/index.html" ADD_DATE="1683715679">Swagger UI</A>
+                </DL><p>
+                <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">Monitoring</H3>
+                <DL><p>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/logviewer2/general" ADD_DATE="1683715679">Log Viewer</A>
+                    <DT><A HREF="https://10.96.228.165:55601/_plugin/kibana/app/home#/" ADD_DATE="1683715679">Kibana log client</A>
+                    <DT><A HREF="https://10.96.228.165:55604/_plugin/kibana/app/discover#/?_g=(filters:!(),refreshInterval:(pause:!t,value:0),time:(from:now-6h,to:now))&_a=(columns:!(level,message,properties.MessageDetail,properties.NotificationSource,properties.Account),filters:!(('$state':(store:appState),meta:(alias:!n,disabled:!t,index:e1bc7520-e490-11eb-b5cb-93d726109328,key:properties.Account,negate:!t,params:(query:nepeu),type:phrase),query:(match_phrase:(properties.Account:nepeu)))),index:e1bc7520-e490-11eb-b5cb-93d726109328,interval:auto,query:(language:kuery,query:'%22mailbox%20not%20found%22'),sort:!())" ADD_DATE="1683715679">Discover - Elastic</A>
+                    <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/grafana/login" ADD_DATE="1683715679">Grafana</A>
+                </DL><p>
+                <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/scs/#" ADD_DATE="1683715679">AMPP Asset Management (SCS)</A>
+                <DT><A HREF="http://wiki.gv.grassvalley.com/display/CORETECH/Fabric+timing+model" ADD_DATE="1683715679">Fabric timing model - Core Technologies - Grass Valley Confluence</A>
+                <DT><A HREF="https://aws.amazon.com/ec2/instance-types/m6g/" ADD_DATE="1683715679">Amazon EC2 M6g Instances - Amazon Web Services</A>
+                <DT><A HREF="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/" ADD_DATE="1683715679">C# reference | Microsoft Docs</A>
+                <DT><A HREF="file:///D:/Sync/worknhome/work/doc/products/projects/AMPP-AM/csharp%20for%20cpp%20developers.pdf" ADD_DATE="1683715679">csharp for cpp developers.pdf</A>
+                <DT><A HREF="https://www.typescriptlang.org/docs/handbook/2/everyday-types.html" ADD_DATE="1683715679">TypeScript: Documentation - Everyday Types</A>
+                <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_wiki/wikis/Misc-Apps.wiki/522/npm-feed-authentication" ADD_DATE="1683715679">npm feed authentication - Overview</A>
+                <DT><A HREF="https://grassvalley.zoom.us/rec/play/vnsoEmCMclFxQWpXURDkhUzXr_iZgWO24iSrqI8VWmm6Y8XNNsnso7Jkw-clwCk7h2NTt2AkOdNxr8HJ.Utd2SQYXD_GID_z0?continueMode=true&_x_zm_rtaid=qRWFm3DsTtmRo6CegT8fDA.1643187309843.0e28721061f398f6b1a063e9836739de&_x_zm_rhtaid=173" ADD_DATE="1683715679">Global Sales Kick-Off Day 2 - Zoom</A>
+                <DT><A HREF="https://dev.azure.com/grassvalley-ampp/_usersSettings/tokens" ADD_DATE="1683715679">Settings · Personal access tokens (Ian Cummings) - Settings</A>
+                <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">Miscellaneous</H3>
+                <DL><p>
+                    <DT><A HREF="https://grassvalley.zoom.us/rec/play/vnsoEmCMclFxQWpXURDkhUzXr_iZgWO24iSrqI8VWmm6Y8XNNsnso7Jkw-clwCk7h2NTt2AkOdNxr8HJ.Utd2SQYXD_GID_z0?continueMode=true&_x_zm_rtaid=qRWFm3DsTtmRo6CegT8fDA.1643187309843.0e28721061f398f6b1a063e9836739de&_x_zm_rhtaid=173" ADD_DATE="1683715679">Global Sales Kick-Off Day 2 - Zoom</A>
+                </DL><p>
+                <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPCore/_wiki/wikis/AMPP.Core.Wiki/677/Service-Health-Liveness-and-Readiness" ADD_DATE="1683715679">Service Health, Liveness and Readiness - Overview</A>
+                <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPCore/_git/gv.ampp.services.demo" ADD_DATE="1683715679">gv.ampp.services.demo - Repos</A>
+                <DT><A HREF="https://app.slack.com/client/TTCAA17DK/C01B9UQACQ2/thread/C01B9UQACQ2-1652735141.496199" ADD_DATE="1683715679">Slack | gv_devops_internal | GV-AMPP-Support</A>
+                <DT><A HREF="https://www.youtube.com/playlist?list=PLIUytdgLtoiPivLtj45DVd-_yNGS2KGc9" ADD_DATE="1683715679">AMPP TV - YouTube</A>
+                <DT><A HREF="https://dev.azure.com/grassvalley-ampp/DevOps/_wiki/wikis/DevOps.wiki/1263/Replay-Library-deployments" ADD_DATE="1683715679">Replay Library Service deployments - Overview in Wiki</A>
+                <DT><A HREF="https://grassvalley-my.sharepoint.com/personal/damon_hawkins_grassvalley_com/_layouts/15/onedrive.aspx?ct=1666713456402&or=Teams-HL&ga=1&id=%2Fpersonal%2Fdamon_hawkins_grassvalley_com%2FDocuments%2FLiveTouch%20X" ADD_DATE="1683715679">LiveTouch X - Damon&#39;s OneDrive</A>
+                <DT><A HREF="https://dev.azure.com/grassvalley-ampp/DevOps/_wiki/wikis/GV%20AMPP%20Deployments/42/platform_helm_versions" ADD_DATE="1683715679">platform_helm_versions - Overview</A>
+                <DT><A HREF="http://wiki.gv.grassvalley.com/pages/viewpage.action?spaceKey=NEWS&title=AMP+Protocol&preview=/134359946/134361224/AMP_Spec_2.23.pdf" ADD_DATE="1683715679">wiki.gv.grassvalley.com</A>
+                <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPCore/_wiki/wikis/AMPP.Core.Wiki/1221/Smoke-Tests" ADD_DATE="1683715679">Smoke Tests - Overview</A>
+                <DT><A HREF="http://wiki.gv.grassvalley.com/pages/viewpage.action?spaceKey=NEWS&title=Engineering+Teams" ADD_DATE="1683715679">Engineering Teams - News - Grass Valley Confluence</A>
+                <DT><A HREF="https://amp-protocol.net/" ADD_DATE="1683715679">Hi! and welcome to AMP! — Asynchronous Messaging Protocol Docs 2.0 documentation</A>
+                <DT><A HREF="http://wiki.gv.grassvalley.com/display/NEWS/AMPP+LiveTouch+X+Team" ADD_DATE="1683715679">AMPP LiveTouch X Team - News - Grass Valley Confluence</A>
+                <DT><A HREF="https://sonarqube.ampp.technology/project/issues?id=AMPPApps_GV.AMPP.Apps.Replay.Operator&open=AYJudlb3Gxih6mEFxXnk&resolved=false&types=BUG" ADD_DATE="1683715679">Sonarqube issues</A>
+                <DT><A HREF="http://ci2ms/gitchangelog/LT/ampp-panel/Panel-PoC/" ADD_DATE="1683715679">LT/ampp-panel@Panel-PoC</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Office365</H3>
+            <DL><p>
+                <DT><A HREF="https://snellgroup-my.sharepoint.com/personal/bendair_snellgroup_com/_layouts/15/WopiFrame2.aspx?sourcedoc=%7Bce96db85-fe22-4d71-b3be-c4ce0e21ace2%7D&action=default" ADD_DATE="1683715679">F1 Priorities July-August 2017.xlsx</A>
+                <DT><A HREF="https://login.microsoftonline.com/" ADD_DATE="1683715679">Sign in to your account</A>
+                <DT><A HREF="https://snellgroup.sharepoint.com/sites/Product_Line/News_Sports_Production/SitePages/Home.aspx?FollowSite=1&SiteName=News%20%26%20Sports%20Production" ADD_DATE="1683715679">News &amp; Sports Production - Home</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">LiveTouch</H3>
+            <DL><p>
+                <DT><A HREF="http://127.0.0.1:9192/livetouch-ui/#" ADD_DATE="1683715679">LiveTouch WebBin</A>
+                <DT><A HREF="https://mtlstash.gv.grassvalley.com/projects/LT" ADD_DATE="1683715679">LiveTouch project overview - Miranda Montreal Stash</A>
+                <DT><A HREF="http://127.0.0.1:5100/" ADD_DATE="1683715679">LiveTouch Monitor</A>
+                <DT><A HREF="http://wiki.gv.grassvalley.com/display/NEWS/LiveTouch+Integration" ADD_DATE="1683715679">LiveTouch Integration - News - Grass Valley Confluence</A>
+                <DT><A HREF="http://127.0.0.1:5000/list-allroutes" ADD_DATE="1683715679">127.0.0.1:5000/list-allroutes</A>
+                <DT><A HREF="https://mtlstash.gad.local:8443/projects/LT" ADD_DATE="1683715679">LiveTouch project overview - Miranda Montreal Stash</A>
+                <DT><A HREF="http://10.165.22.28:9192/livetouch-api/stats" ADD_DATE="1683715679">webbin stats</A>
+                <DT><A HREF="http://testrail.miranda.com/testrail/index.php?/runs/view/25887&group_by=cases:section_id&group_order=asc&group_id=335265" ADD_DATE="1683715679">LiveTouch V1.15.8 Sanity Check - TestRail</A>
+                <DT><A HREF="http://10.162.63.35:5000/" ADD_DATE="1683715679">Fileflow LiveTouch Manager</A>
+                <DT><A HREF="http://10.250.100.3:9192/livetouch-ui/version.xml" ADD_DATE="1683715679">web bin version number</A>
+                <DT><A HREF="https://snellgroup.sharepoint.com/:x:/r/sites/Product_Line/News_Sports_Production/_layouts/15/doc2.aspx?sourcedoc=%7B6d3c6532-af4f-4f69-b38d-d7668853c643%7D&action=default&uid=%7B6D3C6532-AF4F-4F69-B38D-D7668853C643%7D&ListItemId=63&ListId=%7B184CC370-DC8A-482D-BC6C-937EF8C40325%7D&odsp=1&env=prod" ADD_DATE="1683715679">LT Feature Deficit to Dyno.xlsx</A>
+                <DT><A HREF="http://127.0.0.1:9192/livetouch-ui/#" ADD_DATE="1683715679">LiveTouch WebBin</A>
+            </DL><p>
+            <DT><A HREF="http://127.0.0.1:9192/livetouch-ui/#" ADD_DATE="1683715678">LiveTouch WebBin</A>
+            <DT><A HREF="http://discover.s-a-m.com/2349359890233921" ADD_DATE="1683715678">Welcome to your Grass Valley integration page</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">JIRA and ADO</H3>
+            <DL><p>
+                <DT><A HREF="https://tracker.s-a-m.com/issues/?filter=27309" ADD_DATE="1683715679">[LiveTouch 1.10 Release] Issue Navigator - SAM JIRA</A>
+                <DT><A HREF="http://jira.gv.grassvalley.com/secure/Dashboard.jspa?selectPageId=30615" ADD_DATE="1683715679">LT SQ VOC - Grass Valley JIRA</A>
+                <DT><A HREF="http://jira.gv.grassvalley.com/browse/LTSYS-144?jql=assignee%20%3D%20ianc%20ORDER%20BY%20created%20DESC" ADD_DATE="1683715679">[LTSYS-144] i18n no longer accepted in a User name - Grass Valley JIRA</A>
+                <DT><A HREF="http://jira.gv.grassvalley.com/browse/GVPS-3717?filter=-1" ADD_DATE="1683715679">My Open Issues - LiveTouch</A>
+                <DT><A HREF="https://stackoverflow.com/questions/60747813/in-azure-devops-what-is-the-easiest-way-to-see-the-total-story-points-for-a-par" ADD_DATE="1683715679">agile - In Azure Devops, what is the easiest way to see the total story points for a particular sprint in a particular status - Stack Overflow</A>
+            </DL><p>
+            <DT><A HREF="https://uknby1bitmirror.gad.local/mirror" ADD_DATE="1683715678">uknby1bitmirror</A>
+            <DT><A HREF="https://mtlstash.gv.grassvalley.com/projects/LT" ADD_DATE="1683715678">LiveTouch project overview - Miranda Montreal Stash</A>
+            <DT><A HREF="http://wiki.gv.grassvalley.com/#all-updates" ADD_DATE="1683715678">Dashboard - Grass Valley Confluence</A>
+            <DT><A HREF="https://outlook.office365.com/owa/grassvalley.com" ADD_DATE="1683715678">Outlook Web App</A>
+            <DT><A HREF="http://10.162.62.52/projects" ADD_DATE="1683715678">Projects - Bitbucket</A>
+            <DT><A HREF="https://webmail.belden.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.belden.com%2fowa%2f%23authRedirect%3dtrue" ADD_DATE="1683715678">Outlook Web App</A>
+            <DT><A HREF="http://jira.gv.grassvalley.com/browse/LTSYS-627" ADD_DATE="1683715678">Containerisation - [LTSYS-627] Provide a method to deploy various parts of the LiveTouch System using containers</A>
+            <DT><A HREF="https://www.dropbox.com/home/LiveTouch/livetouch%20development/customer%20projects/eurosport/ES%20Development%20Spreadsheet?select=ETT-+Replay+-+Combined+development+tracker_02102019_ES_V2_SC_MZ.xlsx" ADD_DATE="1683715678">ES Development Spreadsheet – Dropbox</A>
+            <DT><A HREF="http://10.162.65.53:7990/projects" ADD_DATE="1683715678">Projects - Bitbucket - old</A>
+            <DT><A HREF="http://127.0.0.1:5100/" ADD_DATE="1683715678">LiveTouch Monitor</A>
+            <DT><A HREF="https://samlivetouch.slack.com/" ADD_DATE="1683715678">Slack</A>
+            <DT><A HREF="http://wiki.gv.grassvalley.com/display/NEWS/LiveTouch+Integration" ADD_DATE="1683715678">LiveTouch Integration - News - Grass Valley Confluence</A>
+            <DT><A HREF="http://10.162.46.251:3001/?internal=true#image" ADD_DATE="1683715678">DirectConnect Manual</A>
+            <DT><A HREF="http://cimaster/freespace/" ADD_DATE="1683715678">Disk Space Monitor</A>
+            <DT><A HREF="http://127.0.0.1:9192/livetouch-ui/#" ADD_DATE="1683715678">LiveTouch WebBin</A>
+            <DT><A HREF="https://visualstudio.microsoft.com/subscriptions/" ADD_DATE="1683715678">Visual Studio Subscriptions - Visual Studio</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">sQServer</H3>
+            <DL><p>
+                <DT><A HREF="http://10.162.46.235/apis/telestration/port/6/playlists" ADD_DATE="1683715679">10.162.46.235/apis/telestration/port/6/playlists</A>
+                <DT><A HREF="http://10.162.46.251:8888/" ADD_DATE="1683715679">Ed&#39;s Black Knight</A>
+                <DT><A HREF="https://mtlstash.gv.grassvalley.com/projects/LTPP/repos/armada-env/browse" ADD_DATE="1683715679">Browse PowerPlay / Armada-env - Miranda Montreal Stash</A>
+                <DT><A HREF="http://jira.gv.grassvalley.com/browse/LTSQ-516" ADD_DATE="1683715679">[LTSQ-516] AIMS core support - Grass Valley JIRA</A>
+                <DT><A HREF="http://jira.gv.grassvalley.com/browse/LTSQ-523" ADD_DATE="1683715679">[LTSQ-523] Create network server accessible to the Zynq... - Grass Valley JIRA</A>
+                <DT><A HREF="https://mtlstash.gv.grassvalley.com/projects/LTPP/repos/armada-powerplay/branches" ADD_DATE="1683715679">Branches for PowerPlay / Armada-powerplay - Miranda Montreal Stash</A>
+            </DL><p>
+            <DT><A HREF="https://snellgroup.sharepoint.com/:x:/r/sites/Product_Line/News_Sports_Production/_layouts/15/doc2.aspx?sourcedoc=%7B6d3c6532-af4f-4f69-b38d-d7668853c643%7D&action=default&uid=%7B6D3C6532-AF4F-4F69-B38D-D7668853C643%7D&ListItemId=63&ListId=%7B184CC370-DC8A-482D-BC6C-937EF8C40325%7D&odsp=1&env=prod" ADD_DATE="1683715678">LT Feature Deficit to Dyno.xlsx</A>
+            <DT><A HREF="https://mtlstash.gad.local:8443/projects/LT" ADD_DATE="1683715678">LiveTouch project overview - Miranda Montreal Stash</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Engineer machines</H3>
+            <DL><p>
+                <DT><A HREF="http://uknby1dt0194:5000/ui/logs" ADD_DATE="1683715679">Laura</A>
+                <DT><A HREF="http://10.96.229.11:5000/" ADD_DATE="1683715679">Judy Node1</A>
+                <DT><A HREF="http://10.96.229.15:5000/" ADD_DATE="1683715679">Judy node2</A>
+            </DL><p>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">LTM</H3>
+            <DL><p>
+                <DT><A HREF="http://127.0.0.1:5000/list-allroutes" ADD_DATE="1683715679">127.0.0.1:5000/list-allroutes</A>
+            </DL><p>
+            <DT><A HREF="https://dev-eu-west.cloud.grassvalley.com/mocha/application/009325e4-3b43-4022-8c01-d7bdd40f634b" ADD_DATE="1683715678">009325e4-3b43-4022-8c01-d7bdd40f634b</A>
+            <DT><A HREF="http://10.165.22.28:9192/livetouch-api/stats" ADD_DATE="1683715678">webbin stats</A>
+            <DT><A HREF="http://10.250.100.3:9192/livetouch-ui/version.xml" ADD_DATE="1683715678">web bin version number</A>
+            <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Turnpike closure</H3>
+            <DL><p>
+                <DT><A HREF="https://grassvalley.sharepoint.com/:x:/s/GlobalSiteInventory/ER-6PDHDp5dHqNTpbSzCHM8BzK1BCyz5Jpz2ZiOwE--DlA?e=9qulyk&CID=5D476733-9D10-4801-81A4-BBC0E9FACC10&wdLOR=cF606825E-278B-40F7-9FA5-2BCF9E0B1138" ADD_DATE="1683715679">Newbury Inventory Owners and Overview.xlsx</A>
+                <DT><A HREF="https://grassvalley.sharepoint.com/sites/GlobalSiteInventory/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FGlobalSiteInventory%2FShared%20Documents%2FGeneral%2FNewbury%2FCommercial%20Invoices&p=true&ga=1" ADD_DATE="1683715679">Global Site Inventory - Commercial Invoices - All Documents</A>
+            </DL><p>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">GV-Belden</H3>
+        <DL><p>
+            <DT><A HREF="http://discover.s-a-m.com/2349359890233921" ADD_DATE="1683715678">Welcome to your Grass Valley integration page</A>
+            <DT><A HREF="https://one.belden.com/employee-directory/Pages/peopleresults.aspx" ADD_DATE="1683715678">Belden Employee Directory</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/SiteCollectionDocuments/Resources%20and%20Tools/GV%20Org%20Sept%207%202018.pdf" ADD_DATE="1683715678">GV Org Chart (Sept 7 2018)</A>
+            <DT><A HREF="https://accounts.rydoo.com/" ADD_DATE="1683715678">Rydoo</A>
+            <DT><A HREF="https://grassvalley.invisionapp.com/d/main#/projects" ADD_DATE="1683715678">Projects - InVision</A>
+            <DT><A HREF="https://grassvalley.simplypersonnel.co.uk:9444/simplywebpersonnel/" ADD_DATE="1683715678">Simply Personnel Self-Service - Simply Personnel Self Service</A>
+            <DT><A HREF="https://performancemanager4.successfactors.com/login?company=beldeninc#/login" ADD_DATE="1683715678">Sucess Factors</A>
+            <DT><A HREF="https://employeeportal.paycheck.co.uk/#!/login" ADD_DATE="1683715678">Employee Portal</A>
+            <DT><A HREF="https://www.webcare2.com/paycheckqxx/login.html" ADD_DATE="1683715678">web2care - ePay - Login</A>
+            <DT><A HREF="http://wiki.gv.grassvalley.com/pages/viewpage.action?spaceKey=RDA&title=Admin+Home" ADD_DATE="1683715678">Admin Home - Admin - Grass Valley Confluence</A>
+            <DT><A HREF="http://testrail.miranda.com/testrail/index.php?/projects/overview/183" ADD_DATE="1683715678">LiveTouch - TestRail</A>
+            <DT><A HREF="https://www.dropbox.com/ow/msft/edit/work/2019/Timesheets.xlsx?hpt_click_ts=1555403788088" ADD_DATE="1683715678">Open Timesheets.xlsx - Dropbox</A>
+            <DT><A HREF="https://my.visualstudio.com/downloads?wt.mc_id=o~msft~msdn~oldPortal&utm_source=MSDNPortal" ADD_DATE="1683715678">Visual Studio Subscriptions</A>
+            <DT><A HREF="https://members.healthshield.co.uk/MemberMP/LoginMember.aspx" ADD_DATE="1683715678">Health Shield - Login</A>
+            <DT><A HREF="https://toolkit.grassvalley.com/signature?utm_campaign=GV%20NAB%202019&utm_source=hs_email&utm_medium=email&utm_content=76987321&_hsenc=p2ANqtz-9yJOsb9ygzch3y4NuoKLwmnpy7LfkOkdhgUukE5qOCBcUSnxafuPgqWvb3SPmX6ynU_tMZOmI-tHJw_tg4WjFLVw8IoAuKzYAx1ZARCzU3YL1nO5A&_hsmi=76987321" ADD_DATE="1683715678">Grass Valley Email Signature tool</A>
+            <DT><A HREF="https://one.belden.com/sites/eng/lt/" ADD_DATE="1683715678">LT Sharepoint</A>
+            <DT><A HREF="http://wiki.gv.grassvalley.com/pages/viewpage.action?pageId=104059864" ADD_DATE="1683715678">LiveTouch Monthly Program Review</A>
+            <DT><A HREF="https://jira.eurosport-tv.com/secure/RapidBoard.jspa?projectKey=ETTREPLAY&rapidView=172&view=planning" ADD_DATE="1683715678">ETT Replay Scrum - Agile Board - Jira Eurosport</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/Pages/GV-Branding-Tools.aspx?utm_campaign=GV%20EXTRA&utm_source=hs_email&utm_medium=email&utm_content=82676490&_hsenc=p2ANqtz--UQhoz_bdrhOeuhAp8nBEOHhspUfDgHJ8ErsAE-k-UfZJextYJajd95HnqSxY2s-OC4NMHRxrmyxLqVmOIg7T-rYMsTJv14rLCH1klLi-XvGjEqBo&_hsmi=82676490" ADD_DATE="1683715678">GV Branding Tools</A>
+            <DT><A HREF="https://one.belden.com/sites/eng/lt/" ADD_DATE="1683715678">One Belden timesheets</A>
+            <DT><A HREF="https://one.belden.com/sites/eng/lt/" ADD_DATE="1683715678">Beldne Sharepoint</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/plc/LiveTouch%20OB/Pages/default.aspx?RootFolder=%2Fsites%2Fgv%2Fplc%2FLiveTouch%20OB%2FDocuments%2FOther%20Docs&FolderCTID=0x0120002C96939115069D429DB0D80484ED645D&View=%7B74346409-9116-41B7-9430-5F342E459C55%7D%20%3Chttps://one.belden.com/sites/gv/plc/LiveTouch%20OB/Pages/default.aspx?RootFolder=/sites/gv/plc/LiveTouch%20OB/Documents/Other%20Docs&FolderCTID=0x0120002C96939115069D429DB0D80484ED645D&View=%7b74346409-9116-41B7-9430-5F342E459C55%7d%3E" ADD_DATE="1683715678">1.15 risk matrix</A>
+            <DT><A HREF="https://webmail.belden.com/owa/?mwngbase=1" ADD_DATE="1683715678">https://webmail.belden.com/owa/?mwngbase=1</A>
+            <DT><A HREF="https://grassvalley-hr--fhcm2.visualforce.com/apex/CollaborationPortalIndex?id=#/teammember/a1H5e000002uVcGEAU/org-chart/subject/a1H5e000002uVcUEAU" ADD_DATE="1683715678">GV Hub Org chart</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">GV</H3>
+        <DL><p>
+            <DT><A HREF="http://discover.s-a-m.com/2349359890233921" ADD_DATE="1683715678">Welcome to your Grass Valley integration page</A>
+            <DT><A HREF="https://gvnet.grassvalley.com/Pages/Landing-Page.aspx" ADD_DATE="1683715678">GVNet Landing Page</A>
+            <DT><A HREF="https://gvnet.grassvalley.com/" ADD_DATE="1683715678">GVnet (GV intranet)</A>
+            <DT><A HREF="http://jira.gv.grassvalley.com/secure/Dashboard.jspa" ADD_DATE="1683715678">System Dashboard - Grass Valley JIRA</A>
+            <DT><A HREF="https://gvnet.grassvalley.com/sites/gv-rd/lt/Pages/default.aspx" ADD_DATE="1683715678">GV Sharepoint</A>
+            <DT><A HREF="https://one.belden.com/employee-directory/Pages/peopleresults.aspx" ADD_DATE="1683715678">Belden Employee Directory</A>
+            <DT><A HREF="https://gvnet.grassvalley.com/sites/gv-rd/lt/Pages/default.aspx" ADD_DATE="1683715678">GVNet LT Documents (timescales, etc)</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/SiteCollectionDocuments/Resources%20and%20Tools/GV%20Org%20Sept%207%202018.pdf" ADD_DATE="1683715678">GV Org Chart (Sept 7 2018)</A>
+            <DT><A HREF="https://accounts.rydoo.com/" ADD_DATE="1683715678">Rydoo</A>
+            <DT><A HREF="https://gvnet.grassvalley.com/sites/gv-rd/lt/Pages/default.aspx" ADD_DATE="1683715678">LiveTouch Documents</A>
+            <DT><A HREF="https://dashboard.robinpowered.com/grass-valley/login" ADD_DATE="1683715678">Sign in - Robin</A>
+            <DT><A HREF="https://gvnet.grassvalley.com/sites/gv-rd/lt/_layouts/15/WopiFrame2.aspx?sourcedoc=/sites/gv-rd/lt/Documents/2020%20Timesheets.xlsx&action=default" ADD_DATE="1683715678">2020 Timesheets.xlsx</A>
+            <DT><A HREF="https://grassvalley.simplypersonnel.co.uk:9444/simplywebpersonnel/" ADD_DATE="1683715678">Simply Personnel Self-Service - Simply Personnel Self Service</A>
+            <DT><A HREF="https://webmail.belden.com/owa/?mwngbase=1" ADD_DATE="1683715678">https://webmail.belden.com/owa/?mwngbase=1</A>
+            <DT><A HREF="https://one.belden.com/sites/eng/lt/" ADD_DATE="1683715678">Belden Sharepoint</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/Pages/Landing-Page.aspx" ADD_DATE="1683715678">GVnet (GV intranet)</A>
+            <DT><A HREF="https://grassvalley-my.sharepoint.com/personal/ian_cummings_grassvalley_com/_layouts/15/onedrive.aspx" ADD_DATE="1683715678">My files - OneDrive</A>
+            <DT><A HREF="http://jira.gv.grassvalley.com/secure/Dashboard.jspa?selectPageId=30615" ADD_DATE="1683715678">LT SQ VOC - Grass Valley JIRA</A>
+            <DT><A HREF="https://wwwapps.grassvalley.com/docs/page/" ADD_DATE="1683715678">Documentation Library | Grass Valley</A>
+            <DT><A HREF="http://jira.gv.grassvalley.com/secure/RapidBoard.jspa?rapidView=1895&quickFilter=13395&quickFilter=11313" ADD_DATE="1683715678">LiveTouch-VOC - Kanban Board</A>
+            <DT><A HREF="https://grassvalley-hr--fhcm2.visualforce.com/apex/CollaborationPortalIndex?id=#/teammember/a1H5e000002uVcGEAU/services/a2k5e000000cVXkAAM" ADD_DATE="1683715678">GV Hub</A>
+            <DT><A HREF="http://jira.gv.grassvalley.com/secure/Dashboard.jspa" ADD_DATE="1683715678">System Dashboard - Grass Valley JIRA</A>
+            <DT><A HREF="https://grassvalley.sharepoint.com/" ADD_DATE="1683715678">GV-Sharepoint - Communication site - Home</A>
+            <DT><A HREF="https://grassvalley.invisionapp.com/d/main#/projects" ADD_DATE="1683715678">Projects - InVision</A>
+            <DT><A HREF="https://performancemanager4.successfactors.com/login?company=beldeninc#/login" ADD_DATE="1683715678">Sucess Factors</A>
+            <DT><A HREF="http://wiki.gv.grassvalley.com/pages/viewpage.action?spaceKey=RDA&title=Admin+Home" ADD_DATE="1683715678">Admin Home - Admin - Grass Valley Confluence</A>
+            <DT><A HREF="http://testrail.miranda.com/testrail/index.php?/projects/overview/183" ADD_DATE="1683715678">LiveTouch - TestRail</A>
+            <DT><A HREF="https://www.dropbox.com/ow/msft/edit/work/2019/Timesheets.xlsx?hpt_click_ts=1555403788088" ADD_DATE="1683715678">Open Timesheets.xlsx - Dropbox</A>
+            <DT><A HREF="https://my.visualstudio.com/downloads?wt.mc_id=o~msft~msdn~oldPortal&utm_source=MSDNPortal" ADD_DATE="1683715678">Visual Studio Subscriptions</A>
+            <DT><A HREF="https://members.healthshield.co.uk/MemberMP/LoginMember.aspx" ADD_DATE="1683715678">Health Shield - Login</A>
+            <DT><A HREF="https://one.belden.com/sites/eng/lt/_layouts/15/WopiFrame.aspx?sourcedoc=/sites/eng/lt/Documents/2020%20Timesheets.xlsx&action=default" ADD_DATE="1683715678">2020 Timesheets.xlsx</A>
+            <DT><A HREF="https://toolkit.grassvalley.com/signature?utm_campaign=GV%20NAB%202019&utm_source=hs_email&utm_medium=email&utm_content=76987321&_hsenc=p2ANqtz-9yJOsb9ygzch3y4NuoKLwmnpy7LfkOkdhgUukE5qOCBcUSnxafuPgqWvb3SPmX6ynU_tMZOmI-tHJw_tg4WjFLVw8IoAuKzYAx1ZARCzU3YL1nO5A&_hsmi=76987321" ADD_DATE="1683715678">Grass Valley Email Signature tool</A>
+            <DT><A HREF="https://one.belden.com/sites/eng/lt/" ADD_DATE="1683715678">LT Sharepoint</A>
+            <DT><A HREF="http://wiki.gv.grassvalley.com/pages/viewpage.action?pageId=104059864" ADD_DATE="1683715678">LiveTouch Monthly Program Review</A>
+            <DT><A HREF="https://jira.eurosport-tv.com/secure/RapidBoard.jspa?projectKey=ETTREPLAY&rapidView=172&view=planning" ADD_DATE="1683715678">ETT Replay Scrum - Agile Board - Jira Eurosport</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/Pages/GV-Branding-Tools.aspx?utm_campaign=GV%20EXTRA&utm_source=hs_email&utm_medium=email&utm_content=82676490&_hsenc=p2ANqtz--UQhoz_bdrhOeuhAp8nBEOHhspUfDgHJ8ErsAE-k-UfZJextYJajd95HnqSxY2s-OC4NMHRxrmyxLqVmOIg7T-rYMsTJv14rLCH1klLi-XvGjEqBo&_hsmi=82676490" ADD_DATE="1683715678">GV Branding Tools</A>
+            <DT><A HREF="https://one.belden.com/sites/eng/lt/" ADD_DATE="1683715678">One Belden timesheets</A>
+            <DT><A HREF="https://www.dropbox.com/home/LiveTouch" ADD_DATE="1683715678">LiveTouch – Dropbox</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/plc/LiveTouch%20OB/Pages/default.aspx?RootFolder=%2Fsites%2Fgv%2Fplc%2FLiveTouch%20OB%2FDocuments%2FOther%20Docs&FolderCTID=0x0120002C96939115069D429DB0D80484ED645D&View=%7B74346409-9116-41B7-9430-5F342E459C55%7D%20%3Chttps://one.belden.com/sites/gv/plc/LiveTouch%20OB/Pages/default.aspx?RootFolder=/sites/gv/plc/LiveTouch%20OB/Documents/Other%20Docs&FolderCTID=0x0120002C96939115069D429DB0D80484ED645D&View=%7b74346409-9116-41B7-9430-5F342E459C55%7d%3E" ADD_DATE="1683715678">1.15 risk matrix</A>
+            <DT><A HREF="http://wiki.gv.grassvalley.com/pages/viewpage.action?spaceKey=OC&title=APAC+Product+Unit+Commitment+Register" ADD_DATE="1683715678">APAC Product Unit Commitment Register - Oceania - Grass Valley Confluence</A>
+            <DT><A HREF="https://grassvalley.invisionapp.com/freehand/LT---features-HKWksdEd8?frame-cb=1596534222396" ADD_DATE="1683715678">LT - features - InVision</A>
+            <DT><A HREF="https://www.awardselect.com/a/main.html" ADD_DATE="1683715678">celebrate!</A>
+            <DT><A HREF="https://pps-digest.belden.com/euweb/login" ADD_DATE="1683715678">PPS dashboard - Ian.Cummings@grassvalley.com</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">2read</H3>
+        <DL><p>
+            <DT><A HREF="http://www.amateurphotographer.co.uk/technique/camera_skills/how-to-use-lens-flare-properly-107886?utm_source=t.co&utm_medium=referral" ADD_DATE="1683715678">How to use lens flare properly - Amateur Photographer</A>
+            <DT><A HREF="http://www.p4pictures.com/photo-workshops/" ADD_DATE="1683715678">Photo workshops &amp; events calendar</A>
+            <DT><A HREF="https://digital-photography-school.com/10-ways-to-take-stunning-portraits/" ADD_DATE="1683715678">10 Ways to Take Stunning Portraits</A>
+            <DT><A HREF="http://www.p4pictures.com/2016/03/making-the-most-of-a-strip-box/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715678">Making the most of a strip box</A>
+            <DT><A HREF="http://www.p4pictures.com/2017/07/location-fitness-shoot/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715678">Location fitness shoot with Emma</A>
+            <DT><A HREF="http://worldwidephotowalk.com/walk/oxford/" ADD_DATE="1683715678">Oxford &amp;#58; Scott Kelby&#39;s Worldwide Photowalk 2017</A>
+            <DT><A HREF="http://www.p4pictures.com/2017/01/picture-a-day-9/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715678">A picture a day for 12 days – #9</A>
+            <DT><A HREF="https://www.carehome.co.uk/news/article.cfm/id/1586945/Council-forced-to-pay-almost-20000-in-care-home-fees-after-denying-woman-funding-for-10-months" ADD_DATE="1683715678">Council must pay almost £20,000 in care home fees after denying woman funding for 10 months</A>
+            <DT><A HREF="https://unherd.com/2017/07/capitalists-not-socialists-killing-capitalism/" ADD_DATE="1683715678">Capitalists – not socialists – are killing capitalism - UnHerd</A>
+            <DT><A HREF="http://www.taxresearch.org.uk/Blog/2017/08/08/the-conceptual-difficulties-with-wealth-taxation/" ADD_DATE="1683715678">The conceptual difficulties with wealth taxation</A>
+            <DT><A HREF="https://twitter.com/helenlewis/status/894820179133292544" ADD_DATE="1683715678">Helen Lewis on Twitter: &quot;This, by a recently ex-Googler, is the best thing I&#39;ve read on the problem with the &quot;anti-diversity manifesto&quot;. https://t.co/UPcEEaqZ9I https&amp;#58;//t.co/9Toi1ZbfYh&quot;</A>
+            <DT><A HREF="https://cornexchangenew.com/event/the-crossing-lines-project" ADD_DATE="1683715678">The Crossing Lines Project in Newbury</A>
+            <DT><A HREF="http://youngmoneyblog.co.uk/the-death-of-retirement-iona-on-moneybox/" ADD_DATE="1683715678">The Death of Retirement....Iona on Moneybox - The Young Money Blog</A>
+            <DT><A HREF="https://digital-photography-school.com/3-tips-for-creating-outstanding-portraits-inspired-by-the-work-of-dutch-artist-van-gogh/" ADD_DATE="1683715678">3 Tips for Creating Outstanding Portraits, Inspired by the work of Dutch Artist Van Gogh</A>
+            <DT><A HREF="http://www.tvtechnology.com/news/0002/cooney-discusses-sams-role-in-ip-transition/281546#.WYMrzBrSfzM.twitter" ADD_DATE="1683715678">Cooney Discusses SAM’s Role in IP Transition | TvTechnology</A>
+            <DT><A HREF="http://uk.reuters.com/article/uk-national-grid-restructuring-idUKKBN1AJ0SZ?utm_campaign=trueAnthem&#58;+Trending+Content&utm_content=5982d93304d3014d3347c5d1&utm_medium=trueAnthem&utm_source=twitter" ADD_DATE="1683715678">National Grid to create separate system operator</A>
+            <DT><A HREF="https://arstechnica.co.uk/tech-policy/2017/08/bitcoin-cash-network-split/" ADD_DATE="1683715678">Bitcoin vs. Bitcoin Cash&amp;#58; Why Bitcoin just split, and why it matters | Ars Technica UK</A>
+            <DT><A HREF="http://www.thephoblographer.com/2017/08/01/the-best-budget-lenses-for-canon/" ADD_DATE="1683715678">The Best Budget Lenses For Canon Photographers</A>
+            <DT><A HREF="https://digital-photography-school.com/portrait-tips-posing-women/" ADD_DATE="1683715678">Portrait Tips for Posing Women</A>
+            <DT><A HREF="http://www.amateurphotographer.co.uk/review/accessory_reviews/viewsonic-vp2468-24in-lcd-monitor-review-104769" ADD_DATE="1683715678">ViewSonic VP2468 24in LCD monitor review - a great solution for pro stills and video - Amateur Photographer</A>
+            <DT><A HREF="http://www.taxresearch.org.uk/Blog/2017/06/27/its-time-the-bbc-learned-all-money-is-made-out-of-thin-air/" ADD_DATE="1683715678">It’s time the BBC learned all money is made out of thin air</A>
+            <DT><A HREF="https://arstechnica.co.uk/cars/2017/06/red-bull-racing-f1-tech/" ADD_DATE="1683715678">How Red Bull Racing uses petabytes of data for a competitive advantage | Ars Technica UK</A>
+            <DT><A HREF="https://www.thepileus.com/economics/tory-campaign-relies-on-your-economic-ignorance/" ADD_DATE="1683715678">The Tory campaign relies entirely on your economic ignorance | THE PILEUS</A>
+            <DT><A HREF="https://www.google.co.uk/search?q=sheila+dean&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwj5p7bRob3VAhXkKsAKHbnxB_gQsAQIOw&biw=1751&bih=1053#imgdii=7fQpAX4kUSrq-M&#58;&imgrc=dezz3q3A2IbydM&#58;" ADD_DATE="1683715678">sheila dean - Google Search</A>
+            <DT><A HREF="https://twitter.com/johnvanreenen/status/894871266699730944" ADD_DATE="1683715678">John Van Reenen on Twitter: &quot;Our Broken Economy, in One Simple Chart via @NYTimes https://t.co/B7VZqkWrTn&quot;</A>
+            <DT><A HREF="http://www.thephoblographer.com/2016/10/04/how-to-make-images-from-an-aps-c-or-four-thirds-sensor-look-like-full-frame/?utm_content=buffer839c6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">Making Photos from APS-C or Four Thirds Sensors Look Like Full Frame</A>
+            <DT><A HREF="https://digital-photography-school.com/moody-rembrandt-style-portrait-lightroom/" ADD_DATE="1683715678">How to Create a Dark and Moody Rembrandt-Style Portrait In Lightroom</A>
+            <DT><A HREF="https://www.lovemoney.com/guides/3444/the-cheapest-supermarket-online-delivery-deals" ADD_DATE="1683715678">Cheapest supermarket online grocery delivery deals&amp;#58; save at Tesco, Asda, Sainsbury&#39;s, Morrisons and more</A>
+            <DT><A HREF="http://www.thephoblographer.com/2017/08/09/film-photography-tutorial-choosing-first-ilford-film/" ADD_DATE="1683715678">Film Photography Tutorial&amp;#58; Choosing Your First Ilford Film</A>
+            <DT><A HREF="http://www.thephoblographer.com/2017/08/07/the-beginners-guide-to-using-gels-as-a-strobist-photographer/?utm_content=bufferff366&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">The Beginner&#39;s Guide to Using Gels as a Strobist Photographer</A>
+            <DT><A HREF="https://www.fullstackpython.com/blog/hosted-monitoring-flask-web-apps.html" ADD_DATE="1683715678">How to Add Hosted Monitoring to Flask Web Applications - Full Stack Python</A>
+            <DT><A HREF="http://www.p4pictures.com/2016/12/picture-a-day-1/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715678">A picture a day for 12 days - #1</A>
+            <DT><A HREF="http://www.iso1200.com/2017/08/5-hot-photoshop-tips-tricks-in-five.html?utm_content=buffer59eb1&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">5 HOT Photoshop Tips &amp; Tricks in Five Minutes - ISO 1200 | Photography Video blog for photographers</A>
+            <DT><A HREF="http://www.thephoblographer.com/2017/08/06/portrait-focal-lengths-putting-myths-aside-clarity/?utm_content=buffer5f70c&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">Portrait Focal Lengths, Putting Myths Aside For Clarity</A>
+            <DT><A HREF="https://www.indy100.com/article/8-books-read-before-the-world-ends-north-korea-donald-trump-7884566" ADD_DATE="1683715678">8 books you should read before the world ends | indy100</A>
+            <DT><A HREF="http://www.tracker.co.uk/news/press-releases/tracker-warns-of-rise-of-the-%E2%80%98relay%E2%80%99-car-theft-tec/" ADD_DATE="1683715678">TRACKER Press Releases</A>
+            <DT><A HREF="http://uk.businessinsider.com/brexit-six-uk-towns-worst-hit-by-hard-brexit-2017-7?utm_content=bufferfc35b&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">Brexit&amp;#58; six UK towns worst hit by &#39;hard&#39; Brexit - Business Insider</A>
+            <DT><A HREF="https://digital-photography-school.com/4-common-lighting-styles-to-get-the-perfect-portrait/" ADD_DATE="1683715678">4 Common Portrait Lighting Styles</A>
+            <DT><A HREF="https://www.hrdept.co.uk/blog/2017/08/09/working-overtime-will-build-holiday-pay" ADD_DATE="1683715678">Working overtime will build up holiday pay - HR Dept</A>
+            <DT><A HREF="http://www.p4pictures.com/2016/11/easy-transfer-pictures-eos-iphone/?utm_content=buffer910a2&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">Easy method to transfer pictures from EOS to iPhone</A>
+            <DT><A HREF="https://www.forbes.com/sites/timworstall/2017/08/10/british-complaints-about-amazons-tax-bill-theyre-just-not-understanding-the-bezos-model/#5ecbd06a1fab" ADD_DATE="1683715678">British Complaints About Amazon&#39;s Tax Bill - They&#39;re Just Not Understanding The Bezos Model</A>
+            <DT><A HREF="https://digital-photography-school.com/essence-great-portrait/" ADD_DATE="1683715678">The Essence of a Great Portrait</A>
+            <DT><A HREF="https://digital-photography-school.com/how-to-photograph-reflective-surfaces/" ADD_DATE="1683715678">How to Photograph Reflective Surfaces</A>
+            <DT><A HREF="https://www.ted.com/talks/tim_ferriss_why_you_should_define_your_fears_instead_of_your_goals" ADD_DATE="1683715678">Tim Ferriss&amp;#58; Why you should define your fears instead of your goals | TED Talk | TED.com</A>
+            <DT><A HREF="https://photofocus.com/2017/08/11/5-tips-for-a-second-shooter/" ADD_DATE="1683715678">Photofocus | 5 Tips for a Second Shooter</A>
+            <DT><A HREF="https://digital-photography-school.com/create-sun-shower-photo-cloudy-day/" ADD_DATE="1683715678">How to Create a Sun-shower Photo on a Cloudy Day</A>
+            <DT><A HREF="https://www.justinminns.co.uk/blog/2017/8/9/a-happy-medium" ADD_DATE="1683715678">A happy medium — Justin Minns Photography</A>
+            <DT><A HREF="https://digital-photography-school.com/tips-for-photographing-in-different-weather-conditions/" ADD_DATE="1683715678">Tips for Photographing in Different Weather Conditions</A>
+            <DT><A HREF="https://digital-photography-school.com/10-more-quick-composition-tips-illustrated/" ADD_DATE="1683715678">10 MORE Quick Composition Tips</A>
+            <DT><A HREF="http://www.thephoblographer.com/2017/03/21/the-best-lenses-for-the-canon-rebels-80d-and-7d-mark-ii/?utm_content=buffer3c96a&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">The Best Lenses For The Canon Rebels, 80D, and 7D Mark II</A>
+            <DT><A HREF="https://digital-photography-school.com/two-photographers-go-head-to-head-in-the-small-studio-challenge/" ADD_DATE="1683715678">Two Photographers Go Head to Head in the Small Studio Challenge</A>
+            <DT><A HREF="https://digital-photography-school.com/making-low-key-portrait/" ADD_DATE="1683715678">How to Make a Low Key Portrait Step by Step</A>
+            <DT><A HREF="http://www.taxresearch.org.uk/Blog/2017/08/18/neoliberalism-worth-reading/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+org%2FlWWh+%28Tax+Research+UK+2%29" ADD_DATE="1683715678">Neoliberalism&amp;#58; worth reading</A>
+            <DT><A HREF="https://thebaffler.com/war-of-nerves/a-letter-to-my-liberal-friends" ADD_DATE="1683715678">A Letter to my Liberal Friends | Laurie Penny</A>
+            <DT><A HREF="https://www.ft.com/content/243bedb0-826e-11e7-a4ce-15b2513cb3ff?desktop=true&conceptId=59fd6642-055c-30b0-b2b8-8120bc2990af&segmentId=d8d3e364-5197-20eb-17cf-2437841d178a#myft&#58;notification&#58;instant-email&#58;content&#58;headline&#58;html" ADD_DATE="1683715678">Where to find inflation-beating cash savings accounts</A>
+            <DT><A HREF="https://fstoppers.com/education/advanced-posing-tips-why-hand-placement-matters-191569" ADD_DATE="1683715678">Advanced Posing Tips - Why Hand Placement Matters | Fstoppers</A>
+            <DT><A HREF="https://www.amazon.co.uk/Phot-R-Portable-Background-Support-System/dp/B015OVMMPA/ref=sr_1_5?ie=UTF8&qid=1503672829&sr=8-5&keywords=backdrop+stand#Ask" ADD_DATE="1683715678">Phot-R 3x3m Portable Background Support System&amp;#58; Amazon.co.uk&amp;#58; Camera &amp; Photo</A>
+            <DT><A HREF="http://blog.topazlabs.com/interview-with-joel-tjintjelaar-bw-architecture/" ADD_DATE="1683715678">Interview with Joel Tjintjelaar - B&amp;W Architecture - Topaz Labs Blog</A>
+            <DT><A HREF="https://digital-photography-school.com/7000-free-photography-tutorials-heres-best-20/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed%3A+DigitalPhotographySchool+%28Digital+Photography+School%29" ADD_DATE="1683715678">7,000 Free Photography Tutorials - Here&#39;s our Best 20!</A>
+            <DT><A HREF="https://digital-photography-school.com/10-ways-use-5-1-reflector/" ADD_DATE="1683715678">10 Ways to Use a 5-in-1 Reflector</A>
+            <DT><A HREF="https://digital-photography-school.com/how-to-photograph-mixed-skin-tones/" ADD_DATE="1683715678">How to Photograph Mixed Skin Tones</A>
+            <DT><A HREF="http://www.amateurphotographer.co.uk/technique/expert_advice/tips-for-toning-black-white-photos-107947" ADD_DATE="1683715678">Tips for toning black and white photos - Amateur Photographer</A>
+            <DT><A HREF="https://www.futurelearn.com/courses/introduction-uk-parliament/3/register" ADD_DATE="1683715678">Page from Introduction to the UK Parliament - Houses of Parliament</A>
+            <DT><A HREF="https://digital-photography-school.com/3-body-language-hacks-to-improve-your-portrait-photography/" ADD_DATE="1683715678">3 Body Language Hacks to Improve Your Portrait Photography</A>
+            <DT><A HREF="https://digital-photography-school.com/small-softbox-flash-transform-portraits/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed%3A+DigitalPhotographySchool+%28Digital+Photography+School%29" ADD_DATE="1683715678">How to Use a Small Softbox With Your Flash to Transform Your Portraits</A>
+            <DT><A HREF="https://digital-photography-school.com/natural-light-setup-3-portrait-looks/" ADD_DATE="1683715678">How to Use 1 Natural Light Setup to Create 3 Different Portrait Looks</A>
+            <DT><A HREF="https://digital-photography-school.com/4-value-speedlight-modifiers/" ADD_DATE="1683715678">4 Value Speedlight Modifiers that Won&#39;t Break the Bank</A>
+            <DT><A HREF="http://www.amateurphotographer.co.uk/review/accessory_reviews/lastolite-ezybox-speed-lite-2-review-65579" ADD_DATE="1683715678">Lastolite Ezybox Speed-Lite 2 review - Amateur Photographer</A>
+            <DT><A HREF="https://twitter.com/MSE_Deals" ADD_DATE="1683715678">(4) MSE_Deals (@MSE_Deals) | Twitter</A>
+            <DT><A HREF="https://fstoppers.com/education/ten-helpful-tips-posing-women-197816" ADD_DATE="1683715678">Ten Helpful Tips for Posing Women | Fstoppers</A>
+            <DT><A HREF="https://www.thephoblographer.com/2017/09/29/tips-for-experimenting-on-personal-shoots-the-right-way/" ADD_DATE="1683715678">Tips For Experimenting on Personal Shoots the Right Way (NSFW)</A>
+            <DT><A HREF="https://www.indy100.com/article/depression-mind-body-mental-disorder-health-cancer-cardiovascular-disease-study-research-university-7965866?utm_content=bufferdc103&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715678">A landmark review has found depression is not just a mental disorder | indy100</A>
+            <DT><A HREF="https://fstoppers.com/education/some-helpful-tips-better-golden-hour-portraits-197297" ADD_DATE="1683715678">Some Helpful Tips for Better Golden Hour Portraits | Fstoppers</A>
+            <DT><A HREF="https://digital-photography-school.com/how-to-use-a-gobo-to-add-depth-to-your-portraits-with-subtractive-lighting/" ADD_DATE="1683715678">How to use a Gobo to add Depth Your Portraits with Subtractive Lighting</A>
+            <DT><A HREF="https://fstoppers.com/education/5-ways-improve-your-food-photography-195541" ADD_DATE="1683715678">5 Ways to Improve Your Food Photography | Fstoppers</A>
+            <DT><A HREF="https://digital-photography-school.com/how-to-get-more-natural-smiles-in-child-photography/" ADD_DATE="1683715678">How to Get More Natural Smiles in Child Photography</A>
+            <DT><A HREF="https://twitter.com/PennyRed/status/906163257634902016" ADD_DATE="1683715678">Laurie Penny on Twitter: &quot;This is why anxiety is the relational mode of the age: https://t.co/cxe54O0dnL?amp=1&quot;</A>
+            <DT><A HREF="https://selfeducatedconservative.wordpress.com/2013/03/28/tolerance-is-the-virtue-of-the-man-without-convictions/" ADD_DATE="1683715678">Tolerance is the Virtue of the Man Without Convictions « selfeducatedconservative</A>
+            <DT><A HREF="https://digital-photography-school.com/simple-portraits/" ADD_DATE="1683715678">5 Examples of Beautiful Simple Portraits - Digital Photography School</A>
+            <DT><A HREF="https://digital-photography-school.com/review-manfrotto-5001b-nano-light-stand/" ADD_DATE="1683715678">Review&amp;#58; Manfrotto 5001B Nano Light Stand</A>
+            <DT><A HREF="https://arstechnica.co.uk/science/2017/09/miniature-trampoline-may-let-microwave-and-optical-qubits-communicate/" ADD_DATE="1683715678">Miniature trampoline may let microwave and optical qubits communicate | Ars Technica UK</A>
+            <DT><A HREF="https://digital-photography-school.com/small-lighting-for-big-results/" ADD_DATE="1683715678">Small Lighting for Big Results</A>
+            <DT><A HREF="http://nosmag.org/mental-age-theory-hurts-people-with-intellectual-disabilities/" ADD_DATE="1683715678">Mental Age Theory Hurts People with Intellectual Disabilities | NOS Magazine</A>
+            <DT><A HREF="https://thebaffler.com/salvos/the-globalized-jitters-penny" ADD_DATE="1683715678">The Globalized Jitters | Laurie Penny</A>
+            <DT><A HREF="https://www.p4pictures.com/2016/05/inspired-by-shopping-bag-light/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715679">Inspired by &quot;shopping bag&quot; light</A>
+            <DT><A HREF="https://digital-photography-school.com/how-to-do-a-one-light-portrait-setup-and-use-it-as-your-back-up-plan/" ADD_DATE="1683715679">How to Do a One Light Portrait Setup and Use it as Your Back-up Plan</A>
+            <DT><A HREF="https://digital-photography-school.com/video-tutorial-dramatic-black-and-white-landscape-photos/?utm_source=feedburner&utm_medium=twitter&utm_campaign=Feed%3A+DigitalPhotographySchool+%28Digital+Photography+School%29" ADD_DATE="1683715679">Video Tutorial - Tips for Making Dramatic Black and White Landscape Photos</A>
+            <DT><A HREF="https://www.thephoblographer.com/2017/09/18/lighting-men-vs-women-portraits/" ADD_DATE="1683715679">Learn Proper Lighting for Men vs. Women for Great Portraits</A>
+            <DT><A HREF="https://digital-photography-school.com/tips-on-choosing-a-free-photo-editor-for-post-processing/" ADD_DATE="1683715679">Tips on Choosing a Free Photo Editor for Post-Processing</A>
+            <DT><A HREF="https://digital-photography-school.com/how-to-photograph-silhouettes/" ADD_DATE="1683715679">How to Photograph Silhouettes in 8 Easy Steps - dPS</A>
+            <DT><A HREF="https://www.p4pictures.com/2017/07/window-light-portraits/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715679">Window light portraits</A>
+            <DT><A HREF="https://aurorahdr.com/?clickid=WFuxRwXQY3MmxkHStDUB7xf7Ukm3drWnq3Umwk0&irpid=420516&utm_content=BANNER&utm_source=Marco%20Larousse&utm_campaign=mediapartner_cpa&utm_medium=cpa&aclid=" ADD_DATE="1683715679">Best HDR Software - HDR Photo Editor for Mac &amp; PC | Aurora HDR 2018</A>
+            <DT><A HREF="https://digital-photography-school.com/take-your-light-with-you-the-power-of-speedlights/" ADD_DATE="1683715679">Take Your Light With You - the Power of Speedlights</A>
+            <DT><A HREF="https://www.p4pictures.com/2016/07/light-control-with-grid/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715679">Want to be in control? Get a grid</A>
+            <DT><A HREF="https://www.p4pictures.com/2016/08/manual-mode-auto-iso-exposure-compensation/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715679">Manual mode, auto ISO and exposure compensation</A>
+            <DT><A HREF="https://longreads.com/2017/10/10/the-horizon-of-desire/" ADD_DATE="1683715679">The Horizon of Desire</A>
+            <DT><A HREF="https://fstoppers.com/lifestyle/bored-photography-tips-peter-mckinnon-199323" ADD_DATE="1683715679">Bored With Photography&amp;#58; Tips From Peter McKinnon | Fstoppers</A>
+            <DT><A HREF="https://digital-photography-school.com/10-crucial-things-need-think-portrait-photography/" ADD_DATE="1683715679">10 Crucial Things You Need to Think About for Portrait Photography</A>
+            <DT><A HREF="https://digital-photography-school.com/3-rookie-mistakes-to-avoid-when-shooting-on-a-white-background/" ADD_DATE="1683715679">3 Rookie Mistakes to Avoid When Shooting on a White Background</A>
+            <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">holes</H3>
+            <DL><p>
+                <DT><A HREF="https://www.youtube.com/watch?v=dIanKfKyiVY" ADD_DATE="1683715679">(59) How to Repair Stripped Screw Holes. GOOD ONE! This Video Addresses Stripped Screw Holes in Wood. - YouTube</A>
+                <DT><A HREF="https://www.google.co.uk/search?q=fixing+screws+pulled+out+of+wood&oq=fixing+screws+pulled+out+of+wood&aqs=chrome..69i57j0.9627j0j7&sourceid=chrome&ie=UTF-8" ADD_DATE="1683715679">fixing screws pulled out of wood - Google Search</A>
+            </DL><p>
+            <DT><A HREF="https://fstoppers.com/originals/how-having-your-photos-taken-will-make-you-better-photographer-203289" ADD_DATE="1683715679">How Having Your Photos Taken Will Make You a Better Photographer | Fstoppers</A>
+            <DT><A HREF="https://techcrunch.com/2017/11/06/cambridge-analytica-ceo-talks-to-techcrunch-about-trump-hilary-and-the-future/" ADD_DATE="1683715679">Cambridge Analytica CEO talks to TechCrunch about Trump, Hillary and the future | TechCrunch</A>
+            <DT><A HREF="http://blogs.lse.ac.uk/latamcaribbean/2017/11/02/the-cayman-conundrum-why-is-one-tiny-archipelago-the-largest-financial-centre-in-latin-america-and-the-caribbean/" ADD_DATE="1683715679">The Cayman conundrum&amp;#58; why is one tiny archipelago the largest financial centre in Latin America and the Caribbean? | LSE Latin America and Caribbean</A>
+            <DT><A HREF="https://digital-photography-school.com/low-key-photography-highlighting-darkness/" ADD_DATE="1683715679">Low-Key Photography – Highlighting Darkness</A>
+            <DT><A HREF="https://www.amazon.co.uk/Polystyrene-Heads/b?ie=UTF8&node=2867995031" ADD_DATE="1683715679">Polystyrene Heads &amp;#58; Amazon.co.uk</A>
+            <DT><A HREF="http://www.norgroveblog.co.uk/2017/08/there-is-no-real-mandate-to-leave.html" ADD_DATE="1683715679">Oliver Norgrove&#39;s blog&amp;#58; There is no real mandate to leave the Single Market</A>
+            <DT><A HREF="https://www.diyphotography.net/avoid-colour-banding-using-coloured-gels/?utm_content=buffer0f8a9&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715679">How to Avoid Colour Banding when using Coloured Gels - DIY Photography</A>
+            <DT><A HREF="https://www.thephoblographer.com/2017/09/22/sharp-focus-photos-wide-aperture/?utm_content=buffer56dd6&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer" ADD_DATE="1683715679">How to Get Sharply Focused Photos with a Wide Aperture</A>
+            <DT><A HREF="https://veroskycourses.com/flash-photography-headshots-portraits-module-2-4/" ADD_DATE="1683715679">Flash Photography for Headshots Portraits&amp;#58; Module 2-4</A>
+            <DT><A HREF="https://longreads.com/2017/12/05/the-consent-of-the-ungoverned/amp/" ADD_DATE="1683715679">The Consent of the (Un)governed</A>
+            <DT><A HREF="https://www.theguardian.com/commentisfree/2016/nov/23/far-right-interview-extremists-normalise-racism?CMP=share_btn_tw" ADD_DATE="1683715679">How to interview extremists – and avoid normalising racism | Samira Ahmed | Opinion | The Guardian</A>
+            <DT><A HREF="https://longreads.com/2017/11/07/the-unforgiving-minute/" ADD_DATE="1683715679">The Unforgiving Minute</A>
+            <DT><A HREF="https://bankunderground.co.uk/2017/08/08/your-country-needs-funds-the-extraordinary-story-of-britains-early-efforts-to-finance-the-first-world-war/" ADD_DATE="1683715679">Your country needs funds&amp;#58; The extraordinary story of Britain’s early efforts to finance the First World War | Bank Underground</A>
+            <DT><A HREF="http://www.independent.co.uk/news/people/profiles/radiohead-701095.html" ADD_DATE="1683715679">Radiohead | The Independent</A>
+            <DT><A HREF="https://www.youtube.com/watch?v=BlbLOEmos9k&feature=youtu.be" ADD_DATE="1683715679">01 MekaMon Unboxing and Walkthrough: Getting Started - YouTube</A>
+            <DT><A HREF="http://www.amateurphotographer.co.uk/latest/top-20-autofocus-tips-114837" ADD_DATE="1683715679">Top autofocus tips for pin-sharp results - Amateur Photographer</A>
+            <DT><A HREF="https://digital-photography-school.com/composition-balance-and-visual-mass/" ADD_DATE="1683715679">Composition, Balance and Visual Mass</A>
+            <DT><A HREF="https://fullfact.org/economy/why-was-pfi-so-popular-2000s/" ADD_DATE="1683715679">Why was PFI so popular in the 2000s? - Full Fact</A>
+            <DT><A HREF="https://www.p4pictures.com/2017/09/harsh-reality-on-camera-flash/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost" ADD_DATE="1683715679">The harsh reality of on-camera flash</A>
+            <DT><A HREF="https://www.theguardian.com/books/2018/jan/23/germaine-greer-criticises-whingeing-metoo-movement?utm_term=Autofeed&CMP=twt_b-gdnnews#link_time=1516714678" ADD_DATE="1683715679">Germaine Greer criticises &#39;whingeing&#39; #MeToo movement | Books | The Guardian</A>
+            <DT><A HREF="https://twitter.com/i/moments/955592998854713344" ADD_DATE="1683715679">Germaine Greer takes aim at the Me Too movement</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">dld-videos</H3>
+        <DL><p>
+            <DT><A HREF="javascript:(a%20=%20(b%20=%20document).createElement('script')).src%20=%20'http://keepvid.com/js/bm.js',%20b.body.appendChild(a);void(0);" ADD_DATE="1683715678">KeepVid</A>
+            <DT><A HREF="http://downloadvimeo.com/" ADD_DATE="1683715678">Download Vimeo videos. An easy way to save and back up Vimeo videos. Simple online service, no external program needed. | Download Vimeo</A>
+        </DL><p>
+        <DT><A HREF="https://iancummings.duet.to/bookmarks/" ADD_DATE="1683715678">Bookmarks</A>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">URL snips</H3>
+        <DL><p>
+            <DT><A HREF="javascript:var%20x=prompt('Title%20for%20the%20Link%20you%20would%20like%20to%20share:');void(location.href='http://www.virl.com/link_view.php?ssubmit=Go!&source=drag_drop&url=%27+encodeURIComponent(location.href)+%27&title=%27+x);" ADD_DATE="1683715678">Virl</A>
+            <DT><A HREF="http://www.qrutils.com/" ADD_DATE="1683715678">QR Code Generator</A>
+            <DT><A HREF="http://goo.gl/" ADD_DATE="1683715678">Google URL Shortener</A>
+            <DT><A HREF="javascript:void(location.href='https://tinyurl.com/create.php?url=%27+encodeURIComponent(location.href))" ADD_DATE="1683715678">TinyURL!</A>
+        </DL><p>
+        <DT><A HREF="http://wharfe/" ADD_DATE="1683715678">TQI</A>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">current</H3>
+        <DL><p>
+            <DT><A HREF="https://www.grc.com/dev/SpinRite/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACYElEQVQ4jX1TXUhUQRg9M3fm7t3NVl23QMoIUkgJ67GnXove7a0eC4IFZS0iWEuCggoNegmCIvoBEaMf3CCSsJJyk8x+jNJckmXV1E3bVu/de2emB3cvl3XrgxmYme8cvu98Zwg8oSaU7+v1G+deDQ7sOHj6+L7X0a6wlAClwJ+VnPyemb301sydeYJJq4hhLviz0uf6+to+Dr6ITH+bSNDaquD05BRASDGFVmg0skffsFSRb+rqxXgeAGgRPPPofvTNg3jHj8SY4ThCQSqUBhcIVEva0aCzaAuadABgKq58M4/72hIP47Hk8KgfShVoywcX8FeBx+p1oiL5+m42M9JzNhF/GkkOj/oBAIRAOkKBEggCAOsroUL4gyCxPNfD7EP/s/bkyHvmTVhezU3bPq3mQP8VVllXG9QIhRAOB4EAoXJNNJCl2Z/7WXZ+gZX2K4Bc3e7GZu/d7OC7oduHWl8m5qY6e5Fadasp17BWpvfAls3b9RX7RIMeirVgq99DsLYV139CcUfRkGTRRiPskrBkJj2+BGuTKqiloMgvaU+VoqXjCADQhNKDoNGdRlgdNkPnSXpo7AsPBmoB4grBOTMpY6JwJKZlZTRHBHv2HtlmmWsmFBoxF7X8TXavpfUqz1mdhoNwUUzhGZ0GgpSdpUcHblENrivBhTKIlMdYe/r5tZN8V7YavNtwUAOlvPYFADjKoUaoUl/XllKUApAX7U93fmt2m8mwWAqmAED+LW/xRV0wXZIFlJuKlOtA8P7GAsndU77mjVkiLksl3Vkvw543LTOQsrOVdsHgAJBBPv0XsaAOmkShXm0AAAAASUVORK5CYII=">www.grc.com - /dev/SpinRite/</A>
+            <DT><A HREF="https://app.pluralsight.com/player?course=docker-windows-getting-started&author=wes-mcclure&name=docker-windows-getting-started-m3&clip=2&mode=live" ADD_DATE="1683715678">Getting Started with Docker on Windows</A>
+            <DT><A HREF="https://www.google.com/search?rlz=1C1GCEU_enGB819GB822&ei=Ix8aXI_3MsXIwQKEi7GwBA&q=venlafaxine+withdrawal&oq=venlafaxine+withdrawal&gs_l=psy-ab.3..0l10.27668.30112..30435...0.0..0.183.646.10j1......0....1..gws-wiz.......0i71j0i67j0i131.k-5i9PdGUkg" ADD_DATE="1683715678">venlafaxine withdrawal - Google Search</A>
+            <DT><A HREF="https://digital-photography-school.com/abstract-street-photography/" ADD_DATE="1683715678">Abstract Street Photography: The Essential Guide</A>
+            <DT><A HREF="https://digital-photography-school.com/rule-of-space-in-photography/" ADD_DATE="1683715678">The Rule of Space in Photography: A Comprehensive Guide (+ Examples)</A>
+            <DT><A HREF="https://www.bmj.com/rapid-response/2011/10/30/venlafaxine-withdrawal-syndrome-personal-experience" ADD_DATE="1683715678">venlafaxine Withdrawal Syndrome-personal experience | The BMJ</A>
+            <DT><A HREF="https://kubernetes.io/docs/tasks/configure-pod-container/assign-cpu-resource/" ADD_DATE="1683715678">Assign CPU Resources to Containers and Pods | Kubernetes</A>
+            <DT><A HREF="https://www.verywellmind.com/brain-shivers-as-effexor-withdrawal-symptom-1065516" ADD_DATE="1683715678">Coping With Brain Shivers During Effexor Withdrawal</A>
+            <DT><A HREF="https://www.danielstechblog.io/kubernetes-cpu-requests-demystified/" ADD_DATE="1683715678">Kubernetes CPU requests demystified - Daniel&#39;s Tech Blog</A>
+            <DT><A HREF="https://connect.mayoclinic.org/discussion/tips-on-minimising-withdrawal-symptoms-from-effexor-aka-venlafaxine/" ADD_DATE="1683715678">Tips on minimising withdrawal symptoms from Effexor (aka Venlafaxine) | Mayo Clinic Connect</A>
+            <DT><A HREF="https://komodor.com/learn/kubernetes-cpu-limits-throttling/" ADD_DATE="1683715678">Kubernetes CPU Limits and Throttling | Komodor</A>
+            <DT><H3 ADD_DATE="1709194960" LAST_MODIFIED="1709194960">PO</H3>
+            <DL><p>
+                <DT><A HREF="https://www.google.com/search?q=how+to+use+ado+sprint+boards&oq=how+to+use+ado+sprint+boards&aqs=edge..69i57j0i546l2j0i30i546j0i546.6775j0j1&sourceid=chrome&ie=UTF-8" ADD_DATE="1709194960">how to use ado sprint boards - Google Search</A>
+                <DT><A HREF="https://agileavengers.com/blog/product-owners/5-steps-to-creating-your-first-product-backlog/" ADD_DATE="1709194960">5 Steps To Creating Your First Product Backlog - Agile Avengers</A>
+                <DT><A HREF="https://www.youtube.com/watch?v=502ILHjX9EE" ADD_DATE="1709194960">Agile Product Ownership in a Nutshell - YouTube</A>
+                <DT><A HREF="https://www.quora.com/How-long-in-milliseconds-would-it-take-for-a-packet-of-data-to-travel-around-the-world-on-the-Internet-from-New-York" ADD_DATE="1709194960">How long (in milliseconds) would it take for a packet of data to travel around the world on the Internet from New York? - Quora</A>
+                <DT><A HREF="https://asana.com/resources/product-owner" ADD_DATE="1709194960">What Is a Product Owner? Secret to Scrum Success • Asana</A>
+                <DT><A HREF="https://www.knowledgehut.com/blog/agile/roles-and-responsibilities-of-product-owner" ADD_DATE="1709194960">Product Owner - Roles and Responsibilities</A>
+                <DT><A HREF="https://www.mountaingoatsoftware.com/agile/scrum/roles/product-owner" ADD_DATE="1709194960">Scrum Product Owner: The Agile Product Owner’s Role</A>
+                <DT><A HREF="https://www.scrum.org/resources/what-is-a-product-owner" ADD_DATE="1709194960">What is a Product Owner?</A>
+                <DT><A HREF="https://www.scaledagileframework.com/product-owner/" ADD_DATE="1709194960">Product Owner - Scaled Agile Framework</A>
+                <DT><A HREF="https://www.productplan.com/learn/responsibilities-product-owner/" ADD_DATE="1709194960">5 Key Responsibilities of a Product Owner -</A>
+                <DT><A HREF="https://www.lucidchart.com/blog/product-owner-roles-and-responsibilities" ADD_DATE="1709194960">(1) New Messages!</A>
+                <DT><A HREF="https://www.pentalog.com/blog/methodology/5-failure-indicators-agile-projects/" ADD_DATE="1709194960">Agile Projects: 5 Mistakes a Product Owner Should Avoid</A>
+                <DT><A HREF="https://interexy.com/a-day-in-the-life-of-a-product-owner/" ADD_DATE="1709194960">A Day In The Life Of a Product Owner | interexy</A>
+                <DT><A HREF="https://www.lucidchart.com/blog/product-owner-roles-and-responsibilities" ADD_DATE="1709194960">7 Key Product Owner Responsibilities | Lucidchart Blog</A>
+            </DL><p>
+            <DT><A HREF="https://digital-photography-school.com/rule-of-space-in-photography/" ADD_DATE="1683715678">The Rule of Space in Photography: A Comprehensive Guide (+ Examples)</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">Food</H3>
+        <DL><p>
+            <DT><A HREF="https://www.bbc.co.uk/food/articles/fussy_eaters_hack" ADD_DATE="1683715678">The simple hack to get fussy eaters to eat more veg - BBC Food</A>
+            <DT><A HREF="https://www.bbc.co.uk/food/collections/easy_pasta_bakes" ADD_DATE="1683715678">Easy pasta bakes - BBC Food</A>
+            <DT><A HREF="https://www.bbc.co.uk/food/collections/5_ingredient_dinners" ADD_DATE="1683715678">5 ingredient meals - BBC Food</A>
+            <DT><A HREF="https://www.jamieoliver.com/features/jamies-favourite-vegetable-curry-recipes/" ADD_DATE="1683715678">Jamie Oliver vegetable curry recipes | Features | Jamie Oliver</A>
+            <DT><A HREF="https://www.bbc.co.uk/food/recipes/tuna_and_broccoli_pasta_25783" ADD_DATE="1683715678">Tuna and broccoli pasta bake recipe - BBC Food</A>
+            <DT><A HREF="https://www.bbc.co.uk/food/recipes/spinach_and_ricotta_27624" ADD_DATE="1683715678">Tom Kerridge&#39;s spinach and ricotta pasta bake recipe - BBC Food</A>
+            <DT><A HREF="https://www.bbc.co.uk/food/collections/make-ahead_dinners" ADD_DATE="1683715678">Make-ahead dinners - BBC Food</A>
+            <DT><A HREF="https://www.bbc.co.uk/food/recipes/shepherdspie_2077" ADD_DATE="1683715678">Easy shepherd&#39;s pie recipe - BBC Food</A>
+            <DT><A HREF="https://www.huffingtonpost.co.uk/entry/how-to-make-a-perfect-negroni_uk_62cecc85e4b0942327830980" ADD_DATE="1683715678">How To Make A Perfect Negroni, The Easy Drink You Can Definitely Master | HuffPost UK Life</A>
+        </DL><p>
+        <DT><A HREF="https://www.flightradar24.com/TOM7ED/29c1e407" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAC00lEQVQ4jW2TzSv0axjHP7+fn4zN0LAgUZSXiGnCNNjMxMJLs/GSMhamyFk4GyE7Fv6FkSwkL/+BKJIlIbOhnqlJjjR1NjM2pGZ+9/csHnPO0+m56t7cXfd9dfX9fOBnLQI/ABcwgGloaFAkElE4HFZ9fb2K95ZlFYDU9xsA/gT0fdyxsTFzeXmp/9f5+blGR0fN95Bi/yLA35ZlGY/Hk9/b25Mkvby8mLW1NQ0PD2t0dFSbm5vKZDJGknZ3d01paWnetm0DvGHbtguY/f19I0krKyumOKGyslJer1eAvF6vlpeXjSRtb28X13EBzMTEhCRpaWnJAAoGg1pYWND4+Lii0agmJyfV1tYmQOvr60aSRkZGBBQAzOPjo5LJpAHU1dWlWCymiooK9fT0qLe3V16vV/F4XMFgUIBSqZS5vr4WULCbm5utjo4OEomEZVkWsViMZDJJLBajs7MTv9/P3NwcR0dHdHd3A5BIJAiFQtTU1FhOY2Mjrutyf3+Pz+cjmUxSXl7O6+srJycnAExPT9PS0kImk6Gqqorr62sKhQKtra3YxhgkIYmSkhI+Pj7I5XK8vb0RDocpKysjm83S1NSEZVk4joPrugA4joOdTqdxHAe/308ul6Ouro7n52cikQhbW1t0d3fj8/k4PT2lurqabDZLIBDAcRxSqRQA5unpSVdXVwZQX1+fpqamlE6ndXFxoUAgIJ/Pp4mJCQ0MDAjQ7e2teXh4+C+FYowzMzOmtrZWd3d3kqTj42OFQiFtbGyov79fgOLxuJGkaDT68wPbtgWYw8NDGWN0cXFh8vm8XNfV6uqqKisri9hqdnbWSNLOzk4RJAPwl23bxuPx5A8ODv5lP5/PKx6Pq729XfPz87q5uSmirF9QTgP88atM0WjUnJ2d6f39XZ+fn/r6+pLrurq8vPydTPNFIxe/FS0UtW1qatLQ0JAGBwd/p/OPoon/AGzSv4PxLHxVAAAAAElFTkSuQmCC">Flightradar24: Live Flight Tracker - Real-Time Flight Tracker Map</A>
+        <DT><A HREF="https://messages.android.com/" ADD_DATE="1683715678">Messages for web</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194980">Finance</H3>
+    <DL><p>
+        <DT><H3 ADD_DATE="1709194960" LAST_MODIFIED="1709194960">Banks</H3>
+        <DL><p>
+            <DT><H3 ADD_DATE="1709194960" LAST_MODIFIED="1709194960">Barclaycard</H3>
+            <DL><p>
+                <DT><A HREF="https://www.barclaycard.co.uk/personal" ADD_DATE="1709194960">Barclaycard Credit Cards &amp; Online Banking | Barclaycard</A>
+                <DT><A HREF="https://freedomstore.barclaycard.co.uk/" ADD_DATE="1709194960">Freedom Rewards store | Barclaycard</A>
+            </DL><p>
+            <DT><A HREF="http://www.capitalone.co.uk/" ADD_DATE="1709194960">capital1</A>
+            <DT><A HREF="https://www1.firstdirect.com/banking/ways-to-bank/online-banking/" ADD_DATE="1709194960">first direct</A>
+            <DT><A HREF="https://www.marcus.co.uk/uk/en/savings/online-savings-account" ADD_DATE="1709194960">Online Savings Account | Marcus by Goldman Sachs®</A>
+            <DT><A HREF="https://www.investec.com/en_gb.html" ADD_DATE="1709194960">Investec | A distinctive bank and wealth manager</A>
+            <DT><A HREF="https://www.marcus.co.uk/uk/en/savings/your-savings/account-detail" ADD_DATE="1709194960">Marcus by Goldman Sachs®</A>
+            <DT><A HREF="https://www.columbiathreadneedle.co.uk/en/how-to-invest/mythreadneedle/" ADD_DATE="1709194960">myThreadneedle | Columbia Threadneedle Investments</A>
+            <DT><A HREF="https://www.co-operativebank.co.uk/creditcards" ADD_DATE="1709194960">The Co-operative Bank</A>
+            <DT><A HREF="https://www.onlinebanking.natwest.com/Default.aspx" ADD_DATE="1709194960">NatWest Online Banking</A>
+            <DT><A HREF="https://www.pofssavecredit.co.uk/POFS-NPS/do/login?methodname=displayPresignin" ADD_DATE="1709194960">Post Office</A>
+            <DT><A HREF="https://uk.virginmoney.com/" ADD_DATE="1709194960">Virgin Money UK</A>
+            <DT><A HREF="https://onlinebanking.nationwide.co.uk/AccessManagement/IdentifyCustomer/IdentifyCustomer" ADD_DATE="1709194960">Nationwide | Internet Bank | Login</A>
+        </DL><p>
+        <DT><A HREF="https://employeeportal.paycheck.co.uk/#!/login" ADD_DATE="1683715678">Employee Portal</A>
+        <DT><A HREF="https://www.experianidentityservice.co.uk/Account/Login/Username" ADD_DATE="1683715678">Experian</A>
+        <DT><A HREF="https://info.healthshield.co.uk/service-update" ADD_DATE="1683715678">Health Shield Service Update</A>
+        <DT><A HREF="https://www.healthshield.co.uk/customers/how-to-claim/" ADD_DATE="1683715678">How to Claim | Health Shield | Health Shield</A>
+        <DT><A HREF="https://www.gov.uk/log-in-register-hmrc-online-services" ADD_DATE="1683715678">HMRC services: sign in or register - GOV.UK</A>
+        <DT><A HREF="https://www.myitvshares.com/welcome" ADD_DATE="1683715678">ITV Shares</A>
+        <DT><A HREF="https://portal.jamescowperkreston.co.uk/Identity/Account/Login?ReturnUrl=%2F" ADD_DATE="1683715678">JCK Portal</A>
+        <DT><A HREF="https://healthshield.xexec.com/" ADD_DATE="1683715678">Perks - Home</A>
+        <DT><A HREF="https://www.sortcodes.co.uk/sort-code-checker" ADD_DATE="1683715678">Sort Code Checker Tool</A>
+        <DT><A HREF="file:///D:/Sync/worknhome/home/doc/Career/GV/HealthShield_Membership_Plan_2022.pdf" ADD_DATE="1683715678">GRASSVALLEYMP-REBRAND20APRIL2021v1.pdf</A>
+        <DT><A HREF="https://chesterrose.gb.pfp.net/mfe/dashboard" ADD_DATE="1709194960">Chester Rose - Dashboard Personal Finance Portal</A>
+        <DT><A HREF="https://www.myepaywindow.com/" ADD_DATE="1709194980" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABuklEQVQ4jV1SS8vCMBDM5tFGUqoWH1cFxZP/H3+FRw8iglgv0kI1tEnTbL5DoMiXw16yMzs7O3A6nYZhcM4hovc+hEAIAYAQQqyEEMYYY0wIwTnnzjljDCFkOp0qpRhjhJBfDCGk67qqqrquk1Jy7z0irtfr/X6f5zljbOyL9JTSsizf73ff90mScO99nufb7bYoCgCIrfFFgPe+rmtjjBACADgiSimVUgBgra2qylpLKR0xbduWZRlHhRA4AMRvAHDOlWX5+XwopXEZ770xxhgzGsBDCN77SJam6eFwGIbhV5i1Vmv9fD6bpiGEcMaY1rqua6WUECJJkn+eIuJqtcqy7HK5dF3HGWNt216vVwBYLBa/3FFnPMJ8Ps+yTGvNI1ld1+fzuSiKNE0jcVwgSZLdbjedTimllFJE5HE0YyzLMqVUtCJyI+JkMuGcjxYDAI8ql8vl8XhUSiHir6TRLmtttJt775VSm81mNpuNuscjRMHGmPv9XlWVEILHuYSQpml+kzeC27Z9vV6PxwMRkyThnPO+72+3mxACEcd0jPTW2u/3G68EAFxK6ZzTWv9L6KgKAKSUMRBCiD8PjCdz0Bc41AAAAABJRU5ErkJggg==">myePayWindow (Phabrix)</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">Online services</H3>
+    <DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Dictionaries</H3>
+        <DL><p>
+            <DT><A HREF="https://www.collinsdictionary.com/" ADD_DATE="1683715679">Collins Dictionary | Definition, Thesaurus and Translations</A>
+            <DT><A HREF="https://www.merriam-webster.com/" ADD_DATE="1683715679">Dictionary by Merriam-Webster: America&#39;s most-trusted online dictionary</A>
+            <DT><A HREF="https://en.oxforddictionaries.com/" ADD_DATE="1683715679">English Dictionary, Thesaurus, &amp; grammar help | Oxford Dictionaries</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">dld-videos</H3>
+        <DL><p>
+            <DT><A HREF="javascript:(a%20=%20(b%20=%20document).createElement('script')).src%20=%20'http://keepvid.com/js/bm.js',%20b.body.appendChild(a);void(0);" ADD_DATE="1683715679">KeepVid</A>
+            <DT><A HREF="http://downloadvimeo.com/" ADD_DATE="1683715679">Download Vimeo videos. An easy way to save and back up Vimeo videos. Simple online service, no external program needed. | Download Vimeo</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Docusign</H3>
+        <DL><p>
+            <DT><A HREF="https://go.docusign.com/thankyou/sandbox/?userStatus=3" ADD_DATE="1683715679">DocuSign Developer Sandbox</A>
+            <DT><A HREF="https://developers.docusign.com/docs/esign-rest-api/quickstart/" ADD_DATE="1683715679">eSignature REST API Quickstart | DocuSign</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">File transfer</H3>
+        <DL><p>
+            <DT><A HREF="https://www.filemail.com/" ADD_DATE="1683715679">Filemail.com - Send large files - secure file transfer</A>
+            <DT><A HREF="https://www.transferbigfiles.com/" ADD_DATE="1683715679">Transfer Big Files Free - Email or Send Large Files</A>
+            <DT><A HREF="https://send.firefox.com/" ADD_DATE="1683715679">Firefox Send</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Fluff</H3>
+        <DL><p>
+            <DT><A HREF="https://imgflip.com/memegenerator" ADD_DATE="1683715679">Meme Generator - Imgflip</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1709194960" LAST_MODIFIED="1709194960">Govt</H3>
+        <DL><p>
+            <DT><A HREF="https://westberks.spydus.co.uk/cgi-bin/spydus.exe/MSGTRN/WPAC/HOME" ADD_DATE="1709194960">Home | West Berkshire Libraries</A>
+            <DT><A HREF="https://publicaccess.westberks.gov.uk/online-applications/search.do?action=simple&searchType=Application" ADD_DATE="1709194960">WestBerks Planning Search</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">google</H3>
+        <DL><p>
+            <DT><A HREF="https://myactivity.google.com/myactivity?utm_source=help" ADD_DATE="1683715679">Google - My Activity</A>
+            <DT><A HREF="https://remotedesktop.google.com/access/" ADD_DATE="1683715679">Chrome Remote Desktop</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1685171779" LAST_MODIFIED="1685171779">PDFs</H3>
+        <DL><p>
+            <DT><A HREF="https://smallpdf.com/edit-pdf" ADD_DATE="1685171779" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABPUlEQVQ4jbXSP05bQRDH8e/MW9sP58kUjkARVFRIgTRJnSI3QHC2nAJxAG6RLqdAwjG235/9DY2XZykNKTJaaaeYz+6Mdi3u2IdBB1dwCj04dHAGX6EF31eV/d3xzyD1nsaWHExYYOzXX0emycswghZ20B7M0INAB+D25r4AkZ3TR5rf5NpdGvz8uPvRrLdH7lbAw+fbkQuaDdMBLbBM+Kfp5uPsaSWv3kDa9qU8o4rJH9ihiVuWfOm7uVodAlGGxsGJZJGIFFiEhxJKyBnBvKQEMpot9QqRLSN/rjebxfP68IbrX1HqTRHH9WWdQnHkSGEX0+7Lh/U2xqHt5/e8z4Kd8a31s4HOcRiCpXFSQTC2tGqsALXmT7N+ltWZOTGEmcdyopDZG6jKo1hYZSR5ksnMCcISUWWPGMH//3yv0zuJU5SpQQEAAAAASUVORK5CYII=">SmallPDF-Edit</A>
+            <DT><A HREF="https://www.pdftohtml.net/" ADD_DATE="1683715678">PDF to HTML Free Online.</A>
+            <DT><A HREF="https://smallpdf.com/pdf-to-word/" ADD_DATE="1683715678">PDF to Word Converter - 100% Free</A>
+            <DT><A HREF="https://cloudconvert.com/pdf-to-html" ADD_DATE="1683715678">PDF to HTML | CloudConvert - (VeryGood)</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Reference</H3>
+        <DL><p>
+            <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">SportsML</H3>
+            <DL><p>
+                <DT><A HREF="https://www.iptc.org/std/SportsML/1.0/documentation/sportsml-core.html" ADD_DATE="1683715679">sportsml-core DTD documentation</A>
+                <DT><A HREF="https://www.iptc.org/std/SportsML/2.2/documentation/SportsML-G2/sportsml-core_xsd.html" ADD_DATE="1683715679">Schema documentation for</A>
+                <DT><A HREF="https://www.iptc.org/std/SportsML/1.0/documentation/sportsml-core.html" ADD_DATE="1683715679">sportsml-core DTD documentation</A>
+            </DL><p>
+            <DT><A HREF="https://www.maps.ie/coordinates.html" ADD_DATE="1683715679">GPS coordinates on Google Maps | Latitude Longitude Search</A>
+            <DT><A HREF="https://www.ceoemail.com/" ADD_DATE="1683715679">CEO email addresses - E-mail address database to find contact details of Chief Executive Officers (CEOs) and Managing Directors - free lists - UK - US - Asia - customer services - customer care - boss - top man - top woman - complaints resolver</A>
+            <DT><A HREF="https://archive.ph/" ADD_DATE="1683715679">Webpage archive</A>
+            <DT><A HREF="https://find-and-update.company-information.service.gov.uk/company/01160119/filing-history" ADD_DATE="1683715679" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABcklEQVQ4ja2SIU9jURCFT2ETMAxk7ZuEbsDcUTzVJ4CqdxUYWgHUAwoqdvkB7Cp2RanZLKLUNK147X/YgGgNCYjHH7hPFTVPtQpxN2k2u4bAqEnmnEy+OVNYWy3iNTX3KvX7GTq97uWP7/8dzX9cWfEdMwfMz+Pxab0eW7sRhkBhNBwakcWFBVX1ssLaapGIjMhp/QyAqmbOlaLIN6oaW+ucazauntJUVecAxNZ2et1B0v928VVEVHMjYkScywCcHB0Pkn6n142tBfDBL2q3Wv0kKUVReXMLANESgGajAcCI9JPEiJlB71UrATOAn9e/SlFERKq5ak5ElWq10+sCCJj3qpU/0JnLDmu1XPMwDIlou1yOrWVmouXYxtPJZDqZ7uzunn/+8jweF3zSv+9uPbGqPqVpwExEmXMBMzMDcM7V9g9mOTQbV15tRIioFEVGxAOkaaqq7dbN7KwAiOj+8WE0HP6blM9nvfjpL8NbX+M9DS+BOZYwqOn+MwAAAABJRU5ErkJggg==">GRASS VALLEY LIMITED filing history - Find and update company information - GOV.UK</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Security</H3>
+        <DL><p>
+            <DT><A HREF="https://privnote.com/" ADD_DATE="1683715679">Privnote - Send notes that will self-destruct after being read</A>
+            <DT><A HREF="https://www.throwawaymail.com/en/how-it-works.html" ADD_DATE="1683715679">ThrowAwayMail.com - How it works</A>
+            <DT><A HREF="https://haveibeenpwned.com/Passwords" ADD_DATE="1683715679">Have I Been Pwned: Pwned Passwords</A>
+            <DT><A HREF="https://10minutemail.com/" ADD_DATE="1683715679">10 Minute Mail - Free Anonymous Temporary email - 10 Minute Mail - Free Anonymous Temporary email</A>
+            <DT><A HREF="https://www.guerrillamail.com/" ADD_DATE="1683715679">✉ Guerrilla Mail - Disposable Temporary E-Mail Address</A>
+            <DT><A HREF="https://developers.docusign.com/docs/esign-rest-api/quickstart/?code=eyJ0eXAiOiJNVCIsImFsZyI6IlJTMjU2Iiwia2lkIjoiNjgxODVmZjEtNGU1MS00Y2U5LWFmMWMtNjg5ODEyMjAzMzE3In0.AQsAAAABAAYABwCAM-rLiPjZSAgAgL9wE4n42UgCAO9bIBPnUZ5JvHPNe2tlYc4VAAEAAAAYAAIAAAAFAAAACgAAAA0AJAAAADRkZDg1NThmLTRjNjQtNDFiYS04YTE0LTgyYWRiMzgzZmVkMyIAJAAAADRkZDg1NThmLTRjNjQtNDFiYS04YTE0LTgyYWRiMzgzZmVkMzAAgDPqy4j42UgSAAEAAAALAAAAaW50ZXJhY3RpdmU3AEYjiLXQfJdKsNazya2U5PM.BN-6zROAkJr8VaSodbSMeX-HyN6V4hRO_JEc00xJXA_O9wWExT7xuiP5iWEQhQxNK0TQWHJ3XaC2Zc5-MhMBvZCztSM5FMdLPhjdxUTi_E1zWu99G_9PInN_voAx0tGjmEicwkP9-oMbjY9boL4IiBa_j9Ap2MnIv3CM6IB14JiVvptOkYyS83HWNkUOWxuy6vCu_ovNz9dkDw2AJ_cow0xeqyjxlTjiv3rXLJdIS1bFttMMVD6FMLb1oN-dWqorCDDAWce0cQnN_M6mvlYOQCj3OueIUO6B7quhd18P8Sk2f2_RD02E998Xsyv5Lwckuq7wdd-tY-YJUnAZRWp13A&state=eyJmIjogIm8vc2FuZGJveCIsICJkIjogImh0dHBzOi8vZ28uZG9jdXNpZ24uY29tLyIsICJzIjogInRoYW5reW91L3NhbmRib3gvIn0%3D" ADD_DATE="1683715679">eSignature REST API Quickstart | DocuSign</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1709194960" LAST_MODIFIED="1709194960">Software</H3>
+        <DL><p>
+            <DT><A HREF="https://www.emailondeck.com/eod.php" ADD_DATE="1709194960">EmailOnDeck</A>
+            <DT><A HREF="https://maildrop.cc/inbox/iancummings" ADD_DATE="1709194960">iancummings inbox | Maildrop</A>
+            <DT><A HREF="https://github.com/iancummings/iancummings.github.io/actions/runs/6289334565" ADD_DATE="1709194960">pages build and deployment · iancummings/iancummings.github.io@a364e59 · GitHub</A>
+            <DT><A HREF="https://godbolt.org/" ADD_DATE="1709194960" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACE0lEQVQ4jaWTTUhUYRSGn/Pde706pgwz+QO2CHVTIUFCRLmpRaDUKlq1qE3CBEG1k1y4iaJNgf3Yoh+XRm1ctCgMgmiTQhEaiosiEp2y5ifHuTN3vtMixfFnaOG7Pee8Lx/P+8E2JZUGveOdEQq540aN4znBq8FDs5n/Glx80e4vx6qjxvV/ST44idhhwBW0dzEqI/GUG80XMpknR7/kNxn0jnd6EuSvgJ4B5oBOIIKgKAHoOEiTqI56meK1wZ7ZAMBdNfBKS/UlzCmFDiBqDLfULb1RKxY1R7CSQGlVI57WO0MrIWsGyR0mG0vpAsj38KdJfOhr/lT2uqd7BuY/1rbYm6hMS6a0uDpwAS6/21WznJIehYPiyJ2pG42/a2LF26pqREQB5+tgw4OOoYVuSVk/3j1bXGewpHXHBH0MeIbwbZjTtFMnMyKIiBowE46jY/f2TeXZIFMJ4790NapiAJLJpN1qzwWolezrnI2eQ+x9i9vlRmRMhLaVYwVtj8ebshcmmZCU+g2HP38bEOw6jKcn91bF0jxDORD8cBMz/TunypPa+hbbI7uL10FmqtLB2U0YG//YupKaZoUWvyG8u//h/JCacowkUFoR9bXeiW/CWHRqMxLmn4NWA3Macklxrq4VifdAVqyOlmOsWGVTyJ1QlWHAA86rXzNSzKWjWgqzW1Z5o8o/U0HDl4+6prOVdrelv/VK9GA89DzAAAAAAElFTkSuQmCC">Compiler Explorer</A>
+        </DL><p>
+        <DT><A HREF="https://downdetector.com/" ADD_DATE="1683715678">Downdetector</A>
+        <DT><A HREF="https://codebeautify.org/xmlviewer#copy" ADD_DATE="1683715678">Best Online XML Viewer, XML Formatter, XML Editor, Analyser, Beautify-Beautifier, Minify, Tree structure</A>
+        <DT><A HREF="https://everhelper.me/client/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACsElEQVQ4jSXSzWtcVRgH4N/7nnPnI04mM0kaa0hLjdA0jSAtKNhgq4KoiOJGJf9BF+0/UDcFXVgoYinoxq0WBXFhVRBKpSgVu1ARrdHGTmwySZ0muZOZe++55+vtovtn+dCljSMOlEAEDERAl9KfUHMz9edWzbXMLTM1M1lv67kA68NAO0sEthBEIiYPu2U7x6cvzNZfmkqOftx5tir0/N53m9XDVzdPPpQ8ot0Di6iQOHCMucnt9Y3zO2PdteLaTOXpY3tOzTfe+uLOkrfKeaVdESOYFCPG7XylXht/5uF32pUZgnqydXJ69CkBf35raSX9drx+yIWgrVGiYjCuly0f33f6xUfPgTUAAgCs7v706c03vOu3a4d8Ds/CpYl26Hf6916eff/EgbNXb198+8re726dDQAEO7srd++t1+VgWdi8cC4nXeaxsMP5qddqcfKDK8e6u3+5EHvNjhIIsH/iRIsPDnf7qjpCEYDXhRGS0e7WPzc6XzHzROWJbnZTy5RQBLhVm6rx/v/TP0bqDZYYRekyIwDFcDOhNnNlGEw28NONBQLfTf+dbM2yHc0zpxAAUAT7TGxmQ5F4o0wuNo3atY7Mvr7a+/Xyz+cZLtpQZPAZ2wK28NoUgZCIiBALS56le5oHRqtjH11+r58NCUmabntTMSCwIBIbw6YQU8KWwee40+stHl4S8l//+FmrPp3ZQW97CFs1ZShzsSVpW0QFFRAYESIh48XH3/z+ly+766qpJv/b+HOzt9mst0qJWlRA0L6MPgAMRO4XW4tzr+Rl/8NLZ8YbGqLXNlYH6WBEt9jCB8daa2uU0hJKYka6Mzy68MI3P3xye60z1minWf+3v6/DJM6yikyAD5FePTUfY1CkfJBarfbYvoXfl2+wphD9WGPCOVfaIXFCCA+63Afh6o1kNQrsAAAAAABJRU5ErkJggg==">EverHelper</A>
+        <DT><A HREF="https://www.freeformatter.com/" ADD_DATE="1683715678">Free Online Tools For Developers - FreeFormatter.com</A>
+        <DT><A HREF="http://www.gridwatch.templar.co.uk/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAADT0lEQVQ4jV2Ty2tcZRyG39/3nfs5c2uS6UySiRHbQJtLMaaIBC9dFIqIIqJrV2LduiuCIK7c+R+Ie3Eh2oWgdtGFmKIYmrQ1t2YmyXQymTkzk5M5Z853vp8bC8V398DzLF/C/za/NH/jhdnnr7fa7Y+TOPaYmUG4PxzGm4eNw08Gg0H7P5UAMD0Dwc2bH722u7f/XbP5xO60O5yxJmiw7Vjkew5My+x2wu6dvZ3H7wHQT0NRKKBw9eVr95Ohqm5sPIBtm2mQ800pBKSUiKJYp6MRdKZFZbKMsNf7cWd79wMAsQTAb7397qfR6fCdRw+306Urc6I2VZHj4yX2XJsKxTxPjBVFeWYGpmuj02yPCsX8Jdf1kjAM78jV1dXrAvj66KBhLC/PC0MIMVIpa82klcbpICLT8/B6cYiCsKGnp8XgpKtNQy62jo+/lUuLi7dGo/iVmVpVnw2HMgz7HJ70yDANPHi0i8FggOZxCEpiejNKMD6MRfRcLVMqy2eZPpbTU9Vb/2ztTEVnCfUHp9jZq9N+o4mVFxfR7fXQ7fYhWOPvVoSfugOa8z38edDCWZpRznd9I4qiMNOa+v2enrswK84Vc9Baw7Qklq9cwtZWHZZtIvAcGLaFu0nKjYNNOXauxKbjrBpKqTeyTMMOfJHLBTjphCgU8mAQZmqTUFmGOE7gug4MIhQDjw4tiwEiEsQGC9qyTONyr9fnX377HdIQlKYZHMfGwuUL+OPeOgzDhCRgpBQs02QQUPZ91krFwjDMI8u2GEQcBB45js35nA/bNCGExGS1DNexYDsW8rkAjmsTgVQuCBDF8TeCs/SrwPdEprXWWrPWGkkyQpKmOI2GMEwLSimkKoNm5lGScqlUFBDgJ0f1H8Ta2l8/W4b8frxUNJXKUiklVaoTXK2UWYDhey5KpQJXyhMMzojBam7uomw2W7/2+2e3BQBj9t7F94NccLdUKliZypJSscAT58eIidhzbRSLeXi+zbblpFdXXjIbjUb2cHPzcwBEACQAXavVVs5XJr5QaXrjuN3FKEmZBBEzwzQkxsbHMDM9jf16o7W+vvEhkN0GIJ59IwMwlhYWPnNc61qm+VVBpIUQ0rHtkInWd7fra/WDx18C6Dxt/gWS/5XLMe7nmAAAAABJRU5ErkJggg==">G. B. National Grid status</A>
+        <DT><A HREF="https://www.w3schools.com/colors/colors_picker.asp" ADD_DATE="1683715678">HTML Color Picker</A>
+        <DT><A HREF="https://www.uuidgenerator.net/guid" ADD_DATE="1683715678">Online GUID Generator Tool</A>
+        <DT><A HREF="https://regex101.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABPElEQVQ4jZ2TzyuDcRzHX9/HfrJQOO2ygxIrkvIHkMNKuzg4uEj5cXLgZpIL/gAHDnKxnHBdcVDLaRIHKbWDFpFcLE+258c+DmvSPDbP3sd33/fr8+7z6asGZ5NrCllRSvlxIREpirDhUUhCKeVzEwYoD5SE1kj4J8RTbTYHPEyN9pZrIuifJpf3L2Sf3h0hWrURCniZj/fzUTDI6wadbUF2l8aIDUccAb8aVHSczmKYNgC51zyTIz2kMg/1GzjJsgVNKXcNopEOLKtEuCvEQnyAg9M7d4CZWJTWFj/d4XZW9y44v3l0B1jeSQNwtD6Oz9v017PaOzBMm+2TaxYnBgn6nGfVXeLZVY7nN53pWN//AHrBZD91i22Xvr2twwymVUJzOIQamktKvRa1pIlIsdGwiBQ1QW02Aql85y9qF22fTosOPAAAAABJRU5ErkJggg==">Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript</A>
+        <DT><A HREF="http://www.vutest.com/seedrive/" ADD_DATE="1683715678">Vutest - SeeDrive UK Driver&#39;s Number Plate Eye Test</A>
+        <DT><A HREF="https://mothereff.in/utf-8" ADD_DATE="1683715678">UTF-8 encoder/decoder</A>
+        <DT><A HREF="https://about.draw.io/integrations/" ADD_DATE="1683715678">Integrations – draw.io</A>
+        <DT><A HREF="https://x12.x10hosting.com:2222/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB60lEQVQ4jWNgwALc2tcbp0zYI45NDh2wxGZkiF379+/92VmzfjMwMDC4Nm2oYmdkar388i3D////lRkZGe8ha9DLWaQoIsKpaqgozudmKPeVhZWRMUby7dveTetW7vMLCne+/+aLLT8bA8P7Lz8Yvv/+LcbAwHBPOGGmhoYkn4+HiSJfiIXadQ0pwdOMjIx3emGmxicl9Vg5O/5fv3Z1GwMDA8OELee2TtpyrjGyZ5ONUeH8LdsvPJj0//9/Pbx+CY2OXmFuZvD/+fPbogwMDAymRfOOz9hxfv3///9FiAkLBgYGBobu7u7AkN5tJUpZc////v/fmqhAROasfSHE9ZXhU3ehAaPH9ctHrhFjABOMYZa9UPjR649L0uzkGw5vX27n6hPz7s23b9JEG/CH8VPux4+fGFytdA6tWr+7WkpK6qmRvv6T////sxNlwK9ff37/+vmT4dXbLxoMDAwM508cl5EQE3vALyb248WLF4oEDXjH8LGfg4WRYdLK3fUwsVNHjyp2tbR0P3v2zIaQVxgYGBgYdBK7Yxgss/5vOXGriSgN2MDMzccCGGxz//P7Vs8k25D///+zxrUtfsDuVvSQwTJZhWyDPn37bV06Y/1WYd+KDgbjeGVKXCR76tr98ILJ6z0ZrJOkkOUAc9TB5egHdVgAAAAASUVORK5CYII=">x10hosting.com | Login</A>
+        <DT><A HREF="https://unsplash.com/s/photos/grass-landscape" ADD_DATE="1683715678">Free Images on Unsplash</A>
+        <DT><A HREF="https://chrome.google.com/webstore/category/extensions" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACr0lEQVQ4jaWTzWtcZRTGf+e97507dybz0Y5xI1aIYLOwUg3Z+AWKG6FUaiHg/+BWkYKtdKEtbkREXLgQwYKbbuxC8KOhUpVC0GasWJQ0IZo2TmammcnczNx73/e4mDhZCCJ4Fmf543me8xz4nyMAqmoAs7S0JCsrK/7I/JH7b17/9ZVRNgKgEIbMHj78drPZXJ+ZmTFzc3MKeBHxFkBEPOD/pq6u/X4hCIJvBp3BADzF6elyVCxdWFhYeBxw/1CwsbHx9IFG45l2q+VUtYKYl0vl4ikk2AVwzsXJTvKmev+eivQbjUbQ7rYvzxw6dMXuWXi+WCi8VqlWMSag2+1SjErviBFQxTtPsjOgfuDgq3meU50qsdXZKgITQH84GmW9Xi/zTkNB7VannXudhIR6Z+9227mKZIUoDEW1D2AZmw9UNfTOI2EYamDR3naIdyCgYmCqBlkakqUAIZ5gH+DBe0XjGO10cJ9dxPxyHVMwiIJLc/zsUeTYCbRexzuH38vcjpenEIZEK6vsnDuL+WMN7m3gAsAJkjr44RPc4lXs6Tewjz2C7YyvYABqcYU8NNz88C3i734kMBHh+ia17YTqqI/tbxIUYoLmMpw9QzFT4kplX8GUrZrF3ve8P7fGmctlausthidf5MazJyjUHA+5Tyne/QgTl4jyLwgGF9lxL9kJYEjufrp9TdceLutXjw70hewp3j3+One2BkQjwwMHz3Pq6Drx8NK4O8HnGvmT2QSQ+MTuMpIoFXvtWF3iO09y5TdPPR0Shp6fN8scn36O+egSOsIIiQSS7CsQNa10N+vboebt+wrBaj0Rf2ObWy7FimLtkIrcHpdYyBk6641pTQBffl39oBfd+jjFkebw4GyTyrfzLO/1/YlGwGx5UdhE5R6g/ydXl6vJf/3Yf52/AJBcPOgWlbzgAAAAAElFTkSuQmCC">Chrome Web Store - Extensions</A>
+        <DT><A HREF="https://www.base64encode.org/" ADD_DATE="1683715678">Base64 Encode and Decode - Online</A>
+        <DT><A HREF="https://giphy.com/search/totally-nemo" ADD_DATE="1683715678">Totally nemo GIFs - Find &amp; Share on GIPHY</A>
+        <DT><A HREF="https://samlivetouch.slack.com/?redir=%2Fgantry%2Fclient" ADD_DATE="1683715678">Slack</A>
+        <DT><A HREF="https://zoom.us/signin" ADD_DATE="1683715678">Sign In - Zoom</A>
+        <DT><A HREF="https://www.worldometers.info/coronavirus/#countries" ADD_DATE="1683715678">Coronavirus Update (Live): 12,419,643 Cases and 558,085 Deaths from COVID-19 Virus Pandemic - Worldometer</A>
+        <DT><A HREF="https://www3.lunapic.com/editor/" ADD_DATE="1683715678">LunaPic | Free Online Photo Editor |</A>
+        <DT><A HREF="https://squoosh.app/index.html" ADD_DATE="1683715678">Squoosh</A>
+        <DT><A HREF="https://swellgarfo.com/scattergories/" ADD_DATE="1683715678">Swellgarfo | Scattergories List Generator</A>
+        <DT><A HREF="https://www.hcpc-uk.org/check-the-register/" ADD_DATE="1683715678">Check the Register and find a registered health and care professional |</A>
+        <DT><A HREF="https://app.diagrams.net/?src=about" ADD_DATE="1683715678">livetouch.html - diagrams.net</A>
+        <DT><A HREF="https://www.qr-code-generator.com/free-generator/?ut_source=google_c&ut_medium=cpc&ut_campaign=en_top_kw&ut_content=qr_generator_exact&ut_term=qr-code-generator_e" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABZklEQVQ4jc2TzUoCYRSGn8/MgSJNkcxF2T4qCpR+hhTXuehn07Ir8E66hy6gImxtDg0huZBIaNtIYII/DGQ0Up02GaEDWaue5eF933M4nKP4pCniP6pyYNrorTfCuBDxUV+f4HJ/hqMppZ4AFECpI8u7N5xWHWJuxn5mNazjJbbj46qsmiL+pSsqD11mfApnK0QuqlF3Mz52iZ41ybwKo7MaVnmNRQ4tyXIh4ivIS74tyZ+659uS9Baky4XIoSVZr2mjA2yFyKWDygC4tiVuOcx9N8Y07hMBVUoHlbF7K7njBjumje7tLaw39rUt8dWyFN9FeVy6p9JBZUz7qAG03ggPiCyHOTczwN0z8/01V+Fv+IcBMY17j5L3YQO8oREaADWHCEAioEqmLRs3T6z0izf8GAMBegDzpMneeYtMvi3JdFAZekAVgeIwE/zqlHsYNpuVDgupSQp/eqYeXwEw3Dv3szhG+QNxtKJwhOL6kQAAAABJRU5ErkJggg==">QR Code Generator | Create Your Free QR Codes</A>
+        <DT><A HREF="https://iancummings.x10.mx/wordle/Wordle%20-%20The%20New%20York%20Times.html" ADD_DATE="1683715678">Wordle - The New York Times</A>
+        <DT><A HREF="https://tinyurl.com/wordel" ADD_DATE="1683715678">Wordle - The New York Times</A>
+        <DT><A HREF="https://console.aws.amazon.com/billing/home?#/" ADD_DATE="1683715678">Billing Management Console</A>
+        <DT><A HREF="https://tineye.com/how" ADD_DATE="1683715678">How to use TinEye</A>
+        <DT><A HREF="https://www.dotcom-tools.com/" ADD_DATE="1683715678">Free Website Speed and Performance Testing | Dotcom-Tools</A>
+        <DT><A HREF="https://www.giffgaff.com/coverage-and-service#coverage" ADD_DATE="1683715678">Check your 5G, 4G or 3G coverage on giffgaff.com</A>
+        <DT><A HREF="https://stackedit.io/app#" ADD_DATE="1683715678">StackEdit</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">Trades</H3>
+    <DL><p>
+        <DT><A HREF="https://www.checkatrade.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACOklEQVQ4jZWSzUtUURjGf+fce8eZMccxr2HpmIsWQUbflEoj0gcYWBClhSARRZvctGlXl/4EIdxJaZGMUUQbtZ2bIGxXbSQkNDO/xo9GGefOfVvoTONX0bM6nMPvOc97ngP/J/XXUwElYAjozDoGRi7sgD794N2lC4/6TwKYubACAdI5nukcWGjoLHEK/a98wzMHbUnWZ10z8GhxdVnQbzZpras8CAATSa0+7v5W0qPON/rZqQfIK6xh4WcDr2/1gSgzA0+V1dYHDKsr3/CVe+KxjJBvWMyuLA1Cb68uauzwgnYN8xP3VmFHg/IAGC84Zs9Eot+l8qxMR6JvpOhArcD+HxVnrgiUcv1Zm7rZJzR1d65O5OjMjCaAFTAvh7Vvz7TnfrVHU9fU3e4i4sPneN78lJaeUyirXZZmh5iTNhCVvRnQCIaxyz6kQUSpQcX7Zd/kp3Yl8iR8seOISrs94E2RSDQx0JrY2KSGmKFCOwrwBNE6vlbfvBhWci4Q6hfDt5fEfCtvb4+sRZcNBnEhlXJB4YFfgWhJf8YM5ClfsMRMLt3/82iOxwaZqDspN1I3ItpSOu0eB0iadhfJhaOC+uC+vNG+WvdmOKvJ8InDcxV16V+V9TJVHnUECgQswV85EYk2D7MvbztWZf9BefRh2LAcU4QZdyUuqMWgYVQsi7dYPDZtK76sbGmwLklp9dVAKNTiWmaVgGm53lhyMfHCHh98vG38TRL0kIglIhYSM/4NrGPZBMS22MvVb2dQ5DCnbQ1bAAAAAElFTkSuQmCC">Checkatrade: Find a tradesperson you can trust</A>
+        <DT><A HREF="https://www.trustmark.org.uk/find-a-tradesman" ADD_DATE="1683715678">Find a Tradesman</A>
+        <DT><A HREF="https://www.miketheboilerman.com/contact-me-mike-the-boilerman.html" ADD_DATE="1709194960">Contact me, Mike the Boilerman</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">Travel</H3>
+    <DL><p>
+        <DT><A HREF="http://www.flymeanywhere.com/" ADD_DATE="1683715678">Fly Me Anywhere</A>
+        <DT><A HREF="http://www.justoffjunction.co.uk/" ADD_DATE="1683715678">JustoffJunction.co.uk</A>
+        <DT><A HREF="https://www.nationalrail.co.uk/default.aspx" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACK0lEQVQ4jZWTT0hUURjFf997D0bwvyETGupioGnUMTVSN5FFRUFBSQSJCCa4CAokWmSETLQrCjEQUhLaBC1aFAimJRUVhGiiT0URNYvRydRJCUffuy1shnGw0LO63HO+c7/D5QgxKHb78m1FLUqOIuQAoJgUoWtd01oHhhsGo/USPrhcTY5Efek+UAdoscZ/YSmhJaRZ9abZGIoYuFxNjiQ92KFQ5f8YjMXrVd06aZqNIQ0gUQ8+2MEwwBHHunEPQDYyS3947eycNKpqyigpy2HY9NPW8p7R4dkt49i6KtB37ypvACkN3y4t/ubtmzF6P0+Tm5/B9ZsnKDqQxdepBWb9wWgDDWRVCt2+Iacz2dPRc2UHCeDM8Yd8m14YNFCS9XN+hcqKtk0CR5zB2fOFnDqdx4+5ZdpbPzLQPxPh5/xBbMg2FCgRSEqOi5B73U6qakpJTYunu3OEF8+/sLZmbdKIJggoKXT7htLTkzzPXtZFyIR4B5ou2JZieWV1ywiV51r5PrM4aIiSV4G5X57DB+9GyMw9KVysLqHiQhET4wHaH33gXc8YSsW4iOoU7747ebpt9wN67CsZmSlU15aR581gxPTz5PEnJifmw7SFpXsFYL/7drMoLm//DwBUU9/orasaQEiz6kG6tz0rdGkJzmuE1w4Eeqw056Gnhq2nIhT/r0ygmrUEZ3Vvb90a0W0Mo8DjyxVbLmmKY4qNOgtMKlGdrBttfeM3zGj9H4pvxQPyCCO7AAAAAElFTkSuQmCC">National Rail Enquiries - Official source for UK train times and timetables</A>
+        <DT><A HREF="https://www.whatshalfway.com/search.aspx?search_type=WHW&addr1=newbury|&addr2=DT2%209DG|&stop1=Food_Drink&avoid_tolls=False&avoid_highways=False&travel_mode=driving" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACmUlEQVQ4jXWTy0tUYRjGf+c7ZzzHWzoaYlAUeQkUsSxIirIIKiQbty2Cyhb+AyqDaItAU7ygkVht21S2MQONFhFU5kK8UdaihYoXvE3qjMzMOd/X4tSgk72rD77ned/nfXkejT3KX1unhC6wbQclHRJMC8e2aW5t0eKxWjzx7zse/L8/EQ9YXlkhEo1y5nSpununKkaa/j7N6/5+hoeHdzUzdpKHhgaZm53DkQ521CYlJcWd2NSkujo62d4OYTt2bGBza4tmAAghGB0dZXFhkcTERHRDp6GxkdtVVTGplmXR2taG4TGYHJ+IrWb4a+uUVJLxsTEsy8K2bbq6u6nw+bTenh41OTFJeXk56Wlp5OXncaKkhPz8fF719bnHFkIwOzMDQCgU4nqljwqfTwMoKCwkZV8a7Z1P2Np2eNzbS2dHB+FwhLXVNVeBIyVr6+vouk4kEqGoqCgmr+vhUzYDy1w4MsrKZBaHc2+RlZVOQ309Xq+XjIwMDJQC6R7VNE3eDAwAMDD4QbXUXOPeTQ+XSg2Cm0vcaGqn57tA2SEuX7nqKhC6IN2bjpQOppXIu/cjNPirVbHnEW/va1ieBPhhkLxpUJYhGPY4eDSb1NRUt4GSioMHD+FI0IVGTWUS1dkvyR73EJrPYn5JsLkl+LEBz36GSUpQaLpJ5v5MlFSuE/21derzlxHW575RcSyZ1WWNxQ0IOIqAVASlJOiAR0A4GOTs+XPk5uXxoOWPDwAuXijj+Ysluj+tkZRsIYRrU10DoYElIBgKcjQnh4LCQqLhyO4s+GvrlGmafPz0ka9TUyjlGgxAOg66YVBy6iTFxceJRiKxPOwZmKgdZXFhgUDgF5qm4fV6yT6QjWEYKKl2hemfeO5sFF97xfk3zcUeZFqkSCQAAAAASUVORK5CYII=">Whatshalfway.com - Find great places to meet or stop halfway</A>
+        <DT><A HREF="https://one.network/" ADD_DATE="1709194960" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACMklEQVQ4jX2TT0hUcRDHv7/XsoqXAqM/VCBIYJeStSQjS7ezEAUFXcpIISlYMIogJZbVsLLCRG2XTtUmqQfF2JuBdii8dSk0YXNZN7YuRoi+92a+Hcxtn24OzGm+n+E7wwywLkgGRGRAVWdsx7Ftx7FVdUZEBkgG1uvzwRIRiaoq33/6zBPX7rD8/FW2dEfpOg51NE7NpCgiUZIlG2BVndTECLWjlbqyzLZYnC3dz2jbNvVRO7WhinqmhpoYpqpOepqISFQTI6uihirq3evUlWU6+XB+JoYpIlEAsEgGTHahCbGH/yz5iwAYbOmNAO/ebpw31g2TXWgiGbBUtRmjccCxV4s19cCNTsC1gfm5wgtzbGA0DlVttowxQUxP5WBtjeBSWxhdr94A4T6gvKJwk+kpGGOCPohbhmwmBze2R/BibDynuxXuA9pbgLkv3gbZDCBumQUAOBYsCN9+/BRdg8ObOjGqOqOuu7+xLeyB8+Pl/Q5cOHnc62THbiA2NmuRnOh9PfRfuK76ME6fqscHF14nR2pBcgIkA3PzKRYfqiYOVHqy7uIV/l5aYufsN5ZPfGR/Mk39tUi9eZmaSTF32iISHRgc2hRey/5kmiqSOyQfAFiWFWo+d7YCQG3o3gMcrTyI8f4e9KR/4Hnqe24cv2Ww1ecDjJmyjAkBgFkr/v2HJ8n0QtPO7aUY+rmIyNd5AMCeYj+CpdvQuG8X9hb5Y5ZlhYwxSwWX5nlnEdsW2fSd/wCLi5IgNKMTjAAAAABJRU5ErkJggg==">one.network</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">Quantel</H3>
+    <DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">external</H3>
+        <DL><p>
+            <DT><A HREF="https://s-a-mhr.myciphr247.com/" ADD_DATE="1683715679">Snell Advanced Media HR Portal 7.4.0</A>
+            <DT><A HREF="http://bit.ly/quantel-email" ADD_DATE="1683715679">Outlook Web App</A>
+            <DT><A HREF="https://snell.brickftp.com/sessions/new" ADD_DATE="1683715679">Snell Advanced Media Brick FTP</A>
+            <DT><A HREF="https://snellgroup.sharepoint.com/sites/WiKi_Root/ICT/SitePages/Home.aspx" ADD_DATE="1683715679">ICT WiKi - Home</A>
+            <DT><A HREF="http://discover.s-a-m.com/2349359890233921" ADD_DATE="1683715679">Welcome to your Grass Valley integration page</A>
+            <DT><A HREF="https://s-a-m.com/important-information" ADD_DATE="1683715679">Important information - Snell Advanced Media</A>
+            <DT><A HREF="https://webmail.belden.com/owa/#path=/people" ADD_DATE="1683715679">Belden Outlook Web App</A>
+            <DT><A HREF="https://one.belden.com/news/news.aspx" ADD_DATE="1683715679">One.Belden.news</A>
+            <DT><A HREF="https://one.belden.com/sites/gv/Pages/default.aspx" ADD_DATE="1683715679">https://one.belden.com/sites/gv/Pages/default.aspx</A>
+            <DT><A HREF="http://usric1srv116.us.gad.local:8090/usm/wpf" ADD_DATE="1683715679">ICT tickets</A>
+            <DT><A HREF="https://webmail.belden.com/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2fwebmail.belden.com%2fowa%2f%23authRedirect%3dtrue" ADD_DATE="1683715679">belden Outlook Web App</A>
+            <DT><A HREF="https://www.webcare2.com/paycheckqxx/login.html" ADD_DATE="1683715679">Belden pay website</A>
+            <DT><A HREF="https://belden.absorbtraining.com/#/login" ADD_DATE="1683715679">Belden | LTraining Login</A>
+            <DT><A HREF="https://performancemanager4.successfactors.com/sf/home?bplte_company=beldeninc" ADD_DATE="1683715679">SuccessFactors: Home</A>
+            <DT><A HREF="https://toolkit.grassvalley.com/signature?utm_campaign=GV%20EXTRA&utm_source=hs_email&utm_medium=email&utm_content=66182706&_hsenc=p2ANqtz-8uMJUVZc7_LQk8JCV-Bfv9N-dMM5R9K3iBDCq-BkIp90lWnZ0WGFvMwDIzAwItuwz8rcQjrALjyPLg1AraIxKWBKHzw-YEvgTmL7qK9sw-V83gQ8I&_hsmi=66182706" ADD_DATE="1683715679">GV Signature Toolkit</A>
+            <DT><A HREF="https://one.belden.com/Documents/Forms/AllItems.aspx" ADD_DATE="1683715679">Belden Documents</A>
+            <DT><A HREF="https://one.belden.com/employee-directory/Pages/peopleresults.aspx" ADD_DATE="1683715679">Belden Employee Directory</A>
+        </DL><p>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">shopping</H3>
+    <DL><p>
+        <DT><A HREF="https://www.bloomandwild.com/send-flowers/tagonly/letterbox" ADD_DATE="1683715678">Letterbox Flowers | Bloom &amp; Wild Flower Delivery</A>
+        <DT><A HREF="https://superfood-market.com/search?type=product&q=olive+oil" ADD_DATE="1683715678">Search: 10 results found for &quot;olive oil&quot; – Superfood Market</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">Software</H3>
+    <DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">Cpp</H3>
+        <DL><p>
+            <DT><A HREF="https://www.youtube.com/c/lefticus1/search" ADD_DATE="1683715679">Cᐩᐩ Weekly With Jason Turner - YouTube</A>
+            <DT><A HREF="https://www.internalpointers.com/post/beginner-s-look-smart-pointers-modern-c" ADD_DATE="1683715679">A beginner&#39;s look at smart pointers in modern C++ - Internal Pointers</A>
+            <DT><A HREF="https://www.youtube.com/watch?v=iWvcoIKSaoc" ADD_DATE="1683715679">A Tour of Modern C++ - YouTube</A>
+            <DT><A HREF="https://www.stroustrup.com/bs_faq2.html#layout-style" ADD_DATE="1709194960">Stroustrup: C++ Style and Technique FAQ</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">C-Sharp</H3>
+        <DL><p>
+            <DT><A HREF="https://blog.stephencleary.com/2012/02/async-and-await.html" ADD_DATE="1683715679">Async and Await</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">MySQL</H3>
+        <DL><p>
+            <DT><A HREF="http://sqlfiddle.com/#!2/6709e/3" ADD_DATE="1683715679">http://sqlfiddle.com/#!2/6709e/3</A>
+            <DT><H3 ADD_DATE="1683715679" LAST_MODIFIED="1683715679">C#</H3>
+            <DL><p>
+            </DL><p>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Python</H3>
+        <DL><p>
+            <DT><A HREF="https://github.com/SublimeText/Pywin32/tree/master/lib/x32/win32/lib" ADD_DATE="1683715679">Pywin32/lib/x32/win32/lib at master · SublimeText/Pywin32</A>
+            <DT><A HREF="https://www.codeproject.com/Articles/1115336/Using-Python-to-Make-a-Windows-Service" ADD_DATE="1683715679">Using Python to Make a Windows Service - CodeProject</A>
+            <DT><A HREF="https://github.com/python/cpython/blob/ee171a26c1169abfae534b08acc0d95c6e45a22a/Modules/arraymodule.c#L1123" ADD_DATE="1683715679">cpython/arraymodule.c at ee171a26c1169abfae534b08acc0d95c6e45a22a · python/cpython · GitHub</A>
+        </DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Terabyte</H3>
+        <DL><p>
+            <DT><A HREF="https://www.terabyteunlimited.com/ucf/viewtopic.php?t=2431" ADD_DATE="1683715679">restore to a smaller ssd - TeraByte Unlimited</A>
+        </DL><p>
+        <DT><A HREF="https://dev.to/aspittel/my-favorite-free-resources-for-new-programmers-bia" ADD_DATE="1683715678">My Favorite Free Resources for New Programmers - DEV Community 👩‍💻👨‍💻</A>
+        <DT><A HREF="https://dev.to/emmawedekind/regex-cheat-sheet-2j2a" ADD_DATE="1683715678">Regex Cheat Sheet - DEV Community 👩‍💻👨‍💻</A>
+        <DT><A HREF="https://www.doc.ic.ac.uk/~susan/475/unmain.html" ADD_DATE="1683715678">How To Write Unmaintainable Code</A>
+        <DT><A HREF="https://my.visualstudio.com/Downloads?PId=8230" ADD_DATE="1683715678">Downloads - Visual Studio Subscriptions Portal</A>
+        <DT><A HREF="https://vscode.dev/" ADD_DATE="1683715678">Get Started - Workspace - Visual Studio Code</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">@Home</H3>
+    <DL><p>
+        <DT><A HREF="http://192.168.1.254/expert_user.html" ADD_DATE="1683715678">DSL Router</A>
+        <DT><A HREF="http://192.168.1.254/" ADD_DATE="1683715678">Plusnet Hub Manager - One</A>
+        <DT><A HREF="http://tplinkplc.net/" ADD_DATE="1683715678">TL-WPA4220-V4</A>
+        <DT><A HREF="http://192.168.1.1/" ADD_DATE="1683715678">TL-WPA4220-V1</A>
+        <DT><A HREF="https://192.168.1.32/admin/" ADD_DATE="1683715678">ReadyNAS Frontview [nas-96-5A-59]</A>
+        <DT><A HREF="http://192.168.1.52:5000/#/signin" ADD_DATE="1683715678">SynologyNAS - Synology NAS</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">Food&amp;Drink</H3>
+    <DL><p>
+        <DT><A HREF="https://www.bbc.com/food/recipes" ADD_DATE="1683715678">Recipes - BBC Food</A>
+        <DT><A HREF="https://artonabootstrap.bigcartel.com/product/bootstrap-colour" ADD_DATE="1683715678">Art On A Bootstrap | Cooking On A Bootstrap (Colour Edition)</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1685171779">Photography</H3>
+    <DL><p>
+        <DT><A HREF="https://lenspimp.com/" ADD_DATE="1683715678">Lenspimp – Lens &amp; Camera Hire Service</A>
+        <DT><A HREF="https://rental.wexphotovideo.com/hire-lenses?s=1&mkwid=scIdEv0et_dc&pcrid=485508800572&kword=lens%20rental&match=e&plid=&pgrid=52073690554&ptaid=aud-321738727162:kwd-301130973068&si=&gclid=EAIaIQobChMIi86ajaDb7wIVD2YYCh1-wwq_EAAYASAAEgJTLfD_BwE" ADD_DATE="1683715678">Lens Hire | Wex Rental</A>
+        <DT><A HREF="https://www.lensesforhire.co.uk/" ADD_DATE="1683715678">Hire a Lens - Lenses For Hire</A>
+        <DT><A HREF="https://www.lensrentals.com/" ADD_DATE="1683715678">Lensrentals.com - Rent Lenses and Cameras from Canon, Nikon, Olympus, Sony, Leica, and more</A>
+        <DT><A HREF="https://www.thatchamphotoclub.com/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACLklEQVQ4jYWTsWtaURTGv3ve8z1MTEi0CSHVLQ6ClCxFpdhHBxeRTA5ZMjnUPyEUMnV1zRTJmOA/4OAQSMikuIgQIQYHEyhxKSINfcm7X5eYaKrtgbucy/3xffd8B5ZlfReRvlLqp1Lql1LKBeAB4P+OYRi/ISI/Zl2KCP1+P30+31yAaZraJGljopaXl5HL5ZDNZrG5uYmHhwc0Gg1UKhVcXV3hbRki8m0MiUQiODw8RD6fR7vdxsXFBQaDARzHQaFQwP39/RRERADTNIcAuLi4yJOTE56dnTEWi01JDQQC3N/f5/X1NdPp9JQFGIYxAsCdnR12Oh1ub2/P9GtZFsvlMiuVCi3LegEISQUAmUwG9XodrVbrL58A4LouTk9PEY/HEQ6HX22QNEQEGxsb6PV60FrPBADA7e0tlFIIBoOvANM0fVprDIdDrK2tzX0MAKurqwCA0Wj0CtBaKwC4vLxEKpVCJBKZC8hms7i7u0O/3wcAkARERAPg+vo6z8/PeXR0xJWVlakPVEoxl8ux2+1yd3d3MmwaAPS4kUgk2Gw2WavVuLe3x2QyyUwmw1KpxJubGx4cHLxMYAxQIjLQWr8by4xGoygWi3AcBwsLC/A8D71eD8fHx6hWq3BddzJIhG3bX0Wk87xEL3sQCoW4tbXFcDhM27ZnZkNEtAIgfr//ved5Hz3P+0LyE8koycA/R/KsQL3pqaWlpeDj42P86enJIflZa/2BZAiAzAL8AfdwJSzVOWerAAAAAElFTkSuQmCC">Thatcham Photographic Club - Home</A>
+        <DT><A HREF="https://app.photoephemeris.com/" ADD_DATE="1683715678">The Photographer&#39;s Ephemeris - Web App</A>
+        <DT><A HREF="https://www.amateurphotographer.co.uk/forums/" ADD_DATE="1683715678">Amateur Photographer</A>
+        <DT><A HREF="https://feedback.dxo.com/" ADD_DATE="1683715678">DxO Forums</A>
+        <DT><A HREF="https://greatlysocial.com/" ADD_DATE="1683715678">Greatly Social (formerly Lately Social)- Schedule Instagram Posts Free Desktop App Automatically</A>
+        <DT><A HREF="https://www.photopills.com/calculators/dof-advanced" ADD_DATE="1683715678">Advanced Depth Of Field (DoF) Calculator | PhotoPills</A>
+        <DT><A HREF="https://www.apotelyt.com/camera-exif/shutter-count-finder#image-upload" ADD_DATE="1683715678">Shutter Count Finder: The Online Actuation Checker</A>
+        <DT><A HREF="https://dev.azure.com/grassvalley-ampp/AMPPApps/_backlogs/backlog/Replay%20Team/Stories/" ADD_DATE="1683715678">Replay Team Stories Backlog - Boards</A>
+        <DT><A HREF="https://compent.photoentry.uk/compent/" ADD_DATE="1683715678">Newbury PC - PhotoEntry</A>
+        <DT><A HREF="https://fujifilm-x.com/en-gb/learning-centre/" ADD_DATE="1683715678">Learning Centre Home | FUJIFILM Digital Camera X Series &amp; GFX – UK</A>
+        <DT><A HREF="https://app.cloudspot.io/login" ADD_DATE="1685171779">CloudSpot – Free Client Gallery for Photographers</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">Reference</H3>
+    <DL><p>
+        <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715679">Technology</H3>
+        <DL><p>
+            <DT><A HREF="https://lygte-info.dk/info/USBinfo%20UK.html" ADD_DATE="1683715679">USB charging</A>
+        </DL><p>
+        <DT><A HREF="https://powertrack.ssen.co.uk/powertrack" ADD_DATE="1683715678">SSE Power cuts</A>
+        <DT><A HREF="https://www.parkingcowboys.co.uk/" ADD_DATE="1683715678">A site about private parking tickets</A>
+        <DT><A HREF="https://www.parkingcowboys.co.uk/" ADD_DATE="1683715678">A site about private parking tickets</A>
+        <DT><A HREF="https://www.gov.uk/staff-redundant/redundancy-consultations" ADD_DATE="1683715678">Making staff redundant: Redundancy consultations - GOV.UK</A>
+        <DT><A HREF="https://iancummings.github.io/" ADD_DATE="1683715678">Github Pages</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1683715678">Social</H3>
+    <DL><p>
+        <DT><A HREF="https://vero.co/vero" ADD_DATE="1683715678">VERO on VERO™</A>
+        <DT><A HREF="https://www.instagram.com/" ADD_DATE="1683715678">Instagram</A>
+    </DL><p>
+    <DT><H3 ADD_DATE="1683715678" LAST_MODIFIED="1709194960">health</H3>
+    <DL><p>
+        <DT><A HREF="https://www.direct.aviva.co.uk/MyAccount/logout" ADD_DATE="1683715678">MyAviva</A>
+        <DT><A HREF="https://www.jwsfitnesswellbeing.co.uk/" ADD_DATE="1683715678" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAB0ElEQVQ4jZWSu25TQRiEZ3bXZ48dkRhjGxKJ1igRQqIICRTAS9AhWnqeB56Ah0CCAiEa0oVLUCLIjeCA7/bZszsUDhEdyl+OvtEU/8fHr49xkXMAJF2gIInkBQok/7tA4JxwczomgBJIyJAxAZA1jAmkCMYkQc7QAUjCessXSTXHMmrrdLZ5tSrpQ3d2Z7l6NAm9Im22qpe9fftj7ASUKa238mERJTW8O5mEB9dyb/hzEh4u528O4/12vpiZb6MI0AAQlBGZ4cE41nO7VvdFTE1v1urZpFSvSCs118jcVne60w9GQhKiQOJLv3DSrSv+Yy8E4WbDfx+V++P0cnd0WqQnnaW7bW8AIWmhAkvuj8t+SKtL/ngc9gahs5j9mpa/i/R1EF5sd2chbbRyt9HK77XzzqJ//qk3CDqaxtuWg5A+D8JGu3o8iQl6eqPeyFjL7PuDEZ+9O7m+YKdR2/0wi2jnpunN7rD01qzUzN6wnEasLlWa3nRnaWcY+OjVYYgSUHO0hrOIEFNeMRKmZao6Y4lRmWKCJXJH5y1zQxACJeWWVWeTQMJnNkESL1XM/M0CHUAREgCRTNJcg78ukFQCiTPGnYs0l+pfESXMszMYIPkHdy0IrhR380AAAAAASUVORK5CYII=">HOME | JWS FitnessWellbeing</A>
+        <DT><A HREF="https://axahealth.co.uk/mymembership" ADD_DATE="1685171779">Login or register - AXA Health</A>
+        <DT><A HREF="https://www.crsurgery.co.uk/digitalpractice/reception-and-enquiries/" ADD_DATE="1709194960" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAACMklEQVQ4jT2MS24bVxBFb1W9191kUyJFxhZAIEGMxAiCTDPwDr2UDLIIr8KIPTFsQY5Chwp//Xu/Kg9k5AwuzuQe+vPDvq2qOaNxPHfkGI5IwASYGT8BZRgAIrhLmggQz8KSC3lmL2IlM7MXr6awLGQEAhkBfAzTKfbnPIUSjbQP3b/nf2pHpUz3/92NsfNCZgpSgYmp2419MAHPWmeXqb/bvbuu6jAdiqqIe/f5/uXtz5vFUi0xCGyuy72L3Eqymf39+GnZyKsXvw1hfPvwYUwxpuClmCUyNSKYudp6SgWiOZ6Fz0NM++FhmKJZuJnXu1M3xMtyVictAEDkuDxCVUscs92u5h93+zd/7X5/8et31367ej6raSrnYq3h6cGO8kElHceL5dLQ+pftquaqqToQR73brueqNumeTBiejF02Ewx92OvEDdOpv3Tj5XZZFQ2nIQu325vnQNVW8x/WWzPnqmojoFmtJYzdSIfufDXLRuE8fulSeHb9bLO8en//udpcJSQrrauaG0vSys1illYNCabF/DTGj4zDq59c4RPRbr2Mq0Uc0iBYOe8WRhI1e1dUh9pjSmfm+P0mDOODVHXQ4+ZqkbLP3AgFR9WP0Djk8UhTtmOIB3G1IY1paPxjw0rSM61Y5kQLkLr28IeqNpaBmG1QG4lOwF3AZWKrfRn84KQInwiVkXerL68BAmBGIDIQwAZH4GySIRdkWIYZyAA4lTW+Yf8LwQDwt2XgqQkAXwFOalkc1E7EggAAAABJRU5ErkJggg==">Reception and Enquiries | Chapel Row Surgery</A>
+        <DT><A HREF="https://members.vitality.co.uk/" ADD_DATE="1709194960" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACGklEQVQ4jX2SzUtUURjGf++5d3ScGaeVRlkyDFLQohb+AZVEm2hTtMlKLTAQItpXK8GF4SawWjRqCS1mG0QfLqyg/oAg+pbGTMoW5szcO3jveVs4I3f00rs65znP8z7vxxG2RHnPhYOIDKF6DMgLWIUFVJ6qtffbfz58H+VL46A9V1qr3uqECpcBZ2viegSInMiUZp41AAOgucFkxV99osLIf8QI3E2XZp5XugaGtXc4sZmgGugt4OgGS8eAlzHyV6nF/NVK18B5Fb1XWa6NAchad/8Bsc67zXZcs0tD3Seq8xHnsmPcQ4HjVVhPfASyQBiI7DfGuiORWQSZhellsfI36q0wmvxe+KrridG6GMBxsZeMoocj3DCm9RXPdyf97ot5gaGmF5U+I5BrNgMINAKNd6wU1kIbXIsZcLfRyCobrViMVxevVmv+5K+OMxlgMKY6NcCnCNCqvcMJVx1voxwpdv4ullMtbacVMtv18sUA81FobdnPtpnyCqAq9kG9rrMx7gg6Z6y1dwDbABOuZmWx6Cm8bS/Nvv7T058FjsToa2KdgskuzX4AJjabCukEEJUbAtriOceBlm3uIqOppamSAUgnd1wHHtcH2AOQ+TEzByBGT8a4P0qVqmM0vrJ8vl1L70yeAsZFbK6JqtIXufki3Ewv5s8JxRCaV7jBzw0mZWHaB6juHtprTfhGlG8IL8Q6hdTSVCnK/wdIistw6wT1zQAAAABJRU5ErkJggg==">Vitality</A>
+        <DT><A HREF="https://members.vitality.co.uk/my-health-insurance/claim-back" ADD_DATE="1709194960">Vitality Dental Form</A>
+    </DL><p>
+</DL><p>
