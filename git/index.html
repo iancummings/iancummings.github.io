@@ -1479,6 +1479,38 @@ To edit the description of a branch other than the current one, use<br>
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git remote add &lt;name&gt; &lt;URL&gt;</code></pre>
 </div>
 </div>
+<div class="paragraph">
+<p>or if you want to use file access</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git add remote &lt;chosen-name&gt; &lt;path-to-dot-git&gt;</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>for example, in my <code>qx_sw</code> repository I wanted to connect to my new repo (<code>qx_develop</code>) to push a temporary branch that had some work I needed there:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git add remote qx_develop ~/remotegit/qx_develop/.git</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>then I checkout the branch in question and typed:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>$ git push [--no-verify] qx_develop HEAD
+Enumerating objects: 88, done.
+Counting objects: 100% (88/88), done.
+Delta compression using up to 14 threads
+Compressing objects: 100% (49/49), done.
+Writing objects: 100% (49/49), 21.63 KiB | 527.00 KiB/s, done.
+Total 49 (delta 40), reused 0 (delta 0), pack-reused 0
+To /home/ianc/remotegit/qx_develop/.git
+ * [new branch]          HEAD -&gt; PJ70-174/wip/5_quad_analyser_picture_instrument</pre>
+</div>
+</div>
 </div>
 <div class="sect3">
 <h4 id="renaming-3"><a class="anchor" href="#renaming-3"></a>3.6.2. Renaming</h4>
@@ -4348,7 +4380,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-02-08 09:46:54 UTC
+Last updated 2024-02-29 12:00:48 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
