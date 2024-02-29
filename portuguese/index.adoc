@@ -44,7 +44,16 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | perfeito [per-fyeto] | perfect
 | O homen l&ecirc; cartas | the man reads letters
 | A borboleta [bull-bulli-ata] | the butterfly
-| O menino pede ovos | the boy orders eggs|
+| O menino pede ovos | the boy orders eggs
+| Os livros sao novos | the books are new
+| ele tem um novo gato | he has a new cat
+| escrevo uma nova carta | I write a new letter
+| o cachorro tem bola nova | the dog has a new ball
+| &eacute; umlivro novo | it is a new book
+| &Eacute um homem novo | it is a young man
+| elas nao sao as mulheres novas | they are not the young women
+|
+|
 |====
 
 === Main Verbs
