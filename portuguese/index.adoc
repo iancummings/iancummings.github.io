@@ -52,8 +52,10 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | &eacute; umlivro novo | it is a new book
 | &Eacute um homem novo | it is a young man
 | elas nao sao as mulheres novas | they are not the young women
-|
-|
+| Tu tens um bom livro | do you have a good book?
+| as novas chaves s&atilde;o boas | the new keys are good
+| &eacute grande [gran-gee] | it is big
+| os gatos nao sao grandes | the cats are not big
 |====
 
 === Main Verbs
