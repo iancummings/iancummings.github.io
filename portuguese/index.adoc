@@ -62,6 +62,10 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | molho | sauce
 | n&oacute;s somos bons | we are good
 | pequenos or pequenas | masc or feminine
+| Gatos amam a gente | cats love us
+| Eu tenho uma casa nova | I have a new house
+| Tu tens um bom livro | you have a good book?
+
 |====
 
 === Posession
@@ -88,6 +92,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | casa | car-za
 | tem | teing
 | peixe | pay-she
+| tenho | teng-o
 |====
 === Main Verbs
 
