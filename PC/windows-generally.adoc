@@ -279,3 +279,10 @@ Set-Content -Path 'C:\Users\yourname\Dropbox(Personal)\YourFileName.pdf' -Stream
 ----
 Clear-Content -Path 'C:\Users\yourname\Dropbox(Personal)\YourFileName.pdf' -Stream com.dropbox.ignored
 ----
+
+== Starting Apps at Startup / login
+
+=== How do I get a program to run automatically when logged in?
+With the file location open, press the Windows logo key + R, type `shell:startup`, then select OK. This opens the Startup folder. Copy and paste the shortcut to the app from the file location to the Startup folder. This folder is here: +
+
+`C:\Users\Ian.Cummings\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
