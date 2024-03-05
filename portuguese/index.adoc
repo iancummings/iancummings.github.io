@@ -79,6 +79,17 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | A nossa maca | our apple
 | Nossa menia escreve um livro | our girl writes a book
 | tua | your
+| tuas cartas | your letters
+| tuas gatas bebem [be-bi] leite | do your cats drink milk
+| teus [tay-us] livros | your books
+| os tues cavalos comem cenoura | your horses eat carrots
+| minhas gatos | my cats
+| meus [mew-s] animais | my animals
+| nossas gatos | our cats
+| tenho [teng-yo] uma casa | I have a house
+| nos temos um gato | we have a cat
+| a casa tem uma chave | the house has a key
+|
 |
 |====
 
@@ -89,7 +100,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | come | com-ey
 | ovos | of-vos
 | fritos | free-toss
-| &eacute | eh
+| &eacute; | eh
 | &aacute;gua | ag-wa
 | pede | pe-gee
 | n&atilde;o | no
