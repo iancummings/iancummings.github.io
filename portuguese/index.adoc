@@ -1,4 +1,4 @@
-:toc: left
+nosso:toc: left
 :toclevels: 3
 :toc-title: Contents
 :sectnums:
@@ -89,8 +89,18 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | tenho [teng-yo] uma casa | I have a house
 | nos temos um gato | we have a cat
 | a casa tem uma chave | the house has a key
-|
-|
+| Seu [seewl] gato | your cat (masculine)
+| Sua [sewer] chave | your key (feminine)
+| Seus [seewls] livros | your books
+| O gato bebe o seu leite | the cat drinks its milk
+| sou um leao | I'm a lion
+| Os seus [sewls] gatos bebem [bebe] leite | do your cats drink milk?
+| suas chaves | your keys
+| Ele l&ecirc; suas cartas | he reads his letters
+| nosso | our
+| minha | my
+| seus | your
+||
 |====
 
 
