@@ -107,7 +107,14 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | tu comes as tuas | you eat yours
 | os passaros sao ueus? | are the birds yours?
 | o bolo &eacute; seu | the cake is yours
-|
+| Ela l&ecirc; os teus livros | she reads your books
+| Ela l&ecirc; a tua carta | she reads your letter
+| O gato bebe o seu leite | the cat drinks *its* milk
+| N&atilde;o tenho as chaves | I do not have the keys
+| Ela l&ecirc; os meus[mills] livros  | she reads my books
+| A tua aranha | your spider
+| Ele frita as minhas[ming-yas] batatas | He fries my potatoes
+| Eu[il] tenho[teng] um cachorro | I have a dog
 |====
 
 
