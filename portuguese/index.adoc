@@ -100,7 +100,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | nosso | our
 | minha | my
 | seus [su-as] | your
-|As batatas sao suas | the potatoes are yours
+| As batatas sao suas | the potatoes are yours
 | Os livros sao nossos | the books are ours
 | meus [mae-us] |my
 | o cavalo n&atilde;o &eacute; meu | the horse is not mine
@@ -276,6 +276,15 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Uma pergunta | a question
 | comida | food
 | sobre [sob-bra] | about
+| roupas [hoo-pas] | clothes
+| f&eacute;rias | holiday/vacation
+| tudo bem [beng]| ok / all good
+| vestido | dress
+| preciso | necessary
+| amerelo | yellow
+| brancas | white
+| quero | want
+| loja | shop
 |====
 
 === Food
