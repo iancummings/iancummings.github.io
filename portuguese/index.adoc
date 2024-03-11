@@ -72,8 +72,11 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 
 |====
 | Teu [til] gato | your cat
+| Teus [tay-us] insetos | your insects
 | nosso gato | our cat
+| nossos gatos bebem leite | our cats drink milk
 | meu jornal | my newspaper
+| meus animais | my animals
 | minha [min-ya] chave | my key
 | O rato [hat-o] come o meu queijo | the mouse eats my cheese
 | A nossa maca | our apple
@@ -115,6 +118,10 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | A tua aranha | your spider
 | Ele frita as minhas[ming-yas] batatas | He fries my potatoes
 | Eu[il] tenho[teng] um cachorro | I have a dog
+| Elas leem [lame] nossas cartas |they read our letters
+| N&oacute;s temos um cachorro | we have a dog
+| Meus p&aacute;ssaros comem insectos | my birds eat insects
+|
 |====
 
 
