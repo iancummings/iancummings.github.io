@@ -92,9 +92,16 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | tenho [teng-yo] uma casa | I have a house
 | nos temos um gato | we have a cat
 | a casa tem uma chave | the house has a key
-| Seu [seewl] gato | your cat (masculine)
+| Seu [sey-o] gato | your cat (masculine)
 | Sua [sewer] chave | your key (feminine)
-| Seus [seewls] livros | your books
+| Seus [seewls] livros | your books (masc.)
+| Suas [su-as] chaves | your keys (fem.)
+| tu | you
+| n&oacute;s | we
+| O gato bebe seu leite | the cat drinks its milk
+| minhas | my 
+| Ele l&ecirc; suas cartas | he reads his letters
+| Seus passaros comem moscas | your birds eat flies
 | O gato bebe o seu leite | the cat drinks its milk
 | sou um leao | I'm a lion
 | Os seus [sewls] gatos bebem [bebe] leite | do your cats drink milk?
