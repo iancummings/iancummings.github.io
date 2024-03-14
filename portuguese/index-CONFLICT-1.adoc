@@ -40,7 +40,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | eles nao sao bons | they are not good
 | &Eacute um molho salgado |  it is a salty sauce
 | &Eacute; um suco azedo | it os a sour juice
-| Eu n&atilde;o como carne | I don't eat meat
+| Eu n&atilde;o como carne | I don not eat meat
 | perfeito [per-fyeto] | perfect
 | O homen l&ecirc; cartas | the man reads letters
 | A borboleta [bull-bulli-ata] | the butterfly
@@ -75,10 +75,6 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | Teus [tay-us] insetos | your insects
 | nosso gato | our cat
 | nossos gatos bebem leite | our cats drink milk
-| Nossos gatos nao bebem agua | our cats do not drink water
-| O cachorro beb sua agua | the dog drinks its water
-| Ela l&ecirc; os teus [tils] livros | she reads your books
-| a gata n&atilde;o &ecirc; minha | the cat is not mine
 | meu jornal | my newspaper
 | meus animais | my animals
 | minha [min-ya] chave | my key
@@ -96,16 +92,9 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | tenho [teng-yo] uma casa | I have a house
 | nos temos um gato | we have a cat
 | a casa tem uma chave | the house has a key
-| Seu [sey-o] gato | your cat (masculine)
+| Seu [seewl] gato | your cat (masculine)
 | Sua [sewer] chave | your key (feminine)
-| Seus [seewls] livros | your books (masc.)
-| Suas [su-as] chaves | your keys (fem.)
-| tu | you
-| n&oacute;s | we
-| O gato bebe seu leite | the cat drinks its milk
-| minhas | my 
-| Ele l&ecirc; suas cartas | he reads his letters
-| Seus passaros comem moscas | your birds eat flies
+| Seus [seewls] livros | your books
 | O gato bebe o seu leite | the cat drinks its milk
 | sou um leao | I'm a lion
 | Os seus [sewls] gatos bebem [bebe] leite | do your cats drink milk?
@@ -132,16 +121,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | Elas leem [lame] nossas cartas |they read our letters
 | N&oacute;s temos um cachorro | we have a dog
 | Meus p&aacute;ssaros comem insectos | my birds eat insects
-| A vaca &eacute; sua | the cow is yours
-| As batatas s&atilde;o minhas | The potatoes are mine
-| Eles s&atilde;o meus | they are mine
-| A aranha n&atilde;o &eacute; tua | the spider is not yours
-| O cachorro &eacute; nosso | the dog is ours
-| a gata n&atilde;o &eacute; minha | the cat is not mine
-| Os meus s&atilde;o cavalos | mine are horses
-| Tu comes as tuas | you eat yours
-| meu e teu | mine and yours
-| o jornal &eacute; teu | the newspaper is yours
+|
 |====
 
 
