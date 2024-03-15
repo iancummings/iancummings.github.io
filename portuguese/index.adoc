@@ -71,7 +71,8 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 === Posession
 
 |====
-| Teu [til] gato | your cat
+| Teu [til] gato | your cat (masc.)
+| tua aranha | your spider (fem.)
 | Teus [tay-us] insetos | your insects
 | nosso gato | our cat
 | nossos gatos bebem leite | our cats drink milk
@@ -86,6 +87,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | A nossa maca | our apple
 | Nossa menia escreve um livro | our girl writes a book
 | tua | your
+| Teu [til] gato | your cat
 | tuas cartas | your letters
 | tuas gatas bebem [be-bi] leite | do your cats drink milk
 | teus [tay-us] livros | your books
@@ -142,6 +144,8 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | Tu comes as tuas | you eat yours
 | meu e teu | mine and yours
 | o jornal &eacute; teu | the newspaper is yours
+| A nossa menina l&ecirc; um jornal | our girl reads a newspaper
+|
 |====
 
 
@@ -644,7 +648,8 @@ People, folk, us - collective feminine noun
 | I do not have a car | Eu n&atilde;o tenho um carro
 | Eu [il] pe&ccedil;o [peso] ch&aacute; [sha] | I order tea
 | A menina pede [pay-je] queijo | the girl orders cheese
-| eu corto a ma&ccedil; a mac&atilde; | i cut the apple
+| eu corto a ma&ccedil; a mac&atilde; | i cut the apple (masc.)
+| ele corta a tua cebola | he cuts your onion (fem.)
 | el nao corto cebola | i do not cut onions
 | A mulher pede [pegie] ch&aacute; | the woman orders tea
 | Eu pe&ccedil;o a conta | I ask for the bill
