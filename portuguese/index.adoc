@@ -13,6 +13,8 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 
 === intray
 |====
+| um homem [hom-ay] l&ecirc; cartas | the man reads letters
+| Nos escrevemos uma carta | we write a book
 |O elefante come o pao | the elephant eats the bread
 |o porco bebe agua | the pig drinks water
 | tu tens as chaves | you have the keys
@@ -61,11 +63,15 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | amargas | bitter
 | molho | sauce
 | n&oacute;s somos bons | we are good
-| pequenos or pequenas | masc or feminine
+| pequena [pee-kenna] pequenos or pequenas | small - masc or feminine
 | Gatos amam a gente | cats love us
 | Eu tenho uma casa nova | I have a new house
 | Tu tens um bom livro | you have a good book?
-
+| tu escreves a carta | you write the letter
+| eles bebem | they drink
+| eles comem a ma&ccedil;&acirc; | they eat the apple
+| o lobo tem uma pequena casa | the wolf has a small house
+| As mulheres bebem agua | the women drink water
 |====
 
 === Posession
@@ -161,6 +167,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | o cavalo &eacute seu | the horse is yours
 | o journal &eacute tue [the-o] | the newspaper is yours
 | voc&ecirc; come os sues [say-os] | you eat yours
+|o cavalo n&atilde;o &eacute; meu | the horse is not mine
 |====
 
 
