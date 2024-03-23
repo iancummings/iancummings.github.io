@@ -171,7 +171,29 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | a gente ferve agua | we boil water
 |a gente l&ecirc; cartas |we read letters
 | comemos batatas boas | we eat good potatoes
+| Nos temos um cachorro | we have a dog
+| Seus p&aacute;ssaros comem moscas | Your birds eat flies
+| teu | your
+| sua | your
+| tu tems [taing] gatos | you have cats
+| o gato beb seu [sewel] leite | the cat drinks its leite
+| Eu leio as suas cartas | I read your letters
+| ela &eacute; minha menina | she is my girl
+| Eu n&atilde;o tenho uma fazenda | I do not have a farm
+| nossos | our
+| palavras minhas | my words
+| voc&ecirc; | you
 |====
+
+=== Prepositions
+|====
+| de [gee] | of
+| n&atilde;o &eacute; meu copo | it is not my glass
+| uma xicara de cafe, por favor favor([small]#sh#) | a cup of coffee please
+| caf&eacute; com leite | coffee with milk
+| um copo com suco | a glass with juice
+|====
+ 
 
 
 === Pronounce
@@ -341,6 +363,11 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | brancas | white
 | quero | want
 | loja | shop
+| shark | tubaro
+| a garrafa | the bottle
+| garrafas [gar-haf-as] | bottles
+| a copo | the glass
+| a xicara [shee-kara] | the cup
 |====
 
 === Food
