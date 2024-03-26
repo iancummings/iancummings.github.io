@@ -41,7 +41,7 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | ela tem uma grande fazenda | she has a big farm
 | eles nao sao bons | they are not good
 | &Eacute um molho salgado |  it is a salty sauce
-| &Eacute; um suco azedo | it os a sour juice
+| &Eacute; um suco azedo | it is a sour juice
 | Eu n&atilde;o como carne | I don't eat meat
 | perfeito [per-fyeto] | perfect
 | O homen l&ecirc; cartas | the man reads letters
@@ -193,13 +193,14 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | nossos | our
 | palavras minhas | my words
 | voc&ecirc; | you
+| N&oacute;s n&atilde;o temos copos | we do not have glasses
 |====
 
 === Prepositions
 |====
 | de [gee] | of
 | n&atilde;o &eacute; meu copo | it is not my glass
-| uma xicara de cafe, por favor favor([small]#sh#) | a cup of coffee please
+| uma xicara [shee-cara] de cafe, por favor favor([small]#sh#) | a cup of coffee please
 | caf&eacute; com leite | coffee with milk
 | um copo com suco | a glass with juice
 |====
@@ -375,7 +376,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | loja | shop
 | shark | tubaro
 | a garrafa | the bottle
-| garrafas [gar-haf-as] | bottles
+| garrafas [ga-haf-as] | bottles
 | a copo | the glass
 | a xicara [shee-kara] | the cup
 |====
@@ -389,6 +390,9 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | frango | chicken
 | muito bins [my-oto bonse] | very good
 | chocolate | chocolate
+| Um copo de [je] agua, pof favor | a glass of water please
+| Uma xicara [she-kara] de [je] caf&eacute; | a cup of coffee
+| Eu como frango com batatas | I eat chicken with potato
 |===
 
 === People
