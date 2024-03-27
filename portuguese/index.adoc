@@ -78,6 +78,9 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | Eu gosto de chocolate [choco-latey] |I like chocolate
 | pimenta | chilli/pepper
 | Eu gosto de voc&ecirc; | I like you
+| ele gosta de cerveja | he likes beer
+| Elas gostam de voce | they like you
+| voc&ecirc; precisa de uma xicara de ch&aacute; | you need a cup of tea
 | Os livros falam de [ja] animais | the books talk about animals
 | eles gostam de bananas | they like bananas
 | tu precisas de um gato | you need a cat
