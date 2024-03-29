@@ -5,6 +5,9 @@
 
 :imagesdir: ./images
 
+== Parkrun
+image::parkrun.png[]
+
 = Workouts
 
 * link:rb.html[Resistant bands]
