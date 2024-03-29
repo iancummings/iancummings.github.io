@@ -3,7 +3,7 @@
 :toc-title: Contents
 :sectnums:
 
-:imagesdir: ./images
+:imagesdir: ../images
 
 == Parkrun
 image::parkrun.png[]
