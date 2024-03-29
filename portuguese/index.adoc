@@ -1,4 +1,4 @@
-nosso:toc: left
+:toc: left
 :toclevels: 3
 :toc-title: Contents
 :sectnums:
@@ -8,6 +8,9 @@ nosso:toc: left
 = Portuguese
 
 https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20Ter,I%20have%20three%20kids.
+
+== Crib Sheet
+link:short-form.html[Here]
 
 == Vocabulary
 
@@ -85,6 +88,8 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | eles gostam de bananas | they like bananas
 | tu precisas de um gato | you need a cat
 | Pecisamos de um copo [precisam je um ko-po] | we need a glass 
+| das or dos | of the
+|
 |====
 
 === Posession
@@ -208,6 +213,20 @@ https://www.portuguesepedia.com/verb-ter/#:~:text=In%20short%2C%20the%20verb%20T
 | um copo com suco | a glass with juice
 |====
  
+ 
+=== Contractions
+|====
+| O gato da menina | the girl's cat
+| O cachorro do menino | the boy's dog
+| preciso das batatas | I need the potatoes
+| O gato dele [deli] | his cat
+| N&oacute;s comemos a batata dele | we eat his potato
+| o cachorro dela bebe &aacute;gua | her dog drinks water
+| o cavalo dela come p&aacute;o |her horse eats bread
+| ele precisa deles | he needs them
+| o menino fala deles | the boy talks about them
+|====
+
 
 
 === Pronounce

@@ -1,0 +1,76 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Portuguese Crib Sheet
+
+=== Greetings, please, thank you
+|====
+| ?
+|====
+
+=== Vocabulary
+
+==== Nouns
+|====
+| chave | key
+| mulher [mool-liere] | woman
+| carro | car
+| gatos | cat
+| moscas | flies
+| homen [homey] | man
+| bolo | cake
+| leite | milk
+| &aacute;gua | water
+| p&atilde;o [pow] | bread
+| oi [oi!] | hello
+| palavras | words
+| cobra | snake
+| salada |
+| ma&ccedil;as | apples
+| rato [hat-too] | mouse
+| um | a
+| porco | pork
+| 
+|====
+
+==== Adjectives
+|====
+| pequeno | small
+|====
+
+==== Posession
+|====
+| ele, ela | he/her
+| do | of the
+| dele,dela | his,hers
+| delas | their
+| meu [meeyoo] | my
+| deles [del-les] | them
+| nossa | ours
+| teu [tay-o] | your
+|
+|====
+
+
+=== Verbs
+|====
+| Preciso | need
+| gosto/gosta | like
+| falam | speak
+| bebe | drink
+| come | eat
+|====
+
+=== Grammar/Rules
+
+=== useful phrases
+|====
+| Eu sou [ell sow] da Inglaterra | I am from England
+| Eu gosto delas | I like them
+| obrigada | thanks
+|====
+
