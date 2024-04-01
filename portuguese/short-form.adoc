@@ -41,6 +41,8 @@
 | batata | potato
 | um copo de [gee] leite | a glass of milk
 | uma garrafa de [gee] cerveja | a bottle of beer
+| bief [beefee] | steak
+| queijo | cheese
 |====
 
 ==== Adjectives
@@ -67,6 +69,7 @@
 | Preciso | need
 | gosto/gosta | like
 | falam | speak
+| nos falamos | we speak
 | bebe | drink
 | come | eat
 | pede [pay-je] | to ask for/order
@@ -80,6 +83,9 @@
 | Eu gosto delas | I like them
 | pos favor (favor-[small]#sh#) | please 
 | obrigada | thanks
+| ele gosta de ch&aacute; | he likes tea (gosta agres with fem. tea?)
 | um copo de suco por favor | a glass of juice please
+| eles n&atilde;o falam ingl&ecirc;s [in-glaze] | they do not speak english
+|n&oacute;s  precisamos de voc&ecirc; | we need you
 |====
 
