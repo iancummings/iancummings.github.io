@@ -14,6 +14,14 @@
 
 === Vocabulary
 
+|===
+| sim | yes
+| n&atilde;o | no
+| | please
+| | thankyou
+| | excuse me
+|===
+
 ==== Nouns
 |====
 | chave | key
@@ -68,6 +76,7 @@
 |====
 | Preciso | need
 | gosto/gosta | like
+| `'o'` for Eu, `'a'` for ele/ela
 | falam | speak
 | nos falamos | we speak
 | bebe | drink
