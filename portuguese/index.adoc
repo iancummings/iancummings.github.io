@@ -415,6 +415,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Um copo de [je] agua, pof favor | a glass of water please
 | Uma xicara [she-kara] de [je] caf&eacute; | a cup of coffee
 | Eu como frango com batatas | I eat chicken with potato
+| O queijo [kay-jo] &eacute; seu [sew]
 |===
 
 === People
