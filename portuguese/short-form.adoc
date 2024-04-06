@@ -51,11 +51,16 @@
 | uma garrafa de [gee] cerveja | a bottle of beer
 | bief [beefee] | steak
 | queijo | cheese
+| A cebola | an onion
+| copo | glass
 |====
 
 ==== Adjectives
 |====
-| pequeno | small
+| pequeno/a | small
+| grande | big
+| amargo | bitter
+| novo | new
 |====
 
 ==== Posession
@@ -76,12 +81,22 @@
 |====
 | Preciso | need
 | gosto/gosta | like
-| `'o'` for Eu, `'a'` for ele/ela
+|| `'o'` for Eu, `'a'` for ele/ela
 | falam | speak
 | nos falamos | we speak
 | bebe | drink
 | come | eat
 | pede [pay-je] | to ask for/order
+| Eu tenho | I have
+| voce/ele/eles tem | you/he/they have
+| Nos temos| we have
+| &Eacute; | (it) is
+| corta | cut
+|====
+
+=== Contractions
+|====
+| das/do | of the
 |====
 
 === Grammar/Rules

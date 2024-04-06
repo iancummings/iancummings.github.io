@@ -202,6 +202,7 @@ link:short-form.html[Here]
 | palavras minhas | my words
 | voc&ecirc; | you
 | N&oacute;s n&atilde;o temos copos | we do not have glasses
+| o rato come o meu queijo | the mouse eats my cheese
 |====
 
 === Prepositions
@@ -222,7 +223,7 @@ link:short-form.html[Here]
 | O gato dele [deli] | his cat
 | N&oacute;s comemos a batata dele | we eat his potato
 | o cachorro dela bebe &aacute;gua | her dog drinks water
-| o cavalo dela come p&aacute;o |her horse eats bread
+| o cavalo dela come p&aacute;o | her horse eats bread
 | ele precisa deles | he needs them
 | o menino fala deles | the boy talks about them
 |====
