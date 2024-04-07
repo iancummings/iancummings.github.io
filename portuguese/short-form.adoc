@@ -17,9 +17,10 @@
 |===
 | sim | yes
 | n&atilde;o | no
-| | please
-| | thankyou
-| | excuse me
+| por favor | please
+| obrigado | thankyou
+| com licen&ccedil;a | excuse me
+| sorry | desculpe
 |===
 
 ==== Nouns
@@ -53,6 +54,7 @@
 | queijo | cheese
 | A cebola | an onion
 | copo | glass
+| livro | book
 |====
 
 ==== Adjectives
@@ -83,6 +85,7 @@
 | gosto/gosta | like
 || `'o'` for Eu, `'a'` for ele/ela
 | falam | speak
+| ele fala, nos falamos |
 | nos falamos | we speak
 | bebe | drink
 | come | eat
