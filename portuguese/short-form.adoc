@@ -69,8 +69,10 @@
 |====
 | ele, ela | he/her
 | do | of the
+| das or dos | of the
 | dele,dela | his,hers
 | delas | their
+| o cachorro do menino | the boy's dog
 | meu [meeyoo] | my
 | deles [del-les] | them
 | nossa | ours

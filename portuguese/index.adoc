@@ -88,7 +88,6 @@ link:short-form.html[Here]
 | eles gostam de bananas | they like bananas
 | tu precisas de um gato | you need a cat
 | Pecisamos de um copo [precisam je um ko-po] | we need a glass 
-| das or dos | of the
 |
 |====
 
@@ -203,6 +202,8 @@ link:short-form.html[Here]
 | voc&ecirc; | you
 | N&oacute;s n&atilde;o temos copos | we do not have glasses
 | o rato come o meu queijo | the mouse eats my cheese
+| das or dos | of the
+| o cachorro do menino | the boy's dog
 |====
 
 === Prepositions
