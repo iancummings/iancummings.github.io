@@ -227,6 +227,7 @@ link:short-form.html[Here]
 | o cavalo dela come p&aacute;o | her horse eats bread
 | ele precisa deles | he needs them
 | o menino fala deles | the boy talks about them
+| Eu gosto delas | I like them
 |====
 
 

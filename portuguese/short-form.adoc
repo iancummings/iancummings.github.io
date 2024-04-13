@@ -54,6 +54,7 @@
 | queijo | cheese
 | A cebola | an onion
 | copo | glass
+| xicara [she-car-ras] | cup
 | livro | book
 |====
 
