@@ -418,8 +418,23 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Um copo de [je] agua, pof favor | a glass of water please
 | Uma xicara [she-kara] de [je] caf&eacute; | a cup of coffee
 | Eu como frango com batatas | I eat chicken with potato
-| O queijo [kay-jo] &eacute; seu [sew]
+| O queijo [kay-jo] &eacute; seu [sew] | the cheese is yours
+|
 |===
+
+
+=== Clothing
+|====
+| o cinto| the belt
+|  a saia [sa-i-ya] skirt
+| a camisa | shirt
+| o vestido [ves-chee-do] | dress
+| A tua blusa | your blouse
+| A menina usa um vestido | the girl wears a dress
+| O gato dela usa uma blusa | her cat wears a blouse
+| usa | uses
+|====
+
 
 === People
 

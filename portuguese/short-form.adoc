@@ -21,6 +21,8 @@
 | obrigado | thankyou
 | com licen&ccedil;a | excuse me
 | sorry | desculpe
+| da nada | it's nothing
+| de nada | you're welcome
 |===
 
 ==== Nouns
