@@ -58,6 +58,10 @@
 | copo | glass
 | xicara [she-car-ras] | cup
 | livro | book
+| a roupa [ho-pa] | clothes
+| o bolso | pocket
+| o casaco | coat
+| cal&ccedil;a | trousers
 |====
 
 ==== Adjectives
@@ -100,6 +104,8 @@
 | Nos temos| we have
 | &Eacute; | (it) is
 | corta | cut
+| compra | buy
+|
 |====
 
 === Contractions
