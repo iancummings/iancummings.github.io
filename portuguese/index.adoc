@@ -289,6 +289,7 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | Pede | orders (from a menu)
 | Eu pe&ccedil;o ch&aacute; | I order tea
 | Eu preciso | I need
+| bota | puts on /dresses
 |====
 
 === Nouns
@@ -404,6 +405,9 @@ __When you are saying “I speak” it is falo. When you are saying “You speak
 | garrafas [ga-haf-as] | bottles
 | a copo | the glass
 | a xicara [shee-kara] | the cup
+|rel&oacute;gio [hel-o-gio] | clock
+| casaco |coat
+| eu tiro meu casaco | I take off my coat
 |====
 
 === Food
@@ -647,7 +651,7 @@ People, folk, us - collective feminine noun
 | Por favor [poor favorshe] | please
 | De [je] nada | You're welcome
 | de nada, boa tarde | you're welcome, good afternoon
-|boa noite [noychi] | good night
+| boa noite [noychi] | good night
 | boa noite, tudo bem? | good evening, how are you
 | oi, tudo bem [beng]? | hi, how are you?
 | como est&aacute; | how are you?
