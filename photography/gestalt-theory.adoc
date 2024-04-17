@@ -1,6 +1,7 @@
 :toc: left
 :toclevels: 3
 :toc-title: Contents
+:numbered:
 
 = Gestalt Theory
 :Author: Ian Cummings
