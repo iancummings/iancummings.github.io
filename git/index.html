@@ -500,7 +500,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#branch-descriptions">3.4.3. Branch Descriptions</a></li>
 </ul>
 </li>
-<li><a href="#stash">3.5. Stash</a></li>
+<li><a href="#stash">3.5. Stash</a>
+<ul class="sectlevel3">
+<li><a href="#show-dates-of-stashes">3.5.1. Show dates of stashes</a></li>
+<li><a href="#diff-a-stash-against-the-work-tree-when-it-was-created">3.5.2. Diff a stash against the work tree when it was created</a></li>
+<li><a href="#git-difftool-stashn">3.5.3. <code>git difftool stash@{n}</code></a></li>
+</ul>
+</li>
 <li><a href="#remote-repositories">3.6. Remote repositories</a>
 <ul class="sectlevel3">
 <li><a href="#adding-a-remote">3.6.1. Adding a remote</a></li>
@@ -1439,6 +1445,48 @@ To edit the description of a branch other than the current one, use<br>
 </div>
 <div class="sect2">
 <h3 id="stash"><a class="anchor" href="#stash"></a>3.5. Stash</h3>
+<div class="sect3">
+<h4 id="show-dates-of-stashes"><a class="anchor" href="#show-dates-of-stashes"></a>3.5.1. Show dates of stashes</h4>
+<div class="literalblock">
+<div class="content">
+<pre>$ git stash list --date=local</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="diff-a-stash-against-the-work-tree-when-it-was-created"><a class="anchor" href="#diff-a-stash-against-the-work-tree-when-it-was-created"></a>3.5.2. Diff a stash against the work tree when it was created</h4>
+<div class="paragraph">
+<p>This will show the diff of the stash&#8217;s work-tree commit against the commit that was current when the stash itself was made.</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>$ git stash list -p</pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="git-difftool-stashn"><a class="anchor" href="#git-difftool-stashn"></a>3.5.3. <code>git difftool stash@{n}</code></h4>
+<div class="paragraph">
+<p>When doing a gui difference between your current working files and  <code>stash@{n}</code>, the display is</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">{file} (A)</th>
+<th class="tableblock halign-left valign-top">{file} (B)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">file in stash</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">current working working file</p></td>
+</tr>
+</tbody>
+</table>
 <div class="admonitionblock tip">
 <table>
 <tr>
@@ -1460,6 +1508,7 @@ To edit the description of a branch other than the current one, use<br>
 </td>
 </tr>
 </table>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -4380,7 +4429,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-02-29 12:00:48 UTC
+Last updated 2024-04-17 15:41:27 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
