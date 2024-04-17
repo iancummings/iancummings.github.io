@@ -100,6 +100,7 @@ V0.1, Oct 2022: A work in progress
 * if no living thing, then something to give the image a sense of scale
 * check all four corners!
 * balance weight & light
+* link:gestalt-theory.html[Gestalt Theory]
 
 == Shutter speeds
 * 1/focal length * crop factor

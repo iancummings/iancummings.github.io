@@ -1,0 +1,14 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Gestalt Theory
+:Author: Ian Cummings
+:Email:
+:Date: April 2024
+:Revision: V0.1
+
+== Links
+* https://digital-photography-school.com/7-tips-for-using-the-gestalt-theory-for-better-composition/
+
+== Simon Ellingworth RPS Workshop
