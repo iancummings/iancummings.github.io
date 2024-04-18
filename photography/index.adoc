@@ -82,12 +82,9 @@ V0.1, Oct 2022: A work in progress
 == Miscellaneous
 * link:locations.html[locations]
 
-=== Composition
+== Composition
 
 * link:https://digital-photography-school.com/10-more-quick-composition-tips-illustrated/[DPS: 10 MORE Quick Composition Tips]
-
-
-== Composition
 
 * rule of thirds
 * leading lines
