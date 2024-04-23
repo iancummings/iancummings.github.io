@@ -22,26 +22,36 @@ It is interpreted as "pattern" or "configuration".
 
 ==== Proximity
 image:gestalt-theory/gestalt-theory-composition-2a.png[]
+
 A pair or group of objects that are close to each other are more likely to be perceived as belonging together than if they are far apart.
 
 ==== Similarity
 image:gestalt-theory/gestalt-theory-composition-3a.png[]
+
 Objects that are similar in shape, size or colour are seen as belonging together.
 
 ==== Closure
+image:gestalt-theory/gestalt-theory-composition-4a.png[]
+
 The mind completes shapes that don’t exist. This is a principle used in some optical illusions but it also applies to photography. Part of the skill of composition is learning to recognize shapes, and building the design of the image around them. The principle of closure helps you see shapes in the subject.
 
 ==== Simplicity
+image:gestalt-theory/gestalt-theory-composition-5a.png[]
+
 The mind perceives parallel lines that are close together as a single line.
 
 ==== Continuation
 The mind assumes that lines extend beyond the edges of the frame.
 
 ==== Figure to Ground
+image:gestalt-theory/gestalt-theory-composition-6a.png[]
+
 For human figures to be recognizable they must stand out from the background. That way we can identify them easily even if they’re small in the frame. This is a useful principle because you can include small human figures in the landscape to indicate scale. But it is important that they don’t merge into the background, otherwise they are difficult to see.
 
 
 ==== Emergence
+image:gestalt-theory/gestalt-theory-composition-7.png[]
+
 The viewer may not notice something in the photo when he first looks at it, but it becomes apparent after a period of study. This is an important concept because it is a way of making photos more interesting by presenting the viewer with something that is not evident at first, but reveals itself after reviewing the image. It’s a way of rewarding the viewer, and gives photos staying power.
 
 
