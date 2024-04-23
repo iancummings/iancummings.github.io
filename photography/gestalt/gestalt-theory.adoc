@@ -1,0 +1,121 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:numbered:
+:imagesdir: ../images
+
+= Gestalt Theory
+:Author: Ian Cummings
+:Email:
+:Date: April 2024
+:Revision: V0.1
+
+== Definition
+Gestalt psychology, gestaltism, or configurationism is a school of psychology and a theory of perception that *emphasises the processing of entire patterns and configurations, and not merely individual components.* 
+
+Gestalt psychology is often associated with the adage; +
+"__The whole is greater than the sum of its parts__".
+
+It is interpreted as "pattern" or "configuration".
+
+=== Aspects
+
+==== Proximity
+A pair or group of objects that are close to each other are more likely to be perceived as belonging together than if they are far apart.
+
+==== Similarity
+Objects that are similar in shape, size or colour are seen as belonging together.
+
+==== Closure
+The mind completes shapes that don’t exist. This is a principle used in some optical illusions but it also applies to photography. Part of the skill of composition is learning to recognize shapes, and building the design of the image around them. The principle of closure helps you see shapes in the subject.
+
+==== Simplicity
+The mind perceives parallel lines that are close together as a single line.
+
+==== Continuation
+The mind assumes that lines extend beyond the edges of the frame.
+
+==== Figure to Ground
+For human figures to be recognizable they must stand out from the background. That way we can identify them easily even if they’re small in the frame. This is a useful principle because you can include small human figures in the landscape to indicate scale. But it is important that they don’t merge into the background, otherwise they are difficult to see.
+
+
+==== Emergence
+The viewer may not notice something in the photo when he first looks at it, but it becomes apparent after a period of study. This is an important concept because it is a way of making photos more interesting by presenting the viewer with something that is not evident at first, but reveals itself after reviewing the image. It’s a way of rewarding the viewer, and gives photos staying power.
+
+
+
+== Links
+* https://digital-photography-school.com/7-tips-for-using-the-gestalt-theory-for-better-composition/
+
+
+
+== Simon Ellingworth Gestalt Workshop
+
+The pdf of the workshop is link:2023-HANDOUT-RPS-Gestalt.pdf[here].
+
+
+=== Principles (as applied to photography)
+==== Figure to Ground.
+We dont' want ambiguity, the subject needs to be clear. +
+We can do this by isolation, framing, filling the frame, and constructing a simple image. +
+Of course we have exceptions like Saul Leiter's raindrops on window type pictures, so the genre can dictate whether this is important or not. It might be an example of the "curiousity gap" as you're not sure what's going on behind the raindrops. He liked to call it "pleasant confusion". +
+Confusion, but with a reality anchor.
+
+==== Similarity
+* Shape
+* colour cohesion
+* similar but different; one of these objects is not the same as the others of the same type.
+
+==== Continuation
+ideally it needs to lead somewhere that the viewer understands.
+
+==== Closure
+
+==== Proximity
+
+==== Symmetry
+link:https://www.youtube.com/watch?v=fq4sN2vqKq4[Symmetry]
+
+==== Common fate
+
+
+=== Notes
+
+==== Where do people look first on an image?
+Firstly, bright areas, then faces. However, a recent study has shown that with the ubiquity of "VDUs" nowadays, people tend to gravitate more towards the middle of the screen. +
+The largest brightest thing in the frame should be in focus. Of course there are exceptions; "rules are for those that don't have artistic intent".
+
+==== Miscellaneous tips
+* images should consider **__moment__**, **__composition__**, and *_light_*
+
+* try to have links between the items in your image.
+* With landscape photography, the "moment" is often the weather.
+* Hnery Cartier-Bresson: "Sharpness is a bourgeois concept"
+* go to a well known place, and try to show it differently.
+
+* There should be nothing in the image that doesn't add value, or doesn't support the "message".
+* However, objects in the frame that aren't part of the key image may add "authenticity" to street photography and show that it wasn't staged.
+* taking an image of a subject from within a room gives a different impression from taking it through a doorway. The latter can give a voyeristic impression, or a priviledged access feeling. 
+* Small people in images will appear compressed, lonely, isolated.
+* when phtographing people walking, ry to have their leading foot __just__ coming down to the ground - this gives a little tension.
+* triangles - always good!
+* ambiguity
+* non-resolving images - where the image doesn't expalin everything.
+* position of camera;
+** rat's eye view
+** cat's eye view
+** dog's eye view
+
+
+
+=== Glossary
+* Curiosity gap +
+What's going on in the image? It doesn't tell you
+* stable and unstable images +
+these are images that can change during the time you look at them. Unusual for photography, more likely grahial images; think the two faces/vase image.
+
+
+
+image::gestalt-graphic.png[]
+
+

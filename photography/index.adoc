@@ -34,6 +34,10 @@ V0.1, Oct 2022: A work in progress
 * link:https://www.thatchamphotoclub.com/projects-2021.html[Projects] and link:thatcham-projects.html[here]
 * link:https://www.thatchamphotoclub.com[Thatcham Website]
 
+== Photographers
+* Alex Webb
+* Gary Winnegrande
+
 == Genres
 
 === Portraits
@@ -126,3 +130,4 @@ from link:http://www.urban75.org/photos/photographers-rights-tube-railways.html[
 == Talks, Workshops etc
 
 * link:ross-grieve-webinar.html[Ross Grieve (Calibrite, Park Cameras)]
+* link:gestalt/gestalt-theory.html[Simon Ellingworth's gestalt Theory]
