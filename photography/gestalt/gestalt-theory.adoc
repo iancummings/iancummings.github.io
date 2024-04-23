@@ -21,9 +21,11 @@ It is interpreted as "pattern" or "configuration".
 === Aspects
 
 ==== Proximity
+image:gestalt-theory/gestalt-theory-composition-2a.png[]
 A pair or group of objects that are close to each other are more likely to be perceived as belonging together than if they are far apart.
 
 ==== Similarity
+image:gestalt-theory/gestalt-theory-composition-3a.png[]
 Objects that are similar in shape, size or colour are seen as belonging together.
 
 ==== Closure
