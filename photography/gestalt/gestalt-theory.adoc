@@ -67,52 +67,143 @@ The pdf of the workshop is link:2023-HANDOUT-RPS-Gestalt.pdf[here].
 
 
 === Principles (as applied to photography)
-==== Figure to Ground.
-We dont' want ambiguity, the subject needs to be clear. +
-We can do this by isolation, framing, filling the frame, and constructing a simple image. +
-Of course we have exceptions like Saul Leiter's raindrops on window type pictures, so the genre can dictate whether this is important or not. It might be an example of the "curiousity gap" as you're not sure what's going on behind the raindrops. He liked to call it "pleasant confusion". +
-Confusion, but with a reality anchor.
 
-==== Similarity
-* Shape
+==== Figure to Ground
+
+* depth of field
+* contrast
+* isolation
+
+*How do we differentiate the subject from the background, +
+and draw the eye immediately?*
+
+We dont' want __ambiguity__, the subject needs to be clear. +
+
+*How do we achieve this?* +
+We can do this by __isolation__, __contrast__, __framing__, __filling the frame__, and constructing a _simple_ image. +
+
+===== Depth of field
+Isolating using sharpness of one object and blurring others
+
+===== Contrast
+This can be straightforward difference of luminance, colour, or content/subject
+
+===== Isolation
+Similar but different; one of these objects is not the same as the others of the same type.  Typical methods include:
+
+* Framing
+* fill the frame
+* simplicity +
+(with few objects in the picture, it's obvious what the subject is)
+
+NOTE: If there is a body of water in the image, and that isn't your main subject, then use a long exposure to smooth it and make it less distracting. It can also provide a reflection of the subject to reinforce it.
+
+Remember that often __less is more__, craft images with no superfluous elements. +
+Previsualise; slow down and ask yourself "does it say what I want it to say?"
+
+WARNING: An image with just one of these may not provide you with a good image; you still need moment. 
+
+Of course we have exceptions like Saul Leiter's raindrops on window type pictures, so the genre can dictate whether this is important or not. It might be an example of the "curiosity gap" where we are holding information back from the viewer, as you're not sure what's going on behind the raindrops. He said "there is a certain charm in discomfort and disorder, and a pleasant confusion can be sometimes satisfying". +
+
+image:gestalt-theory/walk-with-soames_1958.jpg[]
+
+In this image, we have confusion but we have a _reality anchor_ in the form of the traffic light.
+
+NOTE: There are images that can change during the time you look at them. They're unusual in photography, they're more likely graphic images; think the two faces/vase image. We call these _stable_ or _unstable_ images.
+
+==== Law of Similarity
+Our eyes group together objects that are similar.
+
+* shape
 * colour cohesion
-* similar but different; one of these objects is not the same as the others of the same type.
+* texture
+* pattern
 
-==== Continuation
-ideally it needs to lead somewhere that the viewer understands.
+We can build a simpler to understand message / narrative by 
 
-==== Closure
+* using it to identify/isolate the subject
+* imply the relationship with a similar object
+* inject humour
+
+
+
+==== Law of Continuation
+The viewer's eye is taken beyond the subject & continue through the image, OR link an unfinished item. +
+The brain will "fill in" missing parts of a picture if it recognises a pattern. +
+Ideally it needs to lead somewhere that the viewer understands.
+
+* Planning a route though the image to a punchline
+* it allows things to exist outside our image, we can include less
+* creating playful images for the viewer
+
+==== Law of Closure
+Can be similar to continuation, but is defined as __the mind's ability to complete unfinished objects__, provided there are enough clues for closure to occur. The mind "enjoys" completing the picture.
+
+We can use
+
+* graphic elements
+* allowing things to exist outside our image; we can include less
+* playful images for the viewer
+
+/*dalmation picture*/
 
 ==== Proximity
+Our minds group objects that are close to each other (c.f. grouping by similarity).
+
+It's very good for organising groups
+
+We can use it to deliver a simpler to understand message, build narrative
+
+* include emotions such as intimacy, isolation, polarisation, etc. that link objects; not just physical proximity.
+* group for artistic effect
+
 
 ==== Symmetry
+Our minds consider everything symmetrical to be one thing. So we can dispose of lots of complexity; what is left that is not symmetrical ends up as the subject.
+
+* by breaking it with our main subject
+* by implying it for artistic effect
+* to simplify complex images
+
 link:https://www.youtube.com/watch?v=fq4sN2vqKq4[Symmetry]
 
 ==== Common fate
+Objects moving in the same direction are grouped.
 
+This helps us deliver simple messages
+
+* organising content into simple groups
+* makes your subject more obvious (removing complexity by grouping)
+* to build tension
 
 === Notes
 
 ==== Where do people look first on an image?
-Firstly, bright areas, then faces. However, a recent study has shown that with the ubiquity of "VDUs" nowadays, people tend to gravitate more towards the middle of the screen. +
+Firstly, bright areas, then people/faces. However, a recent study has shown that with the ubiquity of "VDUs" nowadays, people tend to gravitate more towards the middle of the screen. +
 The largest brightest thing in the frame should be in focus. Of course there are exceptions; "rules are for those that don't have artistic intent".
 
 ==== Miscellaneous tips
-* images should consider **__moment__**, **__composition__**, and *_light_*
+* images need to consider **__moment__**, **__composition__**, and *_light_*
+** moment trumps all
+** one way of creating images is linking two items that wouldn't/shouldn't ordinarily be linked.
 
+* some area at the top/side of an image can provide "containment" that stops the image just drifting off out of the frame.
 * try to have links between the items in your image.
 * With landscape photography, the "moment" is often the weather.
-* Hnery Cartier-Bresson: "Sharpness is a bourgeois concept"
+* Henry Cartier-Bresson: "Sharpness is a bourgeois concept"
 * go to a well known place, and try to show it differently.
+
+* who is your audience? (it might just be you)
+
+* if your image contains a staircase and a person, the person should be taking the _first_ step.
 
 * There should be nothing in the image that doesn't add value, or doesn't support the "message".
 * However, objects in the frame that aren't part of the key image may add "authenticity" to street photography and show that it wasn't staged.
-* taking an image of a subject from within a room gives a different impression from taking it through a doorway. The latter can give a voyeristic impression, or a priviledged access feeling. 
+* taking an image of a subject from within a room gives a different impression from taking it through a doorway. The latter can give a voyeuristic impression, or a privileged access feeling. 
 * Small people in images will appear compressed, lonely, isolated.
-* when phtographing people walking, ry to have their leading foot __just__ coming down to the ground - this gives a little tension.
+* when photographing people walking, ry to have their leading foot __just__ coming down to the ground - this gives a little tension.
 * triangles - always good!
-* ambiguity
-* non-resolving images - where the image doesn't expalin everything.
+* non-resolving images - where the image doesn't explain everything.
 * position of camera;
 ** rat's eye view
 ** cat's eye view
@@ -124,9 +215,9 @@ The largest brightest thing in the frame should be in focus. Of course there are
 * Curiosity gap +
 What's going on in the image? It doesn't tell you
 * stable and unstable images +
-these are images that can change during the time you look at them. Unusual for photography, more likely grahial images; think the two faces/vase image.
+these are images that can change during the time you look at them. Unusual for photography, more likely graphic images; think the two faces/vase image.
 
-
+* fred herzog - timing in photography is almost everything
 
 image::gestalt-graphic.png[]
 
