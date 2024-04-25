@@ -105,7 +105,7 @@ WARNING: An image with just one of these may not provide you with a good image; 
 
 Of course we have exceptions like Saul Leiter's raindrops on window type pictures, so the genre can dictate whether this is important or not. It might be an example of the "curiosity gap" where we are holding information back from the viewer, as you're not sure what's going on behind the raindrops. He said "there is a certain charm in discomfort and disorder, and a pleasant confusion can be sometimes satisfying". +
 
-image:gestalt-theory/walk-with-soames_1958.jpg[]
+image:gestalt-theory/walk-with-soames_1958.jpg[leiter,width=70%]
 
 In this image, we have confusion but we have a _reality anchor_ in the form of the traffic light.
 
@@ -145,7 +145,7 @@ We can use
 * allowing things to exist outside our image; we can include less
 * playful images for the viewer
 
-/*dalmation picture*/
+image:gestalt-theory/closure-in-gestalt-psychology.jpg[]
 
 ==== Proximity
 Our minds group objects that are close to each other (c.f. grouping by similarity).
