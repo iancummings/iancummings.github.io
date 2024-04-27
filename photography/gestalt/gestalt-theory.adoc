@@ -73,6 +73,9 @@ The pdf of the workshop is link:2023-HANDOUT-RPS-Gestalt.pdf[here].
 * depth of field
 * contrast
 * isolation
+** framing
+** fill the frame
+** simplicity
 
 *How do we differentiate the subject from the background, +
 and draw the eye immediately?*
