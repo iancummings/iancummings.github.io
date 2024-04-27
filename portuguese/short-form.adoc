@@ -109,7 +109,7 @@
 | &Eacute; | (it) is
 | corta | cut
 | compra | buy
-|
+|&eacute; | it is (at the start of a sentance)
 |====
 
 === Contractions
