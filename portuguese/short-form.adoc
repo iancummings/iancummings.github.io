@@ -68,6 +68,16 @@
 | cal&ccedil;a | trousers
 |====
 
+==== Food
+|====
+| O arroz [a-hoos] | rice
+| O lim&atilde;o [lee-mohn] | lemon
+| a comida | the food
+|A comida &eacute; boa | the food is good
+|o almo&ccedil;o [al-mo-so] | the lunch
+| limonada | lemonade
+|====
+
 ==== Adjectives
 |====
 | pequeno/a | small
