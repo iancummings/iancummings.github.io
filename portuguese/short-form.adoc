@@ -76,6 +76,14 @@
 |A comida &eacute; boa | the food is good
 |o almo&ccedil;o [al-mo-so] | the lunch
 | limonada | lemonade
+| o prato/s | the plate/s
+| o vinho | the wine
+| o vinho &eacute; bom | the wine is good
+| a pimenta | the pepper (spice, not bell)
+|o macarr&atilde;o | the noodles
+| n&atilde;o gosto de macarr&atilde;o | i do not like noodles
+| a massa | the dough/pasta
+| minha comida &eacute; gostosa | my food is tasy
 |====
 
 ==== Adjectives
