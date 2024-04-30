@@ -80,7 +80,7 @@ The pdf of the workshop is link:2023-HANDOUT-RPS-Gestalt.pdf[here].
 *How do we differentiate the subject from the background, +
 and draw the eye immediately?*
 
-We dont' want __ambiguity__, the subject needs to be clear. +
+We don't want __ambiguity__, the subject needs to be clear. +
 
 *How do we achieve this?* +
 We can do this by __isolation__, __contrast__, __framing__, __filling the frame__, and constructing a _simple_ image. +
