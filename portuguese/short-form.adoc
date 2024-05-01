@@ -83,7 +83,14 @@
 |o macarr&atilde;o | the noodles
 | n&atilde;o gosto de macarr&atilde;o | i do not like noodles
 | a massa | the dough/pasta
-| minha comida &eacute; gostosa | my food is tasy
+| minha comida &eacute; gostosa | my food is tasty
+| O sal | the salt
+| o sanduiche [sand-weeshy] | sandwich
+| o tomate [tom-achy] | tomato
+| seu tomate | your tomato
+| a padaria | the bakery
+| o aa&ccedil;&uacute;car [ass-su-ka]| the sugar
+| a receita [res-eeta] | recipe
 |====
 
 ==== Adjectives
