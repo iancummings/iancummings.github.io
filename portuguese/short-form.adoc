@@ -91,6 +91,12 @@
 | a padaria | the bakery
 | o aa&ccedil;&uacute;car [ass-su-ka]| the sugar
 | a receita [res-eeta] | recipe
+| o morango | the strawberry
+| a faca | the knife
+| a refei&ccedil;&atilde;o [ref-ee-son] | the meal
+| manteiga [man-tay-ga] | the butter
+| Ela n&atilde;o gosta do gosto amargo | she does not like the bitter taste
+| azeite [az-zay-chee] | olive oil
 |====
 
 ==== Adjectives
