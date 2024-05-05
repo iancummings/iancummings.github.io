@@ -63,9 +63,6 @@
 | batata | potato
 | um copo de [gee] leite | a glass of milk
 | uma garrafa de [gee] cerveja | a bottle of beer
-| bief [beefee] | steak
-| queijo | cheese
-| A cebola | an onion
 | copo | glass
 | xicara [she-car-ras] | cup
 | livro | book
@@ -113,6 +110,10 @@
 | leite | milk
 | &aacute;gua | water
 | p&atilde;o [pow] | bread
+| bief [beefee] | steak
+| O queijo [quay-zu] | cheese
+| A cebola | an onion
+
 |====
 
 ==== Adjectives
