@@ -21,6 +21,12 @@
 | eu n&atilde;o sei | I don't know
 |====
 
+=== Travel
+|===
+| bilhete de metro [bil-etchy gee metro] | metro ticket
+| preciso de uma passagem de metrô para Santa Apolônia, por favor | I need a metro ticket to Santa Apolônia, please
+|===
+
 === Vocabulary
 
 |===
