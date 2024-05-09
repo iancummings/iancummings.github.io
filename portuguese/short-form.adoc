@@ -25,6 +25,8 @@
 |===
 | bilhete de metro [bil-etchy gee metro] | metro ticket
 | preciso de uma passagem de metrô para Santa Apolônia, por favor | I need a metro ticket to Santa Apolônia, please
+| Eu preciso de uma passagem de metrô | I need a metro ticket
+| um bilhete de metrô | a metro ticket
 |===
 
 === Vocabulary
@@ -175,6 +177,7 @@
 
 === useful phrases
 |====
+| voc&ecirc; [voss-say] fala ingl&ecirc;s | do you speak English?
 | Eu sou [ell sow] da Inglaterra | I am from England
 | Eu gosto delas | I like them
 | pos favor (favor-[small]#sh#) | please 
