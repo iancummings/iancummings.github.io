@@ -79,6 +79,11 @@ When working with third-party storage apps, you should be aware that theses apps
 == Cars
 link:cars.html[Here]
 
+== Financial
+
+=== Vitality Claim
+* link:https://members.vitality.co.uk/my-health-insurance/manage-my-plan/Optical-Dental-and-Hearing[dental and optical]
+
 == General Stuff
 * link:evs.html[EVs]
 * link:trades.html[Trades]
