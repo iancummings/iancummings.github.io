@@ -503,6 +503,19 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#how-do-i-get-a-program-to-run-automatically-when-logged-in">5.1. How do I get a program to run automatically when logged in?</a></li>
 </ul>
 </li>
+<li><a href="#stop-the-pc-restarting-after-updates">6. Stop the PC restarting after updates</a>
+<ul class="sectlevel2">
+<li><a href="#method-1">6.1. Method 1</a></li>
+<li><a href="#method-2-2">6.2. Method 2</a></li>
+<li><a href="#method-3">6.3. Method 3</a></li>
+<li><a href="#home-edition">6.4. Home edition</a></li>
+</ul>
+</li>
+<li><a href="#excel">7. Excel</a>
+<ul class="sectlevel2">
+<li><a href="#insert-more-than-one-new-row-at-once">7.1. Insert more than one new row at once</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -1114,10 +1127,104 @@ you would change it to<br>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="stop-the-pc-restarting-after-updates"><a class="anchor" href="#stop-the-pc-restarting-after-updates"></a>6. Stop the PC restarting after updates</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="method-1"><a class="anchor" href="#method-1"></a>6.1. Method 1</h3>
+<div class="paragraph">
+<p>From <a href="https://superuser.com/questions/1817039/disable-automatic-restarts-windows-11">here</a><br></p>
+</div>
+<div class="paragraph">
+<p>You can disable automatic restart after installing updates in the Group Policy Editor.</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Open the Group Policy Editor (<code>gpedit.msc</code>).</p>
+</li>
+<li>
+<p>Go to Administrative Templates &gt; Windows Components &gt; Windows Update.<br></p>
+</li>
+<li>
+<p>Go to Legacy Policies<br></p>
+</li>
+<li>
+<p>Double-click on “No auto-restart with logged on users for scheduled automatic updates installations”.<br></p>
+</li>
+<li>
+<p>Select Enabled, and then select OK.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Note: This policy applies only when Automatic Updates is configured to perform scheduled installations of updates. If the "Configure Automatic Updates" policy is disabled, this policy has no effect.</p>
+</div>
+<div class="paragraph">
+<p>Possibly also set the below to "2" - notify only.<br></p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>Administrative Templates
+  &gt; Windows Components
+    &gt; Windows Update
+      &gt; Manage end user experience
+        &gt; Configure Automatic Update</pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="method-2-2"><a class="anchor" href="#method-2-2"></a>6.2. Method 2</h3>
+<div class="paragraph">
+<p>(from <a href="https://learn.microsoft.com/en-us/windows/deployment/update/waas-restart#registry-keys-used-to-manage-restart">Microsoft.com</a>)</p>
+</div>
+<div class="paragraph">
+<p>You don&#8217;t seem to be able to stop them all the time, but you can stop them if the user is logged on.</p>
+</div>
+<div class="paragraph">
+<p>Use regedit and go to <code>HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU</code>, then set <code>NoAutoRebootWithLoggedOnUsers</code> to '1'</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="method-3"><a class="anchor" href="#method-3"></a>6.3. Method 3</h3>
+<div class="paragraph">
+<p>To block all updates, you can use this <a href="https://www.sordum.org/9470/windows-update-blocker-v1-8/">update blocker</a></p>
+</div>
+<div class="paragraph">
+<p>See <a href="https://www.makeuseof.com/windows-11-stop-automatic-updates/">this</a> page for details.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="home-edition"><a class="anchor" href="#home-edition"></a>6.4. Home edition</h3>
+<div class="paragraph">
+<p>If you have Windows 11 Home edition, execute the following commands in a command prompt (not PowerShell) to install Group Policy Editor:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientTools-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F") FOR %F IN ("%SystemRoot%\servicing\Packages\Microsoft-Windows-GroupPolicy-ClientExtensions-Package~*.mum") DO (DISM /Online /NoRestart /Add-Package:"%F")</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Source: <a href="https://answers.microsoft.com/en-us/windows/forum/all/how-to-enable-the-gpeditmsc-on-windows-10-and-11/dbc76919-f2b5-4dec-a2b7-bcf545c34d00?page=4" class="bare">https://answers.microsoft.com/en-us/windows/forum/all/how-to-enable-the-gpeditmsc-on-windows-10-and-11/dbc76919-f2b5-4dec-a2b7-bcf545c34d00?page=4</a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="excel"><a class="anchor" href="#excel"></a>7. Excel</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="insert-more-than-one-new-row-at-once"><a class="anchor" href="#insert-more-than-one-new-row-at-once"></a>7.1. Insert more than one new row at once</h3>
+<div class="paragraph">
+<p>Select an empty row and repeatedly press "CTRL+"</p>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-03-04 09:28:08 UTC
+Last updated 2024-06-10 13:41:29 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>

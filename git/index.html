@@ -2058,7 +2058,10 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 <div class="sect4">
 <h5 id="three-way-merges-mergetool"><a class="anchor" href="#three-way-merges-mergetool"></a>Three-way Merges (mergetool)</h5>
 <div class="paragraph">
-<p>The mergetool (<em>kdiff3</em>) shows you three windows; <em>base</em>, <em>local</em>, and <em>remote</em>.</p>
+<p>The mergetool (<em>kdiff3</em>) shows you three windows; <em>base</em>, <em>local</em>, and <em>remote</em>.<br></p>
+</div>
+<div class="paragraph">
+<p>If you sit on your <em>feature</em> branch, and <em>rebase</em> that onto <em>develop</em>, the following applies:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -2073,10 +2076,10 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 <p><em>Merging</em>: the head for the file(s) from the current branch on the machine that you are using</p>
 </li>
 <li>
-<p><em>Rebasing</em>: the file from the branch which you are rebasing (e.g. <code>feature</code>)</p>
+<p><em>Rebasing</em>: the file from the branch onto which you are rebasing (e.g. <code>develop</code>)</p>
 </li>
 <li>
-<p><em>Cherry-pickin</em>g: the local file</p>
+<p><em>Cherry-picking</em>: the local file</p>
 </li>
 </ul>
 </div>
@@ -2089,7 +2092,7 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 <p><em>Merging</em>: the head for files(s) (from a remote location) that you are trying to merge into your LOCAL branch, or the file from the branch you are rebasing or cherry-picking from.</p>
 </li>
 <li>
-<p><em>Rebasing</em>: the file from the branch onto which you are rebasing (e.g. <code>develop</code>)</p>
+<p><em>Rebasing</em>: the file from the branch which you are rebasing (e.g. <code>feature</code>)</p>
 </li>
 <li>
 <p><em>Cherry-picking</em>: the file from the commit you&#8217;re cherry picking</p>
@@ -4437,7 +4440,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-04-22 11:25:13 +0100
+Last updated 2024-06-05 14:59:48 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
