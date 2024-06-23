@@ -12,10 +12,13 @@
 == XPS17
 link:xps17.html[XPS 17 Info]
 
-== Windows
+== Windows^TM^
 
 * link:windows-generally.html[Generally]
 * link:windows-11.html[Windows 11]
+
+== Spinrite
+link:spinrite.html[Here]
 
 == Dropbox
 

@@ -1,0 +1,14 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Spinrite
+
+== Refresh a SSD
+Every year or so?
+Level 3?
