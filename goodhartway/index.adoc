@@ -1,0 +1,22 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Goodhart Way
+
+== Recycling Centre
+
+link:https://www.bromley.gov.uk/WaldoRoadwebcam[webcam]
+
+=== Opening Times
+
+|===
+|Day	| Time
+| Monday to Friday	| 7am to 5:30pm
+| Saturday|	 7:30am to 4pm
+| Sunday|	 8am to 1pm
+| Bank Holidays|	 8am to 4pm
+|===
