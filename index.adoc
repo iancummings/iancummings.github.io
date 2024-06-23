@@ -21,6 +21,7 @@
 * link:diy/diy-index.html[DIY]
 * link:online/domains.html[Domains & Sub-Domains]
 * link:portuguese/index.html[Portugese]
+* link:goodhartway/index.html[Goodhart Way]
 
 == Work
 * link:don7/index.html[don7]
