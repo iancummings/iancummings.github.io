@@ -526,7 +526,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#separate-git-dir">3.8.5. Separate-git-dir</a></li>
 </ul>
 </li>
-<li><a href="#checkout-tbc">3.9. checkout  - TBC</a></li>
+<li><a href="#checkout">3.9. Checkout</a>
+<ul class="sectlevel3">
+<li><a href="#checkout-a-file-from-a-different-branch">3.9.1. Checkout a file from a different branch</a></li>
+</ul>
+</li>
 <li><a href="#push">3.10. Push</a>
 <ul class="sectlevel3">
 <li><a href="#to-push-all-branches-including-remote">3.10.1. To PUSH all branches (including remote)</a></li>
@@ -1692,8 +1696,15 @@ If you&#8217;re scrupulous, you can keep these uner control by always typing</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="checkout-tbc"><a class="anchor" href="#checkout-tbc"></a>3.9. checkout  - TBC</h3>
-
+<h3 id="checkout"><a class="anchor" href="#checkout"></a>3.9. Checkout</h3>
+<div class="sect3">
+<h4 id="checkout-a-file-from-a-different-branch"><a class="anchor" href="#checkout-a-file-from-a-different-branch"></a>3.9.1. Checkout a file from a different branch</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git checkout &lt;other-branch-name&gt; -- path/to/your/folder</code></pre>
+</div>
+</div>
+</div>
 </div>
 <div class="sect2">
 <h3 id="push"><a class="anchor" href="#push"></a>3.10. Push</h3>
@@ -4440,7 +4451,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-06-05 14:59:48 +0100
+Last updated 2024-06-12 15:14:18 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
