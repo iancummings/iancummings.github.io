@@ -38,8 +38,8 @@ Menu, Setup, Button/Dial, FN setting, AEL AFL, "AF-On"
 Menu, setup, Power Management, Performance
 
 
-f4-5.6-8 auto iso AP
-auto1 min 1/80, 160-3200 - daytime
+f4-5.6-8 auto iso AP +
+auto1 min 1/80, 160-3200 - daytime 
 
 
 centre weighted exposure
