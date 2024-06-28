@@ -8,7 +8,10 @@
 :imagesdir: ../images
 
 = Spinrite
+Level 1
 
 == Refresh a SSD
-Every year or so?
-Level 3?
+Every year or so on level 3 if performance has dipped, Do a trim afterwards?
+
+== Trim
+Open the Windows 10 Start Menu and type "optimize" into the search box. Select "Defragment and Optimize Drives" app from the search results. The Optimize Drives window shows connected drives that can be optimized. Select the USB connected SSD from the list and then press the "Optimize" button to manually start trim
