@@ -40,6 +40,8 @@ V0.1, Oct 2022: A work in progress
 
 == Genres
 
+* link:projects-and-essays.html[Projects & Photo Essays]
+
 === Portraits
 * link:portraiture.html[Portraiture generally]
 * link:portrait-lighting.html[Portrait lighting]
