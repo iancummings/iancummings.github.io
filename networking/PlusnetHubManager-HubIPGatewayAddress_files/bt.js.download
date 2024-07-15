@@ -1,0 +1,978 @@
+/* LICENSE_CODE JUNGO */
+
+/* Special widgets: Radio buttons, Checkboxes and Dropdown lists */
+
+/* Call on load to modify all existing drop downs */
+var prev_document_click;
+
+function get_key(event)
+{
+    if (!event && window.event) event=window.event;
+    if (event.keyCode) 
+        return event.keyCode;
+    return event.which;
+}
+
+function check_alt(event)
+{
+    if (!event && window.event) event=window.event;
+    return event.altKey;
+}
+
+/* Returns label content of the label of 'id' */
+function label_for(id)
+{
+    var l, labels = document.getElementsByTagName("label");
+
+    for (l = 0; l < labels.length; l++)
+    {
+	if (labels[l].htmlFor == id)
+	    return labels[l].innerHTML;
+    }
+}
+
+function set_radio_button_alt(img, input)
+{
+    img.alt = "Option " + label_for(input.id) + " for " +
+	input.name.replace(/_/g, " ") + " is " +
+	(input.checked ? "selected" : "unselected");
+}
+
+function bt_widgets_load()
+{
+    /* Check Boxes & Radio buttons */
+    var found_file = 0, i;
+    var inputs = document.getElementsByTagName("input");
+
+    for (i = 0; i < inputs.length; i++)
+    {
+	if(inputs[i].type == "checkbox")
+	{
+	    sp = document.createElement('span');
+	    sp.onclick = handle_checkbox_click;
+	    sp.className = "checkbox";
+	    img = document.createElement('img');
+	    img.src = "images/bt_checkbox" +
+		(inputs[i].checked ? "_selected" : "") +
+		(inputs[i].disabled ? "_grayed" : "") + ".gif";
+	    a = document.createElement('a');
+	    a.appendChild(img);
+	    a.href="javascript:void(0)";
+	    a.onclick=function()
+	    {
+		handle_checkbox_link(this);
+	    }
+	    a.onkeydown=function(event)
+	    {
+		if (get_key(event) == 32)
+		    handle_checkbox_link(this);
+	    }
+	    inputs[i].parentNode.insertBefore(sp, inputs[i]);
+	    sp.appendChild(inputs[i]);
+	    sp.appendChild(a);
+	}
+	else if(inputs[i].type == "radio") 
+	{
+	    sp = document.createElement('span');
+	    sp.onclick = handle_radio_click;
+	    sp.className = "radio";
+	    img = document.createElement('img');
+	    img.src = "images/bt_radio" +
+	        (inputs[i].checked ? "_selected" : "") +
+	        (inputs[i].disabled ? "_grayed" : "") + ".gif";
+	    set_radio_button_alt(img, inputs[i]);
+	    sp.className="radio";
+	    a = document.createElement('a');
+	    a.appendChild(img);
+	    a.href="javascript:void(0)";
+	    a.onkeydown=function(event)
+	    {
+		if (get_key(event) == 32)
+		    handle_radio_link(this);
+	    }
+	    inputs[i].parentNode.insertBefore(sp, inputs[i]);
+	    sp.appendChild(inputs[i]);
+	    sp.appendChild(a);
+	    SetLabelFor(inputs[i].id, inputs[i].type)
+	}
+	else if (inputs[i].type == "file")
+	{
+	    inputs[i].onchange = function() {
+		ungray_button("Restore");
+	    }
+            found_file = 1;
+	}
+	else if (inputs[i].className == 'dropdown_box')
+	{
+	    var div = inputs[i].parentNode.getElementsByTagName('div')[0];
+	    dropdown_set_size_and_pos(div);
+	    window.onresize = function () {
+	        dropdown_close_all();
+	    }
+	}
+    }
+
+    if (found_file)
+        gray_button("Restore");
+
+    prev_document_click = document.onclick;
+}
+
+function SetLabelFor(objname, type)
+{
+    var labels = document.getElementsByTagName("label");
+    for (i = 0; i < labels.length; i++)
+    {
+        if (labels[i].htmlFor == objname)
+	{
+	    if (type == "radio")
+                labels[i].onclick = handle_radio_label;
+	}
+    }
+}
+
+/* Gray / Ungray buttons */ 
+
+function get_button_link(div, button_name)
+{
+    var a;
+
+    if (div == null)
+       return null;
+
+    a = div.getElementsByTagName("a")[0];
+
+    if (a.innerHTML.replace(/^\s+|\s+$/g,"") == button_name)
+        return a;
+
+    return null;
+}
+
+function get_button_div(button_name)
+{
+    var div = document.getElementsByTagName("div");
+    var a, i;
+
+    for (i = 0; i < div.length; i++)
+    {
+        if (div[i].className != "BUTTON")
+	    continue;
+	a = get_button_link(div[i], button_name);
+	if (a != null)
+	    return div[i];
+    }
+
+    return null;
+}
+
+var button_click;
+var dummy_func = function() {};
+
+function ungray_button(button_name)
+{
+    var sp = get_button_div(button_name);
+    var a = get_button_link(sp, button_name);
+    if (a == null || !(button_click != null))
+        return;
+
+    sp.onclick = button_click; 
+    a.className="";
+}
+
+function gray_button(button_name)
+{
+    var sp = get_button_div(button_name);
+    var a = get_button_link(sp, button_name);
+    if (a == null || sp.onclick == dummy_func)
+        return;
+
+   button_click = sp.onclick;
+   sp.onclick = dummy_func;
+   a.className="gray_link";
+}
+
+function gray_button_conditional(cond, button)
+{
+    if (cond)
+	ungray_button(button);
+    else
+	gray_button(button);
+}
+
+function is_dropdown_selected_value(name, value)
+{
+    var inp = document.getElementsByName(name)[0];
+    if (inp && inp.value == value)
+	return 1;
+    return 0;
+}
+
+function is_dropdowns_values_match(name1, name2)
+{
+    var inp1 = document.getElementsByName(name1)[0];
+    var inp2 = document.getElementsByName(name2)[0];
+    if (inp1 && inp2 && inp1.value == inp2.value)
+        return 1;
+    return 0;
+}
+
+/* Radio Buttons */
+function _handle_radio(obj)
+{
+    radio = obj.getElementsByTagName("input")[0];
+    if(radio.disabled)
+        return;
+    img = radio.parentNode.getElementsByTagName("img")[0];
+    radio.checked = true;
+    img.src ="images/bt_radio_selected.gif";
+    inputs = document.getElementsByTagName("input");
+    for(i = 0; i < inputs.length; i++) 
+    {
+	if(inputs[i].getAttribute("name") == radio.getAttribute("name"))
+	{
+	    img = inputs[i].parentNode.getElementsByTagName("img")[0];
+	    if (inputs[i] != radio)
+	    {
+		/* We will not have an image, in case the input is hidden */
+		if (img)
+		    img.src ="images/bt_radio.gif";
+		inputs[i].checked=false;  
+	    }
+	    if (img)
+		set_radio_button_alt(img, inputs[i]);
+	}
+    }
+    if (radio.onchange)
+	radio.onchange();
+    if (radio.onclick)
+	radio.onclick();
+}
+
+function handle_radio(obj)
+{
+    setTimeout(function(){_handle_radio(obj)}, 0);
+}
+
+function handle_radio_click()
+{
+    handle_radio(this);
+}
+
+function handle_radio_link(obj)
+{
+    handle_radio(obj.parentNode);
+}
+
+function handle_radio_label()
+{
+    handle_radio(document.getElementById(this.htmlFor).parentNode);
+}
+
+/* Check Boxes */
+function handle_checkbox(obj, swap)
+{
+    var check = obj.getElementsByTagName("input")[0];
+    var img = check.parentNode.getElementsByTagName("img")[0];
+
+    if (check.disabled)
+        return;
+
+    if (swap)
+	check.checked = !check.checked;
+    img.src = (check.checked) ? 'images/bt_checkbox_selected.gif' :
+	'images/bt_checkbox.gif';
+    if (check.onchange)
+	check.onchange();
+    if (check.onclick)
+	check.onclick();
+}
+
+function handle_checkbox_click()
+{
+    handle_checkbox(this, 0);
+}
+
+function handle_checkbox_link(obj)
+{
+    handle_checkbox(obj.parentNode, 1);
+}
+
+/* Drop down lists */
+function select_focus(obj)
+{
+    var table = obj.parentNode.parentNode;
+    var img = table.getElementsByTagName("img")[1];
+    img.src = "images/bt_dropdown_btn_clicked.gif";
+}
+
+function select_blur(obj)
+{
+    var i, table, img, div, options, input;
+    table = obj.parentNode.parentNode;
+    img = table.getElementsByTagName("img")[1];
+    img.src = "images/bt_dropdown_btn_default.gif";
+    div = table.getElementsByTagName("div")[0];
+    options = div.getElementsByTagName("div");
+    input = table.getElementsByTagName("input")[1];
+    
+    if (obj.className == "dropdown_box")
+        return;
+
+    /* Do nothing if selection has not changed */
+    for(i = 0; i < options.length; i++)
+        if (options[i].className == "hover")
+	    break;
+    
+    if (i == options.length)
+        return;
+    
+    if (input.value == options[i].nextSibling.innerHTML)
+        return;
+
+    input.value = options[i].nextSibling.innerHTML;
+    if (input.onchange)
+	input.onchange();
+}
+
+function option_hover(obj)
+{
+    var options, i;
+    options = obj.parentNode.getElementsByTagName("div");
+    for(i = 0; i < options.length; i++) 
+	options[i].className = "";
+
+    obj.className = "hover";
+}
+
+function option_click(obj)
+{
+    var table, input_text, input_value, sel, span;
+    obj.parentNode.style.visibility = "hidden";
+    table = obj.parentNode.parentNode.parentNode;
+    input_text = table.getElementsByTagName("input")[0];
+    input_value = table.getElementsByTagName("input")[1];
+    /* Do nothing if selection has not changed */
+    if (input_value.value == obj.nextSibling.innerHTML)
+	return;
+    input_value.value = obj.nextSibling.innerHTML;
+    input_text = table.getElementsByTagName("input")[0];
+    input_text.value = obj.innerHTML;
+    if (input_value.onchange)
+        input_value.onchange();
+}
+
+function combo_box_set_grayed(combo_box_name, enabled)
+{
+    var table = document.getElementsByName(combo_box_name)[0].parentNode.parentNode;
+    var img = table.getElementsByTagName("img")[1];
+    var input = table.getElementsByTagName("input")[0];
+
+    if (enabled)
+    {
+	input.onfocus = function(event) { select_focus(event.target); }
+	input.onblur = function(event) { select_blur(event.target); }
+	input.onclick = function(event) { dropdown_click(event.target); }
+	input.onkeydown = function(event) { dropdown_keydown(event.target, get_key(event), check_alt(event));}
+	img.onclick = function(event) { dropdown_click(event.target); }
+	img.onmouseover = function(event) { event.target.src = 'images/bt_dropdown_btn_clicked.gif';};
+	img.onmouseout = function(event) { event.target.src = 'images/bt_dropdown_btn_default.gif';};
+	img.src = 'images/bt_dropdown_btn_default.gif';
+    }
+    else
+    {
+	input.onfocus = dummy_func;
+	input.onblur = dummy_func;
+	input.onclick = dummy_func;
+	input.onkeydown = dummy_func;
+	img.onclick = dummy_func;
+	img.onmouseover = dummy_func;
+	img.onmouseout = dummy_func;
+	img.src = 'images/bt_dropdown_btn_disabled.gif';
+    }
+}
+
+function option_set_enabled(combo_box1, combo_box2, checkbox_name)
+{
+    var checkbox = document.getElementsByName(checkbox_name)[0];
+
+    combo_box_set_grayed(combo_box1, !checkbox.checked && !checkbox.disabled)
+    combo_box_set_grayed(combo_box2, !checkbox.checked && !checkbox.disabled)
+}
+
+/* Returns the height of the browser window inner area */
+function get_visible_height()
+{
+    if (typeof window.innerWidth != 'undefined')
+    {
+	/* mozilla/netscape/opera/IE7 */
+	return window.innerHeight;
+    }
+    else if (typeof document.documentElement != 'undefined' &&
+	typeof document.documentElement.clientHeight != 'undefined' &&
+	document.documentElement.clientHeight != 0)
+    {
+	/* IE6 standard compliant mode */
+	return document.documentElement.clientHeight;
+    }
+    else
+	return document.getElementsByTagName('body')[0].clientHeight;
+}
+
+function dropdown_fits_below(obj, height)
+{
+    var top_offset = 0;
+
+    if (obj.offsetParent)
+    {
+	do
+	{
+	    top_offset += obj.offsetTop - obj.scrollTop;
+	    obj = obj.offsetParent ? obj.offsetParent : obj.parentNode;
+	} while (obj && !isNaN(obj.offsetTop));
+    }
+    return (top_offset + height) < get_visible_height();
+}
+
+function dropdown_set_size_and_pos(div)
+{
+    var l, p;
+    var input = div.parentNode.getElementsByTagName("input")[0];
+    /* div is "dropdown_div" - the box that drops down from the input element */
+    /* d is the list of divs in the dropdown selection options */
+    var d = div.getElementsByTagName("div");
+    var dropdown_height = 16;
+
+    div.style.width = (input.offsetWidth + 25) + "px";
+    if (d.length > 0)
+        dropdown_height = (d[0].offsetHeight * (d.length > 10 ? 10 : d.length));
+
+    if (navigator.userAgent.indexOf('MSIE') != -1)
+	dropdown_height += 3;
+
+    div.style.height = dropdown_height + "px";
+
+    for(l = -7, p = input; p; l += p.offsetLeft, p = p.offsetParent);
+    div.style.left = l + "px";
+    for(l = 0, p = input; p; l += p.offsetTop, p = p.offsetParent);
+    if (dropdown_fits_below(input, dropdown_height + input.offsetHeight))
+	div.style.top = (l + input.offsetHeight) + "px";
+    else
+	div.style.top = (l - dropdown_height - 2) + "px";
+}
+
+function dropdown_close_all()
+{
+    var i, divs = document.getElementsByTagName("div");
+
+    for (i in divs)
+    {
+	if (divs[i].className == "dropdown_div")
+	    divs[i].style.visibility = "hidden";
+    }
+}
+
+function dropdown_close_click()
+{
+    dropdown_close_all();
+    if (prev_document_click)
+	prev_document_click();
+    document.onclick = prev_document_click;
+}
+
+function dropdown_set_document_click(clicked)
+{
+    if (clicked)
+    {
+        document.onclick = function() {
+	    document.onclick = dropdown_close_click;
+	}
+    }
+    else
+	document.onclick = dropdown_close_click;
+}
+
+function dropdown_open(obj, clicked)
+{
+    var table, div, sel, options, input;
+
+    dropdown_close_all();
+    table = obj.parentNode.parentNode;
+    div = table.getElementsByTagName("div")[0];
+    options = div.getElementsByTagName("div");
+    dropdown_set_size_and_pos(div);
+    input = div.parentNode.getElementsByTagName("input")[1];
+    for(i = 0; i < options.length; i++)
+    {
+	options[i].className=
+	    (options[i].nextSibling.innerHTML == input.value) ?
+	    "hover" : "";
+    }
+    div.style.visibility = (div.style.visibility == "visible") ? "hidden" :
+        "visible";
+    table.getElementsByTagName("input")[0].focus();
+    dropdown_scroll_to_selection(obj);
+
+    if (div.style.visibility == "visible")
+        dropdown_set_document_click(clicked);
+}
+
+function dropdown_close(obj)
+{
+    var div = obj.parentNode.parentNode.getElementsByTagName("div")[0];
+    div.style.visibility  = "hidden";
+    document.onclick = prev_document_click;
+}
+
+function dropdown_click(obj)
+{
+    dropdown_open(obj, 1);
+}
+
+function dropdown_scroll_to_selection(obj)
+{
+    var table, div, i, options;
+    table = obj.parentNode.parentNode;
+    div = table.getElementsByTagName("div")[0];
+    options = div.getElementsByTagName("div");
+
+    if (options.length == 0)
+      return;
+
+    for (i = 0; i < options.length && options[i].className != 
+	"hover"; i++);
+    if (i >= options.length)
+	i = 0;
+
+    div.scrollTop = i * options[i].offsetHeight;
+}
+
+function dropdown_next_option(obj, dir)
+{
+    var table, div, i, input, options;
+    table = obj.parentNode.parentNode;
+    div = table.getElementsByTagName("div")[0];
+    options = div.getElementsByTagName("div");
+    for (i = 0; i < options.length && options[i].className != 
+	"hover"; i++);
+    if (i >= options.length)
+	i = 0;
+    if ((i + dir) < 0 || (i + dir) >= options.length)
+	return;
+    options[i].className = "";
+    i += dir;
+    options[i].className = "hover";
+    input = table.getElementsByTagName("input")[0];
+    input.value = options[i].innerHTML;
+
+    if (div.style.visibility != "visible")
+        return;
+
+    if (dir < 0 && i - parseInt(div.scrollTop / options[i].offsetHeight) < 0) 
+	div.scrollTop = i * options[i].offsetHeight;
+
+    if (dir > 0 && i - parseInt(div.scrollTop / options[i].offsetHeight) >= 10) 
+	div.scrollTop = (i - 9) * options[i].offsetHeight;
+}
+
+function dropdown_go_to(obj, num, key)
+{
+    var table, div, options, sel, prev, i, start = 0;
+    table = obj.parentNode.parentNode;
+    div = table.getElementsByTagName("div")[0];
+    options = div.getElementsByTagName("div");
+    for (i = 0; i < options.length &&
+        options[i].className != "hover"; i++);
+    prev = options[i];
+
+    if (key < 0) /* Go by location */
+        sel = num >= 0 ? num : options.length - 1;
+    else /* Go by letter */
+    {
+	if (i < options.length &&
+	   prev.innerHTML.toUpperCase().charCodeAt(0) == key)
+	{
+	    start = i + 1;
+	}
+
+	for (i = start; i < options.length; i++)
+	{
+	    if(options[i].innerHTML.toUpperCase().charCodeAt(0) == key)
+		break;
+	}
+
+	if (i >= options.length)
+            return;
+        sel = i;
+    }
+
+    prev.className = "";
+    options[sel].className = "hover";
+    input = table.getElementsByTagName("input")[0];
+    input.value = options[sel].innerHTML;
+    dropdown_scroll_to_selection(obj);
+}
+
+
+function dropdown_keydown(obj, key, altKey)
+{
+    switch(key)
+    {
+    case 40: //down
+    case 39: //right
+	if (altKey)
+	    dropdown_open(obj, 0);
+	else
+	    dropdown_next_option(obj, 1);  
+	break;
+    case 38: //up
+    case 37: //left
+	if (altKey)
+	    dropdown_open(obj, 0);
+	else
+	    dropdown_next_option(obj, -1);  
+	break;
+    case 33: //PageUp
+    case 36: //Home
+        dropdown_go_to(obj, 0, -1);
+	break;
+    case 34: //PageDn
+    case 35: //End
+	dropdown_go_to(obj, -1, -1);
+	break;
+    case 27: //Esc
+    case 9: //Tab
+	dropdown_close(obj);
+	return true;
+    case 13: //Enter
+	dropdown_close(obj);
+        select_blur(obj);
+	return true;
+    }
+    if ((key >= 65 && key <= 90) || (key >= 48 && key <= 57)) // a-z, 0-9
+        dropdown_go_to(obj, -1, key);
+
+    return false;
+}
+
+/* General Functions */
+function detect_capslock(event, name)
+{
+  event = (event) ? event : window.event;
+  key = (event.keyCode) ? event.keyCode : event.which;
+
+  obj=document.getElementById(name);
+  if (!obj)
+    return;
+
+  if ((!event.shiftKey && key >= 65 && key <= 90) ||
+    (event.shiftKey && key >= 97 && key <= 122))
+  {
+    obj.innerHTML = "Caps Lock is on";
+  }
+  else
+    obj.innerHTML = "";
+}
+
+/* Set focus to first text element, or specific name.
+   If no input elements then set focus to first link which is not in the menu
+*/
+function set_focus(name)
+{
+    var i, len = name.length;
+    var inputs = document.getElementsByTagName("input");
+ 
+    /* Do not set location if anchor (#) was specified */
+    if (window.location.hash)
+        return;
+
+    for (i = 0; i < inputs.length; i++)
+    {
+        if (name && inputs[i].name == name)
+	    break;
+
+	if (!name && inputs[i].type != "hidden" && inputs[i].type != 'file')
+	    break;
+    }
+
+    if (i == inputs.length)
+        return focus_on_first_link();
+
+    try
+    {
+	if (inputs[i].type == "radio")
+	    inputs[i].parentNode.getElementsByTagName("a")[0].focus();
+	else
+	    inputs[i].focus();
+    }
+    catch(e) {}
+}
+
+function focus_on_first_link()
+{
+    var i, len = name.length;
+    var inputs = document.getElementsByTagName("a");
+
+    /* We start from 2, to skip the Help & A_Z links */
+    try
+    {
+	for (i = 2; i < inputs.length; i++)
+	{
+	    if (!inputs[i].href.match('tab_goto') &&
+	        !inputs[i].href.match('active_page'))
+		break;
+	}
+        inputs[i].focus();
+    }
+    catch(e) {}
+}
+
+function ajax_download_start_full(symbol, onready, onerror)
+{
+    var xml_http;
+
+    try /* Firefox, Opera 8.0+, Safari */
+    {
+	xml_http = new XMLHttpRequest();
+    }
+    catch (e) /* Internet Explorer */
+    {
+	try
+	{
+	    xml_http = new ActiveXObject("Msxml2.XMLHTTP");
+	}
+	catch (e)
+	{
+	    try
+	    {
+		xml_http = new ActiveXObject("Microsoft.XMLHTTP");
+	    }
+	    catch (e)
+	    {
+		return false;
+	    }
+	}
+    }
+    xml_http.onreadystatechange = function()
+    {
+	if (xml_http.readyState == 4)
+	{
+	    if (xml_http.status == 200)
+		onready(xml_http.responseText);
+	    else if (onerror)
+		onerror(xml_http.status);
+	}
+    }
+    var d = new Date();
+
+    xml_http.open("GET", "index.cgi?rand=" + d.getTime() + "&" + symbol, true);
+    xml_http.send(null);
+}
+
+function ajax_download_start(symbol, onready)
+{
+    ajax_download_start_full(symbol, onready, null);
+}
+
+var boot_var, boot_request;
+
+function check_for_var_error_cb(req_status)
+{
+    setTimeout("check_for_var_and_redirect()", 3000);
+}
+
+function check_for_var_ready_cb(xml)
+{
+    if (xml == "0")
+    {
+	eval("document.form_contents." + boot_var + ".value = 1");
+	Redirect();
+    }
+    else /* Still rebooting */
+	check_for_var_error_cb(0, 0);
+}
+
+function check_for_var_and_redirect()
+{
+    ajax_download_start_full(boot_request + "=", check_for_var_ready_cb,
+        check_for_var_error_cb);
+}
+
+/* Strength Meter */
+var numb = "0123456789";
+var lwr = "abcdefghijklmnopqrstuvwxyz";
+var upr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowWordsPass = {
+    common: ["admin", "admin123", "abc123", "abcd1234", "welcome1", "homehub",
+	"bthomehub", "homehub2", "bthomehub2", "homehub3", "bthomehub3",
+	"homehub4", "bthomehub4", "homehub5", "bthomehub5", "password",
+	"password1", "passwd", "p@ssw0rd", "passw0rd", "qwerty", "letmein",
+	"monkey", "myspace1", "businesshub5", "btbusinesshub5"],
+    business: ["businesshub", "btbusinesshub"]
+};
+var lowWordsKey = {
+    common: ["admin123", "wirelesskey", "abcd1234", "welcome1",	"bthomehub",
+	"homehub5", "bthomehub5", "password", "password1", "qwertyui",
+	"myspace1"],
+    business: ["businesshub", "btbusinesshub", "businesshub5", "btbusinesshub5"]
+};
+
+function isValid(obj,val)
+{
+    var str = obj.value;
+    if (str == "")
+      return false;
+    for (i=0; i < str.length; i++)
+    {
+        if (val.indexOf(str.charAt(i),0) == -1)
+	    return false;
+    }
+    return true;
+}
+
+function is_str_in_array(array, str)
+{
+    for (i=0; i < array.length; i++)
+    {
+	if (array[i] == str)
+	    return true;
+    }
+
+    return false;
+}
+
+function isLowWord(obj, lowList)
+{
+    var str = obj.value.toLowerCase();
+
+    if (is_str_in_array(lowList.common, str))
+	return true;
+
+    if (bt_is_business && is_str_in_array(lowList.business, str))
+	return true;
+
+    return false;
+}
+ 
+function isNum(obj) {return isValid(obj,numb);}
+function isLower(obj) {return isValid(obj,lwr);}
+function isUpper(obj) {return isValid(obj,upr);}
+function isLowerAndNumbers(obj) {return isValid(obj,lwr+numb);}
+function isUpperAndNumbers(obj) {return isValid(obj,upr+numb);}
+function isAlpha(obj) {return isValid(obj,lwr+upr);}
+function isAlphanum(obj) {return isValid(obj,lwr+upr+numb);}
+
+function change_strength_image(state)
+{
+    var meter = document.getElementsByName("pass_strength")[0];
+
+    meter.src = "./images/strength_meter_" + state + ".gif";
+    meter.alt = "Password strength " + state;
+    document.form_contents.strength.value = state;
+}
+
+function toggle_strength_display(show)
+{
+    document.getElementById("strength_area").style.display = show ? "" : "none";
+}
+
+function check_strength(obj, min1, min2, lowList)
+{
+    toggle_strength_display(obj.value.length);
+    if(isLower(obj) || isUpper(obj) || isNum(obj) || obj.value.length <= min1 ||
+        isLowWord(obj, lowList))
+    {
+        change_strength_image("low");
+    }
+    else if (obj.value.length <= min2 || isLowerAndNumbers(obj) ||
+	isUpperAndNumbers(obj))
+    {
+        change_strength_image("medium");
+    }
+    else
+        change_strength_image("good");
+}
+
+function check_pass_strength(obj)
+{
+    check_strength(obj, 4, 7, lowWordsPass);
+}
+
+function check_key_strength(obj)
+{
+    check_strength(obj, 7, 9, lowWordsKey);
+}
+
+function enable_radio(event, name, value)
+{
+    /* If key that was pressed is not tab, switch radio selection to value */
+    if (get_key(event) != 9)
+	handle_radio_link(document.getElementById(name + '_' + value));
+    return true;
+}
+
+/* NOTICE: This javascript alters the input type between text and password and
+ * also alters the text of the anchor object's text between "Show" and "Hide" to
+ * ALL html objects that are under the same container. please make sure that
+ * only the relevant objects are under the same container or separate them.
+ */
+function show_hide_password_js(anchor_id, pass_edit_box_name, show_label,
+    hide_label, default_password)
+{
+    var pass_edit_box = document.getElementsByName(pass_edit_box_name)[0];
+    var pass_div = pass_edit_box.parentNode;
+    var anchor = document.getElementById(anchor_id);
+    /* Use '?' in the regular expression because some browsers represent the
+     * attributes with quotes and some without */
+    var is_pass = pass_div.innerHTML.search(/type="?password"?/i) >= 0;
+    var value = pass_edit_box.value;
+           
+    if (value == default_password)
+	value = "";
+       
+    if (is_pass)
+    {
+	pass_div.innerHTML = 
+	    pass_div.innerHTML.replace(/type="?password"?/gi, 'type="text"');
+	anchor.innerHTML = 
+	    anchor.innerHTML.replace(RegExp("\\b" + show_label), hide_label);
+	anchor.parentNode.innerHTML = 
+	    anchor.parentNode.innerHTML.replace(/,\strue\)/, ", false)");
+    }
+    else
+    {
+	/* Some browsers (e.g. IE8) don't include the 'type' attribute when type
+	 * is text (default type). To support such cases we first remove all
+	 * appearances of type=text, and then add type=password as the first
+	 * attribute following the opening <INPUT> tag */
+	pass_div.innerHTML = pass_div.innerHTML.replace(/type="?text"?/gi, '');
+	pass_div.innerHTML = 
+	    pass_div.innerHTML.replace(/input/i, 'input type=password');
+	anchor.innerHTML = 
+	    anchor.innerHTML.replace(RegExp("\\b" + hide_label), show_label);
+	anchor.parentNode.innerHTML = 
+	    anchor.parentNode.innerHTML.replace(/,\sfalse\)/, ", true)");
+    }
+    document.getElementsByName(pass_edit_box_name)[0].value = value;
+    document.getElementsByName(pass_edit_box_name)[0].focus();
+    is_button_in_focus = false;
+}
+
+function gray_button_on_checkboxes(btn_name)
+{
+    var inputs = document.getElementsByTagName("input");
+    var any_selected = false;
+
+    for (i = 0; i < inputs.length; i++)
+    {
+	if (inputs[i].type != "checkbox" || !inputs[i].checked)
+	    continue;
+
+	any_selected = true;
+	break;
+    }
+
+    if (any_selected)
+    	ungray_button(btn_name);
+    else
+    	gray_button(btn_name);
+}

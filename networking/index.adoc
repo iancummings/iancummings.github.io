@@ -1,0 +1,36 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Networking
+
+== Home Setup
+
+=== Plusnet
+
+Ethernet:
+
+.Ethernet
+[width="100%",options="header,footer"]
+|====
+| name | MAC | ipV4
+| Sapphire	| 1c:bf:ce:ef:03:82	|192.168.1.2	 
+| 	DELL-XGV|	6c:2b:59:f9:10:60|	192.168.1.62	 
+| 	Chromecast|	14:c1:4e:4d:4d:4a|	192.168.1.100	 
+| 	Bose-SB-4c-87-5d-...|	4c:87:5d:b3:d2:c3	|192.168.1.26
+| steel | |
+| switch-ec-c4-0d-71-db-46 |	ec:c4:0d:71:db:46 | 
+|====
+
+ReadyNas:c0 3f 0e 96 5a 59 192.168.1.32
+
+Wireless
+SSID "RoseyNet!"
+5FE983373D3823658DB76D0738
+
+
+Channel 6
+WPA2
