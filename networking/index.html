@@ -426,7 +426,17 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel1">
 <li><a href="#truehome-setup">1. Home Setup</a>
 <ul class="sectlevel2">
-<li><a href="#trueplusnet">1.1. Plusnet</a></li>
+<li><a href="#trueplusnet">1.1. Plusnet</a>
+<ul class="sectlevel3">
+<li><a href="#truereserved-devices">1.1.1. Reserved Devices</a></li>
+<li><a href="#truerouter-configuration-pages">1.1.2. Router Configuration Pages</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#truereference">2. Reference</a>
+<ul class="sectlevel2">
+<li><a href="#trueexpress-forwarding">2.1. Express Forwarding</a></li>
 </ul>
 </li>
 </ul>
@@ -438,6 +448,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="trueplusnet"><a class="anchor" href="#trueplusnet"></a>1.1. Plusnet</h3>
+<div class="paragraph">
+<p>Router is at 192.168.1.254
+Subnet mask is 255.255.255.0</p>
+</div>
+<div class="sect3">
+<h4 id="truereserved-devices"><a class="anchor" href="#truereserved-devices"></a>1.1.1. Reserved Devices</h4>
+<div class="paragraph">
+<p>printer</p>
+</div>
 <div class="paragraph">
 <p>Ethernet:</p>
 </div>
@@ -491,7 +510,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </tbody>
 </table>
 <div class="paragraph">
-<p>ReadyNas:c0 3f 0e 96 5a 59 192.168.1.32</p>
+<p>ReadyNas:c0 3f 0e 96 5a 59 192.168.1.32
+Synology 192.168.1.52
+Printer 192.168.1.30?</p>
 </div>
 <div class="paragraph">
 <p>Wireless
@@ -503,12 +524,40 @@ SSID "RoseyNet!"
 WPA2</p>
 </div>
 </div>
+<div class="sect3">
+<h4 id="truerouter-configuration-pages"><a class="anchor" href="#truerouter-configuration-pages"></a>1.1.2. Router Configuration Pages</h4>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="PlusnetHubManager-HubIPGatewayAddress.html">Gateway</a></p>
+</li>
+<li>
+<p><a href="PlusnetHubManager-HomeNetwork-Devices.html">Devices</a></p>
+</li>
+<li>
+<p><a href="PlusnetHubManager-DHCPTable.html">DHCP table</a></p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="truereference"><a class="anchor" href="#truereference"></a>2. Reference</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="trueexpress-forwarding"><a class="anchor" href="#trueexpress-forwarding"></a>2.1. Express Forwarding</h3>
+<div class="paragraph">
+<p>Explained <a href="https://en.wikipedia.org/wiki/Cisco_Express_Forwarding">here</a>, but basically a way of speeding up traffic by keeping extra tables and therefore only inspecting headers before forwarding on the packet.</p>
+</div>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-07-15 19:33:01 GMTDT
+Last updated 2024-07-16 21:12:58 GMTDT
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">

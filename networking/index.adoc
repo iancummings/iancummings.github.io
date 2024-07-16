@@ -10,6 +10,12 @@
 == Home Setup
 
 === Plusnet
+Router is at 192.168.1.254
+Subnet mask is 255.255.255.0
+
+==== Reserved Devices
+printer 
+
 
 Ethernet:
 
@@ -26,6 +32,8 @@ Ethernet:
 |====
 
 ReadyNas:c0 3f 0e 96 5a 59 192.168.1.32
+Synology 192.168.1.52
+Printer 192.168.1.30?
 
 Wireless
 SSID "RoseyNet!"
@@ -34,3 +42,13 @@ SSID "RoseyNet!"
 
 Channel 6
 WPA2
+
+==== Router Configuration Pages
+* link:PlusnetHubManager-HubIPGatewayAddress.html[Gateway]
+* link:PlusnetHubManager-HomeNetwork-Devices.html[Devices]
+* link:PlusnetHubManager-DHCPTable.html[DHCP table]
+
+== Reference
+
+=== Express Forwarding
+Explained link:https://en.wikipedia.org/wiki/Cisco_Express_Forwarding[here], but basically a way of speeding up traffic by keeping extra tables and therefore only inspecting headers before forwarding on the packet.
