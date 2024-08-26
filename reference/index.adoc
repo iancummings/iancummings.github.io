@@ -23,6 +23,10 @@ image::ugreen-100w-charger-1.png[]
 image::ugreen-100w-charger-2.png[]
 image::ugreen-100w-charger-3.png[]
 
+==== 65W UGreen
+c1: 5v@3A, 9v@2A, 12v@1.5A = 18Wmax +
+c2: 5v@3A, 9v@3A, 12v@3A, 15v@3A, 20v@3.25A = 65Wmax = closer to the wall
+
 === Headphones
 
 ==== Soundpeats T3
