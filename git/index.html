@@ -505,79 +505,82 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#show-dates-of-stashes">3.5.1. Show dates of stashes</a></li>
 <li><a href="#diff-a-stash-against-the-work-tree-when-it-was-created">3.5.2. Diff a stash against the work tree when it was created</a></li>
 <li><a href="#git-difftool-stashn">3.5.3. <code>git difftool stash@{n}</code></a></li>
+<li><a href="#apply-part-of-a-stash">3.5.4. Apply part of a stash</a></li>
 </ul>
 </li>
-<li><a href="#remote-repositories">3.6. Remote repositories</a>
+<li><a href="#patches">3.6. Patches</a></li>
+<li><a href="#remote-repositories">3.7. Remote repositories</a>
 <ul class="sectlevel3">
-<li><a href="#adding-a-remote">3.6.1. Adding a remote</a></li>
-<li><a href="#renaming-3">3.6.2. Renaming</a></li>
-<li><a href="#removing">3.6.3. Removing</a></li>
-<li><a href="#changing-a-remotes-url">3.6.4. Changing a Remote&#8217;s URL</a></li>
-<li><a href="#removedelete-a-tag-in-a-remote-repository">3.6.5. Remove/Delete a Tag in a Remote Repository</a></li>
+<li><a href="#adding-a-remote">3.7.1. Adding a remote</a></li>
+<li><a href="#renaming-3">3.7.2. Renaming</a></li>
+<li><a href="#removing">3.7.3. Removing</a></li>
+<li><a href="#changing-a-remotes-url">3.7.4. Changing a Remote&#8217;s URL</a></li>
+<li><a href="#removedelete-a-tag-in-a-remote-repository">3.7.5. Remove/Delete a Tag in a Remote Repository</a></li>
 </ul>
 </li>
-<li><a href="#prune">3.7. Prune</a></li>
-<li><a href="#clone-tbc">3.8. clone - TBC</a>
+<li><a href="#prune">3.8. Prune</a></li>
+<li><a href="#clone-tbc">3.9. clone - TBC</a>
 <ul class="sectlevel3">
-<li><a href="#bare">3.8.1. Bare</a></li>
-<li><a href="#mirror">3.8.2. Mirror</a></li>
-<li><a href="#depth">3.8.3. Depth</a></li>
-<li><a href="#mirror-depth">3.8.4. Mirror &amp; Depth</a></li>
-<li><a href="#separate-git-dir">3.8.5. Separate-git-dir</a></li>
+<li><a href="#bare">3.9.1. Bare</a></li>
+<li><a href="#mirror">3.9.2. Mirror</a></li>
+<li><a href="#depth">3.9.3. Depth</a></li>
+<li><a href="#mirror-depth">3.9.4. Mirror &amp; Depth</a></li>
+<li><a href="#separate-git-dir">3.9.5. Separate-git-dir</a></li>
 </ul>
 </li>
-<li><a href="#checkout">3.9. Checkout</a>
+<li><a href="#checkout">3.10. Checkout</a>
 <ul class="sectlevel3">
-<li><a href="#checkout-a-file-from-a-different-branch">3.9.1. Checkout a file from a different branch</a></li>
+<li><a href="#checkout-a-file-from-a-different-branch">3.10.1. Checkout a file from a different branch</a></li>
 </ul>
 </li>
-<li><a href="#push">3.10. Push</a>
+<li><a href="#push">3.11. Push</a>
 <ul class="sectlevel3">
-<li><a href="#to-push-all-branches-including-remote">3.10.1. To PUSH all branches (including remote)</a></li>
+<li><a href="#to-push-all-branches-including-remote">3.11.1. To PUSH all branches (including remote)</a></li>
 </ul>
 </li>
-<li><a href="#pull-requests">3.11. Pull requests</a></li>
-<li><a href="#reset">3.12. Reset</a>
+<li><a href="#pull-requests">3.12. Pull requests</a></li>
+<li><a href="#reset">3.13. Reset</a>
 <ul class="sectlevel3">
-<li><a href="#soft-move-head-to-target">3.12.1. Soft: move HEAD to target</a></li>
-<li><a href="#mixed-copy-to-index">3.12.2. Mixed: copy to index</a></li>
-<li><a href="#hard-copy-to-working-directory">3.12.3. Hard: copy to working directory</a></li>
-<li><a href="#single-file-changes">3.12.4. Single file changes</a></li>
+<li><a href="#soft-move-head-to-target">3.13.1. Soft: move HEAD to target</a></li>
+<li><a href="#mixed-copy-to-index">3.13.2. Mixed: copy to index</a></li>
+<li><a href="#hard-copy-to-working-directory">3.13.3. Hard: copy to working directory</a></li>
+<li><a href="#single-file-changes">3.13.4. Single file changes</a></li>
 </ul>
 </li>
-<li><a href="#remote-repositories-2">3.13. Remote Repositories</a>
+<li><a href="#remote-repositories-2">3.14. Remote Repositories</a>
 <ul class="sectlevel3">
-<li><a href="#change-remote-url">3.13.1. Change Remote URL</a></li>
+<li><a href="#change-remote-url">3.14.1. Change Remote URL</a></li>
 </ul>
 </li>
-<li><a href="#merging">3.14. Merging</a>
+<li><a href="#merging">3.15. Merging</a>
 <ul class="sectlevel3">
-<li><a href="#standard">3.14.1. Standard</a></li>
-<li><a href="#overwriting-a-branch-make-that-like-this">3.14.2. Overwriting a Branch (make that like this)</a></li>
-<li><a href="#conflicts">3.14.3. Conflicts</a></li>
+<li><a href="#standard">3.15.1. Standard</a></li>
+<li><a href="#overwriting-a-branch-make-that-like-this">3.15.2. Overwriting a Branch (make that like this)</a></li>
+<li><a href="#conflicts">3.15.3. Conflicts</a></li>
 </ul>
 </li>
-<li><a href="#updating-submodules">3.15. Updating Submodules</a></li>
-<li><a href="#rebase">3.16. Rebase</a>
+<li><a href="#updating-submodules">3.16. Updating Submodules</a></li>
+<li><a href="#rebase">3.17. Rebase</a>
 <ul class="sectlevel3">
-<li><a href="#general-safe-method">3.16.1. General "Safe" Method</a></li>
-<li><a href="#backing-out-or-dry-run">3.16.2. Backing Out or Dry Run</a></li>
-<li><a href="#reusing-previous-conflict-resolutions">3.16.3. Reusing Previous Conflict Resolutions</a></li>
+<li><a href="#general-safe-method">3.17.1. General "Safe" Method</a></li>
+<li><a href="#backing-out-or-dry-run">3.17.2. Backing Out or Dry Run</a></li>
+<li><a href="#reusing-previous-conflict-resolutions">3.17.3. Reusing Previous Conflict Resolutions</a></li>
 </ul>
 </li>
-<li><a href="#rebase-onto">3.17. Rebase "--onto"</a></li>
-<li><a href="#squashing">3.18. Squashing</a>
+<li><a href="#rebase-onto">3.18. Rebase "--onto"</a></li>
+<li><a href="#squashing">3.19. Squashing</a>
 <ul class="sectlevel3">
-<li><a href="#when-merging">3.18.1. When Merging</a></li>
-<li><a href="#squash-commits-in-one-branch">3.18.2. Squash Commits in one branch</a></li>
+<li><a href="#when-merging">3.19.1. When Merging</a></li>
+<li><a href="#squash-commits-in-one-branch">3.19.2. Squash Commits in one branch</a></li>
 </ul>
 </li>
-<li><a href="#hints-tips">3.19. Hints &amp; Tips</a>
+<li><a href="#hints-tips">3.20. Hints &amp; Tips</a>
 <ul class="sectlevel3">
-<li><a href="#standard-2">3.19.1. Standard</a></li>
-<li><a href="#advanced">3.19.2. Advanced</a></li>
-<li><a href="#workflow">3.19.3. Workflow</a></li>
-<li><a href="#bare-repositories">3.19.4. Bare Repositories</a></li>
+<li><a href="#standard-2">3.20.1. Standard</a></li>
+<li><a href="#advanced">3.20.2. Advanced</a></li>
+<li><a href="#workflow">3.20.3. Workflow</a></li>
+<li><a href="#how-to-undo-almost-anything">3.20.4. How to undo almost anything</a></li>
+<li><a href="#bare-repositories">3.20.5. Bare Repositories</a></li>
 </ul>
 </li>
 </ul>
@@ -636,7 +639,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#between-my-current-head-and-originbranch">6.16.2. Between my current HEAD and origin/&lt;branch&gt;</a></li>
 </ul>
 </li>
-<li><a href="#list-remote-git-branches-by-author-sorted-by-committer-date">6.17. List remote Git branches by author, sorted by committer date:</a></li>
+<li><a href="#list-remote-git-branches-by-author-sorted-by-commit-date">6.17. List remote Git branches by author, sorted by commit date:</a>
+<ul class="sectlevel3">
+<li><a href="#fields-available-for-format">6.17.1. Fields available for 'format'</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#advancedinternals">7. Advanced/Internals</a>
@@ -1527,9 +1534,56 @@ To edit the description of a branch other than the current one, use<br>
 </table>
 </div>
 </div>
+<div class="sect3">
+<h4 id="apply-part-of-a-stash"><a class="anchor" href="#apply-part-of-a-stash"></a>3.5.4. Apply part of a stash</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git checkout -p stash@{0}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Why does it work?<br>
+The key is to realize that stashes are, in essence, references to commits just like tags and branches.<br>
+Indeed, they&#8217;re stored in .git/refs/stash, one line per stash hash.</p>
+</div>
+<div class="paragraph">
+<p>See <a href="https://stackoverflow.com/questions/28195778/git-stash-apply-with-interactive-mode">here</a> for caveats and workarounds.</p>
+</div>
+</div>
 </div>
 <div class="sect2">
-<h3 id="remote-repositories"><a class="anchor" href="#remote-repositories"></a>3.6. Remote repositories</h3>
+<h3 id="patches"><a class="anchor" href="#patches"></a>3.6. Patches</h3>
+<div class="paragraph">
+<p>What I often do (in git bash) is</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git stash show -p 'stash@{0}' &gt;tmp.patch</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Then I edit the file and remove the parts I don&#8217;t want. Finally I say</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$
+&lt;tmp.patch git apply</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>or</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ &lt;tmp.patch patch -p1</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>It doesn&#8217;t work for binary files, though,</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="remote-repositories"><a class="anchor" href="#remote-repositories"></a>3.7. Remote repositories</h3>
 <div class="paragraph">
 <p>Check current values with</p>
 </div>
@@ -1539,7 +1593,7 @@ To edit the description of a branch other than the current one, use<br>
 </div>
 </div>
 <div class="sect3">
-<h4 id="adding-a-remote"><a class="anchor" href="#adding-a-remote"></a>3.6.1. Adding a remote</h4>
+<h4 id="adding-a-remote"><a class="anchor" href="#adding-a-remote"></a>3.7.1. Adding a remote</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git remote add &lt;name&gt; &lt;URL&gt;</code></pre>
@@ -1579,7 +1633,7 @@ To /home/ianc/remotegit/qx_develop/.git
 </div>
 </div>
 <div class="sect3">
-<h4 id="renaming-3"><a class="anchor" href="#renaming-3"></a>3.6.2. Renaming</h4>
+<h4 id="renaming-3"><a class="anchor" href="#renaming-3"></a>3.7.2. Renaming</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git remote rename &lt;fromName&gt; &lt;toName&gt;</code></pre>
@@ -1587,7 +1641,7 @@ To /home/ianc/remotegit/qx_develop/.git
 </div>
 </div>
 <div class="sect3">
-<h4 id="removing"><a class="anchor" href="#removing"></a>3.6.3. Removing</h4>
+<h4 id="removing"><a class="anchor" href="#removing"></a>3.7.3. Removing</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git remote rm &lt;name&gt;</code></pre>
@@ -1595,7 +1649,7 @@ To /home/ianc/remotegit/qx_develop/.git
 </div>
 </div>
 <div class="sect3">
-<h4 id="changing-a-remotes-url"><a class="anchor" href="#changing-a-remotes-url"></a>3.6.4. Changing a Remote&#8217;s URL</h4>
+<h4 id="changing-a-remotes-url"><a class="anchor" href="#changing-a-remotes-url"></a>3.7.4. Changing a Remote&#8217;s URL</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git remote set-url [--push] origin &lt;URL&gt;</code></pre>
@@ -1603,7 +1657,7 @@ To /home/ianc/remotegit/qx_develop/.git
 </div>
 </div>
 <div class="sect3">
-<h4 id="removedelete-a-tag-in-a-remote-repository"><a class="anchor" href="#removedelete-a-tag-in-a-remote-repository"></a>3.6.5. Remove/Delete a Tag in a Remote Repository</h4>
+<h4 id="removedelete-a-tag-in-a-remote-repository"><a class="anchor" href="#removedelete-a-tag-in-a-remote-repository"></a>3.7.5. Remove/Delete a Tag in a Remote Repository</h4>
 <div class="paragraph">
 <p>Two ways of doing it; the old way</p>
 </div>
@@ -1631,7 +1685,7 @@ To /home/ianc/remotegit/qx_develop/.git
 </div>
 </div>
 <div class="sect2">
-<h3 id="prune"><a class="anchor" href="#prune"></a>3.7. Prune</h3>
+<h3 id="prune"><a class="anchor" href="#prune"></a>3.8. Prune</h3>
 <div class="paragraph">
 <p>Pruning usually means deleting unwanted branches or tags. This often occurs if a branch is deleted on a remote repo, but you still have a tracking branch (remote/origin/&#8230;&#8203;).<br>
 If you&#8217;re scrupulous, you can keep these uner control by always typing</p>
@@ -1657,30 +1711,30 @@ If you&#8217;re scrupulous, you can keep these uner control by always typing</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="clone-tbc"><a class="anchor" href="#clone-tbc"></a>3.8. clone - TBC</h3>
+<h3 id="clone-tbc"><a class="anchor" href="#clone-tbc"></a>3.9. clone - TBC</h3>
 <div class="paragraph">
 <p>$ git clone &lt;URL&gt; &lt;path&gt;</p>
 </div>
 <div class="sect3">
-<h4 id="bare"><a class="anchor" href="#bare"></a>3.8.1. Bare</h4>
+<h4 id="bare"><a class="anchor" href="#bare"></a>3.9.1. Bare</h4>
 <div class="paragraph">
 <p>Make a bare Git repository. That is, instead of creating &lt;directory&gt; and placing the administrative files in &lt;directory&gt;/.git, make the &lt;directory&gt; itself the $GIT_DIR. This obviously implies the -n because there is nowhere to check out the working tree. Also the branch heads at the remote are copied directly to corresponding local branch heads, without mapping them to refs/remotes/origin/. When this option is used, neither remote-tracking branches nor the related configuration variables are created.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="mirror"><a class="anchor" href="#mirror"></a>3.8.2. Mirror</h4>
+<h4 id="mirror"><a class="anchor" href="#mirror"></a>3.9.2. Mirror</h4>
 <div class="paragraph">
 <p>Set up a mirror of the source repository. This implies <code>--bare</code>. Compared to <code>--bare</code>, <code>--mirror</code> not only maps local branches of the source to local branches of the target, it maps all refs (including remote-tracking branches, notes etc.) and sets up a refspec configuration such that all these refs are overwritten by a git remote update in the target repository.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="depth"><a class="anchor" href="#depth"></a>3.8.3. Depth</h4>
+<h4 id="depth"><a class="anchor" href="#depth"></a>3.9.3. Depth</h4>
 <div class="paragraph">
 <p>Create a shallow clone with a history truncated to the specified number of revisions.</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="mirror-depth"><a class="anchor" href="#mirror-depth"></a>3.8.4. Mirror &amp; Depth</h4>
+<h4 id="mirror-depth"><a class="anchor" href="#mirror-depth"></a>3.9.4. Mirror &amp; Depth</h4>
 <div class="paragraph">
 <p>To create a mirrored repo that has limited depth</p>
 </div>
@@ -1694,16 +1748,16 @@ If you&#8217;re scrupulous, you can keep these uner control by always typing</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="separate-git-dir"><a class="anchor" href="#separate-git-dir"></a>3.8.5. Separate-git-dir</h4>
+<h4 id="separate-git-dir"><a class="anchor" href="#separate-git-dir"></a>3.9.5. Separate-git-dir</h4>
 <div class="paragraph">
 <p>Instead of placing the cloned repository where it is supposed to be, place the cloned repository at the specified directory, then make a filesystem-agnostic Git symbolic link to there. The result is Git repository can be separated from working tree.</p>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="checkout"><a class="anchor" href="#checkout"></a>3.9. Checkout</h3>
+<h3 id="checkout"><a class="anchor" href="#checkout"></a>3.10. Checkout</h3>
 <div class="sect3">
-<h4 id="checkout-a-file-from-a-different-branch"><a class="anchor" href="#checkout-a-file-from-a-different-branch"></a>3.9.1. Checkout a file from a different branch</h4>
+<h4 id="checkout-a-file-from-a-different-branch"><a class="anchor" href="#checkout-a-file-from-a-different-branch"></a>3.10.1. Checkout a file from a different branch</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git checkout &lt;other-branch-name&gt; -- path/to/your/folder</code></pre>
@@ -1712,9 +1766,9 @@ If you&#8217;re scrupulous, you can keep these uner control by always typing</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="push"><a class="anchor" href="#push"></a>3.10. Push</h3>
+<h3 id="push"><a class="anchor" href="#push"></a>3.11. Push</h3>
 <div class="sect3">
-<h4 id="to-push-all-branches-including-remote"><a class="anchor" href="#to-push-all-branches-including-remote"></a>3.10.1. To PUSH all branches (including remote)</h4>
+<h4 id="to-push-all-branches-including-remote"><a class="anchor" href="#to-push-all-branches-including-remote"></a>3.11.1. To PUSH all branches (including remote)</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git push --no-verify shared '*:*'</code></pre>
@@ -1726,7 +1780,7 @@ If you&#8217;re scrupulous, you can keep these uner control by always typing</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="pull-requests"><a class="anchor" href="#pull-requests"></a>3.11. Pull requests</h3>
+<h3 id="pull-requests"><a class="anchor" href="#pull-requests"></a>3.12. Pull requests</h3>
 <div class="paragraph">
 <p>If a pull request has conflicts (as detected by BitBucket for example), you should merge the branch onto master locally.</p>
 </div>
@@ -1761,7 +1815,7 @@ $ git push origin HEAD</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="reset"><a class="anchor" href="#reset"></a>3.12. Reset</h3>
+<h3 id="reset"><a class="anchor" href="#reset"></a>3.13. Reset</h3>
 <div class="paragraph">
 <p>This command is used for</p>
 </div>
@@ -1776,7 +1830,7 @@ $ git push origin HEAD</code></pre>
 </ol>
 </div>
 <div class="sect3">
-<h4 id="soft-move-head-to-target"><a class="anchor" href="#soft-move-head-to-target"></a>3.12.1. Soft: move HEAD to target</h4>
+<h4 id="soft-move-head-to-target"><a class="anchor" href="#soft-move-head-to-target"></a>3.13.1. Soft: move HEAD to target</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git reset --soft [SHA]</code></pre>
@@ -1793,7 +1847,7 @@ So the following is a NOP</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="mixed-copy-to-index"><a class="anchor" href="#mixed-copy-to-index"></a>3.12.2. Mixed: copy to index</h4>
+<h4 id="mixed-copy-to-index"><a class="anchor" href="#mixed-copy-to-index"></a>3.13.2. Mixed: copy to index</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git reset --mixed [SHA] // this is the default</code></pre>
@@ -1812,7 +1866,7 @@ So the following is a NOP</p>
 </div>
 </div>
 <div class="sect3">
-<h4 id="hard-copy-to-working-directory"><a class="anchor" href="#hard-copy-to-working-directory"></a>3.12.3. Hard: copy to working directory</h4>
+<h4 id="hard-copy-to-working-directory"><a class="anchor" href="#hard-copy-to-working-directory"></a>3.13.3. Hard: copy to working directory</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git reset --hard [SHA]</code></pre>
@@ -1836,7 +1890,7 @@ $ git reset --hard origin/master
 </div>
 </div>
 <div class="sect3">
-<h4 id="single-file-changes"><a class="anchor" href="#single-file-changes"></a>3.12.4. Single file changes</h4>
+<h4 id="single-file-changes"><a class="anchor" href="#single-file-changes"></a>3.13.4. Single file changes</h4>
 <div class="paragraph">
 <p>You can restore a file&#8217;s contents before a change with the following:</p>
 </div>
@@ -1920,9 +1974,9 @@ $ git reset --hard origin/master
 </div>
 </div>
 <div class="sect2">
-<h3 id="remote-repositories-2"><a class="anchor" href="#remote-repositories-2"></a>3.13. Remote Repositories</h3>
+<h3 id="remote-repositories-2"><a class="anchor" href="#remote-repositories-2"></a>3.14. Remote Repositories</h3>
 <div class="sect3">
-<h4 id="change-remote-url"><a class="anchor" href="#change-remote-url"></a>3.13.1. Change Remote URL</h4>
+<h4 id="change-remote-url"><a class="anchor" href="#change-remote-url"></a>3.14.1. Change Remote URL</h4>
 <div class="paragraph">
 <p>To change the address of your remote repository:</p>
 </div>
@@ -1994,13 +2048,13 @@ $ git reset --hard origin/master
 </div>
 </div>
 <div class="sect2">
-<h3 id="merging"><a class="anchor" href="#merging"></a>3.14. Merging</h3>
+<h3 id="merging"><a class="anchor" href="#merging"></a>3.15. Merging</h3>
 <div class="sect3">
-<h4 id="standard"><a class="anchor" href="#standard"></a>3.14.1. Standard</h4>
+<h4 id="standard"><a class="anchor" href="#standard"></a>3.15.1. Standard</h4>
 
 </div>
 <div class="sect3">
-<h4 id="overwriting-a-branch-make-that-like-this"><a class="anchor" href="#overwriting-a-branch-make-that-like-this"></a>3.14.2. Overwriting a Branch (make that like this)</h4>
+<h4 id="overwriting-a-branch-make-that-like-this"><a class="anchor" href="#overwriting-a-branch-make-that-like-this"></a>3.15.2. Overwriting a Branch (make that like this)</h4>
 <div class="paragraph">
 <p>(from: <a href="https://stackoverflow.com/questions/4624357/how-do-i-overwrite-rather-than-merge-a-branch-on-another-branch-in-git)">Stack Overflow</a>)<br></p>
 </div>
@@ -2037,7 +2091,7 @@ $ git merge --ff-only $(git commit-tree -m "Throw away branch 'A'" -p A -p B B^{
 </div>
 </div>
 <div class="sect3">
-<h4 id="conflicts"><a class="anchor" href="#conflicts"></a>3.14.3. Conflicts</h4>
+<h4 id="conflicts"><a class="anchor" href="#conflicts"></a>3.15.3. Conflicts</h4>
 <div class="sect4">
 <h5 id="resolve-easyobvious-conflicts"><a class="anchor" href="#resolve-easyobvious-conflicts"></a>Resolve easy/obvious conflicts</h5>
 <div class="olist arabic">
@@ -2174,7 +2228,7 @@ $ git add _widget.html.erb</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="updating-submodules"><a class="anchor" href="#updating-submodules"></a>3.15. Updating Submodules</h3>
+<h3 id="updating-submodules"><a class="anchor" href="#updating-submodules"></a>3.16. Updating Submodules</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -2210,9 +2264,9 @@ Submodule path 'DbConnector': checked out 'd0354fc054692d3906c85c3af05ddce39a1c0
 </div>
 </div>
 <div class="sect2">
-<h3 id="rebase"><a class="anchor" href="#rebase"></a>3.16. Rebase</h3>
+<h3 id="rebase"><a class="anchor" href="#rebase"></a>3.17. Rebase</h3>
 <div class="sect3">
-<h4 id="general-safe-method"><a class="anchor" href="#general-safe-method"></a>3.16.1. General "Safe" Method</h4>
+<h4 id="general-safe-method"><a class="anchor" href="#general-safe-method"></a>3.17.1. General "Safe" Method</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -2259,7 +2313,7 @@ return to rebased branch:<br>
 </div>
 </div>
 <div class="sect3">
-<h4 id="backing-out-or-dry-run"><a class="anchor" href="#backing-out-or-dry-run"></a>3.16.2. Backing Out or Dry Run</h4>
+<h4 id="backing-out-or-dry-run"><a class="anchor" href="#backing-out-or-dry-run"></a>3.17.2. Backing Out or Dry Run</h4>
 <div class="paragraph">
 <p>If you think all should work without any conflicts then this will revert if it comes across any conflicts</p>
 </div>
@@ -2298,25 +2352,25 @@ $ git rebase other-branch</pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="reusing-previous-conflict-resolutions"><a class="anchor" href="#reusing-previous-conflict-resolutions"></a>3.16.3. Reusing Previous Conflict Resolutions</h4>
+<h4 id="reusing-previous-conflict-resolutions"><a class="anchor" href="#reusing-previous-conflict-resolutions"></a>3.17.3. Reusing Previous Conflict Resolutions</h4>
 <div class="paragraph">
 <p>See <a href="https://git-scm.com/book/en/v2/Git-Tools-Rerere">git-scm</a> on <code>rerere</code></p>
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="rebase-onto"><a class="anchor" href="#rebase-onto"></a>3.17. Rebase "--onto"</h3>
+<h3 id="rebase-onto"><a class="anchor" href="#rebase-onto"></a>3.18. Rebase "--onto"</h3>
 <div class="paragraph">
 <p>You add <code>--onto</code> to the rebase command if you want to move the brnach to a different branch from where it was started. See ProGit 2nd Edition page 70</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="squashing"><a class="anchor" href="#squashing"></a>3.18. Squashing</h3>
+<h3 id="squashing"><a class="anchor" href="#squashing"></a>3.19. Squashing</h3>
 <div class="paragraph">
 <p>There&#8217;s a good article <a href="https://www.freecodecamp.org/news/git-squash-commits/">here</a></p>
 </div>
 <div class="sect3">
-<h4 id="when-merging"><a class="anchor" href="#when-merging"></a>3.18.1. When Merging</h4>
+<h4 id="when-merging"><a class="anchor" href="#when-merging"></a>3.19.1. When Merging</h4>
 <div class="paragraph">
 <p>A common case is to merge a branch and squash the commits so ony the result is preserved. This is done simply by adding the <code>squash</code> switch as shown here</p>
 </div>
@@ -2329,7 +2383,7 @@ $ git commit</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="squash-commits-in-one-branch"><a class="anchor" href="#squash-commits-in-one-branch"></a>3.18.2. Squash Commits in one branch</h4>
+<h4 id="squash-commits-in-one-branch"><a class="anchor" href="#squash-commits-in-one-branch"></a>3.19.2. Squash Commits in one branch</h4>
 <div class="paragraph">
 <p>If you have a branch of commits, and you want to squash a number of them into one, we can do that by effectively moving the branch pointer back and the re-commiting all the changes in one go.</p>
 </div>
@@ -2362,9 +2416,9 @@ $ git commit -m 'squash commit from A to X'</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="hints-tips"><a class="anchor" href="#hints-tips"></a>3.19. Hints &amp; Tips</h3>
+<h3 id="hints-tips"><a class="anchor" href="#hints-tips"></a>3.20. Hints &amp; Tips</h3>
 <div class="sect3">
-<h4 id="standard-2"><a class="anchor" href="#standard-2"></a>3.19.1. Standard</h4>
+<h4 id="standard-2"><a class="anchor" href="#standard-2"></a>3.20.1. Standard</h4>
 <div class="sect4">
 <h5 id="revert-part-of-a-file"><a class="anchor" href="#revert-part-of-a-file"></a>Revert part of a file</h5>
 <div class="paragraph">
@@ -2416,11 +2470,11 @@ $ git checkout -p .</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="advanced"><a class="anchor" href="#advanced"></a>3.19.2. Advanced</h4>
+<h4 id="advanced"><a class="anchor" href="#advanced"></a>3.20.2. Advanced</h4>
 
 </div>
 <div class="sect3">
-<h4 id="workflow"><a class="anchor" href="#workflow"></a>3.19.3. Workflow</h4>
+<h4 id="workflow"><a class="anchor" href="#workflow"></a>3.20.3. Workflow</h4>
 <div class="sect4">
 <h5 id="revisiting-a-feature-branch"><a class="anchor" href="#revisiting-a-feature-branch"></a>Revisiting a feature branch</h5>
 <div class="paragraph">
@@ -2514,7 +2568,13 @@ $ git checkout -p .</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="bare-repositories"><a class="anchor" href="#bare-repositories"></a>3.19.4. Bare Repositories</h4>
+<h4 id="how-to-undo-almost-anything"><a class="anchor" href="#how-to-undo-almost-anything"></a>3.20.4. How to undo almost anything</h4>
+<div class="paragraph">
+<p><a href="https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/" class="bare">https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/</a></p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="bare-repositories"><a class="anchor" href="#bare-repositories"></a>3.20.5. Bare Repositories</h4>
 <div class="sect4">
 <h5 id="change-the-active-branch"><a class="anchor" href="#change-the-active-branch"></a>Change the active branch</h5>
 <div class="listingblock">
@@ -3317,10 +3377,18 @@ $ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)<
 </div>
 </div>
 <div class="sect2">
-<h3 id="list-remote-git-branches-by-author-sorted-by-committer-date"><a class="anchor" href="#list-remote-git-branches-by-author-sorted-by-committer-date"></a>6.17. List remote Git branches by author, sorted by committer date:</h3>
+<h3 id="list-remote-git-branches-by-author-sorted-by-commit-date"><a class="anchor" href="#list-remote-git-branches-by-author-sorted-by-commit-date"></a>6.17. List remote Git branches by author, sorted by commit date:</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate</code></pre>
+</div>
+</div>
+<div class="sect3">
+<h4 id="fields-available-for-format"><a class="anchor" href="#fields-available-for-format"></a>6.17.1. Fields available for 'format'</h4>
+<div class="listingblock">
+<div class="content">
+<pre></pre>
+</div>
 </div>
 </div>
 </div>
@@ -4537,7 +4605,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-07-18 09:33:19 +0100
+Last updated 2024-08-12 09:05:14 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
