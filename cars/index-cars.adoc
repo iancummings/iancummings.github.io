@@ -1,0 +1,20 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Cars
+
+== Fabia Mk4
+
+=== Service Intervals
+==== Ask the car
+Follow these instructions to see when a service is actually due:
+
+1. Go into the car and turn on the infotainment,
+1. Get to the menu screen and click on Vehicle,
+1. Click on the bottom right of the screen where it says settings,
+1. Scroll down to the section titled ‘Service’ +
+This will display when the next one is due.

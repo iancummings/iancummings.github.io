@@ -1,0 +1,16 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Google
+
+== GMail
+Joined 17th September 2004
+
+=== Searching
+
+* `after:2004/1/25 before:2005/1/26`
+* `to:lockergnome`

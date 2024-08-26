@@ -1,0 +1,41 @@
+:toc: left
+:toclevels: 6
+:toc-title: Contents
+
+:imagesdir: ../images
+include::../custom-attributes.adoc[]
+:numbered:
+
+= Miscellany
+:!Author:    Ian Cummings
+:Date:      August 2024
+:Revision:  V0.1
+
+== Trump
+=== Lies
+* Democrats are 'allowing abortion in the ninth month'
+* inflation has been the worst it’s been in 100 years
+* nobody died that day” on January 6, 2021, when his supporters stormed the US Capitol, pointing out that four people lost their lives including a Trump supporter who was shot by police.
+
+=== Incredible Quotations
+* Trump said he ‘didn’t know’ Harris was black and said she ‘was Indian all the way and then all of a sudden, she made a turn and she went, she became a black person’. This is inaccurate. Harris, born of Jamaican and Indian immigrants, has identified as a black woman who grew up in a multicultural household.”
+
+== Tommy Robinson
+=== Convictions etc
+2005: Jailed for assault occasioning actual bodily harm (12 months)
+
+2011: Community order for football brawl (12 months)
+
+2013: Travelling on another man's passport to the USA (jailed for 10 months)
+
+2014: Mortgage fraud (jailed for 18 months)
+
+May 2017: Contempt of Court finding, three months jail suspended for 18 months
+
+July 2019: Jailed for nine months for interfering with a grooming gang trial in Leeds.
+
+July 2021: Loses defamation case and ordered to pay Syrian refugee £100,000
+
+July 2024: Fails to attend Contempt of Court hearing for allegedly repeating false claims about the refugee
+
+Other offences: Possession of drugs, threatening behaviour and breach of court order

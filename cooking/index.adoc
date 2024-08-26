@@ -26,6 +26,7 @@
 * link:spiced-prawns-tomatoes-delia.html[Spicy Prawns]
 * link:tuna-pasta.html[Tuna Pasta1]
 * link:healthy-tuna-pasta.html[Tuna Pasta2]
+* link:one-pot-smoked-haddock-and-curried-coconut-rice.html[one-pot-smoked-haddock-and-curried-coconut-rice]
 
 == Gousto
 1. link:Beef-Black-Bean-Burrito-Bowl_Gousto.pdf[Beef & Black bean Burrito Bowl]
