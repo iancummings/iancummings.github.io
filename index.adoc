@@ -23,6 +23,7 @@
 * link:online/domains.html[Domains & Sub-Domains]
 * link:portuguese/index.html[Portugese]
 * link:goodhartway/index.html[Goodhart Way]
+* link:google-services.html[Google Apps]
 
 == Work
 * link:don7/index.html[don7]
@@ -40,7 +41,7 @@
 
 == Technology
 
-* link:technology/netorks.html[Networks]
+* link:technology/networks.html[Networks]
 
 == What 3 Words
 
