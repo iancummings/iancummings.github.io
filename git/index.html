@@ -740,7 +740,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git config --system user.name "Ian Cummings"
-
+part of a st
 $ git config --system user.email ian.cummings@misc-email.co.uk
 
 $ git config --global mergetool.[tool].path "c:\Programs Files\...."
@@ -1538,8 +1538,20 @@ To edit the description of a branch other than the current one, use<br>
 <h4 id="apply-part-of-a-stash"><a class="anchor" href="#apply-part-of-a-stash"></a>3.5.4. Apply part of a stash</h4>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git checkout -p stash@{0}</code></pre>
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git checkout -p stash@{0} -- &lt;filename&gt;</code></pre>
 </div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+You can also do this with a list or a glob of filenames
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>Why does it work?<br>
@@ -4605,7 +4617,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-08-12 09:05:14 +0100
+Last updated 2024-09-04 15:28:01 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
