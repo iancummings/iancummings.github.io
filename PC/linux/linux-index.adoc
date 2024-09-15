@@ -7,15 +7,36 @@
 
 = Linux
 
+== Install Brave on Ubunu etc
+
 https://brave.com/linux/
 
-Debian, Ubuntu, Mint 
-sudo apt install curl
+Debian, Ubuntu, Mint:
 
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+ sudo apt install curl
 
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+ sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
 
-sudo apt update
+ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
 
-sudo apt install brave-browser
+ sudo apt update
+
+ sudo apt install brave-browser
+
+
+
+== Upgrade Ubuntu to latest Version
+The basic workflow of a successful release upgrade is this:
+
+1. Backup your data.
+1. Return your system to as close to stock install as possible. Disable all non-Ubuntu sources, and uninstall all the packages that came from those sources.
+1. Run a final sudo apt update and sudo apt upgrade. Fix ALL errors. Release-upgrades rarely fix package errors, but often make those errors worse.
+1. [Optional] Prepare a LiveUSB installer. The "Try Ubuntu" environment is invaluable for fixing upgrade problems.
+1. Run the release-upgrade. do-release-upgrade. Make sure you are on mains power (not battery), and on a reliable and fast network connection. Allow plenty of time (1-2 hours). Check the screen every few minutes -- the upgrader might pause awaiting your answer to a question.
+1. Reboot into the newly-upgraded release of Ubuntu. Test your functions: Stream a movie to test your network, video, and audio. Test printing, webcam, microphone.
+1. Review all of your add-on sources and applications. Some might be in the Ubuntu repositories now (no new source needed). Some might be no longer needed at all. Some sources might be incompatible with the new release of Ubuntu. Reinstall your add-on applications from trusted, compatible sources. Keep notes on what you added, and from where -- it really helps Step #2 next time.
+1. Your data should be untouched by the upgrade. Check that your data is compatible with the new versions of your applications.
+
+The most common problem encountered during a release-upgrade is NOT lost/corrupted data. The most common problem encountered is a package version conflict. Steps #2 and #7 might seem like a lot of work, but that's how you prevent the most common problem. DON'T skip these steps or take shortcuts.
+
+If something goes very badly wrong, Steps #1 and #4 ensure that you can rebuild a working system from bare metal with all your data intact. Being prepared for problems is the best way to ensure that you don't encounter those problems.

@@ -418,34 +418,100 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
-<body class="article">
+<body class="article toc2 toc-left">
 <div id="header">
 <h1>Linux</h1>
+<div id="toc" class="toc2">
+<div id="toctitle">Contents</div>
+<ul class="sectlevel1">
+<li><a href="#trueinstall-brave-on-ubunu-etc">1. Install Brave on Ubunu etc</a></li>
+<li><a href="#trueupgrade-ubuntu-to-latest-version">2. Upgrade Ubuntu to latest Version</a></li>
+</ul>
+</div>
 </div>
 <div id="content">
+<div class="sect1">
+<h2 id="trueinstall-brave-on-ubunu-etc"><a class="anchor" href="#trueinstall-brave-on-ubunu-etc"></a>1. Install Brave on Ubunu etc</h2>
+<div class="sectionbody">
 <div class="paragraph">
 <p><a href="https://brave.com/linux/" class="bare">https://brave.com/linux/</a></p>
 </div>
 <div class="paragraph">
-<p>Debian, Ubuntu, Mint
-sudo apt install curl</p>
+<p>Debian, Ubuntu, Mint:</p>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sudo apt install curl</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sudo apt update</pre>
+</div>
+</div>
+<div class="literalblock">
+<div class="content">
+<pre>sudo apt install brave-browser</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="trueupgrade-ubuntu-to-latest-version"><a class="anchor" href="#trueupgrade-ubuntu-to-latest-version"></a>2. Upgrade Ubuntu to latest Version</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>The basic workflow of a successful release upgrade is this:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Backup your data.</p>
+</li>
+<li>
+<p>Return your system to as close to stock install as possible. Disable all non-Ubuntu sources, and uninstall all the packages that came from those sources.</p>
+</li>
+<li>
+<p>Run a final sudo apt update and sudo apt upgrade. Fix ALL errors. Release-upgrades rarely fix package errors, but often make those errors worse.</p>
+</li>
+<li>
+<p>[Optional] Prepare a LiveUSB installer. The "Try Ubuntu" environment is invaluable for fixing upgrade problems.</p>
+</li>
+<li>
+<p>Run the release-upgrade. do-release-upgrade. Make sure you are on mains power (not battery), and on a reliable and fast network connection. Allow plenty of time (1-2 hours). Check the screen every few minutes&#8201;&#8212;&#8201;the upgrader might pause awaiting your answer to a question.</p>
+</li>
+<li>
+<p>Reboot into the newly-upgraded release of Ubuntu. Test your functions: Stream a movie to test your network, video, and audio. Test printing, webcam, microphone.</p>
+</li>
+<li>
+<p>Review all of your add-on sources and applications. Some might be in the Ubuntu repositories now (no new source needed). Some might be no longer needed at all. Some sources might be incompatible with the new release of Ubuntu. Reinstall your add-on applications from trusted, compatible sources. Keep notes on what you added, and from where&#8201;&#8212;&#8201;it really helps Step #2 next time.</p>
+</li>
+<li>
+<p>Your data should be untouched by the upgrade. Check that your data is compatible with the new versions of your applications.</p>
+</li>
+</ol>
 </div>
 <div class="paragraph">
-<p>sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg <a href="https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg" class="bare">https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg</a></p>
+<p>The most common problem encountered during a release-upgrade is NOT lost/corrupted data. The most common problem encountered is a package version conflict. Steps #2 and #7 might seem like a lot of work, but that&#8217;s how you prevent the most common problem. DON&#8217;T skip these steps or take shortcuts.</p>
 </div>
 <div class="paragraph">
-<p>echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] <a href="https://brave-browser-apt-release.s3.brave.com/" class="bare">https://brave-browser-apt-release.s3.brave.com/</a> stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list</p>
+<p>If something goes very badly wrong, Steps #1 and #4 ensure that you can rebuild a working system from bare metal with all your data intact. Being prepared for problems is the best way to ensure that you don&#8217;t encounter those problems.</p>
 </div>
-<div class="paragraph">
-<p>sudo apt update</p>
 </div>
-<div class="paragraph">
-<p>sudo apt install brave-browser</p>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-15 10:36:14 GMTDT
+Last updated 2024-09-15 10:55:13 GMTDT
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
