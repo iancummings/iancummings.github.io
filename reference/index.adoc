@@ -83,6 +83,19 @@ When working with third-party storage apps, you should be aware that theses apps
 == Cars
 link:cars.html[Here]
 
+== Clothes sizes
+
+=== me
+
+* Uniqlo: medium
+
+=== Gilli
+
+* Uniqlo:
+* Seasalt:
+
+
+
 == Financial
 
 === Vitality Claim
