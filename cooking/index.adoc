@@ -7,12 +7,22 @@
 
 = Cooking
 
-== Dishes I can actually cook and people like
+== Dishes I can cook and people like
 * Chicken Passanda
 * Asian Chicken burgers
 * Chilli
 * jacket potatoes
 * Beef & black bean burrito bowl
+* Easy Turkey & Corn Chilli with Tortilla Chips
+* enchiladas
+* jacket potatoes
+* sausages & grains
+* cheesy floret & pasta bake
+* Only Gilli & I
+** cod,mash,pesto
+** spicy prawns
+** curried chick peas
+
 
 
 == Under 30mins
@@ -36,6 +46,7 @@
 1. One-pot creamy Sun-dried Tomato & Chicken Stew
 1. Zingy Thai Coconut Chicken Wraps
 1. link:10-min-smoky-spanish-chicken-rice.html[10min Smoky Spanish Chicken & rice]
+1. link:https://www.gousto.co.uk/cookbook/recipes/crispy-fried-chicken-breast-burger-fries-garlic-mayo[Crispy Fried Chicken Breast Burger, Fries And Garlic Mayo]
 
 == Waitrose
 1. Chicken Jolloff
