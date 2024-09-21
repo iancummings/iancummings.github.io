@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="generator" content="Asciidoctor 2.0.18">
-<title>C++</title>
+<title>Code Snippets</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
@@ -439,108 +439,101 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
-<h1>C++</h1>
+<h1>Code Snippets</h1>
 <div id="toc" class="toc2">
 <div id="toctitle">Contents</div>
 <ul class="sectlevel1">
-<li><a href="#versions">1. Versions</a></li>
+<li><a href="#how-do-you-add-a-stack-trace-in-a-c-program">1. How do you add a stack trace in a C++ program?</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
-<div id="preamble">
-<div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p><a href="code-snippets.html">Code snippets</a></p>
-</li>
-</ul>
-</div>
-</div>
-</div>
 <div class="sect1">
-<h2 id="versions"><a class="anchor" href="#versions"></a>1. Versions</h2>
+<h2 id="how-do-you-add-a-stack-trace-in-a-c-program"><a class="anchor" href="#how-do-you-add-a-stack-trace-in-a-c-program"></a>1. How do you add a stack trace in a C++ program?</h2>
 <div class="sectionbody">
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 33.3333%;">
-<col style="width: 33.3333%;">
-<col style="width: 33.3334%;">
-</colgroup>
-<thead>
+<div class="paragraph">
+<p>From <a href="https://www.quora.com/How-do-you-add-a-stack-trace-in-a-C-program">Quora</a></p>
+</div>
+<div class="paragraph">
+<p>To add a stack trace in a C++ program, you can use the backtrace() and backtrace_symbols() functions from the execinfo.h header. Here&#8217;s an example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-cpp hljs" data-lang="cpp">#include &lt;iostream&gt;
+#include &lt;execinfo.h&gt;
+#include &lt;cxxabi.h&gt;
+#include &lt;cstdlib&gt;
+
+void print_stacktrace() {
+    void *array[10];
+    size_t size;
+    char **strings;
+    size_t i;
+
+    size = backtrace(array, 10);
+    strings = backtrace_symbols(array, size);
+
+    std::cerr &lt;&lt; "Stacktrace:" &lt;&lt; std::endl;
+    for (i = 0; i &lt; size; i++) {
+        int status;
+        char *demangled = abi::__cxa_demangle(strings[i], NULL, NULL, &amp;status);
+        if (status == 0) {
+            std::cerr &lt;&lt; "  " &lt;&lt; demangled &lt;&lt; std::endl;
+            free(demangled);
+        } else {
+            std::cerr &lt;&lt; "  " &lt;&lt; strings[i] &lt;&lt; std::endl;
+        }
+    }
+    free(strings);
+}
+
+int main() {
+    print_stacktrace();
+    return 0;
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Here&#8217;s how it works:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>The <code>backtrace()</code> function captures the current call stack and stores it in the array variable.</p>
+</li>
+<li>
+<p>The <code>backtrace_symbols()</code> function converts the raw addresses in the array to human-readable symbol names (function names, file names, and line numbers).</p>
+</li>
+<li>
+<p>The <code>abi::__cxa_demangle()</code> function is used to demangle the C++ function names, making them more readable.</p>
+</li>
+<li>
+<p>The stack trace is then printed to <code>std::cerr</code> (the standard error stream).
+This code will print the current stack trace when the <code>print_stacktrace()</code> function is called, which in this example is from the main() function.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Note that this approach works on Unix-like systems (e.g., Linux, macOS) that provide the execinfo.h header. On Windows, you can use the <code>StackWalk64()</code> function from the Windows SDK to achieve a similar effect.</p>
+</div>
+<div class="admonitionblock note">
+<table>
 <tr>
-<th class="tableblock halign-left valign-top">Version</th>
-<th class="tableblock halign-left valign-top">Release Date</th>
-<th class="tableblock halign-left valign-top">Major changes</th>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+see also <a href="https://en.cppreference.com/w/cpp/utility/basic_stacktrace">std::backtrace</a>
+</td>
 </tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++98 (ISO/IEC 14882:1998)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">October 1998</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">The first version</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++03 (ISO/IEC 14882:2003)</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">February 2003</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Introduction of value initialization.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++11</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">August 2011</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Introduction of Lambda Expressions, Delegating Constructors, Uniform Initialization Syntax, nullptr, Automatic Type Deduction and decltype, Rvalue References etc.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++14</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">August 2014</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Introduction of polymorphic lambdas, digit separators, generalized lambda capture, variable templates, binary integer literals, quoted strings etc.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++17</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">December 2017</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Introduction of fold expressions, hexadecimal floating point literals, a u8 character literal, selection statements with initializer, inline variables etc.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++20</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">March 2020</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">This update extends C++ with the facilities to inspect program entities such as variables, enumerations, classes and their members, lambdas and their captures, etc.</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++23</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">Future Release</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">The next major revision of the C++ standard</p></td>
-</tr>
-</tbody>
 </table>
-<table class="tableblock frame-all grid-all stretch">
-<colgroup>
-<col style="width: 50%;">
-<col style="width: 50%;">
-</colgroup>
-<thead>
-<tr>
-<th class="tableblock halign-left valign-top">Visual Studio version</th>
-<th class="tableblock halign-left valign-top">C++ version</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">VS2015</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">mainly C14 (a couple of C17)</p></td>
-</tr>
-<tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">VS2022</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">C++20</p></td>
-</tr>
-</tbody>
-</table>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-09-19 13:54:52 +0100
+Last updated 2024-09-19 13:57:12 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>

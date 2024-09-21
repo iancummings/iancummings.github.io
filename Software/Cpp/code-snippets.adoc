@@ -1,0 +1,63 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Code Snippets
+
+
+== How do you add a stack trace in a C++ program?
+
+From link:https://www.quora.com/How-do-you-add-a-stack-trace-in-a-C-program[Quora]
+
+To add a stack trace in a C++ program, you can use the backtrace() and backtrace_symbols() functions from the execinfo.h header. Here's an example:
+
+[source,cpp]
+----
+#include <iostream> 
+#include <execinfo.h> 
+#include <cxxabi.h> 
+#include <cstdlib> 
+ 
+void print_stacktrace() { 
+    void *array[10]; 
+    size_t size; 
+    char **strings; 
+    size_t i; 
+ 
+    size = backtrace(array, 10); 
+    strings = backtrace_symbols(array, size); 
+ 
+    std::cerr << "Stacktrace:" << std::endl; 
+    for (i = 0; i < size; i++) { 
+        int status; 
+        char *demangled = abi::__cxa_demangle(strings[i], NULL, NULL, &status); 
+        if (status == 0) { 
+            std::cerr << "  " << demangled << std::endl; 
+            free(demangled); 
+        } else { 
+            std::cerr << "  " << strings[i] << std::endl; 
+        } 
+    } 
+    free(strings); 
+} 
+ 
+int main() { 
+    print_stacktrace(); 
+    return 0; 
+}
+----
+
+Here's how it works:
+
+1. The `backtrace()` function captures the current call stack and stores it in the array variable.
+1. The `backtrace_symbols()` function converts the raw addresses in the array to human-readable symbol names (function names, file names, and line numbers).
+1. The `abi::__cxa_demangle()` function is used to demangle the C++ function names, making them more readable.
+1. The stack trace is then printed to `std::cerr` (the standard error stream).
+This code will print the current stack trace when the `print_stacktrace()` function is called, which in this example is from the main() function.
+
+Note that this approach works on Unix-like systems (e.g., Linux, macOS) that provide the execinfo.h header. On Windows, you can use the `StackWalk64()` function from the Windows SDK to achieve a similar effect.
+
+NOTE: see also link:https://en.cppreference.com/w/cpp/utility/basic_stacktrace[std::backtrace]
