@@ -92,7 +92,7 @@ link:cars.html[Here]
 === Gilli
 
 * Uniqlo:
-* Seasalt:
+* Seasalt: 14
 
 
 
@@ -106,3 +106,6 @@ link:cars.html[Here]
 * link:trades.html[Trades]
 * paintbrushes; arrowworthy, paintwarrior, monic - 2.5inch angled
 * alcolhol - 1 unit contains 50kcal, so the same as half a biscuit (they are typically 75-120kcal)
+* Interdental brushes +
+** blue = 0.6mm
+** yellow = 0.7mm
