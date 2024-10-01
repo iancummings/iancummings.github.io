@@ -12,7 +12,7 @@
 [%header]
 |===
 | Function | keystroke | Undo
-| Move code | ALT UP | ALT DOWN
+| Move code | ALT *UP* | ALT *DOWN*
 | Create fold | CTRL + *M* + *H* | CTRL + *M* + *U*
 | Comment code block | CTRL + *K* + *C* | CTRL + *K* + *U*
 | Navigate locations | CTRL + *MINUS* | CTRL + SHIFT + *MINUS*
