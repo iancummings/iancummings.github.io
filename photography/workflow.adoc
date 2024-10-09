@@ -3,6 +3,8 @@
 :toc-title: Contents
 :numbered:
 
+:imagesdir: ./images
+
 = Workflow
 
 How to sort those images!
@@ -23,4 +25,4 @@ either to weed out complete duffers, or to select a few good ones
 1. when all images gone from the carousel, reset the filter just to show green picked and process - last minute edits if necessary
 1. Copy images from `processed` to other destination folders; __street__, __family__, _portfolio_ etc 
 
-
+image::workflow.drawio.png[]

@@ -213,6 +213,10 @@ Use the `certutil` program
 c:\> certutil -hashfile <filename> SHA256
 ----
 
+=== Stop Windows Suggesting Ways of Finishing Setting Up Your Computer
+
+Settings, System, Notifications & Actions, "Suggest ways..."
+
 == Online
 
 === Save a Video from Facebook
