@@ -122,6 +122,10 @@ Taken from https://www.nigella.com/recipes +
 
 == To Try
 
+1. link:simon-rimmers-salmon-coconut-curry.html[simon rimmers salmon coconut curry]
+
+2. Others
+
 * https://www.gousto.co.uk/blog/easy-dinner-recipes
 
 * https://www.gousto.co.uk/cookbook/chicken-recipes/paprika-chicken-with-tomato-coconut-dal
