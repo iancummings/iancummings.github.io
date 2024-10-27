@@ -30,7 +30,29 @@
 1. This will display when the next one is due.
 
 
-== Sam's Pump Sprayer Snow Foam
+== Snow Foam
+
+* Don't do it on hot days - will bubble and dry off too quickly
+* if lots of mud etc, then hose off, but then allow car to dry
+* start with dry car
+* spray foam along the length of car starting from bottom up - 3 feet away for a lance
+* leave on 5-10 mins - don't let it start drying (fill up normal contact wash buckets etc)
+* rinse off - top to bottom
+* wash car (2 bucket method)
+
+* 2 bucket method
+** 1 bucket wash, 1 bucket rinse
+use microfibre mitt, load from wash - wash car, rinse off in rinse bucket
+
+* lance should have metal gauze rather than plastic
+
+* autoglym, lance 400ml water, 100ml product -> lance container
+
+lance adaptor needs to fit your pressure washer +
+
+https://www.karchercenterjhs.co.uk/karcher-fj6-pressure-washer-snow-foam-lance-2.643-147.0#:~:text=Using%20the%20Karcher%20FJ%206,Gun%20and%20apply%20the%20foam.
+
+== Sam's Snow Foam Pump Sprayer 
 
 * link:https://www.samsdetailing.co.uk/collections/snow-foam-lances/products/pump-sprayer#dilutions[Dilutions]
 

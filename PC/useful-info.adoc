@@ -16,6 +16,7 @@ link:xps17.html[XPS 17 Info]
 
 * link:windows-generally.html[Generally]
 * link:windows-11.html[Windows 11]
+* link:xcopy.html[Using xcopy]
 
 == Spinrite
 link:spinrite.html[Here]

@@ -1,0 +1,44 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= xcopy
+
+https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/xcopy
+
+----
+xcopy <Source> [<Destination>]
+[/w]
+[/p]
+[/c]
+[/v]
+[/q]
+[/f]
+[/l]
+[/g]
+[/d [:MM-DD-YYYY]]
+[/u]
+[/i]
+[/s [/e]]
+[/t]
+[/k]
+[/r]
+[/h]
+[{/a | /m}]
+[/n]
+[/o]
+[/x]
+[/exclude:FileName1[+[FileName2]][+[FileName3]]]
+[{/y | /-y}]
+[/z]
+[/b]
+[/j]
+[/compress]
+----
+
+== Typical use
