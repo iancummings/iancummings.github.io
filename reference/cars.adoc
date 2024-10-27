@@ -62,52 +62,10 @@ https://www.karchercenterjhs.co.uk/karcher-fj6-pressure-washer-snow-foam-lance-2
 |====
 | | | Water | Nozzle
 | Snow Foam | 50ml | 1 litre | Black
-|
-Ceramic Foam
-
-50ml
-
-400ml 
-
-Black
-
-Wheel & Tyre Cleaner
-
-Ready For Use
-
-N/A
-
-Black or white
-
-Wheel Soap
-
-Ready For Use
-
-N/A
-
-Black
-
-Ceramic Boost
-
-Ready For Use
-
-N/A
-
-White
-
-Iron Reactor
-
-Ready For Use
-
-N/A
-
-White
-
-Exterior Detailer
-
-Ready For Use
-
-N/A
-
-White
+|Ceramic Foam | 50ml | 400ml | black
+| Wheel & Tyre Cleaner | Ready For Use | N/A | Black or white
+| Wheel Soap | Ready For Use | N/A | Black
+| Ceramic Boost | Ready For Use | N/A | White
+| Iron Reactor | Ready For Use | N/A | White
+| Exterior Detailer | Ready For Use | N/A | White
 |====
