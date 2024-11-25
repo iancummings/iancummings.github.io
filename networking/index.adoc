@@ -3,7 +3,7 @@
 :toc-title: Contents
 :sectnums:
 
-:imagesdir: ./images
+:imagesdir: ../images
 
 = Networking
 
@@ -12,6 +12,7 @@
 === Plusnet
 Router is at 192.168.1.254 +
 Subnet mask is 255.255.255.0 +
+
 
 ==== Reserved Devices
 printer 
@@ -47,6 +48,16 @@ WPA2
 * link:PlusnetHubManager-HubIPGatewayAddress.html[Gateway]
 * link:PlusnetHubManager-HomeNetwork-Devices.html[Devices]
 * link:PlusnetHubManager-DHCPTable.html[DHCP table]
+
+=== Gigaclear00872
+Router is Linksys MX5500 series and is at `192.168.1.1` with WAN `100.72.103.192`
+
+=== Devolo Magic Extenders
+
+* link:../images/devolo/lan.jpg[base unit 763]
+* link:../images/devolo/674.jpg[Wifi 674]
+* link:../images/****devolo/833.jpg[Wifi 833]
+
 
 == Reference
 
