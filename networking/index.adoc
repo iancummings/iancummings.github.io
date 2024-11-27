@@ -38,7 +38,7 @@ Printer 192.168.1.30? +
 
 Wireless +
 SSID "RoseyNet!" +
-5FE983373D3823658DB76D0738
+5FE9...
 
 
 Channel 6 +
