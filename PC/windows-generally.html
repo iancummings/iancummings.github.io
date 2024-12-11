@@ -485,12 +485,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#truehow-do-i-get-a-program-to-run-automatically-when-logged-in">5.1. How do I get a program to run automatically when logged in?</a></li>
 </ul>
 </li>
-<li><a href="#truestop-the-pc-restarting-after-updates">6. Stop the PC restarting after updates</a>
+<li><a href="#truewindows-updates-how-to-control-what-happens">6. Windows Updates - how to control what happens</a>
 <ul class="sectlevel2">
-<li><a href="#truemethod-1">6.1. Method 1</a></li>
+<li><a href="#truemethod-1-change-group-policy-editor-settings">6.1. Method 1 - Change Group Policy Editor settings</a></li>
 <li><a href="#truemethod-2-2">6.2. Method 2</a></li>
 <li><a href="#truemethod-3">6.3. Method 3</a></li>
-<li><a href="#truehome-edition">6.4. Home edition</a></li>
+<li><a href="#truemethod-4">6.4. Method 4</a></li>
+<li><a href="#truehome-edition">6.5. Home edition</a></li>
 </ul>
 </li>
 <li><a href="#trueexcel">7. Excel</a>
@@ -1116,10 +1117,54 @@ you would change it to<br>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truestop-the-pc-restarting-after-updates"><a class="anchor" href="#truestop-the-pc-restarting-after-updates"></a>6. Stop the PC restarting after updates</h2>
+<h2 id="truewindows-updates-how-to-control-what-happens"><a class="anchor" href="#truewindows-updates-how-to-control-what-happens"></a>6. Windows Updates - how to control what happens</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="truemethod-1"><a class="anchor" href="#truemethod-1"></a>6.1. Method 1</h3>
+<h3 id="truemethod-1-change-group-policy-editor-settings"><a class="anchor" href="#truemethod-1-change-group-policy-editor-settings"></a>6.1. Method 1 - Change Group Policy Editor settings</h3>
+<div class="paragraph">
+<p>From <a href="https://www.ninjaone.com/blog/4-ways-to-disable-windows-updates/">here</a></p>
+</div>
+<div class="paragraph">
+<p>Learning to stop Windows Updates through the Group Policy Editor is also helpful. Here’s how you can use this method:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p>Press the Windows key + R on your keyboard to open the Run dialog box.</p>
+</li>
+<li>
+<p>Type <code>gpedit.msc</code> and press Enter to open the Group Policy Editor.</p>
+</li>
+<li>
+<p>Navigate to “Computer Configuration” &gt; “Administrative Templates” &gt; “Windows Components” &gt; “Windows Update.”</p>
+</li>
+<li>
+<p>Double-click on “Configure Automatic Updates” to open the settings.</p>
+</li>
+<li>
+<p>Either<br></p>
+<div class="olist loweralpha">
+<ol class="loweralpha" type="a">
+<li>
+<p>Select the “Disabled” option to turn off automatic updates, or</p>
+</li>
+<li>
+<p>Select the “Enabled” option and configure from left hand drop down box.</p>
+</li>
+</ol>
+</div>
+</li>
+<li>
+<p>Click on “Apply” and then “OK” to save the changes.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>Using the Group Policy Editor allows you to have more granular control over Windows updates. You can choose to disable automatic updates entirely or configure specific update settings according to your preferences.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="truemethod-2-2"><a class="anchor" href="#truemethod-2-2"></a>6.2. Method 2</h3>
 <div class="paragraph">
 <p>From <a href="https://superuser.com/questions/1817039/disable-automatic-restarts-windows-11">here</a><br></p>
 </div>
@@ -1162,7 +1207,7 @@ you would change it to<br>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truemethod-2-2"><a class="anchor" href="#truemethod-2-2"></a>6.2. Method 2</h3>
+<h3 id="truemethod-3"><a class="anchor" href="#truemethod-3"></a>6.3. Method 3</h3>
 <div class="paragraph">
 <p>(from <a href="https://learn.microsoft.com/en-us/windows/deployment/update/waas-restart#registry-keys-used-to-manage-restart">Microsoft.com</a>)</p>
 </div>
@@ -1174,7 +1219,7 @@ you would change it to<br>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truemethod-3"><a class="anchor" href="#truemethod-3"></a>6.3. Method 3</h3>
+<h3 id="truemethod-4"><a class="anchor" href="#truemethod-4"></a>6.4. Method 4</h3>
 <div class="paragraph">
 <p>To block all updates, you can use this <a href="https://www.sordum.org/9470/windows-update-blocker-v1-8/">update blocker</a></p>
 </div>
@@ -1183,7 +1228,7 @@ you would change it to<br>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truehome-edition"><a class="anchor" href="#truehome-edition"></a>6.4. Home edition</h3>
+<h3 id="truehome-edition"><a class="anchor" href="#truehome-edition"></a>6.5. Home edition</h3>
 <div class="paragraph">
 <p>If you have Windows 11 Home edition, execute the following commands in a command prompt (not PowerShell) to install Group Policy Editor:</p>
 </div>
@@ -1212,7 +1257,7 @@ you would change it to<br>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-10-02 21:13:57 GMTDT
+Last updated 2024-12-11 20:07:58 GMTST
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">

@@ -21,6 +21,9 @@ link:xps17.html[XPS 17 Info]
 == Spinrite
 link:spinrite.html[Here]
 
+== Browsers
+link:browsers.html[Here]
+
 == Dropbox
 
 === Ignore a file or folder

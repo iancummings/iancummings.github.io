@@ -291,8 +291,25 @@ With the file location open, press the Windows logo key + R, type `shell:startup
 
 `C:\Users\Ian.Cummings\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`
 
-== Stop the PC restarting after updates
-=== Method 1
+== Windows Updates - how to control what happens
+=== Method 1 - Change Group Policy Editor settings
+From link:https://www.ninjaone.com/blog/4-ways-to-disable-windows-updates/[here]
+
+Learning to stop Windows Updates through the Group Policy Editor is also helpful. Here’s how you can use this method:
+
+1. Press the Windows key + R on your keyboard to open the Run dialog box.
+1. Type `gpedit.msc` and press Enter to open the Group Policy Editor.
+1. Navigate to “Computer Configuration” > “Administrative Templates” > “Windows Components” > “Windows Update.”
+1. Double-click on “Configure Automatic Updates” to open the settings.
+1. Either +
+a. Select the “Disabled” option to turn off automatic updates, or
+a. Select the “Enabled” option and configure from left hand drop down box.
+
+1. Click on “Apply” and then “OK” to save the changes.
+
+Using the Group Policy Editor allows you to have more granular control over Windows updates. You can choose to disable automatic updates entirely or configure specific update settings according to your preferences.
+
+=== Method 2
 From link:https://superuser.com/questions/1817039/disable-automatic-restarts-windows-11[here] +
 
 You can disable automatic restart after installing updates in the Group Policy Editor.
@@ -314,7 +331,7 @@ Possibly also set the below to "2" - notify only. +
          > Configure Automatic Update
 
 
-=== Method 2
+=== Method 3
 
 (from link:https://learn.microsoft.com/en-us/windows/deployment/update/waas-restart#registry-keys-used-to-manage-restart[Microsoft.com])
 
@@ -322,7 +339,7 @@ You don't seem to be able to stop them all the time, but you can stop them if th
 
 Use regedit and go to `HKLM\Software\Policies\Microsoft\Windows\WindowsUpdate\AU`, then set `NoAutoRebootWithLoggedOnUsers` to '1'
 
-=== Method 3
+=== Method 4
 To block all updates, you can use this link:https://www.sordum.org/9470/windows-update-blocker-v1-8/[update blocker]
 
 See link:https://www.makeuseof.com/windows-11-stop-automatic-updates/[this] page for details.

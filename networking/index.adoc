@@ -50,7 +50,8 @@ WPA2
 * link:PlusnetHubManager-DHCPTable.html[DHCP table]
 
 === Gigaclear00872
-Router is Linksys MX5500 series and is at `192.168.1.1` with WAN `100.72.103.192`
+Router is Linksys MX5500 series and is at `192.168.1.1` with WAN `100.72.103.192`. +
+Visible IP address on 1-Dec-2024 was `195.180.35.192`
 
 === Devolo Magic Extenders
 

@@ -1,0 +1,19 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Browsers
+
+== Chrome Family
+
+=== Finding Tabs
+* Search Tabs +
+CTRL + SHIFT + A
+
+* Goto last used tab +
+CTRL + SHIFT + A => <enter>
