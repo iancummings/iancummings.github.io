@@ -45,6 +45,8 @@ Type: CBNF 395 +
 Product No. 925034424-00 +
 SerialNo. 80340094 +
 
+link:fridge-fault.html[fault]
+
 == IP Private Addresses
 link:https://docs.microsoft.com/en-us/previous-versions/tn-archive/bb726995(v=technet.10)[]
 
