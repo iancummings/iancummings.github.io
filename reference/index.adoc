@@ -45,6 +45,46 @@ Type: CBNF 395 +
 Product No. 925034424-00 +
 SerialNo. 80340094 +
 
+Colour : Stainless steel +
+Manufacturer : Electrolux +
+Energy Rated A +
+Inspire Frost Free Fridge Freezer + 373l total
+Fridge gross capacity 251 litres (8.8 cu.ft.) +
+Freezer gross capacity 122 litres (4.3 cu.ft) (109l I think though?) +
+FridgeElectronic controls with LCD temperature display +
+Freestore temperature control +
+Larger capacity food storage space +
+Chiller compartment +
+Halogen lighting for better visibility +
+Space saver wine rack +
+2 adjustable glass shelves +
+Large capacity glide out salad drawer +
+Fridge door +
+1 door shelf +
+Bottle shelf +
+Full width covered dairy compartment +
+Removable egg tray +
+Freezer +
+Frost free +
+Fast freeze with automatic reset +
+4 freezer drawers, ice tray & freezing tray +
+Audible & visible high temperature warning signal +
+Reversible doors +
+Dimension: (H)2010 x (W)595 x (D)632mm +
+ENB40400X +
+
+
+
+=== Cooker
+
+
+=== Washing Machine
+
+
+=== Dishwasher
+
+
+
 link:fridge-fault.html[fault]
 
 == IP Private Addresses
