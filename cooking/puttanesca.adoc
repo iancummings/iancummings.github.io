@@ -1,0 +1,72 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+image:gnocchi-puttanesca.png[]
+link:https://www.waitrose.com/ecom/recipe/gnocchi-puttanesca[link]
+
+== Ingredients
+Serves: 4
+
+* 2 tbsp olive oil
+* 1 onion, _finely chopped_
+* 2 clove/s garlic, _crushed_
+* 5 anchovies, _drained and finely chopped_
+* 1 pinch chilli flakes
+* 1 tbsp nonpareille capers
+* 50g Kalamata olive, _pitted and halved_
+* 400g can Mutti Polpa Finely Chopped Tomatoes
+* 500g pack fresh gnocchi
+* ¼ x 25g pack basil, _leaves picked_
+* 25g Parmigiano Reggiano, _finely grated_
+
+== Method
+
+NOTE: use the Sauteuse pan
+
+1. Heat the oil in a large ovenproof frying or sauté pan over a medium-high heat. +
+a. Add the onion and fry for about 8 minutes until soft. +
+a. Add the garlic, anchovies and chilli flakes; fry for another 2 minutes. +
+*Meanwhile, bring a large saucepan of water to the boil.*
+
+1. Add the capers, olives and chopped tomatoes to the frying pan and cook gently for 10 minutes.
+a. While the sauce simmers, add the gnocchi to the saucepan of boiling water. Bring back to the boil and simmer for 3 minutes.  
+
+1. Preheat the grill to high. +
+a. Take the sauce off the heat and taste, adding plenty of freshly ground black pepper and a pinch of salt, if needed (remember the anchovies and capers are salty). +
+a. Drain the gnocchi and stir through the sauce with the basil leaves. +
+a. Sprinkle with the cheese and pop under the grill for 3-4 minutes until the cheese has melted and turned golden in places. 
+
+=== Ingredients for Spaghetti
+image::puttanesca-ingredients.png[]
+* 3 tbsp olive oil
+* 1 onion _finely chopped_
+* 2 large garlic cloves _crushed_
+* ½ tsp chilli flakes (optional)
+* 400g can chopped tomatoes
+* 5 anchovy fillets, _finely chopped_
+* 120g pitted black olives
+* 2 tbsp capers _drained_
+* 300g dried spaghetti
+* ½ small bunch of parsley _finely chopped_
+
+=== Method for Spaghetti
+NOTE: use the Sauteuse pan
+
+1. Heat the oil in a non-stick pan over a medium-low heat. Add the onion along with a generous pinch of salt and fry for 10 mins, or until soft. Add the garlic and chilli, if using, and cook for a further minute.
+
+1. Stir the tomatoes, anchovies, olives and capers into the onion, bring to a gentle simmer and cook, uncovered, for 15 mins. Season to taste.
+
+1. Meanwhile, bring a large pan of salted water to the boil. Cook the spaghetti following pack instructions, then drain and toss with the sauce and parsley.
+
+
+
+*Cook’s tip*
+Leftover capers? These are small pickled flower buds with a deliciously briny flavour. They’re great in buttery sauces to spoon over chicken or fish, or can be chopped and stirred through mayonnaise to spread in sandwiches.
+
+== Other links
+
+* https://www.theguardian.com/food/article/2024/jun/12/how-to-make-pasta-puttanesca-recipe-felicity-cloake
