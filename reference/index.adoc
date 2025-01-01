@@ -14,6 +14,17 @@ Temperature according to Ooni should be **400-450°C**, allow 20 minutes to get 
 
 It takes about an hour to cool down.
 
+== Microwave
+Panasonic NN-St479S BPQ
+
+|===
+| High | 900
+| Defrost | 270
+| Medium |600
+| Low | 440
+| Simmer | 250
+|===
+
 == Manuals & Instructions
 
 === USB Chargers
