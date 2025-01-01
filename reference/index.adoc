@@ -23,6 +23,7 @@ Panasonic NN-St479S BPQ
 | Medium |600
 | Low | 440
 | Simmer | 250
+| Turbo | 1000
 |===
 
 == Manuals & Instructions
