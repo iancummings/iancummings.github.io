@@ -22,7 +22,7 @@
 ** cod,mash,pesto
 ** spicy prawns
 ** curried chick peas
-* puttanesca
+* link:puttanesca.html[puttanesca]
 
 
 
@@ -89,7 +89,7 @@ or link:asian-chicken-burgers.html[here]
 
 1. link:mustard-chicken-mash.html[Mustard chicken & mash]
 1. link:chicken-pepper-jollof-rice.html[Chicken & pepper jollof rice]
-1. puttanesca link:../images/gnocchi-puttanesca001.jpg[front] & link:../images/gnocchi-puttanesca002.jpg[back]
+1. link:puttanesca.html[puttanesca] and  link:../images/gnocchi-puttanesca001.jpg[front] & link:../images/gnocchi-puttanesca002.jpg[back]
 
 
 
