@@ -25,7 +25,7 @@
 * link:portuguese/index.html[Portugese]
 * link:goodhartway/index.html[Goodhart Way]
 * link:google-services.html[Google Apps]
-* link:eateries/pubs.html[Eateries]
+* link:pubs.html[Eateries]
 
 == Work
 * link:don7/index.html[don7]
