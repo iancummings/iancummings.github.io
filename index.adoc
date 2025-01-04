@@ -26,6 +26,7 @@
 * link:goodhartway/index.html[Goodhart Way]
 * link:google-services.html[Google Apps]
 * link:pubs.html[Eateries]
+* link:books/books-index.html[Books]
 
 == Work
 * link:don7/index.html[don7]

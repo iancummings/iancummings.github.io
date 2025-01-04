@@ -355,3 +355,46 @@ Source: https://answers.microsoft.com/en-us/windows/forum/all/how-to-enable-the-
 == Excel
 === Insert more than one new row at once
 Select an empty row and repeatedly press "CTRL+"
+
+== VirtualBox
+=== Windows11 24H2
+This update seemed to prevent the VM from running the fast virtualisation. The green tutle was visible and hovering showed the that the "execution engine" wasn't "VT-x/AMD-v". +
+Check the fixes for last time; `Windows Security, Core Isolation, Memory Integrity = off`, and Windows Features (see below).
+
+It seems that this time the key to it all can possibly be viewed via the SystemInformation app. Look for **Virtualization-based security**. It should show "Not enabled" or similar rather than "running".
+
+I changed various settings to get to the point where VB would run "properly" including upgrading the version of VB and re-installing the Guest Additions (under Devices menu).
+
+image::Win11-VBox-Windows-Features.png[]
+
+I used the following web pages to help
+
+* https://itsfoss.com/uninstall-wsl/
+
+* https://support.microsoft.com/en-gb/windows/device-protection-in-windows-security-afa11526-de57-b1c5-599f-3a4c6a61c5e2
+
+* https://www.tomshardware.com/how-to/disable-vbs-windows-11
+
+* https://www.reddit.com/r/HyperV/comments/1cynf7l/update_to_windows_11_24h2_broke_my_hyperv_machines/
+
+* https://www.microsoft.com/en-us/download/details.aspx?id=53337&msockid=13b0c3c0643a65ea35acd1a6656264ad
+
+* https://answers.microsoft.com/en-us/windows/forum/all/script-that-disabled-some-windows-security/21b655b5-8fb0-4b24-8b5b-9e1758e6a419
+
+* https://gist.github.com/interference-security/18fdd6f50d71714c9d3283baed2fe74e
+
+* https://learn.microsoft.com/en-us/answers/questions/245071/disable-virtualization-based-security-without-disa
+
+* https://forums.virtualbox.org/viewtopic.php?t=112718
+
+* https://www.reddit.com/r/vmware/comments/dnzdmg/undo_bcdedit_create/
+
+'''
+
+* https://community.broadcom.com/vmware-cloud-foundation/discussion/windows-11-24h2-hsot-how-to-disable-virtual-based-security
+
+The last link here is probably the most useful. I set/cleared flags in at least two places in the registry, added a group Policy value and tried
+
+I think the thing that actaully worked was usig the DG Readiness tool from MS to disable _Device Guard_ and _Credential Guard_ - see link:dgreadiness_v3.6.zip[here] by running it with `-disable` option. Then you reboot and as it boots it asks you if you really want to do this.
+
+

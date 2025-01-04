@@ -1,0 +1,22 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Books
+
+== Goodreads Reviews
+
+//++++
+// include::some_file.html[]
+//++++
+
+++++
+<a href="https://www.goodreads.com/book/show/26122044-spectacles" style="float: left; padding-right: 20px"><img border="0" alt="Spectacles" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440416701l/26122044._SY160_.jpg" /></a><a href="https://www.goodreads.com/book/show/26122044-spectacles">Spectacles</a> by <a href="https://www.goodreads.com/author/show/5607488.Sue_Perkins">Sue  Perkins</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/7117278600">4 of 5 stars</a><br /><br />
+A generally light hearted journey through the life and times of Sue Perkins. I'll be honest, although her use of language is very clever/witty it started to slightly annoy me about a quarter of the way in. Happily about half way through I relaxed into it and enjoyed the rest of the book. It does reveal a slightly more haphazard, disorganised Sue Perkins than the one I thought I knew, but maybe things have been exaggerated for the listener's pleasure (she does say something like that at the beginning) so my impression may be incorrect.<br />Overall a good read especially if you're of the same generation and/or hail from south east London like me.
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/1269717-ian-cummings">View all my reviews</a>
+++++
