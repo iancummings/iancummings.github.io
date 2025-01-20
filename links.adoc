@@ -27,6 +27,13 @@ link:http://iancummings.x10.mx/images[]
 ** Basic: *data:text/html,<html contenteditable>*
 ** link:notepad.html[Notepad]
 
+* Spreadsheets
+** tax return information +
+`home\sheets\money\tax\Returns data 2003 onwards.xls`
+** joint income & expenditure
+** personal accounts and categorisations/provenance
+
+
 * Legacy/Reference
 ** http://iancummings.co.uk[iancummings.co.uk]
 ** http://icc-webroot.s3-website-us-east-1.amazonaws.com[Static Amazon]
