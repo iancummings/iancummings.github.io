@@ -5,10 +5,54 @@
 
 :imagesdir: ../images
 
-image:gnocchi-puttanesca.png[]
-link:https://www.waitrose.com/ecom/recipe/gnocchi-puttanesca[link]
 
-== Ingredients
+
+== Spaghetti 
+=== Ingredients
+Serves: 4
+
+* 2 tbsp olive oil
+* 1 onion, _finely chopped_
+* 2 clove/s garlic, _crushed_
+* 5 anchovies, _drained and finely chopped_
+* 1 pinch chilli flakes
+* 1 tbsp nonpareille capers
+* 100g Kalamata olive, _pitted and halved_
+* 400g can Mutti Polpa Finely Chopped Tomatoes
+* 270g spaghetti
+* ¼ x 25g pack basil, _leaves picked_
+* Parmigiano Reggiano to grates
+
+
+=== Method
+
+NOTE: use the Sauteuse pan
+
+1. Chop the onion & garlic
+
+1. Heat the oil in a non-stick pan over a medium-low heat. Add the onion along with a generous pinch of salt and fry for 10 mins, or until soft.
+
+1. Chop the anchovies & olives
+
+1. Put the kettle on for the spaghetti
+
+1. Add the garlic and chilli, if using, and cook for a further minute.
+
+1. Stir the tomatoes, anchovies, olives and capers into the onion, bring to a gentle simmer and cook, uncovered, for 15 mins. *Season to taste.*
+
+1. Meanwhile, bring a large pan of salted water to the boil. Cook the spaghetti following pack instructions, then drain and toss with the sauce and basil.
+
+
+
+*Cook’s tip*
+Leftover capers? These are small pickled flower buds with a deliciously briny flavour. They’re great in buttery sauces to spoon over chicken or fish, or can be chopped and stirred through mayonnaise to spread in sandwiches.
+
+== Gnocchi
+
+image:gnocchi-puttanesca.png[]
+link:https://www.waitrose.com/ecom/recipe/gnocchi-puttanesca[link for gnocchi variant]
+
+=== Ingredients
 Serves: 4
 
 * 2 tbsp olive oil
@@ -23,7 +67,7 @@ Serves: 4
 * ¼ x 25g pack basil, _leaves picked_
 * 25g Parmigiano Reggiano, _finely grated_
 
-== Method
+=== Method
 
 NOTE: use the Sauteuse pan
 
@@ -40,7 +84,9 @@ a. Take the sauce off the heat and taste, adding plenty of freshly ground black 
 a. Drain the gnocchi and stir through the sauce with the basil leaves. +
 a. Sprinkle with the cheese and pop under the grill for 3-4 minutes until the cheese has melted and turned golden in places. 
 
-=== Ingredients for Spaghetti
+== Spaghetti (again)
+
+=== Ingredients
 image::puttanesca-ingredients.png[]
 * 3 tbsp olive oil
 * 1 onion _finely chopped_
