@@ -69,6 +69,7 @@ V0.1, Oct 2022: A work in progress
 * link:macro.html[Macro]
 
 == Flash
+* link:yongnuo-flash-trigger.html[Yongnuo Flash Triggers]
 * link:flash-approaches.html[Approaches]
 * link:creative-speedlite.html[Creative speedlite]
 * link:dragging-the-shutter.html[Flash: dragging the shutter]

@@ -1,6 +1,39 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Equipment Rental
+:Author: Ian Cummings
+:Date: August 2017
+:Revision: V1.0
+
 = Product Photography
 
-== The set
+== Generally
+(from link:https://www.youtube.com/watch?v=xXqbID8M-10[here])
+
+* Study the product form
+** what are the important features to show (brand name, details, shape of product) ?
+** what are the different textures on the product - how differently will they reflect light?
+* Gradient lighting
+** We normally get "image forming reflections" from products; their surface will produce an image of the light source. Consequently this means that using a softbox is usually not teh best source and it will just show a large block of light; not flattering to the product.
+** so we use a "gradient light" that can be radial (circlular) or linear (straight) that has a brighter area and then soft fall off.
+// https://docs.asciidoctor.org/asciidoc/latest/macros/image-position/
+
+image::product-photography-gradient-lighting.png[lipsticks, align="center"]
+
+** the shape of the product is important, if it is circular and glossy it will refelct more of surrounding area and we will have to increase the size of the gradient lighting by moving the lighting source closer or use a large scrim etc.
+
+** Shooting tethered gives you the ability to see depth of field, lighting etc immediately
+*** it also slows you down and helps you adjust things as you go
+*** helps with focus stacking
+
+** Know your white values!
+*** When you want pure white backgrounds, 
+
+
+
+== The set for a low key image 
 Floor is black perspex, back is foamcore, a-clamped to a light stand
 
 == Tips
