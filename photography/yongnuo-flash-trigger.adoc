@@ -9,8 +9,9 @@
 
 = Yongnuo Flash Trigger Setup for Canon
 
-* link:https://www.youtube.com/watch?v=CNSQVf1n2K8[Steele Training YouTube Video]
 
+* link:https://www.youtube.com/watch?v=CNSQVf1n2K8[Steele Training YouTube Video]
+* Yongnuo YN-622C-TX & YN-622C II
 * Three TTL groups (A,B,C)
 * 100m range
 * HHS
