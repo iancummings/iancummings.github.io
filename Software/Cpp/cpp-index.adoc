@@ -8,6 +8,7 @@
 = C++
 
 * link:code-snippets.html[Code snippets]
+* link:cpp-types-h.html[types.h]
 
 == Versions
 
