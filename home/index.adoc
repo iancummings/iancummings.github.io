@@ -1,0 +1,55 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Start here?
+
+== Home
+* link:links.html[Links]
+
+* link:photography/index.html[Photography]
+
+* link:giffgaff-divert-codes.html[Phone codes]
+* link:PC/useful-info.html[PC stuff]
+** link:PC/linux/linux-index.html[Linux]
+* link:networking/index.html[Networking]
+* link:logical-fallacies.html[Logcal fallacies]
+* link:workouts/index.html[workouts]
+* link:cooking/index.html[Cooking]
+* link:reference/index.html[Reference]
+* link:diy/diy-index.html[DIY]
+* link:online/domains.html[Domains & Sub-Domains]
+* link:portuguese/index.html[Portugese]
+* link:goodhartway/index.html[Goodhart Way]
+* link:google-services.html[Google Apps]
+* link:pubs.html[Eateries]
+* link:books/books-index.html[Books]
+
+== What 3 Words
+
+
+[width="100%",options="header,footer"]
+|====
+| Place | w3w
+| Rosewood | link:https://w3w.co/ushering.tramps.nosedive[///ushering.tramps.nosedive] +
+link:https://w3w.co/bedroom.spearhead.conforms[///bedroom.spearhead.conforms]
+| Goodhart Way | link:https://w3w.co/retire.dinner.coach[///retire.dinner.coach]
+| Peter @ Wantage | link:https://w3w.co/taxed.wiggles.match[///taxed.wiggles.match]
+| Peter @ Newbury Grove | link:https://w3w.co/radio.vine.oppose[///radio.vine.oppose]
+link:https://w3w.co/active.sugars.obey[///active.sugars.obey]
+| Phabrix | link:https://w3w.co/dates.quietly.sedative[///dates.quietly.sedative]
+| Wendan Road | link:https://w3w.co/cove.tanks.door[///cove.tanks.door]
+|====
+
+== Wordle
+
+=== Starter words
+
+* water
+* pious
+
+== Notes 'n' stuff
+* link:scratchpad.html[Scratchpad]
