@@ -5,7 +5,7 @@
 
 :imagesdir: ../images
 
-image:Cheesy-floret-pasta-bake.png[]
+image:cheesy-floret-pasta-bake.png[]
 
 
 
