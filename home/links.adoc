@@ -29,10 +29,12 @@ link:http://iancummings.x10.mx/images[]
 
 * Spreadsheets
 ** tax return information +
-`home\sheets\money\tax\Returns data 2003 onwards.xls`
+`\home\sheets\money\tax\Returns data 2003 onwards.xls`
 ** joint income & expenditure
 ** personal accounts and categorisations/provenance +
 `\home\sheets\money\tax\savings-accounts-cummings.xlsx`
+** Pension +
+`\home\sheets\money\tax\pension contributions.xls`
 
 
 * Legacy/Reference
