@@ -165,6 +165,40 @@ link:cars.html[Here]
 === Music
 === Audiobooks
 
+== Horl
+horl2 diamond side about 320 or 420 grit, the diamond side is 1000 grit
+
+
+Coarse Dimond: 200
+Diamond: 420
+Ceramic: 1000
+Fine: 3000 (blue)
+Extra Fine: 6000 (white)
+Kagami: 8000,9000,10000 git ?
+
+600,1000, strop is all you need.
+
+first time using maybe 2-3 minutes each side? Afterwards a "handful"of passes each side.
+
+strop has different sides; rough & smooth
+
+
+do one side and look for a burr, flip and look for burr again
+
+1. 100 each side for 400 grit
+1. 30 for 1000 grit
+1. 1 minute each side blue, same for white, strop?
+
+
+strop 5-10 strokes one side, same on the other
+
+rubbing compounds? black - coarse, green, red - fine
+
+
+https://www.boroughkitchen.com/blogs/news/horl-knife-sharpener-review#:~:text=HORL%20knife%20sharpeners%20eliminate%20the,a%20quarter%20of%20the%20time.
+
+https://www.boroughkitchen.com/blogs/news/how-to-use-a-horl-knife-sharpener-for-the-perfect-edge
+
 
 == General Stuff
 * link:evs.html[EVs]

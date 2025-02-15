@@ -1,0 +1,40 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Health
+
+== PSA Test
+
+=== Before the test
+https://www.benendenhospital.org.uk/health-news/mens-health/dos-and-don-ts-before-a-psa-test/
+
+https://www.pcf.org/c/make-sure-your-psa-is-as-accurate-as-possible/
+
+NHS
+
+Preparing for a PSA test
+For 48 hours before your PSA test, do not:
+
+have anal sex
+ejaculate (come)
+do anything that leaves you out of breath, such as exercise
+These can increase your PSA levels which could make the test less accurate.
+
+You can eat and drink as usual before having a PSA test.
+
+The amount of PSA in your blood is measured in nanograms (a billionth of a gram) per millilitre of blood (ng/ml).
+
+For many men, normal PSA levels are usually less than 3ng/ml. But this will vary from person to person and depends on a lot of things including:
+
+your age
+your general health
+if you have any urinary symptoms
+if you are on any medication.
+Your doctor will tell you what your own PSA level should be.
+
+
+https://prostatecanceruk.org/prostate-information-and-support/prostate-tests/psa-blood-test
