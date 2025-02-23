@@ -85,6 +85,9 @@ I put up with this book, rather than enjoyed it.<br /><br />The central characte
 <a href="https://www.goodreads.com/review/list/1269717-ian-cummings">View all my reviews</a>
 ++++
 
+== Goodreads's Summary
+link:goodreads-summary.html[My books on Goodreads]
+
 == Slow Horses
 
 Slough House 0.5 – Reconstruction
