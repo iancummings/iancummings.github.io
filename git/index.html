@@ -586,7 +586,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel2">
 <li><a href="#go-to-a-sha">4.1. Go to a SHA</a></li>
 <li><a href="#find">4.2. "Find"</a></li>
-<li><a href="#search">4.3. Search</a></li>
+<li><a href="#search">4.3. Search</a>
+<ul class="sectlevel3">
+<li><a href="#searching-all-files-in-all-branches">4.3.1. Searching all files in all branches</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li><a href="#lfs">5. LFS</a>
@@ -2783,6 +2787,25 @@ Using the command line <code>gitk -S"&lt;search-text&gt;"</code> will find commi
 </tr>
 </table>
 </div>
+<div class="sect3">
+<h4 id="searching-all-files-in-all-branches"><a class="anchor" href="#searching-all-files-in-all-branches"></a>4.3.1. Searching all files in all branches</h4>
+<div class="paragraph">
+<p>When you&#8217;re really stuck!</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git rev-list --all | xargs git grep "&lt;search-pattern&gt;"</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This searches all commits of all branches and therefore can take a considerable time. The following only searches HEAD of each branch and so will be quicker:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git grep "&lt;search-pattern&gt;" `git show-ref -s --heads`</code></pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -4622,7 +4645,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-02-11 09:33:53 UTC
+Last updated 2025-02-17 09:19:45 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>

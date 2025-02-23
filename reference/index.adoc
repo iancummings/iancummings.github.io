@@ -165,7 +165,9 @@ link:cars.html[Here]
 === Music
 === Audiobooks
 
-== Horl
+== Knife Sharpening
+=== Horl
+==== Specs
 horl2 diamond side about 320 or 420 grit, the diamond side is 1000 grit
 
 
@@ -176,21 +178,35 @@ Fine: 3000 (blue)
 Extra Fine: 6000 (white)
 Kagami: 8000,9000,10000 git ?
 
-600,1000, strop is all you need.
 
-first time using maybe 2-3 minutes each side? Afterwards a "handful"of passes each side.
+==== Techniques
+Normally 5-10 strokes of sharpening should be ok, if knife is a bit blunt then ~50.
+1. 10 each side for 400 grit
+1. 30 for 1000 grit
+1. 1 minute each side blue, same for white, strop?
 
-strop has different sides; rough & smooth
 
 
-do one side and look for a burr, flip and look for burr again
-
+For a knife that hasn't been sharpened before and is a bit blunt, then maybe 2-3 minutes each side? Afterwards a "handful"of passes each side.
 1. 100 each side for 400 grit
 1. 30 for 1000 grit
 1. 1 minute each side blue, same for white, strop?
 
 
+
+
+do one side and look for a burr, flip and look for burr again
+
+
+
+
+=== Strops
+600,1000, strop is all you need.
+
+Horl strop has different sides; rough & smooth
+
 strop 5-10 strokes one side, same on the other
+
 
 rubbing compounds? black - coarse, green (chromium oxide, 1-3(8) micron), red - fine
 
@@ -206,6 +222,10 @@ https://www.boroughkitchen.com/blogs/news/horl-knife-sharpener-review#:~:text=HO
 
 https://www.boroughkitchen.com/blogs/news/how-to-use-a-horl-knife-sharpener-for-the-perfect-edge
 
+=== Links
+
+* link:https://www.youtube.com/watch?v=aWwjg4IFTts[Ben Goshawk, The Way Chefs Actually Keep their knives sharp]
+* link:https://www.youtube.com/watch?v=yq1y9-QkRXM[Outdoors55]
 
 == General Stuff
 * link:evs.html[EVs]
