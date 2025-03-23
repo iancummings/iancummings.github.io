@@ -217,6 +217,18 @@ c:\> certutil -hashfile <filename> SHA256
 
 Settings, System, Notifications & Actions, "Suggest ways..."
 
+=== Get Make & Model of PC
+----
+c:\> wmic computersystem get model,name,manufacturer,systemtype
+----
+
+also try
+
+----
+c:\> wmic computersystem get /?
+----
+
+
 == Online
 
 === Save a Video from Facebook

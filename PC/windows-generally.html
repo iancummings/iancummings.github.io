@@ -482,6 +482,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#disable-coming-soon-in-outlook">2.11. Disable "Coming Soon" in Outlook</a></li>
 <li><a href="#get-the-hash-of-a-file">2.12. Get the hash of a file</a></li>
 <li><a href="#stop-windows-suggesting-ways-of-finishing-setting-up-your-computer">2.13. Stop Windows Suggesting Ways of Finishing Setting Up Your Computer</a></li>
+<li><a href="#get-make-model-of-pc">2.14. Get Make &amp; Model of PC</a></li>
 </ul>
 </li>
 <li><a href="#online">3. Online</a>
@@ -1001,6 +1002,22 @@ and set new password</p>
 <p>Settings, System, Notifications &amp; Actions, "Suggest ways&#8230;&#8203;"</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="get-make-model-of-pc"><a class="anchor" href="#get-make-model-of-pc"></a>2.14. Get Make &amp; Model of PC</h3>
+<div class="listingblock">
+<div class="content">
+<pre>c:\&gt; wmic computersystem get model,name,manufacturer,systemtype</pre>
+</div>
+</div>
+<div class="paragraph">
+<p>also try</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>c:\&gt; wmic computersystem get /?</pre>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="sect1">
@@ -1352,7 +1369,7 @@ Check the fixes for last time; <code>Windows Security, Core Isolation, Memory In
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-01-02 15:01:06 UTC
+Last updated 2025-03-21 11:47:05 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>

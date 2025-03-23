@@ -1050,6 +1050,8 @@ $ git push origin :refs/tags/12345</pre>
 </div>
 <div class="sect3">
 <h4 id="renaming"><a class="anchor" href="#renaming"></a>2.3.3. Renaming</h4>
+<div class="sect4">
+<h5 id="simple"><a class="anchor" href="#simple"></a>Simple</h5>
 <div class="paragraph">
 <p>Combining the above sections you would execute:</p>
 </div>
@@ -1058,7 +1060,20 @@ $ git push origin :refs/tags/12345</pre>
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git tag new old
 $ git tag -d old
 $ git push origin :refs/tags/old
-$ git push --tags</code></pre>
+$ git push origin --tags</code></pre>
+</div>
+</div>
+</div>
+<div class="sect4">
+<h5 id="annotated"><a class="anchor" href="#annotated"></a>Annotated</h5>
+<div class="paragraph">
+<p>As annotated tags point to a tag object rather than just a commit, you have to create a new annotated tag object from dereferencing the tag, which would otherwise just point to the (soon to be deleted) tag object.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash"># create a new annotated tag "new" referencing the object
+# which the old annotated tag "old" was referencing:
+$ git tag -a new old^{}</code></pre>
 </div>
 </div>
 <div class="paragraph">
@@ -1075,6 +1090,7 @@ $ git push --tags</code></pre>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git pull --prune --tags</code></pre>
+</div>
 </div>
 </div>
 </div>
@@ -4645,7 +4661,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-02-17 09:19:45 UTC
+Last updated 2025-03-07 15:21:25 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
