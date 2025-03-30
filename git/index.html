@@ -503,6 +503,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#show-a-diff-of-a-stash">3.5.2. Show a diff of a stash</a></li>
 <li><a href="#diff-a-stash-against-the-work-tree-when-it-was-created">3.5.3. Diff a stash against the work tree when it was created</a></li>
 <li><a href="#apply-part-of-a-stash">3.5.4. Apply part of a stash</a></li>
+<li><a href="#dump-all-your-stashes-to-patch-files">3.5.5. Dump all your stashes to patch files</a></li>
 </ul>
 </li>
 <li><a href="#patches">3.6. Patches</a></li>
@@ -1585,6 +1586,17 @@ Indeed, they&#8217;re stored in .git/refs/stash, one line per stash hash.</p>
 </div>
 <div class="paragraph">
 <p>See <a href="https://stackoverflow.com/questions/28195778/git-stash-apply-with-interactive-mode">here</a> for caveats and workarounds.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="dump-all-your-stashes-to-patch-files"><a class="anchor" href="#dump-all-your-stashes-to-patch-files"></a>3.5.5. Dump all your stashes to patch files</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git stash list| sed 's/\//\_/g'|sed 's/ /\_/g' | awk -F ":" '{ system("git stash show -p " $1 " &gt;&gt; \"" $1$2$3 "patch\"" ) }'</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>The <code>stash list</code> just lists the stash titles and replaces spaces with underscores etc. Then for each of those, it creates a file with the name of the stash, and the contents being the "patch" output that you get when running a <code>git stash show -p</code> command.</p>
 </div>
 </div>
 </div>
@@ -3376,10 +3388,26 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 <div class="listingblock">
 <div class="content">
-<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log HEAD..origin/develop              - two dots    #<b class="conum">(1)</b>
-or maybe
-
-$ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)</b></code></pre>
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log HEAD..origin/develop              - two dots    #<b class="conum">(1)</b></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>this shows <em>commitId</em>, <em>author</em>, <em>date</em>, <em>commit messages</em>, etc</p>
+</div>
+<div class="paragraph">
+<p>This command shows just the files that will change:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git diff --name-only HEAD...origin/develop        - three dots! #<b class="conum">(2)</b></code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>or for more detail:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)</b></code></pre>
 </div>
 </div>
 <div class="colist arabic">
@@ -4661,7 +4689,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-03-07 15:21:25 UTC
+Last updated 2025-03-27 09:41:27 UTC
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
