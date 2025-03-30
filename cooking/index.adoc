@@ -38,6 +38,7 @@
 * link:tuna-pasta.html[Tuna Pasta1]
 * link:healthy-tuna-pasta.html[Tuna Pasta2]
 * link:one-pot-smoked-haddock-and-curried-coconut-rice.html[one-pot-smoked-haddock-and-curried-coconut-rice]
+* link:born-tasty-chilli.html[Born Tasty Chilli]
 
 == Gousto
 1. link:Beef-Black-Bean-Burrito-Bowl_Gousto.pdf[Beef & Black bean Burrito Bowl]
