@@ -15,7 +15,9 @@
 
 == Skoda Fabia4
 
-* link:https://go.skoda.eu/owners-manuals[Owners manual]
+* link:https://go.skoda.eu/owners-manuals[Owners manual] +
+Ours should be link:https://digital-manual.skoda-auto.com/w/en_GB/show/96df8a849b8a94039026acbe570f1d43_12_en_GB?ct=db9d0dfaf39abe43ac1445257d17f499_1_en_GB#titled22337491e9572[this] one
+
 * link:https://go.skoda.eu/video-manuals-fabia4[Video Tutorials]
 
 == Dates

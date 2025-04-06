@@ -115,6 +115,18 @@ Allows the following range of valid IPv4 unicast addresses: 192.168.0.1 to 192.1
 
 == Online
 
+=== GMail
+
+==== Search
+
+https://clean.email/blog/email-providers/gmail-search-by-date
+
+`{}` means optional
+
+*  `before:yyyy/mm/dd {AND} after:yyyy/mm/dd`
+
+* `to:`
+
 === Wasabi
 The Wasabi service URLs are as follows:
 
