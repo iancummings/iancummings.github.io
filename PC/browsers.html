@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.18">
+<meta name="generator" content="Asciidoctor 2.0.20">
 <title>Browsers</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
 <style>
@@ -208,13 +208,10 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
 .exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -393,7 +390,7 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
 p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
 .exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
@@ -446,6 +443,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#chrome-family">1. Chrome Family</a>
 <ul class="sectlevel2">
 <li><a href="#finding-tabs">1.1. Finding Tabs</a></li>
+<li><a href="#keyboard-shortcuts">1.2. Keyboard shortcuts</a></li>
 </ul>
 </li>
 </ul>
@@ -470,12 +468,105 @@ CTRL + SHIFT + A &#8658; &lt;enter&gt;</p>
 </ul>
 </div>
 </div>
+<div class="sect2">
+<h3 id="keyboard-shortcuts"><a class="anchor" href="#keyboard-shortcuts"></a>1.2. Keyboard shortcuts</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Action</th>
+<th class="tableblock halign-left valign-top">Shortcut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Open a new window</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Open a new window in Incognito mode</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + Shift + n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Open a new tab, and jump to it</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + t</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Reopen previously closed tabs in the order that they were closed</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + Shift + t</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Jump to the next open tab</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + Tab or Ctrl + PgDn</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock"><strong>Jump to the previous open tab</strong></p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + Shift + Tab <em>or</em> Ctrl + PgUp</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jump to a specific tab</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + 1 through Ctrl + 8</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Jump to the rightmost tab</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + 9</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Open your home page in the current tab</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alt + Home</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Open the previous page from your browsing history in the current tab</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alt + Left arrow</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Open the next page from your browsing history in the current tab</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alt + Right arrow</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Close the current tab</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + w or Ctrl + F4</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Close the current window</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + Shift + w or Alt + F4</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Minimise the current window</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alt + Space then n</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Maximise the current window</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alt + Space then x</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Quit Google Chrome</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Alt + f then x</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Move tabs right or left</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ctrl + Shift + PgUp or Ctrl + Shift + PgDn</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Turn on full-screen mode</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">F11</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Turn off full-screen mode</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">F11 or press and hold Esc</p></td>
+</tr>
+</tbody>
+</table>
+</div>
 </div>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-12-09 09:53:30 UTC
+Last updated 2025-04-10 08:25:07 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>

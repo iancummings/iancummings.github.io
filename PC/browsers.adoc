@@ -17,3 +17,31 @@ CTRL + SHIFT + A
 
 * Goto last used tab +
 CTRL + SHIFT + A => <enter>
+
+
+=== Keyboard shortcuts
+
+|===
+| Action	| Shortcut
+
+
+|Open a new window	|Ctrl + n
+|Open a new window in Incognito mode	|Ctrl + Shift + n
+|**Open a new tab, and jump to it**|	Ctrl + t
+|Reopen previously closed tabs in the order that they were closed|	Ctrl + Shift + t
+|**Jump to the next open tab**|	Ctrl + Tab or Ctrl + PgDn
+|**Jump to the previous open tab**|	Ctrl + Shift + Tab _or_ Ctrl + PgUp
+|Jump to a specific tab|	Ctrl + 1 through Ctrl + 8
+|Jump to the rightmost tab	|Ctrl + 9
+|Open your home page in the current tab|	Alt + Home
+|Open the previous page from your browsing history in the current tab	|Alt + Left arrow
+|Open the next page from your browsing history in the current tab|	Alt + Right arrow
+|Close the current tab|	Ctrl + w or Ctrl + F4
+|Close the current window	|Ctrl + Shift + w or Alt + F4
+|Minimise the current window	|Alt + Space then n
+|Maximise the current window	|Alt + Space then x
+|Quit Google Chrome	|Alt + f then x
+|Move tabs right or left|	Ctrl + Shift + PgUp or Ctrl + Shift + PgDn
+|Turn on full-screen mode|	F11
+|Turn off full-screen mode|	F11 or press and hold Esc
+|===

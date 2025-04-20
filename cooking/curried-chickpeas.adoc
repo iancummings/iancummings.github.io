@@ -1,0 +1,34 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+
+
+== Curried Chickpeas (Rose Elliot)
+
+=== Ingredients
+Serves: 3
+
+* 400g tin chickpeas
+* onion
+* ½ teaspoon ground ginger
+* ½ teaspoon tumeric
+* ½ teaspoon ground cumin
+* ½ teaspoon ground coriander
+* ½ teaspoon garam masala
+* 1 teaspoon cumin seeds
+* ½ tin tomatoes
+
++++&frac12;+++
+
+=== Method
+1. Fry cumin seeds (1 min)
+1. soften onion
+1. add spices, fry for 2 mins
+1. add chick peas, ensure all mixed together
+1. add tomatoes, and maybe some water
+1. bring to boil, let simmer for 15 mins, longer is better
+1. Season!

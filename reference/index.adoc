@@ -89,6 +89,11 @@ ENB40400X +
 
 === Cooker
 
+link:aeg-cib6742acm-m-cooker.pdf[Manual]
+
+* Model: AEG CIB6742ACM
+* PNC: 948904303
+
 
 === Washing Machine
 
@@ -123,9 +128,44 @@ https://clean.email/blog/email-providers/gmail-search-by-date
 
 `{}` means optional
 
+===== Date
+
 *  `before:yyyy/mm/dd {AND} after:yyyy/mm/dd`
 
 * `to:`
+
+===== Size
+To search for large emails, you need to give Gmail search a minimum size. In the search bar, type the following;
+
+`size:5MB`
+
+This will filter out all emails that are 5MB or larger. You can use it with other parameters as well such as the sender name. To combine the two, use the following syntax;
+
+`sender: name Size:size`
+
+To find emails that are larger than a given size, use the following parameter;
+
+`larger:size` in MB
+
+
+
+You can also enter the size of the email in bytes. For example, if you enter 500000 after ‘larger:’, Gmail will filter out all emails that are larger than 0.5MB.
+
+Find Small Emails
+Gmail supports a ‘larger’ and a ‘smaller’ search parameter. The ‘Smaller’ parameter lets you search for emails that are smaller than a given size. The syntax is;
+
+`smaller:size` in MB
+
+You can use it with other search parameters.
+
+Find Emails In A Size Range
+The ‘Larger’ and ‘Smaller’ search parameters can be used with other parameters but they can also be used together. You can combine the ‘Larger’ and ‘Smaller’ parameters to find an email that is, for example, larger than 2MB but smaller than 4MB.
+
+Use the following syntax
+
+larger: size in MB smaller:size in MB
+
+
 
 === Wasabi
 The Wasabi service URLs are as follows:

@@ -15,13 +15,13 @@
 * Beef & black bean burrito bowl
 * Easy Turkey & Corn Chilli with Tortilla Chips
 * enchiladas
-* jacket potatoes
+* link:jacket-potatoes.html[jacket potatoes]
 * sausages & grains
 * cheesy floret & pasta bake
 * Only Gilli & I
 ** cod,mash,pesto
 ** spicy prawns
-** curried chick peas
+** link:curried-chickpeas.html[curried chick peas]
 * link:puttanesca.html[puttanesca]
 
 
@@ -82,7 +82,6 @@ or link:asian-chicken-burgers.html[here]
 1. Cottage Pie
 1. Kedgeree
 1. Chilli con carne
-1. link:jacket-potatoes.html[Jacket potato]
 1. Omelette
 1. Curried chickpeas
 1. Spicy prawns
