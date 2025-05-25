@@ -14,3 +14,6 @@
 * link:kate-gregory-am-i-a-good-programmer.html[Am I a Good Programmer]
 
 == Tech
+
+== Reference
+link:https://www.w3schools.com/charsets/ref_html_entities_4.asp[HTML Entities]

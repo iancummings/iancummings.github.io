@@ -28,6 +28,7 @@
 * link:../pubs.html[Eateries]
 * link:../books/books-index.html[Books]
 * link:../health/index.html[Health]
+* link:../finance/index.html[Finance]
 
 == What 3 Words
 
