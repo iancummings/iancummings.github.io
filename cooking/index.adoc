@@ -8,7 +8,7 @@
 = Cooking
 
 == Dishes I can cook and people like
-* Chicken Passanda
+* link:CreamyFreeRangeChickenPasandaWithNaanAndRice_Gousto.mhtml[Chicken Passanda] and link:CreamyFreeRangeChickenPasandaWithNaanAndRice_Gousto.pdf[here]
 * Asian Chicken burgers
 * Chilli
 * jacket potatoes
