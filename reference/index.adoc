@@ -28,6 +28,9 @@ Panasonic NN-St479S BPQ
 
 == Manuals & Instructions
 
+=== USB-C Power Meter
+See link:USB-C-Power-meter.pdf[here]
+
 === USB Chargers
 
 ==== 100W UGreen
