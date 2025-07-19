@@ -8,7 +8,7 @@
 = Cooking
 
 == Dishes I can cook and people like
-* link:CreamyFreeRangeChickenPasandaWithNaanAndRice_Gousto.mhtml[Chicken Passanda] and link:CreamyFreeRangeChickenPasandaWithNaanAndRice_Gousto.pdf[here]
+* link:https://www.gousto.co.uk/cookbook/recipes/creamy-free-range-chicken-pasanda-with-naan-and-rice[Chicken Passanda] and link:CreamyFreeRangeChickenPasandaWithNaanAndRice_Gousto.pdf[here]
 * Asian Chicken burgers
 * Chilli
 * jacket potatoes
@@ -51,6 +51,7 @@ link:https://www.gousto.co.uk/cookbook/recipes[online]
 1. Zingy Thai Coconut Chicken Wraps
 1. link:10-min-smoky-spanish-chicken-rice.html[10min Smoky Spanish Chicken & rice]
 1. link:https://www.gousto.co.uk/cookbook/recipes/crispy-fried-chicken-breast-burger-fries-garlic-mayo[Crispy Fried Chicken Breast Burger, Fries And Garlic Mayo]
+1. link:https://www.gousto.co.uk/cookbook/recipes/creamy-free-range-chicken-pasanda-with-naan-and-rice[Chicken Passanda] and link:CreamyFreeRangeChickenPasandaWithNaanAndRice_Gousto.pdf[here]
 
 == Waitrose
 1. Chicken Jolloff
