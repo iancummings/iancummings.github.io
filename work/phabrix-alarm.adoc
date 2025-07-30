@@ -1,0 +1,33 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Alarm
+
+From: Alyson Harper <alysonh@secure-systems.co.uk> 
+Sent: 07 July 2025 10:48
+To: Debbie Wickens <debbie.wickens@leadereurope.com>
+Subject: – EXTERNAL:RE: Leader - Omega House Keyholder response to calls from Alarm monitoring
+
+Hi Debbie
+Thank you for your email.  
+Polling failures are when the Alarm Receiving Centre sends a status request to the signalling device installed at your premises and did not get a reply.
+The request is usually repeated several times, and usually restores OK.  
+If the polling failure persists, your keyholders may be informed. 
+For any engineer assistance required during office hours please ring 01635 261654.  
+For calls outside of office hours please ring the duty engineer on 01635 528899
+
+Kind Regards
+
+Alyson
+
+Alyson Harper
+SECURE SYSTEMS (UK) LTD
+
+My work schedule: Monday, Tuesday, Thursday, Friday 08:00 – 16:00 hrs 
+Wednesdays: Out of Office
+
+Tel:   01635 261654 
