@@ -1,0 +1,36 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+= Start here?
+
+== Work
+* link:../don7/index.html[don7]
+* link:../git/index.html[Git]
+* link:../jsonlint\web\jsonlint.html[JSONlint]
+* link:../k8s-n-docker/docker.html[k8s 'n' Docker]
+* Livetouch
+** link:../livetouch/index.html[Project]
+** link:../livetouch/ianc.html[Plans etc]
+* link:../agile/index.html[Agile]
+* Visual Studio
+** link:../work/vs-keyboard-shortcuts.html[Key shortcuts]
+* link:../software/software.html[Software]
+* link:../Interviews/interviews-index.html[Interviews]
+
+== Technology
+
+* link:../technology/networks.html[Networks]
+
+== Wordle
+
+=== Starter words
+
+* water
+* pious
+
+== Notes 'n' stuff
+* link:../scratchpad.html[Scratchpad]
