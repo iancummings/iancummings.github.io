@@ -177,7 +177,9 @@ The ‘Larger’ and ‘Smaller’ search parameters can be used with other para
 
 Use the following syntax
 
-larger: size in MB smaller:size in MB
+`larger:<size in MB> smaller:<size in MB>`
+
+NOTE: I joined gmail 17th September 2004
 
 
 
