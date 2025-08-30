@@ -81,11 +81,14 @@ https://www.karchercenterjhs.co.uk/karcher-fj6-pressure-washer-snow-foam-lance-2
 +++*+++ 20 off car washes for £10 - much better than EzCarCare
 
 == EzCarCare
+
+link:EZ+2025+Detailing+Guide_Compressed.pdf[Detailing Guide]
+
 NOTE: Not in direct sunlight
 
 https://www.youtube.com/watch?v=DVp8m6-VHU0
 
-1. **Citrus Wash**: pre-wash, an alternative to snow foam, apply by trigger +
+1. **Citrus Wash**: pre-wash, an alternative/addition to snow foam, apply by trigger +
 10:1 for maintenance, up to 4:1 for stubborn organics (but may will degrade your wax) +
 spray on, few minutes, hose off
 
@@ -184,14 +187,20 @@ EzCC 5:1, Sam 5:1
 * Sleek on interior plastics
 
 === Currently...
-1. **Pre-wash**: EzCC: 5:1 +
-(50ml : 500ml trigger pack)
-1. **Snow foam**: Sam's : 20:1 +
-(50 ml : 1000 ml)
 1. **Wheels**: EzCC: 10:1 +
-(50 ml : 500ml trigger pack)
-1. **Shampoo**: EzCC: 1:250 +
-(40ml for 10l bucket)
+50 ml : 500ml trigger pack
+1. **Pre-wash**: 
+a. EzCC-__Citrus__: 10:1 to 5:1 +
+50ml : 500ml trigger pack
+1. **Snow foam**:
+a. Sam's : 20:1 +
+50 ml : 1l
+b. EzCC-__ArticMeltdown__ : 4:1 +
+250ml : 1l
+
+1. **Shampoo**:
+a. EzCC-__Champs__: 1:250 +
+40ml for 10l bucket
 
 
 [%hardbreaks]
