@@ -595,129 +595,145 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </li>
-<li><a href="#lfs">5. LFS</a>
+<li><a href="#git-bisect">5. Git bisect</a>
 <ul class="sectlevel2">
-<li><a href="#smudge-filter">5.1. Smudge Filter</a></li>
-<li><a href="#useful-commands">5.2. Useful commands</a></li>
+<li><a href="#basics">5.1. Basics</a></li>
+<li><a href="#tips">5.2. Tips</a>
+<ul class="sectlevel3">
+<li><a href="#stay-on-the-first-failing-commit-after-bisect-instead-of-going-back-to-master">5.2.1. Stay on the first failing commit after bisect instead of going back to <code>master</code>:</a></li>
+<li><a href="#start-initial-bad-and-good-in-one-go">5.2.2. start + initial bad and good in one go:</a></li>
+<li><a href="#bisect-log-and-bisect-replay-see-what-has-been-tested-so-far">5.2.3. Bisect log and bisect replay - see what has been tested so far</a></li>
+<li><a href="#if-you-know-the-filename-thats-the-culprit">5.2.4. if you know the filename that&#8217;s the culprit</a></li>
 </ul>
 </li>
-<li><a href="#reporting">6. Reporting</a>
+<li><a href="#if-its-difficult-to-tell-if-a-particular-commit-is-good-or-bad">5.3. if it’s difficult to tell if a particular commit is good or bad</a></li>
+<li><a href="#about-the-alogrithm">5.4. About the alogrithm</a></li>
+<li><a href="#goodbad-oldnew">5.5. Good,bad &amp; old,new</a></li>
+</ul>
+</li>
+<li><a href="#lfs">6. LFS</a>
 <ul class="sectlevel2">
-<li><a href="#search-commit-messages">6.1. Search commit messages</a></li>
-<li><a href="#git-show">6.2. git show</a></li>
-<li><a href="#inspect-the-contents-of-a-file-or-blob">6.3. Inspect the contents of a file (or "blob")</a></li>
-<li><a href="#file-history">6.4. File history</a>
-<ul class="sectlevel3">
-<li><a href="#command-line-methods">6.4.1. Command-line methods</a></li>
-<li><a href="#gui-methods">6.4.2. GUI methods</a></li>
+<li><a href="#smudge-filter">6.1. Smudge Filter</a></li>
+<li><a href="#useful-commands">6.2. Useful commands</a></li>
 </ul>
 </li>
-<li><a href="#branches-merged-into-a-branch">6.5. Branches merged into a branch</a></li>
-<li><a href="#which-files-have-been-addeddeleted-between-two-branches">6.6. Which files have been added/deleted between two branches?</a>
-<ul class="sectlevel3">
-<li><a href="#where-did-this-branch-start">6.6.1. Where did this branch start?</a></li>
-</ul>
-</li>
-<li><a href="#blame">6.7. Blame</a>
-<ul class="sectlevel3">
-<li><a href="#options">6.7.1. Options</a></li>
-<li><a href="#gui-version">6.7.2. GUI version</a></li>
-</ul>
-</li>
-<li><a href="#finding-most-recent-commits">6.8. Finding most recent commits</a>
-<ul class="sectlevel3">
-<li><a href="#most-recent-commits-to-branches">6.8.1. Most recent commits to branches</a></li>
-</ul>
-</li>
-<li><a href="#what-are-the-commits-since-sha1-between-here-and-here">6.9. What are the commits since &lt;sha1&gt; / between here and here?</a></li>
-<li><a href="#which-branchestags-contain-a-specific-commit">6.10. Which branches/tags contain a specific commit?</a></li>
-<li><a href="#various-useful-git-log-commands">6.11. Various Useful 'git log' commands</a></li>
-<li><a href="#one-line-compact">6.12. One line, compact</a></li>
-<li><a href="#one-line-colourful-summary">6.13. One line, colourful summary</a></li>
-<li><a href="#list-commits-from-particular-author-between-two-dates">6.14. List commits from particular author, between two dates</a></li>
-<li><a href="#show-what-commits-i-would-get-from-a-git-pull">6.15. Show what commits I would get from a  'git pull'</a></li>
-<li><a href="#previewing-a-merge">6.16. Previewing a merge</a></li>
-<li><a href="#diffs">6.17. Diffs</a>
-<ul class="sectlevel3">
-<li><a href="#between-two-commits">6.17.1. Between two commits</a></li>
-<li><a href="#between-my-current-head-and-originbranch">6.17.2. Between my current HEAD and origin/&lt;branch&gt;</a></li>
-</ul>
-</li>
-<li><a href="#list-remote-git-branches-by-author-sorted-by-commit-date">6.18. List remote Git branches by author, sorted by commit date:</a>
-<ul class="sectlevel3">
-<li><a href="#fields-available-for-format">6.18.1. Fields available for 'format'</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#advancedinternals">7. Advanced/Internals</a>
+<li><a href="#reporting">7. Reporting</a>
 <ul class="sectlevel2">
-<li><a href="#view-a-git-object">7.1. View a git object</a></li>
-<li><a href="#add-your-own-object-to-the-repository">7.2. Add your own object to the repository</a></li>
-<li><a href="#tree-objects">7.3. Tree Objects</a></li>
-<li><a href="#list-all-the-objects-in-your-repository">7.4. List all the objects in your repository</a></li>
-<li><a href="#packrepackunpack">7.5. Pack/Repack/Unpack</a>
+<li><a href="#search-commit-messages">7.1. Search commit messages</a></li>
+<li><a href="#git-show">7.2. git show</a></li>
+<li><a href="#inspect-the-contents-of-a-file-or-blob">7.3. Inspect the contents of a file (or "blob")</a></li>
+<li><a href="#file-history">7.4. File history</a>
 <ul class="sectlevel3">
-<li><a href="#how-to-unpack-a-pack-file">7.5.1. How to unpack a pack file</a></li>
+<li><a href="#command-line-methods">7.4.1. Command-line methods</a></li>
+<li><a href="#gui-methods">7.4.2. GUI methods</a></li>
 </ul>
 </li>
-<li><a href="#ancestry-references">7.6. Ancestry References</a></li>
-<li><a href="#summary">7.7. Summary</a></li>
-</ul>
-</li>
-<li><a href="#gotchas">8. Gotchas</a>
-<ul class="sectlevel2">
-<li><a href="#empty-foldersdirectories">8.1. Empty folders/directories</a></li>
-<li><a href="#are-you-really-up-to-date">8.2. Are you really up to date?</a></li>
-</ul>
-</li>
-<li><a href="#cheat-sheet">9. "Cheat sheet"</a>
-<ul class="sectlevel2">
-<li><a href="#reset-or-revert-a-file-to-a-specific-revision">9.1. Reset or revert a file to a specific revision</a></li>
-<li><a href="#accidentally-committed-and-pushed-some-local-changes">9.2. Accidentally committed and pushed some local changes</a></li>
-<li><a href="#completely-replace-master-with-a-branch">9.3. Completely replace master with a branch</a></li>
-<li><a href="#got-an-old-stash">9.4. Got an old Stash?</a></li>
-<li><a href="#lost-your-way-done-a-git-reset-when-you-shouldnt-have">9.5. Lost your way? Done a git reset when you shouldn&#8217;t have?</a></li>
-<li><a href="#move-a-branch-to-a-different-commit">9.6. Move a branch to a different commit</a>
+<li><a href="#branches-merged-into-a-branch">7.5. Branches merged into a branch</a></li>
+<li><a href="#which-files-have-been-addeddeleted-between-two-branches">7.6. Which files have been added/deleted between two branches?</a>
 <ul class="sectlevel3">
-<li><a href="#a-slightly-safe-version-of-a-force-push">9.6.1. A slightly safe version of a force push</a></li>
+<li><a href="#where-did-this-branch-start">7.6.1. Where did this branch start?</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#tips">10. Tips</a>
-<ul class="sectlevel2">
-<li><a href="#perform-actionsoperations-only-on-changednew-files">10.1. Perform Actions/Operations only on Changed/New Files</a>
+<li><a href="#blame">7.7. Blame</a>
 <ul class="sectlevel3">
-<li><a href="#method-1">10.1.1. Method 1</a></li>
-<li><a href="#method-2">10.1.2. Method 2</a></li>
+<li><a href="#options">7.7.1. Options</a></li>
+<li><a href="#gui-version">7.7.2. GUI version</a></li>
 </ul>
 </li>
-</ul>
-</li>
-<li><a href="#troubleshooting">11. Troubleshooting</a>
-<ul class="sectlevel2">
-<li><a href="#unable-to-add-files-with-name-containing-tilde-followed-by-a-number">11.1. Unable to add files with name containing tilde, '~' followed by a number</a></li>
-<li><a href="#a-caution-about-branch-names-with-s">11.2. A caution about branch names with '/'s</a></li>
-<li><a href="#fatal-out-of-memory-malloc-failed">11.3. fatal: Out of memory, malloc failed</a></li>
-<li><a href="#disable-lfs-when-pushing">11.4. Disable LFS when PUSHing</a></li>
-</ul>
-</li>
-<li><a href="#branch-naming">12. Branch naming</a>
-<ul class="sectlevel2">
-<li><a href="#broad-format">12.1. Broad Format</a></li>
-<li><a href="#category">12.2. Category</a></li>
-</ul>
-</li>
-<li><a href="#tag-naming">13. Tag naming</a></li>
-<li><a href="#online-help">14. Online help</a></li>
-<li><a href="#github">15. Github</a>
-<ul class="sectlevel2">
-<li><a href="#personal-access-tokens">15.1. Personal Access Tokens</a>
+<li><a href="#finding-most-recent-commits">7.8. Finding most recent commits</a>
 <ul class="sectlevel3">
-<li><a href="#create-personal-access-token-on-github">15.1.1. Create Personal Access Token on GitHub</a></li>
-<li><a href="#for-windows-os">15.1.2. For Windows OS ⤴</a></li>
-<li><a href="#for-a-linux-based-os">15.1.3. For a Linux-based OS ⤴</a></li>
+<li><a href="#most-recent-commits-to-branches">7.8.1. Most recent commits to branches</a></li>
+</ul>
+</li>
+<li><a href="#what-are-the-commits-since-sha1-between-here-and-here">7.9. What are the commits since &lt;sha1&gt; / between here and here?</a></li>
+<li><a href="#which-branchestags-contain-a-specific-commit">7.10. Which branches/tags contain a specific commit?</a></li>
+<li><a href="#various-useful-git-log-commands">7.11. Various Useful 'git log' commands</a></li>
+<li><a href="#one-line-compact">7.12. One line, compact</a></li>
+<li><a href="#one-line-colourful-summary">7.13. One line, colourful summary</a></li>
+<li><a href="#list-commits-from-particular-author-between-two-dates">7.14. List commits from particular author, between two dates</a></li>
+<li><a href="#show-what-commits-i-would-get-from-a-git-pull">7.15. Show what commits I would get from a  'git pull'</a></li>
+<li><a href="#previewing-a-merge">7.16. Previewing a merge</a></li>
+<li><a href="#diffs">7.17. Diffs</a>
+<ul class="sectlevel3">
+<li><a href="#between-two-commits">7.17.1. Between two commits</a></li>
+<li><a href="#between-my-current-head-and-originbranch">7.17.2. Between my current HEAD and origin/&lt;branch&gt;</a></li>
+</ul>
+</li>
+<li><a href="#list-remote-git-branches-by-author-sorted-by-commit-date">7.18. List remote Git branches by author, sorted by commit date:</a>
+<ul class="sectlevel3">
+<li><a href="#fields-available-for-format">7.18.1. Fields available for 'format'</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#advancedinternals">8. Advanced/Internals</a>
+<ul class="sectlevel2">
+<li><a href="#view-a-git-object">8.1. View a git object</a></li>
+<li><a href="#add-your-own-object-to-the-repository">8.2. Add your own object to the repository</a></li>
+<li><a href="#tree-objects">8.3. Tree Objects</a></li>
+<li><a href="#list-all-the-objects-in-your-repository">8.4. List all the objects in your repository</a></li>
+<li><a href="#packrepackunpack">8.5. Pack/Repack/Unpack</a>
+<ul class="sectlevel3">
+<li><a href="#how-to-unpack-a-pack-file">8.5.1. How to unpack a pack file</a></li>
+</ul>
+</li>
+<li><a href="#ancestry-references">8.6. Ancestry References</a></li>
+<li><a href="#summary">8.7. Summary</a></li>
+</ul>
+</li>
+<li><a href="#gotchas">9. Gotchas</a>
+<ul class="sectlevel2">
+<li><a href="#empty-foldersdirectories">9.1. Empty folders/directories</a></li>
+<li><a href="#are-you-really-up-to-date">9.2. Are you really up to date?</a></li>
+</ul>
+</li>
+<li><a href="#cheat-sheet">10. "Cheat sheet"</a>
+<ul class="sectlevel2">
+<li><a href="#reset-or-revert-a-file-to-a-specific-revision">10.1. Reset or revert a file to a specific revision</a></li>
+<li><a href="#accidentally-committed-and-pushed-some-local-changes">10.2. Accidentally committed and pushed some local changes</a></li>
+<li><a href="#completely-replace-master-with-a-branch">10.3. Completely replace master with a branch</a></li>
+<li><a href="#got-an-old-stash">10.4. Got an old Stash?</a></li>
+<li><a href="#lost-your-way-done-a-git-reset-when-you-shouldnt-have">10.5. Lost your way? Done a git reset when you shouldn&#8217;t have?</a></li>
+<li><a href="#move-a-branch-to-a-different-commit">10.6. Move a branch to a different commit</a>
+<ul class="sectlevel3">
+<li><a href="#a-slightly-safe-version-of-a-force-push">10.6.1. A slightly safe version of a force push</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#tips-2">11. Tips</a>
+<ul class="sectlevel2">
+<li><a href="#perform-actionsoperations-only-on-changednew-files">11.1. Perform Actions/Operations only on Changed/New Files</a>
+<ul class="sectlevel3">
+<li><a href="#method-1">11.1.1. Method 1</a></li>
+<li><a href="#method-2">11.1.2. Method 2</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#troubleshooting">12. Troubleshooting</a>
+<ul class="sectlevel2">
+<li><a href="#unable-to-add-files-with-name-containing-tilde-followed-by-a-number">12.1. Unable to add files with name containing tilde, '~' followed by a number</a></li>
+<li><a href="#a-caution-about-branch-names-with-s">12.2. A caution about branch names with '/'s</a></li>
+<li><a href="#fatal-out-of-memory-malloc-failed">12.3. fatal: Out of memory, malloc failed</a></li>
+<li><a href="#disable-lfs-when-pushing">12.4. Disable LFS when PUSHing</a></li>
+</ul>
+</li>
+<li><a href="#branch-naming">13. Branch naming</a>
+<ul class="sectlevel2">
+<li><a href="#broad-format">13.1. Broad Format</a></li>
+<li><a href="#category">13.2. Category</a></li>
+</ul>
+</li>
+<li><a href="#tag-naming">14. Tag naming</a></li>
+<li><a href="#online-help">15. Online help</a></li>
+<li><a href="#github">16. Github</a>
+<ul class="sectlevel2">
+<li><a href="#personal-access-tokens">16.1. Personal Access Tokens</a>
+<ul class="sectlevel3">
+<li><a href="#create-personal-access-token-on-github">16.1.1. Create Personal Access Token on GitHub</a></li>
+<li><a href="#for-windows-os">16.1.2. For Windows OS ⤴</a></li>
+<li><a href="#for-a-linux-based-os">16.1.3. For a Linux-based OS ⤴</a></li>
 </ul>
 </li>
 </ul>
@@ -2866,7 +2882,172 @@ Using the command line <code>gitk -S"&lt;search-text&gt;"</code> will find commi
 </div>
 </div>
 <div class="sect1">
-<h2 id="lfs"><a class="anchor" href="#lfs"></a>5. LFS</h2>
+<h2 id="git-bisect"><a class="anchor" href="#git-bisect"></a>5. Git bisect</h2>
+<div class="sectionbody">
+<div class="literalblock">
+<div class="content">
+<pre>git bisect start [--term-{old,good}=&lt;term&gt; --term-{new,bad}=&lt;term&gt;]
+                 [--no-checkout] [&lt;bad&gt; [&lt;good&gt;...]] [--] [&lt;paths&gt;...]</pre>
+</div>
+</div>
+<div class="sect2">
+<h3 id="basics"><a class="anchor" href="#basics"></a>5.1. Basics</h3>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git stash save
+$ git bisect start
+$ git bisect bad
+$ git bisect good &lt;sha&gt;
+Bisecting: 2 revisions left to test after this (roughly 2 steps)
+[&lt; ... sha ... &gt;] 3</code></pre>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="tips"><a class="anchor" href="#tips"></a>5.2. Tips</h3>
+<div class="paragraph">
+<p>Read the fine manual &#8594; <a href="https://git-scm.com/docs/git-bisect" class="bare">https://git-scm.com/docs/git-bisect</a></p>
+</div>
+<div class="sect3">
+<h4 id="stay-on-the-first-failing-commit-after-bisect-instead-of-going-back-to-master"><a class="anchor" href="#stay-on-the-first-failing-commit-after-bisect-instead-of-going-back-to-master"></a>5.2.1. Stay on the first failing commit after bisect instead of going back to <code>master</code>:</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git bisect reset HEAD</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="start-initial-bad-and-good-in-one-go"><a class="anchor" href="#start-initial-bad-and-good-in-one-go"></a>5.2.2. start + initial bad and good in one go:</h4>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git bisect start KNOWN_BAD_COMMIT KNOWN_GOOD_COMMIT~</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>is the same as:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git checkout KNOWN_BAD_COMMIT
+$ git bisect start
+$ git bisect bad
+$ git bisect good KNOWN_GOOD_COMMIT</code></pre>
+</div>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Note</div>
+</td>
+<td class="content">
+remember to <code>git bisect reset</code> after you&#8217;ve finished!
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div class="sect3">
+<h4 id="bisect-log-and-bisect-replay-see-what-has-been-tested-so-far"><a class="anchor" href="#bisect-log-and-bisect-replay-see-what-has-been-tested-so-far"></a>5.2.3. Bisect log and bisect replay - see what has been tested so far</h4>
+<div class="paragraph">
+<p>If you want to show other people your bisection process, you can get a log using for example:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git bisect log &gt; bisect_log.txt</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>After having marked revisions as good or bad, issue the following command to show what has been done so far:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git bisect log</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you discover that you made a mistake in specifying the status of a revision, you can save the output of this command to a file, edit it to remove the incorrect entries,
+and then issue the following commands to return to a corrected state:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git bisect reset
+$ git bisect replay that-file</code></pre>
+</div>
+</div>
+</div>
+<div class="sect3">
+<h4 id="if-you-know-the-filename-thats-the-culprit"><a class="anchor" href="#if-you-know-the-filename-thats-the-culprit"></a>5.2.4. if you know the filename that&#8217;s the culprit</h4>
+<div class="paragraph">
+<p>We can specify a file name or path to <code>git bisect start</code> in case we know that the bug has come from particular files.</p>
+</div>
+<div class="paragraph">
+<p>For example, suppose we knew that the changes that caused the regression were in the <code>com/workingDir</code> directory. Then we can run</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git bisect start com/workingDir</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This means that only the commits that changed the contents of this directory will be checked, and this makes things even faster.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="if-its-difficult-to-tell-if-a-particular-commit-is-good-or-bad"><a class="anchor" href="#if-its-difficult-to-tell-if-a-particular-commit-is-good-or-bad"></a>5.3. if it’s difficult to tell if a particular commit is good or bad</h3>
+<div class="paragraph">
+<p>I you&#8217;re unsure of a specific test result, you can run</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git bisect skip</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>which will ignore it. Given there are enough other commits, git bisect will use another to narrow the search instead.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="about-the-alogrithm"><a class="anchor" href="#about-the-alogrithm"></a>5.4. About the alogrithm</h3>
+<div class="paragraph">
+<p><a href="https://git-scm.com/docs/git-bisect-lk2009" class="bare">https://git-scm.com/docs/git-bisect-lk2009</a></p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="goodbad-oldnew"><a class="anchor" href="#goodbad-oldnew"></a>5.5. Good,bad &amp; old,new</h3>
+<div class="paragraph">
+<p>From Git 2.7, you can use different terms (from the docs):</p>
+</div>
+<div class="paragraph">
+<p><em>Sometimes you are not looking for the commit that introduced a breakage, but rather for a commit that caused a change between some other "old" state and "new" state.</em></p>
+</div>
+<div class="paragraph">
+<p><em>For example, you might be looking for the commit that introduced a particular fix.
+Or you might be looking for the first commit in which the source-code filenames were finally all converted to your company&#8217;s naming standard. Or whatever.</em></p>
+</div>
+<div class="paragraph">
+<p><em>In such cases it can be very confusing to use the terms "good" and "bad" to refer to "the state before the change" and "the state after the change".</em></p>
+</div>
+<div class="paragraph">
+<p><em>So instead, you can use the terms "old" and "new", respectively, in place of "good" and "bad".</em>
+<em>(But note that you cannot mix "good" and "bad" with "old" and "new" in a single session.)</em></p>
+</div>
+<div class="paragraph">
+<p><em>In this more general usage, you provide <code>git bisect</code> with a "new" commit has some property and an "old" commit that doesn&#8217;t have that property.</em></p>
+</div>
+<div class="paragraph">
+<p><em>Each time git bisect checks out a commit, you test if that commit has the property:</em>
+<em>If it does, mark the commit as "new"; otherwise, mark it as "old".</em></p>
+</div>
+<div class="paragraph">
+<p><em>When the bisection is done, <code>git bisect</code> will report which commit introduced the property.</em></p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="lfs"><a class="anchor" href="#lfs"></a>6. LFS</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Git LFS allows the user to track binary files directly or by extension. After the files are tracked, Git LFS manages the files as Git normally would, while Git just maintains a text file with metadata about the binary file.</p>
@@ -2890,7 +3071,7 @@ Using the command line <code>gitk -S"&lt;search-text&gt;"</code> will find commi
 <p>LFS uses the Git clean filter for changes ready for commit and runs when a file is staged. This filter reads the binary content from the file and converts it to a SHA, which will then be stored in Git while the original binary content will be stored in the <code>.git/lfs/objects</code> folder.</p>
 </div>
 <div class="sect2">
-<h3 id="smudge-filter"><a class="anchor" href="#smudge-filter"></a>5.1. Smudge Filter</h3>
+<h3 id="smudge-filter"><a class="anchor" href="#smudge-filter"></a>6.1. Smudge Filter</h3>
 <div class="paragraph">
 <p>The Git smudge filter is what converts the LFS pointer stored in Git with the actual large file from the LFS server. If your local repository does not have the LFS object, the smudge filter will have to download it. This means that network issues could affect the smudge filter.</p>
 </div>
@@ -2908,7 +3089,7 @@ $ git config lfs.transfer.maxretries 10</pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="useful-commands"><a class="anchor" href="#useful-commands"></a>5.2. Useful commands</h3>
+<h3 id="useful-commands"><a class="anchor" href="#useful-commands"></a>6.2. Useful commands</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git lfs version
@@ -2919,10 +3100,10 @@ $ which git-lfs</code></pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="reporting"><a class="anchor" href="#reporting"></a>6. Reporting</h2>
+<h2 id="reporting"><a class="anchor" href="#reporting"></a>7. Reporting</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="search-commit-messages"><a class="anchor" href="#search-commit-messages"></a>6.1. Search commit messages</h3>
+<h3 id="search-commit-messages"><a class="anchor" href="#search-commit-messages"></a>7.1. Search commit messages</h3>
 <div class="paragraph">
 <p>The basic command is</p>
 </div>
@@ -2941,7 +3122,7 @@ $ which git-lfs</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="git-show"><a class="anchor" href="#git-show"></a>6.2. git show</h3>
+<h3 id="git-show"><a class="anchor" href="#git-show"></a>7.2. git show</h3>
 <div class="paragraph">
 <p>This will show details about any git object, and takes a SHA hash. Obviously the hash can be substituted by pointers such as branch names, HEAD, etc or even other git commands that return an expression if you enclose it in backticks.</p>
 </div>
@@ -2958,7 +3139,7 @@ $ which git-lfs</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="inspect-the-contents-of-a-file-or-blob"><a class="anchor" href="#inspect-the-contents-of-a-file-or-blob"></a>6.3. Inspect the contents of a file (or "blob")</h3>
+<h3 id="inspect-the-contents-of-a-file-or-blob"><a class="anchor" href="#inspect-the-contents-of-a-file-or-blob"></a>7.3. Inspect the contents of a file (or "blob")</h3>
 <div class="paragraph">
 <p>Blobs is the name given to a git object that contains a file (the other objects are <em>tree</em> and <em>commit</em>). To look at the contents of a blob, we first find out its SHA using <code>rev-parse</code>, and then use <code>cat-file</code> to see the contents (use <code>-p</code> switch to prettify the output).</p>
 </div>
@@ -2984,9 +3165,9 @@ $ git cat-file -p eb8115e6b04814f0c37146bbe3dbc35f3e8992e0 | head -n 8</code></p
 </div>
 </div>
 <div class="sect2">
-<h3 id="file-history"><a class="anchor" href="#file-history"></a>6.4. File history</h3>
+<h3 id="file-history"><a class="anchor" href="#file-history"></a>7.4. File history</h3>
 <div class="sect3">
-<h4 id="command-line-methods"><a class="anchor" href="#command-line-methods"></a>6.4.1. Command-line methods</h4>
+<h4 id="command-line-methods"><a class="anchor" href="#command-line-methods"></a>7.4.1. Command-line methods</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log -- &lt;filename&gt;</code></pre>
@@ -3010,7 +3191,7 @@ $ git cat-file -p eb8115e6b04814f0c37146bbe3dbc35f3e8992e0 | head -n 8</code></p
 </div>
 </div>
 <div class="sect3">
-<h4 id="gui-methods"><a class="anchor" href="#gui-methods"></a>6.4.2. GUI methods</h4>
+<h4 id="gui-methods"><a class="anchor" href="#gui-methods"></a>7.4.2. GUI methods</h4>
 <div class="paragraph">
 <p>There are two GUI methods:</p>
 </div>
@@ -3036,7 +3217,7 @@ $ git cat-file -p eb8115e6b04814f0c37146bbe3dbc35f3e8992e0 | head -n 8</code></p
 </div>
 </div>
 <div class="sect2">
-<h3 id="branches-merged-into-a-branch"><a class="anchor" href="#branches-merged-into-a-branch"></a>6.5. Branches merged into a branch</h3>
+<h3 id="branches-merged-into-a-branch"><a class="anchor" href="#branches-merged-into-a-branch"></a>7.5. Branches merged into a branch</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git branch --merged master</code></pre>
@@ -3066,7 +3247,7 @@ $ git cat-file -p eb8115e6b04814f0c37146bbe3dbc35f3e8992e0 | head -n 8</code></p
 </div>
 </div>
 <div class="sect2">
-<h3 id="which-files-have-been-addeddeleted-between-two-branches"><a class="anchor" href="#which-files-have-been-addeddeleted-between-two-branches"></a>6.6. Which files have been added/deleted between two branches?</h3>
+<h3 id="which-files-have-been-addeddeleted-between-two-branches"><a class="anchor" href="#which-files-have-been-addeddeleted-between-two-branches"></a>7.6. Which files have been added/deleted between two branches?</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git diff --name-status --diff-filter=[(A|C|D|M|R|T|U|X|B)  master..branchName</code></pre>
@@ -3145,7 +3326,7 @@ $ git cat-file -p eb8115e6b04814f0c37146bbe3dbc35f3e8992e0 | head -n 8</code></p
 </table>
 </div>
 <div class="sect3">
-<h4 id="where-did-this-branch-start"><a class="anchor" href="#where-did-this-branch-start"></a>6.6.1. Where did this branch start?</h4>
+<h4 id="where-did-this-branch-start"><a class="anchor" href="#where-did-this-branch-start"></a>7.6.1. Where did this branch start?</h4>
 <div class="paragraph">
 <p>How to find the commit where this branch started its life</p>
 </div>
@@ -3180,14 +3361,14 @@ I think the order of the branches in the command is unimportant
 </div>
 </div>
 <div class="sect2">
-<h3 id="blame"><a class="anchor" href="#blame"></a>6.7. Blame</h3>
+<h3 id="blame"><a class="anchor" href="#blame"></a>7.7. Blame</h3>
 <div class="listingblock">
 <div class="content">
 <pre>$ git blame [options] file</pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="options"><a class="anchor" href="#options"></a>6.7.1. Options</h4>
+<h4 id="options"><a class="anchor" href="#options"></a>7.7.1. Options</h4>
 <div class="paragraph">
 <p><strong>-L &lt;startLine&gt;, &lt;endLine&gt;</strong></p>
 </div>
@@ -3206,7 +3387,7 @@ I think the order of the branches in the command is unimportant
 </div>
 </div>
 <div class="sect3">
-<h4 id="gui-version"><a class="anchor" href="#gui-version"></a>6.7.2. GUI version</h4>
+<h4 id="gui-version"><a class="anchor" href="#gui-version"></a>7.7.2. GUI version</h4>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git gui blame &lt;file&gt;</code></pre>
@@ -3215,12 +3396,12 @@ I think the order of the branches in the command is unimportant
 </div>
 </div>
 <div class="sect2">
-<h3 id="finding-most-recent-commits"><a class="anchor" href="#finding-most-recent-commits"></a>6.8. Finding most recent commits</h3>
+<h3 id="finding-most-recent-commits"><a class="anchor" href="#finding-most-recent-commits"></a>7.8. Finding most recent commits</h3>
 <div class="paragraph">
 <p>Generaly the <em>git log</em> command is what to use (the command <em>git whatchanged</em> is essentially the same), but there are many particular reports of commits that might be required.</p>
 </div>
 <div class="sect3">
-<h4 id="most-recent-commits-to-branches"><a class="anchor" href="#most-recent-commits-to-branches"></a>6.8.1. Most recent commits to branches</h4>
+<h4 id="most-recent-commits-to-branches"><a class="anchor" href="#most-recent-commits-to-branches"></a>7.8.1. Most recent commits to branches</h4>
 <div class="paragraph">
 <p>A list of all the branches in a Git repository with the "freshest" branches at the top, where the "freshest" branch is the one that&#8217;s been committed to most recently.</p>
 </div>
@@ -3302,7 +3483,7 @@ git config --global alias.branches "!git for-each-ref --sort='-authordate:iso860
 </div>
 </div>
 <div class="sect2">
-<h3 id="what-are-the-commits-since-sha1-between-here-and-here"><a class="anchor" href="#what-are-the-commits-since-sha1-between-here-and-here"></a>6.9. What are the commits since &lt;sha1&gt; / between here and here?</h3>
+<h3 id="what-are-the-commits-since-sha1-between-here-and-here"><a class="anchor" href="#what-are-the-commits-since-sha1-between-here-and-here"></a>7.9. What are the commits since &lt;sha1&gt; / between here and here?</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git rev-list &lt;since_hash&gt;..HEAD</code></pre>
@@ -3330,7 +3511,7 @@ git config --global alias.branches "!git for-each-ref --sort='-authordate:iso860
 </div>
 </div>
 <div class="sect2">
-<h3 id="which-branchestags-contain-a-specific-commit"><a class="anchor" href="#which-branchestags-contain-a-specific-commit"></a>6.10. Which branches/tags contain a specific commit?</h3>
+<h3 id="which-branchestags-contain-a-specific-commit"><a class="anchor" href="#which-branchestags-contain-a-specific-commit"></a>7.10. Which branches/tags contain a specific commit?</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git branch --contains &lt;commit&gt;</code></pre>
@@ -3349,7 +3530,7 @@ git config --global alias.branches "!git for-each-ref --sort='-authordate:iso860
 </div>
 </div>
 <div class="sect2">
-<h3 id="various-useful-git-log-commands"><a class="anchor" href="#various-useful-git-log-commands"></a>6.11. Various Useful 'git log' commands</h3>
+<h3 id="various-useful-git-log-commands"><a class="anchor" href="#various-useful-git-log-commands"></a>7.11. Various Useful 'git log' commands</h3>
 <div class="admonitionblock note">
 <table>
 <tr>
@@ -3364,7 +3545,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="one-line-compact"><a class="anchor" href="#one-line-compact"></a>6.12. One line, compact</h3>
+<h3 id="one-line-compact"><a class="anchor" href="#one-line-compact"></a>7.12. One line, compact</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log --pretty=oneline [--abbrev-commit]</code></pre>
@@ -3372,7 +3553,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="one-line-colourful-summary"><a class="anchor" href="#one-line-colourful-summary"></a>6.13. One line, colourful summary</h3>
+<h3 id="one-line-colourful-summary"><a class="anchor" href="#one-line-colourful-summary"></a>7.13. One line, colourful summary</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git log --format='%Cred%h%Creset %s %Cgreen(%ci) %C(cyan)&lt;%an&gt;%Creset%C(yellow)%d%Creset'
@@ -3428,7 +3609,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="list-commits-from-particular-author-between-two-dates"><a class="anchor" href="#list-commits-from-particular-author-between-two-dates"></a>6.14. List commits from particular author, between two dates</h3>
+<h3 id="list-commits-from-particular-author-between-two-dates"><a class="anchor" href="#list-commits-from-particular-author-between-two-dates"></a>7.14. List commits from particular author, between two dates</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git log --author="ian.cummings@grassvalley.com"
@@ -3438,7 +3619,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="show-what-commits-i-would-get-from-a-git-pull"><a class="anchor" href="#show-what-commits-i-would-get-from-a-git-pull"></a>6.15. Show what commits I would get from a  'git pull'</h3>
+<h3 id="show-what-commits-i-would-get-from-a-git-pull"><a class="anchor" href="#show-what-commits-i-would-get-from-a-git-pull"></a>7.15. Show what commits I would get from a  'git pull'</h3>
 <div class="paragraph">
 <p>Assuming that your repo is up to date (do a fetch first), then we can show differences between HEAD and remote branch - i.e. what would I get if I did a "git pull"?</p>
 </div>
@@ -3480,15 +3661,15 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect2">
-<h3 id="previewing-a-merge"><a class="anchor" href="#previewing-a-merge"></a>6.16. Previewing a merge</h3>
+<h3 id="previewing-a-merge"><a class="anchor" href="#previewing-a-merge"></a>7.16. Previewing a merge</h3>
 <div class="paragraph">
 <p>The simplest thing to do is to create a temporary branch from where you are, do a merge, and if it&#8217;s not what you want then delete it.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="diffs"><a class="anchor" href="#diffs"></a>6.17. Diffs</h3>
+<h3 id="diffs"><a class="anchor" href="#diffs"></a>7.17. Diffs</h3>
 <div class="sect3">
-<h4 id="between-two-commits"><a class="anchor" href="#between-two-commits"></a>6.17.1. Between two commits</h4>
+<h4 id="between-two-commits"><a class="anchor" href="#between-two-commits"></a>7.17.1. Between two commits</h4>
 <div class="paragraph">
 <p>Generally:</p>
 </div>
@@ -3502,7 +3683,7 @@ add <code>--all</code> to show contributions from all branches rather than just 
 </div>
 </div>
 <div class="sect3">
-<h4 id="between-my-current-head-and-originbranch"><a class="anchor" href="#between-my-current-head-and-originbranch"></a>6.17.2. Between my current HEAD and origin/&lt;branch&gt;</h4>
+<h4 id="between-my-current-head-and-originbranch"><a class="anchor" href="#between-my-current-head-and-originbranch"></a>7.17.2. Between my current HEAD and origin/&lt;branch&gt;</h4>
 <div class="paragraph">
 <p>As shown above in "what would I get from a git pull"</p>
 </div>
@@ -3517,14 +3698,14 @@ $ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)<
 </div>
 </div>
 <div class="sect2">
-<h3 id="list-remote-git-branches-by-author-sorted-by-commit-date"><a class="anchor" href="#list-remote-git-branches-by-author-sorted-by-commit-date"></a>6.18. List remote Git branches by author, sorted by commit date:</h3>
+<h3 id="list-remote-git-branches-by-author-sorted-by-commit-date"><a class="anchor" href="#list-remote-git-branches-by-author-sorted-by-commit-date"></a>7.18. List remote Git branches by author, sorted by commit date:</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">git for-each-ref --format='%(committerdate) %09 %(authorname) %09 %(refname)' --sort=committerdate</code></pre>
 </div>
 </div>
 <div class="sect3">
-<h4 id="fields-available-for-format"><a class="anchor" href="#fields-available-for-format"></a>6.18.1. Fields available for 'format'</h4>
+<h4 id="fields-available-for-format"><a class="anchor" href="#fields-available-for-format"></a>7.18.1. Fields available for 'format'</h4>
 <div class="listingblock">
 <div class="content">
 <pre></pre>
@@ -3535,16 +3716,16 @@ $ git difftool HEAD...origin/develop        - three dots! #<b class="conum">(2)<
 </div>
 </div>
 <div class="sect1">
-<h2 id="advancedinternals"><a class="anchor" href="#advancedinternals"></a>7. Advanced/Internals</h2>
+<h2 id="advancedinternals"><a class="anchor" href="#advancedinternals"></a>8. Advanced/Internals</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="view-a-git-object"><a class="anchor" href="#view-a-git-object"></a>7.1. View a git object</h3>
+<h3 id="view-a-git-object"><a class="anchor" href="#view-a-git-object"></a>8.1. View a git object</h3>
 <div class="paragraph">
 <p><a href="https://git-scm.com/book/en/v2/Git-Internals-Git-Objects">git-scm.com</a></p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="add-your-own-object-to-the-repository"><a class="anchor" href="#add-your-own-object-to-the-repository"></a>7.2. Add your own object to the repository</h3>
+<h3 id="add-your-own-object-to-the-repository"><a class="anchor" href="#add-your-own-object-to-the-repository"></a>8.2. Add your own object to the repository</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ echo 'test content' | git hash-object -w --stdin
@@ -3582,7 +3763,7 @@ blob</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="tree-objects"><a class="anchor" href="#tree-objects"></a>7.3. Tree Objects</h3>
+<h3 id="tree-objects"><a class="anchor" href="#tree-objects"></a>8.3. Tree Objects</h3>
 <div class="paragraph">
 <p>The tree solves the problem of storing the filename and also allows you to store a group of files together. Git stores content in a manner similar to a UNIX filesystem, but a bit simplified. All the content is stored as tree and blob objects, with trees corresponding to UNIX directory entries and blobs corresponding more or less to inodes or file contents. A single tree object contains one or more entries, each of which is the SHA-1 hash of a blob, or a subtree with its associated mode, type, and filename. For example, the most recent tree in a project may look something like this:</p>
 </div>
@@ -3596,7 +3777,7 @@ blob</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="list-all-the-objects-in-your-repository"><a class="anchor" href="#list-all-the-objects-in-your-repository"></a>7.4. List all the objects in your repository</h3>
+<h3 id="list-all-the-objects-in-your-repository"><a class="anchor" href="#list-all-the-objects-in-your-repository"></a>8.4. List all the objects in your repository</h3>
 <div class="paragraph">
 <p>(from stackoverflow)</p>
 </div>
@@ -3653,9 +3834,9 @@ Maybe ls-tree is probably easier to remember?<br>
 </div>
 </div>
 <div class="sect2">
-<h3 id="packrepackunpack"><a class="anchor" href="#packrepackunpack"></a>7.5. Pack/Repack/Unpack</h3>
+<h3 id="packrepackunpack"><a class="anchor" href="#packrepackunpack"></a>8.5. Pack/Repack/Unpack</h3>
 <div class="sect3">
-<h4 id="how-to-unpack-a-pack-file"><a class="anchor" href="#how-to-unpack-a-pack-file"></a>7.5.1. How to unpack a pack file</h4>
+<h4 id="how-to-unpack-a-pack-file"><a class="anchor" href="#how-to-unpack-a-pack-file"></a>8.5.1. How to unpack a pack file</h4>
 <div class="paragraph">
 <p>If you currently have everything packed (no loose objects) and you want to unpack your objects you can with <code>git unpack-objects</code>.<br>
 Git won&#8217;t unpack any objects that you currently have in your repo, so if you want loose objects rather than packed, you need to move the pack files out of the repository and then call unpack. So from this answer (<a href="https://stackoverflow.com/questions/16972031/how-to-unpack-all-objects-of-a-git-repository" class="bare">https://stackoverflow.com/questions/16972031/how-to-unpack-all-objects-of-a-git-repository</a>)</p>
@@ -3686,7 +3867,7 @@ Git won&#8217;t unpack any objects that you currently have in your repo, so if y
 </div>
 </div>
 <div class="sect2">
-<h3 id="ancestry-references"><a class="anchor" href="#ancestry-references"></a>7.6. Ancestry References</h3>
+<h3 id="ancestry-references"><a class="anchor" href="#ancestry-references"></a>8.6. Ancestry References</h3>
 <div class="paragraph">
 <p>(from <a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection">git-scm</a> book)<br></p>
 </div>
@@ -3822,7 +4003,7 @@ J = F^2  = B^3^2   = A^^3^2</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="summary"><a class="anchor" href="#summary"></a>7.7. Summary</h3>
+<h3 id="summary"><a class="anchor" href="#summary"></a>8.7. Summary</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -3862,10 +4043,10 @@ J = F^2  = B^3^2   = A^^3^2</code></pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="gotchas"><a class="anchor" href="#gotchas"></a>8. Gotchas</h2>
+<h2 id="gotchas"><a class="anchor" href="#gotchas"></a>9. Gotchas</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="empty-foldersdirectories"><a class="anchor" href="#empty-foldersdirectories"></a>8.1. Empty folders/directories</h3>
+<h3 id="empty-foldersdirectories"><a class="anchor" href="#empty-foldersdirectories"></a>9.1. Empty folders/directories</h3>
 <div class="paragraph">
 <p>Git tracks files with paths, not folders. An empty folder won&#8217;t get tracked by git. If you want empty folders tracked they need to have a file of some sort (zero bytes is fine)</p>
 </div>
@@ -3895,7 +4076,7 @@ J = F^2  = B^3^2   = A^^3^2</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="are-you-really-up-to-date"><a class="anchor" href="#are-you-really-up-to-date"></a>8.2. Are you really up to date?</h3>
+<h3 id="are-you-really-up-to-date"><a class="anchor" href="#are-you-really-up-to-date"></a>9.2. Are you really up to date?</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-bash hljs" data-lang="bash">$ git checkout master
@@ -3928,10 +4109,10 @@ $</code></pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="cheat-sheet"><a class="anchor" href="#cheat-sheet"></a>9. "Cheat sheet"</h2>
+<h2 id="cheat-sheet"><a class="anchor" href="#cheat-sheet"></a>10. "Cheat sheet"</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="reset-or-revert-a-file-to-a-specific-revision"><a class="anchor" href="#reset-or-revert-a-file-to-a-specific-revision"></a>9.1. Reset or revert a file to a specific revision</h3>
+<h3 id="reset-or-revert-a-file-to-a-specific-revision"><a class="anchor" href="#reset-or-revert-a-file-to-a-specific-revision"></a>10.1. Reset or revert a file to a specific revision</h3>
 <div class="paragraph">
 <p>I have made some changes to a file which has been committed a few times as part of a group of files, but now want to reset/revert the changes on it back to a previous version.</p>
 </div>
@@ -3977,7 +4158,7 @@ You may need to use the --hard option if you have local modifications.
 </div>
 </div>
 <div class="sect2">
-<h3 id="accidentally-committed-and-pushed-some-local-changes"><a class="anchor" href="#accidentally-committed-and-pushed-some-local-changes"></a>9.2. Accidentally committed and pushed some local changes</h3>
+<h3 id="accidentally-committed-and-pushed-some-local-changes"><a class="anchor" href="#accidentally-committed-and-pushed-some-local-changes"></a>10.2. Accidentally committed and pushed some local changes</h3>
 <div class="paragraph">
 <p>Accidentally committed and pushed some local changes. Reverted the commit, and to get the local changes back:</p>
 </div>
@@ -3988,7 +4169,7 @@ You may need to use the --hard option if you have local modifications.
 </div>
 </div>
 <div class="sect2">
-<h3 id="completely-replace-master-with-a-branch"><a class="anchor" href="#completely-replace-master-with-a-branch"></a>9.3. Completely replace master with a branch</h3>
+<h3 id="completely-replace-master-with-a-branch"><a class="anchor" href="#completely-replace-master-with-a-branch"></a>10.3. Completely replace master with a branch</h3>
 <div class="paragraph">
 <p>(from <a href="https://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch" class="bare">https://stackoverflow.com/questions/2862590/how-to-replace-master-branch-in-git-entirely-from-another-branch</a>)<br></p>
 </div>
@@ -4062,7 +4243,7 @@ remember to push both branches if you&#8217;re working with bitbucket or similar
 </div>
 </div>
 <div class="sect2">
-<h3 id="got-an-old-stash"><a class="anchor" href="#got-an-old-stash"></a>9.4. Got an old Stash?</h3>
+<h3 id="got-an-old-stash"><a class="anchor" href="#got-an-old-stash"></a>10.4. Got an old Stash?</h3>
 <div class="paragraph">
 <p>If you have a stash that was created a while ago, performing a</p>
 </div>
@@ -4120,7 +4301,7 @@ remember to push both branches if you&#8217;re working with bitbucket or similar
 </div>
 </div>
 <div class="sect2">
-<h3 id="lost-your-way-done-a-git-reset-when-you-shouldnt-have"><a class="anchor" href="#lost-your-way-done-a-git-reset-when-you-shouldnt-have"></a>9.5. Lost your way? Done a git reset when you shouldn&#8217;t have?</h3>
+<h3 id="lost-your-way-done-a-git-reset-when-you-shouldnt-have"><a class="anchor" href="#lost-your-way-done-a-git-reset-when-you-shouldnt-have"></a>10.5. Lost your way? Done a git reset when you shouldn&#8217;t have?</h3>
 <div class="paragraph">
 <p>(from <a href="https://git-scm.com/book/en/v2/Git-Tools-Revision-Selection">git-scm</a> book)</p>
 </div>
@@ -4235,7 +4416,7 @@ To show date/time info try<br>
 </div>
 </div>
 <div class="sect2">
-<h3 id="move-a-branch-to-a-different-commit"><a class="anchor" href="#move-a-branch-to-a-different-commit"></a>9.6. Move a branch to a different commit</h3>
+<h3 id="move-a-branch-to-a-different-commit"><a class="anchor" href="#move-a-branch-to-a-different-commit"></a>10.6. Move a branch to a different commit</h3>
 <div class="paragraph">
 <p>Either</p>
 </div>
@@ -4258,7 +4439,7 @@ branch-nocheckout = "!f() { git symbolic-ref HEAD refs/heads/$1 &amp;&amp; git r
 <code>new-tip-commit</code> can be a branch name (e.g., master, origin/master).</p>
 </div>
 <div class="sect3">
-<h4 id="a-slightly-safe-version-of-a-force-push"><a class="anchor" href="#a-slightly-safe-version-of-a-force-push"></a>9.6.1. A slightly safe version of a force push</h4>
+<h4 id="a-slightly-safe-version-of-a-force-push"><a class="anchor" href="#a-slightly-safe-version-of-a-force-push"></a>10.6.1. A slightly safe version of a force push</h4>
 <div class="imageblock text-center">
 <div class="content">
 <img src="data:image/jpg;base64," alt="git push force">
@@ -4272,12 +4453,12 @@ branch-nocheckout = "!f() { git symbolic-ref HEAD refs/heads/$1 &amp;&amp; git r
 </div>
 </div>
 <div class="sect1">
-<h2 id="tips"><a class="anchor" href="#tips"></a>10. Tips</h2>
+<h2 id="tips-2"><a class="anchor" href="#tips-2"></a>11. Tips</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="perform-actionsoperations-only-on-changednew-files"><a class="anchor" href="#perform-actionsoperations-only-on-changednew-files"></a>10.1. Perform Actions/Operations only on Changed/New Files</h3>
+<h3 id="perform-actionsoperations-only-on-changednew-files"><a class="anchor" href="#perform-actionsoperations-only-on-changednew-files"></a>11.1. Perform Actions/Operations only on Changed/New Files</h3>
 <div class="sect3">
-<h4 id="method-1"><a class="anchor" href="#method-1"></a>10.1.1. Method 1</h4>
+<h4 id="method-1"><a class="anchor" href="#method-1"></a>11.1.1. Method 1</h4>
 <div class="paragraph">
 <p>We can run commands only on modified files using git status and xargs, for both changed and new files by filtering on different markers printed out by <code>git status -s</code>.</p>
 </div>
@@ -4302,7 +4483,7 @@ branch-nocheckout = "!f() { git symbolic-ref HEAD refs/heads/$1 &amp;&amp; git r
 </div>
 </div>
 <div class="sect3">
-<h4 id="method-2"><a class="anchor" href="#method-2"></a>10.1.2. Method 2</h4>
+<h4 id="method-2"><a class="anchor" href="#method-2"></a>11.1.2. Method 2</h4>
 <div class="paragraph">
 <p>To search only modified files for example for the string "bailing", we can pipe the filenames through to grep:</p>
 </div>
@@ -4344,13 +4525,13 @@ grep-staged  = "!f(){ git diff-index -U --cached -G \"$@\" HEAD; };f "</code></p
 </div>
 </div>
 <div class="sect1">
-<h2 id="troubleshooting"><a class="anchor" href="#troubleshooting"></a>11. Troubleshooting</h2>
+<h2 id="troubleshooting"><a class="anchor" href="#troubleshooting"></a>12. Troubleshooting</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>(Trouble with git actually functioning)</p>
 </div>
 <div class="sect2">
-<h3 id="unable-to-add-files-with-name-containing-tilde-followed-by-a-number"><a class="anchor" href="#unable-to-add-files-with-name-containing-tilde-followed-by-a-number"></a>11.1. Unable to add files with name containing tilde, '~' followed by a number</h3>
+<h3 id="unable-to-add-files-with-name-containing-tilde-followed-by-a-number"><a class="anchor" href="#unable-to-add-files-with-name-containing-tilde-followed-by-a-number"></a>12.1. Unable to add files with name containing tilde, '~' followed by a number</h3>
 <div class="paragraph">
 <p>On Windows' default filesystems, FAT and NTFS, DOS-style 8.3 file names are supported for backwards compatibility. That means that there are multiple ways to reference the same file. For example, the file credential-cache&#8212;&#8203;daemon.c can also be accessed via CREDEN~1.C (unless another file has already been mapped to that so-called "short name", i.e. the exact short name is unpredictable).</p>
 </div>
@@ -4381,7 +4562,7 @@ grep-staged  = "!f(){ git diff-index -U --cached -G \"$@\" HEAD; };f "</code></p
 </div>
 </div>
 <div class="sect2">
-<h3 id="a-caution-about-branch-names-with-s"><a class="anchor" href="#a-caution-about-branch-names-with-s"></a>11.2. A caution about branch names with '/'s</h3>
+<h3 id="a-caution-about-branch-names-with-s"><a class="anchor" href="#a-caution-about-branch-names-with-s"></a>12.2. A caution about branch names with '/'s</h3>
 <div class="listingblock">
 <div class="content">
 <pre class="highlightjs highlight"><code class="language-none hljs">"unable to create directory for .git/refs/heads/..."</code></pre>
@@ -4397,7 +4578,7 @@ The problem comes when you would like to create a branch called <em>wip/foo/bar<
 </div>
 </div>
 <div class="sect2">
-<h3 id="fatal-out-of-memory-malloc-failed"><a class="anchor" href="#fatal-out-of-memory-malloc-failed"></a>11.3. fatal: Out of memory, malloc failed</h3>
+<h3 id="fatal-out-of-memory-malloc-failed"><a class="anchor" href="#fatal-out-of-memory-malloc-failed"></a>12.3. fatal: Out of memory, malloc failed</h3>
 <div class="paragraph">
 <p>Try:</p>
 </div>
@@ -4425,7 +4606,7 @@ $ git config --global pack.packSizeLimit 1g</code></pre>
 </div>
 </div>
 <div class="sect2">
-<h3 id="disable-lfs-when-pushing"><a class="anchor" href="#disable-lfs-when-pushing"></a>11.4. Disable LFS when PUSHing</h3>
+<h3 id="disable-lfs-when-pushing"><a class="anchor" href="#disable-lfs-when-pushing"></a>12.4. Disable LFS when PUSHing</h3>
 <div class="paragraph">
 <p>If when you PUSH, the LFS objects get pushed first and fails for whatever reason, try pushing without verify. This disables the pre-push hooks an should ensure that the main objects are pushed successfully.</p>
 </div>
@@ -4460,10 +4641,10 @@ To /home/ianc/shared/qx_sw.git
 </div>
 </div>
 <div class="sect1">
-<h2 id="branch-naming"><a class="anchor" href="#branch-naming"></a>12. Branch naming</h2>
+<h2 id="branch-naming"><a class="anchor" href="#branch-naming"></a>13. Branch naming</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="broad-format"><a class="anchor" href="#broad-format"></a>12.1. Broad Format</h3>
+<h3 id="broad-format"><a class="anchor" href="#broad-format"></a>13.1. Broad Format</h3>
 <div class="literalblock">
 <div class="content">
 <pre>[CATEGORY]-description-[JIRA-NUMBER]</pre>
@@ -4471,7 +4652,7 @@ To /home/ianc/shared/qx_sw.git
 </div>
 </div>
 <div class="sect2">
-<h3 id="category"><a class="anchor" href="#category"></a>12.2. Category</h3>
+<h3 id="category"><a class="anchor" href="#category"></a>13.2. Category</h3>
 <div class="ulist">
 <ul>
 <li>
@@ -4534,7 +4715,7 @@ a release candidate; eminently disposable after the release is made</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="tag-naming"><a class="anchor" href="#tag-naming"></a>13. Tag naming</h2>
+<h2 id="tag-naming"><a class="anchor" href="#tag-naming"></a>14. Tag naming</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -4564,7 +4745,7 @@ Used when I want to leave a marker where something happened or where a branch wa
 </div>
 </div>
 <div class="sect1">
-<h2 id="online-help"><a class="anchor" href="#online-help"></a>14. Online help</h2>
+<h2 id="online-help"><a class="anchor" href="#online-help"></a>15. Online help</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -4576,15 +4757,15 @@ Used when I want to leave a marker where something happened or where a branch wa
 </div>
 </div>
 <div class="sect1">
-<h2 id="github"><a class="anchor" href="#github"></a>15. Github</h2>
+<h2 id="github"><a class="anchor" href="#github"></a>16. Github</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="personal-access-tokens"><a class="anchor" href="#personal-access-tokens"></a>15.1. Personal Access Tokens</h3>
+<h3 id="personal-access-tokens"><a class="anchor" href="#personal-access-tokens"></a>16.1. Personal Access Tokens</h3>
 <div class="paragraph">
 <p>(from <a href="https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed-please-use-a-personal">stackoverflow</a>)</p>
 </div>
 <div class="sect3">
-<h4 id="create-personal-access-token-on-github"><a class="anchor" href="#create-personal-access-token-on-github"></a>15.1.1. Create Personal Access Token on GitHub</h4>
+<h4 id="create-personal-access-token-on-github"><a class="anchor" href="#create-personal-access-token-on-github"></a>16.1.1. Create Personal Access Token on GitHub</h4>
 <div class="paragraph">
 <p>From your GitHub account, go to:<br></p>
 </div>
@@ -4597,7 +4778,7 @@ Used when I want to leave a marker where something happened or where a branch wa
 </div>
 </div>
 <div class="sect3">
-<h4 id="for-windows-os"><a class="anchor" href="#for-windows-os"></a>15.1.2. For Windows OS ⤴</h4>
+<h4 id="for-windows-os"><a class="anchor" href="#for-windows-os"></a>16.1.2. For Windows OS ⤴</h4>
 <div class="olist arabic">
 <ol class="arabic">
 <li>
@@ -4677,7 +4858,7 @@ Used when I want to leave a marker where something happened or where a branch wa
 </div>
 </div>
 <div class="sect3">
-<h4 id="for-a-linux-based-os"><a class="anchor" href="#for-a-linux-based-os"></a>15.1.3. For a Linux-based OS ⤴</h4>
+<h4 id="for-a-linux-based-os"><a class="anchor" href="#for-a-linux-based-os"></a>16.1.3. For a Linux-based OS ⤴</h4>
 <div class="paragraph">
 <p>For Linux, you need to configure the local GIT client with a username and email address,</p>
 </div>
@@ -4745,7 +4926,7 @@ $ git config --system --unset credential.helper</pre>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-07-04 15:43:15 +0100
+Last updated 2025-09-01 15:04:43 +0100
 </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>

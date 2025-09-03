@@ -28,6 +28,7 @@
 
 == Under 30mins
 * link:chicken-leek-orzotto.html[Chicken & Leek Orzotto]
+* link:pilau-fried-rice.html[Pilau/fried rice]
 
 == General
 * Enchiladas
