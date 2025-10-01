@@ -1,0 +1,15 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+= Posing Groups
+:Author: Ian Cummings
+:Email:  
+:Date: October 2025
+:Revision: V0.1
+
+[small]#(from a talk at TPC by Alastair Currill)#
+
+== General Points
+
+* try not to be nervous as you will make the subject(s) nervous!
+* generally, try and create triangles with arms, elbows, legs, knees etc

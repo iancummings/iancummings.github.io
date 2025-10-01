@@ -82,6 +82,7 @@ V0.1, Oct 2022: A work in progress
 == Techniques
 * link:clone-stamp-tool.html[Clone Stamp Tool]
 * link:posing.html[Posing]
+* link:posing-groups.html[Posing Groups]
 * link:sunny16.html[Sunny 16]
 * link:x100v.html[Fuji X100V]
 
