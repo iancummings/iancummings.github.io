@@ -255,7 +255,7 @@ Normally 5-10 strokes of sharpening should be ok, if knife is a bit blunt then ~
 
 
 
-For a knife that hasn't been sharpened before and is a bit blunt, then maybe 2-3 minutes each side? Afterwards a "handful"of passes each side.
+For a knife that hasn't been sharpened before and is a bit blunt, then maybe 2-3 minutes each side? Afterwards a "handful" of passes each side.
 1. 100 each side for 400 grit
 1. 30 for 1000 grit
 1. 1 minute each side blue, same for white, strop?
@@ -290,10 +290,21 @@ https://www.boroughkitchen.com/blogs/news/horl-knife-sharpener-review#:~:text=HO
 
 https://www.boroughkitchen.com/blogs/news/how-to-use-a-horl-knife-sharpener-for-the-perfect-edge
 
+=== Angles
+==== Wusthof
+WÜSTHOF knives can be honed and sharpened using a hand-held sharpener, an electric sharpener, a sharpening or honing steel, or a whetstone. We recommend using the same brand sharpener as your knife collection, to ensure that the material used is the correct hardness for the steel on your knives. Our sharpening angle for standard blades is 14˚ per side, and for Asian-style blades (Santokus, Nakiris, Chai Daos) is 10˚ per side. 
+
 === Links
 
 * link:https://www.youtube.com/watch?v=aWwjg4IFTts[Ben Goshawk, The Way Chefs Actually Keep their knives sharp]
 * link:https://www.youtube.com/watch?v=yq1y9-QkRXM[Outdoors55]
+
+== Phones
+
+=== Pixel 9a
+Screen Protector: Spigen: Glas.tR EZ FIT +
+Installation link:https://install.spigen.com/blogs/phone/glas-tr-ez-fit-for-google-pixel[video]
+
 
 == General Stuff
 * link:evs.html[EVs]
