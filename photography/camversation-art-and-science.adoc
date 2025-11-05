@@ -1,0 +1,96 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Photography locations
+Ian Cummings <ian.cummings@bigfoot>
+V0.1, May-2017
+:Author: Ian Cummings
+:Email: 
+:Date: May 2017
+:Revision: V0.1
+
+:imagesdir: ../images
+
+
+
+== Camversation - Art & Science - David Day
+
+link:https://ddayicmart.com[David's Home Page]
+
+* Secundum artum - according to the art
+
+* a technically perfect image _may_ be improved by adding flaws
+* an overly artistic image without attention to detail
+
+* art is saying "I was here"
+
+
+=== Images / Slides
+//Anytime you want to use AsciiDoc markup in a table cell, you need to set the cell type to "a", short for "asciidoc".
+
+//The quickest way to set the cell type is to put the cell specifier immediately before the vertical bar for that cell. In your example, that would look like:
+
+//  |===
+
+// a|image::<a href="http://www.example.com/myimage.jpg[My">http://www.example.com/myimage.jpg[My Image, 600,160]
+
+// a|<a href="http://www.example.com/quiz/choice=a[The">http://www.example.com/quiz/choice=a[The Lion Needs courage]
+
+// a|<a href="http://www.example.com/quiz/choice=b[The">http://www.example.com/quiz/choice=b[The Scarecrow needs a brain]
+
+// a|<a href="http://www.example.com/quiz/choice=c[The">http://www.example.com/quiz/choice=c[The Tinman Needs a heart]
+
+// |===
+
+// Of course, typing the same cell specifier over and over again is tedious. Instead, you can set the cell type for a whole column using column specifiers. In your example, that would look like:
+
+// [cols="1a"]
+
+[cols="1a"]
+|===
+|image::slides/Clipboard01.png[]
+|image::slides/Clipboard02.png[]
+|image::slides/Clipboard03.png[]
+|image::slides/Clipboard04.png[]
+|image::slides/Clipboard05.png[]
+a|image::slides/Clipboard06.png[]
+a|image::slides/Clipboard07.png[]
+a|image::slides/Clipboard08.png[]
+a|image::slides/Clipboard09.png[]
+a|image::slides/Clipboard10.png[]
+a|image::slides/Clipboard11.png[]
+a|image::slides/Clipboard12.png[]
+a|image::slides/Clipboard13.png[]
+a|image::slides/Clipboard14.png[]
+a|image::slides/Clipboard15.png[]
+a|image::slides/Clipboard16.png[]
+a|image::slides/Clipboard17.png[]
+a|image::slides/Clipboard18.png[]
+a|image::slides/Clipboard19.png[]
+a|image::slides/Clipboard20.png[]
+a|image::slides/Clipboard21.png[]
+a|image::slides/Clipboard22.png[]
+a|image::slides/Clipboard23.png[]
+a|image::slides/Clipboard24.png[]
+a|image::slides/Clipboard25.png[]
+a|image::slides/Clipboard26.png[]
+a|image::slides/Clipboard27.png[]
+a|image::slides/Clipboard28.png[]
+a|image::slides/Clipboard29.png[]
+a|image::slides/Clipboard30.png[]
+a|image::slides/Clipboard31.png[]
+a|image::slides/Clipboard32.png[]
+a|image::slides/Clipboard33.png[]
+a|image::slides/Clipboard34.png[]
+a|image::slides/Clipboard35.png[]
+a|image::slides/Clipboard36.png[]
+a|image::slides/Clipboard37.png[]
+a|image::slides/Clipboard38.png[]
+a|image::slides/Clipboard39.png[]
+a|image::slides/Clipboard40.png[]
+a|image::slides/Clipboard41.png[]
+a|image::slides/Clipboard42.png[]
+a|image::slides/Clipboard43.png[]
+a|image::slides/Clipboard44.png[]
+|===

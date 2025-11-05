@@ -136,6 +136,7 @@ from link:http://www.urban75.org/photos/photographers-rights-tube-railways.html[
 * link:ross-grieve-webinar.html[Ross Grieve (Calibrite, Park Cameras)]
 * link:gestalt/gestalt-theory.html[Simon Ellingworth's gestalt Theory]
 * link:annie-leibovitz-masterclass.html[Annie Leibovitz]
+* link:camversation-art-and-science.html[Camversation - Art & Science]
 
 == Places to go
 === Street
