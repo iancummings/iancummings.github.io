@@ -116,6 +116,20 @@ V0.1, Oct 2022: A work in progress
 * link:photolab.html[PhotoLab]
 * link:printing.html[Printing]
 
+=== Rating an Image
+
+==== TPC
+
+5* Great photo, well thought out and executed, stands above the rest
+
+4* Great photo, well thought out and executed
+
+3* Good photo, well photographed, could have been more challenging
+
+2* Nice photo, good focus, well exposed
+
+1* Photo meets the brief and is a good attempt
+
 == Legal
 === TFL (Underground & buses)
 ----

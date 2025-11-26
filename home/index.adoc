@@ -5,7 +5,7 @@
 
 :imagesdir: ../images
 
-= Start here?
+= Start here
 
 == Home
 * link:links.html[Links]
@@ -37,8 +37,9 @@
 [width="100%",options="header,footer"]
 |====
 | Place | w3w
-| Rosewood | link:https://w3w.co/ushering.tramps.nosedive[///ushering.tramps.nosedive] +
-link:https://w3w.co/bedroom.spearhead.conforms[///bedroom.spearhead.conforms]
+| Rosewood | 
+link:https://w3w.co/bedroom.spearhead.conforms[///bedroom.spearhead.conforms] +
+link:https://w3w.co////joys.maker.speeches[///ushering.tramps.nosedive]
 | Goodhart Way | link:https://w3w.co/retire.dinner.coach[///retire.dinner.coach]
 | Peter @ Wantage | link:https://w3w.co/taxed.wiggles.match[///taxed.wiggles.match]
 | Peter @ Newbury Grove | link:https://w3w.co/radio.vine.oppose[///radio.vine.oppose]
