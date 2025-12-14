@@ -76,6 +76,11 @@ While charging:
 | green solid | fully charged
 |===
 
+Headphones take half an hour to recharge, the case takes 1:45 +
+Earbuds 35mAh each, case 350mAh
+
+Playtime earbuds: 6h +
+10min quick charge for 2h playtime.
 
 ==== Boltune
 
