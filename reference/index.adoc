@@ -60,6 +60,23 @@ link:https://manuals.plus/soundpeats/t3-wireless-earbuds-active-noise-cancelling
 
 image::soundpeats-controls.png[]
 
+==== Soundpeats Pearlclip Pro
+===== Charging LED
+|====
+| Green | 50-100%
+| Yellow | 10-49%
+| Red | 0-10%
+|====
+
+While charging:
+|===
+| red flashing | < 20%
+| yellow flashing | 20-69%
+| green flashing | 70-99%
+| green solid | fully charged
+|===
+
+
 ==== Boltune
 
 ==== Bose QuietComfort 2
