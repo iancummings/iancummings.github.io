@@ -15,6 +15,7 @@
 * link:../giffgaff-divert-codes.html[Phone codes]
 * link:../PC/useful-info.html[PC stuff]
 ** link:../PC/linux/linux-index.html[Linux]
+** link:../PC/spreadsheets.html[Spreadsheets]
 * link:../networking/index.html[Networking]
 * link:../logical-fallacies.html[Logcal fallacies]
 * link:../workouts/index.html[workouts]

@@ -1,0 +1,33 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:sectnums:
+:sectnumlevels: 7
+
+// :stylesheet: gv.css
+:imagesdir: ../images
+
+= Spreadsheets
+
+== LibreOffice
+
+=== Sort a table
+
+NOTE: make sure that the column you're about to sort on is the type that you think it is! For example, is it a date or just a string?
+
+* Select whole table
+* `Data`, `Sort`
+
+=== Remove Leading quote mark (get the program to re-interpret cell contents
+This method works well for converting the entire sheet at once by re-parsing the cell contents. 
+
+1. Select the cells or column you want to process.
+1. Go to the menu and select Edit > Find & Replace.
+1. In the "Search for" box, enter ^.*.
+1. In the "Replace with" box, enter `&` (ampersand) or `$0`. These represent the entire matched content.
+1. Click the More Options button to expand the dialog.
+1. Check the box for Regular expressions.
+1. Ensure Current selection only is checked if you only selected a specific range.
+1. Click Replace All. 
+
+NOTE: ****The apostrophe acts as a flag telling LibreOffice to treat the entry as text, and this process forces LibreOffice to re-evaluate the cell's type. 
