@@ -23,7 +23,7 @@ This method works well for converting the entire sheet at once by re-parsing the
 
 1. Select the cells or column you want to process.
 1. Go to the menu and select Edit > Find & Replace.
-1. In the "Search for" box, enter ^.*.
+1. In the "Search for" box, enter `^.*`
 1. In the "Replace with" box, enter `&` (ampersand) or `$0`. These represent the entire matched content.
 1. Click the More Options button to expand the dialog.
 1. Check the box for Regular expressions.
