@@ -1,0 +1,31 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Birds in Flight
+V0.1, Jan-2026
+
+
+== Miscellaneous Tips
+
+=== Shutter Speed
+`[21:39, 1/15/2026] Cathy Davies: For my first tip.`
+
+If you want the whole bird to be in full focus and wings sharp all the way to the tip, you need a really fast shutter speed. The smaller the bird the faster the shutter speed.
+
+NOTE: remember that these are relatively high meaning your ISO will also have to be high
+
+|===
+| Bird size | Shutter speed
+
+| Small | 1/3200 - 1/4000
+| Medium bird | 1/2500 
+| Large bird | 1/1250
+|===
+
+__Question__: Is that because a smaller bird will be changing course more quickly than a larger bird?
+
+__Answer__: Yes and they flap their wings much faster. If you had a slower shutter speed you could potentially end up with a bird body and hardly any wings. Depends what you want your photo to look like..
+
+
+link:index.html[Main menu]
