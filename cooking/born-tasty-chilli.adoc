@@ -28,7 +28,7 @@ Serves: 4, 40mins
 
 == Method
 
-IMPORTANT: use sauteuse!
+IMPORTANT: use sauteuse/casserole
 
 1. chop onion & carrot - keep together
 1. chop corguette, tomatoes, & chilli - keep together

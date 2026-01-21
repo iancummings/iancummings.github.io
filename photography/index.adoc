@@ -69,6 +69,7 @@ V0.1, Oct 2022: A work in progress
 * link:macro.html[Macro]
 
 == Flash
+* link:canon-80d-flash.html[Flash on Canon 80D]
 * link:yongnuo-flash-trigger.html[Yongnuo Flash Triggers]
 * link:flash-approaches.html[Approaches]
 * link:creative-speedlite.html[Creative speedlite]
