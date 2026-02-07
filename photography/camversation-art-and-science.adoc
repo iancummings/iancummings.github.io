@@ -2,7 +2,7 @@
 :toclevels: 3
 :toc-title: Contents
 
-= Photography locations
+= Art & Science
 Ian Cummings <ian.cummings@bigfoot>
 V0.1, May-2017
 :Author: Ian Cummings

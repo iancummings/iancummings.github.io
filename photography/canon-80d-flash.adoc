@@ -1,0 +1,37 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Flash with the Canon 80D
+
+:Author: Ian Cummings
+:Email:
+:Date: Jan 2026
+:Revision: V1.0
+
+:imagesdir: ./images
+:numbered:
+
+
+== Built in (Pop-up) Flash
+
+== External Flashgun on camera
+
+=== Settings
+
+* ISO: 200 or auto
+* F4/5.6 for portraits
+* Use `Av` if using `ETTL`, or manual if not
+
+
+
+Power: Turn on both the 80D and the 470EX-AI.
+Mode: Set the flash to ETTL mode for automatic metering, or Manual for manual control.
+Position: Keep the flash head straight (0° position) for direct flash, or tilt/swivel it for bounce. 
+
+== Using Remote Triggers
+
+
+
+
+== Fill in Flash

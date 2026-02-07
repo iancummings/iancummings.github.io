@@ -1,0 +1,69 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Abstract by Tony Worobiec
+
+* Non-figurative
+* non-representational
+
+== Methods
+
+* can invert colours to make it abstract
+* reducing down to physical elements
+* take image, copy, invert 180, blend
+* maybe invert colours?
+* use square format, it helps
+* camera should be *__strictly__* parallel to subject so we get no perspective
+* print it, and make it large - helps to make it appaer as art rather than photograph
+* start with image, analyse it's constituent visual elements, that should help with how to make it more abstract
+* requires some shape
+* 2 or 3 visual elements only
+* Rhythm is very important
+* macro can help
+* IR can help
+* ICM can help
+* multiple exposure in-camera
+* hyper shallow depth of filed - dandilion heads for example
+
+== Artists for Inspiration
+* George Brack
+* Paul Clay
+
+
+== Subjects
+* landscapes; get a high vantage point for fields
+* wet beaches
+* ponds
+* water
+* ice
+* architectural
+** peeling paint
+* Plants; wavy leaves, tree bark, etc
+* graffiti
+* shadows
+* scratches and marks on metal
+* Rock
+* text (zooming in on signs)
+* movement (long exposures)
+* texture
+* pattern
+* line
+
+== Books
+* by Tony himself
+* modern art books from library
+** look at images that you like, and think about what they remind you of and that might guide you.
+* abstract expressionism (1940s-1960s)
+
+== Print
+On a smooth matte paper, platinum matte
+
+=== Fotospeed Paper Discount Code
+TWO61039 = 20% off any paper
+
+== RPS Workshop
+Abstract

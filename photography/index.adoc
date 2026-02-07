@@ -58,6 +58,7 @@ V0.1, Oct 2022: A work in progress
 == Others
 * link:street-photography.html[Street Photography]
 ** link:saul-leiter.html[Saul Leiter]
+** link:StreetPhotography101[Street Photography 101 (pdf)]
 
 * link:aviation-photography.html[Aviation photography]
 
@@ -86,7 +87,6 @@ V0.1, Oct 2022: A work in progress
 * link:posing-groups.html[Posing Groups]
 * link:sunny16.html[Sunny 16]
 * link:x100v.html[Fuji X100V]
-
 
 == Miscellaneous
 * link:locations.html[locations]
@@ -146,12 +146,13 @@ See also part 10 of rule Sa109 in the Working Reference Manual:
 ----
 from link:http://www.urban75.org/photos/photographers-rights-tube-railways.html[Urban75.org]
 
-== Talks, Workshops etc
+== Talks, Workshops, Camversation etc
 
 * link:ross-grieve-webinar.html[Ross Grieve (Calibrite, Park Cameras)]
 * link:gestalt/gestalt-theory.html[Simon Ellingworth's gestalt Theory]
 * link:annie-leibovitz-masterclass.html[Annie Leibovitz]
-* link:camversation-art-and-science.html[Camversation - Art & Science]
+* link:camversation.html[Camversation]
+
 
 == Places to go
 === Street
