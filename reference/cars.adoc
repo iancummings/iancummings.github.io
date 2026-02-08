@@ -31,7 +31,7 @@ link:https://www.boschwiperblades.com/xc/en-gb/basic-page.html/-/en-gb/478dafb54
 
 Front: Michelin Cross Climate2, Tyrebarn £130 each @ 18513, 19th Nov 2025
 
-== Dates
+=== Dates
 * Registered: 9 March 2023
 * MOT due: 8 March 2026
 
@@ -42,6 +42,71 @@ Front: Michelin Cross Climate2, Tyrebarn £130 each @ 18513, 19th Nov 2025
 1. Scroll down to the section titled ‘Service’
 1. This will display when the next one is due.
 
+== Polo GTI
+
+=== Cruise Control
+image::polo-gti-cruise-control.png[]
+
+==== Switching on
+
+Press the `O/I` button.
+
+No speed is stored. The system is not yet active.
+
+==== Starting control
+
+While driving, press the `SET` button.
+
+The cruise control system stores and regulates the current speed.
+
+==== Adjusting the speed
+
+You can adjust the stored speed during speed control by the cruise control system:
+
++ 1 km/h (1 mph):
+Press the `RES` button.
+
+- 1 km/h (1 mph):
+Press the `SET` button.
+
++ 10 km/h (5 mph):
+Press the `+` button. The first time it is pressed, it jumps to the next higher ten (km/h) or five (mph) increment.
+
+- 10 km/h (5 mph):
+Press the `-` button. The first time it is pressed, it jumps to the next lower ten (km/h) or fives (mph) increment
+
+Press and hold the `+` or `-` button to continuously change the stored speed.
+
+The vehicle adapts the current speed, but does not actively brake.
+
+
+==== Cancelling system control
+
+Briefly press the `CNCL` or `O/I` button.
+
+Or: depress the brake pedal.
+
+The speed remains stored in the memory.
+
+==== Resuming control
+
+Press the `RES` button.
+
+The cruise control system resumes operation with the stored speed and regulates the speed again.
+
+==== Switching off
+
+Press and hold the `O/I` button.
+
+The cruise control system is switched off and the stored speed is deleted.
+
+==== Changing to the speed limiter
+
+Press the `<car inside a broken circle>  button (on the indicator stak)
+
+Select the speed limiter on the instrument cluster display.
+
+The cruise control system is switched off.
 
 == Snow Foam
 
