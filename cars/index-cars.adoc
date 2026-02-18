@@ -21,6 +21,10 @@ This will display when the next one is due.
 
 == Polo GTI
 
+=== Quick Start Guide
+
+link:2021-Golf-TSI_Golf-GTI-QSG.pdf[This] is for a Golf, but many of the controls look similar.
+
 === Cruise Control
 image::polo-gti-cruise-control.png[]
 
