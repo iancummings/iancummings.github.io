@@ -25,6 +25,15 @@ This will display when the next one is due.
 
 link:2021-Golf-TSI_Golf-GTI-QSG.pdf[This] is for a Golf, but many of the controls look similar.
 
+=== Launch Control
+
+1. sport mode, handbrake off
+1. traction control (ESP) off,
+1. left foot on brake
+1. mash the accelarator
+1. left foot off brake
+
+
 === Cruise Control
 image::polo-gti-cruise-control.png[]
 
