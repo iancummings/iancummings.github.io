@@ -21,6 +21,14 @@ This will display when the next one is due.
 
 == Polo GTI
 
+* Mk6, 2025 facelift
+* 147kW
+* 320Nm/236lbft (1500-4500rpm)
+* 207bhp (4400-6000rpm)
+* 0-62: 6.5s
+* top speed 149mph
+* engine: EA888
+
 === Quick Start Guide
 
 link:2021-Golf-TSI_Golf-GTI-QSG.pdf[This] is for a Golf, but many of the controls look similar.
@@ -97,3 +105,5 @@ Press the `<car inside a broken circle>  button (on the indicator stak)
 Select the speed limiter on the instrument cluster display.
 
 The cruise control system is switched off.
+
+== Washing
