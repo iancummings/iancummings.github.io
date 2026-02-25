@@ -33,6 +33,7 @@ This will display when the next one is due.
 
 == Documentation
 * Online manual is link:https://www.volkswagen.co.uk/en/owners-and-services/my-car/manuals.html?vin-app=WVWZZZAW1SU075032[here]
+* a pdf is link:2025-vw-polo-owners-manual.pdf[here] from link:https://gimmemanuals.com/owners/2025/03/2025-vw-polo-owners-manual.pdf[here]
 
 === Quick Start Guide
 
