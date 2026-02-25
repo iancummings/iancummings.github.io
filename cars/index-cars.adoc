@@ -22,12 +22,17 @@ This will display when the next one is due.
 == Polo GTI
 
 * Mk6, 2025 facelift
-* 147kW
+* 152kW
 * 320Nm/236lbft (1500-4500rpm)
 * 207bhp (4400-6000rpm)
 * 0-62: 6.5s
-* top speed 149mph
-* engine: EA888
+* top speed 149mph / 240km/h
+* engine: EA888 / DNND
+* Kerb weigth 1378kg (with driver)
+* Gross weight 1810kg
+
+== Documentation
+* Online manual is link:https://www.volkswagen.co.uk/en/owners-and-services/my-car/manuals.html?vin-app=WVWZZZAW1SU075032[here]
 
 === Quick Start Guide
 
