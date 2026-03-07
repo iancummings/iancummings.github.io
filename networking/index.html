@@ -438,7 +438,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li><a href="#truereference">2. Reference</a>
 <ul class="sectlevel2">
-<li><a href="#trueexpress-forwarding">2.1. Express Forwarding</a></li>
+<li><a href="#truenetwork-masks">2.1. Network masks</a></li>
+<li><a href="#truetools">2.2. Tools</a>
+<ul class="sectlevel3">
+<li><a href="#truenmap">2.2.1. nmap</a></li>
+</ul>
+</li>
+<li><a href="#trueexpress-forwarding">2.3. Express Forwarding</a></li>
 </ul>
 </li>
 </ul>
@@ -572,7 +578,33 @@ Visible IP address on 1-Dec-2024 was <code>195.180.35.192</code></p>
 <h2 id="truereference"><a class="anchor" href="#truereference"></a>2. Reference</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="trueexpress-forwarding"><a class="anchor" href="#trueexpress-forwarding"></a>2.1. Express Forwarding</h3>
+<h3 id="truenetwork-masks"><a class="anchor" href="#truenetwork-masks"></a>2.1. Network masks</h3>
+
+</div>
+<div class="sect2">
+<h3 id="truetools"><a class="anchor" href="#truetools"></a>2.2. Tools</h3>
+<div class="sect3">
+<h4 id="truenmap"><a class="anchor" href="#truenmap"></a>2.2.1. nmap</h4>
+<div class="paragraph">
+<p><a href="https://www.redhat.com/en/blog/quick-nmap-inventory" class="bare">https://www.redhat.com/en/blog/quick-nmap-inventory</a></p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code class="language-bash" data-lang="bash">$ nmap [-sn] 192.168.1.0/24  <i class="conum" data-value="1"></i><b>(1)</b></code></pre>
+</div>
+</div>
+<div class="colist arabic">
+<table>
+<tr>
+<td><i class="conum" data-value="1"></i><b>1</b></td>
+<td><code>-sn</code> is eqivalent to the older <code>-sP</code></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="trueexpress-forwarding"><a class="anchor" href="#trueexpress-forwarding"></a>2.3. Express Forwarding</h3>
 <div class="paragraph">
 <p>Explained <a href="https://en.wikipedia.org/wiki/Cisco_Express_Forwarding">here</a>, but basically a way of speeding up traffic by keeping extra tables and therefore only inspecting headers before forwarding on the packet.</p>
 </div>
@@ -582,7 +614,7 @@ Visible IP address on 1-Dec-2024 was <code>195.180.35.192</code></p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2024-12-01 10:53:25 GMTST
+Last updated 2026-03-07 08:05:17 GMTST
 </div>
 </div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">

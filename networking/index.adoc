@@ -62,5 +62,21 @@ Visible IP address on 1-Dec-2024 was `195.180.35.192`
 
 == Reference
 
+=== Network masks
+
+
+=== Tools
+
+==== nmap
+
+https://www.redhat.com/en/blog/quick-nmap-inventory
+
+[source,bash]
+----
+$ nmap [-sn] 192.168.1.0/24  #<1>
+----
+
+<1> `-sn` is eqivalent to the older `-sP`
+
 === Express Forwarding
 Explained link:https://en.wikipedia.org/wiki/Cisco_Express_Forwarding[here], but basically a way of speeding up traffic by keeping extra tables and therefore only inspecting headers before forwarding on the packet.
