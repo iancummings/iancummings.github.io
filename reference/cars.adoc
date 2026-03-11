@@ -7,10 +7,7 @@
 // :stylesheet: gv.css
 :imagesdir: ../images
 
-= Cars
 
-== Golf
-1. cambelt
 
 
 == Skoda Fabia4
