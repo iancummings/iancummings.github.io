@@ -42,6 +42,103 @@ Follow these instructions to see when a service is actually due:
 1. Scroll down to the section titled ‘Service’ +
 This will display when the next one is due.
 
+== Polo GTI
+
+* Mk6, 2025 facelift
+* 152kW
+* 320Nm/236lbft (1500-4500rpm)
+* 207bhp (4400-6000rpm)
+* 0-62: 6.5s
+* top speed 149mph / 240km/h
+* engine: EA888 / DNND
+* Kerb weigth 1378kg (with driver)
+* Gross weight 1810kg
+
+=== Wipers
+26"/650mm wiper blade on the driver's side and a 18"/450 for the passenger's side
+
+Bosch: front:A864S Aerotwin twin Pack, Rear: A282H, 280mm/11"
+
+=== Documentation
+* Online manual is link:https://www.volkswagen.co.uk/en/owners-and-services/my-car/manuals.html?vin-app=WVWZZZAW1SU075032[here]
+* a pdf is link:2025-vw-polo-owners-manual.pdf[here] from link:https://gimmemanuals.com/owners/2025/03/2025-vw-polo-owners-manual.pdf[here]
+
+==== Quick Start Guide
+
+link:2021-Golf-TSI_Golf-GTI-QSG.pdf[This] is for a Golf, but many of the controls look similar.
+
+=== Launch Control
+
+1. sport mode, handbrake off
+1. traction control (ESP) off,
+1. left foot on brake
+1. mash the accelarator
+1. left foot off brake
+
+
+=== Cruise Control
+image::polo-gti-cruise-control.png[]
+
+==== Switching on
+
+Press the `O/I` button.
+
+No speed is stored. The system is not yet active.
+
+==== Starting control
+
+While driving, press the `SET` button.
+
+The cruise control system stores and regulates the current speed.
+
+==== Adjusting the speed
+
+You can adjust the stored speed during speed control by the cruise control system:
+
++ 1 km/h (1 mph):
+Press the `RES` button.
+
+- 1 km/h (1 mph):
+Press the `SET` button.
+
++ 10 km/h (5 mph):
+Press the `+` button. The first time it is pressed, it jumps to the next higher ten (km/h) or five (mph) increment.
+
+- 10 km/h (5 mph):
+Press the `-` button. The first time it is pressed, it jumps to the next lower ten (km/h) or fives (mph) increment
+
+Press and hold the `+` or `-` button to continuously change the stored speed.
+
+The vehicle adapts the current speed, but does not actively brake.
+
+
+==== Cancelling system control
+
+Briefly press the `CNCL` or `O/I` button.
+
+Or: depress the brake pedal.
+
+The speed remains stored in the memory.
+
+==== Resuming control
+
+Press the `RES` button.
+
+The cruise control system resumes operation with the stored speed and regulates the speed again.
+
+==== Switching off
+
+Press and hold the `O/I` button.
+
+The cruise control system is switched off and the stored speed is deleted.
+
+==== Changing to the speed limiter
+
+Press the `<car inside a broken circle>  button (on the indicator stak)
+
+Select the speed limiter on the instrument cluster display.
+
+The cruise control system is switched off.
 
 
 == Washing
@@ -181,11 +278,11 @@ Not for use on glass. Another link:https://www.youtube.com/watch?v=c77dB0p33wc&l
 ++++
 ++++
 
-* Citrus pre-wash:+
+* Citrus pre-wash: +
 EzCC 5:1, Sam 5:1
 * Arctic meltdown snow flame.
 * Supernova shampoo
-* Insta Gloss after wash, through snow cannon￼
+* Insta Gloss after wash, through snow cannon
 * Geo Gel on the wheels
 * Aurora on the lower part of the bodywork and rear bumper
 * Fusion all over except the windscreen
@@ -216,96 +313,4 @@ a. EzCC-__Champs__: 1:250 +
 
 
 
-== Polo GTI
-
-* Mk6, 2025 facelift
-* 152kW
-* 320Nm/236lbft (1500-4500rpm)
-* 207bhp (4400-6000rpm)
-* 0-62: 6.5s
-* top speed 149mph / 240km/h
-* engine: EA888 / DNND
-* Kerb weigth 1378kg (with driver)
-* Gross weight 1810kg
-
-=== Documentation
-* Online manual is link:https://www.volkswagen.co.uk/en/owners-and-services/my-car/manuals.html?vin-app=WVWZZZAW1SU075032[here]
-* a pdf is link:2025-vw-polo-owners-manual.pdf[here] from link:https://gimmemanuals.com/owners/2025/03/2025-vw-polo-owners-manual.pdf[here]
-
-==== Quick Start Guide
-
-link:2021-Golf-TSI_Golf-GTI-QSG.pdf[This] is for a Golf, but many of the controls look similar.
-
-=== Launch Control
-
-1. sport mode, handbrake off
-1. traction control (ESP) off,
-1. left foot on brake
-1. mash the accelarator
-1. left foot off brake
-
-
-=== Cruise Control
-image::polo-gti-cruise-control.png[]
-
-==== Switching on
-
-Press the `O/I` button.
-
-No speed is stored. The system is not yet active.
-
-==== Starting control
-
-While driving, press the `SET` button.
-
-The cruise control system stores and regulates the current speed.
-
-==== Adjusting the speed
-
-You can adjust the stored speed during speed control by the cruise control system:
-
-+ 1 km/h (1 mph):
-Press the `RES` button.
-
-- 1 km/h (1 mph):
-Press the `SET` button.
-
-+ 10 km/h (5 mph):
-Press the `+` button. The first time it is pressed, it jumps to the next higher ten (km/h) or five (mph) increment.
-
-- 10 km/h (5 mph):
-Press the `-` button. The first time it is pressed, it jumps to the next lower ten (km/h) or fives (mph) increment
-
-Press and hold the `+` or `-` button to continuously change the stored speed.
-
-The vehicle adapts the current speed, but does not actively brake.
-
-
-==== Cancelling system control
-
-Briefly press the `CNCL` or `O/I` button.
-
-Or: depress the brake pedal.
-
-The speed remains stored in the memory.
-
-==== Resuming control
-
-Press the `RES` button.
-
-The cruise control system resumes operation with the stored speed and regulates the speed again.
-
-==== Switching off
-
-Press and hold the `O/I` button.
-
-The cruise control system is switched off and the stored speed is deleted.
-
-==== Changing to the speed limiter
-
-Press the `<car inside a broken circle>  button (on the indicator stak)
-
-Select the speed limiter on the instrument cluster display.
-
-The cruise control system is switched off.
 

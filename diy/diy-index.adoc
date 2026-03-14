@@ -50,5 +50,5 @@ link:https://youtu.be/TQ13gug7aQ4[Oversize holes]
 ==== Plugs
 * ordinary yellow,red,brown +
   a 5mm screw and red plug will do most jobs!
-* Fischer DuoPower
-* Fischer UX
+* Fischer DuoPower - use 8 x 40, 6 x 30 are too small for normal 12mm plasterboard.
+* Fischer UX - no good
