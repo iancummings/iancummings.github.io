@@ -17,13 +17,13 @@ Ours should be link:https://digital-manual.skoda-auto.com/w/en_GB/show/96df8a849
 
 * link:https://go.skoda.eu/video-manuals-fabia4[Video Tutorials]
 
-* Wipers +
+=== Wipers +
 link:https://www.boschwiperblades.com/xc/en-gb/basic-page.html/-/en-gb/478dafb54dab9771f6adabf9705fe54dd0d454ee/period_5046_2949_06_2021_12_9999/SKODA_Fabia_2021[Bosch website]
 
-** front: 26" & 18" (650mm/450mm); link:https://www.wiperblades.co.uk/products/bosch-aerotwin-twin-pack-a864s-twin-pack-wiper-blades[Bosch A 864 S]
-** rear: 12" (300mm) ; Bosch A 303 H 
+* front: 26" & 18" (650mm/450mm); link:https://www.wiperblades.co.uk/products/bosch-aerotwin-twin-pack-a864s-twin-pack-wiper-blades[Bosch A 864 S]
+* rear: 12" (300mm) ; Bosch A 303 H 
 
-** Tyres
+=== Tyres
 195/55 R16 91V
 
 Front: Michelin Cross Climate2, Tyrebarn £130 each @ 18513, 19th Nov 2025
@@ -42,6 +42,8 @@ Follow these instructions to see when a service is actually due:
 1. Scroll down to the section titled ‘Service’ +
 This will display when the next one is due.
 
+
+
 == Polo GTI
 
 * Mk6, 2025 facelift
@@ -54,10 +56,24 @@ This will display when the next one is due.
 * Kerb weigth 1378kg (with driver)
 * Gross weight 1810kg
 
+=== Tyres
+215/45 ZR 17 (91Y), spare T125/60 R18
+
+Pressures from actual vehicle sticker:
+|===
+| | Front | Rear | spare
+
+| Normal | 2.8 / 41| 2.5 / 36 | 4.2 / 61
+| Laden |2.9 / 42 | 3.1 / 45 |
+|===
+
 === Wipers
 26"/650mm wiper blade on the driver's side and a 18"/450 for the passenger's side
 
 Bosch: front:A864S Aerotwin twin Pack, Rear: A282H, 280mm/11"
+
+=== Steering Wheel
+Largest diameter (horizonal) is 14¾ inches, 375mm (disklok small)
 
 === Documentation
 * Online manual is link:https://www.volkswagen.co.uk/en/owners-and-services/my-car/manuals.html?vin-app=WVWZZZAW1SU075032[here]
