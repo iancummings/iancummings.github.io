@@ -36,7 +36,7 @@ TIP: if you create a control point, and then reduce the chroma/luma sliders on t
 
 == Control Line
 This is a combination of the graduated filter and the control point.
-The gradualted filter will apply its effect over the whole of the area, when using a control line, we get to choose
+The graduated filter will apply its effect over the whole of the area, when using a control line, we get to choose
 with the dropper tool, which areas will be affected. The dropper samples the image in teh same way as the control point does; 
 a combination of luminance and chrominance.
 To control futher what the dropper is picking up, go to the RHS menu/Local adjustments and use the chroma
@@ -65,4 +65,40 @@ _(For the record, in the Global environment, the default comparison is made from
 | New mask| shift+N
 | delete mask | DEL
 |===
+
+== Camversation
+=== Week 1 - PhotoLab & Filmpack
+Help - on website
+
+==== Projects
+Drag and drop folders into projects
+When using masks; local adjustments - go to black and white at the bottom of screen then use adjust mask selection by luma, chroma etc
+
+
+- set colour rendering
+- global adjustments
+- local adjustments
+
+use DxO Wide Gamut
+
+local adjustment, AI mask
+drag over the area
+can make a sub mask and group
+can move different ai masks under one mask to group
+when using ai mask, can direct the ai mask to look for people,animals, vehicles, hair etc - bottom of frame - shows person and drop down arrow
+sub mask, second from left - square with plus in bottom right
+
+==== Keywords
+Keywords & lists
+
+
+before using AI masks, you should turn on distortion lens correction
+
+if you have applied a named "person" mask, then copies of correction settings can be applied to different images and it will re-interpret the "person", it won't copy the axact mask, it will re-apply the "person" instruction. This doesn't work for manual had drawn masks however.
+
+
+==== Filmpack
+
+if skin tones look too blotchy due to clearview, go to hsl, sleect red and pull down a bit - will help restore skin tone.
+
 
