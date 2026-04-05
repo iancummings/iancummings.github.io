@@ -26,6 +26,9 @@ Panasonic NN-St479S BPQ
 | Turbo | 1000
 |===
 
+== Strimmer T27
+Sparke plug BPMR6A, or NGK 4972 BPMR6A Nickel Spark Plug
+
 == Manuals & Instructions
 
 === USB-C Power Meter
@@ -259,7 +262,8 @@ link:cars.html[Here]
 == Knife Sharpening
 === Horl
 ==== Specs
-horl2 diamond side about 320 or 420 grit, the diamond side is 1000 grit
+horl2 diamond side is 46um about 320 or 420 grit, the ceramic side is 1000 grit
+horl3 
 
 
 Coarse Dimond: 200
