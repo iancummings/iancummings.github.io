@@ -86,7 +86,7 @@ link:2021-Golf-TSI_Golf-GTI-QSG.pdf[This] is for a Golf, but many of the control
 === Launch Control
 
 1. sport mode, handbrake off
-1. traction control (ESP) off,
+1. traction control (ESP) "off" or "sport"
 1. left foot on brake
 1. mash the accelarator
 1. left foot off brake
@@ -284,6 +284,7 @@ Not for use on glass. Another link:https://www.youtube.com/watch?v=c77dB0p33wc&l
 1. wheels on
 1. snow foam
 1. wheels off
+1. rinse off pre & snow foam
 1. shampoo
 1. tar remover
 1. fallout remover
@@ -314,7 +315,9 @@ EzCC 5:1, Sam 5:1
 50 ml : 500ml trigger pack
 1. **Pre-wash**: 
 a. EzCC-__Citrus__: 10:1 to 5:1 +
-50ml : 500ml trigger pack
+50ml : 500ml trigger pack +
+100ml : 1l Pump Sprayer
+*NOTE: Don't rinse off if following with Snow foam*
 1. **Snow foam**:
 a. Sam's : 20:1 +
 50 ml : 1l
