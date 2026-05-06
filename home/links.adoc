@@ -40,5 +40,6 @@ link:http://iancummings.x10.mx/images[]
 * Legacy/Reference
 ** http://iancummings.co.uk[iancummings.co.uk]
 ** http://icc-webroot.s3-website-us-east-1.amazonaws.com[Static Amazon]
+*** and to log on link:https://aws.amazon.com/s3/[AWS S3]
 ** http://iancummings.x10.mx/dotcom/[x10 big buttons]
 * http://iancummings.duet.to/scratchpad.txt[Scratchpad]
