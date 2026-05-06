@@ -1,0 +1,14 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Lightrocket
+:Author: Ian Cummings
+:Email:
+:Date: March 2022
+:Revision: V0.1
+
+== Tips etc
+
+* How to choose the thumbnail for a gallery
+Go into the Gallery. The Top left square is occupied by a space to help with this!

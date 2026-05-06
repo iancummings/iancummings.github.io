@@ -318,11 +318,13 @@ a. EzCC-__Citrus__: 10:1 to 5:1 +
 50ml : 500ml trigger pack +
 100ml : 1l Pump Sprayer
 *NOTE: Don't rinse off if following with Snow foam*
+a. Hydro: 10:1
 1. **Snow foam**:
 a. Sam's : 20:1 +
 50 ml : 1l
 b. EzCC-__ArticMeltdown__ : 4:1 +
 250ml : 1l
+c. Hydro: 10:1
 
 1. **Shampoo**:
 a. EzCC-__Champs__: 1:250 +

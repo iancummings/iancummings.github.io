@@ -11,11 +11,15 @@ V0.1, Oct 2022: A work in progress
 * link:photography.html[Photography hints 'n' tips]
 
 == Site links / Social
-. * link:https://x12.x10hosting.com:2222/evo/[x10]
+* link:https://x12.x10hosting.com:2222/evo/[x10]
 ** link:https://iancummings.x10.mx/images/portfolio/[portfolio]
 ** link:https://iancummings.x10.mx/images/family/[family]
 * link:https://iancummings.smugmug.com/[SmugMug]
-* link:https://websites.lightrocket.com/iancummings[LightRocket]
+* Lightrocket
+** link:https://websites.lightrocket.com/iancummings[LightRocket]
+** link:https://websites.lightrocket.com/familycummings[Family]
+** link:https://websites.lightrocket.com/ian_cummings[personal]
+
 * link:https://www.flickr.com/photos/iancummings/[Flickr]
 * https://youpic.com/IanCummings[YouPic]
 * link:instagram.html[Instagram]
@@ -116,6 +120,7 @@ V0.1, Oct 2022: A work in progress
 * link:workflow.html[Workflow]
 * link:photolab.html[PhotoLab]
 * link:printing.html[Printing]
+* link:lightrocket.html[LightRocket]
 
 === Rating an Image
 
