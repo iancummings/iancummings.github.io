@@ -1,0 +1,85 @@
+// toc: left, right, preamble, macro, auto (default)
+:toc: macro
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+:numbered:
+
+= Advanced Composition - Tony Bramley
+
+toc::[]
+
+image::compositional-harmony.png[]
+
+== Thoughts
+Take pictures, workout using these principles which images work and which don't and _why_. Then over time I will get better at the point of taking the picture. This may also help develop a particular style.
+
+== Colour
+image::colour-wheel.png[]
+
+He hates the classic red person in a green landscape!
+
+A person is a very strong point of emphasis, so use them with care; consider, size and colour (contrast or complimentary)
+
+== Form ~ depth
+Implied form
+
+* lighting
+* colour
+* size/perspective
+* layering
+* shallow depth of field
+
+
+
+
+
+== points of think about
+
+* Greatest area of contrast (GAC) - will create emphasis; wanted/not wanted?
+
+== value
+
+== space
+subject = positive space
+background etc = negative space
+
+negtive space doesn't have to be empty
+
+if too much space, are we sure we know what the image is about?
+
+== movement
+
+== proportion
+
+== repetition
+
+== variety
+counterweight to harmony
+
+== balance
+
+== Unity
+harmony
+
+== Emphasis
+opposite to repetition, used to attract attention
+
+
+== Figure / Ground
+The way we perceive an image/subject against a scene
+The should contrast in some way
+
+
+
+== day 2
+Visual direction
+If there is an overall direction, be wary of anything that might conflict with the direction.
+
+Da Vinci - The Virgin on the Rocks - 
+
+
+

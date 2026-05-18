@@ -9,7 +9,51 @@
 
 * link:bookmarks/bookmarks.html[Bookmarks]
 * link:index.html[old index]
-* Images
+
+== Domains
+All at link:https://login.ionos.co.uk/[ionos] +
+
+* coldashparish.org.uk 
+* contact-email.co.uk 
+* gillibutcher.uk 
+* gillibutcher.co.uk
+* gillicummings.co.uk 
+* gillicummings.uk 
+* gillycummings.co.uk 
+* gillycummings.uk 
+* greysnapper.uk 
+* grey-snapper.uk 
+* iancummings.co.uk 
+* https://iancummings.com 
+* iancummings.uk 
+* livetouch.co.uk 
+* pipcummings.co.uk 
+* pipcummings.uk 
+* rosewood.org.uk 
+* shopping-email.co.uk 
+* tomcummings.co.uk 
+* tomcummings.uk 
+
+=== Subdomains
+==== iancummings.com
+
+|====
+|amazon.iancummings.com | 	 http://icc-webroot.s3-website-us-east-1.amazonaws.com/ |
+|blog.iancummings.com | 	 (frame) https://iancummings.wordpress.com/|
+|family.iancummings.com | 	 https://websites.lightrocket.com/familycummings|
+|holidays.iancummings.com | 	 (frame) http://iancummings.x10.mx/images/family/Holidays|
+|images.iancummings.com | 	 (frame) https://websites.lightrocket.com/iancummings|
+|lightrocket.iancummings.com | 	 https://websites.lightrocket.com/iancummings|
+|photography.iancummings.com | 	 https://websites.lightrocket.com/iancummings|
+|portfolio.iancummings.com | 	 https://iancummings.x10.mx/images/portfolio|
+|potpourri.iancummings.com | 	 https://iancummings.x10.mx/images/potpourri/|
+|scratchpad.iancummings.com | 	 https://ln5.sync.com/dl/d693be340/bvrqpruc-khzb9kdw-cygnr3t3-veabgeui|
+|theridge.iancummings.com | 	 https://iancummings.github.io/rosewood/ridge.html|
+|x10.iancummings.com | 	 http://iancummings.x10.mx/|
+|====
+
+
+== Images
 ** Images@x10 +
 link:http://iancummings.x10.mx/images/portfolio[images.iancummings.com]
 ** Family@x10 +
@@ -23,7 +67,7 @@ link:http://iancummings.x10.mx/images[]
 ** link:http://iancummings.x10.mx/images/coldash[Cold Ash images]
 * link:rosewood/ridge.html[The Ridge]
 
-* Browser Scratchpads
+== Browser Scratchpads
 ** Basic: *data:text/html,<html contenteditable>*
 ** link:notepad.html[Notepad]
 

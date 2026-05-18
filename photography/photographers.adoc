@@ -1,0 +1,17 @@
+// toc: left, right, preamble, macro, auto (default)
+:toc: macro
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ./images
+
+:numbered:
+
+= Photographers
+
+* Bill Brandt
+Surrealism?
+* Dorothea Lange’s Migrant Mother
+
+== Street
