@@ -13,26 +13,26 @@
 == Domains
 All at link:https://login.ionos.co.uk/[ionos] +
 
-* coldashparish.org.uk 
-* contact-email.co.uk 
-* gillibutcher.uk 
-* gillibutcher.co.uk
-* gillicummings.co.uk 
-* gillicummings.uk 
-* gillycummings.co.uk 
-* gillycummings.uk 
-* greysnapper.uk 
-* grey-snapper.uk 
-* iancummings.co.uk 
+* http://coldashparish.org.uk 
+* http://contact-email.co.uk 
+* http://shopping-email.co.uk
+* http://gillibutcher.uk 
+* http://gillibutcher.co.uk
+* http://gillicummings.co.uk 
+* http://gillicummings.uk 
+* http://gillycummings.co.uk 
+* http://gillycummings.uk 
+* http://greysnapper.uk 
+* http://grey-snapper.uk 
+* http://iancummings.co.uk 
 * https://iancummings.com 
-* iancummings.uk 
-* livetouch.co.uk 
-* pipcummings.co.uk 
-* pipcummings.uk 
-* rosewood.org.uk 
-* shopping-email.co.uk 
-* tomcummings.co.uk 
-* tomcummings.uk 
+* http://iancummings.uk 
+* http://livetouch.co.uk 
+* http://pipcummings.co.uk 
+* http://pipcummings.uk 
+* http://rosewood.org.uk 
+* http://tomcummings.co.uk 
+* http://tomcummings.uk 
 
 === Subdomains
 ==== iancummings.com
@@ -54,18 +54,21 @@ All at link:https://login.ionos.co.uk/[ionos] +
 
 
 == Images
+* link:hhtp://iancummings.x10.mx[iancummings.x10.mx]
 ** Images@x10 +
 link:http://iancummings.x10.mx/images/portfolio[images.iancummings.com]
 ** Family@x10 +
 link:http://iancummings.x10.mx/images/family[family.iancummings.com]
 ** Images@x10 +
 link:http://iancummings.x10.mx/images[]
-** link:https://websites.lightrocket.com/iancummings[Lightrocket]
-** link:https://iancummings.smugmug.com/[SmugMug]
-** link:https://www.flickr.com/photos/iancummings[Flickr]
+* link:https://websites.lightrocket.com/iancummings[Lightrocket]
+** link:https://websites.lightrocket.com/familycummings[Family Cummings]
+** link:https://websites.lightrocket.com/ian_cummings[Ian Personal]
+* link:https://iancummings.smugmug.com/[SmugMug]
+* link:https://www.flickr.com/photos/iancummings[Flickr]
 
-** link:http://iancummings.x10.mx/images/coldash[Cold Ash images]
-* link:rosewood/ridge.html[The Ridge]
+* link:http://iancummings.x10.mx/images/coldash[Cold Ash images]
+* link:../rosewood/ridge.html[The Ridge]
 
 == Browser Scratchpads
 ** Basic: *data:text/html,<html contenteditable>*
