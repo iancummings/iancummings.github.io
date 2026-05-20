@@ -1,6 +1,8 @@
 :toc: left
 :toclevels: 3
 :toc-title: Contents
+:numbered:
+
 
 = Street with Matt
 :Author: Ian Cummings
