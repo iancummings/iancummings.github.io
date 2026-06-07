@@ -8,6 +8,12 @@
 :Date: March 2022
 :Revision: V0.1
 
+== Tags
+#leakestreet
+#street
+#streetsnappers
+#streetsnapperscollective
+
 == Picture sizes
 
 image::images/IG-photo-sizes-sizes.png[]
