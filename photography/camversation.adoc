@@ -10,3 +10,4 @@
 * link:camversation-art-and-science.html[Art & Science]
 * link:camversation-abstract.html[Abstract Images]
 * link:camversation-dxo-monochrome.html[DxO - monochrome]
+* link:camversation-dxo-ai-masks.html[AI Masks]

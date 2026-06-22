@@ -1,0 +1,50 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Art & Science
+Ian Cummings <ian.cummings@bigfoot>
+V0.1, June-2026
+:Author: Ian Cummings
+:Email: 
+:Date: June 2026
+:Revision: V0.1
+:numbered:
+
+:imagesdir: ../images
+
+
+
+== Camversation - DxO
+=== General to Investigate
+
+* Projects? +
+link to already existing images 9may be a problem if image goes away)
+
+* wanging the exposure to each end helps to illustrate the highlights and the lowlights of teh image
+
+* try using daylght WB all the time for street?
+
+* micro-contrast & fine-contrast +10 always
+
+* 16bit layered tiff files are future proof
+
+=== AI Masks
+
+* local adjustments, mask options -> diffusion for edges
+
+* tarmac on a street is pretty good for picking a neutral white balance
+
+* when using/choosing an AI mask, you can draw a bounding rectangle and it will make a guess at what you want - do this by using teh area tool rather than the point tool from the menu at the bottom of the image.
+
+* a sub mask can be mask that acts as a negative - ie a mask covers a person, a submask can remove their hair for example
+
+* when creating a mask, can use preset name from menu at the bottom of the picture. Named masks may end up taking longer as it's using training data, rather than selection which just works on the image data.
+
+* the menu at the bottom of the menu is used to choose positive or negative
+
+* if have chosen a sky mask, and have trees where sky is visible through it - it will fail wit the tree.
+Add a sub mask using control points.
+
+* can show black and white mask (opposite of colour overlay)
+
