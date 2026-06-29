@@ -10,5 +10,6 @@ image::parkrun.png[]
 
 = Workouts
 
+* links:daily-exercise.html[Daily]
 * link:rb.html[Resistant bands]
 * link:dumbells.html[Dumbells]

@@ -1,0 +1,33 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Daily Exercise
+
+NOTE: Sections are listed in order of importance
+
+=== Knee
+* 8 glute bridge thrusts per leg x 3
+* 8 knee bends per leg x 3
+* 8 step downs per leg x 3
+
+=== Shoulder
+* row dumbbell
+* elastic pull down
+* rotate with drainpipe
+
+
+=== Core
+
+
+
+
+
+ hammer curls?
+
+
+
+NOTE: Finish with child pose 
