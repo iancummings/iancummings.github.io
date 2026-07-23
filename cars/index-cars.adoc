@@ -324,8 +324,9 @@ a. Sam's : 20:1 +
 50 ml : 1l
 b. EzCC-__ArticMeltdown__ : 4:1 +
 250ml : 1l
+c. EzCC-__Superfoam__ : 50:1 +
+20ml : 1l
 c. Hydro: 10:1
-
 1. **Shampoo**:
 a. EzCC-__Champs__: 1:250 +
 40ml for 10l bucket

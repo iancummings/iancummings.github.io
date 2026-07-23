@@ -18,10 +18,42 @@ https://se7endrives.wixsite.com/sevendrives/post/the-ashford-triangle---lambourn
 1. At Childrey, turn left to start the triangle
 
 1. start at ///mint.guesswork.points
-1. go southwest down B4001 towards Lambourne
+1. go southwest down B4001 towards Lambourn
 1. at Lambourn, turn right B4000
 1. at Ashbury, turn right Walnut Trees Hill. B4507
 1. at Childrey, turn right Middleway Bottom, sharp right turn to head back to the start
+
+== West Berkshire loop
+NOTE: About 2 hours
+
+https://www.pistonheads.com/news/ph-mydreamdrive/west-berkshire-loop-my-dream-drive/31057
+
+1. B4494 Newbury -> Wantage
+1. West on *B4057*
+1. With *Childrey* on the right, turn *left* *B4001* -> *Lambourn* +
+Watch out for horses!
+1. at Lambourn, turn **right**; *B4000* -> *Ashbury*
+1. Diversion: "After taking a right turn on the B4000 to Ashbury, it's impossible to resist a detour and head east on the B4057 again, as far as the turnoff for Uffington. Heading up this tiny road to the famous white horse carved on the hillside is memorable indeed - you're rewarded with simply stunning views across the landscape below. But at the top, right above the white horse itself, it suddenly turns into a rutted track more suited to 4x4s than Ferraris, so it's time to turn around and go back on the B4057 westwards."
+1. At Ashbury, turn left; **Idestone**, *Bishopstone* +
+1. Just after Hinton Parva / Bishopstone (going south) slight left to *Hatchet Hill* _> Foxhills - up hill. +
+Under the M4 then dog-leg right-left to go along *The Ridgeway*
+1. Another right-left to *New Road*
+1. Right at r/about along *B4005* -> *Wroughton*
+1. At Wroughton, head south on *A4361* - A4
+1. Goes through WinterBourn Bassett, Berwick Bassett, Winterbourne Monkton, Avebury
+1. At Avebury (Henge) continue along *B4003* to *West Kennet* & A4
+1. Turn left and come home via Marlborough.
+
+image::DreamDrive-WestBerkshireLoop.png[]
+
+Google Maps link is link:https://goo.gl/maps/jf7e4[here] or maybe link:https://www.google.co.uk/maps/dir/51.4182366,-1.3290623/51.4105063,-1.3459731/@51.4977646,-1.5923964,12.25z/data=!4m34!4m33!1m30!3m4!1m2!1d-1.3662017!2d51.5010691!3s0x4876afda10b9daaf:0xa9c043fe6d779fb0!3m4!1m2!1d-1.426014!2d51.5855705!3s0x4876b15400ecc7ef:0x9e3e7f2c18de1189!3m4!1m2!1d-1.5216898!2d51.5351833!3s0x4876b2d73dd21c31:0xf0f7b4eb865aab10!3m4!1m2!1d-1.6219257!2d51.5625156!3s0x48714c20cc4dd4d5:0x67f7efba2a9c7569!3m4!1m2!1d-1.6639039!2d51.5373633!3s0x48714e51a039ac2d:0xda30e9e00b0d5229!3m4!1m2!1d-1.841927!2d51.4838788!3s0x48715ce98659f973:0x34392bfc50b13269!1m0!3e0?hl=en&entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D[here]
+
+== Shorter West Berkshire Loop
+1. Go to *Wantage*
+1. Head *south* along *A338* towards **Great Shefford**.
+1. at Great Shefford;
+a. *Either* Left vers East Shefford, Weston, Welford, Easton, Hunts Green, Woodspeen
+a. Or straight on, vers **Shefford Woodlands**, across the **M4** r/about, past the **Tally Ho**, to meet the *A4* at **Hungerford**.
 
 == The Burton Dassett Hills
 See link:https://se7endrives.wixsite.com/sevendrives/post/burton-dassett-hills[here]

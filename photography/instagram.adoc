@@ -9,10 +9,10 @@
 :Revision: V0.1
 
 == Tags
-#leakestreet
-#street
-#streetsnappers
-#streetsnapperscollective
+#leakestreet +
+#street +
+#streetsnappers +
+#streetsnapperscollective +
 
 == Picture sizes
 
@@ -23,7 +23,8 @@ At a standard width of 1080 pixels, Instagram keeps your photo its original size
 |===
 | Square || 1080 x 1080
 | Landscape |1.91:1 | 1080w x 608h
-| Portrait | 4:5 | 1080w x (566-) 1350h
+| *Portrait* | *4:5* | *1080w* x +
+(566-) *1350h*
 | Story | 9:16 | 1080 x 1920
 | Profile picture || 360 x 360
 | IGTV Cover Photo | 1:1.55 | 420 x 654
@@ -33,6 +34,9 @@ At a standard width of 1080 pixels, Instagram keeps your photo its original size
 | Video landscape | 1.91:1 |600 x 315
 | Video carousel | |600 x 600
 |===
+
+=== Posting a Carousel of different Aspect Ratios
+Use Canva as described link:canva.html[here]
 
 == Tags
 ----

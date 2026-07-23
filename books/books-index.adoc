@@ -13,6 +13,22 @@
 // include::some_file.html[]
 //++++
 
+
+'''
+++++
+
+<a href="https://www.goodreads.com/book/show/58733693-remarkably-bright-creatures" style="float: left; padding-right: 20px"><img border="0" alt="Remarkably Bright Creatures" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1651600548l/58733693._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/58733693-remarkably-bright-creatures">Remarkably Bright Creatures</a> by <a href="https://www.goodreads.com/author/show/21374195.Shelby_Van_Pelt">Shelby Van Pelt</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/8653719032">4 of 5 stars</a><br /><br />
+I didn't know anything about this book before reading it and so had few pre-conceptions. I was slightly bemused/confused by it as I started to read it; a talking octopus, a cleaner, and a guy living in a different state with seemingly no connection to the first two characters.<br />The writing is good; the characters are drawn well (even the octopus), and you're carried along very capably, and while it is by no means a demanding book it explores several concepts very well that gives the reader much to think about relating to grief, loss, ageing while alos having a nice mystery thread holding it all together.<br /><br />I finished the book having enjoyed it much more than I expected. I was determined to finish it before I watched the Netflix film (which I am sure will be good), so that I had the original story in my head.<br /><br />Many of the other reviews complain about Cameron being a whinging, whiney, waste fo space. He did whine a lot at the begining I grant you, but the character developed during the story and the decent human being to whiney arse ratio definitely increased as the book progressed and it was good to see the character progression. <br /><br />My only critisism is nothing to do with the book, but the narration as I listened to the audiobook. While the main narrator did an excellent job on the main characters, my mother is Scottish and so I know the accent well. I can only say I cringed slightly every time the scottish store owner was in a scene!
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/1269717-ian-cummings">View all my reviews</a>
+++++
+Finished July 2026
+
+'''
+
+
+
 '''
 ++++
 <a href="https://www.goodreads.com/book/show/240019853-addicted-to-anxiety" style="float: left; padding-right: 20px"><img border="0" alt="Addicted to Anxiety: How to Break the Habit" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1754915550l/240019853._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/240019853-addicted-to-anxiety">Addicted to Anxiety: How to Break the Habit</a> by <a href="https://www.goodreads.com/author/show/17607427.Owen_O_Kane">Owen O'Kane</a><br/>

@@ -33,6 +33,7 @@
 * link:../emotional-maturity.html[Emotional Maturity]
 * link:../cars/index-cars.html[Cars] +
 see also link:../reference/cars.html[in reference]
+* link:../ai/ai-index.html[AI]
 
 == What 3 Words
 

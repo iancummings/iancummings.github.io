@@ -348,8 +348,14 @@ Installation link:https://install.spigen.com/blogs/phone/glas-tr-ez-fit-for-goog
 * paintbrushes; arrowworthy, paintwarrior, monic - 2.5inch angled
 * alcolhol - 1 unit contains 50kcal, so the same as half a biscuit (they are typically 75-120kcal)
 * Interdental brushes +
-** blue = 0.6mm
-** yellow = 0.7mm
+|===
+| Icon colour | ISO | mm
+
+|blue | 3 | 0.6
+|yellow | 4 | 0.7
+| green | 5 | 0.8
+|===
+
 * Nitecore Air +
 ** 5000mAh@3.88V (10.4Wh)
 ** 3300mAh@5V (typ 2.4A
