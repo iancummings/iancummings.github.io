@@ -13,6 +13,20 @@
 // include::some_file.html[]
 //++++
 
+'''
+++++
+
+<a href="https://www.goodreads.com/book/show/29752901-never-greener" style="float: left; padding-right: 20px"><img border="0" alt="Never Greener" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523385523l/29752901._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/29752901-never-greener">Never Greener</a> by <a href="https://www.goodreads.com/author/show/436166.Ruth_Jones">Ruth Jones</a><br/>
+My rating: <a href="https://www.goodreads.com/review/show/8782703391">3 of 5 stars</a><br /><br />
+This is my second Ruth Jones book (I previously read "By Your Side"), and I'm afraid that this wasn't for me.<br /><br />I know that this is her first book, but the writing was very cliched with a constant stream of unimaginitive similes, and characters, which while nicely drawn, just didn't quite add up for me. <a class="jsShowSpoiler spoilerAction">(view spoiler)</a><span class="spoilerContainer" style="display: none">[For example the way Hettie goes through life not noticing Ivor is fair enough, but then jumping into bed with him literaly and figuratively quite so quickly didn't seem likely to me <a class="jsHideSpoiler spoilerAction">(hide spoiler)</a>]</span>.<br /><br />Maybe it's may age, but the (many) sex scenes did do it for me in any way and just seemed unimaginative and made me want to skip them (I didn't).<br /><br />I don't really know why I didn't take to this book, as other books I've read have had stranger plots than this (this story arc is quite beleiveable) but there was something missing that made the whole thing pluu together.<br /><br />I'm sorry Ms Jones, but I think that's it for you and me.
+<br/><br/>
+<a href="https://www.goodreads.com/review/list/1269717-ian-cummings">View all my reviews</a>
+
+
+
+++++
+'''
+
 
 '''
 ++++

@@ -14,3 +14,11 @@
 * water
 * pious
 
+== Timetable
+
+|===
+| | Mon | Tue | Wed | Thu | Fri
+
+| AM |Sainsbury's|Admin||Singing|Waitrose
+| PM |Photography||||
+|===
