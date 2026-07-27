@@ -41,6 +41,9 @@ V0.1, Oct 2022: A work in progress
 == Photographers
 * Alex Webb
 * Gary Winnegrande
+* William Klein
+* Daido Moriyama
+* Robert Frank and his seminal work “The Americans"
 
 == Genres
 
