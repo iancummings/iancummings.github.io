@@ -1,0 +1,25 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:imagesdir: ./images
+:numbered:
+
+= DoStreetPhotography by Polly Rusyn
+Ian Cummings 
+V0.1, Oct 2022: A work in progress
+
+The main link:https://www.dostreetphotography.com/login[website]
+
+(link:www.pollyrusyn.com[Polly's website], the Department of Street Photography (DoSP))
+
+
+== The Street Photography Playbook
+1. A Definition of Street Photography
+
+== The Photo Composition Playbook
+
+== Street Photography Secrets
+
+== Mastering Colour in Street Photography
+
+== Downloads

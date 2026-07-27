@@ -119,3 +119,10 @@ function set-title() {
   PS1=${ORIG}${TITLE}
 }
 ----
+
+== Useful Commands
+
+* tell me everything: `$ inxi -Fxz`
+
+* free heap space: 
+`$ free -h`

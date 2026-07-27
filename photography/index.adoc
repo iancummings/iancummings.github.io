@@ -59,6 +59,9 @@ V0.1, Oct 2022: A work in progress
 * link:john-hedgecoe-black-n-white.html[John Hedgecoe's complete guide to black and white photography]
 * link:mono.html[Colin Jarvis land & sea scapes]
 
+=== Street
+* link:dostreetphotography.html[DoStreetPhotography]
+
 == Others
 * link:street-photography.html[Street Photography]
 ** link:saul-leiter.html[Saul Leiter]
@@ -161,6 +164,10 @@ from link:http://www.urban75.org/photos/photographers-rights-tube-railways.html[
 
 
 == Places to go
+
+=== London
+The link:the-photographers-guide-to-london.pdf[London Photography Guide] by Corey Huges
+
 === Street
 ==== Sunny
 ==== Rainy
