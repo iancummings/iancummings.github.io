@@ -13,7 +13,7 @@ For local ones, see link:../cars/drives.html[here]
 === NC500 (Scotland)
 link:https://en.wikipedia.org/wiki/North_Coast_500[North Coast 500]
 
-image::nc500-overview-map.png[NC500map, width=800, link="nc500-overview-map.png"]
+image::nc500-overview-map.png[NC500map, width=800, link="../images/nc500-overview-map.png"]
 
 See link:NC500-Official-Map.pdf[here] for a PDF map.
 
@@ -34,7 +34,7 @@ How long does it take to drive the North East 250 route?
 On average, driving the North East 250 will take you approximately 5-7 days to complete. This will give you enough time to visit and explore the wonderful attractions and scenery that the route has to offer.
 
 === N500 (Northumberland)
-image::nland250-overview-map.png[alt=NC500Map, width=800, link="nland250-overview-map.png"]
+image::nland250-overview-map.png[alt=NC500Map, width=800, link="../images/nland250-overview-map.png"]
 
 
 === A4069 Black Mountain Pass, South Wales
