@@ -11,8 +11,27 @@
 For local ones, see link:../cars/drives.html[here]
 
 === NC500 (Scotland)
+link:https://en.wikipedia.org/wiki/North_Coast_500[North Coast 500]
 
-=== NC250 (Scotland)
+image::nc500-overview-map.png[]
+
+See link:NC500-Official-Map.pdf[here] for a PDF map.
+
+*How long does the 500 North Coast Scotland take?* +
+With 516 miles of road to cover, the North Coast 500 isn’t a road trip best enjoyed over a weekend. It is recommended to allow at least 5 days for the full journey, with most travellers completing the North Coast 500 in 7 to 10 days. Allowing between 7 to 10 days for the road trip will allow you time to explore various locations at an enjoyable, relaxed pace and appreciate this area of Scotland without feeling like you’re having to rush through.
+
+https://www.dayinsure.com/news/scotlands-north-coast-500-a-comprehensive-guide/
+
+=== NE250 (Scotland)
+NorthEast 250
+
+image::NE250-overview-map.png[]
+
+Where does the North East 250 route start and finish? 
+The North East 250 route starts and ends in the city of Aberdeen. However, you can start or end the route at any point. Other popular starting points amongst drivers include Glenshee (the most southern point) and Ballindalloch. 
+
+How long does it take to drive the North East 250 route? 
+On average, driving the North East 250 will take you approximately 5-7 days to complete. This will give you enough time to visit and explore the wonderful attractions and scenery that the route has to offer.
 
 === N500 (Northumberland)
 image::nland250-overview-map.png[]
@@ -41,4 +60,3 @@ Skoda 130 review: https://www.youtube.com/watch?v=zkJBMqTuRrg +
 
 === Florence
 
-git add 

@@ -39,6 +39,9 @@ V0.1, Oct 2022: A work in progress
 * link:https://www.thatchamphotoclub.com[Thatcham Website]
 
 == Photographers to study
+* Joel Meyerowitz
+* Garry Winogrand
+* Elliot Erwitt
 * Saul Leiter +
 colour & restraint
 * Vivian Maier +
