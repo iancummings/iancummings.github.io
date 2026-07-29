@@ -34,6 +34,7 @@
 * link:../cars/index-cars.html[Cars] +
 see also link:../reference/cars.html[in reference]
 * link:../ai/ai-index.html[AI]
+* link:../trips/index-trips.html[Holidays & Trips]
 
 == What 3 Words
 

@@ -1,0 +1,44 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Holidays & Trips
+
+== Roadtrips
+For local ones, see link:../cars/drives.html[here]
+
+=== NC500 (Scotland)
+
+=== NC250 (Scotland)
+
+=== N500 (Northumberland)
+image::nland250-overview-map.png[]
+
+link:nland250-overview-map.png[enlarge]
+
+=== A4069 Black Mountain Pass, South Wales
+link:https://turo.com/blog/uk/wayfaring/guide-to-driving-the-black-mountain-pass/[web]
+
+40mins
+
+The Black Mountain Pass is a 20-mile-long mountain road that cuts a north-to-south route through the western edge of the Brecon Beacons National Park in South Wales between Llandovery and Gwaun-cae-Gurwen.
+
+
+=== Derbyshire
+Skoda 130 review: https://www.youtube.com/watch?v=zkJBMqTuRrg +
+
+* Snake pass
+* Cat and fiddle
+
+
+
+== Europe
+
+=== Prague
+
+=== Florence
+
+git add 

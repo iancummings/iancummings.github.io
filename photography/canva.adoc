@@ -16,72 +16,70 @@ Yes. This is a common way to create a mixed-orientation Instagram carousel. The 
 
 I'd recommend using Instagram's portrait ratio (4:5) because it occupies the most screen space in users' feeds.
 
-Option 1: Use a 4:5 canvas (recommended)
-Open Canva and click Create a design.
-Choose Custom size.
-Enter:
+==== Option 1: Use a 4:5 canvas (recommended)
+* Open Canva and click Create a design.
+* Choose Custom size.
+* Enter:
 1080 px wide
 1350 px high
-Click Create new design.
-Create the first image
-Click Uploads.
-Upload all of the photos you want to include.
-Drag your first photo onto the canvas.
-Resize it by dragging a corner while keeping the aspect ratio (don't stretch it).
-Position it in the centre of the page.
-Any unused area will remain white (or whatever background colour you've chosen).
-For landscape photos
+* Click Create new design.
+* Create the first image
+* Click Uploads.
+* Upload all of the photos you want to include.
+* Drag your first photo onto the canvas.
+* Resize it by dragging a corner while keeping the aspect ratio (don't stretch it).
+* Position it in the centre of the page.
+* Any unused area will remain white (or whatever background colour you've chosen).
+* For landscape photos you'll see white space above and below.
 
-You'll see white space above and below.
+* For portrait photos, If they're narrower than 4:5, you'll see white space on the sides.
 
-For portrait photos
+* Add more pages
+* Click + Add page underneath the design.
+* Repeat for each image.
+* Make sure every page is 1080 × 1350.
 
-If they're narrower than 4:5, you'll see white space on the sides.
+* You can also duplicate the first page so the background colour and layout stay identical.
 
-Add more pages
-Click + Add page underneath the design.
-Repeat for each image.
-Make sure every page is 1080 × 1350.
+* Change the background colour (optional)
 
-You can also duplicate the first page so the background colour and layout stay identical.
+* Click on an empty part of the page and choose a background colour.
 
-Change the background colour (optional)
+* Popular choices are:
 
-Click on an empty part of the page and choose a background colour.
-
-Popular choices are:
-
-White
-Black
-Light grey
+White,
+Black,
+Light grey, +
 A colour that matches your branding
-Export
-Click Share.
-Click Download.
-Choose PNG (highest quality) or JPG (smaller files).
-Ensure All pages is selected.
-Click Download.
 
-Canva will download either:
+* Export
+* Click Share.
+* Click Download.
+* Choose PNG (highest quality) or JPG (smaller files).
+* Ensure All pages is selected.
+* Click Download.
 
-one ZIP containing all the images, or
-individual images (depending on platform).
-Upload to Instagram
-Tap +.
-Choose Post.
-Tap the multiple images icon.
-Select the exported images in order.
-Because every image is exactly 1080 × 1350, Instagram won't crop them differently.
-An even quicker method
+* Canva will download either: +
 
-Canva also has a feature called Magic Resize/Fit (available on some plans), but even with the free version you can do this efficiently:
+one ZIP containing all the images, or +
+individual images (depending on platform). +
 
-Create the first 1080×1350 page.
-Add all your photos to the uploads panel.
-Duplicate the page until you have enough pages.
-Drag a different photo onto each page.
-Double-click a photo if Canva has made it fill the frame, then resize and reposition it so the whole image is visible with borders if needed.
+* Upload to Instagram
+* Tap +.
+* Choose Post.
+* Tap the multiple images icon.
+* Select the exported images in order.
+* Because every image is exactly 1080 × 1350, Instagram won't crop them differently.
+* An even quicker method
 
-This lets you prepare a 10-image carousel in just a few minutes.
+* Canva also has a feature called Magic Resize/Fit (available on some plans), but even with the free version you can do this efficiently:
 
-One small tip: when uploading the carousel to Instagram, don't pinch-to-zoom or change the crop on the first image. Instagram uses the aspect ratio of the first image for the entire carousel, and since all your exported images already have the same dimensions, leaving the crop unchanged ensures every slide displays exactly as you designed it.
+* Create the first 1080×1350 page.
+* Add all your photos to the uploads panel.
+* Duplicate the page until you have enough pages.
+* Drag a different photo onto each page.
+* Double-click a photo if Canva has made it fill the frame, then resize and reposition it so the whole image is visible with borders if needed.
+
+* This lets you prepare a 10-image carousel in just a few minutes.
+
+* One small tip: when uploading the carousel to Instagram, don't pinch-to-zoom or change the crop on the first image. Instagram uses the aspect ratio of the first image for the entire carousel, and since all your exported images already have the same dimensions, leaving the crop unchanged ensures every slide displays exactly as you designed it.
