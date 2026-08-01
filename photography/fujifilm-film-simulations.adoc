@@ -1,0 +1,94 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+
+= Fireworks
+:Author: Ian Cummings
+:Email:
+:Date: October 2019
+:Revision: V0.1
+
+:numbered:
+
+== Fujifilm Film Simulations
+From link:https://www.andrepel.com/blog/fujifilm-film-simulations-guide-2025?srsltid=AfmBOoosVauy39jf5QRr4MHmsVi_ikS6bldopXWqXuiZt5yqciwEA8HN[Andre Pel]
+
+=== Classic Chrome
+
+=== Classic Negative
+
+=== Acros
+
+=== Monochrome
+
+=== Sepia
+
+=== Pro Negative
+
+=== Nostalgic Negative
+
+=== Eterna
+
+=== Eternal Bleach Bypass
+
+=== Velvia
+
+=== Provia (Std Colour Profile)
+
+=== Astia
+
+=== Reala Ace
+
+== Details
+
+=== Nostalgic Negative
+
+The most popular custom recipe to replicate Nostalgic Negative on X-Trans IV cameras like the Fujifilm X100V is Ritchie Roesch’s "Timeless Negative" recipe from Fuji X Weekly.Because true Nostalgic Negative sits somewhere between the gentle tonal gradations of Eterna and the retro warmth of Classic Chrome, this recipe relies on the Eterna base coupled with heavy warmth shifting.🎞️ Nostalgic Negative Emulation: "Timeless Negative"Film Simulation: Eterna / CinemaDynamic Range: DR200Highlight: -1.0Shadow: -1.0Color: +4Sharpness: -1Noise Reduction: -4Clarity: -5 (Note: This can slow down saving times; use -3 or 0 if you want faster shot-to-shot performance)Grain Effect: Weak, SmallColor Chrome Effect: StrongColor Chrome FX Blue: OffWhite Balance: Auto, Shifts: Red: +3, Blue: -5
+
+'''
+
+🎨 Top Classic Negative Recipes for the X100VThe X100V natively supports Classic Negative, which brings hard contrast and rich, vintage green and red shifts. Below are three highly curated community recipes built specifically for that profile:1. Fujicolor 100 Gold (Everyday/Sunny Analog)This recipe pushes a very pleasant warm analog tone across daylight scenes, closely resembling retro consumer print film.Film Simulation: Classic NegativeDynamic Range: DR400Highlight: -1.0Shadow: -1.0Color: +4White Balance: 6700K, Shifts: Red: -1, Blue: -62. Luis' Classic Negative (Vibrant Warmth)One of the most permanent "slot 1" presets for X100V street photographers, mimicking a warmed-up Fujicolor Superia 400 look.Film Simulation: Classic NegativeDynamic Range: DR400Highlight: -1.0Shadow: 0.0Color: +3Sharpness: -2Noise Reduction: -4Clarity: +2Grain Effect: Weak, SmallColor Chrome Effect: StrongColor Chrome FX Blue: StrongWhite Balance: Daylight, Shifts: Red: -4, Blue: -23. Aged Negative (Muted Retro)Perfect for gloomy or overcast days, giving a heavily softened 1980s print aesthetic.Film Simulation: Classic NegativeDynamic Range: DR200Highlight: -2.0Shadow: -1.0Color: -2White Balance: Auto, Shifts: Red: +3, Blue: -4To save these, press your camera's Q button, hold down the Menu/OK button to edit your custom banks, and dial in the settings exactly as written above.
+
+'''
+
+You can apply film simulation profiles to your RAW files using three main methods, depending on whether you prefer editing on your camera, computer, or phone.1. In-Camera RAW Conversion (Easiest & Most Accurate)The X100V has a built-in processing engine that lets you re-bake your RAW photos into JPEGs with different settings after shooting.Open Playback: Find the RAW image on your camera screen.Press the Q Button: This launches the In-Camera RAW Development menu.Adjust Settings: Change the Film Simulation, White Balance shifts, Highlights, or Shadows to match any recipe.Create JPEG: Press the Q button again to save the new JPEG to your SD card.2. Fujifilm X RAW STUDIO (Official Desktop App)Fujifilm provides a free desktop software called Fujifilm X RAW STUDIO. It connects to your camera via USB and uses the X100V’s actual internal processor to convert RAW files on your computer.The Benefit: It is lightning fast and delivers 100% accurate in-camera color rendering.How to use: Connect your X100V to your computer via a USB-C cable. Open the software, select your RAW files, and type in your recipe settings on screen. You can save your favorite recipes as presets directly in the app.
+
+
+'''
+
+
+from link:https://film.recipes/2024/04/28/nostalgic-print-creamy-nostalgic-negative/[film.recipes]
+
+Nostalgic Print Film Recipe Settings
+Film Simulation	Nostalgic Negative
+
+Grain Effect	Weak, Small
+Col. Chr. Effect	Weak
+Col. Chr. Blue	Off
+White Balance	Auto, ‑2 Red, ‑7 Blue
+Dynamic Range	DR200
+Highlights	‑1
+Shadows	‑1
+Colour	‑2
+Sharpness	‑2
+ISO N.R.	‑4
+Clarity	0
+EV Comp.	+1/3
+
+|===
+| Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
+
+| punch punch (tid) | A bold, high impact recipe made for hard light, vivid color, and graphic compositions | CC | off | strong | strong | off | Ambience pri (R:0, B:0) | DR100 | off | +3 | -2 | +3 | -1 | -4 | 0 | +0.3 to +1
+
+| pastel pop | A bright playful recipe designed for summer colour, soft highlights, and gentle pastel tones | CC | off | strong | weak | off | auto (R:+4, B:-4) | (1): DR400 |?| -2 | -2 | colour | sharp | NR | clarity | exp.comp.
+
+| pastel pop2 | A bright playful recipe designed for summer colour, soft highlights, and gentle pastel tones | CC | off | strong | weak | off | auto (R:+4, B:-4) | (2): DR-P |weak| -2 | -2 | +4 | +1 to -1 | -4 | 0 to -2 | exp.comp.
+
+
+| Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
+
+| Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
+
+| Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
+
+|===
