@@ -2,7 +2,7 @@
 :toclevels: 3
 :toc-title: Contents
 
-= Fireworks
+= Fujifilm Film Simulations
 :Author: Ian Cummings
 :Email:
 :Date: October 2019
@@ -10,10 +10,17 @@
 
 :numbered:
 
-== Fujifilm Film Simulations
+== Descriptions
 From link:https://www.andrepel.com/blog/fujifilm-film-simulations-guide-2025?srsltid=AfmBOoosVauy39jf5QRr4MHmsVi_ikS6bldopXWqXuiZt5yqciwEA8HN[Andre Pel]
 
+NOTE: The following are only available in the X100-VI: +
+* **Reala Ace**: A faithful color profile offering hard contrast and rich, natural color reproduction. +
+* **Nostalgic Neg**.: A warm, soft look with amber-toned highlights and saturated shadows, mimicking classic snapshot photography. +
+* **Eterna Bleach Bypass**: A high-contrast, low-saturation look that recreates the dramatic film look used in vintage movies.
+
+
 === Classic Chrome
+Soft colour, enhanced shadow contrast. A slight blue tone?
 
 === Classic Negative
 
@@ -25,7 +32,7 @@ From link:https://www.andrepel.com/blog/fujifilm-film-simulations-guide-2025?srs
 
 === Pro Negative
 
-=== Nostalgic Negative
+=== Nostalgic Negative (X100-6 only)
 
 === Eterna
 
@@ -37,11 +44,11 @@ From link:https://www.andrepel.com/blog/fujifilm-film-simulations-guide-2025?srs
 
 === Astia
 
-=== Reala Ace
+=== Reala Ace (X100-6 only)
 
 == Details
 
-=== Nostalgic Negative
+=== Nostalgic Negative (X100-6 only)
 
 The most popular custom recipe to replicate Nostalgic Negative on X-Trans IV cameras like the Fujifilm X100V is Ritchie Roesch’s "Timeless Negative" recipe from Fuji X Weekly.Because true Nostalgic Negative sits somewhere between the gentle tonal gradations of Eterna and the retro warmth of Classic Chrome, this recipe relies on the Eterna base coupled with heavy warmth shifting.🎞️ Nostalgic Negative Emulation: "Timeless Negative"Film Simulation: Eterna / CinemaDynamic Range: DR200Highlight: -1.0Shadow: -1.0Color: +4Sharpness: -1Noise Reduction: -4Clarity: -5 (Note: This can slow down saving times; use -3 or 0 if you want faster shot-to-shot performance)Grain Effect: Weak, SmallColor Chrome Effect: StrongColor Chrome FX Blue: OffWhite Balance: Auto, Shifts: Red: +3, Blue: -5
 
@@ -84,6 +91,9 @@ EV Comp.	+1/3
 
 | pastel pop2 | A bright playful recipe designed for summer colour, soft highlights, and gentle pastel tones | CC | off | strong | weak | off | auto (R:+4, B:-4) | (2): DR-P |weak| -2 | -2 | +4 | +1 to -1 | -4 | 0 to -2 | exp.comp.
 
+| Reggie's Portra | a version of CC with a film aethetic that works well with melanated skin - see WB tweaks| CC | weak,small | strong | weak | (Smooth Skin) | auto, R:2,B:-4 | auto | off | H:-1 | S:-1 | +2 | -2 | -4 | 0 | Exposure Comp
+
+| Reggie's Superia | a new recipe built on Classic Negative. It leans moodier, grainier, and more contrast-forward while still being carefully tuned for melanated skin tones. A film-forward alternative to Reggie’s Portra (https://www.youtube.com/watch?v=rHeIWWcOUwI)| Classic Negative | strong,large | strong | strong | off | auto, R:1,B-3: | auto | off | -2 | -1 | +1 | -2 | -4 | 0 | (Exposure Comp)
 
 | Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
 
