@@ -72,4 +72,4 @@ On camera, go to
   
 and change this to 
 
- USB RAW CONV./BACKUP RESTORE
+ USB RAW CONV./BACKUP RESTOR

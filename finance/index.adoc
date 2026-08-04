@@ -7,6 +7,12 @@
 
 = Finance
 
+== Sub Headings
+
+* link:pensions.html[Pensions]
+* link:hmrc.html[HMRC]
+
+
 == Investing
 
 === Yield vs Return
