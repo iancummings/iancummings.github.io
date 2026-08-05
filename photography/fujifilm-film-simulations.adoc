@@ -18,39 +18,131 @@ NOTE: The following are only available in the X100-VI: +
 * **Nostalgic Neg**.: A warm, soft look with amber-toned highlights and saturated shadows, mimicking classic snapshot photography. +
 * **Eterna Bleach Bypass**: A high-contrast, low-saturation look that recreates the dramatic film look used in vintage movies.
 
+== Links
+* knk:https://www.tom-england.com/blog/fujifilm-recipes-understanding-the-settings-and-perfecting-your-own[fujifilm-recipes-understanding-the-settings-and-perfecting-your-own]
 
-== Stanrd Ones Included
+== Standard Ones
 
 === Classic Chrome
-Soft colour, enhanced shadow contrast. A slight blue tone?
+Soft colour, enhanced shadow contrast. (A slight blue tone?)
+Good for:
 
 === Classic Negative
+emulates classic colour negative films, moderate saturation and soft contrast.
+Good for:
 
 === Acros
+black-and-white simulation with overall higher contrast than Monochrome
+Good for:
 
 === Monochrome
+black-and-white film simulation that produces softer images with less contrast than Acros
+Good for:
 
 === Sepia
+toned monochrome look
+Good for:
+
+=== Pro Neg Std
+softer contrast and more uniform tonal transitions
+Good for:
 
 === Pro Negative
+increased contrast and more saturated colours than Pro Neg. Std
+Good for:
 
-=== Nostalgic Negative (X100-6 only)
+=== _Nostalgic Negative (X100-6 only)_
+saturated and soft gradation
+Good for:
 
 === Eterna
+Good for:
 
-=== Eternal Bleach Bypass
+=== Eterna Cinematic
+subdued colours and noticeably low contrast
+Good for:
+
+=== _Eterna Bleach Bypass (X100-6 only)_
+simulates a bleach bypass process, which provides an overall lower saturation and muted colour with increased contrast
+Good for:
 
 === Velvia
+saturated colours with pronounced contrast
+Good for:
 
 === Provia (Std Colour Profile)
+balanced colour and contrast
+Good for:
 
 === Astia
+vibrant, yet softer colours and contrast
+Good for:
 
-=== Reala Ace (X100-6 only)
+=== _Reala Ace (X100-6 only)_
+natural colour reproduction, balanced contrast
+Good for:
+
+=== Negative
+Bold colours, soft tones, and medium contrast
+Good for:
+
+== The Controls
+(from link:https://www.tom-england.com/blog/fujifilm-recipes-understanding-the-settings-and-perfecting-your-own[Tom England])
+
+=== Grain Effect
+This will add grain to your JPEGs if preferred. First, there is Roughness (Weak, Strong), then Size (Large, Small). With the settings on both, you can adjust the grain intensity and size. I rarely use a strong or large setting. It’s only my personal preference. I like some grain, but I find large or strong too much for my liking.
+
+=== Colour Chrome Effect
+Fujifilm’s Colour Chrome effect enhances photos by deepening and darkening vibrant colours, especially in highly saturated areas. Most importantly, it doesn’t oversaturate your images. This works well with colourful subjects, especially in warmer colours. It elevates the colours without pushing them into the unrealistic state that oversaturation can cause. This setting has Weak and Strong settings.
+
+=== Colour Chrome FX Blue
+Colour Chrome FX Blue affects the blue tones in an image, making blues appear deeper, darker, and more pronounced without affecting other colours. If you want your sky to be a predominant feature in your image, with distinct details and darker shades, this is the setting you will want to experiment with. Think of it a bit like a polarizing filter. When employing Colour Chrome FX Blue, there are two settings: Weak and Strong. The effects can be very noticeable in your final image. Available light at different times of the day will also be a factor.
+
+=== White Balance and Shifting White Balance
+Many of the available white balance choices I never touch, and based on what I photograph, which is mostly outdoors, it’s rare that I have used a film recipe with anything other than Auto or Daylight white balance as a starting point. In addition to the standard white balance setting, you can adjust the reds and blues to tailor the settings to your preferences. For example, if you favour warmer images, you can drop the blues and increase the reds in the available grid. Adjusting white balance is one of the most flexible settings, and it can significantly impact the final result.
+
+=== Dynamic Range
+I’ve covered dynamic range before, and you can find it here. Understanding and utilizing dynamic range (DR) settings, including Auto, DR100%, DR200%, and DR400%, can significantly enhance image quality in challenging lighting conditions by preserving both highlight and shadow details. Higher DR settings work by underexposing the image by one or two stops to protect bright areas, such as skies, from blowing out, while simultaneously brightening shadows to reveal more detail, resulting in richer tonal depth. However, higher DR settings require increased minimum ISO values (e.g., DR200% sets a minimum ISO of 250, while DR400% sets a minimum ISO of around 500).
+
+DR100%: No further dynamic range processing. Deep shadows and bright highlights.
+
+DR200%: The middle ground for protecting highlights and maintaining detail in shadows.
+
+DR400%: The highest amount of highlight protection and shadow detail. Expect darker, more detailed skies with distinct shadows and evident detail.
+
+=== Tone Curve
+Tone curve is similar to what you will find in Lightroom or Photoshop, but the setting here lets you adjust highlights and shadows directly in-camera. The stronger the S-curve you create, the greater the contrast in your image will be. Your adjustments for both highlights and shadows will range from -2 to +4.
+
+=== Colour
+The Colour setting on Fujifilm cameras increases the saturation and vibrancy of all colours in your image, whereas Colour Chrome Effect and Colour Chrome FX Blue affect only select colours. This is important to note, as a push with the Colour setting will adjust saturation overall, and pushing too far can cause colours to appear unnatural. However, that’s not necessarily a bad thing depending on your intention.
+
+=== Sharpness
+This setting is self-explanatory, as it adjusts the overall sharpness of your image. Film recipes typically aim to replicate a specific film stock or film look. As a result, sharpness is usually lower, as film was never as sharp as modern digital photography. However, film recipes are unique and personal, and you are free to create a look with any level of sharpness.
+
+I’ve always felt that increased sharpness is unnecessary, since the image is still sharp at zero. Most of the recipes I use, including my custom recipes, Seaside Pastel, and Soft Vintage Glow, do not use any increased sharpness, and even at settings of -3 or -4, I have never found the JPEGs produced to be lacking in sharpness.
+
+=== High ISO NR
+As the name suggests, High ISO Noise Reduction reduces noise in images taken at high ISO settings. The higher the ISO (+), the more noise reduction is applied. Anyone with experience using noise-reduction software knows it's tricky. The more noise you want to eliminate, the greater the required degree of noise reduction. And most of the time, this can make your image look terrible. Additionally, reducing noise substantially can soften the image to the point where it appears muddy. The application of noise reduction, especially at high levels, is noticeable.
+
+Personally, I rarely give digital noise in my images a thought. Fujifilm cameras seem to handle noise well. As a result, I keep this setting at zero or reduce it. If there is noise in the image, I usually prefer it for the aesthetic. Under no circumstances would I want the noise reduced. I’d rather go with what’s there rather than try to get rid of it.
+
+=== Clarity
+If there ever was a slider in Lightroom to quickly ruin an image, it’s Clarity. Clarity adjusts midtone contrast, making your image appear sharper with more definition. Clarity can be easily overused, as even a slight bump in Clarity can have a significant impact. However, reducing the Clarity in your settings softens the image and reduces the midtone contrast. Recently, when post-processing RAW images, I have reduced Clarity in Lightroom. As a result, I keep this setting at zero or reduce it significantly. High Clarity doesn’t align with my use of film recipes. I want images that are imperfect yet pleasing, and Clarity does nothing to enhance either.
+
+NOTE: Using Clarity at any value other than zero will delay your camera’s capture time. Clarity is applied after capture, not during.
+
+== Extra Recipes
+=== Seaside Pastel
+Starting with the Nostalgic Neg simulation, this recipe leans into a gentle, introspective mood with a subdued palette. With DR400 preserving highlight detail and shadow presence, it delivers a smooth tonal transition that avoids harsh contrast while maintaining a natural sense of depth.
+
+This recipe was designed to capture the inviting beauty and quiet awe of a peaceful summer night in a sunlit coastal destination. It produces airy images with creamy highlights and rich blues, while still preserving a true-to-life appearance. Whites lean slightly warm, and greens are gently subdued to keep the focus on light and colour. Blues are deepened, restrained, and slightly warmed.
+
+With contrast softened and shadows subtly lifted, the overall rendering feels smooth and unforced. The result is a tranquil, open atmosphere that evokes the end of a beautiful day. Golden hour benefits this recipe, as the light softens and the scene settles into quiet relaxation. It’s well suited to scenes where you want calm, understated emotion with a memory-like feeling.
 
 == Details
 
 === Nostalgic Negative (X100-6 only)
+
 
 The most popular custom recipe to replicate Nostalgic Negative on X-Trans IV cameras like the Fujifilm X100V is Ritchie Roesch’s "Timeless Negative" recipe from Fuji X Weekly.Because true Nostalgic Negative sits somewhere between the gentle tonal gradations of Eterna and the retro warmth of Classic Chrome, this recipe relies on the Eterna base coupled with heavy warmth shifting.🎞️ Nostalgic Negative Emulation: "Timeless Negative"Film Simulation: Eterna / CinemaDynamic Range: DR200Highlight: -1.0Shadow: -1.0Color: +4Sharpness: -1Noise Reduction: -4Clarity: -5 (Note: This can slow down saving times; use -3 or 0 if you want faster shot-to-shot performance)Grain Effect: Weak, SmallColor Chrome Effect: StrongColor Chrome FX Blue: OffWhite Balance: Auto, Shifts: Red: +3, Blue: -5
 
@@ -100,8 +192,14 @@ EV Comp.	+1/3
 
 | Classic Continental by RichardGPhotography | subdued, for coast or countryside | Classic Neg | small weak | weak | weak | (Smooth Skin) | auto *or* K6500 (R:+3,B:-2) | auto | off | -1 | -0.5 | +1 | -1 | -4 | 0 | Exposure Comp
 
+| Seaside Pastel | Starting with the Nostalgic Neg simulation, this recipe leans into a gentle, introspective mood with a subdued palette. | Nostalgic Neg | weak, small | strong | strong | (Smooth Skin) | daylight (R:-2, B:-5) | DR400 | (D/Range Priority) | -2 | -1 | -1 | -1 | -4 | -2 | ISO auto, min 500
+
 | Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
+
+| Ronan's Neg | warm, saturated, grainy, contrasty, for daylight, golden hour, well lit, | Nostalgic Neg (CC or Astia?)  | weak, small | strong | weak | (Smooth Skin) | auto, (R:+2, B:-5) | DR400 | off | -2 | +0.5 | +4 | 0 | 0 | -2 | LongExp NR: off
 
 | Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
 
 |===
+
+// Ronan Duff
