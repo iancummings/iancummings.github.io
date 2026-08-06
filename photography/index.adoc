@@ -112,7 +112,7 @@ shadows
 
 == Fuji
 * link:x100v.html[Fuji X100V]
-* link:fuji-film-simulations.html[File Simulations/Recipes]
+* link:fujifilm-film-simulations.html[File Simulations/Recipes]
 
 == Miscellaneous
 * link:locations.html[locations]
