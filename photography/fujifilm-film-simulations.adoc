@@ -245,8 +245,21 @@ goldenHr:Nostalgic neg | off | strong | weak | off | auto (R:+1,B:-3) | auto | o
 You can closely mimic its warm amber highlights, lifted shadows, and retro color tones by using community-created custom recipes based on Eterna. +
 
 The "Timeless Negative" X100V Recipe +
-Popularized by Fuji X Weekly, this recipe substitutes Eterna to emulate Nostalgic Neg. on your X100V:Film Simulation: Eterna / CinemaDynamic Range: DR200 (or DR400 for high contrast scenes)Highlight: -1 (or 0)Shadow: -2Color: -2Noise Reduction: -4Clarity: -2 to -4 (optional, for a softer vintage look)White Balance: Auto (or Daylight with a shift)WB Shift: +2 Red, -3 BlueGrain Effect: Weak, Small (optional)Color Chrome Effect: WeakColor Chrome FX Blue: Off
-
+Popularized by Fuji X Weekly, this recipe substitutes Eterna to emulate Nostalgic Neg. on your X100V:
+----
+Film Simulation: Eterna / Cinema
+Dynamic Range: DR200 (or DR400 for high contrast scenes)
+Highlight: -1 (or 0)
+Shadow: -2
+Color: -2
+Noise Reduction: -4
+Clarity: -2 to -4 (optional, for a softer vintage look)
+White Balance: Auto (or Daylight with a shift)
+WB Shift: +2 Red, -3 Blue
+Grain Effect: Weak, Small (optional)
+Color Chrome Effect: Weak
+Color Chrome FX Blue: Off
+----
 
 == Choose by Lighting Conditions
 
