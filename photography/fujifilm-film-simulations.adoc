@@ -24,66 +24,66 @@ NOTE: The following are only available in the X100-VI: +
 == Standard Ones
 
 === Classic Chrome
-Soft colour, enhanced shadow contrast. (A slight blue tone?)
-Good for:
+Soft colour, enhanced shadow contrast. (A slight blue tone?) +
+Good for: 
 
 === Classic Negative
-emulates classic colour negative films, moderate saturation and soft contrast.
+emulates classic colour negative films, moderate saturation and soft contrast. +
 Good for:
 
 === Acros
-black-and-white simulation with overall higher contrast than Monochrome
+black-and-white simulation with overall higher contrast than Monochrome +
 Good for:
 
 === Monochrome
-black-and-white film simulation that produces softer images with less contrast than Acros
+black-and-white film simulation that produces softer images with less contrast than Acros +
 Good for:
 
 === Sepia
-toned monochrome look
+toned monochrome look +
 Good for:
 
 === Pro Neg Std
-softer contrast and more uniform tonal transitions
+softer contrast and more uniform tonal transitions +
 Good for:
 
 === Pro Negative
-increased contrast and more saturated colours than Pro Neg. Std
+increased contrast and more saturated colours than Pro Neg. Std +
 Good for:
 
 === _Nostalgic Negative (X100-6 only)_
-saturated and soft gradation
+saturated and soft gradation +
 Good for:
 
 === Eterna
 Good for:
 
 === Eterna Cinematic
-subdued colours and noticeably low contrast
+subdued colours and noticeably low contrast +
 Good for:
 
 === _Eterna Bleach Bypass (X100-6 only)_
-simulates a bleach bypass process, which provides an overall lower saturation and muted colour with increased contrast
+simulates a bleach bypass process, which provides an overall lower saturation and muted colour with increased contrast +
 Good for:
 
 === Velvia
-saturated colours with pronounced contrast
+saturated colours with pronounced contrast +
 Good for:
 
 === Provia (Std Colour Profile)
-balanced colour and contrast
+balanced colour and contrast +
 Good for:
 
 === Astia
-vibrant, yet softer colours and contrast
+vibrant, yet softer colours and contrast +
 Good for:
 
 === _Reala Ace (X100-6 only)_
-natural colour reproduction, balanced contrast
+natural colour reproduction, balanced contrast +
 Good for:
 
 === Negative
-Bold colours, soft tones, and medium contrast
+Bold colours, soft tones, and medium contrast +
 Good for:
 
 == The Controls
