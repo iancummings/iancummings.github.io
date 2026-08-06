@@ -15,7 +15,8 @@ From link:https://www.andrepel.com/blog/fujifilm-film-simulations-guide-2025?srs
 
 NOTE: The following are only available in the X100-VI: +
 * **Reala Ace**: A faithful color profile offering hard contrast and rich, natural color reproduction. +
-* **Nostalgic Neg**.: A warm, soft look with amber-toned highlights and saturated shadows, mimicking classic snapshot photography. +
+* **Nostalgic Neg**.: A warm, soft look with amber-toned highlights and rich/saturated shadows, mimicking classic snapshot photography. +
+(there is a "sim sim"" for the XTrans4 below from the FujiXWeekly app) +
 * **Eterna Bleach Bypass**: A high-contrast, low-saturation look that recreates the dramatic film look used in vintage movies.
 
 == Links
@@ -29,7 +30,7 @@ Good for:
 
 === Classic Negative
 emulates classic colour negative films, moderate saturation and soft contrast. +
-Good for:
+Good for: street, dull days
 
 === Acros
 black-and-white simulation with overall higher contrast than Monochrome +
@@ -37,7 +38,7 @@ Good for:
 
 === Monochrome
 black-and-white film simulation that produces softer images with less contrast than Acros +
-Good for:
+Good for: most situations, you can add contrast to be more Acros in post.
 
 === Sepia
 toned monochrome look +
@@ -52,11 +53,11 @@ increased contrast and more saturated colours than Pro Neg. Std +
 Good for:
 
 === _Nostalgic Negative (X100-6 only)_
-saturated and soft gradation +
+A warm, soft look with amber-toned highlights and rich/saturated shadows, mimicking classic snapshot photography. +
 Good for:
 
 === Eterna
-Good for:
+Good for: video shooting
 
 === Eterna Cinematic
 subdued colours and noticeably low contrast +
@@ -67,12 +68,13 @@ simulates a bleach bypass process, which provides an overall lower saturation an
 Good for:
 
 === Velvia
-saturated colours with pronounced contrast +
-Good for:
+Saturated colours with pronounced contrast +
+Good for: landscape, faded colours assuming you want to push them up
+Avoid for: portraits
 
 === Provia (Std Colour Profile)
 balanced colour and contrast +
-Good for:
+Good for: skin tones
 
 === Astia
 vibrant, yet softer colours and contrast +
@@ -198,8 +200,36 @@ EV Comp.	+1/3
 
 | Ronan's Neg | warm, saturated, grainy, contrasty, for daylight, golden hour, well lit, | Nostalgic Neg (CC or Astia?)  | weak, small | strong | weak | (Smooth Skin) | auto, (R:+2, B:-5) | DR400 | off | -2 | +0.5 | +4 | 0 | 0 | -2 | LongExp NR: off
 
+| Nostalgic Neg Sim | for X-Trans4 | CC | weak, large | strong | strong | (Smooth Skin) | auto, (R:+3, B:-5) | DR200/400? | off | -1 | 0 | +4 | 0 | -4 | -5 | +1/3 to +1
+
 | Name | description | Base | Grain Effect | Colour Effect | Colour FX Blue | Smooth Skin | White Balance | D/Range | D/Range Priority | Highlight | Shadow | Colour | Sharp | High ISO NR | Clarity | Exposure Comp
 
 |===
 
 // Ronan Duff
+
+== Simulating Nostalgic Neg
+small:[from AI] +
+You can closely mimic its warm amber highlights, lifted shadows, and retro color tones by using community-created custom recipes based on Eterna. +
+
+The "Timeless Negative" X100V Recipe +
+Popularized by Fuji X Weekly, this recipe substitutes Eterna to emulate Nostalgic Neg. on your X100V:Film Simulation: Eterna / CinemaDynamic Range: DR200 (or DR400 for high contrast scenes)Highlight: -1 (or 0)Shadow: -2Color: -2Noise Reduction: -4Clarity: -2 to -4 (optional, for a softer vintage look)White Balance: Auto (or Daylight with a shift)WB Shift: +2 Red, -3 BlueGrain Effect: Weak, Small (optional)Color Chrome Effect: WeakColor Chrome FX Blue: Off
+
+
+== Choose by Lighting Conditions
+
+=== Colour
+
+|====
+| Conditions | sims
+
+| landscape, +
+faded/muted colours that you want to push | velvia
+| film-like, golden-hour, portraits, retro, street, warm | nostalgic neg
+| too-soft shadows, too rich colours| classic neg
+| portraits 9for skin tones) | provia
+| street, dull days | classic neg
+|====
+
+
+=== Black & White
