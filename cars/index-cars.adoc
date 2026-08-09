@@ -42,7 +42,8 @@ Follow these instructions to see when a service is actually due:
 1. Scroll down to the section titled ‘Service’ +
 This will display when the next one is due.
 
-
+==== AI generated Help
+See link:fabia-service.html[here]
 
 == Polo GTI
 
