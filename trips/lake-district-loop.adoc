@@ -1,0 +1,58 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:imagesdir: ./images
+:numbered:
+
+= Lake District Scenic Loop
+Ian Cummings 
+V0.1, Aug 2026: 
+
+
+== Summary
+
+Lake District National Park Authority > Grighall > Crosthwaite > Winster > Bowness-on-Windermere > Troutbeck Bridge > Kirkstone Pass Inn > Aira Force Waterfall > Glenridding Pier > Castlerigg Stone Circle > Surprise View Car Park > Borrowdale Hotel > Honister Slate Mine > Buttermere Village > Lanthwaite Wood Car Park > Wast Water National Trust Car Park > Eskdale Green > The Langdale Hotel > Tarn Hows Car Park > Brantwood Terrace Coffee House & Restaurant > Lakeland Motor Museum > Lake District National Park Authority, time:7 hours 10 mins, drive: 171 mi
+
+A relaxed three-day Lake District loop from Kendal, beginning with a quieter Windermere-side sweep before moving north to Ullswater and Borrowdale. The second day goes deep into the western lakes, while the final run pairs Tarn Hows, Coniston Water and the Lakeland Motor Museum before returning to Kendal. Your 2022 Volkswagen Polo GTI is a tidy fit for the route: compact for narrow lanes, with enough chassis composure to make the varied terrain enjoyable at a sensible pace.
+
+=== Overview
+Some link:lake-district-loop-overview.html[details]
+
+=== Roads Overview
+asphalt: 100%
+
+==== Suitability for your vehicle
+The route is fully suitable for the Volkswagen Polo GTI, as all road surfaces are asphalt, and no carriageway or lane widths narrower than the vehicle are reported.
+
+==== Recommendations
+Several sections, including Honister Pass (B5289), Ashness Bridge, and parts of the A592, are rated with intermediate smoothness. These sections may have occasional surface irregularities, so drive with moderate caution, especially after wet weather or in rural areas.
+
+==== Travel tips & advisories
+Some high passes and attractions in the Lake District, such as Honister Pass and Kirkstone Pass, can occasionally be subject to temporary closures due to severe weather or landslides, though such events are more common in winter and early spring than in autumn. For September, closures are uncommon; however, it is advisable to check local council or park authority updates shortly before travel for current conditions.
+
+The Volkswagen Polo GTI is suitable for all surfaced roads in this itinerary. Honister Pass and Kirkstone Pass feature steep gradients and occasional hairpin bends but remain manageable for standard cars, especially in dry conditions. Exercise caution on single-track roads with passing places, as encountered on some secondary and unclassified routes.
+
+The Lake District is a popular destination in early September, particularly around beauty spots like Buttermere Village, Aira Force Waterfall, and car parks such as Tarn Hows and Lanthwaite Wood. Expect increased visitor numbers and possible congestion at peak times; parking availability may be limited at popular locations. Midges can still be present in sheltered and damp valleys but usually decline towards mid-September.
+
+Fuel stations are reasonably spaced throughout the Lake District but can be sparse in more remote western valleys. Plan refuelling stops ahead, especially if travelling to Wast Water or Eskdale Green, where services are limited. Some attractions and car parks accept cashless payment only, and mobile signal can be weak in certain valleys.
+
+No country-specific advisory or special legal compliance requirement is reported for this route beyond standard UK road laws. If unfamiliar with local rules, consult the UK Highway Code for speed limits, priority, and safety equipment requirements before travel.
+
+
+==== Day 0 (Cold Ash to Kendal)
+
+==== Day 1
+* part 1 Google maps link:https://maps.app.goo.gl/zRoUPZ6kVCNKZpSA9[link]
+* part 2 Google maps link:https://maps.app.goo.gl/wzRkEGTQAZHj84Um8[link]
+
+A summary link:lake-district-loop-day1.html[here]
+
+==== Day 2
+* Google maps link:https://maps.app.goo.gl/2vFTHb8HRp76ZgWJ9[link]
+
+A summary link:lake-district-loop-day2.html[here]
+
+==== Day 3
+* Google maps link:https://maps.app.goo.gl/5qkrfsPUDnazBzVAA[link]
+
+A summary link:lake-district-loop-day3.html[here]

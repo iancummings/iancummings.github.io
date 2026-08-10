@@ -50,7 +50,12 @@ The Black Mountain Pass is a 20-mile-long mountain road that cuts a north-to-sou
 * Snake pass
 * Cat and fiddle
 
+=== Lake District Loop
+(with the help of link:newroads.co[New Roads])
 
+image::lake-district-loop.png[]
+
+See the link:lake-district-loop.html[details]
 
 == Europe
 
