@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 1.5.5.dev">
+<meta name="generator" content="Asciidoctor 2.0.20">
 <meta name="author" content="Ian Cummings">
 <title>Fujifilm Film Simulations</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -12,39 +12,47 @@
 /*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
 /* Uncomment the following line when using as a custom stylesheet */
 /* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
-*,::before,::after{box-sizing:border-box}
-html{font-size:100%;-webkit-text-size-adjust:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-size:inherit;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
-dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,p,blockquote,th,td{margin:0;padding:0}
-a{background:none;color:#2156a5;text-decoration:underline;line-height:inherit}
-a:active,a:hover{cursor:pointer;outline:0}
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
 a:focus{outline:thin dotted}
-a:hover,a:focus{color:#1d4b8f}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
 abbr{font-size:.9em}
 abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
-b,strong{font-weight:bold;line-height:inherit}
-strong strong{font-weight:400}
-code,kbd,pre{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-size:1em}
-code{font-weight:400;color:rgba(0,0,0,.9)}
-pre{color:rgba(0,0,0,.9);line-height:1.45;text-rendering:optimizeSpeed;white-space:pre-wrap}
 dfn{font-style:italic}
-em,i{font-style:italic;line-height:inherit}
-em em{font-style:normal}
-hr{border:solid #dddddf;border-width:1px 0 0;clear:both;height:0;margin:1.25em 0 1.1875em}
+hr{height:0}
 mark{background:#ff0;color:#000}
-p{line-height:1.6;margin-bottom:1.25rem;text-rendering:optimizeLegibility}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
 q{quotes:"\201C" "\201D" "\2018" "\2019"}
-small{font-size:60%;line-height:inherit}
+small{font-size:80%}
 sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
 sup{top:-.5em}
 sub{bottom:-.25em}
-img,object[type^="image/"],svg{display:inline-block;height:auto;max-width:100%;vertical-align:middle}
-img{border:0;-ms-interpolation-mode:bicubic}
-object{max-width:100%}
+img{border:0}
 svg:not(:root){overflow:hidden}
 figure{margin:0}
 audio,video{display:inline-block}
 audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
 .left{float:left!important}
 .right{float:right!important}
 .text-left{text-align:left!important}
@@ -52,51 +60,69 @@ audio:not([controls]){display:none;height:0}
 .text-center{text-align:center!important}
 .text-justify{text-align:justify!important}
 .hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
 .subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
 p aside{font-size:.875em;line-height:1.35;font-style:italic}
-h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.2;word-spacing:-.05em}
-h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{color:#e99b8f;line-height:0}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
 h1{font-size:2.125em}
 h2{font-size:1.6875em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
 h4,h5{font-size:1.125em}
 h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
-dl dd{margin-bottom:1.25em;margin-left:1.125em}
+dl dd{margin-bottom:1.25em}
 blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
 blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
-@media screen and (min-width:768px){h1{font-size:2.75em}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
 h2{font-size:2.3125em}
 h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
 h4{font-size:1.4375em}}
-table{background:#fff;border:1px solid #dedede;border-collapse:collapse;border-spacing:0;margin-bottom:1.25em;word-wrap:normal}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
 table thead,table tfoot{background:#f7f8f7}
 table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
 table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
 table tr.even,table tr.alt{background:#f8f8f7}
 table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
 h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
 .center{margin-left:auto;margin-right:auto}
 .stretch{width:100%}
-.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:"";display:table}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
 .clearfix::after,.float-group::after{clear:both}
 :not(pre).nobreak{word-wrap:normal}
 :not(pre).nowrap{white-space:nowrap}
 :not(pre).pre-wrap{white-space:pre-wrap}
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
 pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
 .keyseq{color:rgba(51,51,51,.8)}
-kbd{display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
 .keyseq kbd:first-child{margin-left:0}
 .keyseq kbd:last-child{margin-right:0}
 .menuseq,.menuref{color:#000}
@@ -108,9 +134,10 @@ b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
 b.button::before{content:"[";padding:0 3px 0 2px}
 b.button::after{content:"]";padding:0 2px 0 3px}
 p a>code:hover{color:rgba(0,0,0,.9)}
-body>div[id]{margin:0 auto;max-width:62.5em;position:relative;padding-left:.9375em;padding-right:.9375em;width:100%}
-body>div[id]::before,body>div[id]::after,#content #footnotes::before{content:"";display:table;clear:both}
-#content{margin-top:1.25em;margin-bottom:.625em}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
@@ -154,6 +181,7 @@ body.toc2.toc-right{padding-left:0;padding-right:20em}}
 #content #toc>:last-child{margin-bottom:0}
 #footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
 #footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
 .sect1{padding-bottom:.625em}
 @media screen and (min-width:768px){#content{margin-bottom:1.25em}
 .sect1{padding-bottom:1.25em}}
@@ -180,14 +208,11 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
 .admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
 .admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
-.exampleblock>.content{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#fffef7;border-radius:4px;box-shadow:0 1px 4px #e0e0dc}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
 .sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
 .sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
 .literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
 @media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
 @media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
@@ -209,9 +234,8 @@ pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
 table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
 table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
 table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos{width:.01%}
-table.linenotable td.linenos,pre.pygments .linenos,pre.rouge .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;user-select:none}
-pre.pygments span.linenos,pre.rouge span.linenos{display:inline-block;margin-right:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
 .quoteblock{margin:0 1em 1.25em 1.5em;display:table}
 .quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
 .quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
@@ -262,6 +286,7 @@ p.tableblock>code:only-child{background:none;padding:0}
 p.tableblock{font-size:1em}
 ol{margin-left:1.75em}
 ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
 dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
 li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
 ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
@@ -270,7 +295,7 @@ ul.unstyled,ol.unstyled{margin-left:0}
 li>p:empty:only-child::before{content:"";display:inline-block}
 ul.checklist>li>p:first-child{margin-left:-1em}
 ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
-ul.checklist>li>p:first-child>input[type=checkbox]:first-child{font:inherit;margin:0 .25em 0 0;padding:0}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
 ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
 ul.inline>li{margin-left:1.25em}
 .unstyled dl dt{font-weight:400;font-style:normal}
@@ -310,7 +335,6 @@ sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
 #footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
 #footnotes .footnote:last-of-type{margin-bottom:0}
 #content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
-div.page-break{display:none}
 div.unbreakable{page-break-inside:avoid}
 .big{font-size:larger}
 .small{font-size:smaller}
@@ -367,8 +391,10 @@ b.conum *{color:inherit!important}
 dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
 h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
 p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt,summary{font-size:1.0625rem}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
 .sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
 .print-only{display:none!important}
 @page{margin:1.25cm .75cm}
 @media print{*{box-shadow:none!important;text-shadow:none!important}
@@ -380,9 +406,10 @@ abbr[title]{border-bottom:1px dotted}
 abbr[title]::after{content:" (" attr(title) ")"}
 pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
 thead{display:table-header-group}
+svg{max-width:100%}
 p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
 h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
-body>div[id]{max-width:none}
+#header,#content,#footnotes,#footer{max-width:none}
 #toc,.sidebarblock,.exampleblock>.content{background:none!important}
 #toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
 body.book #header{text-align:center}
@@ -394,7 +421,6 @@ body.book #header .details br+span::before{content:none!important}
 body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
 body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
 .listingblock code[data-lang]::before{display:block}
-div.page-break{display:block;page-break-after:always}
 #footer{padding:0 .9375em}
 .hide-on-print{display:none!important}
 .print-only{display:block!important}
@@ -405,9 +431,9 @@ div.page-break{display:block;page-break-after:always}
 .sect1+.sect1{border:0}
 #footer{background:none}
 #footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
-@media amzn-kf8{body>div[id]{padding:0}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/styles/github.min.css">
 </head>
 <body class="article toc2 toc-left">
 <div id="header">
@@ -419,66 +445,66 @@ div.page-break{display:block;page-break-after:always}
 <div id="toc" class="toc2">
 <div id="toctitle">Contents</div>
 <ul class="sectlevel1">
-<li><a href="#truedescriptions">1. Descriptions</a></li>
-<li><a href="#truelinks">2. Links</a></li>
-<li><a href="#truestandard-ones">3. Standard Ones</a>
+<li><a href="#descriptions">1. Descriptions</a></li>
+<li><a href="#links">2. Links</a></li>
+<li><a href="#standard-ones">3. Standard Ones</a>
 <ul class="sectlevel2">
-<li><a href="#trueclassic-chrome">3.1. Classic Chrome</a></li>
-<li><a href="#trueclassic-negative">3.2. Classic Negative</a></li>
-<li><a href="#trueacros">3.3. Acros</a></li>
-<li><a href="#truemonochrome">3.4. Monochrome</a></li>
-<li><a href="#truesepia">3.5. Sepia</a></li>
-<li><a href="#truepro-neg-std">3.6. Pro Neg Std</a></li>
-<li><a href="#truepro-negative">3.7. Pro Negative</a></li>
-<li><a href="#true-em-nostalgic-negative-x100-6-only-em">3.8. <em>Nostalgic Negative (X100-6 only)</em></a></li>
-<li><a href="#trueeterna">3.9. Eterna</a></li>
-<li><a href="#trueeterna-cinematic">3.10. Eterna Cinematic</a></li>
-<li><a href="#true-em-eterna-bleach-bypass-x100-6-only-em">3.11. <em>Eterna Bleach Bypass (X100-6 only)</em></a></li>
-<li><a href="#truevelvia">3.12. Velvia</a></li>
-<li><a href="#trueprovia-std-colour-profile">3.13. Provia (Std Colour Profile)</a></li>
-<li><a href="#trueastia">3.14. Astia</a></li>
-<li><a href="#true-em-reala-ace-x100-6-only-em">3.15. <em>Reala Ace (X100-6 only)</em></a></li>
-<li><a href="#truenegative">3.16. Negative</a></li>
+<li><a href="#classic-chrome">3.1. Classic Chrome</a></li>
+<li><a href="#classic-negative">3.2. Classic Negative</a></li>
+<li><a href="#acros">3.3. Acros</a></li>
+<li><a href="#monochrome">3.4. Monochrome</a></li>
+<li><a href="#sepia">3.5. Sepia</a></li>
+<li><a href="#pro-neg-std">3.6. Pro Neg Std</a></li>
+<li><a href="#pro-negative">3.7. Pro Negative</a></li>
+<li><a href="#nostalgic-negative-x100-6-only">3.8. <em>Nostalgic Negative (X100-6 only)</em></a></li>
+<li><a href="#eterna">3.9. Eterna</a></li>
+<li><a href="#eterna-cinematic">3.10. Eterna Cinematic</a></li>
+<li><a href="#eterna-bleach-bypass-x100-6-only">3.11. <em>Eterna Bleach Bypass (X100-6 only)</em></a></li>
+<li><a href="#velvia">3.12. Velvia</a></li>
+<li><a href="#provia-std-colour-profile">3.13. Provia (Std Colour Profile)</a></li>
+<li><a href="#astia">3.14. Astia</a></li>
+<li><a href="#reala-ace-x100-6-only">3.15. <em>Reala Ace (X100-6 only)</em></a></li>
+<li><a href="#negative">3.16. Negative</a></li>
 </ul>
 </li>
-<li><a href="#truethe-controls">4. The Controls</a>
+<li><a href="#the-controls">4. The Controls</a>
 <ul class="sectlevel2">
-<li><a href="#truegrain-effect">4.1. Grain Effect</a></li>
-<li><a href="#truecolour-chrome-effect">4.2. Colour Chrome Effect</a></li>
-<li><a href="#truecolour-chrome-fx-blue">4.3. Colour Chrome FX Blue</a></li>
-<li><a href="#truewhite-balance-and-shifting-white-balance">4.4. White Balance and Shifting White Balance</a></li>
-<li><a href="#truedynamic-range">4.5. Dynamic Range</a></li>
-<li><a href="#truetone-curve">4.6. Tone Curve</a></li>
-<li><a href="#truecolour">4.7. Colour</a></li>
-<li><a href="#truesharpness">4.8. Sharpness</a></li>
-<li><a href="#truehigh-iso-nr">4.9. High ISO NR</a></li>
-<li><a href="#trueclarity">4.10. Clarity</a></li>
+<li><a href="#grain-effect">4.1. Grain Effect</a></li>
+<li><a href="#colour-chrome-effect">4.2. Colour Chrome Effect</a></li>
+<li><a href="#colour-chrome-fx-blue">4.3. Colour Chrome FX Blue</a></li>
+<li><a href="#white-balance-and-shifting-white-balance">4.4. White Balance and Shifting White Balance</a></li>
+<li><a href="#dynamic-range">4.5. Dynamic Range</a></li>
+<li><a href="#tone-curve">4.6. Tone Curve</a></li>
+<li><a href="#colour">4.7. Colour</a></li>
+<li><a href="#sharpness">4.8. Sharpness</a></li>
+<li><a href="#high-iso-nr">4.9. High ISO NR</a></li>
+<li><a href="#clarity">4.10. Clarity</a></li>
 </ul>
 </li>
-<li><a href="#trueextra-recipes">5. Extra Recipes</a>
+<li><a href="#extra-recipes">5. Extra Recipes</a>
 <ul class="sectlevel2">
-<li><a href="#trueseaside-pastel">5.1. Seaside Pastel</a></li>
+<li><a href="#seaside-pastel">5.1. Seaside Pastel</a></li>
 </ul>
 </li>
-<li><a href="#truedetails">6. Details</a>
+<li><a href="#details">6. Details</a>
 <ul class="sectlevel2">
-<li><a href="#truenostalgic-negative-x100-6-only">6.1. Nostalgic Negative (X100-6 only)</a></li>
+<li><a href="#nostalgic-negative-x100-6-only-2">6.1. Nostalgic Negative (X100-6 only)</a></li>
 </ul>
 </li>
-<li><a href="#truesimulating-nostalgic-neg">7. Simulating Nostalgic Neg</a></li>
-<li><a href="#truechoose-by-lighting-conditions">8. Choose by Lighting Conditions</a>
+<li><a href="#simulating-nostalgic-neg">7. Simulating Nostalgic Neg</a></li>
+<li><a href="#choose-by-lighting-conditions">8. Choose by Lighting Conditions</a>
 <ul class="sectlevel2">
-<li><a href="#truecolour-2">8.1. Colour</a></li>
-<li><a href="#trueblack-white">8.2. Black &amp; White</a></li>
+<li><a href="#colour-2">8.1. Colour</a></li>
+<li><a href="#black-white">8.2. Black &amp; White</a></li>
 </ul>
 </li>
-<li><a href="#truecurrent-favourites">9. Current Favourites</a></li>
+<li><a href="#current-favourites">9. Current Favourites</a></li>
 </ul>
 </div>
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="truedescriptions"><a class="anchor" href="#truedescriptions"></a>1. Descriptions</h2>
+<h2 id="descriptions"><a class="anchor" href="#descriptions"></a>1. Descriptions</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>From <a href="https://www.andrepel.com/blog/fujifilm-film-simulations-guide-2025?srsltid=AfmBOoosVauy39jf5QRr4MHmsVi_ikS6bldopXWqXuiZt5yqciwEA8HN">Andre Pel</a></p>
@@ -487,7 +513,7 @@ div.page-break{display:block;page-break-after:always}
 <table>
 <tr>
 <td class="icon">
-<i class="fa icon-note" title="Note"></i>
+<div class="title">Note</div>
 </td>
 <td class="content">
 The following are only available in the X100-VI:<br>
@@ -502,7 +528,7 @@ The following are only available in the X100-VI:<br>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truelinks"><a class="anchor" href="#truelinks"></a>2. Links</h2>
+<h2 id="links"><a class="anchor" href="#links"></a>2. Links</h2>
 <div class="sectionbody">
 <div class="ulist">
 <ul>
@@ -514,86 +540,86 @@ The following are only available in the X100-VI:<br>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truestandard-ones"><a class="anchor" href="#truestandard-ones"></a>3. Standard Ones</h2>
+<h2 id="standard-ones"><a class="anchor" href="#standard-ones"></a>3. Standard Ones</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="trueclassic-chrome"><a class="anchor" href="#trueclassic-chrome"></a>3.1. Classic Chrome</h3>
+<h3 id="classic-chrome"><a class="anchor" href="#classic-chrome"></a>3.1. Classic Chrome</h3>
 <div class="paragraph">
 <p>Soft colour, enhanced shadow contrast. (A slight blue tone?)<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueclassic-negative"><a class="anchor" href="#trueclassic-negative"></a>3.2. Classic Negative</h3>
+<h3 id="classic-negative"><a class="anchor" href="#classic-negative"></a>3.2. Classic Negative</h3>
 <div class="paragraph">
 <p>emulates classic colour negative films, moderate saturation and soft contrast.<br>
 Good for: street, dull days</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueacros"><a class="anchor" href="#trueacros"></a>3.3. Acros</h3>
+<h3 id="acros"><a class="anchor" href="#acros"></a>3.3. Acros</h3>
 <div class="paragraph">
 <p>black-and-white simulation with overall higher contrast than Monochrome<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truemonochrome"><a class="anchor" href="#truemonochrome"></a>3.4. Monochrome</h3>
+<h3 id="monochrome"><a class="anchor" href="#monochrome"></a>3.4. Monochrome</h3>
 <div class="paragraph">
 <p>black-and-white film simulation that produces softer images with less contrast than Acros<br>
 Good for: most situations, you can add contrast to be more Acros in post.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truesepia"><a class="anchor" href="#truesepia"></a>3.5. Sepia</h3>
+<h3 id="sepia"><a class="anchor" href="#sepia"></a>3.5. Sepia</h3>
 <div class="paragraph">
 <p>toned monochrome look<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truepro-neg-std"><a class="anchor" href="#truepro-neg-std"></a>3.6. Pro Neg Std</h3>
+<h3 id="pro-neg-std"><a class="anchor" href="#pro-neg-std"></a>3.6. Pro Neg Std</h3>
 <div class="paragraph">
 <p>softer contrast and more uniform tonal transitions<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truepro-negative"><a class="anchor" href="#truepro-negative"></a>3.7. Pro Negative</h3>
+<h3 id="pro-negative"><a class="anchor" href="#pro-negative"></a>3.7. Pro Negative</h3>
 <div class="paragraph">
 <p>increased contrast and more saturated colours than Pro Neg. Std<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="true-em-nostalgic-negative-x100-6-only-em"><a class="anchor" href="#true-em-nostalgic-negative-x100-6-only-em"></a>3.8. <em>Nostalgic Negative (X100-6 only)</em></h3>
+<h3 id="nostalgic-negative-x100-6-only"><a class="anchor" href="#nostalgic-negative-x100-6-only"></a>3.8. <em>Nostalgic Negative (X100-6 only)</em></h3>
 <div class="paragraph">
 <p>A warm, soft look with amber-toned highlights and rich/saturated shadows, mimicking classic snapshot photography.<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueeterna"><a class="anchor" href="#trueeterna"></a>3.9. Eterna</h3>
+<h3 id="eterna"><a class="anchor" href="#eterna"></a>3.9. Eterna</h3>
 <div class="paragraph">
 <p>Good for: video shooting</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueeterna-cinematic"><a class="anchor" href="#trueeterna-cinematic"></a>3.10. Eterna Cinematic</h3>
+<h3 id="eterna-cinematic"><a class="anchor" href="#eterna-cinematic"></a>3.10. Eterna Cinematic</h3>
 <div class="paragraph">
 <p>subdued colours and noticeably low contrast<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="true-em-eterna-bleach-bypass-x100-6-only-em"><a class="anchor" href="#true-em-eterna-bleach-bypass-x100-6-only-em"></a>3.11. <em>Eterna Bleach Bypass (X100-6 only)</em></h3>
+<h3 id="eterna-bleach-bypass-x100-6-only"><a class="anchor" href="#eterna-bleach-bypass-x100-6-only"></a>3.11. <em>Eterna Bleach Bypass (X100-6 only)</em></h3>
 <div class="paragraph">
 <p>simulates a bleach bypass process, which provides an overall lower saturation and muted colour with increased contrast<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truevelvia"><a class="anchor" href="#truevelvia"></a>3.12. Velvia</h3>
+<h3 id="velvia"><a class="anchor" href="#velvia"></a>3.12. Velvia</h3>
 <div class="paragraph">
 <p>Saturated colours with pronounced contrast<br>
 Good for: landscape, faded colours assuming you want to push them up
@@ -601,28 +627,28 @@ Avoid for: portraits</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueprovia-std-colour-profile"><a class="anchor" href="#trueprovia-std-colour-profile"></a>3.13. Provia (Std Colour Profile)</h3>
+<h3 id="provia-std-colour-profile"><a class="anchor" href="#provia-std-colour-profile"></a>3.13. Provia (Std Colour Profile)</h3>
 <div class="paragraph">
 <p>balanced colour and contrast<br>
 Good for: skin tones</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueastia"><a class="anchor" href="#trueastia"></a>3.14. Astia</h3>
+<h3 id="astia"><a class="anchor" href="#astia"></a>3.14. Astia</h3>
 <div class="paragraph">
 <p>vibrant, yet softer colours and contrast<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="true-em-reala-ace-x100-6-only-em"><a class="anchor" href="#true-em-reala-ace-x100-6-only-em"></a>3.15. <em>Reala Ace (X100-6 only)</em></h3>
+<h3 id="reala-ace-x100-6-only"><a class="anchor" href="#reala-ace-x100-6-only"></a>3.15. <em>Reala Ace (X100-6 only)</em></h3>
 <div class="paragraph">
 <p>natural colour reproduction, balanced contrast<br>
 Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truenegative"><a class="anchor" href="#truenegative"></a>3.16. Negative</h3>
+<h3 id="negative"><a class="anchor" href="#negative"></a>3.16. Negative</h3>
 <div class="paragraph">
 <p>Bold colours, soft tones, and medium contrast<br>
 Good for:</p>
@@ -631,37 +657,37 @@ Good for:</p>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truethe-controls"><a class="anchor" href="#truethe-controls"></a>4. The Controls</h2>
+<h2 id="the-controls"><a class="anchor" href="#the-controls"></a>4. The Controls</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>(from <a href="https://www.tom-england.com/blog/fujifilm-recipes-understanding-the-settings-and-perfecting-your-own">Tom England</a>)</p>
 </div>
 <div class="sect2">
-<h3 id="truegrain-effect"><a class="anchor" href="#truegrain-effect"></a>4.1. Grain Effect</h3>
+<h3 id="grain-effect"><a class="anchor" href="#grain-effect"></a>4.1. Grain Effect</h3>
 <div class="paragraph">
 <p>This will add grain to your JPEGs if preferred. First, there is Roughness (Weak, Strong), then Size (Large, Small). With the settings on both, you can adjust the grain intensity and size. I rarely use a strong or large setting. It’s only my personal preference. I like some grain, but I find large or strong too much for my liking.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truecolour-chrome-effect"><a class="anchor" href="#truecolour-chrome-effect"></a>4.2. Colour Chrome Effect</h3>
+<h3 id="colour-chrome-effect"><a class="anchor" href="#colour-chrome-effect"></a>4.2. Colour Chrome Effect</h3>
 <div class="paragraph">
 <p>Fujifilm’s Colour Chrome effect enhances photos by deepening and darkening vibrant colours, especially in highly saturated areas. Most importantly, it doesn’t oversaturate your images. This works well with colourful subjects, especially in warmer colours. It elevates the colours without pushing them into the unrealistic state that oversaturation can cause. This setting has Weak and Strong settings.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truecolour-chrome-fx-blue"><a class="anchor" href="#truecolour-chrome-fx-blue"></a>4.3. Colour Chrome FX Blue</h3>
+<h3 id="colour-chrome-fx-blue"><a class="anchor" href="#colour-chrome-fx-blue"></a>4.3. Colour Chrome FX Blue</h3>
 <div class="paragraph">
 <p>Colour Chrome FX Blue affects the blue tones in an image, making blues appear deeper, darker, and more pronounced without affecting other colours. If you want your sky to be a predominant feature in your image, with distinct details and darker shades, this is the setting you will want to experiment with. Think of it a bit like a polarizing filter. When employing Colour Chrome FX Blue, there are two settings: Weak and Strong. The effects can be very noticeable in your final image. Available light at different times of the day will also be a factor.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truewhite-balance-and-shifting-white-balance"><a class="anchor" href="#truewhite-balance-and-shifting-white-balance"></a>4.4. White Balance and Shifting White Balance</h3>
+<h3 id="white-balance-and-shifting-white-balance"><a class="anchor" href="#white-balance-and-shifting-white-balance"></a>4.4. White Balance and Shifting White Balance</h3>
 <div class="paragraph">
 <p>Many of the available white balance choices I never touch, and based on what I photograph, which is mostly outdoors, it’s rare that I have used a film recipe with anything other than Auto or Daylight white balance as a starting point. In addition to the standard white balance setting, you can adjust the reds and blues to tailor the settings to your preferences. For example, if you favour warmer images, you can drop the blues and increase the reds in the available grid. Adjusting white balance is one of the most flexible settings, and it can significantly impact the final result.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truedynamic-range"><a class="anchor" href="#truedynamic-range"></a>4.5. Dynamic Range</h3>
+<h3 id="dynamic-range"><a class="anchor" href="#dynamic-range"></a>4.5. Dynamic Range</h3>
 <div class="paragraph">
 <p>I’ve covered dynamic range before, and you can find it here. Understanding and utilizing dynamic range (DR) settings, including Auto, DR100%, DR200%, and DR400%, can significantly enhance image quality in challenging lighting conditions by preserving both highlight and shadow details. Higher DR settings work by underexposing the image by one or two stops to protect bright areas, such as skies, from blowing out, while simultaneously brightening shadows to reveal more detail, resulting in richer tonal depth. However, higher DR settings require increased minimum ISO values (e.g., DR200% sets a minimum ISO of 250, while DR400% sets a minimum ISO of around 500).</p>
 </div>
@@ -676,19 +702,19 @@ Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truetone-curve"><a class="anchor" href="#truetone-curve"></a>4.6. Tone Curve</h3>
+<h3 id="tone-curve"><a class="anchor" href="#tone-curve"></a>4.6. Tone Curve</h3>
 <div class="paragraph">
 <p>Tone curve is similar to what you will find in Lightroom or Photoshop, but the setting here lets you adjust highlights and shadows directly in-camera. The stronger the S-curve you create, the greater the contrast in your image will be. Your adjustments for both highlights and shadows will range from -2 to +4.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truecolour"><a class="anchor" href="#truecolour"></a>4.7. Colour</h3>
+<h3 id="colour"><a class="anchor" href="#colour"></a>4.7. Colour</h3>
 <div class="paragraph">
 <p>The Colour setting on Fujifilm cameras increases the saturation and vibrancy of all colours in your image, whereas Colour Chrome Effect and Colour Chrome FX Blue affect only select colours. This is important to note, as a push with the Colour setting will adjust saturation overall, and pushing too far can cause colours to appear unnatural. However, that’s not necessarily a bad thing depending on your intention.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truesharpness"><a class="anchor" href="#truesharpness"></a>4.8. Sharpness</h3>
+<h3 id="sharpness"><a class="anchor" href="#sharpness"></a>4.8. Sharpness</h3>
 <div class="paragraph">
 <p>This setting is self-explanatory, as it adjusts the overall sharpness of your image. Film recipes typically aim to replicate a specific film stock or film look. As a result, sharpness is usually lower, as film was never as sharp as modern digital photography. However, film recipes are unique and personal, and you are free to create a look with any level of sharpness.</p>
 </div>
@@ -697,7 +723,7 @@ Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="truehigh-iso-nr"><a class="anchor" href="#truehigh-iso-nr"></a>4.9. High ISO NR</h3>
+<h3 id="high-iso-nr"><a class="anchor" href="#high-iso-nr"></a>4.9. High ISO NR</h3>
 <div class="paragraph">
 <p>As the name suggests, High ISO Noise Reduction reduces noise in images taken at high ISO settings. The higher the ISO (+), the more noise reduction is applied. Anyone with experience using noise-reduction software knows it&#8217;s tricky. The more noise you want to eliminate, the greater the required degree of noise reduction. And most of the time, this can make your image look terrible. Additionally, reducing noise substantially can soften the image to the point where it appears muddy. The application of noise reduction, especially at high levels, is noticeable.</p>
 </div>
@@ -706,7 +732,7 @@ Good for:</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueclarity"><a class="anchor" href="#trueclarity"></a>4.10. Clarity</h3>
+<h3 id="clarity"><a class="anchor" href="#clarity"></a>4.10. Clarity</h3>
 <div class="paragraph">
 <p>If there ever was a slider in Lightroom to quickly ruin an image, it’s Clarity. Clarity adjusts midtone contrast, making your image appear sharper with more definition. Clarity can be easily overused, as even a slight bump in Clarity can have a significant impact. However, reducing the Clarity in your settings softens the image and reduces the midtone contrast. Recently, when post-processing RAW images, I have reduced Clarity in Lightroom. As a result, I keep this setting at zero or reduce it significantly. High Clarity doesn’t align with my use of film recipes. I want images that are imperfect yet pleasing, and Clarity does nothing to enhance either.</p>
 </div>
@@ -714,7 +740,7 @@ Good for:</p>
 <table>
 <tr>
 <td class="icon">
-<i class="fa icon-important" title="Important"></i>
+<div class="title">Important</div>
 </td>
 <td class="content">
 Using Clarity at any value other than zero will delay your camera’s capture time. Clarity is applied after capture, not during.
@@ -726,10 +752,10 @@ Using Clarity at any value other than zero will delay your camera’s capture ti
 </div>
 </div>
 <div class="sect1">
-<h2 id="trueextra-recipes"><a class="anchor" href="#trueextra-recipes"></a>5. Extra Recipes</h2>
+<h2 id="extra-recipes"><a class="anchor" href="#extra-recipes"></a>5. Extra Recipes</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="trueseaside-pastel"><a class="anchor" href="#trueseaside-pastel"></a>5.1. Seaside Pastel</h3>
+<h3 id="seaside-pastel"><a class="anchor" href="#seaside-pastel"></a>5.1. Seaside Pastel</h3>
 <div class="paragraph">
 <p>Starting with the Nostalgic Neg simulation, this recipe leans into a gentle, introspective mood with a subdued palette. With DR400 preserving highlight detail and shadow presence, it delivers a smooth tonal transition that avoids harsh contrast while maintaining a natural sense of depth.</p>
 </div>
@@ -743,10 +769,10 @@ Using Clarity at any value other than zero will delay your camera’s capture ti
 </div>
 </div>
 <div class="sect1">
-<h2 id="truedetails"><a class="anchor" href="#truedetails"></a>6. Details</h2>
+<h2 id="details"><a class="anchor" href="#details"></a>6. Details</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="truenostalgic-negative-x100-6-only"><a class="anchor" href="#truenostalgic-negative-x100-6-only"></a>6.1. Nostalgic Negative (X100-6 only)</h3>
+<h3 id="nostalgic-negative-x100-6-only-2"><a class="anchor" href="#nostalgic-negative-x100-6-only-2"></a>6.1. Nostalgic Negative (X100-6 only)</h3>
 <div class="paragraph">
 <p>The most popular custom recipe to replicate Nostalgic Negative on X-Trans IV cameras like the Fujifilm X100V is Ritchie Roesch’s "Timeless Negative" recipe from Fuji X Weekly.Because true Nostalgic Negative sits somewhere between the gentle tonal gradations of Eterna and the retro warmth of Classic Chrome, this recipe relies on the Eterna base coupled with heavy warmth shifting.</p>
 </div>
@@ -791,7 +817,7 @@ ISO N.R.	‑4
 Clarity	0
 EV Comp.	+1/3</p>
 </div>
-<table class="tableblock frame-all grid-all spread">
+<table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 5.5555%;">
 <col style="width: 5.5555%;">
@@ -1102,7 +1128,7 @@ goldenHr:Nostalgic neg</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truesimulating-nostalgic-neg"><a class="anchor" href="#truesimulating-nostalgic-neg"></a>7. Simulating Nostalgic Neg</h2>
+<h2 id="simulating-nostalgic-neg"><a class="anchor" href="#simulating-nostalgic-neg"></a>7. Simulating Nostalgic Neg</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p><span class="small">(from AI)</span><br>
@@ -1131,11 +1157,11 @@ Color Chrome FX Blue: Off</pre>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truechoose-by-lighting-conditions"><a class="anchor" href="#truechoose-by-lighting-conditions"></a>8. Choose by Lighting Conditions</h2>
+<h2 id="choose-by-lighting-conditions"><a class="anchor" href="#choose-by-lighting-conditions"></a>8. Choose by Lighting Conditions</h2>
 <div class="sectionbody">
 <div class="sect2">
-<h3 id="truecolour-2"><a class="anchor" href="#truecolour-2"></a>8.1. Colour</h3>
-<table class="tableblock frame-all grid-all spread">
+<h3 id="colour-2"><a class="anchor" href="#colour-2"></a>8.1. Colour</h3>
+<table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -1170,9 +1196,31 @@ faded/muted colours that you want to push</p></td>
 </tr>
 </tbody>
 </table>
+<div class="paragraph">
+<p>From <a href="https://www.instagram.com/esxfilms/" class="bare">https://www.instagram.com/esxfilms/</a></p>
+</div>
+<div class="paragraph">
+<p>This one is the Leica X recipe!</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>Film Simulation: Classic Chrome
+Grain: Off
+Chrome Effect: Strong
+FX Blue: Strong
+White Balance: Auto (R: +1, B: -2)
+Dynamic Range: Auto
+DR Priority: Off
+Tone Curve: Highlights -1, Shadows 0
+Color: +4
+Sharpness: 0
+High ISO NR: -4
+Clarity: 0</pre>
+</div>
+</div>
 </div>
 <div class="sect2">
-<h3 id="trueblack-white"><a class="anchor" href="#trueblack-white"></a>8.2. Black &amp; White</h3>
+<h3 id="black-white"><a class="anchor" href="#black-white"></a>8.2. Black &amp; White</h3>
 <div class="paragraph">
 <p>??</p>
 </div>
@@ -1180,9 +1228,9 @@ faded/muted colours that you want to push</p></td>
 </div>
 </div>
 <div class="sect1">
-<h2 id="truecurrent-favourites"><a class="anchor" href="#truecurrent-favourites"></a>9. Current Favourites</h2>
+<h2 id="current-favourites"><a class="anchor" href="#current-favourites"></a>9. Current Favourites</h2>
 <div class="sectionbody">
-<table class="tableblock frame-all grid-all spread">
+<table class="tableblock frame-all grid-all stretch">
 <colgroup>
 <col style="width: 50%;">
 <col style="width: 50%;">
@@ -1217,11 +1265,15 @@ faded/muted colours that you want to push</p></td>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-08-06 22:27:42 GMTDT
+Last updated 2026-08-14 15:02:44 +0100
 </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js"></script>
-<script>hljs.initHighlighting()</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.3/highlight.min.js"></script>
+<script>
+if (!hljs.initHighlighting.called) {
+  hljs.initHighlighting.called = true
+  ;[].slice.call(document.querySelectorAll('pre.highlight > code[data-lang]')).forEach(function (el) { hljs.highlightBlock(el) })
+}
+</script>
 </body>
 </html>
