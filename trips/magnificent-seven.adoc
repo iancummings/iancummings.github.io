@@ -1,7 +1,7 @@
 :toc: left
 :toclevels: 5
 :toc-title: Contents
-:imagesdir: ./images
+:imagesdir: ../images
 :numbered:
 
 = The Magnificent Seven
