@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="AI Assistant" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>The Magnificent Seven UK Motorcycle Route</name>
+    <desc>A 200-mile motorcycle touring route across England's 7 most iconic passes.</desc>
+  </metadata>
+  <rte>
+    <name>The Magnificent Seven Route</name>
+    <desc>Harrogate to Hardknott Pass</desc>
+    <rtept lat="53.9924" lon="-1.5401">
+      <name>Start: Harrogate</name>
+    </rtept>
+    <rtept lat="54.0734" lon="-1.6841">
+      <name>Brimham Rocks</name>
+    </rtept>
+    <rtept lat="54.1955" lon="-2.1643">
+      <name>Pass 1: Fleet Moss</name>
+    </rtept>
+    <rtept lat="54.3411" lon="-2.2037">
+      <name>Pass 2: Buttertubs Pass</name>
+    </rtept>
+    <rtept lat="54.4552" lon="-2.1102">
+      <name>Tan Hill Inn</name>
+    </rtept>
+    <rtept lat="54.7067" lon="-2.2023">
+      <name>Pass 3: Chapel Fell (Harthope Moss)</name>
+    </rtept>
+    <rtept lat="54.7678" lon="-2.5111">
+      <name>Pass 4: Hartside Pass</name>
+    </rtept>
+    <rtept lat="54.6014" lon="-3.1348">
+      <name>Keswick</name>
+    </rtept>
+    <rtept lat="54.5422" lon="-3.2844">
+      <name>Pass 5: Crummock Water / B5289</name>
+    </rtept>
+    <rtept lat="54.5042" lon="-3.2201">
+      <name>Pass 6: Honister Pass</name>
+    </rtept>
+    <rtept lat="54.4392" lon="-3.1255">
+      <name>Grasmere</name>
+    </rtept>
+    <rtept lat="54.4036" lon="-3.1789">
+      <name>Pass 7: Wrynose Pass</name>
+    </rtept>
+    <rtept lat="54.4034" lon="-3.2181">
+      <name>Finish: Hardknott Pass</name>
+    </rtept>
+  </rte>
+</gpx>

@@ -1,0 +1,58 @@
+:toc: left
+:toclevels: 5
+:toc-title: Contents
+:imagesdir: ./images
+:numbered:
+
+= The Magnificent Seven
+Ian Cummings 
+V0.1, Aug 2026: 
+
+image::magnificent-seven-overview.png[]
+
+link:https://www.adventurebikerider.com/get-the-full-magnificent-seven-route-the-uks-answer-to-the-nc500/[Adventure Bike Rider article]
+
+NOTE: find the gpx file link:TheMagnificentSeven(1).gpx[here]
+
+== Key Stops & Waypoints Along the Route
+=== Summary
+If you plan to ride the route, it flows through several iconic northern landmarks and rest stops:
+* Start: Bettys Café Tea Rooms (Harrogate)
+* Brimham Rocks
+* Coldstones Cut
+* Tan Hill Inn (The highest pub in Britain)
+* Alston (via Hartside Pass)
+* Keswick & Buttermere
+* Grasmere Gingerbread Shop
+* Hardknott Roman Fort
+
+=== More detail (with postcodes)
+
+1. Bettys Café Tea Rooms, 1 Parliament St, Harrogate, HG1 2QU
+1. Brimham Rocks, Brimham Rocks Rd, Harrogate, HG3 4DW
+1. Coldstones Cut Car Park, B6265, Harrogate, HG3 5BJ
+1. Fleet Moss, Skipton, DL8 3DQ
+1. Buttertubs Pass, Cliff Gate Rd, DL11 6DR
+1. Tan Hill Inn, Long Causeway, DL11 6ED
+1. Newbiggin Chapel, Newbiggin, Barnard Castle, DL12 0TY
+1. Westgate Caravan & Camping Site, DL13 1LN
+1. Harthope Moss, Bishop Auckland, DL13 1NN (Chapel Fell)
+1. Hartside Pass, Alston, CA9 3BW
+1. Whinlatter Pass, CA12 5TW
+1. Honister Pass, Keswick, CA12 5XN
+1. Grasmere Gingerbread Shop, Church Cottage, LA22 9SW
+1. Hardknott Roman Fort, Hardknott Pass, CA19 1TH 
+
+=== Road names and nicknames
+Here is the full list of the seven magnificent biking roads underpinning this route:
+
+* FLEET MOSS (the remote one)
+* BUTTERTUBS PASS (the famous one)
+* CHAPEL FELL (the high one)
+* HARTSIDE PASS (the long one)
+* B5289 (the scenic one)
+* HONISTER PASS (the lakeside one)
+* WRYNOSE & HARDKNOTT PASSES (the double header) 
+
+=== Overview
+Some more information link:magnificent-seven-overview.html[here]

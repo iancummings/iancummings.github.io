@@ -57,6 +57,9 @@ image::lake-district-loop.png[]
 
 See the link:lake-district-loop.html[details]
 
+=== The Magnificent Seven (motorcyle route)
+See the details link:magnificent-seven.html[here]
+
 == Europe
 
 === Prague
