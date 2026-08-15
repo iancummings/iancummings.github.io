@@ -17,6 +17,7 @@ NOTE: find the gpx file link:TheMagnificentSeven(1).gpx[here]
 == Key Stops & Waypoints Along the Route
 === Summary
 If you plan to ride the route, it flows through several iconic northern landmarks and rest stops:
+
 * Start: Bettys Café Tea Rooms (Harrogate)
 * Brimham Rocks
 * Coldstones Cut
