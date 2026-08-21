@@ -47,7 +47,9 @@ Follow these instructions to see when a service is actually due:
 This will display when the next one is due.
 
 ==== AI generated Help
-See link:fabia-service.html[here]
+* link:fabia-service.html[here]
+* link:skoda-service.html[and here]
+* link:service-plans.pdf[and pdf here]
 
 == Polo GTI
 
