@@ -16,7 +16,7 @@
 |CPU|10th Generation Intel(R) Core(TM) i7-10875H (16MB Cache, up to 5.1 GHz, 8 cores)
 |Mem| 16GB DDR4-2933MHz, 2x8G
 |Storage| 1TB M.2 PCIe NVMe Solid State Drive
-| GPU | NVIDIA® GeForce RTXTM 2060 6GB GDDR6 with Max-Q
+| GPU | NVIDIA® GeForce RTX^TM^ 2060 6GB GDDR6 with Max-Q
 | display | 17.0" UHD+ (3840 x 2400) InfinityEdge Touch Anti-Reflecitve 500-Nit Display
 | WiFi | Killer^TM^ Wi-Fi 6 AX1650 (2 x 2) and Bluetooth 5.1
 | battery | 6-Cell Battery, 97WHr (Integrated)
