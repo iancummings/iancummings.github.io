@@ -266,16 +266,17 @@ horl2 diamond side is 46um about 320 or 420 grit, the ceramic side is 1000 grit
 horl3 
 
 
-Coarse Dimond: 200
-Diamond: 420
-Ceramic: 1000
-Fine: 3000 (blue)
-Extra Fine: 6000 (white)
-Kagami: 8000,9000,10000 git ?
+* Coarse diamond: 200
+* Diamond: 420
+* Ceramic: 1000
+* Fine: 3000 (blue)
+* Extra Fine: 6000 (white)
+* Kagami: 8000,9000,10000 git ?
 
 
 ==== Techniques
-Normally 5-10 strokes of sharpening should be ok, if knife is a bit blunt then ~50.
+Normally 5-10 strokes of sharpening should be ok, if knife is a bit blunt then up to 50.
+
 1. 10 each side for 400 grit
 1. 30 for 1000 grit
 1. 1 minute each side blue, same for white, strop?
@@ -283,16 +284,12 @@ Normally 5-10 strokes of sharpening should be ok, if knife is a bit blunt then ~
 
 
 For a knife that hasn't been sharpened before and is a bit blunt, then maybe 2-3 minutes each side? Afterwards a "handful" of passes each side.
+
 1. 100 each side for 400 grit
 1. 30 for 1000 grit
 1. 1 minute each side blue, same for white, strop?
 
-
-
-
 do one side and look for a burr, flip and look for burr again
-
-
 
 
 === Strops
