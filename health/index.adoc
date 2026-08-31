@@ -7,6 +7,9 @@
 
 = Health
 
+== Eyes
+See link:eyes.html[here]
+
 == PSA Test
 
 === Before the test

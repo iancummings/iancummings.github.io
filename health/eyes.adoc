@@ -1,0 +1,161 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Eyes
+
+== My Uveitis
+
+=== Summary
+Etiology: Deemed to be autoimmune caused, after having blood tests etc
+One instance of posterior synechia (sin-ek-ke-a) early on - 1997?
+
+==== TL;DR
+
+* 1984 - first attack - anterior only
+* 1997 bad attack - 2 months steroid drops & tablets (starting at 60mg) - developed to pan uveitis
+* 1998 bad attack - 3 months steroid drops & tablets (starting at 60mg) - anterior only
+
+* Feb-Mar-2000 - minor; 2 months maxidex drops, no prednisolone tablets
+
+* Sep-Oct-2001 - average - 2 months - Pred Forte 2hrly, cyclopentolte 2xdaily, 
+
+* 20-Jun-Sep-2015 - 3 months - average - maxidex 2hrly, cyclopentolate 1/day
+* Sat 20-Jan-2016 - minor
+* Wed 7-sep-2016 - minor
+
+* 2020 - blepharitis - warm eye mask prescribed - resolved
+* currently hylo forte drops 2-3 times/day due to "rubbish" tear film.
+
+
+
+==== Details
+* Spring 1984
+
+* May-1997?
+
+* 3-Oct-Dec-1997 +
+Saw Dr Greenwood. Said was in early stages, gave me Maxidex 6x daily,
+cyclopentalate 2x daily, and betamethesone sodium phosphate ointment nightly. +
+Got worse, changed maxidex to Betnesol 6x daily +
+Proceeded to get worse and developed to pan-uveitis, started **60mg prednisolone**.
+Reduced to 40mg 3 days later but with Maxidex every 2hours +
+27-Oct down to 30mg Prednisolone, 3 hourly maxidex. +
+Stopped steroids 18-Nov
+
+* July-Sep-1998 +
+prednisolone 60mg 3-Aug +
+Sep: +
+Had appt. with Dr Gall. She said that I had been on 30mg too long, and so was
+to go down to 25mg for a week and then 20mg for a week and so on until I
+reached 5mg for 2 weeks. I could stop the atropine, but keep up the ointment
+and Pred Forte so as not to reduce everything all at once.
+I said what could I do about it in the future as I had been on steroids for
+6 months out of the last year, and she said that there wasn't anything. She
+did mention stress, and I think it is up to me to grasp that nettle.
+
+* Feb-Mar-2000 - maxidex drops only
+
+* Sep-Oct-2001 +
+Pred Forte 2hourly, Cyclopentalate 2xday +
+Pred forte down from 6/day to 4/day and stop cyclopentalate.
+
+* 20-Jun-2015 - RBH eye casualty - Uveitis, maxidex/(dexsmethasone?) 2hrly, cyclopentelate 1/day +
+-> Sep-2015
+
+* Sat 20-Jan-2016
+
+* Wed 7-sep-2016 RBH eye casualty
+
+* visit to RBH eye casualty 3-Jun-2019 - all ok
+* 2020 - blephritis - warm eye mask prescribed - resolved
+* currently hylo forte drops 2-3 times per day to keep tear film good.
+
+=== Cataract Surgery relating to patients with Uveitis
+* post operative/ rebound inflammation control
+* lens material choice; hydrophobic acrylic preferred over silicone
+
+==== Links
+* link:https://www.londoncataractcentre.co.uk/blog/uveitic-eye-cataract-surgery/[]
+* link:https://www.aao.org/education/current-insight/cataract-surgery-uveitis[]
+* link:https://eyewiki.org/Rebound_Iritis_following_Cataract_Surgery[]
+* link:https://www.eyeworld.org/2025/considerations-for-uveitis-and-cataract-surgery/[]
+* link:https://pmc.ncbi.nlm.nih.gov/articles/PMC3729707/[]
+
+
+== Professor MacLaren
+
+I have started to develop cataracts in both eyes, however the one in my left eye is developing as two vertical lines, which causes me noticeable disturbance.
+
+I have been referred to the NHS for cataract assessment, but I understand that because of my uveitis history, surgery may not be straightforward as it could be due to issues of rejection.
+
+== IOLs
+
+intermediate = arm's legth
+
+Biometer? Visual axis, not just pupil centre.
+
+monocular/monofocal - choose focal length, need reading glasses (varifocal possible?)
+clear night vision, etc
+no focus closer than 1m
+
+multifocal/trifocal - distance at top, central circle intermediate, bottom near vision
+contrast loss, night driving halos, glare risk. Also requires precise positioning, centration and for astigmatism the rotation matters too - doesn't sound good to me.
+
+EDOF - like fresnel lenses? very small risk of glare, halos or starburst (puresee). Distance and near vision - need readers for close work.
+Slight loss of contrast for beam shaping lenses (20%), loss of light for pinhole versions. Diffractive produces halo/glare.
+can use slightly different prescriptions to give a slightly wider range.
+focus down to 60cm?
+
+monovision - two monofocal lenses of different focla lengths; one eye near, one eye far. less halo risk, but some patients cannot adjust well and report weaker depth perception, distracting blur during night time driving.
+Can test drive this first with contact lenses.
+
+toric lens - for astigmatism which causes blur across all vision distances. If not included then the result of cataract surgey is likely to be disappointing. Does require precise rotational positioning though.
+
+drive after dark? - often
+daily close work routine? - 
+eye health conditions - dry eye (managed by drops), blocked oil glands
+corrective glasses? - yes happy with them
+how adaptable is vision - can you cope with multifocal
+which lens would you choose if you had my condition?
+
+normal reading distance 40cm? Computer monitors are 70cm away (but could be closer if required)
+
+during the surgery, the capsule has its front removed? In the weeks following surgey, the rest of the capsule closes around the new lens
+
+
+1. How many surgeries do you perform each year? +
+>= 600
+1. how many involve premium lenses? +
++= 60%
+1. What is the plan if I'm not happy with the lens? (measurement errors ~30%) +
+
+
+=== Implant power selection
+Measured either with ultrasound or laser biometer.
+
+Use more than one biometer?
+
+== Cataract Surgey
+
+=== Post Operative Experience
+link:https://www.youtube.com/watch?v=GhkYzzjLg3w[]
+
+* eye drops; steroid, antibiotic, analgesic, artificial tears
+* depth perception a little off; stairs, kerbs, etc. Pop out lens from eye
+* dryness, irritation, redness, foreign body sensation for a few weeks
+* first few days; avoid heavy lifting, bending over
+* 2-4 weeks; no strenuous activity
+* subconjunctival haemorrhage possible; days/weeks healing.
+* brain needs to adapt to new colours, focussing etc for 4 weeks
+* 1 month - swelling, inflammation should have all settled
+from halos, glare, dry eyes, light sensi, blue, glare, halos
+* sudden drop-offs; acuity, extreme blur. Some variation expected, but sudden drops aren't. 
+* link:https://www.youtube.com/watch?v=zN2SLo8zT1g[secondary cataract] - posterior capsular opacification;  20-50% occurance - quite common. +
+Fixed by laser to make a hole in the back of the capsule.
+
+
+
