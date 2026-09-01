@@ -1,5 +1,5 @@
 :toc: left
-:toclevels: 3
+:toclevels: 5
 :toc-title: Contents
 
 = Street Photography
@@ -14,7 +14,15 @@ V0.1, May-2022
 
 From Brian Lloyd Duckett and others
 
-== Street Photography Projects
+== Photographers
+
+== Books
+
+=== Fred Herzog
+* Modern Colour
+* Black and White
+
+== Projects
 
 * Venetian people?
 * Light & Shadows

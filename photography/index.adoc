@@ -58,6 +58,15 @@ shadows
 * Daido Moriyama
 * Robert Frank and his seminal work “The Americans"
 
+== Locations
+* link:locations.html[main locations page]
+* see also link:brian-lloyd-duckett.html[Brian Lloyd Duckett's suggestions]
+
+
+
+== Brian Lloyd Duckett
+A link:brian-lloyd-duckett.html[page] of lists of locations and books suggested by his podcasts
+
 == Genres
 
 * link:projects-and-essays.html[Projects & Photo Essays]
@@ -114,8 +123,7 @@ shadows
 * link:x100v.html[Fuji X100V]
 * link:fujifilm-film-simulations.html[File Simulations/Recipes]
 
-== Miscellaneous
-* link:locations.html[locations]
+
 
 == Composition
 
