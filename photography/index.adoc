@@ -57,6 +57,7 @@ shadows
 * William Klein
 * Daido Moriyama
 * Robert Frank and his seminal work “The Americans"
+* "Shoreditch Wildlife" by Dougie Wallace
 
 == Locations
 * link:locations.html[main locations page]
