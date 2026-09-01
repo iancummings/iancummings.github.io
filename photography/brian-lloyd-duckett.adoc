@@ -10,6 +10,8 @@ V0.1, Sep-2026
 :Date: Sep 2026
 :Revision: V0.1
 
+:numbered:
+
 == Locations
 
 === Shoreditch (#15)
