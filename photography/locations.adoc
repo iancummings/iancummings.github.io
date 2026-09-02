@@ -10,22 +10,51 @@ V0.1, May-2017
 :Date: May 2017
 :Revision: V0.1
 
+:numbered:
 
 
-== Locations
+=== London
+
+* See link:brian-lloyd-duckett.html[Brian Lloyd Dickett] page
+
+* The link:the-photographers-guide-to-london.pdf[London Photography Guide] by Corey Huges
+
+* Tid Brightly's curvy Underground stairway is at *Exit 10 Charing Cross Tube, Trafalgar Square exit.*
+
+=== Street
+==== Sunny
+==== Rainy
+* evening
+** Oxford Circus +
+stand on central reservation and get buses going past +
+illuminated signs in reflection of wet paving slabs +
+include people walking in umbrellas +
+** west end +
+standing between georgian pillars looking down road
+
+
+** 
+
+
+
+
+
+== Miscellaneous
+
+
 *  Afon Hepste Four Waterfalls walk
 * Whiteford Lighthouse (Swansea; drive)
 
-=== Sunflowers (September)
+== Sunflowers (September)
 https://w3w.co/cages.paint.stable
 
 image::images/sunflowers-map.jpg[map]
 
-=== Poppies
+== Poppies
 inkpen road
 
 
-=== Abandoned Engineering
+== Abandoned Engineering
 Leaving Old Thornford Rd. car park (top of Crookham Hill) about 5.30.  Head along Crookham Rd (through woods) to the Park Home site then North past the location of WW2 prisoner of war camp to the mystery USAAF site- prob just over a mile. No sunset shots just some abandoned engineering - which is on Private property!
 
 
