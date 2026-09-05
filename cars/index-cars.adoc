@@ -32,6 +32,14 @@ link:https://www.boschwiperblades.com/xc/en-gb/basic-page.html/-/en-gb/478dafb54
 
 Front: Michelin Cross Climate2, Tyrebarn £130 each @ 18513, 19th Nov 2025
 
+Pressures from actual vehicle sticker:
+|===
+| | Front | Rear | spare (185/65 R15)
+
+| Normal | 2.5 / 36| 2.5 / 36 | 2.5 / 36
+| Laden |2.7 / 39 | 3.4 / 49 |2.7 / 49
+|===
+
 === Dates
 * Registered: 9 March 2023
 * MOT due: 8 March 2026
@@ -64,7 +72,8 @@ This will display when the next one is due.
 * Gross weight 1810kg
 
 === Tyres
-215/45 ZR 17 (91Y), spare T125/60 R18
+215/45 ZR 17 (91Y), spare T125/60 R18 +
+Michelin Pilot Sport 5
 
 Pressures from actual vehicle sticker:
 |===

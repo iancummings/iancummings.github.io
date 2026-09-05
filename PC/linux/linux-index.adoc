@@ -126,3 +126,26 @@ function set-title() {
 
 * free heap space: 
 `$ free -h`
+
+== Troubleshooting
+
+=== Low disk space
+
+=== /usr/lib/modules
+from link:https://serverfault.com/questions/1098556/how-to-cleanup-usr-lib-modules-and-usr-lib-x86-64-linux-gnu[server fault website]
+
+NOTE: see also https://forums.linuxmint.com/viewtopic.php?t=442481
+
+Folders taking up loads of space?
+
+[source,bash]
+----
+$ du -h -x --max-depth=1 /usr/lib | sort -hr | head -n 10
+----
+
+then cleaunp the `/usr/lib/modules` folder 
+
+[source,bash]
+----
+sudo apt remove $(dpkg-query --show 'linux-modules-*' | cut -f1 | grep -v $ "$(uname -r)")
+----
