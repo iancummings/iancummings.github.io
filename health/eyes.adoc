@@ -27,8 +27,8 @@ One instance of posterior synechia (sin-ek-ke-a) early on - 1997?
 * Sat 20-Jan-2016 - minor
 * Wed 7-sep-2016 - minor
 
-* 2020 - blepharitis - warm eye mask prescribed - resolved
-* currently hylo forte drops 2-3 times/day due to "rubbish" tear film.
+* 2020 - blepharitis - warm eye mask prescribed to unblock tear ducts - resolved
+* currently Hylo Forte drops 2-3 times/day due to "rubbish" tear film.
 
 
 
@@ -105,26 +105,26 @@ no focus closer than 1m
 multifocal/trifocal - distance at top, central circle intermediate, bottom near vision
 contrast loss, night driving halos, glare risk. Also requires precise positioning, centration and for astigmatism the rotation matters too - doesn't sound good to me.
 
-EDOF - like fresnel lenses? very small risk of glare, halos or starburst (puresee). Distance and near vision - need readers for close work.
+EDOF - like Fresnel lenses? very small risk of glare, halos or starburst (puresee). Distance and near vision - need readers for close work.
 Slight loss of contrast for beam shaping lenses (20%), loss of light for pinhole versions. Diffractive produces halo/glare.
 can use slightly different prescriptions to give a slightly wider range.
 focus down to 60cm?
 
-monovision - two monofocal lenses of different focla lengths; one eye near, one eye far. less halo risk, but some patients cannot adjust well and report weaker depth perception, distracting blur during night time driving.
+monovision - two monofocal lenses of different focal lengths; one eye near, one eye far. less halo risk, but some patients cannot adjust well and report weaker depth perception, distracting blur during night time driving.
 Can test drive this first with contact lenses.
 
 toric lens - for astigmatism which causes blur across all vision distances. If not included then the result of cataract surgey is likely to be disappointing. Does require precise rotational positioning though.
 
-drive after dark? - often
-daily close work routine? - 
-eye health conditions - dry eye (managed by drops), blocked oil glands
-corrective glasses? - yes happy with them
-how adaptable is vision - can you cope with multifocal
-which lens would you choose if you had my condition?
+drive after dark? - often +
+daily close work routine? - + 
+eye health conditions - dry eye (managed by drops), blocked oil glands +
+corrective glasses? - yes happy with them +
+how adaptable is vision - can you cope with multifocal +
+which lens would you choose if you had my condition? +
 
 normal reading distance 40cm? Computer monitors are 70cm away (but could be closer if required)
 
-during the surgery, the capsule has its front removed? In the weeks following surgey, the rest of the capsule closes around the new lens
+during the surgery, the capsule has its front removed? In the weeks following surgery, the rest of the capsule closes around the new lens
 
 
 1. How many surgeries do you perform each year? +
@@ -139,7 +139,7 @@ Measured either with ultrasound or laser biometer.
 
 Use more than one biometer?
 
-== Cataract Surgey
+== Cataract Surgery
 
 === Post Operative Experience
 link:https://www.youtube.com/watch?v=GhkYzzjLg3w[]
@@ -157,5 +157,41 @@ from halos, glare, dry eyes, light sensi, blue, glare, halos
 * link:https://www.youtube.com/watch?v=zN2SLo8zT1g[secondary cataract] - posterior capsular opacification;  20-50% occurance - quite common. +
 Fixed by laser to make a hole in the back of the capsule.
 
+* Any action that produces the Valsalva manuever (increasing the thoracic pressure such as bearing down when moving your bowels) will increase your intraocular pressure - which is definitely a big no-no immediately after surgery. see more footnote:[How It Works (The Four Phases)Phase 1 (Strain Start): Pressure jumps in the chest, squeezing the aorta and causing a brief rise in blood pressure.Phase 2 (Sustained Strain): Blood flow returning to the heart drops because high chest pressure blocks veins. Blood pressure falls, and the heart rate speeds up to compensate.Phase 3 (Release): Pressure in the chest drops when breathing resumes, causing a short dip in blood pressure.Phase 4 (Recovery): Blood rushes back into the heart, causing blood pressure to briefly spike above normal before slowing the heart rate back to baseline.Common Causes and UsesEveryday activities: Occurs naturally during heavy weightlifting, coughing, or straining during a bowel movement.Medical treatments: Doctors use a controlled Valsalva Maneuver to help reset abnormal rapid heart rhythms like supraventricular tachycardia (SVT).Equalizing pressure: Used by divers or flyers to pop their ears and balance middle ear pressure.]
 
+.How It Works
+[%collapsible]
+====
+(The Four Phases)
+ 
+Phase 1 (Strain Start): Pressure jumps in the chest, squeezing the aorta and causing a brief rise in blood pressure.
+ 
+Phase 2 (Sustained Strain): Blood flow returning to the heart drops because high chest pressure blocks veins. Blood pressure falls, and the heart rate speeds up to compensate.
+ 
+Phase 3 (Release): Pressure in the chest drops when breathing resumes, causing a short dip in blood pressure.
+ 
+Phase 4 (Recovery): Blood rushes back into the heart, causing blood pressure to briefly spike above normal before slowing the heart rate back to baseline.
+ 
+Common Causes and UsesEveryday activities: Occurs naturally during heavy weightlifting, coughing, or straining during a bowel movement.Medical treatments: Doctors use a controlled Valsalva Maneuver to help reset abnormal rapid heart rhythms like supraventricular tachycardia (SVT).Equalizing pressure: Used by divers or flyers to pop their ears and balance middle ear pressure.
+====
 
+* AI Overview +
+_How soon after cataract surgery can I do strenuous exercise?_ +
+
+----
+For most people, it is best to wait 3 to 4 weeks before doing heavy lifting or strenuous exercise after cataract surgery.
+
+Exercise Recovery Timeline
+
+    • Day 1: You can do light activities like short, gentle walks. Avoid raising your heart rate, bending over, or lifting things.
+
+    • Week 1: You can do slow stretching (without bending too far forward) and light indoor movement.
+
+    • Weeks 1 to 2: You can try light gym work, golf, or tennis. Wait 2 weeks for yoga or Pilates movements that require bending down.
+
+    • Weeks 3 to 4: You can slowly return to more strenuous exercise and heavy lifting, provided your doctor agrees.
+
+    • Weeks 4 to 6: You can usually return to swimming (with goggles), running, and heavy weightlifting after final clearance from your eye surgeon. [1, 2, 3, 4]
+
+Strenuous activity raises the pressure inside your eye. This extra pressure can harm the healing incision or shift the new lens.
+----

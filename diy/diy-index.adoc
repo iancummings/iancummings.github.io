@@ -1,5 +1,6 @@
 :toc: left
-:toclevels: 3
+:toclevels: 5
+
 :toc-title: Contents
 :sectnums:
 
@@ -45,15 +46,11 @@ link:https://youtu.be/TQ13gug7aQ4[Oversize holes]
 
 === Screws
 
+//[%collapsible]
 
-.This ends up at `setupAudioMonitoring()`
-[%collapsible]
-====
 ----
 Metric Size mm Approx.                  Inch Equivalent.
 3.0 x 12                                   4 x 1/2
-----
-====
 
 
 
@@ -116,7 +113,7 @@ Metric Size mm Approx.                  Inch Equivalent.
 6.0 x 100                                 12 x 4
 ----
 
-====
+
 
 * silver screws 
 * 10gauge = 5mm x 40mm 2.5inch
@@ -127,3 +124,10 @@ Metric Size mm Approx.                  Inch Equivalent.
 * Fischer DuoPower - use 8 x 40, 6 x 30 are too small for normal 12mm plasterboard. +
 drill 8mm, screw 4.5-6mm or 8-10 length 45mm / 1¾
 * Fischer UX - no good
+* new self-tapping screw/plug: https://www.tlc-direct.co.uk/Manufacturers/Fischer/Screws_Nuts_and_Bolts/index.html?show-video
+
+== uPVC Doors
+
+=== Adjusting
+
+A link:https://www.youtube.com/watch?v=Pcw0fz8FWFE[youtube video]
