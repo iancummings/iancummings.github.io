@@ -125,6 +125,11 @@ Taken from https://www.nigella.com/recipes +
 
 ** link:https://cookingonabootstrap.com/2020/09/23/cheesy-tuna-courgette-mushroom-gratin-65p/[Cheesy Tuna, Courgette & Mushroom Gratin]
 
+* Brown rice +
+  4 mins full power +
+  25 mins defrost
+  3 mins stand
+
 == Hello Fresh
 
 * link:HelloFresh001.pdf[1]
