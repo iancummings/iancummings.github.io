@@ -9,6 +9,7 @@
 image::parkrun.png[]
 
 = Workouts
+* link:meisaysmove.html[Mei Says Move]
 
 * link:daily.html[Daily]
 * link:rb.html[Resistant bands]
