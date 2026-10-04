@@ -1,17 +1,11 @@
 :toc: left
 :toclevels: 3
 :toc-title: Contents
-:sectnums:
+//:sectnums:
 
 :imagesdir: ../images
 
 = Mei Says Move
-
-== Full Body
-See link:LM14-FULL-BODY-WORKOUT-Intermediate.pdf[here]
-
-== Lower Body
-See link:LOWER-BODY-WORKOUT.pdf[here]
 
 == Shoulders
 *3 sets of:*
@@ -25,14 +19,14 @@ See link:LOWER-BODY-WORKOUT.pdf[here]
 === Shorter
 Only got 10 mins to train shoulders? 
 
-Here’s how I make every second count.
+Here’s how I make every second count: link:https://www.instagram.com/reels/DUpf4L4CJoQ/[video]
 
-✅ 10 slow, controlled external rotations (warm-up) +
-✅ 8 Front-to-lateral raises +
-✅ 10 Iso-hold alternating front raises +
-✅ 10 Curl-to-press +
-✅ 10 Reverse flys +
-✅ 10 Alternating overhead presses +
+* 10 slow, controlled external rotations (warm-up, see below) (3kg) +
+* 8 Front-to-lateral raises  (4kg) +
+* 10 Iso-hold alternating front raises  (3kg)  +
+* 10 Curl-to-press  (5kg)  +
+* 10 Reverse flys (3kg)  +
+* 10 Alternating overhead presses (5kg)  +
 
 
 1–2 min rest, then repeat for 3 rounds if you’re intermediate.
@@ -42,6 +36,13 @@ Here’s how I make every second count.
 Minimal kit. Maximum time-efficiency. 
 
 You’ll hit all 3 heads of the shoulder and finish with a set of sculpted arms.
+
+==== Shoulder External Rotations
+[cols=">a,<a", frame=none, grid=none]
+|===
+| image::shoulder-external-rotations-1.png[start,300,300]
+| image::shoulder-external-rotations-2.png[start,300,300]
+|===
 
 
 === Short

@@ -117,7 +117,13 @@ Taken from https://www.nigella.com/recipes +
 * link:https://www.nigella.com/recipes/chicken-teriyaki[Chicken Teriyaki]
 * link:https://www.nigella.com/recipes/sake-steak-and-rice[Sake Steak & Rice]
 
+== Spices
 
+=== (Mild) Curry Powder
+* from kedgeree recipe
+** equal amounts of ginger, tumeric, cumin, coriander, garam masala. For a 4 person dish use 1/2 tsp, for a 2 person dish maybe 1/4 tsp.
+
+Maybe mustard seeds (quantity parity or maybe slightly less with other spices) or chilli flakes (at half quantity)
 
 === General
 
