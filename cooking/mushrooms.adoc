@@ -1,0 +1,39 @@
+:toc: left
+:toclevels: 3
+:toc-title: Contents
+:sectnums:
+
+:imagesdir: ../images
+
+= Cooking Mushrooms
+
+from link:https://www.youtube.com/watch?v=6Aa3aFccue8[YouTube]
+
+== Dos & Donts
+* don't soak in water before cooking (why would you?) +
+ just wash, and then dry with paper towel
+* don't cut too small +
+decent size mushroom should provide 4 slices
+* don't add oil in at the start of the cooking +
+place slices in pan, add little (10ml) water, cook over *high heat*
+* don't add oil when there's still moisture in the pan (the pan won't get hot enough) +
+only add oil when all moisture is gone and pan starting to show brown bits and sound has gone from simmering to sizzling; then add smallish amount of olive oil and turn down to **medium-high**.
+* don't keep moving the mushrooms around they spend too little time in contact with pan +
+spread them out and leave for a while (this develops deep browning and rich savoury aroma). +
+once they're browned, flip them to the other side.
+
+NOTE: we separate the moisture release stage from the browning stage
+
+
+== Dos
+* once browned, add a little salt
+* turn heat to *medium low* and and push away to one side of pan
+* add butter knob and sliced garlic to other side and let melt. +
+doing this after the mushrooms have browned prevents burning butter & garlic
+* once butter/garlic mix is fragrant, toss to coat all the mushrooms
+* (maybe) add small amount (5g) of soy sauce to side of pan to bring out its savoury aroma
+* let it sizzle briefly, then toss to coat everything
+* once coated, *turn off the heat*
+* serve just mushrooms, with maybe a bit of lemon and black pepper.
+* the outside is browned, the insidee still juicy
+
