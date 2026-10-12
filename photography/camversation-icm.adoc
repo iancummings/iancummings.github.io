@@ -179,6 +179,11 @@ Try lots of shapes for the movement, bending and the flattening, etc
 ==== speed
 === flow
 
+David Epstein - "inside the box" book
+
+TIP: start moving the camera _before_ you start the exposure - makes it smoother
+
+focus on something before you start, it does make a difference
 
 == sdf
 
