@@ -13,6 +13,10 @@
 #street +
 #streetsnappers +
 #streetsnapperscollective +
+#streetphotography +
+#fujifilmxseries +
+#fujifilmphotography +
+#fujifilmx100 +
 
 == Picture sizes
 

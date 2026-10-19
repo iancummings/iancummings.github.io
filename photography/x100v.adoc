@@ -34,6 +34,9 @@ Menu, setup, Dial/Dial setting, Focus Lever Setting
 Menu, Shooting (camera icon), ISO Auto Settings
 1. Back Button Focus +
 Menu, Setup, Button/Dial, FN setting, AEL AFL, "AF-On"
+1. Focus Peaking +
+Go to the *Shooting* Menu (camera icon) and select **AF/MF SETTING**. +
+Scroll down to MF ASSIST and select FOCUS PEAK HIGHLIGHT.
 1. "Boost" Mode +
 Menu, setup, Power Management, Performance
 

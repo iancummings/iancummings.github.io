@@ -144,7 +144,7 @@ See link:camversation.html[here]
 * if no living thing, then something to give the image a sense of scale
 * check all four corners!
 * balance weight & light
-* link:gestalt/gestalt-theory.html****[Gestalt Theory]
+* link:gestalt/gestalt-theory.html[Gestalt Theory]
 
 == Shutter speeds
 * 1/focal length * crop factor
