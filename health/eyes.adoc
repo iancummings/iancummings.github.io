@@ -338,3 +338,119 @@ In the weeks after surgery, or until you've had your follow up appointment, make
 https://www.gov.uk/guidance/visual-disorders-assessing-fitness-to-drive#minimum-eyesight-standards--all-drivers
 
 You should only drive again when you are free of pain and can do an emergency stop comfortably. Check with your insurance company to make sure you are covered to start driving again. They might refuse to meet a claim if they feel you have driven too soon.
+
+===== Colour difference between "old" and "new" eyes
+Here's a very subjective approximation of the colour difference between my old left eye lends and the new right eye lens - link:colour-change.html[comparison]
+
+=== Recovery Summary
+==== Dos
+* antibiotic drops; 2 weeks
+* steroid drops; 4 weeks (week1:8x, week2:6x, weeks3&4:4x)
+* wear eye shield all of day 1, then each night for a week
+* wear eye shield or glasses if going outside for first week
+* advise wiping your face with water rather than splashing water onto your face for the first 2 weeks.
+
+==== Don'ts
+* bend down; head below heart
+* rub, press, poke eye
+* Drive until optician/doctor says ok, you are free of pain, and can do an emergency stop comfortably
+* get eye iritated by soap, cooking, etc +
+* wear goggles in shower for 2-3 weeks?
+* strenuous exercise
+* lift anything heavier than about 6kg.
+* exert so that pressure in chest cavity increases (this will increase blood pressure in eye)
+* Strenuous activity raises the pressure inside your eye. This extra pressure can harm the healing incision or shift the new lens.
+* sex/masturbation for 2 weeks
+* do any gardening for at least 4 weeks
+* do any contact sport for at least 4 weeks
+* 
+
+==== General
+* dryness, irritation, redness, foreign body sensation for a few weeks
+* brain needs to adapt to new colours, focussing etc for 4 weeks
+* no flu jabs either 3 weeks before or 3 weeks after surgery
+* Prof. MacLaren:
+** 3 weeks to establish where near point is
+** 2 weeks off manual work
+** 1 week before doing _anything_ energetic
+** 1 week at least off work, can return to desk job after 1 week.
+** Lens doesn't stick until the second week, singing earlier is fine, but any bang to the head might cause issues.
+
+==== Day 1
+* vision blurry due to dilating drops, possibly sore once local anaesthetic wears off.
+* You can do light activities like short, gentle walks. Avoid raising your heart rate, bending over, or lifting things
+* take it easy and rest for the first two or three days following the operation.
+
+==== Day 2
+Vision improves but pupil may still be dilated until day 3
+
+==== Week 1
+You can do slow stretching (without bending too far forward) and light indoor movement.
+
+==== Week 2
+* You can try light exercise but wait 2 weeks for yoga or Pilates movements that require bending down.
+* don't have to wear eye shield at night.
+
+==== Week 3
+* lens should now be stuck in place
+* can bend down
+* You can slowly return to more strenuous exercise and heavy lifting, provided your doctor agrees.
+* stop antibiotic drops
+* don't have to wear goggles in shower
+* naughtiness allowed
+* vision should be stable enough to work out if your vision matches the standard for driving and can therefore drive. Anything but monofocal lenses will probably be limited to daytime driving for now because temporary halos, starbursts, or headlight glare around bright lights are very common while your brain adapts to the lens optics. This can be until the end of week 4
+
+==== Week 4
+* You can usually return to swimming (with goggles), running, and heavy weightlifting after final clearance from your eye surgeon.
+* near point of focus should have settled (consider what to do about driving)
+
+==== Week 5
+* stop steroid eye drops
+* can start gardening, but be careful with infections
+* night-time driving?
+
+
+==== Week 6
+* eye wound _may_ be completely healed, but wait until week 8 to be completely sure.
+
+==== week 8
+* eye would should be completely healed
+* can get new prescription glasses
+
+==== Driving
+===== AI:
+
+Legal Driving Standards (UK)
+
+To drive legally, you must meet the GOV.UK Driving Eyesight Rules for Group 1 (car and motorcycle) licences:
+
+* Number Plate Test. You must be able to read a standard car number plate from 20 metres away in good daylight, with both eyes open.
+* Visual Acuity. Your vision must be at least 6/12 on the Snellen scale (using glasses or contact lenses if you normally wear them to drive).
+* Surgeon Clearance. Many clinics recommend waiting until your 1- or 2-week post-operative review so your specialist can formally confirm your vision meets the legal threshold.
+
+===== From gov website:
+Standards of vision for driving
+You must be able to read a number plate from 20 metres away (about the length of 5 parked cars). You can wear your glasses or contact lenses if you use them for driving.
+
+You must also meet the minimum eyesight standard for driving by having a visual acuity of at least decimal 0.5 (6/12) measured on the Snellen scale (with glasses or contact lenses, if necessary) using both eyes together or, if you have sight in one eye only, in that eye.
+
+=== Contra-indictions
+==== How easy is it to dislodge a new lens after cataract surgery?
+AI Overview
+Dislodging a new intraocular lens (IOL) after cataract surgery is generally uncommon, occurring in roughly 0.05% to 3% of patients, though the risk is higher (about 0.2% to 2.8%) during the first week or two if support structures are weak or compromised. 
+
+How and Why It Happens
+The Capsular Bag: During surgery, the artificial lens is placed inside a thin membrane called the capsular bag. Over time, this bag naturally fuses and locks the lens into place. 
+
+The American Society of Retina Specialists
+Early Dislodgement (Days to Weeks): In the immediate postoperative period, a lens can shift if the capsular bag was torn during surgery, if there is a haptic (side-loop) defect, or due to vigorous eye rubbing, minor trauma, or rapid eye movements. 
+
+Late Dislodgement (Months to Years): Most lens displacements happen long-term as the tiny fibers (zonules) holding the capsular bag gradually weaken or stretch due to aging, trauma, or conditions like pseudoexfoliation syndrome. 
+
+Warning Signs
+If a lens shifts or dislodges, you may notice:
+Sudden, painless blurry or distorted vision
+Double vision in one eye
+Increased glare, halos, or seeing a sharp edge/shadow in your field of view 
+
+Shane Retina
