@@ -1,2 +1,8 @@
 User-agent: *
 Disallow: /
+
+user-agent: Google-Extended
+disallow: /
+
+User-Agent: __usage_ai-training
+Disallow: /
